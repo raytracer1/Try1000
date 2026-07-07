@@ -420,6 +420,255 @@ rule-based evaluation instead of LLM-generated code. No sandbox needed.
 ]
 ```
 
+### Policy Interface (Swappable AI Backend)
+
+The decision-making layer is abstracted behind a `Policy` interface. The engine's Phase 2 calls `policy.decide()` — it does not know or care whether the policy is rule-based or neural. This is the **primary extension point** for upgrading from Level 1 (rule-based) to Level 2 (neural network).
+
+```python
+from abc import ABC, abstractmethod
+from dataclasses import dataclass
+from typing import Protocol
+
+# ─── Observation: what the policy receives ───
+
+@dataclass
+class Observation:
+    """Flattened feature vector for a single player at a single tick.
+    Built from game_state + player_state + history at Phase 1 snapshot time."""
+
+    # Ball features (5)
+    ball_x: float
+    ball_y: float
+    ball_distance: float           # normalized to [0, 1]
+    ball_possession_team: int      # -1=away, 0=none, 1=home (relative to this player)
+    has_ball: int                  # 0 or 1
+
+    # Goal features (4)
+    distance_to_opponent_goal: float
+    angle_to_opponent_goal: float  # radians, 0 = straight on
+    distance_to_own_goal: float
+    angle_to_own_goal: float
+
+    # Nearest teammate features (3)
+    nearest_teammate_distance: float
+    nearest_teammate_angle: float
+    nearest_teammate_role: int     # one-hot encoded role
+
+    # Nearest opponent features (3)
+    nearest_opponent_distance: float
+    nearest_opponent_angle: float
+    pressure_level: float          # count of opponents within 5m, normalized
+
+    # Spatial features (2)
+    space_ahead: float             # open space in facing direction, normalized
+    distance_to_touchline: float   # min distance to either sideline
+
+    # Self features (11)
+    pace: float                    # all attributes normalized to [0, 1]
+    shooting: float
+    passing: float
+    dribbling: float
+    defending: float
+    physicality: float
+    stamina: float
+    awareness: float
+    composure: float
+    role: int                      # one-hot encoded
+    health: float
+
+    # Match context (5)
+    score_diff: int                # positive = winning, negative = losing
+    match_time_ratio: float        # 0.0 to 1.0
+    half: int                      # 1 or 2
+    phase: int                     # one-hot: KICKOFF, BUILD_UP, ATTACK, etc.
+    possession_phase: int          # -1=out of possession, 0=contested, 1=in possession
+
+    # History features (N recent actions, encoded)
+    history_action_types: list[int]    # last 5 action type IDs
+    history_success_flags: list[int]   # last 5 success/fail flags
+
+    # Tactical context (6) — the team's tactical parameters
+    pressing_level: float          # normalized [0, 1]
+    defensive_line: float
+    attacking_width: float
+    passing_style: int             # one-hot: short, mixed, direct
+    build_up_style: int            # one-hot: slow, balanced, fast
+    tempo: float                   # normalized [0, 1]
+
+    def to_vector(self) -> list[float]:
+        """Flatten to a fixed-length vector for neural network input."""
+        ...
+
+
+# ─── Action: what the policy returns ───
+
+@dataclass
+class ActionOutput:
+    """Discrete action selection. Same shape regardless of policy implementation."""
+    action_type: int           # 0=Hold, 1=Move, 2=Pass, 3=Shoot, 4=Cross,
+                               # 5=Dribble, 6=Tackle, 7=Intercept
+    dx: float                  # 0.0–1.0, only used by Move/Dribble
+    dy: float                  # 0.0–1.0
+    speed: float               # 0.0–1.0, only used by Move
+    power: float               # 1.0–20.0, only used by Pass/Shoot/Cross
+    angle: float               # degrees, only used by Shoot
+    target_x: float            # 0.0–1.0, only used by Pass/Cross
+    target_y: float            # 0.0–1.0
+    target_player_id: int      # only used by Tackle
+
+
+# ─── The Policy Interface ───
+
+class Policy(ABC):
+    """Abstract policy for player decision-making.
+
+    This is the boundary between the engine (which orchestrates ticks)
+    and the AI (which decides what each player does).
+    """
+
+    @abstractmethod
+    def decide(self, obs: Observation) -> ActionOutput:
+        """Given an observation, return an action.
+
+        Called once per player per tick during Phase 2.
+        Must return within TIME_BUDGET_MS (currently 5ms for rule-based,
+        may be relaxed for neural inference with batching).
+        """
+        ...
+
+    @abstractmethod
+    def name(self) -> str:
+        """Human-readable identifier for logging/debugging."""
+        ...
+
+
+# ─── Level 1: Rule-Based Policy (current MVP) ───
+
+class RuleBasedPolicy(Policy):
+    """Decision via perception → evaluation → max-utility.
+
+    No learning. No training. Pure heuristic weights.
+    """
+
+    def __init__(self, team_tactic: dict):
+        self.tactic = team_tactic
+        self.perception = Perception()
+        self.evaluator = Evaluator()
+
+    def decide(self, obs: Observation) -> ActionOutput:
+        # 1. Perception: enrich observation with computed features
+        percept = self.perception.process(obs)
+
+        # 2. Evaluation: score each possible action
+        scores = {}
+        for action_type in [0, 1, 2, 3, 4, 5, 6]:  # Hold..Tackle
+            base   = ROLE_WEIGHTS[obs.role][action_type]
+            tactic = self.evaluator.tactic_modifier(action_type, self.tactic)
+            situ   = self.evaluator.situation_modifier(action_type, percept, obs)
+            prob   = self.evaluator.success_probability(action_type, percept, obs)
+            scores[action_type] = base * tactic * situ * prob
+
+        # 3. Pick best, convert to ActionOutput
+        best = argmax(scores)
+        return self._build_action(best, percept, obs)
+
+    def name(self) -> str:
+        return "RuleBased-v1"
+
+
+# ─── Level 2: Neural Policy Agent (future) ───
+
+class NeuralPolicy(Policy):
+    """Decision via Observation → Policy Network → Action.
+
+    Same interface, completely different implementation.
+    Trained via behavioral cloning (from rule-based traces)
+    or reinforcement learning (self-play with match outcomes as reward).
+    """
+
+    def __init__(self, model_path: str, team_tactic: dict):
+        self.model = self._load_model(model_path)   # e.g. ONNX, torch.jit
+        self._scaler = self._load_scaler(model_path) # input normalization
+        self.tactic = team_tactic
+
+    def decide(self, obs: Observation) -> ActionOutput:
+        # 1. Observation → vector
+        vec = obs.to_vector()
+        vec = self._scaler.transform(vec)
+
+        # 2. Forward pass
+        logits = self.model.forward(vec)            # shape: (8,) — one logit per action
+        probs = softmax(logits)
+
+        # 3. Sample or argmax
+        action_idx = sample(probs, temperature=0.1) # or argmax for deterministic
+
+        # 4. Build action parameters (auxiliary heads)
+        params = self.model.parameter_head(vec, action_idx)  # dx,dy,power,angle,...
+
+        return ActionOutput(action_type=action_idx, **params)
+
+    def name(self) -> str:
+        return f"Neural-{self.model.version}"
+
+
+# ─── How the engine uses Policy ───
+
+class MatchEngine:
+    def __init__(self, home_policy: Policy, away_policy: Policy):
+        self.home_policy = home_policy
+        self.away_policy = away_policy
+
+    def _phase2_decide(self, snapshot: Snapshot):
+        """Phase 2: call decide() for each player."""
+        for player in snapshot.all_players:
+            obs = Observation.from_snapshot(snapshot, player.id)
+            policy = self.home_policy if player.team == "home" else self.away_policy
+
+            try:
+                with time_budget_ms(5):
+                    action = policy.decide(obs)
+            except TimeoutError:
+                action = ActionOutput(action_type=0)  # Hold
+
+            player.queued_action = action
+```
+
+### Policy Upgrade Path
+
+```
+Level 1 (MVP)                    Level 2 (Future)               Level 3 (Future)
+┌─────────────────┐           ┌─────────────────┐           ┌─────────────────┐
+│ RuleBasedPolicy  │           │  NeuralPolicy    │           │  Multi-Agent    │
+│                  │           │                  │           │  Coordination   │
+│ perception →     │  train    │ obs → NN →       │  add      │ shared intent   │
+│ evaluate →       │──────────▶│ action           │──────────▶│ channel between │
+│ max-utility      │  on       │                  │  comms    │ teammates       │
+│                  │  traces   │ batch 22 players │           │                 │
+│ deterministic    │           │ per tick → GPU   │           │ emergent roles  │
+└─────────────────┘           └─────────────────┘           └─────────────────┘
+
+Same interface throughout:  Policy.decide(Observation) → ActionOutput
+                             Engine never changes.
+```
+
+### Observation Space Size
+
+| Feature Group | Dims | Count |
+|--------------|------|-------|
+| Ball | 5 | 5 |
+| Goal | 4 | 4 |
+| Nearest teammate | 3 | 3 |
+| Nearest opponent | 3 | 3 |
+| Spatial | 2 | 2 |
+| Self attributes | 11 | 11 |
+| Match context | 5 | 5 |
+| History | 10 | 10 |
+| Tactical context | 6 | 6 |
+| **Total** | | **49** |
+
+49-dimensional observation vector → compact enough for fast inference (batch all 22 players through the network in one forward pass).
+
 ### 7-Phase Tick Pipeline
 
 All 7 phases read from the snapshot built at Phase 1. No phase observes side effects of later phases within the same tick.
