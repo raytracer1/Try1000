@@ -40,10 +40,10 @@ export default function TacticsEditor() {
             value={selectedTeamId}
           >
             <option value="">Create new tactic (select team)...</option>
-            {(teams || []).map((t: any) => <option key={t.id} value={t.id}>{t.name}</option>)}
+            {(Array.isArray(teams) ? teams : []).map((t: any) => <option key={t.id} value={t.id}>{t.name}</option>)}
           </select>
           <p className="text-sm text-gray-500">or</p>
-          {(tactics || []).map((t: any) => (
+          {(Array.isArray(tactics) ? tactics : []).map((t: any) => (
             <button
               key={t.id}
               className="block w-full text-left bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 hover:border-emerald-500 transition-colors"

@@ -50,7 +50,7 @@ export default function Dashboard() {
               </tr>
             </thead>
             <tbody>
-              {(jobs || []).map((job: any) => (
+              {(Array.isArray(jobs) ? jobs : []).map((job: any) => (
                 <tr key={job.id} className="border-b border-gray-800/50">
                   <td className="py-2 text-gray-300 font-mono text-xs">{job.id?.slice(0, 8)}...</td>
                   <td className="py-2">{job.match_count}</td>
