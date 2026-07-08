@@ -228,7 +228,7 @@ async function handleRequest(req, res) {
     parseBody() { if (!req.body) return {}; try { return JSON.parse(req.body); } catch { return {}; } },
     getCookie(n) { const raw = req.headers?.cookie || req.headers?.Cookie || ""; const m = raw.match(new RegExp(`${n}=([^;]+)`)); return m ? m[1] : null; },
     setCookie(n, v, o = {}) { _cookies.push([`${n}=${v}`, "HttpOnly", "Secure", "SameSite=Lax", "Path=/", `Max-Age=${o.maxAge || 86400}`].join("; ")); },
-    clearCookie(n) { _cookies.push(`${n}=; Max-Age=0`); },
+    clearCookie(n) { _cookies.push(`${n}=; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0`); },
     respond(status, data) {
       const h = { "Content-Type": "application/json; charset=utf-8" };
       if (_cookies.length) h["Set-Cookie"] = _cookies;
