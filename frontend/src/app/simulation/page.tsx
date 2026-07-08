@@ -17,8 +17,8 @@ export default function SimulationPage() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    api.getTeams().then(setTeams).catch(() => {});
-    api.getTactics().then(setTactics).catch(() => {});
+    api.getTeams().then(setTeams).catch(() => []);
+    api.getTactics().then(setTactics).catch(() => []);
   }, []);
 
   const handleRun = async () => {
@@ -42,12 +42,12 @@ export default function SimulationPage() {
           <label className="text-sm text-gray-400 block mb-2">Home Team</label>
           <select className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-200" value={homeTeamId} onChange={(e) => setHomeTeamId(e.target.value)}>
             <option value="">Select team...</option>
-            {teams.map((t: any) => <option key={t.id} value={t.id}>{t.name}</option>)}
+            {(teams || []).map((t: any) => <option key={t.id} value={t.id}>{t.name}</option>)}
           </select>
           <label className="text-sm text-gray-400 block mb-2 mt-3">Home Tactic</label>
           <select className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-200" value={homeTacticId} onChange={(e) => setHomeTacticId(e.target.value)}>
             <option value="">Select tactic...</option>
-            {tactics.map((t: any) => <option key={t.id} value={t.id}>{t.name} ({t.formation})</option>)}
+            {(tactics || []).map((t: any) => <option key={t.id} value={t.id}>{t.name} ({t.formation})</option>)}
           </select>
         </div>
 
@@ -55,12 +55,12 @@ export default function SimulationPage() {
           <label className="text-sm text-gray-400 block mb-2">Away Team</label>
           <select className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-200" value={awayTeamId} onChange={(e) => setAwayTeamId(e.target.value)}>
             <option value="">Select team...</option>
-            {teams.map((t: any) => <option key={t.id} value={t.id}>{t.name}</option>)}
+            {(teams || []).map((t: any) => <option key={t.id} value={t.id}>{t.name}</option>)}
           </select>
           <label className="text-sm text-gray-400 block mb-2 mt-3">Away Tactic</label>
           <select className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-200" value={awayTacticId} onChange={(e) => setAwayTacticId(e.target.value)}>
             <option value="">Select tactic...</option>
-            {tactics.map((t: any) => <option key={t.id} value={t.id}>{t.name} ({t.formation})</option>)}
+            {(tactics || []).map((t: any) => <option key={t.id} value={t.id}>{t.name} ({t.formation})</option>)}
           </select>
         </div>
       </div>
@@ -119,7 +119,7 @@ export default function SimulationPage() {
             ))}
           </div>
           <div className="max-h-64 overflow-y-auto">
-            {results.slice(0, 20).map((r: any) => (
+            {(results || []).slice(0, 20).map((r: any) => (
               <div key={r.match_index} className="flex justify-between py-1.5 border-b border-gray-800/50 text-sm">
                 <span className="text-gray-400">#{r.match_index + 1}</span>
                 <span className="text-gray-200">{r.home_score} — {r.away_score}</span>

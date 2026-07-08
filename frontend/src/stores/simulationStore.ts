@@ -1,4 +1,4 @@
-// Simulation store — job management and polling.
+// Simulation store
 
 import { create } from "zustand";
 import { api } from "../lib/api";
@@ -9,7 +9,6 @@ interface SimState {
   isRunning: boolean;
   results: any[];
   replayData: any | null;
-
   startSimulation: (params: any) => Promise<number>;
   pollJob: (jobId: number) => Promise<void>;
   loadJobs: () => Promise<void>;
@@ -37,34 +36,36 @@ export const useSimulationStore = create<SimState>((set, get) => ({
   pollJob: async (jobId) => {
     try {
       const job = await api.getJob(jobId);
-      set({ activeJob: job, results: job.results || [] });
-
-      if (job.status === "completed" || job.status === "failed") {
+      if (job) {
+        set({ activeJob: job, results: Array.isArray(job.results) ? job.results : [] });
+      }
+      if (job?.status === "completed" || job?.status === "failed") {
         set({ isRunning: false });
-        _pollTimer = null;
         return;
       }
-
       _pollTimer = setTimeout(() => get().pollJob(jobId), 1500);
-    } catch (e) {
-      set({ isRunning: false });
-      _pollTimer = null;
-    }
+    } catch { set({ isRunning: false }); }
   },
 
   loadJobs: async () => {
-    const jobs = await api.getJobs();
-    set({ jobs });
+    try {
+      const jobs = await api.getJobs();
+      set({ jobs: Array.isArray(jobs) ? jobs : [] });
+    } catch {}
   },
 
   loadJob: async (jobId) => {
-    const job = await api.getJob(jobId);
-    set({ activeJob: job, results: job.results || [] });
+    try {
+      const job = await api.getJob(jobId);
+      if (job) set({ activeJob: job, results: Array.isArray(job.results) ? job.results : [] });
+    } catch {}
   },
 
   loadReplay: async (jobId, matchIndex) => {
-    const data = await api.getReplay(jobId, matchIndex);
-    set({ replayData: data });
+    try {
+      const data = await api.getReplay(jobId, matchIndex);
+      set({ replayData: data });
+    } catch {}
   },
 
   cancelPolling: () => {
