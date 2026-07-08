@@ -6,7 +6,7 @@ resources:
   try1000-api:
     component: fc3
     props:
-      region: cn-hangzhou
+      region: ap-southeast-1
       functionName: try1000-api
       runtime: nodejs20
       code: .
@@ -21,6 +21,7 @@ resources:
         DATABASE_URL: ${env(DATABASE_URL)}
         TRY1000_JWT_SECRET_KEY: ${env(TRY1000_JWT_SECRET_KEY)}
         TRY1000_GOOGLE_CLIENT_ID: ${env(TRY1000_GOOGLE_CLIENT_ID)}
+        TRY1000_GOOGLE_CLIENT_SECRET: ${env(TRY1000_GOOGLE_CLIENT_SECRET)}
         SUPABASE_URL: ${env(SUPABASE_URL)}
         SUPABASE_SERVICE_KEY: ${env(SUPABASE_SERVICE_KEY)}
       triggers:

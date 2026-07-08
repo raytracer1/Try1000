@@ -9,7 +9,7 @@ interface AuthState {
   user: User | null;
   isAuthenticated: boolean;
   isLoading: boolean;
-  loginWithGoogle: (credential: string) => Promise<void>;
+  loginWithCode: (code: string) => Promise<void>;
   logout: () => Promise<void>;
   checkSession: () => Promise<void>;
 }
@@ -19,9 +19,9 @@ export const useAuthStore = create<AuthState>((set) => ({
   isAuthenticated: false,
   isLoading: true,
 
-  loginWithGoogle: async (credential) => {
-    await api.googleAuth(credential);        // sets HttpOnly cookie
-    const user = await api.getMe();           // reads cookie automatically
+  loginWithCode: async (code) => {
+    await api.googleAuth(code);
+    const user = await api.getMe();
     set({ user, isAuthenticated: true });
   },
 

@@ -19,8 +19,8 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
 
 export const api = {
   // Auth
-  googleAuth: (credential: string) =>
-    request<{ ok: boolean }>("/auth/google", { method: "POST", body: JSON.stringify({ credential }) }),
+  googleAuth: (code: string) =>
+    request<{ ok: boolean }>("/auth/google", { method: "POST", body: JSON.stringify({ code, redirect_uri: window.location.origin }) }),
   logout: () =>
     request<{ ok: boolean }>("/auth/logout", { method: "POST" }),
   getMe: () => request<{ id: number; email: string; username: string; llm_provider: string | null; llm_model: string | null; has_llm_key: boolean }>("/auth/me"),
