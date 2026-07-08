@@ -2,10 +2,10 @@
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.database import get_db
-from app.models.tactic import Tactic
-from app.schemas.tactics import TacticCreate, TacticUpdate, TacticResponse
-from app.auth.jwt_handler import get_current_user
+from server.database import get_db
+from server.models.tactic import Tactic
+from server.schemas.tactics import TacticCreate, TacticUpdate, TacticResponse
+from server.auth.jwt_handler import get_current_user
 
 router = APIRouter()
 

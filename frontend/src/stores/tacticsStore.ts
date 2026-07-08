@@ -9,13 +9,13 @@ interface TacticState {
   isDirty: boolean;
   isSaving: boolean;
 
-  newTactic: (teamId: string) => void;
-  loadTactic: (id: string) => Promise<void>;
+  newTactic: (teamId: number) => void;
+  loadTactic: (id: number) => Promise<void>;
   setFormation: (formation: string) => void;
   setParam: (key: string, value: number | string) => void;
   applyPreset: (preset: Record<string, any>) => void;
-  saveTactic: (teamId: string) => Promise<string | null>;
-  requestAnalysis: (tacticId: string) => Promise<void>;
+  saveTactic: (teamId: number) => Promise<number | null>;
+  requestAnalysis: (tacticId: number) => Promise<void>;
 }
 
 export const useTacticsStore = create<TacticState>((set, get) => ({

@@ -11,7 +11,7 @@ export default function AnalyticsPage() {
 
   useEffect(() => {
     if (!jobId) return;
-    api.getJobAnalytics(jobId).then((data) => { setAnalytics(data); setLoading(false); }).catch(() => setLoading(false));
+    api.getJobAnalytics(Number(jobId)).then((data) => { setAnalytics(data); setLoading(false); }).catch(() => setLoading(false));
   }, [jobId]);
 
   if (loading) return <div className="text-center py-16 text-gray-400">Loading analytics...</div>;

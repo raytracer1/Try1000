@@ -5,7 +5,7 @@ Supports both PostgreSQL (production) and SQLite (local dev).
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
-from app.config import settings
+from server.config import settings
 
 # SQLite needs check_same_thread=False for FastAPI's threaded access
 connect_args = {"check_same_thread": False} if settings.is_sqlite else {}
@@ -30,5 +30,5 @@ def get_db():
 
 def init_db():
     """Create all tables. Import models first to register them with Base.metadata."""
-    import app.models  # noqa: F401 — registers all tables with Base
+    import server.models  # noqa: F401 — registers all tables with Base
     Base.metadata.create_all(bind=engine)

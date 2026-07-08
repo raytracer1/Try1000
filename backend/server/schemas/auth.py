@@ -3,15 +3,8 @@
 from pydantic import BaseModel
 
 
-class RegisterRequest(BaseModel):
-    email: str
-    username: str
-    password: str
-
-
-class LoginRequest(BaseModel):
-    email: str
-    password: str
+class GoogleAuthRequest(BaseModel):
+    credential: str  # Google ID token from frontend
 
 
 class TokenResponse(BaseModel):

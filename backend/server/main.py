@@ -4,8 +4,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from contextlib import asynccontextmanager
-from app.database import init_db
-from app.api import auth, teams, tactics, simulation, analytics, agent
+from server.database import init_db
+from server.api import auth, teams, tactics, simulation, analytics, agent
 
 
 @asynccontextmanager
@@ -22,6 +22,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["Set-Cookie"],
 )
 
 # Mount routers

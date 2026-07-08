@@ -12,7 +12,7 @@ Resources:
     api:
       Type: Aliyun::Serverless::Function
       Properties:
-        Handler: app.main.handler
+        Handler: server.main.handler
         Runtime: python3.13
         CodeUri: ..
         Timeout: 60
@@ -21,6 +21,7 @@ Resources:
         EnvironmentVariables:
           DATABASE_URL: ${env(DATABASE_URL)}
           TRY1000_JWT_SECRET_KEY: ${env(TRY1000_JWT_SECRET_KEY)}
+          TRY1000_GOOGLE_CLIENT_ID: ${env(TRY1000_GOOGLE_CLIENT_ID)}
           SUPABASE_URL: ${env(SUPABASE_URL)}
           SUPABASE_SERVICE_KEY: ${env(SUPABASE_SERVICE_KEY)}
 

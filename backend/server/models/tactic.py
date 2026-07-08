@@ -2,7 +2,7 @@
 
 from datetime import datetime
 from sqlalchemy import Column, String, Integer, Float, ForeignKey, DateTime, JSON
-from app.database import Base
+from server.database import Base
 
 
 class Tactic(Base):

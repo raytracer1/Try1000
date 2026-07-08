@@ -2,11 +2,11 @@
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.database import get_db
-from app.models.tactic import Tactic
-from app.models.simulation import SimulationJob
-from app.auth.jwt_handler import get_current_user
-from app.config import settings
+from server.database import get_db
+from server.models.tactic import Tactic
+from server.models.simulation import SimulationJob
+from server.auth.jwt_handler import get_current_user
+from server.config import settings
 
 router = APIRouter()
 

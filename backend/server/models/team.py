@@ -3,7 +3,7 @@
 from datetime import datetime
 from sqlalchemy import Column, String, Integer, Float, ForeignKey, DateTime, JSON
 from sqlalchemy.orm import relationship
-from app.database import Base
+from server.database import Base
 
 
 class Team(Base):

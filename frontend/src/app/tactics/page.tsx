@@ -20,7 +20,7 @@ export default function TacticsEditor() {
   const handleSave = async () => {
     try {
       if (!selectedTeamId) { setMessage("Select a team first."); return; }
-      await saveTactic(selectedTeamId);
+      await saveTactic(Number(selectedTeamId));
       setMessage("Saved!");
       setTimeout(() => setMessage(""), 2000);
     } catch (e: any) { setMessage("Error: " + e.message); }
@@ -34,7 +34,7 @@ export default function TacticsEditor() {
         <div className="space-y-3">
           <select
             className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-200"
-            onChange={(e) => { setSelectedTeamId(e.target.value); newTactic(e.target.value); }}
+            onChange={(e) => { setSelectedTeamId(e.target.value); newTactic(Number(e.target.value)); }}
             value={selectedTeamId}
           >
             <option value="">Create new tactic (select team)...</option>

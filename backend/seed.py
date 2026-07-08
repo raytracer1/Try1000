@@ -6,13 +6,10 @@ Usage: python seed.py [--reset]
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
-from app.database import SessionLocal, init_db
-from app.models.user import User
-from app.models.team import Team, Player
-from app.models.tactic import Tactic
-from passlib.context import CryptContext
-
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+from server.database import SessionLocal, init_db
+from server.models.user import User
+from server.models.team import Team, Player
+from server.models.tactic import Tactic
 
 PLAYER_TEMPLATES = {
     "GK":  {"pace": 50, "shooting": 20, "passing": 60, "dribbling": 30, "defending": 80, "physicality": 70, "stamina": 95, "awareness": 80, "composure": 75},
@@ -44,8 +41,7 @@ def seed(reset: bool = False):
             db.query(m).delete()
         db.commit()
 
-    user = User(email="demo@try1000.io", username="demo",
-                hashed_password=pwd_context.hash("demo123"))
+    user = User(email="demo@try1000.io", username="demo")
     db.add(user); db.flush()
 
     teams = []

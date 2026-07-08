@@ -3,14 +3,14 @@
 import threading
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.database import get_db
-from app.models.simulation import SimulationJob, SimulationResult
-from app.schemas.simulation import (
+from server.database import get_db
+from server.models.simulation import SimulationJob, SimulationResult
+from server.schemas.simulation import (
     SimulateRequest, SimulateResponse, JobStatusResponse,
     JobDetailResponse, MatchResultResponse,
 )
-from app.auth.jwt_handler import get_current_user
-from app.services.simulation_service import run_simulation_job
+from server.auth.jwt_handler import get_current_user
+from server.services.simulation_service import run_simulation_job
 
 router = APIRouter()
 
@@ -56,7 +56,7 @@ def get_replay(job_id: int, match_index: int,
         SimulationResult.job_id == job_id, SimulationResult.match_index == match_index).first()
     if not result: raise HTTPException(status_code=404)
 
-    from app.services.replay_store import replay_store
+    from server.services.replay_store import replay_store
     ticks = replay_store.load(job_id, match_index)
     url = replay_store.url(f"{job_id}/{match_index:04d}.jsonl.gz") if hasattr(replay_store, "url") else ""
 

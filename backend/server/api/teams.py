@@ -2,10 +2,10 @@
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.database import get_db
-from app.models.team import Team, Player
-from app.schemas.team import TeamCreate, TeamResponse, PlayerCreate, PlayerResponse
-from app.auth.jwt_handler import get_current_user
+from server.database import get_db
+from server.models.team import Team, Player
+from server.schemas.team import TeamCreate, TeamResponse, PlayerCreate, PlayerResponse
+from server.auth.jwt_handler import get_current_user
 
 router = APIRouter()
 

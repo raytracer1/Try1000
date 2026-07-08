@@ -20,6 +20,9 @@ class Settings(BaseSettings):
     jwt_algorithm: str = "HS256"
     jwt_expire_minutes: int = 1440  # 24 hours
 
+    # Google OAuth
+    google_client_id: str = ""
+
     # LLM (optional — if not set, engine uses Level 1 rule-based)
     llm_provider: str = ""  # "anthropic" | "openai"
     llm_api_key: str = ""

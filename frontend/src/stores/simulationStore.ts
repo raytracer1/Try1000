@@ -10,11 +10,11 @@ interface SimState {
   results: any[];
   replayData: any | null;
 
-  startSimulation: (params: any) => Promise<string>;
-  pollJob: (jobId: string) => Promise<void>;
+  startSimulation: (params: any) => Promise<number>;
+  pollJob: (jobId: number) => Promise<void>;
   loadJobs: () => Promise<void>;
-  loadJob: (jobId: string) => Promise<void>;
-  loadReplay: (jobId: string, matchIndex: number) => Promise<void>;
+  loadJob: (jobId: number) => Promise<void>;
+  loadReplay: (jobId: number, matchIndex: number) => Promise<void>;
   cancelPolling: () => void;
 }
 

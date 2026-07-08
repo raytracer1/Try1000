@@ -7,16 +7,16 @@ ENGINE_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "..", "engine"
 if ENGINE_PATH not in sys.path:
     sys.path.insert(0, ENGINE_PATH)
 
-from app.services.replay_store import replay_store
+from server.services.replay_store import replay_store
 
 logger = logging.getLogger(__name__)
 
 
 def run_simulation_job(job_id: int):
     """Run a simulation job in the background."""
-    from app.database import SessionLocal
-    from app.models.simulation import SimulationJob, SimulationResult
-    from app.config import settings
+    from server.database import SessionLocal
+    from server.models.simulation import SimulationJob, SimulationResult
+    from server.config import settings
 
     db = SessionLocal()
     try:
@@ -43,7 +43,7 @@ def run_simulation_job(job_id: int):
         else:
             factory = PolicyFactory()
 
-        from app.models.tactic import Tactic
+        from server.models.tactic import Tactic
         home_tactic = db.query(Tactic).filter(Tactic.id == job.home_tactic_id).first()
         away_tactic = db.query(Tactic).filter(Tactic.id == job.away_tactic_id).first()
         home_policies = factory.create_team(_tactic_to_dict(home_tactic), "Home")
@@ -84,7 +84,7 @@ def run_simulation_job(job_id: int):
 
 
 def _load_players(db, team_id: int) -> list:
-    from app.models.team import Player as PlayerModel
+    from server.models.team import Player as PlayerModel
     from try1000_engine.physics.player import Player as EnginePlayer
     players = db.query(PlayerModel).filter(PlayerModel.team_id == team_id).all()
     result = []
