@@ -15,7 +15,8 @@ import os
 import sys
 import time
 import argparse
-from datetime import datetime
+import threading
+from concurrent.futures import ThreadPoolExecutor
 
 logger = logging.getLogger(__name__)
 
@@ -23,10 +24,13 @@ logger = logging.getLogger(__name__)
 class EngineRunner:
     """Runs on the user's machine. Picks up simulation tasks and executes them."""
 
-    def __init__(self, backend_url: str, ably_key: str = ""):
+    def __init__(self, backend_url: str, ably_key: str = "", max_workers: int = 4):
         self.backend_url = backend_url.rstrip("/")
         self.ably_key = ably_key
         self._running = False
+        self._executor = ThreadPoolExecutor(max_workers=max_workers)
+        self._active_jobs: set[int] = set()
+        self._lock = threading.Lock()
 
     def run(self, poll_interval: int = 5):
         """Main loop: poll for tasks and execute them."""
@@ -50,7 +54,7 @@ class EngineRunner:
                 data = json.loads(msg.data)
                 logger.info(f"Received: {msg.name} job={data.get('job_id')}")
                 if msg.name == "simulation_created":
-                    self._handle_job(data["job_id"])
+                    self._dispatch(data["job_id"])
 
             channel.subscribe(on_message)
             logger.info("Subscribed to Ably — waiting for tasks...")
@@ -77,7 +81,7 @@ class EngineRunner:
                 if resp.status_code == 200:
                     data = resp.json()
                     if data.get("job"):
-                        self._handle_job(data["job"])
+                        self._dispatch(data["job"]["id"])
                     else:
                         time.sleep(interval)
                 else:
@@ -85,6 +89,23 @@ class EngineRunner:
             except Exception as e:
                 logger.warning(f"Poll error: {e}")
                 time.sleep(interval)
+
+    def _dispatch(self, job_id: int):
+        """Submit job to thread pool if not already running."""
+        with self._lock:
+            if job_id in self._active_jobs:
+                return
+            self._active_jobs.add(job_id)
+
+        self._executor.submit(self._handle, job_id)
+
+    def _handle(self, job_id: int):
+        """Run a job and clean up when done."""
+        try:
+            self._handle_job(job_id)
+        finally:
+            with self._lock:
+                self._active_jobs.discard(job_id)
 
     def _handle_job(self, job: dict | int):
         """Execute a simulation job and submit results."""
@@ -244,6 +265,9 @@ def main():
     parser.add_argument("--interval", type=int,
                         default=int(os.environ.get("TRY1000_POLL_INTERVAL", "5")),
                         help="Poll interval in seconds (env: TRY1000_POLL_INTERVAL)")
+    parser.add_argument("--workers", type=int,
+                        default=int(os.environ.get("TRY1000_WORKERS", "4")),
+                        help="Max concurrent jobs (env: TRY1000_WORKERS)")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)
