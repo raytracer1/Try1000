@@ -1,9 +1,8 @@
 // API client — JWT sent via HttpOnly cookie automatically.
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
-
+// Next.js rewrites proxy /api/* → backend. No CORS, cookies work natively.
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
-  const res = await fetch(`${BASE_URL}${path}`, {
+  const res = await fetch(`/api/v1${path}`, {
     ...options,
     credentials: "include",  // sends HttpOnly cookie
     headers: {
