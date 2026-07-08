@@ -7,7 +7,7 @@ from google.auth.transport import requests as google_requests
 
 from server.database import get_db
 from server.models.user import User
-from server.schemas.auth import GoogleAuthRequest, UserResponse
+from server.schemas.auth import GoogleAuthRequest, UserResponse, LLMSettingsRequest
 from server.auth.jwt_handler import create_access_token, get_current_user, COOKIE_NAME
 from server.config import settings
 
@@ -62,4 +62,20 @@ def me(user_id: int = Depends(get_current_user), db: Session = Depends(get_db)):
     user = db.query(User).filter(User.id == user_id).first()
     if not user:
         raise HTTPException(status_code=404)
-    return UserResponse(id=user.id, email=user.email, username=user.username or "")
+    return UserResponse(id=user.id, email=user.email, username=user.username or "",
+                        llm_provider=user.llm_provider, llm_model=user.llm_model,
+                        has_llm_key=bool(user.llm_api_key))
+
+
+@router.put("/settings")
+def save_settings(req: LLMSettingsRequest,
+                  user_id: int = Depends(get_current_user),
+                  db: Session = Depends(get_db)):
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404)
+    user.llm_provider = req.llm_provider or None
+    user.llm_api_key = req.llm_api_key or None
+    user.llm_model = req.llm_model or None
+    db.commit()
+    return {"ok": True}

@@ -53,6 +53,7 @@ def engine_get_pending(_auth: bool = Depends(_engine_auth),
     """Engine fetches ALL pending jobs. Ably is just a wake-up."""
     from server.models.team import Team, Player as PlayerModel
     from server.models.tactic import Tactic
+    from server.models.user import User
 
     jobs = db.query(SimulationJob).filter(
         SimulationJob.status == "pending"
@@ -66,12 +67,21 @@ def engine_get_pending(_auth: bool = Depends(_engine_auth),
         home_tactic = db.query(Tactic).filter(Tactic.id == job.home_tactic_id).first()
         away_tactic = db.query(Tactic).filter(Tactic.id == job.away_tactic_id).first()
 
+        # User's LLM config for code generation
+        user = db.query(User).filter(User.id == job.user_id).first() if hasattr(job, 'user_id') else None
+        llm_config = {
+            "llm_provider": user.llm_provider if user else None,
+            "llm_api_key": user.llm_api_key if user else None,
+            "llm_model": user.llm_model if user else None,
+        } if user else {}
+
         result.append({
             "id": job.id, "match_count": job.match_count, "seed_base": job.seed_base,
             "home_players": _players_json(db, home),
             "away_players": _players_json(db, away),
             "home_tactic": _tactic_dict(home_tactic),
             "away_tactic": _tactic_dict(away_tactic),
+            **llm_config,
         })
 
     db.commit()

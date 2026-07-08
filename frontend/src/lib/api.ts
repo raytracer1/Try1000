@@ -23,7 +23,9 @@ export const api = {
     request<{ ok: boolean }>("/auth/google", { method: "POST", body: JSON.stringify({ credential }) }),
   logout: () =>
     request<{ ok: boolean }>("/auth/logout", { method: "POST" }),
-  getMe: () => request<{ id: number; email: string; username: string }>("/auth/me"),
+  getMe: () => request<{ id: number; email: string; username: string; llm_provider: string | null; llm_model: string | null; has_llm_key: boolean }>("/auth/me"),
+  saveLLMSettings: (data: { llm_provider: string; llm_api_key: string; llm_model: string }) =>
+    request<{ ok: boolean }>("/auth/settings", { method: "PUT", body: JSON.stringify(data) }),
 
   // Teams
   getTeams: () => request<any[]>("/teams"),

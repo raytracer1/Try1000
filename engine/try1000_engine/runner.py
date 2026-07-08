@@ -134,8 +134,19 @@ class EngineRunner:
             home_tactic = job.get("home_tactic", {})
             away_tactic = job.get("away_tactic", {})
 
-            # Policy: Level 1 (runner doesn't have LLM key)
-            factory = PolicyFactory()
+            # Policy: Level 2 if user has LLM key, else Level 1
+            llm_provider = job.get("llm_provider")
+            llm_api_key = job.get("llm_api_key")
+            llm_model = job.get("llm_model", "claude-sonnet-5")
+            if llm_provider and llm_api_key:
+                if llm_provider == "anthropic":
+                    from try1000_engine.ai.llm_generator import AnthropicClient
+                    factory = PolicyFactory(llm_client=AnthropicClient(api_key=llm_api_key, model=llm_model))
+                else:
+                    from try1000_engine.ai.llm_generator import OpenAICompatibleClient
+                    factory = PolicyFactory(llm_client=OpenAICompatibleClient(api_key=llm_api_key, model=llm_model))
+            else:
+                factory = PolicyFactory()
             home_policies = factory.create_team(home_tactic or {}, "Home")
             away_policies = factory.create_team(away_tactic or {}, "Away")
 
