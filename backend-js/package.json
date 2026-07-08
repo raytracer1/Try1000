@@ -1,0 +1,11 @@
+{
+  "name": "try1000-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "google-auth-library": "^9.14.0",
+    "pg": "^8.13.0",
+    "drizzle-orm": "^0.36.0",
+    "ably": "^2.2.0"
+  }
+}

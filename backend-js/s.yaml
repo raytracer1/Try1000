@@ -8,9 +8,9 @@ resources:
     props:
       region: cn-hangzhou
       functionName: try1000-api
-      runtime: python3.12
+      runtime: nodejs20
       code: .
-      handler: server.main.handler
+      handler: index.handler
       cpu: 0.5
       memorySize: 512
       diskSize: 512
