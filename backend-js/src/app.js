@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const { getDb } = require("./database");
 const { createTables } = require("./db/migrate");
 const schema = require("./db/schema");
-const { eq, or, and } = require("drizzle-orm");
+const { eq, or, and, desc } = require("drizzle-orm");
 const { config } = require("./config");
 
 // ═══════════════════════════════════════════════════
@@ -151,7 +151,7 @@ const handlers = {
   },
   async simList(ctx) {
     const uid = auth(ctx); if (!uid) return;
-    ctx.respond(200, await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.userId, uid)).orderBy(schema.simulationJobs.id.desc()).limit(20));
+    ctx.respond(200, await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.userId, uid)).orderBy(desc(schema.simulationJobs.id)).limit(20));
   },
   async simGet(ctx) {
     const uid = auth(ctx); if (!uid) return;
