@@ -11,8 +11,17 @@ from server.schemas.simulation import (
 )
 from server.auth.jwt_handler import get_current_user
 from server.services.simulation_service import run_simulation_job
+from server.services.ably_client import ably
+from server.config import settings
 
 router = APIRouter()
+
+# Engine auth: simple API token check
+def _engine_auth(request):
+    token = request.headers.get("x-engine-token", "")
+    if settings.ably_api_key and token != settings.ably_api_key:
+        raise HTTPException(status_code=401, detail="Invalid engine token")
+    return True
 
 
 @router.post("/simulate", response_model=SimulateResponse)
@@ -27,8 +36,71 @@ def start_simulation(req: SimulateRequest, user_id: int = Depends(get_current_us
                         status="pending")
     db.add(job); db.commit(); db.refresh(job)
 
-    threading.Thread(target=run_simulation_job, args=(job.id,), daemon=True).start()
+    # Notify local engine via Ably (falls back to thread if no Ably key)
+    if settings.ably_api_key:
+        ably.publish("simulation_created", {"job_id": job.id})
+    else:
+        threading.Thread(target=run_simulation_job, args=(job.id,), daemon=True).start()
+
     return SimulateResponse(job_id=job.id)
+
+
+# ─── Engine-facing endpoints ───
+
+@router.get("/engine/jobs/next")
+def engine_next_job(_auth: bool = Depends(_engine_auth),
+                    db: Session = Depends(get_db)):
+    """Local engine calls this to fetch the next pending job."""
+    job = db.query(SimulationJob).filter(
+        SimulationJob.status == "pending"
+    ).order_by(SimulationJob.created_at.asc()).first()
+    if not job:
+        return {"job": None}
+
+    job.status = "running"
+    db.commit()
+
+    return {
+        "job": {
+            "id": job.id,
+            "home_team_id": job.home_team_id,
+            "away_team_id": job.away_team_id,
+            "home_tactic_id": job.home_tactic_id,
+            "away_tactic_id": job.away_tactic_id,
+            "match_count": job.match_count,
+            "seed_base": job.seed_base,
+        }
+    }
+
+
+@router.post("/engine/jobs/{job_id}/result")
+def engine_submit_result(job_id: int, result: dict,
+                          _auth: bool = Depends(_engine_auth),
+                          db: Session = Depends(get_db)):
+    """Local engine submits a single match result."""
+    from server.models.simulation import SimulationResult
+    db.add(SimulationResult(
+        job_id=job_id, match_index=result["match_index"],
+        home_score=result["home_score"], away_score=result["away_score"],
+        home_xg=result["home_xg"], away_xg=result["away_xg"],
+        home_possession=result["home_possession"], away_possession=result["away_possession"],
+        stats=result.get("stats", {}), replay_path=result.get("replay_path", ""),
+    ))
+    db.commit()
+    return {"ok": True}
+
+
+@router.put("/engine/jobs/{job_id}/complete")
+def engine_complete_job(job_id: int, _auth: bool = Depends(_engine_auth),
+                         db: Session = Depends(get_db)):
+    """Local engine marks a job as completed."""
+    from datetime import datetime
+    job = db.query(SimulationJob).filter(SimulationJob.id == job_id).first()
+    if job:
+        job.status = "completed"
+        job.completed_at = datetime.utcnow()
+        db.commit()
+    return {"ok": True}
 
 
 @router.get("/simulation/jobs", response_model=list[JobStatusResponse])
