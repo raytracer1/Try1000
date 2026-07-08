@@ -114,16 +114,16 @@ class MatchEngine:
         seed: int = 42,
         record_replay: bool = True,
         fast_mode: bool = False,
+        replay_sample_rate: int = 1,
     ):
-        # Per-team policies (fallback)
         self._home_default = home_policy or RuleBasedPolicy()
         self._away_default = away_policy or RuleBasedPolicy()
-        # Per-role policies (preferred)
         self._home_roles = home_policies or {}
         self._away_roles = away_policies or {}
         self.rng = random.Random(seed)
         self.record_replay = record_replay
         self.fast_mode = fast_mode
+        self.replay_sample_rate = replay_sample_rate  # 1=every tick, 5=every 5th
         # In fast mode, each tick represents FAST_MODE_TICK_MULTIPLIER seconds
         self._tick_multiplier = FAST_MODE_TICK_MULTIPLIER if fast_mode else 1
         self._max_ticks = MAX_TICKS // self._tick_multiplier
@@ -594,8 +594,8 @@ class MatchEngine:
         for p in self.players:
             self.collision.clamp_to_pitch(p)
 
-        # 7j. Record replay
-        if self.record_replay and self.replay:
+        # 7j. Record replay (with sampling for large batches)
+        if self.record_replay and self.replay and self.tick % self.replay_sample_rate == 0:
             self.replay.record_tick(
                 tick=self.tick,
                 players=self.players,

@@ -50,10 +50,11 @@ def run_simulation_job(job_id: int):
         from try1000_engine.match.match_engine import MatchEngine
 
         for idx in range(job.match_count):
+            sample = 1 if job.match_count <= 100 else (5 if job.match_count <= 1000 else 10)
             engine = MatchEngine(home_policies=home_policies, away_policies=away_policies,
                                  seed=job.seed_base + idx,
-                                 record_replay=(job.match_count <= 100),
-                                 fast_mode=(job.match_count > 10))
+                                 record_replay=True, fast_mode=(job.match_count > 10),
+                                 replay_sample_rate=sample)
             result = engine.run([_copy(p) for p in home_players],
                                 [_copy(p) for p in away_players], match_index=idx)
 
@@ -62,7 +63,7 @@ def run_simulation_job(job_id: int):
                                     home_xg=result.home_xg, away_xg=result.away_xg,
                                     home_possession=result.home_possession, away_possession=result.away_possession,
                                     stats=result.to_dict(),
-                                    events=result.replay_ticks if job.match_count <= 100 else []))
+                                    events=result.replay_ticks))
             job.progress = int((idx + 1) / job.match_count * 100)
             db.commit()
 
