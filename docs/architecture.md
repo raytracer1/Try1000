@@ -349,6 +349,55 @@ Base: `/api/v1`
 
 ---
 
+## Simulation Constraints (Invariants)
+
+These constraints are enforced by design. No component may violate them.
+
+### 1. Fixed Decision Logic
+
+During a simulation batch (1–1000 matches), every player's `decide()` function is **immutable**. The same observation always maps to the same action distribution. This guarantees:
+
+- Match 1 and Match 1000 use identical player intelligence
+- Any difference in results comes from RNG + tactics, not from evolving AI
+- Results are comparable across a batch
+
+### 2. Tactical Parameters Are Read-Only for Engine and Agent
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│              Only the User Changes Tactics                   │
+│                                                              │
+│  User                    Engine              Agent           │
+│  ────                    ──────              ─────           │
+│  writes tactic           reads tactic        reads tactic    │
+│  edits params            never writes        never writes    │
+│  saves to DB             params              params          │
+│  clicks "Apply"          only consumes       only suggests   │
+│                                                              │
+│  Tactic params are immutable during a simulation batch.      │
+│  Agent outputs advice text — never mutates tactic objects.   │
+└──────────────────────────────────────────────────────────────┘
+```
+
+Rule:
+- Engine: reads `tactic` dict, uses it to compute `tactic_modifier` → **never modifies**
+- Agent: reads `tactic` + `match_results`, outputs `{changes: [{param, from, to, reason}]}` → **user decides**
+- Only the `PATCH /api/v1/tactics/{id}` endpoint (called by user action in frontend) mutates tactic data
+
+### 3. No Automatic Optimization Loop
+
+There is no closed loop where the system runs simulations and auto-applies parameter changes. The full cycle is always:
+
+```
+User designs tactic → User runs simulation → User views results
+→ User requests AI analysis (optional) → User applies changes (optional)
+→ Loop
+```
+
+The human is always the decision-maker. This is a coaching tool, not an auto-tuner.
+
+---
+
 ## Engine Design
 
 ### Core Concepts
@@ -576,40 +625,24 @@ class RuleBasedPolicy(Policy):
         return "RuleBased-v1"
 
 
-# ─── Level 2: Neural Policy Agent (future) ───
+# ─── Level 2: Custom Policy (future, user-written code) ───
 
-class NeuralPolicy(Policy):
-    """Decision via Observation → Policy Network → Action.
+class CustomPolicy(Policy):
+    """Decision via user-provided Python decide() function.
 
-    Same interface, completely different implementation.
-    Trained via behavioral cloning (from rule-based traces)
-    or reinforcement learning (self-play with match outcomes as reward).
+    For advanced users who want to write their own decision logic.
+    Same interface, different implementation. Runs at full speed.
     """
 
-    def __init__(self, model_path: str, team_tactic: dict):
-        self.model = self._load_model(model_path)   # e.g. ONNX, torch.jit
-        self._scaler = self._load_scaler(model_path) # input normalization
-        self.tactic = team_tactic
+    def __init__(self, decide_fn: callable, name_str: str = "Custom"):
+        self._decide_fn = decide_fn
+        self._name = name_str
 
     def decide(self, obs: Observation) -> ActionOutput:
-        # 1. Observation → vector
-        vec = obs.to_vector()
-        vec = self._scaler.transform(vec)
-
-        # 2. Forward pass
-        logits = self.model.forward(vec)            # shape: (8,) — one logit per action
-        probs = softmax(logits)
-
-        # 3. Sample or argmax
-        action_idx = sample(probs, temperature=0.1) # or argmax for deterministic
-
-        # 4. Build action parameters (auxiliary heads)
-        params = self.model.parameter_head(vec, action_idx)  # dx,dy,power,angle,...
-
-        return ActionOutput(action_type=action_idx, **params)
+        return self._decide_fn(obs)
 
     def name(self) -> str:
-        return f"Neural-{self.model.version}"
+        return self._name
 
 
 # ─── How the engine uses Policy ───
@@ -634,22 +667,36 @@ class MatchEngine:
             player.queued_action = action
 ```
 
-### Policy Upgrade Path
+### Policy Architecture
 
 ```
-Level 1 (MVP)                    Level 2 (Future)               Level 3 (Future)
-┌─────────────────┐           ┌─────────────────┐           ┌─────────────────┐
-│ RuleBasedPolicy  │           │  NeuralPolicy    │           │  Multi-Agent    │
-│                  │           │                  │           │  Coordination   │
-│ perception →     │  train    │ obs → NN →       │  add      │ shared intent   │
-│ evaluate →       │──────────▶│ action           │──────────▶│ channel between │
-│ max-utility      │  on       │                  │  comms    │ teammates       │
-│                  │  traces   │ batch 22 players │           │                 │
-│ deterministic    │           │ per tick → GPU   │           │ emergent roles  │
-└─────────────────┘           └─────────────────┘           └─────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│           Policy = Fixed Logic + Tunable Params           │
+│                                                           │
+│  decide(obs) = role_weight × tactic_param × situ × prob   │
+│                      ↑                   ↑                │
+│                  固定的权重表        用户可调 (1-10)       │
+│                                                           │
+│  - 决策逻辑在 1000 场测试中完全不变                        │
+│  - 战术参数是唯一变量 → 对比结果才有意义                    │
+│  - 改进战术 = 改参数，不改代码                              │
+└───────────────────────────────────────────────────────────┘
+```
 
-Same interface throughout:  Policy.decide(Observation) → ActionOutput
-                             Engine never changes.
+```
+Level 1 (MVP)                    Level 2 (Future)
+┌─────────────────┐           ┌─────────────────┐
+│ RuleBasedPolicy  │           │  CustomPolicy    │
+│                  │           │                  │
+│ fixed weights    │  user     │ user-defined     │
+│ + tunable        │───writes─▶│ decide() logic   │
+│ tactic params    │  code?    │ in Python        │
+│                  │           │                  │
+│ 开箱即用          │           │ 高级用户自定义规则 │
+└─────────────────┘           └─────────────────┘
+
+Same interface: Policy.decide(Observation) → ActionOutput
+Engine never changes.
 ```
 
 ### Observation Space Size

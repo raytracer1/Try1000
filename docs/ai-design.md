@@ -12,10 +12,10 @@ Try1000 has two AI layers:
 ## Overview
 
 The Engine AI controls every player on the pitch during simulation. It is:
-- **Rule-based**: no neural networks, no training data, no GPU
+- **Rule-based**: hand-written weights + modifiers, no training data, no GPU
 - **Deterministic**: given the same seed, produces the same decisions
 - **Tactics-aware**: player behavior is shaped by formation, roles, and team tactics
-- **Replaceable**: the `engine/ai/` module can be swapped for ML-based AI later
+- **Replaceable**: the `Policy` interface can be swapped for LLM-generated code later (see [Level 2 upgrade](#level-2-llm-generated-policy-future))
 
 ## Architecture
 
@@ -239,6 +239,28 @@ Stamina affects: movement speed, decision quality (urgency), pass/shoot accuracy
 
 ---
 
+## Level 2: Custom Policy (Future)
+
+Level 1 uses hand-written weights. Level 2 allows advanced users to write their own `decide()` function in Python, implementing the `Policy` interface.
+
+```
+class CustomPolicy(Policy):
+    def __init__(self, decide_fn):
+        self._decide_fn = decide_fn
+
+    def decide(self, obs: Observation) -> ActionOutput:
+        return self._decide_fn(obs)
+```
+
+**Key constraint**: the decision logic is **fixed for a batch of matches**. A 1000-match test uses the exact same code for all 1000 matches. This is necessary because:
+- Changing logic between matches makes results incomparable
+- The only variable in a test batch should be the tactical parameters (1-10 sliders)
+- "Improving tactics" means changing parameters, not changing code
+
+Level 2 exists for flexibility, not as part of the optimization loop.
+
+---
+
 # Part 2: Agent AI (LLM-Powered)
 
 ## Overview
@@ -436,6 +458,8 @@ results, suggest specific, justified improvements. Respond in JSON:
 - Each change must reference specific data from the simulation results
 - Changes must be within valid ranges (1-10 for sliders)
 - Must explain the tactical reasoning, not just say "increase this"
+- **Agent only outputs suggestions. It never writes to the tactic.**
+- **Only the user, via the frontend "Apply Changes" button, can modify tactics.**
 
 ---
 

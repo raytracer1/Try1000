@@ -96,23 +96,31 @@ _ACTION_TO_EVENT = {
 class MatchEngine:
     """Orchestrates a full football match via 7-phase tick simulation.
 
-    Attributes:
-        home_policy: Decision policy for home team players.
-        away_policy: Decision policy for away team players.
-        rng: Seeded random number generator for deterministic output.
-        record_replay: Whether to record per-tick position snapshots.
+    Supports two policy modes:
+    1. Per-team (legacy): one Policy for all 11 players
+       MatchEngine(home_policy=p, away_policy=p)
+    2. Per-role (default via PolicyFactory): different Policy per position
+       MatchEngine(home_policies={"ST": p1, "CB": p2, ...}, ...)
+
+    If both are provided, per-role takes precedence.
     """
 
     def __init__(
         self,
         home_policy: Policy | None = None,
         away_policy: Policy | None = None,
+        home_policies: dict[str, Policy] | None = None,
+        away_policies: dict[str, Policy] | None = None,
         seed: int = 42,
         record_replay: bool = True,
         fast_mode: bool = False,
     ):
-        self.home_policy = home_policy or RuleBasedPolicy()
-        self.away_policy = away_policy or RuleBasedPolicy()
+        # Per-team policies (fallback)
+        self._home_default = home_policy or RuleBasedPolicy()
+        self._away_default = away_policy or RuleBasedPolicy()
+        # Per-role policies (preferred)
+        self._home_roles = home_policies or {}
+        self._away_roles = away_policies or {}
         self.rng = random.Random(seed)
         self.record_replay = record_replay
         self.fast_mode = fast_mode
@@ -269,8 +277,11 @@ class MatchEngine:
         if failures >= CIRCUIT_BREAKER_LIMIT:
             return ActionOutput.hold()
 
-        # Choose policy
-        policy = self.home_policy if player.team == "home" else self.away_policy
+        # Choose policy: per-role preferred, fallback to per-team
+        if player.team == "home":
+            policy = self._home_roles.get(player.role, self._home_default)
+        else:
+            policy = self._away_roles.get(player.role, self._away_default)
 
         try:
             # Use rule_based decide_with_context for full perception pipeline
@@ -313,7 +324,10 @@ class MatchEngine:
         history = self._history.get(player.player_id, [])
 
         tactic = {}
-        policy = self.home_policy if player.team == "home" else self.away_policy
+        if player.team == "home":
+            policy = self._home_roles.get(player.role, self._home_default)
+        else:
+            policy = self._away_roles.get(player.role, self._away_default)
         if isinstance(policy, RuleBasedPolicy):
             tactic = policy.tactic
 
