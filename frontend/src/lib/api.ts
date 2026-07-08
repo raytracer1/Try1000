@@ -62,4 +62,7 @@ export const api = {
     request<any>("/agent/tactics/analyze", { method: "POST", body: JSON.stringify({ tactic_id: tacticId }) }),
   generateReport: (jobId: number) =>
     request<any>("/agent/match/report", { method: "POST", body: JSON.stringify({ job_id: jobId }) }),
+  optimizeTactic: (tacticId: number, jobId: number) =>
+    request<any>("/agent/tactics/optimize", { method: "POST", body: JSON.stringify({ tactic_id: tacticId, job_id: jobId }) }),
+  getAgentResults: () => request<any[]>("/agent/results"),
 };

@@ -11,6 +11,8 @@ export default function TacticsEditor() {
   const [tactics, setTactics] = useState<any[]>([]);
   const [selectedTeamId, setSelectedTeamId] = useState("");
   const [message, setMessage] = useState("");
+  const [analyzing, setAnalyzing] = useState(false);
+  const [analysis, setAnalysis] = useState<any>(null);
 
   useEffect(() => {
     api.getTeams().then(setTeams).catch(() => {});
@@ -148,6 +150,50 @@ export default function TacticsEditor() {
           ))}
         </div>
       </div>
+
+      {/* AI Analysis */}
+      {currentTactic?.id && (
+        <div className="mt-6 bg-gray-900 rounded-xl border border-gray-800 p-4">
+          <h3 className="text-sm font-semibold text-gray-400 mb-3">AI Analysis</h3>
+          <button
+            onClick={() => {
+              setAnalyzing(true);
+              api.analyzeTactic(currentTactic.id)
+                .then((r: any) => { setAnalysis(r.result); setAnalyzing(false); })
+                .catch((e: any) => { setAnalysis({ error: e.message }); setAnalyzing(false); });
+            }}
+            disabled={analyzing}
+            className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm hover:bg-emerald-500 disabled:opacity-50"
+          >
+            {analyzing ? "Analyzing..." : analysis ? "Re-analyze" : "Analyze Tactic"}
+          </button>
+          {analysis && !analysis.error && (
+            <div className="mt-4 space-y-3">
+              <p className="text-sm text-gray-200 italic">"{analysis.summary}"</p>
+              <span className="text-xs px-2 py-1 rounded-full bg-emerald-500/20 text-emerald-400">{analysis.style_label}</span>
+              <div className="grid grid-cols-2 gap-3 mt-2">
+                <div>
+                  <h4 className="text-xs font-semibold text-emerald-400 mb-1">Strengths</h4>
+                  {analysis.strengths?.map((s: any, i: number) => (
+                    <div key={i} className="text-xs text-gray-400 mb-1"><span className="text-gray-200">{s.title}</span>: {s.description}</div>
+                  ))}
+                </div>
+                <div>
+                  <h4 className="text-xs font-semibold text-red-400 mb-1">Weaknesses</h4>
+                  {analysis.weaknesses?.map((w: any, i: number) => (
+                    <div key={i} className="text-xs text-gray-400 mb-1"><span className="text-gray-200">{w.title}</span>: {w.description}</div>
+                  ))}
+                </div>
+              </div>
+              <div className="text-xs text-gray-500 mt-2">
+                <p>Ideal against: {analysis.ideal_against}</p>
+                <p>Vulnerable against: {analysis.vulnerable_against}</p>
+              </div>
+            </div>
+          )}
+          {analysis?.error && <p className="text-red-400 text-sm mt-2">{analysis.error}</p>}
+        </div>
+      )}
     </div>
   );
 }

@@ -8,6 +8,8 @@ export default function AnalyticsPage() {
   const { jobId } = useParams<{ jobId: string }>();
   const [analytics, setAnalytics] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const [reporting, setReporting] = useState(false);
+  const [report, setReport] = useState<any>(null);
 
   useEffect(() => {
     if (!jobId) return;
@@ -59,6 +61,47 @@ export default function AnalyticsPage() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* AI Report */}
+      <div className="mt-6 bg-gray-900 rounded-xl border border-gray-800 p-4">
+        <h2 className="text-lg font-semibold mb-3">AI Tactical Report</h2>
+        <div className="flex gap-3 mb-4">
+          <button
+            onClick={() => {
+              setReporting(true);
+              api.generateReport(Number(jobId)).then((r: any) => { setReport(r.result); setReporting(false); }).catch(() => setReporting(false));
+            }}
+            disabled={reporting}
+            className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm hover:bg-emerald-500 disabled:opacity-50"
+          >
+            {reporting ? "Generating..." : report ? "Re-generate" : "Generate Report"}
+          </button>
+        </div>
+        {report && !report.error && (
+          <div className="space-y-4">
+            <p className="text-sm font-semibold text-gray-200">{report.headline}</p>
+            <div className="grid grid-cols-3 gap-3 text-xs">
+              <div className="bg-gray-800 rounded-lg p-3">
+                <h4 className="text-emerald-400 font-semibold mb-1">Attack</h4>
+                <p className="text-gray-400">{report.attack_analysis?.effectiveness}</p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-3">
+                <h4 className="text-blue-400 font-semibold mb-1">Possession</h4>
+                <p className="text-gray-400">{report.possession_analysis?.retention}</p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-3">
+                <h4 className="text-red-400 font-semibold mb-1">Defense</h4>
+                <p className="text-gray-400">{report.defensive_analysis?.vulnerabilities?.join(", ")}</p>
+              </div>
+            </div>
+            <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-3">
+              <p className="text-sm text-emerald-400 font-semibold">Key Insight</p>
+              <p className="text-xs text-gray-300 mt-1">{report.key_insight}</p>
+            </div>
+          </div>
+        )}
+        {report?.error && <p className="text-red-400 text-sm">{report.error}</p>}
       </div>
     </div>
   );
