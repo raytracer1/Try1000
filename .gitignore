@@ -1,1 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# SQLite
+*.db
+
+# Node
+node_modules/
+.next/
+
+# IDE
+.idea/
+.vscode/
 .claude
+
+# Env
+.env

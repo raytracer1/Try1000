@@ -3,9 +3,18 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from contextlib import asynccontextmanager
+from app.database import init_db
 from app.api import auth, teams, tactics, simulation, analytics, agent
 
-app = FastAPI(title="Try1000 API", version="0.1.0")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_db()
+    yield
+
+
+app = FastAPI(title="Try1000 API", version="0.1.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -27,3 +36,13 @@ app.include_router(agent.router, prefix="/api/v1/agent", tags=["agent"])
 @app.get("/api/v1/health")
 def health():
     return {"status": "ok"}
+
+
+# ─── Alibaba Cloud FC handler ───
+# FC HTTP trigger → Mangum → FastAPI ASGI
+
+try:
+    from mangum import Mangum
+    handler = Mangum(app, lifespan="off")
+except ImportError:
+    handler = None  # local dev uses uvicorn directly

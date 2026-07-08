@@ -1,0 +1,30 @@
+# Alibaba Cloud Function Compute
+ROSTemplateFormatVersion: "2015-09-01"
+Transform: Aliyun::Serverless-2018-04-03
+
+Resources:
+  try1000-api:
+    Type: Aliyun::Serverless::Service
+    Properties:
+      Description: Try1000 Backend
+      InternetAccess: true
+
+    api:
+      Type: Aliyun::Serverless::Function
+      Properties:
+        Handler: app.main.handler
+        Runtime: python3.13
+        CodeUri: ..
+        Timeout: 60
+        MemorySize: 512
+        InstanceConcurrency: 10
+        EnvironmentVariables:
+          DATABASE_URL: ${env(DATABASE_URL)}
+          TRY1000_JWT_SECRET_KEY: ${env(TRY1000_JWT_SECRET_KEY)}
+
+      Events:
+        httpTrigger:
+          Type: HTTP
+          Properties:
+            AuthType: ANONYMOUS
+            Methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]

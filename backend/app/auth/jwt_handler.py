@@ -9,9 +9,9 @@ from app.config import settings
 security = HTTPBearer()
 
 
-def create_access_token(user_id: str) -> str:
+def create_access_token(user_id: int) -> str:
     expire = datetime.utcnow() + timedelta(minutes=settings.jwt_expire_minutes)
-    payload = {"sub": user_id, "exp": expire}
+    payload = {"sub": str(user_id), "exp": expire}
     return jwt.encode(payload, settings.jwt_secret_key, algorithm=settings.jwt_algorithm)
 
 
@@ -22,10 +22,10 @@ def decode_token(token: str) -> dict:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
 
 
-def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)) -> str:
-    """FastAPI dependency — extracts user_id from JWT."""
+def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)) -> int:
+    """FastAPI dependency — extracts user_id from JWT. Returns int."""
     payload = decode_token(credentials.credentials)
     user_id = payload.get("sub")
     if user_id is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-    return user_id
+    return int(user_id)

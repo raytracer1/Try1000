@@ -1,6 +1,6 @@
 """Auth schemas."""
 
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel
 
 
 class RegisterRequest(BaseModel):
@@ -20,6 +20,6 @@ class TokenResponse(BaseModel):
 
 
 class UserResponse(BaseModel):
-    id: str
+    id: int
     email: str
     username: str

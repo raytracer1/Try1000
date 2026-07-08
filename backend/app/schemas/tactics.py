@@ -5,7 +5,7 @@ from typing import Optional
 
 
 class TacticCreate(BaseModel):
-    team_id: str
+    team_id: int
     name: str
     formation: str = "4-3-3"
     player_positions: dict = {}
@@ -30,9 +30,9 @@ class TacticUpdate(BaseModel):
 
 
 class TacticResponse(BaseModel):
-    id: str
-    user_id: str
-    team_id: str
+    id: int
+    user_id: int
+    team_id: int
     name: str
     formation: str
     player_positions: dict

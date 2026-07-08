@@ -1,7 +1,6 @@
 """Team and Player schemas."""
 
 from pydantic import BaseModel
-from typing import Optional
 
 
 class PlayerCreate(BaseModel):
@@ -12,7 +11,7 @@ class PlayerCreate(BaseModel):
 
 
 class PlayerResponse(BaseModel):
-    id: str
+    id: int
     name: str
     number: int
     position: str
@@ -24,7 +23,7 @@ class TeamCreate(BaseModel):
 
 
 class TeamResponse(BaseModel):
-    id: str
-    user_id: str
+    id: int
+    user_id: int
     name: str
     players: list[PlayerResponse] = []

@@ -5,24 +5,24 @@ from typing import Optional
 
 
 class SimulateRequest(BaseModel):
-    home_team_id: str
-    away_team_id: str
-    home_tactic_id: str
-    away_tactic_id: str
-    match_count: int = 10  # 1, 10, 100, 1000
+    home_team_id: int
+    away_team_id: int
+    home_tactic_id: int
+    away_tactic_id: int
+    match_count: int = 10
 
 
 class SimulateResponse(BaseModel):
-    job_id: str
+    job_id: int
 
 
 class JobStatusResponse(BaseModel):
-    id: str
+    id: int
     status: str
     progress: int
     match_count: int
-    home_team_id: str
-    away_team_id: str
+    home_team_id: int
+    away_team_id: int
     created_at: str
     completed_at: Optional[str] = None
 
