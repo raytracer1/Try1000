@@ -27,10 +27,9 @@ class AblyPublisher:
             "Content-Type": "application/json",
         }
 
-    def publish(self, event: str, data: dict):
-        """Publish a task to the Ably channel."""
+    def notify(self):
+        """Wake up the engine: 'there are pending tasks'. No data attached."""
         if not self.api_key:
-            logger.warning("No Ably API key — task not dispatched to engine")
             return
 
         import httpx
@@ -38,13 +37,12 @@ class AblyPublisher:
             resp = httpx.post(
                 f"{ABLY_URL}/channels/{CHANNEL}/messages",
                 headers=self._headers(),
-                json={"name": event, "data": json.dumps(data)},
+                json={"name": "wakeup", "data": "1"},
                 timeout=5,
             )
             resp.raise_for_status()
-            logger.info(f"Ably published: {event} job={data.get('job_id')}")
-        except Exception as e:
-            logger.error(f"Ably publish failed: {e}")
+        except Exception:
+            pass  # ably is best-effort; polling catches missed wakeups
 
 
 # Singleton

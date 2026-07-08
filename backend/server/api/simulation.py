@@ -38,7 +38,7 @@ def start_simulation(req: SimulateRequest, user_id: int = Depends(get_current_us
 
     # Notify local engine via Ably (falls back to thread if no Ably key)
     if settings.ably_api_key:
-        ably.publish("simulation_created", {"job_id": job.id})
+        ably.notify()
     else:
         threading.Thread(target=run_simulation_job, args=(job.id,), daemon=True).start()
 
@@ -47,30 +47,50 @@ def start_simulation(req: SimulateRequest, user_id: int = Depends(get_current_us
 
 # ─── Engine-facing endpoints ───
 
-@router.get("/engine/jobs/next")
-def engine_next_job(_auth: bool = Depends(_engine_auth),
-                    db: Session = Depends(get_db)):
-    """Local engine calls this to fetch the next pending job."""
-    job = db.query(SimulationJob).filter(
+@router.get("/engine/jobs/pending")
+def engine_get_pending(_auth: bool = Depends(_engine_auth),
+                       db: Session = Depends(get_db)):
+    """Engine fetches ALL pending jobs. Ably is just a wake-up."""
+    from server.models.team import Team, Player as PlayerModel
+    from server.models.tactic import Tactic
+
+    jobs = db.query(SimulationJob).filter(
         SimulationJob.status == "pending"
-    ).order_by(SimulationJob.created_at.asc()).first()
-    if not job:
-        return {"job": None}
+    ).order_by(SimulationJob.created_at.asc()).all()
 
-    job.status = "running"
+    result = []
+    for job in jobs:
+        job.status = "running"
+        home = db.query(Team).filter(Team.id == job.home_team_id).first()
+        away = db.query(Team).filter(Team.id == job.away_team_id).first()
+        home_tactic = db.query(Tactic).filter(Tactic.id == job.home_tactic_id).first()
+        away_tactic = db.query(Tactic).filter(Tactic.id == job.away_tactic_id).first()
+
+        result.append({
+            "id": job.id, "match_count": job.match_count, "seed_base": job.seed_base,
+            "home_players": _players_json(db, home),
+            "away_players": _players_json(db, away),
+            "home_tactic": _tactic_dict(home_tactic),
+            "away_tactic": _tactic_dict(away_tactic),
+        })
+
     db.commit()
+    return {"jobs": result}
 
-    return {
-        "job": {
-            "id": job.id,
-            "home_team_id": job.home_team_id,
-            "away_team_id": job.away_team_id,
-            "home_tactic_id": job.home_tactic_id,
-            "away_tactic_id": job.away_tactic_id,
-            "match_count": job.match_count,
-            "seed_base": job.seed_base,
-        }
-    }
+
+def _players_json(db, team) -> list:
+    if not team: return []
+    from server.models.team import Player as PlayerModel
+    return [{"name": p.name, "number": p.number, "position": p.position,
+             "attributes": p.attributes or {}}
+            for p in db.query(PlayerModel).filter(PlayerModel.team_id == team.id).all()]
+
+
+def _tactic_dict(t) -> dict:
+    if not t: return {}
+    return {"pressing_level": t.pressing_level, "defensive_line": t.defensive_line,
+            "attacking_width": t.attacking_width, "tempo": t.tempo,
+            "passing_style": t.passing_style, "build_up_style": t.build_up_style}
 
 
 @router.post("/engine/jobs/{job_id}/result")

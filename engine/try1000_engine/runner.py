@@ -33,15 +33,23 @@ class EngineRunner:
         self._lock = threading.Lock()
 
     def run(self, poll_interval: int = 5):
-        """Main loop: poll for tasks and execute them."""
+        """Main loop: Ably for real-time + polling as safety net.
+
+        Ably is the fast path. Polling catches any messages that
+        were missed due to network issues or engine restart.
+        """
         logger.info(f"Engine runner started. Backend: {self.backend_url}")
         self._running = True
 
+        # Always run poll as safety net
+        poll_thread = threading.Thread(target=self._poll_loop, args=(poll_interval,), daemon=True)
+        poll_thread.start()
+
         if self.ably_key:
-            self._subscribe_ably()
+            self._subscribe_ably()  # blocks on Ably subscription
         else:
-            logger.info("No Ably key — polling mode")
-            self._poll_loop(poll_interval)
+            logger.info("No Ably key — polling mode only")
+            poll_thread.join()  # wait forever on poll
 
     def _subscribe_ably(self):
         """Subscribe to Ably for real-time task notifications."""
@@ -51,10 +59,8 @@ class EngineRunner:
             channel = ably.channels.get("try1000:tasks")
 
             def on_message(msg):
-                data = json.loads(msg.data)
-                logger.info(f"Received: {msg.name} job={data.get('job_id')}")
-                if msg.name == "simulation_created":
-                    self._dispatch(data["job_id"])
+                logger.info("Ably wakeup received")
+                self._fetch_and_dispatch()
 
             channel.subscribe(on_message)
             logger.info("Subscribed to Ably — waiting for tasks...")
@@ -67,54 +73,52 @@ class EngineRunner:
             self._poll_loop()
 
     def _poll_loop(self, interval: int = 5):
-        """Poll the backend for pending jobs."""
-        engine_token = self.ably_key or ""
-        headers = {"x-engine-token": engine_token} if engine_token else {}
-
+        """Poll the backend for pending jobs as safety net."""
         while self._running:
             try:
-                import httpx
-                resp = httpx.get(
-                    f"{self.backend_url}/api/v1/engine/jobs/next",
-                    headers=headers, timeout=10,
-                )
-                if resp.status_code == 200:
-                    data = resp.json()
-                    if data.get("job"):
-                        self._dispatch(data["job"]["id"])
-                    else:
-                        time.sleep(interval)
-                else:
-                    time.sleep(interval)
+                self._fetch_and_dispatch()
             except Exception as e:
                 logger.warning(f"Poll error: {e}")
-                time.sleep(interval)
+            time.sleep(interval)
 
-    def _dispatch(self, job_id: int):
+    def _fetch_and_dispatch(self):
+        """Fetch all pending jobs from backend and dispatch each to a worker."""
+        import httpx
+        engine_token = self.ably_key or ""
+        headers = {"x-engine-token": engine_token} if engine_token else {}
+        try:
+            resp = httpx.get(
+                f"{self.backend_url}/api/v1/engine/jobs/pending",
+                headers=headers, timeout=10,
+            )
+            if resp.status_code != 200:
+                return
+            data = resp.json()
+            for job in data.get("jobs", []):
+                self._dispatch_job(job)
+        except Exception as e:
+            logger.warning(f"Failed to fetch pending jobs: {e}")
+
+    def _dispatch_job(self, job: dict):
         """Submit job to thread pool if not already running."""
+        job_id = job["id"]
         with self._lock:
             if job_id in self._active_jobs:
                 return
             self._active_jobs.add(job_id)
 
-        self._executor.submit(self._handle, job_id)
+        self._executor.submit(self._handle, job_id, job)
 
-    def _handle(self, job_id: int):
+    def _handle(self, job_id: int, job: dict):
         """Run a job and clean up when done."""
         try:
-            self._handle_job(job_id)
+            self._handle_job(job)
         finally:
             with self._lock:
                 self._active_jobs.discard(job_id)
 
-    def _handle_job(self, job: dict | int):
-        """Execute a simulation job and submit results."""
-        if isinstance(job, int):
-            # Fetch job details from backend
-            job = self._fetch_job(job)
-            if not job:
-                return
-
+    def _handle_job(self, job: dict):
+        """Execute a simulation job and submit results. Job dict has all data."""
         job_id = job["id"]
         match_count = job["match_count"]
         logger.info(f"Running job {job_id}: {match_count} matches")
@@ -124,11 +128,11 @@ class EngineRunner:
             from try1000_engine.ai.policy_factory import PolicyFactory
             from try1000_engine.match.match_engine import MatchEngine
 
-            # Load data from backend
-            home = self._load_players(job["home_team_id"], "home")
-            away = self._load_players(job["away_team_id"], "away")
-            home_tactic = self._load_tactic(job["home_tactic_id"])
-            away_tactic = self._load_tactic(job["away_tactic_id"])
+            # Players and tactics come from the job detail endpoint
+            home = self._parse_players(job.get("home_players", []), "home")
+            away = self._parse_players(job.get("away_players", []), "away")
+            home_tactic = job.get("home_tactic", {})
+            away_tactic = job.get("away_tactic", {})
 
             # Policy: Level 1 (runner doesn't have LLM key)
             factory = PolicyFactory()
@@ -178,27 +182,12 @@ class EngineRunner:
         except Exception as e:
             logger.exception(f"Job {job_id} failed: {e}")
 
-    def _fetch_job(self, job_id: int) -> dict | None:
-        import httpx
-        try:
-            resp = httpx.get(
-                f"{self.backend_url}/api/v1/engine/jobs/next",
-                timeout=10,
-            )
-            data = resp.json()
-            return data.get("job")
-        except Exception:
-            return None
-
-    def _load_players(self, team_id: int, team: str) -> list:
-        import httpx
-        resp = httpx.get(f"{self.backend_url}/api/v1/teams/{team_id}", timeout=10)
-        data = resp.json()
+    def _parse_players(self, players_json: list[dict], team: str) -> list:
         from try1000_engine.physics.player import Player as EnginePlayer
-        players = []
-        for i, p in enumerate(data.get("players", [])):
+        result = []
+        for i, p in enumerate(players_json):
             a = p.get("attributes", {})
-            players.append(EnginePlayer(
+            result.append(EnginePlayer(
                 player_id=f"{team}_{i+1}", team=team, role=p["position"],
                 pace=a.get("pace", 70), shooting=a.get("shooting", 70),
                 passing=a.get("passing", 70), dribbling=a.get("dribbling", 70),
@@ -206,23 +195,7 @@ class EngineRunner:
                 stamina_val=a.get("stamina", 100), awareness=a.get("awareness", 70),
                 composure=a.get("composure", 70),
             ))
-        return players
-
-    def _load_tactic(self, tactic_id: int) -> dict | None:
-        import httpx
-        try:
-            resp = httpx.get(f"{self.backend_url}/api/v1/tactics/{tactic_id}", timeout=10)
-            t = resp.json()
-            return {
-                "pressing_level": t["pressing_level"],
-                "defensive_line": t["defensive_line"],
-                "attacking_width": t["attacking_width"],
-                "tempo": t["tempo"],
-                "passing_style": t["passing_style"],
-                "build_up_style": t["build_up_style"],
-            }
-        except Exception:
-            return {}
+        return result
 
     def _save_replay(self, job_id: int, match_index: int, ticks: list[dict]) -> str:
         import gzip
