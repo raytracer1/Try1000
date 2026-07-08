@@ -55,7 +55,12 @@ def get_replay(job_id: int, match_index: int,
     result = db.query(SimulationResult).filter(
         SimulationResult.job_id == job_id, SimulationResult.match_index == match_index).first()
     if not result: raise HTTPException(status_code=404)
-    return {"match_index": match_index, "ticks": result.events or []}
+
+    from app.services.replay_store import replay_store
+    ticks = replay_store.load(job_id, match_index)
+    url = replay_store.url(f"{job_id}/{match_index:04d}.jsonl.gz") if hasattr(replay_store, "url") else ""
+
+    return {"match_index": match_index, "ticks": ticks, "url": url}
 
 
 def _get_job(db, job_id: int, user_id: int) -> SimulationJob:

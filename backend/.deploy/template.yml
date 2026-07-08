@@ -21,6 +21,8 @@ Resources:
         EnvironmentVariables:
           DATABASE_URL: ${env(DATABASE_URL)}
           TRY1000_JWT_SECRET_KEY: ${env(TRY1000_JWT_SECRET_KEY)}
+          SUPABASE_URL: ${env(SUPABASE_URL)}
+          SUPABASE_SERVICE_KEY: ${env(SUPABASE_SERVICE_KEY)}
 
       Events:
         httpTrigger:

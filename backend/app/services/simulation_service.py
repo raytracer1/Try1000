@@ -7,6 +7,8 @@ ENGINE_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "..", "engine"
 if ENGINE_PATH not in sys.path:
     sys.path.insert(0, ENGINE_PATH)
 
+from app.services.replay_store import replay_store
+
 logger = logging.getLogger(__name__)
 
 
@@ -58,12 +60,15 @@ def run_simulation_job(job_id: int):
             result = engine.run([_copy(p) for p in home_players],
                                 [_copy(p) for p in away_players], match_index=idx)
 
+            # Save replay to file storage, store only the path in DB
+            replay_path = replay_store.save(job_id, idx, result.replay_ticks)
+
             db.add(SimulationResult(job_id=job_id, match_index=idx,
                                     home_score=result.home_score, away_score=result.away_score,
                                     home_xg=result.home_xg, away_xg=result.away_xg,
                                     home_possession=result.home_possession, away_possession=result.away_possession,
                                     stats=result.to_dict(),
-                                    events=result.replay_ticks))
+                                    replay_path=replay_path))
             job.progress = int((idx + 1) / job.match_count * 100)
             db.commit()
 

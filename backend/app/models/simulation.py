@@ -36,5 +36,5 @@ class SimulationResult(Base):
     home_possession = Column(Float, default=50.0)
     away_possession = Column(Float, default=50.0)
     stats = Column(JSON, nullable=False, default=dict)
-    events = Column(JSON, nullable=False, default=list)
+    replay_path = Column(String(500), nullable=True)  # relative path to .jsonl.gz file
     created_at = Column(DateTime, default=datetime.utcnow)
