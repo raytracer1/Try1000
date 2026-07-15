@@ -14,7 +14,7 @@ export default function LoginPage() {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    if (isAuthenticated) router.push("/");
+    if (isAuthenticated) router.push("/dashboard");
   }, [isAuthenticated, router]);
 
   useEffect(() => {
@@ -40,7 +40,7 @@ export default function LoginPage() {
         if (resp.error) { setError(resp.error); setLoading(false); return; }
         try {
           await loginWithCode(resp.code);
-          router.push("/");
+          router.push("/dashboard");
         } catch (e: any) { setError(e.message); setLoading(false); }
       },
     }).requestCode();
