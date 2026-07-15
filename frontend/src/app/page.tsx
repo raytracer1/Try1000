@@ -1,19 +1,10 @@
 import Link from "next/link";
+import { Header } from "../components/layout/Header";
 
 export default function Homepage() {
   return (
     <div className="min-h-full flex flex-col text-stone-800">
-      <header className="bg-white border-b border-stone-200 px-8 py-4 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold tracking-tight">
-          <span className="text-green-700">Try</span>1000
-        </Link>
-        <div className="flex items-center gap-4">
-          <Link href="/auth/login" className="text-sm text-stone-500 hover:text-stone-800 font-medium">Sign In</Link>
-          <Link href="/auth/login" className="px-5 py-2.5 bg-green-700 text-white text-sm font-semibold hover:bg-green-800 transition-colors">
-            Start Now
-          </Link>
-        </div>
-      </header>
+      <Header />
 
       <section className="flex-1 px-8 py-16">
         <div className="max-w-5xl mx-auto">
