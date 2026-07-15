@@ -92,7 +92,7 @@ const handlers = {
       if (ids.length) {
         t.players = [];
         const all = await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid));
-        t.players = all.filter((p: any) => ids.includes(p.id));
+        t.players = all.filter((p) => ids.includes(p.id));
       } else {
         t.players = [];
       }
@@ -111,7 +111,7 @@ const handlers = {
     const ids = t.playerIds || [];
     if (ids.length) {
       const all = await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid));
-      t.players = all.filter((p: any) => ids.includes(p.id));
+      t.players = all.filter((p) => ids.includes(p.id));
     } else { t.players = []; }
     ctx.respond(200, t);
   },
@@ -134,14 +134,14 @@ const handlers = {
     const uid = auth(ctx); if (!uid) return;
     const [t] = await ctx.db.select().from(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
     if (!t) return ctx.respond(404, {});
-    const ids = (t.playerIds || []).filter((id: number) => id !== +ctx.parseBody().player_id);
+    const ids = (t.playerIds || []).filter((id) => id !== +ctx.parseBody().player_id);
     await ctx.db.update(schema.teams).set({ playerIds: ids }).where(eq(schema.teams.id, t.id));
     ctx.respond(200, { ok: true });
   },
   async addPlayer(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const b = ctx.parseBody();
-    const [p] = await ctx.db.insert(schema.players).values({ teamId: b.team_id, name: b.name, number: b.number, position: b.position, attributes: b.attributes || {} }).returning();
+    const [p] = await ctx.db.insert(schema.players).values({ userId: uid, name: b.name, number: b.number, position: b.position, attributes: b.attributes || {} }).returning();
     ctx.respond(200, p);
   },
   async updatePlayer(ctx) {
