@@ -12,11 +12,10 @@ export default function Dashboard() {
     <div className="max-w-5xl mx-auto">
       <h1 className="text-2xl font-bold mb-6 text-stone-800">Dashboard</h1>
 
-      <div className="grid grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-2 gap-4 mb-8">
         {[
           { href: "/tactics", label: "Tactics Editor", desc: "Design formations and tactics" },
           { href: "/simulation", label: "Run Simulation", desc: "Test tactics across 1 to 1,000 matches" },
-          { href: "/settings", label: "Settings", desc: "Configure AI provider" },
         ].map((c) => (
           <Link key={c.href} href={c.href}
             className="bg-white border border-stone-200 rounded-lg p-5 hover:border-green-700 transition-colors">

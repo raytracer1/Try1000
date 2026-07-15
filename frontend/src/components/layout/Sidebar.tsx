@@ -8,7 +8,6 @@ const NAV = [
   { href: "/dashboard", label: "Dashboard" },
   { href: "/tactics", label: "Tactics" },
   { href: "/simulation", label: "Simulation" },
-  { href: "/settings", label: "Settings" },
 ];
 
 export function Sidebar() {
