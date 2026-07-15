@@ -23,34 +23,28 @@ export default function TacticsEditor() {
     try {
       if (!selectedTeamId) { setMessage("Select a team first."); return; }
       await saveTactic(Number(selectedTeamId));
-      setMessage("Saved!");
+      setMessage("Saved");
       setTimeout(() => setMessage(""), 2000);
     } catch (e: any) { setMessage("Error: " + e.message); }
   };
 
   if (!currentTactic) {
     return (
-      <div className="max-w-2xl mx-auto text-center py-16">
-        <p className="text-4xl mb-4">⚽</p>
-        <h1 className="text-xl font-bold mb-4">Tactics Editor</h1>
+      <div className="max-w-2xl mx-auto py-12">
+        <h1 className="text-2xl font-bold mb-6 text-stone-800">Tactics Editor</h1>
         <div className="space-y-3">
-          <select
-            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-200"
+          <select className="w-full bg-white border border-stone-300 rounded-lg px-4 py-2.5 text-stone-700"
             onChange={(e) => { setSelectedTeamId(e.target.value); newTactic(Number(e.target.value)); }}
-            value={selectedTeamId}
-          >
+            value={selectedTeamId}>
             <option value="">Create new tactic (select team)...</option>
             {(Array.isArray(teams) ? teams : []).map((t: any) => <option key={t.id} value={t.id}>{t.name}</option>)}
           </select>
-          <p className="text-sm text-gray-500">or</p>
+          <p className="text-sm text-stone-400">or load existing:</p>
           {(Array.isArray(tactics) ? tactics : []).map((t: any) => (
-            <button
-              key={t.id}
-              className="block w-full text-left bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 hover:border-emerald-500 transition-colors"
-              onClick={() => loadTactic(t.id)}
-            >
-              <div className="font-medium">{t.name}</div>
-              <div className="text-xs text-gray-400">{t.formation} · Pressing {t.pressing_level} · {t.passing_style}</div>
+            <button key={t.id} onClick={() => loadTactic(t.id)}
+              className="block w-full text-left bg-white border border-stone-200 rounded-lg px-4 py-3 hover:border-green-700 transition-colors">
+              <div className="font-medium text-stone-800">{t.name}</div>
+              <div className="text-sm text-stone-400">{t.formation} · Pressing {t.pressingLevel}</div>
             </button>
           ))}
         </div>
@@ -61,137 +55,85 @@ export default function TacticsEditor() {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold">{currentTactic.name || "New Tactic"}</h1>
-        <div className="flex gap-2 items-center">
-          {message && <span className={`text-xs ${message.startsWith("Error") ? "text-red-400" : "text-emerald-400"}`}>{message}</span>}
-          {isDirty && <span className="text-xs text-yellow-400">Unsaved</span>}
+        <h1 className="text-2xl font-bold text-stone-800">{currentTactic.name || "New Tactic"}</h1>
+        <div className="flex gap-3 items-center">
+          {message && <span className={`text-sm ${message.startsWith("Error") ? "text-red-600" : "text-green-700"}`}>{message}</span>}
+          {isDirty && <span className="text-xs text-amber-600 font-medium">Unsaved</span>}
           <button onClick={handleSave} disabled={isSaving}
-            className="px-4 py-1.5 bg-emerald-600 text-white rounded-lg text-sm hover:bg-emerald-500 disabled:opacity-50">
+            className="px-5 py-2 bg-green-700 text-white text-sm font-semibold hover:bg-green-800 disabled:opacity-50">
             {isSaving ? "Saving..." : "Save"}
           </button>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-6">
-        {/* Formation */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <label className="text-sm text-gray-400 block mb-2">Formation</label>
-          <select value={currentTactic.formation} onChange={(e) => setFormation(e.target.value)}
-            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-gray-200 text-sm">
-            {FORMATIONS.map((f) => <option key={f} value={f}>{f}</option>)}
-          </select>
-        </div>
-
-        {/* Pressing */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <label className="text-sm text-gray-400 block mb-2">Pressing Level: <span className="text-white font-bold">{currentTactic.pressing_level}</span></label>
-          <input type="range" min={1} max={10} value={currentTactic.pressing_level}
-            onChange={(e) => setParam("pressing_level", Number(e.target.value))}
-            className="w-full accent-emerald-500" />
-          <div className="flex justify-between text-xs text-gray-500"><span>1 (sit back)</span><span>10 (gegenpress)</span></div>
-        </div>
-
-        {/* Defensive Line */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <label className="text-sm text-gray-400 block mb-2">Defensive Line: <span className="text-white font-bold">{currentTactic.defensive_line}</span></label>
-          <input type="range" min={1} max={10} value={currentTactic.defensive_line}
-            onChange={(e) => setParam("defensive_line", Number(e.target.value))}
-            className="w-full accent-emerald-500" />
-          <div className="flex justify-between text-xs text-gray-500"><span>1 (deep)</span><span>10 (high)</span></div>
-        </div>
-
-        {/* Attacking Width */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <label className="text-sm text-gray-400 block mb-2">Attacking Width: <span className="text-white font-bold">{currentTactic.attacking_width}</span></label>
-          <input type="range" min={1} max={10} value={currentTactic.attacking_width}
-            onChange={(e) => setParam("attacking_width", Number(e.target.value))}
-            className="w-full accent-emerald-500" />
-          <div className="flex justify-between text-xs text-gray-500"><span>1 (narrow)</span><span>10 (wide)</span></div>
-        </div>
-
-        {/* Tempo */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <label className="text-sm text-gray-400 block mb-2">Tempo: <span className="text-white font-bold">{currentTactic.tempo}</span></label>
-          <input type="range" min={1} max={10} value={currentTactic.tempo}
-            onChange={(e) => setParam("tempo", Number(e.target.value))}
-            className="w-full accent-emerald-500" />
-          <div className="flex justify-between text-xs text-gray-500"><span>1 (slow)</span><span>10 (frantic)</span></div>
-        </div>
-
-        {/* Passing Style */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <label className="text-sm text-gray-400 block mb-2">Passing Style</label>
-          <select value={currentTactic.passing_style} onChange={(e) => setParam("passing_style", e.target.value)}
-            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-gray-200 text-sm">
-            {PASSING_STYLES.map((s) => <option key={s} value={s}>{s}</option>)}
-          </select>
-        </div>
-
-        {/* Build-up Style */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <label className="text-sm text-gray-400 block mb-2">Build-up Style</label>
-          <select value={currentTactic.build_up_style} onChange={(e) => setParam("build_up_style", e.target.value)}
-            className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-gray-200 text-sm">
-            {BUILD_UP_STYLES.map((s) => <option key={s} value={s}>{s}</option>)}
-          </select>
-        </div>
+      <div className="grid grid-cols-2 gap-4">
+        {[
+          { label: "Formation", type: "select", key: "formation", options: FORMATIONS },
+          { label: "Pressing Level", type: "range", key: "pressingLevel", min: 1, max: 10, left: "Sit back", right: "Gegenpress" },
+          { label: "Defensive Line", type: "range", key: "defensiveLine", min: 1, max: 10, left: "Deep", right: "High" },
+          { label: "Attacking Width", type: "range", key: "attackingWidth", min: 1, max: 10, left: "Narrow", right: "Wide" },
+          { label: "Tempo", type: "range", key: "tempo", min: 1, max: 10, left: "Slow", right: "Fast" },
+          { label: "Passing Style", type: "select", key: "passingStyle", options: PASSING_STYLES },
+          { label: "Build-up Style", type: "select", key: "buildUpStyle", options: BUILD_UP_STYLES },
+        ].map((f) => (
+          <div key={f.key} className="bg-white border border-stone-200 rounded-lg p-4">
+            <label className="text-sm text-stone-500 block mb-2">{f.label}
+              {f.type === "range" && <span className="text-stone-800 font-bold ml-1">{(currentTactic as any)[f.key]}</span>}
+            </label>
+            {f.type === "select" ? (
+              <select value={(currentTactic as any)[f.key]} onChange={(e) => setParam(f.key, e.target.value)}
+                className="w-full bg-stone-50 border border-stone-200 rounded px-3 py-1.5 text-sm text-stone-700">
+                {f.options?.map((o: string) => <option key={o} value={o}>{o}</option>)}
+              </select>
+            ) : (
+              <>
+                <input type="range" min={f.min} max={f.max} value={(currentTactic as any)[f.key]}
+                  onChange={(e) => setParam(f.key, Number(e.target.value))}
+                  className="w-full accent-green-700" />
+                <div className="flex justify-between text-xs text-stone-400 mt-1"><span>{f.left}</span><span>{f.right}</span></div>
+              </>
+            )}
+          </div>
+        ))}
       </div>
 
-      {/* Presets */}
-      <div className="mt-6">
-        <h3 className="text-sm text-gray-400 mb-2">Quick Presets</h3>
-        <div className="flex gap-2 flex-wrap">
-          {Object.entries(TACTIC_PRESETS).map(([name, preset]) => (
-            <button key={name}
-              onClick={() => applyPreset(preset)}
-              className="px-3 py-1.5 bg-gray-800 border border-gray-700 rounded-lg text-xs text-gray-300 hover:border-emerald-500 transition-colors">
-              {name}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* AI Analysis */}
-      {currentTactic?.id && (
-        <div className="mt-6 bg-gray-900 rounded-xl border border-gray-800 p-4">
-          <h3 className="text-sm font-semibold text-gray-400 mb-3">AI Analysis</h3>
-          <button
-            onClick={() => {
-              setAnalyzing(true);
-              api.analyzeTactic(currentTactic.id)
-                .then((r: any) => { setAnalysis(r.result); setAnalyzing(false); })
-                .catch((e: any) => { setAnalysis({ error: e.message }); setAnalyzing(false); });
-            }}
-            disabled={analyzing}
-            className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm hover:bg-emerald-500 disabled:opacity-50"
-          >
-            {analyzing ? "Analyzing..." : analysis ? "Re-analyze" : "Analyze Tactic"}
+      <div className="mt-4">
+        <span className="text-sm text-stone-400 mr-2">Presets:</span>
+        {Object.entries(TACTIC_PRESETS).map(([name, preset]) => (
+          <button key={name} onClick={() => applyPreset(preset)}
+            className="px-3 py-1 bg-white border border-stone-200 rounded text-xs text-stone-600 hover:border-green-700 mr-2 mb-2 transition-colors">
+            {name}
           </button>
+        ))}
+      </div>
+
+      {currentTactic?.id && (
+        <div className="mt-6 bg-white border border-stone-200 rounded-lg p-4">
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-base font-bold text-stone-800">AI Analysis</h3>
+            <button onClick={() => {
+              setAnalyzing(true);
+              api.analyzeTactic(currentTactic.id).then((r: any) => { setAnalysis(r.result); setAnalyzing(false); }).catch(() => setAnalyzing(false));
+            }} disabled={analyzing}
+              className="px-4 py-1.5 bg-green-700 text-white text-sm font-medium hover:bg-green-800 disabled:opacity-50">
+              {analyzing ? "Analyzing..." : analysis ? "Re-analyze" : "Analyze"}
+            </button>
+          </div>
           {analysis && !analysis.error && (
-            <div className="mt-4 space-y-3">
-              <p className="text-sm text-gray-200 italic">"{analysis.summary}"</p>
-              <span className="text-xs px-2 py-1 rounded-full bg-emerald-500/20 text-emerald-400">{analysis.style_label}</span>
-              <div className="grid grid-cols-2 gap-3 mt-2">
+            <div>
+              <p className="text-sm text-stone-700 italic mb-2">"{analysis.summary}"</p>
+              <div className="grid grid-cols-2 gap-3 text-sm">
                 <div>
-                  <h4 className="text-xs font-semibold text-emerald-400 mb-1">Strengths</h4>
-                  {analysis.strengths?.map((s: any, i: number) => (
-                    <div key={i} className="text-xs text-gray-400 mb-1"><span className="text-gray-200">{s.title}</span>: {s.description}</div>
-                  ))}
+                  <h4 className="font-semibold text-green-700 mb-1">Strengths</h4>
+                  {analysis.strengths?.map((s: any, i: number) => <p key={i} className="text-stone-500 text-xs mb-0.5"><b>{s.title}</b>: {s.description}</p>)}
                 </div>
                 <div>
-                  <h4 className="text-xs font-semibold text-red-400 mb-1">Weaknesses</h4>
-                  {analysis.weaknesses?.map((w: any, i: number) => (
-                    <div key={i} className="text-xs text-gray-400 mb-1"><span className="text-gray-200">{w.title}</span>: {w.description}</div>
-                  ))}
+                  <h4 className="font-semibold text-red-600 mb-1">Weaknesses</h4>
+                  {analysis.weaknesses?.map((w: any, i: number) => <p key={i} className="text-stone-500 text-xs mb-0.5"><b>{w.title}</b>: {w.description}</p>)}
                 </div>
-              </div>
-              <div className="text-xs text-gray-500 mt-2">
-                <p>Ideal against: {analysis.ideal_against}</p>
-                <p>Vulnerable against: {analysis.vulnerable_against}</p>
               </div>
             </div>
           )}
-          {analysis?.error && <p className="text-red-400 text-sm mt-2">{analysis.error}</p>}
         </div>
       )}
     </div>
