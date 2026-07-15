@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Sidebar } from "../components/layout/Sidebar";
+import { AppShell } from "../components/layout/AppShell";
 import { SessionProvider } from "../components/layout/SessionProvider";
 
 export const metadata: Metadata = {
@@ -13,8 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="h-full">
       <body className="h-full bg-gray-950 text-gray-100 flex">
         <SessionProvider>
-          <Sidebar />
-          <main className="flex-1 overflow-auto p-6">{children}</main>
+          <AppShell>{children}</AppShell>
         </SessionProvider>
       </body>
     </html>

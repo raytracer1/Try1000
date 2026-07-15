@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useAuthStore } from "../../stores/authStore";
 
 const NAV = [
-  { href: "/", label: "Dashboard", icon: "📊" },
+  { href: "/dashboard", label: "Dashboard", icon: "📊" },
   { href: "/tactics", label: "Tactics", icon: "⚽" },
   { href: "/simulation", label: "Simulation", icon: "▶️" },
   { href: "/settings", label: "Settings", icon: "⚙️" },

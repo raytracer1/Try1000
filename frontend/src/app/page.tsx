@@ -1,81 +1,34 @@
-"use client";
-
-import { useEffect } from "react";
 import Link from "next/link";
-import { useSimulationStore } from "../stores/simulationStore";
 
-export default function Dashboard() {
-  const { jobs, loadJobs } = useSimulationStore();
-
-  useEffect(() => { loadJobs(); }, []);
-
+export default function Homepage() {
   return (
-    <div className="max-w-5xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6">Dashboard</h1>
-
-      <div className="grid grid-cols-4 gap-4 mb-8">
+    <div className="max-w-4xl mx-auto text-center py-16">
+      <h1 className="text-5xl font-bold mb-4 tracking-tight">
+        <span className="text-emerald-400">Try</span>1000
+      </h1>
+      <p className="text-xl text-gray-400 mb-3">
+        AI-powered football tactics simulation
+      </p>
+      <p className="text-gray-500 mb-10 max-w-md mx-auto">
+        Design tactics. Simulate 1,000 matches. Analyze results. Improve your strategy.
+        No graphics — pure tactical experimentation.
+      </p>
+      <div className="grid grid-cols-3 gap-6 mb-12 max-w-2xl mx-auto text-left">
         {[
-          { label: "Win Rate", value: "—", sub: "from simulations" },
-          { label: "Avg xG", value: "—", sub: "per match" },
-          { label: "Possession", value: "—", sub: "avg %" },
-          { label: "Simulations", value: String(jobs.length), sub: "total jobs" },
-        ].map((stat) => (
-          <div key={stat.label} className="bg-gray-900 rounded-xl p-4 border border-gray-800">
-            <div className="text-sm text-gray-400">{stat.label}</div>
-            <div className="text-2xl font-bold mt-1">{stat.value}</div>
-            <div className="text-xs text-gray-500 mt-1">{stat.sub}</div>
+          { icon: "⚽", title: "Design", desc: "Choose formations, set pressing intensity, define build-up style" },
+          { icon: "▶️", title: "Simulate", desc: "Run 1 to 1,000 matches in minutes with AI-generated player logic" },
+          { icon: "📊", title: "Improve", desc: "Get AI analysis reports and optimization suggestions from match data" },
+        ].map((f) => (
+          <div key={f.title} className="bg-gray-900 rounded-xl border border-gray-800 p-5">
+            <div className="text-2xl mb-2">{f.icon}</div>
+            <h3 className="font-semibold mb-1">{f.title}</h3>
+            <p className="text-xs text-gray-400">{f.desc}</p>
           </div>
         ))}
       </div>
-
-      <div className="bg-gray-900 rounded-xl border border-gray-800 p-4">
-        <h2 className="text-lg font-semibold mb-3">Recent Simulations</h2>
-        {jobs.length === 0 ? (
-          <div className="text-center py-8 text-gray-500">
-            <p className="text-4xl mb-2">⚽</p>
-            <p>No simulations yet.</p>
-            <Link href="/simulation" className="text-emerald-400 hover:underline mt-2 inline-block">
-              Run your first simulation →
-            </Link>
-          </div>
-        ) : (
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-gray-400 border-b border-gray-800">
-                <th className="text-left py-2">Job</th>
-                <th className="text-left py-2">Matches</th>
-                <th className="text-left py-2">Status</th>
-                <th className="text-left py-2">Progress</th>
-                <th className="text-left py-2">Actions</th>
-              </tr>
-            </thead>
-            <tbody>
-              {(Array.isArray(jobs) ? jobs : []).map((job: any) => (
-                <tr key={job.id} className="border-b border-gray-800/50">
-                  <td className="py-2 text-gray-300 font-mono text-xs">{job.id?.slice(0, 8)}...</td>
-                  <td className="py-2">{job.match_count}</td>
-                  <td className="py-2">
-                    <span className={`text-xs px-2 py-0.5 rounded-full ${
-                      job.status === "completed" ? "bg-emerald-500/20 text-emerald-400" :
-                      job.status === "running" ? "bg-blue-500/20 text-blue-400" :
-                      job.status === "failed" ? "bg-red-500/20 text-red-400" :
-                      "bg-gray-500/20 text-gray-400"
-                    }`}>{job.status}</span>
-                  </td>
-                  <td className="py-2">{job.progress}%</td>
-                  <td className="py-2">
-                    {job.status === "completed" && (
-                      <Link href={`/analytics/${job.id}`} className="text-emerald-400 hover:underline text-xs">
-                        View
-                      </Link>
-                    )}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-      </div>
+      <Link href="/auth/login" className="inline-block px-8 py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-500 transition-colors">
+        Get Started
+      </Link>
     </div>
   );
 }
