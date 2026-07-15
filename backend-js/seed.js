@@ -28,19 +28,27 @@ async function seed() {
 
     const teams = [];
     for (const name of ["FC Barcelona", "Manchester City"]) {
-      const { rows: [t] } = await client.query("INSERT INTO teams (user_id, name) VALUES ($1, $2) RETURNING id", [user.id, name]);
+      const { rows: [t] } = await client.query("INSERT INTO teams (user_id, name, player_ids) VALUES ($1, $2, '[]') RETURNING id", [user.id, name]);
       teams.push(t);
     }
 
+    const teamPlayerIds = {};
+    let playerId = 0;
     for (const team of teams) {
+      teamPlayerIds[team.id] = [];
       for (let i = 0; i < FORMATION.length; i++) {
         const role = FORMATION[i];
         let attrs = { ...PLAYER_TEMPLATES[role] };
         if (team === teams[0]) { attrs.passing = Math.min(99, attrs.passing + 5); attrs.dribbling = Math.min(99, attrs.dribbling + 3); }
         else { attrs.defending = Math.min(99, attrs.defending + 5); attrs.physicality = Math.min(99, attrs.physicality + 3); }
-        await client.query("INSERT INTO players (team_id, name, number, position, attributes) VALUES ($1,$2,$3,$4,$5)",
-          [team.id, `${NAMES[role]} ${i + 1}`, i + 1, role, JSON.stringify(attrs)]);
+        const { rows: [p] } = await client.query("INSERT INTO players (user_id, name, number, position, attributes) VALUES ($1,$2,$3,$4,$5) RETURNING id",
+          [user.id, `${NAMES[role]} ${i + 1}`, i + 1, role, JSON.stringify(attrs)]);
+        teamPlayerIds[team.id].push(p.id);
       }
+    }
+    // Link players to teams
+    for (const team of teams) {
+      await client.query("UPDATE teams SET player_ids = $1 WHERE id = $2", [JSON.stringify(teamPlayerIds[team.id]), team.id]);
     }
 
     const styles = [

@@ -33,9 +33,11 @@ export const api = {
     request<any>("/teams", { method: "POST", body: JSON.stringify(data) }),
   getTeam: (id: number) => request<any>(`/teams/${id}`),
   deleteTeam: (id: number) => request<any>(`/teams/${id}`, { method: "DELETE" }),
-  addPlayer: (teamId: number, data: any) =>
-    request<any>(`/teams/${teamId}/players`, { method: "POST", body: JSON.stringify(data) }),
-  deletePlayer: (id: number) => request<any>(`/teams/players/${id}`, { method: "DELETE" }),
+  addPlayer: (data: any) =>
+    request<any>("/players", { method: "POST", body: JSON.stringify(data) }),
+  updatePlayer: (id: number, data: any) =>
+    request<any>(`/players/${id}`, { method: "PUT", body: JSON.stringify(data) }),
+  deletePlayer: (id: number) => request<any>(`/players/${id}`, { method: "DELETE" }),
 
   // Tactics
   getTactics: () => request<any[]>("/tactics"),

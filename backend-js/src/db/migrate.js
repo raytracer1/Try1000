@@ -21,11 +21,12 @@ async function createTables() {
         id SERIAL PRIMARY KEY,
         user_id INTEGER NOT NULL REFERENCES users(id),
         name VARCHAR(200) NOT NULL,
+        player_ids JSONB NOT NULL DEFAULT '[]',
         created_at TIMESTAMP DEFAULT NOW()
       );
       CREATE TABLE IF NOT EXISTS players (
         id SERIAL PRIMARY KEY,
-        team_id INTEGER NOT NULL REFERENCES teams(id),
+        user_id INTEGER NOT NULL REFERENCES users(id),
         name VARCHAR(200) NOT NULL,
         number INTEGER NOT NULL,
         position VARCHAR(10) NOT NULL,

@@ -16,12 +16,13 @@ const teams = pgTable("teams", {
   id: serial("id").primaryKey(),
   userId: integer("user_id").notNull().references(() => users.id),
   name: varchar("name", { length: 200 }).notNull(),
+  playerIds: json("player_ids").notNull().default([]),
   createdAt: timestamp("created_at").defaultNow(),
 });
 
 const players = pgTable("players", {
   id: serial("id").primaryKey(),
-  teamId: integer("team_id").notNull().references(() => teams.id),
+  userId: integer("user_id").notNull().references(() => users.id),
   name: varchar("name", { length: 200 }).notNull(),
   number: integer("number").notNull(),
   position: varchar("position", { length: 10 }).notNull(),

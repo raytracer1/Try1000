@@ -82,19 +82,37 @@ const handlers = {
   async teamList(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const teams = await ctx.db.select().from(schema.teams).where(eq(schema.teams.userId, uid));
-    for (const t of teams) t.players = await ctx.db.select().from(schema.players).where(eq(schema.players.teamId, t.id));
+    for (const t of teams) {
+      const ids = t.playerIds || [];
+      t.players = ids.length ? await ctx.db.select().from(schema.players).where(/* IN */ (() => {
+        const all = ctx.db.select().from(schema.players);
+        return all; // HACK: load all and filter below
+      })()) : [];
+      // Actually load players by IDs properly
+      if (ids.length) {
+        t.players = [];
+        const all = await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid));
+        t.players = all.filter((p: any) => ids.includes(p.id));
+      } else {
+        t.players = [];
+      }
+    }
     ctx.respond(200, teams);
   },
   async teamCreate(ctx) {
     const uid = auth(ctx); if (!uid) return;
-    const [t] = await ctx.db.insert(schema.teams).values({ userId: uid, name: ctx.parseBody().name }).returning();
+    const [t] = await ctx.db.insert(schema.teams).values({ userId: uid, name: ctx.parseBody().name, playerIds: [] }).returning();
     ctx.respond(200, { ...t, players: [] });
   },
   async teamGet(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const [t] = await ctx.db.select().from(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
     if (!t) return ctx.respond(404, {});
-    t.players = await ctx.db.select().from(schema.players).where(eq(schema.players.teamId, t.id));
+    const ids = t.playerIds || [];
+    if (ids.length) {
+      const all = await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid));
+      t.players = all.filter((p: any) => ids.includes(p.id));
+    } else { t.players = []; }
     ctx.respond(200, t);
   },
   async teamDel(ctx) {
@@ -102,12 +120,41 @@ const handlers = {
     await ctx.db.delete(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
     ctx.respond(200, { ok: true });
   },
+  // Add/remove player from team
+  async teamAddPlayer(ctx) {
+    const uid = auth(ctx); if (!uid) return;
+    const [t] = await ctx.db.select().from(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
+    if (!t) return ctx.respond(404, {});
+    const ids = [...(t.playerIds || [])];
+    if (!ids.includes(+ctx.parseBody().player_id)) ids.push(+ctx.parseBody().player_id);
+    await ctx.db.update(schema.teams).set({ playerIds: ids }).where(eq(schema.teams.id, t.id));
+    ctx.respond(200, { ok: true });
+  },
+  async teamRemovePlayer(ctx) {
+    const uid = auth(ctx); if (!uid) return;
+    const [t] = await ctx.db.select().from(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
+    if (!t) return ctx.respond(404, {});
+    const ids = (t.playerIds || []).filter((id: number) => id !== +ctx.parseBody().player_id);
+    await ctx.db.update(schema.teams).set({ playerIds: ids }).where(eq(schema.teams.id, t.id));
+    ctx.respond(200, { ok: true });
+  },
   async addPlayer(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const b = ctx.parseBody();
-    const [p] = await ctx.db.insert(schema.players).values({ teamId: +ctx.params.id, name: b.name, number: b.number, position: b.position, attributes: b.attributes || {} }).returning();
+    const [p] = await ctx.db.insert(schema.players).values({ teamId: b.team_id, name: b.name, number: b.number, position: b.position, attributes: b.attributes || {} }).returning();
     ctx.respond(200, p);
   },
+  async updatePlayer(ctx) {
+    const b = ctx.parseBody();
+    const set = {};
+    if (b.name) set[schema.players.name] = b.name;
+    if (b.number) set[schema.players.number] = b.number;
+    if (b.position) set[schema.players.position] = b.position;
+    if (b.attributes) set[schema.players.attributes] = b.attributes;
+    const [p] = await ctx.db.update(schema.players).set(set).where(eq(schema.players.id, +ctx.params.id)).returning();
+    ctx.respond(200, p);
+  },
+
   async delPlayer(ctx) {
     await ctx.db.delete(schema.players).where(eq(schema.players.id, +ctx.params.id));
     ctx.respond(200, { ok: true });
@@ -193,7 +240,9 @@ const routes = [
   ["GET","/api/v1/auth/me",handlers.me],["PUT","/api/v1/auth/settings",handlers.settings],
   ["GET","/api/v1/teams",handlers.teamList],["POST","/api/v1/teams",handlers.teamCreate],
   ["GET","/api/v1/teams/:id",handlers.teamGet],["DELETE","/api/v1/teams/:id",handlers.teamDel],
-  ["POST","/api/v1/teams/:id/players",handlers.addPlayer],["DELETE","/api/v1/teams/players/:id",handlers.delPlayer],
+  ["POST","/api/v1/teams/:id/players",handlers.teamAddPlayer],["DELETE","/api/v1/teams/:id/players",handlers.teamRemovePlayer],
+  ["POST","/api/v1/players",handlers.addPlayer],
+  ["PUT","/api/v1/players/:id",handlers.updatePlayer],["DELETE","/api/v1/players/:id",handlers.delPlayer],
   ["GET","/api/v1/tactics",handlers.tacticList],["POST","/api/v1/tactics",handlers.tacticCreate],
   ["GET","/api/v1/tactics/:id",handlers.tacticGet],["PUT","/api/v1/tactics/:id",handlers.tacticUpdate],
   ["DELETE","/api/v1/tactics/:id",handlers.tacticDel],
