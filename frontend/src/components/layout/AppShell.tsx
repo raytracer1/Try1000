@@ -14,7 +14,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Sidebar />
-      <main className="flex-1 overflow-auto p-6 bg-stone-50">{children}</main>
+      <main className="flex-1 overflow-auto p-6">{children}</main>
     </>
   );
 }

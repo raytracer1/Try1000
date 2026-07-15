@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Homepage() {
   return (
-    <div className="min-h-full flex flex-col bg-stone-50 text-stone-800">
+    <div className="min-h-full flex flex-col text-stone-800">
       <header className="bg-white border-b border-stone-200 px-8 py-4 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold tracking-tight">
           <span className="text-green-700">Try</span>1000
