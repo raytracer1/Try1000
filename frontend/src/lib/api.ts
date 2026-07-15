@@ -37,6 +37,7 @@ export const api = {
     request<any>("/players", { method: "POST", body: JSON.stringify(data) }),
   updatePlayer: (id: number, data: any) =>
     request<any>(`/players/${id}`, { method: "PUT", body: JSON.stringify(data) }),
+  getPlayers: () => request<any[]>("/players"),
   deletePlayer: (id: number) => request<any>(`/players/${id}`, { method: "DELETE" }),
 
   // Tactics

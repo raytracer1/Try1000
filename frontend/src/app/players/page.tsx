@@ -19,16 +19,14 @@ const DEFAULTS: Record<string, Record<string,number>> = {
 };
 
 export default function PlayersPage() {
-  const [teams, setTeams] = useState<any[]>([]);
+  const [players, setPlayers] = useState<any[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [editing, setEditing] = useState<number | null>(null);
   const [form, setForm] = useState({ name: "", number: "", position: "CM", attrs: {} as Record<string,number> });
 
-  const load = () => api.getTeams().then((d: any) => setTeams(Array.isArray(d) ? d : [])).catch(() => []);
+  const load = () => api.getPlayers().then((d: any) => setPlayers(Array.isArray(d) ? d : [])).catch(() => []);
 
   useEffect(() => { load(); }, []);
-
-  const allPlayers = teams.flatMap((t) => (t.players || []).map((p: any) => ({ ...p, teamName: t.name, teamId: t.id })));
 
   const openAdd = () => {
     setEditing(null);
@@ -90,13 +88,12 @@ export default function PlayersPage() {
       )}
 
       <div className="grid grid-cols-4 gap-3">
-        {allPlayers.map((p: any) => (
+        {players.map((p: any) => (
           <div key={p.id} className="bg-white border border-stone-200 rounded-lg p-3 hover:border-green-700 transition-colors">
             <div className="flex items-center justify-between mb-1">
               <div>
                 <div className="font-semibold text-sm text-stone-800">{p.name}</div>
                 <div className="text-xs text-stone-400">#{p.number} · {p.position}</div>
-                <div className="text-xs text-stone-400">{p.teamName}</div>
               </div>
               <div className="flex gap-1">
                 <button onClick={() => openEdit(p)} className="text-xs text-stone-400 hover:text-green-700">Edit</button>

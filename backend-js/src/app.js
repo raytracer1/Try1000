@@ -138,6 +138,10 @@ const handlers = {
     await ctx.db.update(schema.teams).set({ playerIds: ids }).where(eq(schema.teams.id, t.id));
     ctx.respond(200, { ok: true });
   },
+  async playerList(ctx) {
+    const uid = auth(ctx); if (!uid) return;
+    ctx.respond(200, await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid)));
+  },
   async addPlayer(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const b = ctx.parseBody();
@@ -241,7 +245,7 @@ const routes = [
   ["GET","/api/v1/teams",handlers.teamList],["POST","/api/v1/teams",handlers.teamCreate],
   ["GET","/api/v1/teams/:id",handlers.teamGet],["DELETE","/api/v1/teams/:id",handlers.teamDel],
   ["POST","/api/v1/teams/:id/players",handlers.teamAddPlayer],["DELETE","/api/v1/teams/:id/players",handlers.teamRemovePlayer],
-  ["POST","/api/v1/players",handlers.addPlayer],
+  ["GET","/api/v1/players",handlers.playerList],["POST","/api/v1/players",handlers.addPlayer],
   ["PUT","/api/v1/players/:id",handlers.updatePlayer],["DELETE","/api/v1/players/:id",handlers.delPlayer],
   ["GET","/api/v1/tactics",handlers.tacticList],["POST","/api/v1/tactics",handlers.tacticCreate],
   ["GET","/api/v1/tactics/:id",handlers.tacticGet],["PUT","/api/v1/tactics/:id",handlers.tacticUpdate],
