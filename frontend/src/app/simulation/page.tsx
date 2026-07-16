@@ -30,8 +30,21 @@ export default function SimulationPage() {
   const loadTeam = async (t: any, side: "home" | "away") => {
     const resp = await fetch(`/data/teams/${t.file}`);
     const data = await resp.json();
+    data.logo = data.logo || "";
     if (side === "home") { setHome(data); setSearchH(t.name); }
     else { setAway(data); setSearchA(t.name); }
+  };
+
+  const TeamOption = ({ t, side, logoUrl }: { t: any; side: "home" | "away"; logoUrl?: string }) => {
+    const sel = side === "home" ? home : away;
+    return (
+      <button onClick={() => loadTeam(t, side)}
+        className={`flex items-center gap-2 w-full text-left px-2 py-1 text-xs border-b border-stone-100 hover:bg-green-50 ${sel?.name === t.name ? "bg-green-100" : ""}`}>
+        {logoUrl ? (logoUrl.startsWith("http") ? <img src={logoUrl} alt="" referrerPolicy="no-referrer" className="w-4 h-4 object-contain" /> : <span className="text-sm">{logoUrl}</span>) : <div className="w-4 h-4" />}
+        <span className="flex-1 truncate">{t.name}</span>
+        <span className="text-stone-400">{t.players}p</span>
+      </button>
+    );
   };
 
   const handleRun = async () => {
@@ -72,16 +85,25 @@ export default function SimulationPage() {
   };
 
   const PlayerList = ({ data }: { data: any }) => (
-    <div className="text-xs text-stone-500 max-h-40 overflow-y-auto">
-      {(data?.players || []).slice(0, 11).map((p: any) => (
-        <div key={p.name} className="flex items-center justify-between py-1 border-b border-stone-100">
-          <div className="flex items-center gap-2">
-            {p.image ? <img src={p.image} alt="" referrerPolicy="no-referrer" className="w-6 h-6 rounded-full object-cover bg-stone-200" /> : <div className="w-6 h-6 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-[10px]">{p.name.charAt(0)}</div>}
-            <span>{p.name}</span>
-          </div>
-          <span className="text-stone-400">{p.position} · {p.overall}</span>
+    <div>
+      {data && (
+        <div className="flex items-center gap-2 mb-2">
+          {data.logo && (data.logo.startsWith("http") ? <img src={data.logo} alt="" referrerPolicy="no-referrer" className="w-5 h-5 object-contain" /> : <span className="text-lg">{data.logo}</span>)}
+          <span className="text-sm font-semibold text-stone-700">{data.name}</span>
+          <span className="text-xs text-stone-400">({data.type})</span>
         </div>
-      ))}
+      )}
+      <div className="text-xs text-stone-500 max-h-40 overflow-y-auto">
+        {(data?.players || []).slice(0, 11).map((p: any) => (
+          <div key={p.name} className="flex items-center justify-between py-1 border-b border-stone-100">
+            <div className="flex items-center gap-2">
+              {p.image ? <img src={p.image} alt="" referrerPolicy="no-referrer" className="w-6 h-6 rounded-full object-cover bg-stone-200" /> : <div className="w-6 h-6 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-[10px]">{p.name.charAt(0)}</div>}
+              <span>{p.name}</span>
+            </div>
+            <span className="text-stone-400">{p.position} · {p.overall}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 
@@ -103,10 +125,7 @@ export default function SimulationPage() {
           </div>
           <div className="max-h-40 overflow-y-auto mb-2 border rounded">
             {(filterH === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchH.toLowerCase())).map((t: any) => (
-              <button key={t.file} onClick={() => loadTeam(t, "home")}
-                className={`block w-full text-left px-2 py-1 text-xs border-b border-stone-100 hover:bg-green-50 ${home?.name === t.name ? "bg-green-100" : ""}`}>
-                {t.name} ({t.players}p)
-              </button>
+              <TeamOption key={t.file} t={t} side="home" logoUrl={t.logo} />
             ))}
           </div>
           <PlayerList data={home} />
@@ -130,10 +149,7 @@ export default function SimulationPage() {
           </div>
           <div className="max-h-40 overflow-y-auto mb-2 border rounded">
             {(filterA === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchA.toLowerCase())).map((t: any) => (
-              <button key={t.file} onClick={() => loadTeam(t, "away")}
-                className={`block w-full text-left px-2 py-1 text-xs border-b border-stone-100 hover:bg-green-50 ${away?.name === t.name ? "bg-green-100" : ""}`}>
-                {t.name} ({t.players}p)
-              </button>
+              <TeamOption key={t.file} t={t} side="away" logoUrl={t.logo} />
             ))}
           </div>
           <PlayerList data={away} />
