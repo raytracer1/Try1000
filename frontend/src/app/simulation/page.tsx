@@ -72,10 +72,13 @@ export default function SimulationPage() {
   };
 
   const PlayerList = ({ data }: { data: any }) => (
-    <div className="text-xs text-stone-500 max-h-32 overflow-y-auto">
+    <div className="text-xs text-stone-500 max-h-40 overflow-y-auto">
       {(data?.players || []).slice(0, 11).map((p: any) => (
-        <div key={p.name} className="flex justify-between py-0.5 border-b border-stone-100">
-          <span>{p.name}</span>
+        <div key={p.name} className="flex items-center justify-between py-1 border-b border-stone-100">
+          <div className="flex items-center gap-2">
+            {p.image ? <img src={p.image} alt="" referrerPolicy="no-referrer" className="w-6 h-6 rounded-full object-cover bg-stone-200" /> : <div className="w-6 h-6 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-[10px]">{p.name.charAt(0)}</div>}
+            <span>{p.name}</span>
+          </div>
           <span className="text-stone-400">{p.position} · {p.overall}</span>
         </div>
       ))}
