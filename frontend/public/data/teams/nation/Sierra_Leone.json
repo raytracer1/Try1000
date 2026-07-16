@@ -1,6 +1,7 @@
 {
   "name": "Sierra Leone",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "21 K. Kamara",
@@ -204,6 +205,23 @@
         "stamina": 71,
         "awareness": 58,
         "composure": 65
+      }
+    },
+    {
+      "name": "16 R. Strasser",
+      "number": 13,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 63,
+        "shooting": 50,
+        "passing": 62,
+        "dribbling": 60,
+        "defending": 66,
+        "physicality": 78,
+        "stamina": 79,
+        "awareness": 61,
+        "composure": 70
       }
     }
   ]

@@ -1,0 +1,419 @@
+{
+  "name": "Club Atlético Unión",
+  "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/7228/30.png",
+  "players": [
+    {
+      "name": "Gastón Claudio Corvalán -",
+      "number": 1,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/272/25_120.png"
+    },
+    {
+      "name": "Franco Emanuel Pardo -",
+      "number": 2,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/518/25_120.png"
+    },
+    {
+      "name": "Mauricio Leonel Martínez -",
+      "number": 3,
+      "position": "CDM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/226/798/25_120.png"
+    },
+    {
+      "name": "Thiago Gastón Cardozo Brugman -",
+      "number": 4,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/253/271/25_120.png"
+    },
+    {
+      "name": "Mauro Rodolfo Pittón -",
+      "number": 5,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/228/961/25_120.png"
+    },
+    {
+      "name": "Franco Rodrigo Fragapane -",
+      "number": 6,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/207/440/25_120.png"
+    },
+    {
+      "name": "Andrés Nicolás Paz -",
+      "number": 7,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/969/25_120.png"
+    },
+    {
+      "name": "Mateo Del Blanco -",
+      "number": 8,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/273/028/25_120.png"
+    },
+    {
+      "name": "Bruno Alejandro Pittón -",
+      "number": 9,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/070/25_120.png"
+    },
+    {
+      "name": "Marcelo Luciano Estigarribia -",
+      "number": 10,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/619/25_120.png"
+    },
+    {
+      "name": "Julián Eduardo Palacios -",
+      "number": 11,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/585/25_120.png"
+    },
+    {
+      "name": "Jerónimo Dómina -",
+      "number": 12,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/273/051/25_120.png"
+    },
+    {
+      "name": "Lucas Emanuel Gamba -",
+      "number": 13,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/226/765/25_120.png"
+    },
+    {
+      "name": "Matías Nicolás Tagliamonte -",
+      "number": 14,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/093/25_120.png"
+    },
+    {
+      "name": "Lautaro Valentín Vargas -",
+      "number": 15,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/278/430/25_120.png"
+    },
+    {
+      "name": "Valentín Demian Fascendini -",
+      "number": 16,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/279/845/25_120.png"
+    },
+    {
+      "name": "Francisco Joel Gerometta -",
+      "number": 17,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/255/886/25_120.png"
+    },
+    {
+      "name": "Franco Lionel Godoy Milessi -",
+      "number": 18,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/482/25_120.png"
+    },
+    {
+      "name": "Lionel Verde -",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/277/837/25_120.png"
+    },
+    {
+      "name": "Alessio Ezequiel Naim Ham -",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/222/417/25_120.png"
+    },
+    {
+      "name": "Gastón Alberto Arturia -",
+      "number": 21,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/077/375/25_120.png"
+    },
+    {
+      "name": "José Enrique Angulo Caicedo -",
+      "number": 22,
+      "position": "ST",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/549/25_120.png"
+    },
+    {
+      "name": "Juan Pablo Ludueña -",
+      "number": 23,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/273/079/25_120.png"
+    }
+  ]
+}

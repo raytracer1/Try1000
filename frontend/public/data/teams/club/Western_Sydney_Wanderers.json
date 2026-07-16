@@ -1,312 +1,275 @@
 {
   "name": "Western Sydney Wanderers",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/1264/30.png",
   "players": [
     {
-      "name": "R. Williams",
+      "name": "Juan Mata -",
       "number": 1,
-      "position": "CB",
-      "overall": 70,
+      "position": "CAM",
+      "overall": 71,
       "attributes": {
-        "pace": 61,
-        "shooting": 49,
-        "passing": 68,
-        "dribbling": 66,
-        "defending": 68,
-        "physicality": 81,
-        "stamina": 76,
-        "awareness": 70,
-        "composure": 73
-      }
-    },
-    {
-      "name": "20 A. Meier",
-      "number": 2,
-      "position": "ST",
-      "overall": 70,
-      "attributes": {
-        "pace": 34,
-        "shooting": 74,
-        "passing": 65,
-        "dribbling": 61,
-        "defending": 44,
-        "physicality": 85,
-        "stamina": 42,
-        "awareness": 70,
-        "composure": 75
-      }
-    },
-    {
-      "name": "K. Baccus",
-      "number": 3,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 71,
-        "shooting": 41,
-        "passing": 68,
-        "dribbling": 66,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 59,
-        "stamina": 85,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 63
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/178/088/25_120.png"
     },
     {
-      "name": "S. Ugarković",
+      "name": "Nicolas Petar Milanović -",
+      "number": 2,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/257/326/25_120.png"
+    },
+    {
+      "name": "Brandon Joel Gaetano Borrello -",
+      "number": 3,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/220/708/25_120.png"
+    },
+    {
+      "name": "Lawrence Andrew Kingsley Thomas -",
       "number": 4,
-      "position": "CM",
+      "position": "GK",
       "overall": 69,
       "attributes": {
-        "pace": 71,
-        "shooting": 38,
-        "passing": 69,
-        "dribbling": 67,
-        "defending": 66,
-        "physicality": 75,
-        "stamina": 87,
-        "awareness": 65,
-        "composure": 65
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/203/423/25_120.png"
     },
     {
-      "name": "T. Hemed",
+      "name": "Bozhidar Kraev -",
       "number": 5,
-      "position": "CM",
-      "overall": 69,
+      "position": "LW",
+      "overall": 68,
       "attributes": {
-        "pace": 49,
-        "shooting": 74,
-        "passing": 62,
-        "dribbling": 63,
-        "defending": 37,
-        "physicality": 80,
-        "stamina": 64,
-        "awareness": 72,
-        "composure": 66
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/458/25_120.png"
     },
     {
-      "name": "21 G. Dorrans",
+      "name": "Jeong Tae Wook -",
       "number": 6,
-      "position": "CM",
+      "position": "CB",
       "overall": 67,
       "attributes": {
-        "pace": 57,
-        "shooting": 59,
-        "passing": 68,
-        "dribbling": 64,
-        "defending": 55,
-        "physicality": 66,
-        "stamina": 66,
-        "awareness": 69,
-        "composure": 77
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/576/25_120.png"
     },
     {
-      "name": "T. Antonis",
+      "name": "Joshua Brillante -",
       "number": 7,
-      "position": "CM",
-      "overall": 66,
+      "position": "CDM",
+      "overall": 65,
       "attributes": {
-        "pace": 63,
-        "shooting": 60,
-        "passing": 66,
-        "dribbling": 66,
-        "defending": 62,
-        "physicality": 66,
-        "stamina": 64,
-        "awareness": 65,
-        "composure": 71
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/203/308/25_120.png"
     },
     {
-      "name": "A. Traoré",
+      "name": "Carl Marcus Christer Antonsson -",
       "number": 8,
-      "position": "CM",
-      "overall": 66,
+      "position": "ST",
+      "overall": 65,
       "attributes": {
-        "pace": 72,
-        "shooting": 44,
-        "passing": 63,
-        "dribbling": 60,
-        "defending": 62,
-        "physicality": 77,
-        "stamina": 78,
-        "awareness": 66,
-        "composure": 63
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/206/147/25_120.png"
     },
     {
-      "name": "Z. Gordon",
+      "name": "Alexander Joseph Gersbach -",
       "number": 9,
-      "position": "CB",
-      "overall": 66,
+      "position": "LB",
+      "overall": 64,
       "attributes": {
-        "pace": 77,
-        "shooting": 31,
-        "passing": 54,
-        "dribbling": 62,
-        "defending": 65,
-        "physicality": 79,
-        "stamina": 81,
-        "awareness": 60,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/297/25_120.png"
     },
     {
-      "name": "J. Troisi",
+      "name": "Jack Clisby -",
       "number": 10,
-      "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 61,
-        "shooting": 60,
-        "passing": 71,
-        "dribbling": 63,
-        "defending": 55,
-        "physicality": 71,
-        "stamina": 76,
-        "awareness": 64,
-        "composure": 65
-      }
-    },
-    {
-      "name": "21 S. McDonald",
-      "number": 11,
-      "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 64,
-        "shooting": 62,
-        "passing": 66,
-        "dribbling": 66,
-        "defending": 46,
-        "physicality": 71,
-        "stamina": 65,
-        "awareness": 67,
-        "composure": 68
-      }
-    },
-    {
-      "name": "B. Ibini",
-      "number": 12,
-      "position": "CM",
+      "position": "LB",
       "overall": 63,
       "attributes": {
-        "pace": 84,
-        "shooting": 59,
-        "passing": 62,
-        "dribbling": 67,
-        "defending": 42,
-        "physicality": 82,
-        "stamina": 31,
-        "awareness": 58,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/213/093/25_120.png"
     },
     {
-      "name": "T. Russell",
+      "name": "Joshua James Laws -",
+      "number": 11,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/259/459/25_120.png"
+    },
+    {
+      "name": "Gabriel Isaac Cléùr -",
+      "number": 12,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/240/710/25_120.png"
+    },
+    {
+      "name": "Aidan Simmons -",
       "number": 13,
       "position": "RB",
-      "overall": 63,
+      "overall": 62,
       "attributes": {
-        "pace": 75,
-        "shooting": 39,
-        "passing": 59,
-        "dribbling": 58,
-        "defending": 56,
-        "physicality": 61,
-        "stamina": 80,
-        "awareness": 55,
-        "composure": 53
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/737/25_120.png"
     },
     {
-      "name": "21 S. Cox",
+      "name": "Jordan Thomas Holmes -",
       "number": 14,
-      "position": "CM",
-      "overall": 62,
+      "position": "GK",
+      "overall": 60,
       "attributes": {
-        "pace": 55,
-        "shooting": 64,
-        "passing": 60,
-        "dribbling": 61,
-        "defending": 31,
-        "physicality": 72,
-        "stamina": 79,
-        "awareness": 60,
-        "composure": 62
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/172/25_120.png"
     },
     {
-      "name": "21 B. Kamau",
+      "name": "Mohamed Hussein Reda Al Khafaji Al Taay -",
       "number": 15,
-      "position": "CM",
-      "overall": 62,
-      "attributes": {
-        "pace": 88,
-        "shooting": 55,
-        "passing": 55,
-        "dribbling": 61,
-        "defending": 57,
-        "physicality": 44,
-        "stamina": 67,
-        "awareness": 51,
-        "composure": 53
-      }
-    },
-    {
-      "name": "T. Aquilina",
-      "number": 16,
-      "position": "LB",
-      "overall": 62,
-      "attributes": {
-        "pace": 82,
-        "shooting": 20,
-        "passing": 59,
-        "dribbling": 60,
-        "defending": 60,
-        "physicality": 59,
-        "stamina": 78,
-        "awareness": 50,
-        "composure": 47
-      }
-    },
-    {
-      "name": "M. Natta",
-      "number": 17,
-      "position": "CB",
+      "position": "CDM",
       "overall": 60,
       "attributes": {
-        "pace": 77,
-        "shooting": 30,
-        "passing": 61,
-        "dribbling": 53,
-        "defending": 60,
-        "physicality": 76,
-        "stamina": 72,
-        "awareness": 55,
-        "composure": 51
-      }
-    },
-    {
-      "name": "R. Najjarine",
-      "number": 18,
-      "position": "CM",
-      "overall": 60,
-      "attributes": {
-        "pace": 65,
-        "shooting": 48,
-        "passing": 63,
-        "dribbling": 67,
-        "defending": 42,
-        "physicality": 56,
-        "stamina": 41,
-        "awareness": 53,
-        "composure": 58
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/176/25_120.png"
     }
   ]
 }

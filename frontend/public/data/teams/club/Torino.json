@@ -1,0 +1,419 @@
+{
+  "name": "Torino",
+  "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/613/30.png",
+  "players": [
+    {
+      "name": "Duván Esteban Zapata Banguero -",
+      "number": 1,
+      "position": "ST",
+      "overall": 82,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/215/333/25_120.png"
+    },
+    {
+      "name": "Nikola Vlašić -",
+      "number": 2,
+      "position": "CAM",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/095/25_120.png"
+    },
+    {
+      "name": "Samuele Ricci -",
+      "number": 3,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/253/473/25_120.png"
+    },
+    {
+      "name": "Perr Schuurs -",
+      "number": 4,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/854/25_120.png"
+    },
+    {
+      "name": "Vanja Milinković-Savić -",
+      "number": 5,
+      "position": "GK",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/836/25_120.png"
+    },
+    {
+      "name": "Cristiano Biraghi -",
+      "number": 6,
+      "position": "LB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/201/389/25_120.png"
+    },
+    {
+      "name": "Ivan Ilić -",
+      "number": 7,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/683/25_120.png"
+    },
+    {
+      "name": "Eljif Elmas -",
+      "number": 8,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/390/25_120.png"
+    },
+    {
+      "name": "Arnaldo Antonio Sanabria Ayala -",
+      "number": 9,
+      "position": "ST",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/219/932/25_120.png"
+    },
+    {
+      "name": "Saúl Coco -",
+      "number": 10,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/265/650/25_120.png"
+    },
+    {
+      "name": "Ché Zach Everton Fred Adams -",
+      "number": 11,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/226/093/25_120.png"
+    },
+    {
+      "name": "Guillermo Alfonso Maripán Loaysa -",
+      "number": 12,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/219/145/25_120.png"
+    },
+    {
+      "name": "Adrien Tamèze Aoutsa -",
+      "number": 13,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/213/242/25_120.png"
+    },
+    {
+      "name": "Adam Masina -",
+      "number": 14,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/225/410/25_120.png"
+    },
+    {
+      "name": "Borna Sosa -",
+      "number": 15,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/388/25_120.png"
+    },
+    {
+      "name": "Valentino Lando Lazaro -",
+      "number": 16,
+      "position": "RW",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/147/25_120.png"
+    },
+    {
+      "name": "Karol Linetty -",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/408/25_120.png"
+    },
+    {
+      "name": "Marcus Holmgren Pedersen -",
+      "number": 18,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/481/25_120.png"
+    },
+    {
+      "name": "Yann Dorgelès Isaac Karamoh -",
+      "number": 19,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/826/25_120.png"
+    },
+    {
+      "name": "Cesare Casadei -",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/273/883/25_120.png"
+    },
+    {
+      "name": "Sebastian Wiktor Walukiewicz -",
+      "number": 21,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/497/25_120.png"
+    },
+    {
+      "name": "Alberto Andrea Paleari -",
+      "number": 22,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/235/740/25_120.png"
+    },
+    {
+      "name": "Amine Salama -",
+      "number": 23,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/267/465/25_120.png"
+    }
+  ]
+}

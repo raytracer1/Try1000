@@ -1,6 +1,7 @@
 {
   "name": "Curacao",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "E. Room",
@@ -8,10 +9,11 @@
       "position": "GK",
       "overall": 74,
       "attributes": {
-        "pace": 76,
-        "defending": 77,
-        "passing": 69,
-        "dribbling": 71,
+        "pace": 44,
+        "shooting": 16,
+        "passing": 44,
+        "dribbling": 12,
+        "defending": 17,
         "physicality": 65,
         "stamina": 34,
         "awareness": 74,

@@ -1,0 +1,402 @@
+{
+  "name": "Al Ahli SFC",
+  "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/9908/30.png",
+  "players": [
+    {
+      "name": "Riyad Mahrez -",
+      "number": 1,
+      "position": "RW",
+      "overall": 85,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/204/485/25_120.png"
+    },
+    {
+      "name": "Ibañez -",
+      "number": 2,
+      "position": "CB",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/247/257/25_120.png"
+    },
+    {
+      "name": "Franck Yannick Kessié -",
+      "number": 3,
+      "position": "CDM",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/230/938/25_120.png"
+    },
+    {
+      "name": "Galeno -",
+      "number": 4,
+      "position": "LW",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/482/25_120.png"
+    },
+    {
+      "name": "Édouard Osoque Mendy -",
+      "number": 5,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/234/642/25_120.png"
+    },
+    {
+      "name": "Ivan Benjamin Elijah Toney -",
+      "number": 6,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/212/228/25_120.png"
+    },
+    {
+      "name": "Roberto Firmino -",
+      "number": 7,
+      "position": "CAM",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/201/942/25_120.png"
+    },
+    {
+      "name": "Gabri Veiga -",
+      "number": 8,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/729/25_120.png"
+    },
+    {
+      "name": "Merih Demiral -",
+      "number": 9,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/160/25_120.png"
+    },
+    {
+      "name": "Firas Tariq Nasser Al Buraikan -",
+      "number": 10,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/545/25_120.png"
+    },
+    {
+      "name": "Ezgjan Alioski -",
+      "number": 11,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/206/006/25_120.png"
+    },
+    {
+      "name": "Alexsander -",
+      "number": 12,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/074/588/25_120.png"
+    },
+    {
+      "name": "Ali Majrashi -",
+      "number": 13,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/506/25_120.png"
+    },
+    {
+      "name": "Matteo Dams -",
+      "number": 14,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/074/411/25_120.png"
+    },
+    {
+      "name": "Abdullah Khalid Mohammed Al Ammar -",
+      "number": 15,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/225/600/25_120.png"
+    },
+    {
+      "name": "Ziyad Mubarak Al Johani -",
+      "number": 16,
+      "position": "CDM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/263/182/25_120.png"
+    },
+    {
+      "name": "Mohammed Abdullah Eid Al Majhad -",
+      "number": 17,
+      "position": "CDM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/240/463/25_120.png"
+    },
+    {
+      "name": "Saad Yaslam Balobaid -",
+      "number": 18,
+      "position": "LB",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/010/25_120.png"
+    },
+    {
+      "name": "Sumayhan Dhaidan Al Nabit Al Baqaawi -",
+      "number": 19,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/240/068/25_120.png"
+    },
+    {
+      "name": "Fahad Al Rashidi -",
+      "number": 20,
+      "position": "RW",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/245/25_120.png"
+    },
+    {
+      "name": "Bassam Mohammed Al Hurayji -",
+      "number": 21,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/261/190/25_120.png"
+    },
+    {
+      "name": "Eid Mohammed Saeed Al Muwallad -",
+      "number": 22,
+      "position": "CDM",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/275/561/25_120.png"
+    }
+  ]
+}

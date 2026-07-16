@@ -1,395 +1,418 @@
 {
   "name": "Sweden",
   "type": "nation",
+  "logo": "https://cdn.sofifa.net/meta/team/18564/30.png",
   "players": [
     {
-      "name": "Z. Ibrahimović",
+      "name": "Viktor Einar Gyökeres -",
       "number": 1,
-      "position": "CM",
-      "overall": 84,
+      "position": "ST",
+      "overall": 86,
       "attributes": {
-        "pace": 66,
-        "shooting": 86,
-        "passing": 80,
-        "dribbling": 78,
-        "defending": 37,
-        "physicality": 87,
-        "stamina": 52,
-        "awareness": 83,
-        "composure": 90
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/651/25_120.png"
     },
     {
-      "name": "A. Isak",
+      "name": "Alexander Isak -",
       "number": 2,
       "position": "ST",
-      "overall": 82,
+      "overall": 86,
       "attributes": {
-        "pace": 85,
-        "shooting": 83,
-        "passing": 79,
-        "dribbling": 79,
-        "defending": 21,
-        "physicality": 75,
-        "stamina": 70,
-        "awareness": 81,
-        "composure": 77
-      }
-    },
-    {
-      "name": "D. Kulusevski",
-      "number": 3,
-      "position": "CM",
-      "overall": 81,
-      "attributes": {
-        "pace": 83,
+        "pace": 70,
         "shooting": 70,
-        "passing": 79,
-        "dribbling": 85,
-        "defending": 64,
-        "physicality": 77,
-        "stamina": 85,
-        "awareness": 80,
-        "composure": 83
-      }
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/233/731/25_120.png"
     },
     {
-      "name": "E. Forsberg",
-      "number": 4,
-      "position": "CM",
-      "overall": 81,
+      "name": "Dejan Kulusevski -",
+      "number": 3,
+      "position": "CAM",
+      "overall": 84,
       "attributes": {
-        "pace": 68,
-        "shooting": 74,
-        "passing": 86,
-        "dribbling": 83,
-        "defending": 27,
-        "physicality": 59,
-        "stamina": 69,
-        "awareness": 83,
-        "composure": 79
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/247/394/25_120.png"
     },
     {
-      "name": "V. Lindelöf",
-      "number": 5,
-      "position": "CM",
+      "name": "Anthony David Junior Elanga -",
+      "number": 4,
+      "position": "RW",
       "overall": 80,
       "attributes": {
-        "pace": 65,
-        "shooting": 42,
-        "passing": 79,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 81,
-        "physicality": 76,
-        "stamina": 77,
-        "awareness": 83,
-        "composure": 83
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/257/470/25_120.png"
     },
     {
-      "name": "18 K. Källström",
+      "name": "Isak Malcolm Kwaku Hien -",
+      "number": 5,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/697/25_120.png"
+    },
+    {
+      "name": "Hugo Emanuel Larsson -",
       "number": 6,
       "position": "CM",
       "overall": 77,
       "attributes": {
-        "pace": 37,
-        "shooting": 62,
-        "passing": 80,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 62,
-        "physicality": 78,
-        "stamina": 62,
-        "awareness": 76,
-        "composure": 75
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/268/896/25_120.png"
     },
     {
-      "name": "L. Augustinsson",
+      "name": "Gabriel Gudmundsson -",
       "number": 7,
-      "position": "CM",
-      "overall": 76,
+      "position": "LB",
+      "overall": 77,
       "attributes": {
-        "pace": 61,
-        "shooting": 55,
-        "passing": 74,
-        "dribbling": 73,
-        "defending": 76,
-        "physicality": 65,
-        "stamina": 87,
-        "awareness": 73,
-        "composure": 74
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/822/25_120.png"
     },
     {
-      "name": "V. Claesson",
+      "name": "Niclas Eliasson Santana -",
       "number": 8,
       "position": "RW",
-      "overall": 76,
+      "overall": 77,
       "attributes": {
-        "pace": 76,
-        "shooting": 76,
-        "passing": 75,
-        "dribbling": 74,
-        "defending": 49,
-        "physicality": 72,
-        "stamina": 88,
-        "awareness": 77,
-        "composure": 77
-      }
-    },
-    {
-      "name": "A. Ekdal",
-      "number": 9,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 44,
-        "shooting": 60,
-        "passing": 80,
-        "dribbling": 74,
-        "defending": 72,
-        "physicality": 71,
-        "stamina": 82,
-        "awareness": 74,
-        "composure": 76
-      }
-    },
-    {
-      "name": "D. Moberg Karlsson",
-      "number": 10,
-      "position": "RW",
-      "overall": 76,
-      "attributes": {
-        "pace": 90,
-        "shooting": 71,
-        "passing": 69,
-        "dribbling": 79,
-        "defending": 24,
-        "physicality": 59,
-        "stamina": 72,
-        "awareness": 75,
-        "composure": 74
-      }
-    },
-    {
-      "name": "R. Olsen",
-      "number": 11,
-      "position": "GK",
-      "overall": 76,
-      "attributes": {
-        "pace": 77,
-        "defending": 77,
-        "passing": 75,
-        "dribbling": 75,
-        "physicality": 75,
-        "stamina": 37,
-        "awareness": 71,
-        "composure": 45
-      }
-    },
-    {
-      "name": "K. Olsson",
-      "number": 12,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 75,
-        "shooting": 65,
-        "passing": 79,
-        "dribbling": 75,
-        "defending": 62,
-        "physicality": 54,
-        "stamina": 80,
-        "awareness": 72,
-        "composure": 78
-      }
-    },
-    {
-      "name": "J. Karlsson",
-      "number": 13,
-      "position": "LW",
-      "overall": 75,
-      "attributes": {
-        "pace": 80,
-        "shooting": 72,
-        "passing": 68,
-        "dribbling": 79,
-        "defending": 36,
-        "physicality": 42,
-        "stamina": 78,
-        "awareness": 69,
-        "composure": 73
-      }
-    },
-    {
-      "name": "M. Berg",
-      "number": 14,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 71,
-        "shooting": 77,
-        "passing": 72,
-        "dribbling": 72,
-        "defending": 33,
-        "physicality": 76,
-        "stamina": 67,
-        "awareness": 75,
-        "composure": 75
-      }
-    },
-    {
-      "name": "P. Jansson",
-      "number": 15,
-      "position": "CB",
-      "overall": 75,
-      "attributes": {
-        "pace": 61,
-        "shooting": 29,
-        "passing": 67,
-        "dribbling": 60,
-        "defending": 76,
-        "physicality": 86,
-        "stamina": 69,
-        "awareness": 75,
-        "composure": 75
-      }
-    },
-    {
-      "name": "R. Quaison",
-      "number": 16,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 66,
-        "shooting": 75,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 79,
-        "defending": 39,
-        "physicality": 72,
-        "stamina": 78,
-        "awareness": 79,
-        "composure": 76
-      }
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/220/969/25_120.png"
     },
     {
-      "name": "S. Andersson",
-      "number": 17,
+      "name": "Carl Anders Theodor Starfelt -",
+      "number": 9,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/220/821/25_120.png"
+    },
+    {
+      "name": "Lucas Erik Holger Bergvall -",
+      "number": 10,
       "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/926/25_120.png"
+    },
+    {
+      "name": "Victor Jörgen Nilsson Lindelöf -",
+      "number": 11,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/221/660/25_120.png"
+    },
+    {
+      "name": "Algot Sebastian Nanasi -",
+      "number": 12,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/256/782/25_120.png"
+    },
+    {
+      "name": "Emil Alfons Holm -",
+      "number": 13,
+      "position": "RB",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/656/25_120.png"
+    },
+    {
+      "name": "Jesper Karlström -",
+      "number": 14,
+      "position": "CDM",
       "overall": 74,
       "attributes": {
-        "pace": 55,
-        "shooting": 77,
-        "passing": 71,
-        "dribbling": 69,
-        "defending": 30,
-        "physicality": 81,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 75,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/214/658/25_120.png"
     },
     {
-      "name": "F. Helander",
+      "name": "Håkan Gustaf Nilsson -",
+      "number": 15,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/223/933/25_120.png"
+    },
+    {
+      "name": "Robin Patrick Olsen -",
+      "number": 16,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/207/557/25_120.png"
+    },
+    {
+      "name": "Viktor Tobias Johansson -",
+      "number": 17,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/643/25_120.png"
+    },
+    {
+      "name": "Anton János Jönsson Salétros -",
       "number": 18,
       "position": "CM",
-      "overall": 74,
+      "overall": 73,
       "attributes": {
-        "pace": 47,
-        "shooting": 28,
-        "passing": 58,
-        "dribbling": 52,
-        "defending": 76,
-        "physicality": 85,
-        "stamina": 63,
-        "awareness": 69,
-        "composure": 63
-      }
-    },
-    {
-      "name": "K. Nordfeldt",
-      "number": 19,
-      "position": "GK",
-      "overall": 74,
-      "attributes": {
-        "pace": 73,
-        "defending": 75,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 74,
-        "physicality": 73,
-        "stamina": 32,
-        "awareness": 75,
-        "composure": 50
-      }
-    },
-    {
-      "name": "G. Gudmundsson",
-      "number": 20,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 88,
-        "shooting": 59,
-        "passing": 69,
-        "dribbling": 75,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 64,
-        "stamina": 76,
-        "awareness": 67,
-        "composure": 63
-      }
-    },
-    {
-      "name": "M. Svanberg",
-      "number": 21,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 79,
-        "shooting": 64,
-        "passing": 78,
-        "dribbling": 76,
-        "defending": 67,
-        "physicality": 68,
-        "stamina": 72,
-        "awareness": 66,
-        "composure": 73
-      }
-    },
-    {
-      "name": "K. Sema",
-      "number": 22,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 79,
-        "shooting": 63,
-        "passing": 73,
-        "dribbling": 76,
-        "defending": 66,
         "physicality": 70,
-        "stamina": 72,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 62
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/219/951/25_120.png"
     },
     {
-      "name": "E. Krafth",
-      "number": 23,
+      "name": "Yasin Abbas Ayari -",
+      "number": 19,
       "position": "CM",
-      "overall": 73,
+      "overall": 72,
       "attributes": {
-        "pace": 68,
-        "shooting": 56,
-        "passing": 69,
-        "dribbling": 69,
-        "defending": 74,
-        "physicality": 72,
-        "stamina": 72,
-        "awareness": 74,
-        "composure": 72
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/257/400/25_120.png"
+    },
+    {
+      "name": "Hjalmar Ekdal -",
+      "number": 20,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/316/25_120.png"
+    },
+    {
+      "name": "Samuel Elias Dahl -",
+      "number": 21,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/277/252/25_120.png"
+    },
+    {
+      "name": "Oliver Lukas Dozae Nnonyelu Dovin -",
+      "number": 22,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/255/976/25_120.png"
+    },
+    {
+      "name": "Erik Benjamin Nygren -",
+      "number": 23,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/646/25_120.png"
     }
   ]
 }

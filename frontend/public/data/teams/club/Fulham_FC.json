@@ -1,0 +1,420 @@
+{
+  "name": "Fulham FC",
+  "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/11/30.png",
+  "players": [
+    {
+      "name": "Antonee Robinson -",
+      "number": 1,
+      "position": "LB",
+      "overall": 82,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/348/25_120.png"
+    },
+    {
+      "name": "Bernd Leno -",
+      "number": 2,
+      "position": "GK",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/192/563/25_120.png"
+    },
+    {
+      "name": "Alexander Chuka Iwobi -",
+      "number": 3,
+      "position": "LW",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/213/655/25_120.png"
+    },
+    {
+      "name": "Sander Gard Bolin Berge -",
+      "number": 4,
+      "position": "CDM",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/228/092/25_120.png"
+    },
+    {
+      "name": "Joachim Christian Andersen -",
+      "number": 5,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/221/25_120.png"
+    },
+    {
+      "name": "Calvin Bassey Ughelumba -",
+      "number": 6,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/436/25_120.png"
+    },
+    {
+      "name": "Saša Lukić -",
+      "number": 7,
+      "position": "CDM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/699/25_120.png"
+    },
+    {
+      "name": "Kenny Joelle Tete -",
+      "number": 8,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/216/266/25_120.png"
+    },
+    {
+      "name": "Emile Smith Rowe -",
+      "number": 9,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/240/273/25_120.png"
+    },
+    {
+      "name": "Andreas Pereira -",
+      "number": 10,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/208/450/25_120.png"
+    },
+    {
+      "name": "Raúl Alonso Jiménez Rodríguez -",
+      "number": 11,
+      "position": "ST",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/204/838/25_120.png"
+    },
+    {
+      "name": "Issa Laye Lucas Jean Diop -",
+      "number": 12,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/633/25_120.png"
+    },
+    {
+      "name": "Timothy Castagne -",
+      "number": 13,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/222/501/25_120.png"
+    },
+    {
+      "name": "Harry Wilson -",
+      "number": 14,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/220/710/25_120.png"
+    },
+    {
+      "name": "Adama Traoré -",
+      "number": 15,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/213/956/25_120.png"
+    },
+    {
+      "name": "Reiss Luke Nelson -",
+      "number": 16,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/448/25_120.png"
+    },
+    {
+      "name": "Rodrigo Muniz -",
+      "number": 17,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/337/25_120.png"
+    },
+    {
+      "name": "Kouassi Ryan Sessegnon -",
+      "number": 18,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/235/883/25_120.png"
+    },
+    {
+      "name": "Thomas Cairney -",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/195/202/25_120.png"
+    },
+    {
+      "name": "Willian -",
+      "number": 20,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/180/403/25_120.png"
+    },
+    {
+      "name": "Jorge Cuenca -",
+      "number": 21,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/237/522/25_120.png"
+    },
+    {
+      "name": "Harrison James Reed -",
+      "number": 22,
+      "position": "CDM",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/205/990/25_120.png"
+    },
+    {
+      "name": "Vinícius -",
+      "number": 23,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/621/25_120.png"
+    }
+  ]
+}

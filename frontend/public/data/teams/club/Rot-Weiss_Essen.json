@@ -1,0 +1,418 @@
+{
+  "name": "Rot-Weiss Essen",
+  "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/2777/30.png",
+  "players": [
+    {
+      "name": "Jakob Karl Gerhard Golz -",
+      "number": 1,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/269/25_120.png"
+    },
+    {
+      "name": "Ahmet Metin Arslan -",
+      "number": 2,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/424/25_120.png"
+    },
+    {
+      "name": "Klaus Fatmir Gjasula -",
+      "number": 3,
+      "position": "CDM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/692/25_120.png"
+    },
+    {
+      "name": "Dominik Martinović -",
+      "number": 4,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/969/25_120.png"
+    },
+    {
+      "name": "Lucas Brumme -",
+      "number": 5,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/186/25_120.png"
+    },
+    {
+      "name": "José-Enrique Ríos Alonso -",
+      "number": 6,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/315/25_120.png"
+    },
+    {
+      "name": "Tobias Kraulich -",
+      "number": 7,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/903/25_120.png"
+    },
+    {
+      "name": "Michael Schultz -",
+      "number": 8,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/217/841/25_120.png"
+    },
+    {
+      "name": "Torben Müsel -",
+      "number": 9,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/666/25_120.png"
+    },
+    {
+      "name": "Kaito Mizuta -",
+      "number": 10,
+      "position": "CAM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/245/25_120.png"
+    },
+    {
+      "name": "Joseph Boyamba -",
+      "number": 11,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/692/25_120.png"
+    },
+    {
+      "name": "Julian Eitschberger -",
+      "number": 12,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/268/536/25_120.png"
+    },
+    {
+      "name": "Manuel Paul Wintzheimer -",
+      "number": 13,
+      "position": "ST",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/378/25_120.png"
+    },
+    {
+      "name": "Thomas Eisfeld -",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/208/096/25_120.png"
+    },
+    {
+      "name": "Tom Moustier -",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/072/677/25_120.png"
+    },
+    {
+      "name": "Moussa Doumbouya -",
+      "number": 16,
+      "position": "ST",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/716/25_120.png"
+    },
+    {
+      "name": "Ole Springer -",
+      "number": 17,
+      "position": "GK",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/204/552/25_120.png"
+    },
+    {
+      "name": "Felix Bernd Wienand -",
+      "number": 18,
+      "position": "GK",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/265/750/25_120.png"
+    },
+    {
+      "name": "Ramien Safi -",
+      "number": 19,
+      "position": "RW",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/073/009/25_120.png"
+    },
+    {
+      "name": "Eric Josef Arno Voufack -",
+      "number": 20,
+      "position": "RB",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/323/25_120.png"
+    },
+    {
+      "name": "Nils Florian Kaiser -",
+      "number": 21,
+      "position": "RB",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/320/25_120.png"
+    },
+    {
+      "name": "Mustafa Kourouma -",
+      "number": 22,
+      "position": "CB",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/321/25_120.png"
+    },
+    {
+      "name": "Ekin Çelebi -",
+      "number": 23,
+      "position": "LB",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/707/25_120.png"
+    }
+  ]
+}

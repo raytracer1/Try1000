@@ -1,0 +1,419 @@
+{
+  "name": "Atlético Madrid",
+  "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/7980/30.png",
+  "players": [
+    {
+      "name": "Jan Oblak -",
+      "number": 1,
+      "position": "GK",
+      "overall": 88,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/200/389/25_120.png"
+    },
+    {
+      "name": "Antoine Griezmann -",
+      "number": 2,
+      "position": "ST",
+      "overall": 87,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/194/765/25_120.png"
+    },
+    {
+      "name": "Julián Álvarez -",
+      "number": 3,
+      "position": "ST",
+      "overall": 86,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/191/25_120.png"
+    },
+    {
+      "name": "Rodrigo Javier de Paul -",
+      "number": 4,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/212/616/25_120.png"
+    },
+    {
+      "name": "Robin Le Normand -",
+      "number": 5,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/233/486/25_120.png"
+    },
+    {
+      "name": "Marcos Llorente -",
+      "number": 6,
+      "position": "RB",
+      "overall": 83,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/226/161/25_120.png"
+    },
+    {
+      "name": "José María Giménez de Vargas -",
+      "number": 7,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/216/460/25_120.png"
+    },
+    {
+      "name": "Alexander Sørloth -",
+      "number": 8,
+      "position": "ST",
+      "overall": 82,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/216/549/25_120.png"
+    },
+    {
+      "name": "Koke -",
+      "number": 9,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/193/747/25_120.png"
+    },
+    {
+      "name": "Conor Gallagher -",
+      "number": 10,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/216/25_120.png"
+    },
+    {
+      "name": "Nahuel Molina Lucero -",
+      "number": 11,
+      "position": "RB",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/233/084/25_120.png"
+    },
+    {
+      "name": "Ángel Martín Correa Martínez -",
+      "number": 12,
+      "position": "ST",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/214/997/25_120.png"
+    },
+    {
+      "name": "Reinildo -",
+      "number": 13,
+      "position": "LB",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/045/25_120.png"
+    },
+    {
+      "name": "Javi Galán -",
+      "number": 14,
+      "position": "LB",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/591/25_120.png"
+    },
+    {
+      "name": "Pablo Barrios -",
+      "number": 15,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/449/25_120.png"
+    },
+    {
+      "name": "Samuel Lino -",
+      "number": 16,
+      "position": "LW",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/445/25_120.png"
+    },
+    {
+      "name": "Juan Agustín Musso -",
+      "number": 17,
+      "position": "GK",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/214/979/25_120.png"
+    },
+    {
+      "name": "Azpilicueta -",
+      "number": 18,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/184/432/25_120.png"
+    },
+    {
+      "name": "Axel Laurent Angel Lambert Witsel -",
+      "number": 19,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/177/413/25_120.png"
+    },
+    {
+      "name": "Giuliano Simeone Baldini -",
+      "number": 20,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/253/396/25_120.png"
+    },
+    {
+      "name": "Riquelme -",
+      "number": 21,
+      "position": "LW",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/324/25_120.png"
+    },
+    {
+      "name": "Clément Nicolas Laurent Lenglet -",
+      "number": 22,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/220/440/25_120.png"
+    },
+    {
+      "name": "Thomas Lemar -",
+      "number": 23,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/213/565/25_120.png"
+    }
+  ]
+}

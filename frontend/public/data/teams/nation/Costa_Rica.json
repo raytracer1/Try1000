@@ -1,6 +1,7 @@
 {
   "name": "Costa Rica",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "K. Navas",
@@ -73,7 +74,7 @@
     {
       "name": "O. Duarte",
       "number": 5,
-      "position": "CB",
+      "position": "CM",
       "overall": 73,
       "attributes": {
         "pace": 51,
@@ -141,7 +142,7 @@
     {
       "name": "F. Calvo",
       "number": 9,
-      "position": "CB",
+      "position": "CM",
       "overall": 70,
       "attributes": {
         "pace": 65,
@@ -209,7 +210,7 @@
     {
       "name": "21 K. Waston",
       "number": 13,
-      "position": "CB",
+      "position": "CM",
       "overall": 69,
       "attributes": {
         "pace": 46,
@@ -294,7 +295,7 @@
     {
       "name": "J. Cascante",
       "number": 18,
-      "position": "CB",
+      "position": "CM",
       "overall": 67,
       "attributes": {
         "pace": 51,

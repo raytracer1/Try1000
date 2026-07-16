@@ -1,6 +1,7 @@
 {
   "name": "Cameroon",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "21 A. Onana",
@@ -8,10 +9,11 @@
       "position": "GK",
       "overall": 84,
       "attributes": {
-        "pace": 84,
-        "defending": 86,
-        "passing": 80,
-        "dribbling": 83,
+        "pace": 62,
+        "shooting": 12,
+        "passing": 43,
+        "dribbling": 26,
+        "defending": 18,
         "physicality": 79,
         "stamina": 39,
         "awareness": 83,
@@ -21,7 +23,7 @@
     {
       "name": "J. Matip",
       "number": 2,
-      "position": "CB",
+      "position": "CM",
       "overall": 83,
       "attributes": {
         "pace": 65,
@@ -378,7 +380,7 @@
     {
       "name": "J. Castelletto",
       "number": 23,
-      "position": "CB",
+      "position": "CM",
       "overall": 73,
       "attributes": {
         "pace": 73,

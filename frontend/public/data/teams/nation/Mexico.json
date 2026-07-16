@@ -1,6 +1,7 @@
 {
   "name": "Mexico",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "R. Jiménez",
@@ -93,10 +94,11 @@
       "position": "GK",
       "overall": 80,
       "attributes": {
-        "pace": 79,
-        "defending": 83,
-        "passing": 75,
-        "dribbling": 81,
+        "pace": 50,
+        "shooting": 12,
+        "passing": 36,
+        "dribbling": 10,
+        "defending": 10,
         "physicality": 56,
         "stamina": 34,
         "awareness": 74,
@@ -143,10 +145,11 @@
       "position": "GK",
       "overall": 78,
       "attributes": {
-        "pace": 80,
-        "defending": 77,
-        "passing": 80,
-        "dribbling": 75,
+        "pace": 58,
+        "shooting": 13,
+        "passing": 35,
+        "dribbling": 10,
+        "defending": 13,
         "physicality": 75,
         "stamina": 36,
         "awareness": 70,
@@ -343,7 +346,7 @@
     {
       "name": "N. Araújo",
       "number": 21,
-      "position": "CB",
+      "position": "CM",
       "overall": 76,
       "attributes": {
         "pace": 69,

@@ -1,6 +1,7 @@
 {
   "name": "Chile",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "A. Vidal",
@@ -59,10 +60,11 @@
       "position": "GK",
       "overall": 79,
       "attributes": {
-        "pace": 79,
-        "defending": 83,
-        "passing": 73,
-        "dribbling": 80,
+        "pace": 42,
+        "shooting": 18,
+        "passing": 38,
+        "dribbling": 23,
+        "defending": 21,
         "physicality": 62,
         "stamina": 32,
         "awareness": 71,
@@ -242,7 +244,7 @@
     {
       "name": "S. Vegas",
       "number": 15,
-      "position": "CB",
+      "position": "CM",
       "overall": 75,
       "attributes": {
         "pace": 75,
@@ -310,7 +312,7 @@
     {
       "name": "P. Díaz",
       "number": 19,
-      "position": "CB",
+      "position": "CM",
       "overall": 74,
       "attributes": {
         "pace": 76,
@@ -344,7 +346,7 @@
     {
       "name": "G. Medel",
       "number": 21,
-      "position": "CB",
+      "position": "CM",
       "overall": 74,
       "attributes": {
         "pace": 62,

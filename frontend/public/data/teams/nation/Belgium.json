@@ -1,6 +1,7 @@
 {
   "name": "Belgium",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "K. De Bruyne",
@@ -25,10 +26,11 @@
       "position": "GK",
       "overall": 89,
       "attributes": {
-        "pace": 84,
-        "defending": 88,
-        "passing": 89,
-        "dribbling": 86,
+        "pace": 52,
+        "shooting": 14,
+        "passing": 33,
+        "dribbling": 13,
+        "defending": 18,
         "physicality": 70,
         "stamina": 38,
         "awareness": 84,
@@ -58,10 +60,11 @@
       "position": "GK",
       "overall": 86,
       "attributes": {
-        "pace": 85,
-        "defending": 87,
-        "passing": 83,
-        "dribbling": 84,
+        "pace": 46,
+        "shooting": 15,
+        "passing": 35,
+        "dribbling": 14,
+        "defending": 19,
         "physicality": 72,
         "stamina": 44,
         "awareness": 83,
@@ -156,7 +159,7 @@
     {
       "name": "T. Alderweireld",
       "number": 10,
-      "position": "CB",
+      "position": "CM",
       "overall": 83,
       "attributes": {
         "pace": 60,
@@ -190,7 +193,7 @@
     {
       "name": "20 V. Kompany",
       "number": 12,
-      "position": "CB",
+      "position": "CM",
       "overall": 82,
       "attributes": {
         "pace": 51,
@@ -207,7 +210,7 @@
     {
       "name": "J. Vertonghen",
       "number": 13,
-      "position": "CB",
+      "position": "CM",
       "overall": 81,
       "attributes": {
         "pace": 78,
@@ -258,7 +261,7 @@
     {
       "name": "J. Denayer",
       "number": 16,
-      "position": "CB",
+      "position": "CM",
       "overall": 80,
       "attributes": {
         "pace": 83,
@@ -278,10 +281,11 @@
       "position": "GK",
       "overall": 80,
       "attributes": {
-        "pace": 80,
-        "defending": 82,
-        "passing": 75,
-        "dribbling": 84,
+        "pace": 52,
+        "shooting": 11,
+        "passing": 37,
+        "dribbling": 14,
+        "defending": 14,
         "physicality": 72,
         "stamina": 31,
         "awareness": 74,

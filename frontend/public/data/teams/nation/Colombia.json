@@ -1,6 +1,7 @@
 {
   "name": "Colombia",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "J. Cuadrado",
@@ -158,7 +159,7 @@
     {
       "name": "D. Sánchez",
       "number": 10,
-      "position": "CB",
+      "position": "CM",
       "overall": 79,
       "attributes": {
         "pace": 80,
@@ -175,7 +176,7 @@
     {
       "name": "Y. Mina",
       "number": 11,
-      "position": "CB",
+      "position": "CM",
       "overall": 79,
       "attributes": {
         "pace": 54,
@@ -195,10 +196,11 @@
       "position": "GK",
       "overall": 79,
       "attributes": {
-        "pace": 82,
-        "defending": 84,
-        "passing": 72,
-        "dribbling": 77,
+        "pace": 34,
+        "shooting": 10,
+        "passing": 36,
+        "dribbling": 12,
+        "defending": 13,
         "physicality": 38,
         "stamina": 29,
         "awareness": 73,
@@ -257,8 +259,25 @@
       }
     },
     {
-      "name": "G. Moreno",
+      "name": "12 I. Córdoba",
       "number": 16,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 83,
+        "shooting": 35,
+        "passing": 62,
+        "dribbling": 31,
+        "defending": 82,
+        "physicality": 67,
+        "stamina": 34,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "G. Moreno",
+      "number": 17,
       "position": "CM",
       "overall": 77,
       "attributes": {
@@ -275,7 +294,7 @@
     },
     {
       "name": "L. Sinisterra",
-      "number": 17,
+      "number": 18,
       "position": "LW",
       "overall": 77,
       "attributes": {
@@ -292,7 +311,7 @@
     },
     {
       "name": "21 J. Córdoba",
-      "number": 18,
+      "number": 19,
       "position": "ST",
       "overall": 77,
       "attributes": {
@@ -309,7 +328,7 @@
     },
     {
       "name": "L. Suárez",
-      "number": 19,
+      "number": 20,
       "position": "LW",
       "overall": 77,
       "attributes": {
@@ -326,7 +345,7 @@
     },
     {
       "name": "G. Cuéllar",
-      "number": 20,
+      "number": 21,
       "position": "CM",
       "overall": 77,
       "attributes": {
@@ -343,7 +362,7 @@
     },
     {
       "name": "E. Cardona",
-      "number": 21,
+      "number": 22,
       "position": "CAM",
       "overall": 77,
       "attributes": {
@@ -360,8 +379,8 @@
     },
     {
       "name": "J. Murillo",
-      "number": 22,
-      "position": "CB",
+      "number": 23,
+      "position": "CM",
       "overall": 77,
       "attributes": {
         "pace": 74,
@@ -373,23 +392,6 @@
         "stamina": 69,
         "awareness": 73,
         "composure": 75
-      }
-    },
-    {
-      "name": "C. Bacca",
-      "number": 23,
-      "position": "ST",
-      "overall": 77,
-      "attributes": {
-        "pace": 65,
-        "shooting": 78,
-        "passing": 68,
-        "dribbling": 76,
-        "defending": 16,
-        "physicality": 72,
-        "stamina": 56,
-        "awareness": 76,
-        "composure": 76
       }
     }
   ]

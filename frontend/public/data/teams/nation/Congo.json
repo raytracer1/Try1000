@@ -1,6 +1,7 @@
 {
   "name": "Congo",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "21 T. Bifouma",
@@ -25,10 +26,11 @@
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 75,
-        "defending": 74,
-        "passing": 67,
-        "dribbling": 71,
+        "pace": 60,
+        "shooting": 9,
+        "passing": 37,
+        "dribbling": 12,
+        "defending": 14,
         "physicality": 70,
         "stamina": 37,
         "awareness": 70,
@@ -55,7 +57,7 @@
     {
       "name": "P. Oniangué",
       "number": 4,
-      "position": "CB",
+      "position": "CM",
       "overall": 69,
       "attributes": {
         "pace": 61,
@@ -89,7 +91,7 @@
     {
       "name": "F. Mayembo",
       "number": 6,
-      "position": "CB",
+      "position": "CM",
       "overall": 69,
       "attributes": {
         "pace": 46,

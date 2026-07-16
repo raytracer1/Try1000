@@ -1,395 +1,400 @@
 {
   "name": "New Zealand",
   "type": "nation",
+  "logo": "https://cdn.sofifa.net/meta/team/18613/30.png",
   "players": [
     {
-      "name": "C. Wood",
+      "name": "Christopher Grant Wood -",
       "number": 1,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 68,
-        "shooting": 81,
-        "passing": 68,
-        "dribbling": 69,
-        "defending": 30,
-        "physicality": 86,
-        "stamina": 76,
-        "awareness": 77,
-        "composure": 77
-      }
-    },
-    {
-      "name": "R. Thomas",
-      "number": 2,
-      "position": "CM",
-      "overall": 74,
+      "position": "ST",
+      "overall": 81,
       "attributes": {
         "pace": 70,
-        "shooting": 65,
-        "passing": 77,
-        "dribbling": 78,
-        "defending": 58,
-        "physicality": 60,
-        "stamina": 78,
-        "awareness": 74,
-        "composure": 72
-      }
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/192/123/25_120.png"
     },
     {
-      "name": "L. Cacace",
+      "name": "Joe Zen Robert Bell -",
+      "number": 2,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/142/25_120.png"
+    },
+    {
+      "name": "Liberato Gianpaolo Cacace -",
       "number": 3,
       "position": "LB",
       "overall": 72,
       "attributes": {
-        "pace": 83,
-        "shooting": 61,
-        "passing": 67,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 67,
-        "physicality": 77,
-        "stamina": 85,
-        "awareness": 65,
-        "composure": 72
-      }
-    },
-    {
-      "name": "W. Reid",
-      "number": 4,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 41,
-        "shooting": 46,
-        "passing": 55,
-        "dribbling": 34,
-        "defending": 74,
-        "physicality": 81,
-        "stamina": 34,
-        "awareness": 71,
-        "composure": 55
-      }
-    },
-    {
-      "name": "K. Barbarouses",
-      "number": 5,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 85,
-        "shooting": 71,
-        "passing": 67,
-        "dribbling": 71,
-        "defending": 29,
-        "physicality": 67,
-        "stamina": 92,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 68
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/429/25_120.png"
     },
     {
-      "name": "M. Rojas",
+      "name": "Marko Seufatu Nikola Stamenić -",
+      "number": 4,
+      "position": "CDM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/259/680/25_120.png"
+    },
+    {
+      "name": "Alexander Noah Paulsen -",
+      "number": 5,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/263/851/25_120.png"
+    },
+    {
+      "name": "Alex Arthur Rufer -",
       "number": 6,
-      "position": "LW",
+      "position": "CDM",
       "overall": 69,
       "attributes": {
-        "pace": 89,
-        "shooting": 64,
-        "passing": 64,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 47,
-        "physicality": 34,
-        "stamina": 68,
-        "awareness": 62,
-        "composure": 68
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/219/392/25_120.png"
     },
     {
-      "name": "M. Boxall",
+      "name": "Tyler Grant Bindon -",
       "number": 7,
       "position": "CB",
       "overall": 69,
       "attributes": {
-        "pace": 66,
-        "shooting": 35,
-        "passing": 64,
-        "dribbling": 56,
-        "defending": 69,
-        "physicality": 91,
-        "stamina": 67,
-        "awareness": 66,
-        "composure": 60
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/277/552/25_120.png"
     },
     {
-      "name": "J. Bell",
+      "name": "Michael Joseph Boxall -",
       "number": 8,
-      "position": "CDM",
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/202/170/25_120.png"
+    },
+    {
+      "name": "Konstantinos Barbarouses -",
+      "number": 9,
+      "position": "ST",
       "overall": 68,
       "attributes": {
-        "pace": 66,
-        "shooting": 56,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 66,
-        "defending": 60,
-        "physicality": 76,
-        "stamina": 82,
-        "awareness": 68,
-        "composure": 71
-      }
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/182/091/25_120.png"
     },
     {
-      "name": "B. Tuiloma",
-      "number": 9,
+      "name": "Finn Surman -",
+      "number": 10,
       "position": "CB",
       "overall": 68,
       "attributes": {
-        "pace": 51,
-        "shooting": 39,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 58,
-        "defending": 68,
-        "physicality": 81,
-        "stamina": 73,
-        "awareness": 65,
-        "composure": 63
-      }
-    },
-    {
-      "name": "S. Marinović",
-      "number": 10,
-      "position": "GK",
-      "overall": 68,
-      "attributes": {
-        "pace": 71,
-        "defending": 71,
-        "passing": 65,
-        "dribbling": 63,
-        "physicality": 77,
-        "stamina": 45,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 45
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/150/25_120.png"
     },
     {
-      "name": "O. Sail",
+      "name": "Nando Zen Pijnaker -",
       "number": 11,
-      "position": "GK",
+      "position": "CB",
       "overall": 67,
       "attributes": {
-        "pace": 67,
-        "defending": 69,
-        "passing": 64,
-        "dribbling": 64,
-        "physicality": 66,
-        "stamina": 45,
-        "awareness": 68,
-        "composure": 39
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/143/25_120.png"
     },
     {
-      "name": "S. Singh",
+      "name": "Callum William McCowatt -",
       "number": 12,
-      "position": "CM",
+      "position": "CAM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/666/25_120.png"
+    },
+    {
+      "name": "Oliver Steven Edward Sail -",
+      "number": 13,
+      "position": "GK",
       "overall": 66,
       "attributes": {
         "pace": 70,
-        "shooting": 62,
-        "passing": 67,
-        "dribbling": 65,
-        "defending": 47,
-        "physicality": 51,
-        "stamina": 64,
-        "awareness": 62,
-        "composure": 64
-      }
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/225/993/25_120.png"
     },
     {
-      "name": "T. Payne",
-      "number": 13,
-      "position": "CB",
-      "overall": 66,
-      "attributes": {
-        "pace": 73,
-        "shooting": 53,
-        "passing": 58,
-        "dribbling": 54,
-        "defending": 63,
-        "physicality": 82,
-        "stamina": 71,
-        "awareness": 59,
-        "composure": 57
-      }
-    },
-    {
-      "name": "E. Just",
+      "name": "Timothy John Payne -",
       "number": 14,
-      "position": "RW",
+      "position": "RB",
       "overall": 65,
       "attributes": {
-        "pace": 75,
-        "shooting": 63,
-        "passing": 62,
-        "dribbling": 65,
-        "defending": 31,
-        "physicality": 51,
-        "stamina": 59,
-        "awareness": 61,
-        "composure": 64
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/209/361/25_120.png"
     },
     {
-      "name": "21 A. Durante",
+      "name": "Maxime Teremoana Crocombe -",
       "number": 15,
-      "position": "CB",
+      "position": "GK",
       "overall": 65,
       "attributes": {
-        "pace": 31,
-        "shooting": 34,
-        "passing": 58,
-        "dribbling": 49,
-        "defending": 65,
-        "physicality": 84,
-        "stamina": 72,
-        "awareness": 58,
-        "composure": 67
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/206/566/25_120.png"
     },
     {
-      "name": "M. Woud",
+      "name": "Matthew Jimmy David Garbett -",
       "number": 16,
       "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 35,
-        "shooting": 10,
-        "passing": 18,
-        "dribbling": 11,
-        "defending": 13,
-        "physicality": 57,
-        "stamina": 34,
-        "awareness": 65,
-        "composure": 38
-      }
-    },
-    {
-      "name": "C. Lewis",
-      "number": 17,
-      "position": "CM",
       "overall": 64,
       "attributes": {
-        "pace": 67,
-        "shooting": 56,
-        "passing": 66,
-        "dribbling": 65,
-        "defending": 55,
-        "physicality": 68,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 62,
-        "composure": 63
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/255/360/25_120.png"
     },
     {
-      "name": "C. McCowatt",
-      "number": 18,
-      "position": "LW",
+      "name": "Logan Tipene Rogerson -",
+      "number": 17,
+      "position": "RW",
       "overall": 64,
       "attributes": {
-        "pace": 75,
-        "shooting": 64,
-        "passing": 61,
-        "dribbling": 63,
-        "defending": 56,
-        "physicality": 67,
-        "stamina": 75,
-        "awareness": 61,
-        "composure": 63
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/065/25_120.png"
     },
     {
-      "name": "B. Waine",
+      "name": "Storm James Roux -",
+      "number": 18,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/213/094/25_120.png"
+    },
+    {
+      "name": "Cameron Drew Neru Howieson -",
       "number": 19,
       "position": "CM",
-      "overall": 64,
+      "overall": 63,
       "attributes": {
-        "pace": 77,
-        "shooting": 65,
-        "passing": 56,
-        "dribbling": 59,
-        "defending": 38,
-        "physicality": 74,
-        "stamina": 69,
-        "awareness": 60,
-        "composure": 57
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/208/543/25_120.png"
     },
     {
-      "name": "N. Kirwan",
+      "name": "Thomas Jefferson Smith -",
       "number": 20,
-      "position": "RB",
-      "overall": 64,
-      "attributes": {
-        "pace": 72,
-        "shooting": 52,
-        "passing": 60,
-        "dribbling": 58,
-        "defending": 60,
-        "physicality": 66,
-        "stamina": 84,
-        "awareness": 57,
-        "composure": 61
-      }
-    },
-    {
-      "name": "N. Pijnaker",
-      "number": 21,
-      "position": "CM",
-      "overall": 64,
-      "attributes": {
-        "pace": 61,
-        "shooting": 35,
-        "passing": 59,
-        "dribbling": 51,
-        "defending": 62,
-        "physicality": 82,
-        "stamina": 71,
-        "awareness": 64,
-        "composure": 57
-      }
-    },
-    {
-      "name": "G. Stensness",
-      "number": 22,
       "position": "CB",
-      "overall": 64,
+      "overall": 63,
       "attributes": {
-        "pace": 55,
-        "shooting": 37,
-        "passing": 64,
-        "dribbling": 56,
-        "defending": 63,
-        "physicality": 78,
-        "stamina": 84,
-        "awareness": 60,
-        "composure": 60
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/186/352/25_120.png"
     },
     {
-      "name": "J. Champness",
-      "number": 23,
-      "position": "CM",
-      "overall": 64,
+      "name": "Benjamin Peter Waine -",
+      "number": 21,
+      "position": "ST",
+      "overall": 62,
       "attributes": {
-        "pace": 83,
-        "shooting": 60,
-        "passing": 60,
-        "dribbling": 63,
-        "defending": 25,
-        "physicality": 73,
-        "stamina": 52,
-        "awareness": 53,
-        "composure": 54
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/539/25_120.png"
+    },
+    {
+      "name": "Jesse Carmichael Randall -",
+      "number": 22,
+      "position": "LW",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/073/092/25_120.png"
     }
   ]
 }

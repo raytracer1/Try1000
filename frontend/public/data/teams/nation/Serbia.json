@@ -1,6 +1,7 @@
 {
   "name": "Serbia",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "S. Milinković-Savić",
@@ -54,8 +55,25 @@
       }
     },
     {
-      "name": "M. Dmitrović",
+      "name": "16 N. Vidić",
       "number": 4,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 54,
+        "shooting": 26,
+        "passing": 57,
+        "dribbling": 43,
+        "defending": 84,
+        "physicality": 91,
+        "stamina": 52,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Dmitrović",
+      "number": 5,
       "position": "CM",
       "overall": 80,
       "attributes": {
@@ -72,7 +90,7 @@
     },
     {
       "name": "N. Gudelj",
-      "number": 5,
+      "number": 6,
       "position": "CM",
       "overall": 79,
       "attributes": {
@@ -89,7 +107,7 @@
     },
     {
       "name": "N. Maksimović",
-      "number": 6,
+      "number": 7,
       "position": "CM",
       "overall": 79,
       "attributes": {
@@ -106,7 +124,7 @@
     },
     {
       "name": "N. Matić",
-      "number": 7,
+      "number": 8,
       "position": "CM",
       "overall": 79,
       "attributes": {
@@ -123,7 +141,7 @@
     },
     {
       "name": "L. Jović",
-      "number": 8,
+      "number": 9,
       "position": "CM",
       "overall": 79,
       "attributes": {
@@ -140,7 +158,7 @@
     },
     {
       "name": "A. Kolarov",
-      "number": 9,
+      "number": 10,
       "position": "CM",
       "overall": 78,
       "attributes": {
@@ -157,7 +175,7 @@
     },
     {
       "name": "U. Račić",
-      "number": 10,
+      "number": 11,
       "position": "CM",
       "overall": 78,
       "attributes": {
@@ -174,7 +192,7 @@
     },
     {
       "name": "D. Vlahović",
-      "number": 11,
+      "number": 12,
       "position": "ST",
       "overall": 78,
       "attributes": {
@@ -191,14 +209,15 @@
     },
     {
       "name": "P. Rajković",
-      "number": 12,
+      "number": 13,
       "position": "GK",
       "overall": 78,
       "attributes": {
-        "pace": 77,
-        "defending": 81,
-        "passing": 76,
-        "dribbling": 79,
+        "pace": 18,
+        "shooting": 9,
+        "passing": 26,
+        "dribbling": 8,
+        "defending": 10,
         "physicality": 66,
         "stamina": 26,
         "awareness": 73,
@@ -207,7 +226,7 @@
     },
     {
       "name": "19 N. Pejčinović",
-      "number": 13,
+      "number": 14,
       "position": "CB",
       "overall": 77,
       "attributes": {
@@ -224,7 +243,7 @@
     },
     {
       "name": "L. Milivojević",
-      "number": 14,
+      "number": 15,
       "position": "CM",
       "overall": 76,
       "attributes": {
@@ -241,7 +260,7 @@
     },
     {
       "name": "20 D. Basta",
-      "number": 15,
+      "number": 16,
       "position": "CM",
       "overall": 76,
       "attributes": {
@@ -258,7 +277,7 @@
     },
     {
       "name": "D. Brašanac",
-      "number": 16,
+      "number": 17,
       "position": "CM",
       "overall": 76,
       "attributes": {
@@ -275,7 +294,7 @@
     },
     {
       "name": "D. Lazović",
-      "number": 17,
+      "number": 18,
       "position": "LW",
       "overall": 76,
       "attributes": {
@@ -292,7 +311,7 @@
     },
     {
       "name": "A. Živković",
-      "number": 18,
+      "number": 19,
       "position": "RW",
       "overall": 76,
       "attributes": {
@@ -309,7 +328,7 @@
     },
     {
       "name": "18 A. Rukavina",
-      "number": 19,
+      "number": 20,
       "position": "CM",
       "overall": 76,
       "attributes": {
@@ -326,7 +345,7 @@
     },
     {
       "name": "F. Đuričić",
-      "number": 20,
+      "number": 21,
       "position": "CAM",
       "overall": 76,
       "attributes": {
@@ -343,8 +362,8 @@
     },
     {
       "name": "N. Milenković",
-      "number": 21,
-      "position": "CB",
+      "number": 22,
+      "position": "CM",
       "overall": 76,
       "attributes": {
         "pace": 65,
@@ -360,7 +379,7 @@
     },
     {
       "name": "M. Grujić",
-      "number": 22,
+      "number": 23,
       "position": "CM",
       "overall": 75,
       "attributes": {
@@ -373,23 +392,6 @@
         "stamina": 74,
         "awareness": 77,
         "composure": 81
-      }
-    },
-    {
-      "name": "S. Lukić",
-      "number": 23,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 63,
-        "shooting": 59,
-        "passing": 80,
-        "dribbling": 79,
-        "defending": 72,
-        "physicality": 69,
-        "stamina": 69,
-        "awareness": 73,
-        "composure": 76
       }
     }
   ]

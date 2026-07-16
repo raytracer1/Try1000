@@ -1,6 +1,7 @@
 {
   "name": "Mali",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "Y. Bissouma",
@@ -71,8 +72,25 @@
       }
     },
     {
-      "name": "D. Samassékou",
+      "name": "16 S. Keita",
       "number": 5,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 67,
+        "shooting": 52,
+        "passing": 79,
+        "dribbling": 59,
+        "defending": 79,
+        "physicality": 77,
+        "stamina": 55,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "D. Samassékou",
+      "number": 6,
       "position": "CM",
       "overall": 76,
       "attributes": {
@@ -89,7 +107,7 @@
     },
     {
       "name": "C. Doucouré",
-      "number": 6,
+      "number": 7,
       "position": "CM",
       "overall": 75,
       "attributes": {
@@ -106,7 +124,7 @@
     },
     {
       "name": "18 C. Diabaté",
-      "number": 7,
+      "number": 8,
       "position": "ST",
       "overall": 75,
       "attributes": {
@@ -123,7 +141,7 @@
     },
     {
       "name": "M. Camara",
-      "number": 8,
+      "number": 9,
       "position": "CDM",
       "overall": 74,
       "attributes": {
@@ -140,7 +158,7 @@
     },
     {
       "name": "M. Djenepo",
-      "number": 9,
+      "number": 10,
       "position": "LW",
       "overall": 74,
       "attributes": {
@@ -157,7 +175,7 @@
     },
     {
       "name": "A. Traoré",
-      "number": 10,
+      "number": 11,
       "position": "CAM",
       "overall": 73,
       "attributes": {
@@ -174,7 +192,7 @@
     },
     {
       "name": "L. Coulibaly",
-      "number": 11,
+      "number": 12,
       "position": "CM",
       "overall": 73,
       "attributes": {
@@ -191,7 +209,7 @@
     },
     {
       "name": "S. Koita",
-      "number": 12,
+      "number": 13,
       "position": "CM",
       "overall": 73,
       "attributes": {
@@ -208,7 +226,7 @@
     },
     {
       "name": "M. Haïdara",
-      "number": 13,
+      "number": 14,
       "position": "CM",
       "overall": 73,
       "attributes": {
@@ -225,7 +243,7 @@
     },
     {
       "name": "A. Diaby",
-      "number": 14,
+      "number": 15,
       "position": "CM",
       "overall": 73,
       "attributes": {
@@ -242,7 +260,7 @@
     },
     {
       "name": "F. Sacko",
-      "number": 15,
+      "number": 16,
       "position": "RB",
       "overall": 73,
       "attributes": {
@@ -259,7 +277,7 @@
     },
     {
       "name": "B. Kouyaté",
-      "number": 16,
+      "number": 17,
       "position": "CB",
       "overall": 73,
       "attributes": {
@@ -276,7 +294,7 @@
     },
     {
       "name": "21 M. Samassa",
-      "number": 17,
+      "number": 18,
       "position": "CM",
       "overall": 73,
       "attributes": {
@@ -293,7 +311,7 @@
     },
     {
       "name": "19 T. Doumbia",
-      "number": 18,
+      "number": 19,
       "position": "CM",
       "overall": 72,
       "attributes": {
@@ -310,7 +328,7 @@
     },
     {
       "name": "M. Doumbia",
-      "number": 19,
+      "number": 20,
       "position": "LW",
       "overall": 72,
       "attributes": {
@@ -327,7 +345,7 @@
     },
     {
       "name": "21 S. Sow",
-      "number": 20,
+      "number": 21,
       "position": "CM",
       "overall": 72,
       "attributes": {
@@ -344,7 +362,7 @@
     },
     {
       "name": "19 B. Sako",
-      "number": 21,
+      "number": 22,
       "position": "CM",
       "overall": 71,
       "attributes": {
@@ -361,8 +379,8 @@
     },
     {
       "name": "B. Dibassy",
-      "number": 22,
-      "position": "CB",
+      "number": 23,
+      "position": "CM",
       "overall": 71,
       "attributes": {
         "pace": 71,
@@ -374,23 +392,6 @@
         "stamina": 86,
         "awareness": 67,
         "composure": 64
-      }
-    },
-    {
-      "name": "C. Traoré",
-      "number": 23,
-      "position": "RB",
-      "overall": 71,
-      "attributes": {
-        "pace": 72,
-        "shooting": 38,
-        "passing": 67,
-        "dribbling": 69,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 67,
-        "awareness": 62,
-        "composure": 69
       }
     }
   ]

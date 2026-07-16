@@ -1,396 +1,401 @@
 {
   "name": "Lech Poznań",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/302/30.png",
   "players": [
     {
-      "name": "Pedro Rebocho",
+      "name": "Mikael Ishak -",
       "number": 1,
-      "position": "LB",
-      "overall": 74,
-      "attributes": {
-        "pace": 75,
-        "shooting": 45,
-        "passing": 73,
-        "dribbling": 73,
-        "defending": 73,
-        "physicality": 69,
-        "stamina": 78,
-        "awareness": 68,
-        "composure": 70
-      }
-    },
-    {
-      "name": "A. Ba Loua",
-      "number": 2,
-      "position": "RW",
-      "overall": 74,
-      "attributes": {
-        "pace": 88,
-        "shooting": 62,
-        "passing": 73,
-        "dribbling": 75,
-        "defending": 25,
-        "physicality": 39,
-        "stamina": 70,
-        "awareness": 73,
-        "composure": 69
-      }
-    },
-    {
-      "name": "Pedro Tiba",
-      "number": 3,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 61,
-        "shooting": 63,
-        "passing": 72,
-        "dribbling": 71,
-        "defending": 63,
-        "physicality": 73,
-        "stamina": 82,
-        "awareness": 73,
-        "composure": 73
-      }
-    },
-    {
-      "name": "M. Ishak",
-      "number": 4,
       "position": "ST",
-      "overall": 71,
+      "overall": 72,
       "attributes": {
-        "pace": 74,
-        "shooting": 73,
-        "passing": 64,
-        "dribbling": 64,
-        "defending": 43,
-        "physicality": 84,
-        "stamina": 74,
-        "awareness": 65,
-        "composure": 59
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/206/626/25_120.png"
     },
     {
-      "name": "B. Douglas",
+      "name": "Radosław Paweł Murawski -",
+      "number": 2,
+      "position": "CDM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/209/417/25_120.png"
+    },
+    {
+      "name": "Bartosz Salamon -",
+      "number": 3,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/189/558/25_120.png"
+    },
+    {
+      "name": "Jens Patrik Wålemark -",
+      "number": 4,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/148/25_120.png"
+    },
+    {
+      "name": "Joel Pereira -",
       "number": 5,
-      "position": "CM",
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/276/25_120.png"
+    },
+    {
+      "name": "Bartosz Mrozek -",
+      "number": 6,
+      "position": "GK",
       "overall": 70,
       "attributes": {
-        "pace": 65,
-        "shooting": 58,
-        "passing": 72,
-        "dribbling": 64,
-        "defending": 68,
-        "physicality": 59,
-        "stamina": 66,
-        "awareness": 66,
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/235/304/25_120.png"
     },
     {
-      "name": "L. Šatka",
-      "number": 6,
+      "name": "Afonso Sousa -",
+      "number": 7,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/698/25_120.png"
+    },
+    {
+      "name": "Mario González -",
+      "number": 8,
+      "position": "ST",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/235/970/25_120.png"
+    },
+    {
+      "name": "Antonio Milić -",
+      "number": 9,
       "position": "CB",
       "overall": 70,
       "attributes": {
-        "pace": 63,
-        "shooting": 23,
-        "passing": 69,
-        "dribbling": 40,
-        "defending": 72,
-        "physicality": 72,
-        "stamina": 62,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 58
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/226/518/25_120.png"
     },
     {
-      "name": "J. Karlström",
-      "number": 7,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 63,
-        "shooting": 51,
-        "passing": 67,
-        "dribbling": 66,
-        "defending": 67,
-        "physicality": 80,
-        "stamina": 85,
-        "awareness": 66,
-        "composure": 64
-      }
-    },
-    {
-      "name": "João Amaral",
-      "number": 8,
-      "position": "CAM",
-      "overall": 69,
-      "attributes": {
-        "pace": 82,
-        "shooting": 65,
-        "passing": 67,
-        "dribbling": 71,
-        "defending": 30,
-        "physicality": 58,
-        "stamina": 71,
-        "awareness": 67,
-        "composure": 64
-      }
-    },
-    {
-      "name": "A. Sobiech",
-      "number": 9,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 71,
-        "shooting": 71,
-        "passing": 65,
-        "dribbling": 65,
-        "defending": 32,
-        "physicality": 75,
-        "stamina": 64,
-        "awareness": 64,
-        "composure": 68
-      }
-    },
-    {
-      "name": "R. Murawski",
+      "name": "Ali Gholizadeh -",
       "number": 10,
-      "position": "CM",
-      "overall": 68,
+      "position": "RW",
+      "overall": 69,
       "attributes": {
-        "pace": 76,
-        "shooting": 47,
-        "passing": 72,
-        "dribbling": 68,
-        "defending": 66,
-        "physicality": 63,
-        "stamina": 92,
-        "awareness": 64,
-        "composure": 67
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/551/25_120.png"
     },
     {
-      "name": "A. Jóhannsson",
+      "name": "Dino Hotić -",
       "number": 11,
-      "position": "CM",
-      "overall": 68,
+      "position": "RW",
+      "overall": 69,
       "attributes": {
-        "pace": 65,
-        "shooting": 68,
-        "passing": 69,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 25,
-        "physicality": 64,
-        "stamina": 58,
-        "awareness": 63,
-        "composure": 68
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/247/144/25_120.png"
     },
     {
-      "name": "Dani Ramírez",
+      "name": "Rasmus Carstensen -",
       "number": 12,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/250/854/25_120.png"
+    },
+    {
+      "name": "Filip Wojciech Jagiełło -",
+      "number": 13,
       "position": "CM",
       "overall": 68,
       "attributes": {
-        "pace": 66,
-        "shooting": 64,
-        "passing": 71,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 32,
-        "physicality": 58,
-        "stamina": 61,
-        "awareness": 63,
-        "composure": 71
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/220/912/25_120.png"
     },
     {
-      "name": "J. Kamiński",
-      "number": 13,
-      "position": "LW",
-      "overall": 68,
-      "attributes": {
-        "pace": 92,
-        "shooting": 64,
-        "passing": 65,
-        "dribbling": 67,
-        "defending": 47,
-        "physicality": 55,
-        "stamina": 58,
-        "awareness": 57,
-        "composure": 59
-      }
-    },
-    {
-      "name": "B. Salamon",
+      "name": "Alex Raymond Douglas -",
       "number": 14,
       "position": "CB",
-      "overall": 68,
+      "overall": 67,
       "attributes": {
-        "pace": 44,
-        "shooting": 35,
-        "passing": 67,
-        "dribbling": 52,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 76,
-        "stamina": 42,
-        "awareness": 65,
-        "composure": 66
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/070/084/25_120.png"
     },
     {
-      "name": "N. Kvekveskiri",
+      "name": "Antoni Kozubal -",
       "number": 15,
       "position": "CM",
       "overall": 67,
       "attributes": {
-        "pace": 55,
-        "shooting": 52,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 64,
-        "defending": 64,
-        "physicality": 60,
-        "stamina": 74,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 58
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/261/108/25_120.png"
     },
     {
-      "name": "Joel Pereira",
+      "name": "Per Filip Dagerstål -",
       "number": 16,
-      "position": "RB",
-      "overall": 67,
-      "attributes": {
-        "pace": 69,
-        "shooting": 34,
-        "passing": 65,
-        "dribbling": 66,
-        "defending": 63,
-        "physicality": 59,
-        "stamina": 72,
-        "awareness": 61,
-        "composure": 50
-      }
-    },
-    {
-      "name": "T. Rogne",
-      "number": 17,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 52,
-        "shooting": 15,
-        "passing": 61,
-        "dribbling": 39,
-        "defending": 69,
-        "physicality": 80,
-        "stamina": 52,
-        "awareness": 67,
-        "composure": 65
-      }
-    },
-    {
-      "name": "M. van der Hart",
-      "number": 18,
-      "position": "GK",
-      "overall": 67,
-      "attributes": {
-        "pace": 68,
-        "defending": 68,
-        "passing": 65,
-        "dribbling": 65,
-        "physicality": 60,
-        "stamina": 33,
-        "awareness": 62,
-        "composure": 48
-      }
-    },
-    {
-      "name": "21 N. Kacharava",
-      "number": 19,
-      "position": "CM",
+      "position": "CB",
       "overall": 66,
       "attributes": {
-        "pace": 65,
-        "shooting": 64,
-        "passing": 57,
-        "dribbling": 71,
-        "defending": 26,
-        "physicality": 93,
-        "stamina": 63,
-        "awareness": 65,
-        "composure": 75
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/838/25_120.png"
     },
     {
-      "name": "M. Skóraś",
-      "number": 20,
-      "position": "CM",
+      "name": "Daniel Noel Mikael Håkans -",
+      "number": 17,
+      "position": "LW",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/326/25_120.png"
+    },
+    {
+      "name": "Filip Bednarek -",
+      "number": 18,
+      "position": "GK",
       "overall": 65,
       "attributes": {
-        "pace": 80,
-        "shooting": 56,
-        "passing": 62,
-        "dribbling": 65,
-        "defending": 23,
-        "physicality": 56,
-        "stamina": 83,
-        "awareness": 57,
-        "composure": 55
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/208/894/25_120.png"
     },
     {
-      "name": "R. Baturina",
-      "number": 21,
-      "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 65,
-        "shooting": 72,
-        "passing": 55,
-        "dribbling": 64,
-        "defending": 15,
-        "physicality": 77,
-        "stamina": 58,
-        "awareness": 54,
-        "composure": 58
-      }
-    },
-    {
-      "name": "T. Klupś",
-      "number": 22,
-      "position": "CM",
+      "name": "Gísli Gottskálk Þórðarson -",
+      "number": 19,
+      "position": "CDM",
       "overall": 64,
       "attributes": {
-        "pace": 93,
-        "shooting": 54,
-        "passing": 61,
-        "dribbling": 59,
-        "defending": 28,
-        "physicality": 59,
-        "stamina": 71,
-        "awareness": 52,
-        "composure": 48
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/076/294/25_120.png"
     },
     {
-      "name": "F. Marchwiński",
-      "number": 23,
-      "position": "CM",
+      "name": "Michał Gurgul -",
+      "number": 20,
+      "position": "LB",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/274/830/25_120.png"
+    },
+    {
+      "name": "Maksymilian Pingot -",
+      "number": 21,
+      "position": "CB",
       "overall": 63,
       "attributes": {
         "pace": 70,
-        "shooting": 62,
-        "passing": 63,
-        "dribbling": 65,
-        "defending": 42,
-        "physicality": 58,
-        "stamina": 69,
-        "awareness": 56,
-        "composure": 56
-      }
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/270/540/25_120.png"
+    },
+    {
+      "name": "Bryan Benjamin Solhaug Fiabema -",
+      "number": 22,
+      "position": "LW",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/884/25_120.png"
     }
   ]
 }

@@ -1,396 +1,419 @@
 {
   "name": "AS Saint-Étienne",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/108/30.png",
   "players": [
     {
-      "name": "21 S. Ruffier",
+      "name": "Gautier Larsonneur -",
       "number": 1,
-      "position": "CM",
-      "overall": 79,
+      "position": "GK",
+      "overall": 74,
       "attributes": {
-        "pace": 50,
-        "shooting": 11,
-        "passing": 33,
-        "dribbling": 12,
-        "defending": 12,
-        "physicality": 76,
-        "stamina": 37,
-        "awareness": 75,
-        "composure": 66
-      }
-    },
-    {
-      "name": "19 R. Cabella",
-      "number": 2,
-      "position": "CAM",
-      "overall": 78,
-      "attributes": {
-        "pace": 77,
-        "shooting": 70,
-        "passing": 79,
-        "dribbling": 82,
-        "defending": 34,
-        "physicality": 50,
-        "stamina": 73,
-        "awareness": 72,
-        "composure": 72
-      }
-    },
-    {
-      "name": "20 L. Perrin",
-      "number": 3,
-      "position": "CB",
-      "overall": 78,
-      "attributes": {
-        "pace": 49,
-        "shooting": 51,
-        "passing": 73,
-        "dribbling": 60,
-        "defending": 80,
-        "physicality": 75,
-        "stamina": 68,
-        "awareness": 76,
-        "composure": 77
-      }
-    },
-    {
-      "name": "20 Y. Cabaye",
-      "number": 4,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 60,
-        "shooting": 67,
-        "passing": 79,
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 71,
-        "physicality": 69,
-        "stamina": 61,
-        "awareness": 80,
-        "composure": 81
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/230/727/25_120.png"
     },
     {
-      "name": "W. Khazri",
-      "number": 5,
+      "name": "Zuriko Davitashvili -",
+      "number": 2,
       "position": "LW",
-      "overall": 76,
+      "overall": 74,
       "attributes": {
-        "pace": 72,
-        "shooting": 78,
-        "passing": 76,
-        "dribbling": 77,
-        "defending": 46,
-        "physicality": 69,
-        "stamina": 68,
-        "awareness": 77,
-        "composure": 80
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/688/25_120.png"
     },
     {
-      "name": "D. Bouanga",
-      "number": 6,
+      "name": "Lucas Frédéric Stassin -",
+      "number": 3,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/657/25_120.png"
+    },
+    {
+      "name": "Irvin Cardona -",
+      "number": 4,
       "position": "RW",
-      "overall": 76,
+      "overall": 73,
       "attributes": {
-        "pace": 83,
-        "shooting": 74,
-        "passing": 71,
-        "dribbling": 80,
-        "defending": 27,
-        "physicality": 67,
-        "stamina": 76,
-        "awareness": 73,
-        "composure": 72
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/235/888/25_120.png"
     },
     {
-      "name": "R. Hamouma",
+      "name": "Yunis Abdelhamid -",
+      "number": 5,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/206/493/25_120.png"
+    },
+    {
+      "name": "Dennis Appiah -",
+      "number": 6,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/199/191/25_120.png"
+    },
+    {
+      "name": "Ibrahim Sissoko -",
       "number": 7,
       "position": "ST",
-      "overall": 75,
-      "attributes": {
-        "pace": 67,
-        "shooting": 76,
-        "passing": 77,
-        "dribbling": 78,
-        "defending": 41,
-        "physicality": 66,
-        "stamina": 66,
-        "awareness": 76,
-        "composure": 73
-      }
-    },
-    {
-      "name": "Y. Neyou",
-      "number": 8,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 67,
-        "shooting": 59,
-        "passing": 76,
-        "dribbling": 78,
-        "defending": 75,
-        "physicality": 63,
-        "stamina": 72,
-        "awareness": 75,
-        "composure": 76
-      }
-    },
-    {
-      "name": "M. Camara",
-      "number": 9,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 61,
-        "shooting": 55,
-        "passing": 75,
-        "dribbling": 69,
-        "defending": 75,
-        "physicality": 71,
-        "stamina": 74,
-        "awareness": 72,
-        "composure": 72
-      }
-    },
-    {
-      "name": "H. Moukoudi",
-      "number": 10,
-      "position": "CB",
-      "overall": 75,
-      "attributes": {
-        "pace": 56,
-        "shooting": 27,
-        "passing": 70,
-        "dribbling": 40,
-        "defending": 77,
-        "physicality": 90,
-        "stamina": 71,
-        "awareness": 72,
-        "composure": 70
-      }
-    },
-    {
-      "name": "M. Trauco",
-      "number": 11,
-      "position": "LW",
-      "overall": 74,
-      "attributes": {
-        "pace": 67,
-        "shooting": 37,
-        "passing": 76,
-        "dribbling": 76,
-        "defending": 74,
-        "physicality": 66,
-        "stamina": 78,
-        "awareness": 71,
-        "composure": 74
-      }
-    },
-    {
-      "name": "R. Boudebouz",
-      "number": 12,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 67,
-        "shooting": 73,
-        "passing": 75,
-        "dribbling": 77,
-        "defending": 35,
-        "physicality": 61,
-        "stamina": 58,
-        "awareness": 72,
-        "composure": 72
-      }
-    },
-    {
-      "name": "A. Aouchiche",
-      "number": 13,
-      "position": "CM",
-      "overall": 74,
+      "overall": 72,
       "attributes": {
         "pace": 70,
-        "shooting": 63,
-        "passing": 77,
-        "dribbling": 77,
-        "defending": 57,
-        "physicality": 61,
-        "stamina": 63,
-        "awareness": 71,
-        "composure": 73
-      }
-    },
-    {
-      "name": "Y. Maçon",
-      "number": 14,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 86,
-        "shooting": 44,
-        "passing": 67,
-        "dribbling": 73,
-        "defending": 70,
-        "physicality": 66,
-        "stamina": 76,
-        "awareness": 69,
-        "composure": 68
-      }
-    },
-    {
-      "name": "T. Kolodziejczak",
-      "number": 15,
-      "position": "CB",
-      "overall": 73,
-      "attributes": {
-        "pace": 67,
-        "shooting": 26,
-        "passing": 74,
-        "dribbling": 55,
-        "defending": 73,
-        "physicality": 81,
-        "stamina": 72,
-        "awareness": 70,
-        "composure": 65
-      }
-    },
-    {
-      "name": "A. Nordin",
-      "number": 16,
-      "position": "RW",
-      "overall": 73,
-      "attributes": {
-        "pace": 80,
         "shooting": 70,
-        "passing": 73,
-        "dribbling": 76,
-        "defending": 32,
-        "physicality": 65,
-        "stamina": 63,
-        "awareness": 68,
-        "composure": 66
-      }
-    },
-    {
-      "name": "Gabriel Silva",
-      "number": 17,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 67,
-        "shooting": 54,
-        "passing": 75,
-        "dribbling": 69,
-        "defending": 73,
-        "physicality": 63,
-        "stamina": 70,
-        "awareness": 72,
-        "composure": 68
-      }
-    },
-    {
-      "name": "21 K. Monnet-Paquet",
-      "number": 18,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 74,
-        "shooting": 67,
-        "passing": 73,
-        "dribbling": 70,
-        "defending": 47,
-        "physicality": 71,
-        "stamina": 74,
-        "awareness": 70,
-        "composure": 68
-      }
-    },
-    {
-      "name": "E. Green",
-      "number": 19,
-      "position": "GK",
-      "overall": 72,
-      "attributes": {
-        "pace": 73,
-        "defending": 74,
         "passing": 70,
-        "dribbling": 72,
-        "physicality": 74,
-        "stamina": 34,
-        "awareness": 67,
-        "composure": 35
-      }
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/022/25_120.png"
     },
     {
-      "name": "Z. Youssouf",
-      "number": 20,
-      "position": "CM",
+      "name": "Pierre-Emmanuel Ekwah Elimby -",
+      "number": 8,
+      "position": "CDM",
       "overall": 71,
       "attributes": {
-        "pace": 64,
-        "shooting": 53,
-        "passing": 76,
-        "dribbling": 78,
-        "defending": 67,
-        "physicality": 70,
-        "stamina": 72,
-        "awareness": 64,
-        "composure": 70
-      }
-    },
-    {
-      "name": "A. Dioussé",
-      "number": 21,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 62,
-        "shooting": 34,
-        "passing": 75,
-        "dribbling": 73,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 57,
-        "stamina": 71,
-        "awareness": 69,
-        "composure": 62
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/473/25_120.png"
     },
     {
-      "name": "L. Gourna",
-      "number": 22,
-      "position": "CM",
+      "name": "Mickaël Nadé -",
+      "number": 9,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/749/25_120.png"
+    },
+    {
+      "name": "Buduka Dylan Batubinsika -",
+      "number": 10,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/814/25_120.png"
+    },
+    {
+      "name": "Florian Tardieu -",
+      "number": 11,
+      "position": "CDM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/209/618/25_120.png"
+    },
+    {
+      "name": "Yvann Maçon -",
+      "number": 12,
+      "position": "RB",
       "overall": 70,
       "attributes": {
-        "pace": 62,
-        "shooting": 48,
-        "passing": 72,
-        "dribbling": 67,
-        "defending": 69,
-        "physicality": 65,
-        "stamina": 75,
-        "awareness": 66,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/255/523/25_120.png"
     },
     {
-      "name": "I. Ramírez",
-      "number": 23,
+      "name": "Benjamin Bouchouari -",
+      "number": 13,
       "position": "CM",
       "overall": 70,
       "attributes": {
         "pace": 70,
-        "shooting": 77,
-        "passing": 65,
-        "dribbling": 55,
-        "defending": 16,
-        "physicality": 75,
-        "stamina": 51,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 52
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/452/25_120.png"
+    },
+    {
+      "name": "Pierre Cornud -",
+      "number": 14,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/270/25_120.png"
+    },
+    {
+      "name": "Anthony Briançon -",
+      "number": 15,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/223/138/25_120.png"
+    },
+    {
+      "name": "Brice Maubleu -",
+      "number": 16,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/196/316/25_120.png"
+    },
+    {
+      "name": "Léo Pétrot -",
+      "number": 17,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/559/25_120.png"
+    },
+    {
+      "name": "Louis Mouton -",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/725/25_120.png"
+    },
+    {
+      "name": "Lamine Fomba -",
+      "number": 19,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/721/25_120.png"
+    },
+    {
+      "name": "Augustine Boakye -",
+      "number": 20,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/441/25_120.png"
+    },
+    {
+      "name": "Aïmen Moueffek -",
+      "number": 21,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/257/320/25_120.png"
+    },
+    {
+      "name": "Maxime Bernauer -",
+      "number": 22,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/595/25_120.png"
+    },
+    {
+      "name": "Benjamin Craig Old -",
+      "number": 23,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/289/25_120.png"
     }
   ]
 }

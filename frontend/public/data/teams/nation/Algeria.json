@@ -1,6 +1,7 @@
 {
   "name": "Algeria",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "R. Mahrez",
@@ -73,7 +74,7 @@
     {
       "name": "A. Mandi",
       "number": 5,
-      "position": "CB",
+      "position": "CM",
       "overall": 80,
       "attributes": {
         "pace": 65,
@@ -127,10 +128,11 @@
       "position": "GK",
       "overall": 78,
       "attributes": {
-        "pace": 79,
-        "defending": 83,
-        "passing": 73,
-        "dribbling": 78,
+        "pace": 45,
+        "shooting": 14,
+        "passing": 25,
+        "dribbling": 15,
+        "defending": 19,
         "physicality": 73,
         "stamina": 35,
         "awareness": 68,

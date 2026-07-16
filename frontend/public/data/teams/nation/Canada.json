@@ -1,6 +1,7 @@
 {
   "name": "Canada",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "A. Davies",
@@ -59,10 +60,11 @@
       "position": "GK",
       "overall": 76,
       "attributes": {
-        "pace": 78,
-        "defending": 73,
-        "passing": 74,
-        "dribbling": 74,
+        "pace": 40,
+        "shooting": 12,
+        "passing": 38,
+        "dribbling": 28,
+        "defending": 23,
         "physicality": 79,
         "stamina": 40,
         "awareness": 73,
@@ -126,10 +128,11 @@
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 71,
-        "defending": 74,
-        "passing": 70,
-        "dribbling": 73,
+        "pace": 48,
+        "shooting": 17,
+        "passing": 34,
+        "dribbling": 19,
+        "defending": 17,
         "physicality": 69,
         "stamina": 40,
         "awareness": 70,
@@ -190,7 +193,7 @@
     {
       "name": "D. Henry",
       "number": 12,
-      "position": "CB",
+      "position": "CM",
       "overall": 72,
       "attributes": {
         "pace": 65,
@@ -343,7 +346,7 @@
     {
       "name": "K. Miller",
       "number": 21,
-      "position": "CB",
+      "position": "CM",
       "overall": 68,
       "attributes": {
         "pace": 80,

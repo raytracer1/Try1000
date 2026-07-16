@@ -1,10 +1,28 @@
 {
   "name": "Georgia",
   "type": "nation",
+  "logo": "",
   "players": [
     {
-      "name": "21 S. Kverkvelia",
+      "name": "12 K. Kaladze",
       "number": 1,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 53,
+        "shooting": 32,
+        "passing": 61,
+        "dribbling": 45,
+        "defending": 80,
+        "physicality": 78,
+        "stamina": 51,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 S. Kverkvelia",
+      "number": 2,
       "position": "CM",
       "overall": 75,
       "attributes": {
@@ -21,7 +39,7 @@
     },
     {
       "name": "G. Makaridze",
-      "number": 2,
+      "number": 3,
       "position": "CM",
       "overall": 75,
       "attributes": {
@@ -38,14 +56,15 @@
     },
     {
       "name": "G. Mamardashvili",
-      "number": 3,
+      "number": 4,
       "position": "GK",
       "overall": 75,
       "attributes": {
-        "pace": 76,
-        "defending": 79,
-        "passing": 77,
-        "dribbling": 76,
+        "pace": 45,
+        "shooting": 9,
+        "passing": 15,
+        "dribbling": 11,
+        "defending": 12,
         "physicality": 74,
         "stamina": 45,
         "awareness": 53,
@@ -54,7 +73,7 @@
     },
     {
       "name": "20 J. Ananidze",
-      "number": 4,
+      "number": 5,
       "position": "CM",
       "overall": 73,
       "attributes": {
@@ -71,7 +90,7 @@
     },
     {
       "name": "O. Kiteishvili",
-      "number": 5,
+      "number": 6,
       "position": "LW",
       "overall": 72,
       "attributes": {
@@ -88,7 +107,7 @@
     },
     {
       "name": "S. Lobjanidze",
-      "number": 6,
+      "number": 7,
       "position": "RW",
       "overall": 72,
       "attributes": {
@@ -105,7 +124,7 @@
     },
     {
       "name": "Vako",
-      "number": 7,
+      "number": 8,
       "position": "LW",
       "overall": 72,
       "attributes": {
@@ -122,7 +141,7 @@
     },
     {
       "name": "G. Kvilitaia",
-      "number": 8,
+      "number": 9,
       "position": "CM",
       "overall": 72,
       "attributes": {
@@ -139,7 +158,7 @@
     },
     {
       "name": "T. Okriashvili",
-      "number": 9,
+      "number": 10,
       "position": "LW",
       "overall": 71,
       "attributes": {
@@ -156,8 +175,8 @@
     },
     {
       "name": "D. Khocholava",
-      "number": 10,
-      "position": "CB",
+      "number": 11,
+      "position": "CM",
       "overall": 71,
       "attributes": {
         "pace": 63,
@@ -173,7 +192,7 @@
     },
     {
       "name": "19 L. Mchedlidze",
-      "number": 11,
+      "number": 12,
       "position": "CM",
       "overall": 70,
       "attributes": {
@@ -190,7 +209,7 @@
     },
     {
       "name": "G. Kharaishvili",
-      "number": 12,
+      "number": 13,
       "position": "CM",
       "overall": 69,
       "attributes": {
@@ -207,7 +226,7 @@
     },
     {
       "name": "G. Chakvetadze",
-      "number": 13,
+      "number": 14,
       "position": "CM",
       "overall": 69,
       "attributes": {
@@ -224,7 +243,7 @@
     },
     {
       "name": "G. Mikautadze",
-      "number": 14,
+      "number": 15,
       "position": "ST",
       "overall": 68,
       "attributes": {
@@ -241,7 +260,7 @@
     },
     {
       "name": "21 G. Kashia",
-      "number": 15,
+      "number": 16,
       "position": "CM",
       "overall": 68,
       "attributes": {
@@ -258,8 +277,8 @@
     },
     {
       "name": "L. Lochoshvili",
-      "number": 16,
-      "position": "CB",
+      "number": 17,
+      "position": "CM",
       "overall": 68,
       "attributes": {
         "pace": 60,
@@ -275,7 +294,7 @@
     },
     {
       "name": "V. Gvilia",
-      "number": 17,
+      "number": 18,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -292,7 +311,7 @@
     },
     {
       "name": "N. Kvekveskiri",
-      "number": 18,
+      "number": 19,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -309,7 +328,7 @@
     },
     {
       "name": "G. Giorbelidze",
-      "number": 19,
+      "number": 20,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -326,7 +345,7 @@
     },
     {
       "name": "L. Zarandia",
-      "number": 20,
+      "number": 21,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -343,7 +362,7 @@
     },
     {
       "name": "21 G. Papunashvili",
-      "number": 21,
+      "number": 22,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -360,7 +379,7 @@
     },
     {
       "name": "20 D. Skhirtladze",
-      "number": 22,
+      "number": 23,
       "position": "CM",
       "overall": 66,
       "attributes": {
@@ -373,23 +392,6 @@
         "stamina": 68,
         "awareness": 65,
         "composure": 67
-      }
-    },
-    {
-      "name": "21 N. Kacharava",
-      "number": 23,
-      "position": "CM",
-      "overall": 66,
-      "attributes": {
-        "pace": 65,
-        "shooting": 64,
-        "passing": 57,
-        "dribbling": 71,
-        "defending": 26,
-        "physicality": 93,
-        "stamina": 63,
-        "awareness": 65,
-        "composure": 75
       }
     }
   ]

@@ -1,396 +1,420 @@
 {
   "name": "Dinamo Zagreb",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/674/30.png",
   "players": [
     {
-      "name": "D. Livaković",
+      "name": "Martin Baturina -",
       "number": 1,
-      "position": "GK",
-      "overall": 82,
-      "attributes": {
-        "pace": 81,
-        "defending": 85,
-        "passing": 78,
-        "dribbling": 80,
-        "physicality": 75,
-        "stamina": 32,
-        "awareness": 80,
-        "composure": 64
-      }
-    },
-    {
-      "name": "M. Oršić",
-      "number": 2,
-      "position": "LW",
-      "overall": 77,
-      "attributes": {
-        "pace": 91,
-        "shooting": 81,
-        "passing": 70,
-        "dribbling": 76,
-        "defending": 57,
-        "physicality": 57,
-        "stamina": 82,
-        "awareness": 77,
-        "composure": 77
-      }
-    },
-    {
-      "name": "B. Petković",
-      "number": 3,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 76,
-        "shooting": 72,
-        "passing": 79,
-        "dribbling": 83,
-        "defending": 41,
-        "physicality": 92,
-        "stamina": 73,
-        "awareness": 68,
-        "composure": 79
-      }
-    },
-    {
-      "name": "A. Ademi",
-      "number": 4,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 75,
-        "shooting": 68,
-        "passing": 76,
-        "dribbling": 74,
-        "defending": 76,
-        "physicality": 85,
-        "stamina": 87,
-        "awareness": 76,
-        "composure": 79
-      }
-    },
-    {
-      "name": "L. Ivanušec",
-      "number": 5,
       "position": "CAM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/842/25_120.png"
+    },
+    {
+      "name": "Bruno Petković -",
+      "number": 2,
+      "position": "ST",
       "overall": 75,
       "attributes": {
-        "pace": 77,
-        "shooting": 67,
-        "passing": 75,
-        "dribbling": 83,
-        "defending": 59,
-        "physicality": 70,
-        "stamina": 78,
-        "awareness": 71,
-        "composure": 75
-      }
-    },
-    {
-      "name": "21 N. Moro",
-      "number": 6,
-      "position": "CDM",
-      "overall": 74,
-      "attributes": {
-        "pace": 71,
-        "shooting": 64,
-        "passing": 75,
-        "dribbling": 73,
-        "defending": 69,
-        "physicality": 76,
-        "stamina": 83,
-        "awareness": 72,
-        "composure": 77
-      }
-    },
-    {
-      "name": "S. Ristovski",
-      "number": 7,
-      "position": "RW",
-      "overall": 73,
-      "attributes": {
-        "pace": 78,
-        "shooting": 57,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 69,
-        "defending": 71,
-        "physicality": 73,
-        "stamina": 78,
-        "awareness": 69,
-        "composure": 73
-      }
-    },
-    {
-      "name": "K. Théophile-Catherine",
-      "number": 8,
-      "position": "CB",
-      "overall": 73,
-      "attributes": {
-        "pace": 69,
-        "shooting": 46,
-        "passing": 72,
-        "dribbling": 60,
-        "defending": 78,
-        "physicality": 80,
-        "stamina": 80,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 65
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/215/455/25_120.png"
     },
     {
-      "name": "R. Lauritsen",
-      "number": 9,
-      "position": "CB",
-      "overall": 73,
-      "attributes": {
-        "pace": 63,
-        "shooting": 42,
-        "passing": 65,
-        "dribbling": 49,
-        "defending": 74,
-        "physicality": 78,
-        "stamina": 72,
-        "awareness": 70,
-        "composure": 64
-      }
-    },
-    {
-      "name": "19 T. Doumbia",
-      "number": 10,
+      "name": "Petar Sučić -",
+      "number": 3,
       "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/276/278/25_120.png"
+    },
+    {
+      "name": "Torrente -",
+      "number": 4,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/103/25_120.png"
+    },
+    {
+      "name": "Ronaël Julien Pierre-Gabriel -",
+      "number": 5,
+      "position": "RB",
       "overall": 72,
       "attributes": {
-        "pace": 73,
-        "shooting": 66,
-        "passing": 66,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 71,
-        "physicality": 86,
-        "stamina": 85,
-        "awareness": 71,
-        "composure": 74
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/685/25_120.png"
     },
     {
-      "name": "J. Mišić",
-      "number": 11,
-      "position": "CM",
+      "name": "Marko Pjaca -",
+      "number": 6,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/593/25_120.png"
+    },
+    {
+      "name": "Ivan Nevistić -",
+      "number": 7,
+      "position": "GK",
       "overall": 71,
       "attributes": {
-        "pace": 56,
-        "shooting": 64,
-        "passing": 76,
-        "dribbling": 72,
-        "defending": 64,
-        "physicality": 71,
-        "stamina": 64,
-        "awareness": 66,
-        "composure": 72
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/261/144/25_120.png"
     },
     {
-      "name": "M. Tolić",
-      "number": 12,
-      "position": "CM",
+      "name": "Josip Mišić -",
+      "number": 8,
+      "position": "CDM",
       "overall": 71,
       "attributes": {
-        "pace": 59,
-        "shooting": 67,
-        "passing": 76,
-        "dribbling": 81,
-        "defending": 42,
-        "physicality": 78,
-        "stamina": 65,
-        "awareness": 61,
-        "composure": 82
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/007/25_120.png"
     },
     {
-      "name": "S. Moharrami",
-      "number": 13,
-      "position": "CM",
+      "name": "Kévin Théophile-Catherine -",
+      "number": 9,
+      "position": "CB",
       "overall": 71,
       "attributes": {
-        "pace": 81,
-        "shooting": 26,
-        "passing": 59,
-        "dribbling": 67,
-        "defending": 75,
-        "physicality": 48,
-        "stamina": 75,
-        "awareness": 62,
-        "composure": 57
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/190/868/25_120.png"
     },
     {
-      "name": "F. Moubandje",
-      "number": 14,
-      "position": "CM",
+      "name": "Nathanaël Mbuku -",
+      "number": 10,
+      "position": "RW",
       "overall": 70,
       "attributes": {
-        "pace": 67,
-        "shooting": 42,
-        "passing": 71,
-        "dribbling": 69,
-        "defending": 68,
-        "physicality": 75,
-        "stamina": 80,
-        "awareness": 67,
-        "composure": 69
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/253/036/25_120.png"
     },
     {
-      "name": "B. Franjic",
-      "number": 15,
+      "name": "Niko Galešić -",
+      "number": 11,
       "position": "CB",
       "overall": 70,
       "attributes": {
-        "pace": 77,
-        "shooting": 42,
-        "passing": 67,
-        "dribbling": 60,
-        "defending": 66,
-        "physicality": 76,
-        "stamina": 78,
-        "awareness": 66,
-        "composure": 64
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/076/227/25_120.png"
     },
     {
-      "name": "D. Perić",
-      "number": 16,
-      "position": "CM",
+      "name": "Bartol Franjić -",
+      "number": 12,
+      "position": "CDM",
       "overall": 70,
       "attributes": {
-        "pace": 68,
-        "shooting": 36,
-        "passing": 61,
-        "dribbling": 65,
-        "defending": 71,
-        "physicality": 84,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 62,
-        "composure": 64
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/928/25_120.png"
     },
     {
-      "name": "M. Bulat",
-      "number": 17,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 68,
-        "shooting": 58,
-        "passing": 74,
-        "dribbling": 68,
-        "defending": 60,
-        "physicality": 67,
-        "stamina": 75,
-        "awareness": 60,
-        "composure": 76
-      }
-    },
-    {
-      "name": "A. Gojak",
-      "number": 18,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 69,
-        "shooting": 59,
-        "passing": 72,
-        "dribbling": 73,
-        "defending": 64,
-        "physicality": 80,
-        "stamina": 76,
-        "awareness": 59,
-        "composure": 81
-      }
-    },
-    {
-      "name": "E. Dilaver",
-      "number": 19,
-      "position": "CM",
+      "name": "Sandro Kulenović -",
+      "number": 13,
+      "position": "ST",
       "overall": 69,
       "attributes": {
         "pace": 70,
-        "shooting": 39,
-        "passing": 66,
-        "dribbling": 57,
-        "defending": 71,
-        "physicality": 72,
-        "stamina": 76,
-        "awareness": 69,
-        "composure": 59
-      }
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/413/25_120.png"
     },
     {
-      "name": "D. Špikić",
-      "number": 20,
-      "position": "CM",
+      "name": "Stefan Ristovski -",
+      "number": 14,
+      "position": "RB",
       "overall": 69,
       "attributes": {
-        "pace": 85,
-        "shooting": 62,
-        "passing": 65,
-        "dribbling": 75,
-        "defending": 32,
-        "physicality": 64,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 62,
-        "composure": 63
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/205/965/25_120.png"
     },
     {
-      "name": "M. Leovac",
+      "name": "Luka Stojković -",
+      "number": 15,
+      "position": "CAM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/277/901/25_120.png"
+    },
+    {
+      "name": "Leon Belcar -",
+      "number": 16,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/077/518/25_120.png"
+    },
+    {
+      "name": "Aka Wilfried Julien Kanga -",
+      "number": 17,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/589/25_120.png"
+    },
+    {
+      "name": "Marko Rog -",
+      "number": 18,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/311/25_120.png"
+    },
+    {
+      "name": "Sadegh Moharrami -",
+      "number": 19,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/259/25_120.png"
+    },
+    {
+      "name": "Juan José Córdoba Zapata -",
+      "number": 20,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/074/351/25_120.png"
+    },
+    {
+      "name": "Arbër Hoxha -",
       "number": 21,
-      "position": "CM",
+      "position": "LW",
       "overall": 68,
       "attributes": {
-        "pace": 83,
-        "shooting": 49,
-        "passing": 63,
-        "dribbling": 67,
-        "defending": 64,
-        "physicality": 67,
-        "stamina": 75,
-        "awareness": 62,
-        "composure": 57
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/279/925/25_120.png"
     },
     {
-      "name": "21 I. Hajrović",
+      "name": "Lukas Kačavenda -",
       "number": 22,
-      "position": "CM",
+      "position": "CAM",
       "overall": 68,
       "attributes": {
-        "pace": 76,
-        "shooting": 61,
-        "passing": 63,
-        "dribbling": 76,
-        "defending": 41,
-        "physicality": 54,
-        "stamina": 56,
-        "awareness": 58,
-        "composure": 68
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/277/941/25_120.png"
     },
     {
-      "name": "D. Čop",
+      "name": "Samy Mmaee A Nwambeben -",
       "number": 23,
-      "position": "CM",
-      "overall": 67,
+      "position": "CB",
+      "overall": 68,
       "attributes": {
-        "pace": 37,
-        "shooting": 67,
-        "passing": 67,
-        "dribbling": 67,
-        "defending": 30,
-        "physicality": 68,
-        "stamina": 65,
-        "awareness": 68,
-        "composure": 71
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/211/25_120.png"
     }
   ]
 }

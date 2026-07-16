@@ -1,6 +1,7 @@
 {
   "name": "Burkina Faso",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "E. Tapsoba",
@@ -56,7 +57,7 @@
     {
       "name": "19 B. Koné",
       "number": 4,
-      "position": "CB",
+      "position": "CM",
       "overall": 75,
       "attributes": {
         "pace": 61,
@@ -76,10 +77,11 @@
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 75,
-        "defending": 76,
-        "passing": 71,
-        "dribbling": 69,
+        "pace": 53,
+        "shooting": 8,
+        "passing": 23,
+        "dribbling": 13,
+        "defending": 11,
         "physicality": 68,
         "stamina": 30,
         "awareness": 71,

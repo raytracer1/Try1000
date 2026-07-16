@@ -1,379 +1,383 @@
 {
   "name": "FC Luzern",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/3091/30.png",
   "players": [
     {
-      "name": "M. Müller",
+      "name": "Pascal David Loretz -",
       "number": 1,
       "position": "GK",
-      "overall": 76,
-      "attributes": {
-        "pace": 74,
-        "defending": 78,
-        "passing": 73,
-        "dribbling": 77,
-        "physicality": 77,
-        "stamina": 35,
-        "awareness": 70,
-        "composure": 30
-      }
-    },
-    {
-      "name": "M. Frýdek",
-      "number": 2,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 75,
-        "shooting": 64,
-        "passing": 72,
-        "dribbling": 68,
-        "defending": 68,
-        "physicality": 73,
-        "stamina": 87,
-        "awareness": 70,
-        "composure": 69
-      }
-    },
-    {
-      "name": "M. Schulz",
-      "number": 3,
-      "position": "CDM",
-      "overall": 72,
+      "overall": 71,
       "attributes": {
         "pace": 70,
-        "shooting": 68,
+        "defending": 70,
         "passing": 70,
-        "dribbling": 69,
-        "defending": 75,
-        "physicality": 76,
-        "stamina": 76,
-        "awareness": 68,
-        "composure": 68
-      }
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/862/25_120.png"
     },
     {
-      "name": "C. Gentner",
-      "number": 4,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 35,
-        "shooting": 69,
-        "passing": 75,
-        "dribbling": 67,
-        "defending": 76,
-        "physicality": 77,
-        "stamina": 68,
-        "awareness": 68,
-        "composure": 73
-      }
-    },
-    {
-      "name": "P. Farkas",
-      "number": 5,
-      "position": "RB",
-      "overall": 71,
-      "attributes": {
-        "pace": 84,
-        "shooting": 57,
-        "passing": 66,
-        "dribbling": 66,
-        "defending": 66,
-        "physicality": 71,
-        "stamina": 88,
-        "awareness": 64,
-        "composure": 63
-      }
-    },
-    {
-      "name": "I. Ndiaye",
-      "number": 6,
-      "position": "RW",
-      "overall": 71,
-      "attributes": {
-        "pace": 91,
-        "shooting": 71,
-        "passing": 66,
-        "dribbling": 77,
-        "defending": 48,
-        "physicality": 59,
-        "stamina": 74,
-        "awareness": 56,
-        "composure": 62
-      }
-    },
-    {
-      "name": "N. Čumić",
-      "number": 7,
-      "position": "LW",
-      "overall": 71,
-      "attributes": {
-        "pace": 83,
-        "shooting": 71,
-        "passing": 68,
-        "dribbling": 77,
-        "defending": 24,
-        "physicality": 60,
-        "stamina": 66,
-        "awareness": 62,
-        "composure": 66
-      }
-    },
-    {
-      "name": "D. Sorgić",
-      "number": 8,
+      "name": "Sinan Karweina -",
+      "number": 2,
       "position": "ST",
-      "overall": 70,
-      "attributes": {
-        "pace": 60,
-        "shooting": 74,
-        "passing": 68,
-        "dribbling": 67,
-        "defending": 39,
-        "physicality": 68,
-        "stamina": 78,
-        "awareness": 64,
-        "composure": 75
-      }
-    },
-    {
-      "name": "S. Campo",
-      "number": 9,
-      "position": "CM",
       "overall": 69,
       "attributes": {
-        "pace": 71,
-        "shooting": 61,
-        "passing": 72,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 30,
-        "physicality": 61,
-        "stamina": 66,
-        "awareness": 62,
-        "composure": 56
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/082/25_120.png"
     },
     {
-      "name": "F. Ugrinic",
-      "number": 10,
-      "position": "CM",
-      "overall": 67,
+      "name": "Pius Dorn -",
+      "number": 3,
+      "position": "RB",
+      "overall": 69,
       "attributes": {
-        "pace": 69,
-        "shooting": 60,
-        "passing": 72,
-        "dribbling": 57,
-        "defending": 67,
-        "physicality": 85,
-        "stamina": 71,
-        "awareness": 65,
-        "composure": 64
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/039/25_120.png"
     },
     {
-      "name": "P. Schürpf",
-      "number": 11,
+      "name": "Donat Rrudhani -",
+      "number": 4,
+      "position": "CAM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/270/328/25_120.png"
+    },
+    {
+      "name": "Stefan Knežević -",
+      "number": 5,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/234/817/25_120.png"
+    },
+    {
+      "name": "Lars Villiger -",
+      "number": 6,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/275/090/25_120.png"
+    },
+    {
+      "name": "Nicky Stéphane Medja Beloko -",
+      "number": 7,
       "position": "CM",
       "overall": 67,
       "attributes": {
         "pace": 70,
         "shooting": 70,
-        "passing": 66,
-        "dribbling": 61,
-        "defending": 60,
-        "physicality": 79,
-        "stamina": 72,
-        "awareness": 65,
-        "composure": 67
-      }
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/967/25_120.png"
     },
     {
-      "name": "21 C. Schwegler",
-      "number": 12,
+      "name": "Adrian Grbić -",
+      "number": 8,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/432/25_120.png"
+    },
+    {
+      "name": "Severin Ottiger -",
+      "number": 9,
       "position": "RB",
       "overall": 67,
       "attributes": {
-        "pace": 72,
-        "shooting": 27,
-        "passing": 58,
-        "dribbling": 61,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 73,
-        "stamina": 76,
-        "awareness": 59,
-        "composure": 63
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/270/928/25_120.png"
     },
     {
-      "name": "H. Badstuber",
-      "number": 13,
-      "position": "CB",
+      "name": "Kevin Spadanuda -",
+      "number": 10,
+      "position": "LW",
       "overall": 67,
       "attributes": {
-        "pace": 34,
-        "shooting": 35,
-        "passing": 63,
-        "dribbling": 45,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 77,
-        "stamina": 33,
-        "awareness": 50,
-        "composure": 60
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/947/25_120.png"
     },
     {
-      "name": "J. Wehrmann",
-      "number": 14,
-      "position": "CM",
+      "name": "Andrejs Cigaņiks -",
+      "number": 11,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/273/127/25_120.png"
+    },
+    {
+      "name": "Thibault Klidjé -",
+      "number": 12,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/268/273/25_120.png"
+    },
+    {
+      "name": "Ismajl Isak Beka -",
+      "number": 13,
+      "position": "CB",
       "overall": 66,
       "attributes": {
-        "pace": 61,
-        "shooting": 52,
-        "passing": 72,
-        "dribbling": 65,
-        "defending": 64,
-        "physicality": 56,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 63,
-        "composure": 59
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/638/25_120.png"
     },
     {
-      "name": "T. Ndenge",
-      "number": 15,
-      "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 63,
-        "shooting": 50,
-        "passing": 67,
-        "dribbling": 65,
-        "defending": 66,
-        "physicality": 78,
-        "stamina": 73,
-        "awareness": 60,
-        "composure": 62
-      }
-    },
-    {
-      "name": "M. Burch",
-      "number": 16,
+      "name": "Jesper Löfgren -",
+      "number": 14,
       "position": "CB",
       "overall": 65,
       "attributes": {
-        "pace": 65,
-        "shooting": 30,
-        "passing": 58,
-        "dribbling": 36,
-        "defending": 69,
-        "physicality": 75,
-        "stamina": 74,
-        "awareness": 58,
-        "composure": 52
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/247/042/25_120.png"
     },
     {
-      "name": "S. Sidler",
-      "number": 17,
-      "position": "LB",
+      "name": "Jakub Kadák -",
+      "number": 15,
+      "position": "CAM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/270/632/25_120.png"
+    },
+    {
+      "name": "Aleksandar Stankovic -",
+      "number": 16,
+      "position": "CDM",
       "overall": 64,
       "attributes": {
-        "pace": 65,
-        "shooting": 57,
-        "passing": 64,
-        "dribbling": 62,
-        "defending": 62,
-        "physicality": 62,
-        "stamina": 73,
-        "awareness": 58,
-        "composure": 61
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/278/318/25_120.png"
     },
     {
-      "name": "L. Emini",
+      "name": "Sofyan Chader -",
+      "number": 17,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/965/25_120.png"
+    },
+    {
+      "name": "Levin Winkler -",
       "number": 18,
       "position": "CM",
       "overall": 63,
       "attributes": {
-        "pace": 63,
-        "shooting": 42,
-        "passing": 66,
-        "dribbling": 58,
-        "defending": 63,
-        "physicality": 64,
-        "stamina": 72,
-        "awareness": 57,
-        "composure": 54
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/279/599/25_120.png"
     },
     {
-      "name": "17 S. Sarr",
+      "name": "Vaso Vasić -",
       "number": 19,
-      "position": "CM",
+      "position": "GK",
       "overall": 63,
       "attributes": {
-        "pace": 65,
-        "shooting": 33,
-        "passing": 56,
-        "dribbling": 57,
-        "defending": 57,
-        "physicality": 71,
-        "stamina": 74,
-        "awareness": 66,
-        "composure": 52
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/223/968/25_120.png"
     },
     {
-      "name": "21 M. Bürki",
+      "name": "Rúben Dantas Fernandes -",
       "number": 20,
-      "position": "CM",
-      "overall": 63,
-      "attributes": {
-        "pace": 62,
-        "shooting": 18,
-        "passing": 57,
-        "dribbling": 56,
-        "defending": 63,
-        "physicality": 73,
-        "stamina": 75,
-        "awareness": 60,
-        "composure": 59
-      }
-    },
-    {
-      "name": "21 D. Zibung",
-      "number": 21,
-      "position": "CM",
+      "position": "LB",
       "overall": 61,
       "attributes": {
-        "pace": 30,
-        "shooting": 9,
-        "passing": 37,
-        "dribbling": 14,
-        "defending": 11,
-        "physicality": 57,
-        "stamina": 27,
-        "awareness": 59,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/076/263/25_120.png"
     },
     {
-      "name": "S. Alabi",
-      "number": 22,
-      "position": "CM",
+      "name": "Bung Meng Freimann -",
+      "number": 21,
+      "position": "CB",
       "overall": 60,
       "attributes": {
-        "pace": 68,
-        "shooting": 46,
-        "passing": 63,
-        "dribbling": 65,
-        "defending": 49,
-        "physicality": 54,
-        "stamina": 49,
-        "awareness": 44,
-        "composure": 61
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/073/657/25_120.png"
     }
   ]
 }

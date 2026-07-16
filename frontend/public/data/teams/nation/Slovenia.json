@@ -1,6 +1,7 @@
 {
   "name": "Slovenia",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "J. Oblak",
@@ -8,10 +9,11 @@
       "position": "GK",
       "overall": 91,
       "attributes": {
-        "pace": 87,
-        "defending": 90,
-        "passing": 92,
-        "dribbling": 90,
+        "pace": 60,
+        "shooting": 11,
+        "passing": 43,
+        "dribbling": 12,
+        "defending": 12,
         "physicality": 78,
         "stamina": 41,
         "awareness": 88,
@@ -24,10 +26,11 @@
       "position": "GK",
       "overall": 86,
       "attributes": {
-        "pace": 81,
-        "defending": 87,
-        "passing": 81,
-        "dribbling": 92,
+        "pace": 50,
+        "shooting": 10,
+        "passing": 42,
+        "dribbling": 18,
+        "defending": 10,
         "physicality": 69,
         "stamina": 41,
         "awareness": 79,
@@ -227,10 +230,11 @@
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 73,
-        "defending": 74,
-        "passing": 72,
-        "dribbling": 71,
+        "pace": 43,
+        "shooting": 10,
+        "passing": 24,
+        "dribbling": 13,
+        "defending": 10,
         "physicality": 59,
         "stamina": 20,
         "awareness": 67,
@@ -291,7 +295,7 @@
     {
       "name": "M. Blažič",
       "number": 18,
-      "position": "CB",
+      "position": "CM",
       "overall": 72,
       "attributes": {
         "pace": 65,
@@ -342,7 +346,7 @@
     {
       "name": "J. Bijol",
       "number": 21,
-      "position": "CB",
+      "position": "CM",
       "overall": 71,
       "attributes": {
         "pace": 67,

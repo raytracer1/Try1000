@@ -1,312 +1,419 @@
 {
   "name": "CFR Cluj",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/3599/30.png",
   "players": [
     {
-      "name": "21 Soares",
+      "name": "Louis Munteanu -",
       "number": 1,
-      "position": "CM",
+      "position": "ST",
       "overall": 72,
       "attributes": {
-        "pace": 55,
-        "shooting": 52,
-        "passing": 69,
-        "dribbling": 66,
-        "defending": 72,
-        "physicality": 73,
-        "stamina": 90,
-        "awareness": 70,
-        "composure": 59
-      }
-    },
-    {
-      "name": "C. Deac",
-      "number": 2,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 72,
-        "shooting": 69,
-        "passing": 73,
-        "dribbling": 70,
-        "defending": 58,
-        "physicality": 70,
-        "stamina": 84,
-        "awareness": 73,
-        "composure": 74
-      }
-    },
-    {
-      "name": "A. Burcă",
-      "number": 3,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 68,
-        "shooting": 17,
-        "passing": 66,
-        "dribbling": 43,
-        "defending": 73,
-        "physicality": 80,
-        "stamina": 73,
-        "awareness": 67,
-        "composure": 62
-      }
-    },
-    {
-      "name": "A. Chipciu",
-      "number": 4,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 74,
-        "shooting": 67,
-        "passing": 67,
-        "dribbling": 70,
-        "defending": 56,
-        "physicality": 64,
-        "stamina": 81,
-        "awareness": 62,
-        "composure": 69
-      }
-    },
-    {
-      "name": "C. Manea",
-      "number": 5,
-      "position": "RB",
-      "overall": 69,
-      "attributes": {
-        "pace": 75,
-        "shooting": 43,
-        "passing": 65,
-        "dribbling": 60,
-        "defending": 64,
-        "physicality": 72,
-        "stamina": 76,
-        "awareness": 65,
-        "composure": 63
-      }
-    },
-    {
-      "name": "A. Păun",
-      "number": 6,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 82,
-        "shooting": 66,
-        "passing": 68,
-        "dribbling": 74,
-        "defending": 29,
-        "physicality": 65,
-        "stamina": 83,
-        "awareness": 67,
-        "composure": 67
-      }
-    },
-    {
-      "name": "B. Omrani",
-      "number": 7,
-      "position": "LW",
-      "overall": 69,
-      "attributes": {
-        "pace": 69,
-        "shooting": 67,
-        "passing": 69,
-        "dribbling": 70,
-        "defending": 22,
-        "physicality": 84,
-        "stamina": 76,
-        "awareness": 67,
-        "composure": 65
-      }
-    },
-    {
-      "name": "20 L. Traoré",
-      "number": 8,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 45,
+        "pace": 70,
         "shooting": 70,
-        "passing": 64,
-        "dribbling": 69,
-        "defending": 31,
-        "physicality": 87,
-        "stamina": 54,
-        "awareness": 63,
-        "composure": 67
-      }
-    },
-    {
-      "name": "M. Sušić",
-      "number": 9,
-      "position": "CM",
-      "overall": 68,
-      "attributes": {
-        "pace": 75,
-        "shooting": 37,
-        "passing": 64,
-        "dribbling": 61,
-        "defending": 65,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
         "physicality": 70,
-        "stamina": 77,
-        "awareness": 67,
-        "composure": 57
-      }
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/674/25_120.png"
     },
     {
-      "name": "G. Debeljuh",
-      "number": 10,
-      "position": "ST",
+      "name": "Panagiotis Tachtsidis -",
+      "number": 2,
+      "position": "CDM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/190/084/25_120.png"
+    },
+    {
+      "name": "Matei Cristian Ilie -",
+      "number": 3,
+      "position": "CB",
       "overall": 68,
       "attributes": {
-        "pace": 64,
-        "shooting": 72,
-        "passing": 55,
-        "dribbling": 62,
-        "defending": 20,
-        "physicality": 80,
-        "stamina": 82,
-        "awareness": 66,
-        "composure": 66
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/278/087/25_120.png"
     },
     {
-      "name": "M. Cestor",
+      "name": "Meriton Korenica -",
+      "number": 4,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/073/406/25_120.png"
+    },
+    {
+      "name": "Leo Bolgado -",
+      "number": 5,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/620/25_120.png"
+    },
+    {
+      "name": "Otto Hindrich -",
+      "number": 6,
+      "position": "GK",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/586/25_120.png"
+    },
+    {
+      "name": "Simão Rocha -",
+      "number": 7,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/072/721/25_120.png"
+    },
+    {
+      "name": "Ciprian Ioan Deac -",
+      "number": 8,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/199/572/25_120.png"
+    },
+    {
+      "name": "Constantin Adrian Alexandru Păun -",
+      "number": 9,
+      "position": "CAM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/147/25_120.png"
+    },
+    {
+      "name": "Moustapha Name -",
+      "number": 10,
+      "position": "CDM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/256/692/25_120.png"
+    },
+    {
+      "name": "Alin Răzvan Fică -",
       "number": 11,
       "position": "CM",
-      "overall": 68,
+      "overall": 66,
       "attributes": {
-        "pace": 81,
-        "shooting": 20,
-        "passing": 52,
-        "dribbling": 40,
-        "defending": 68,
-        "physicality": 84,
-        "stamina": 64,
-        "awareness": 66,
-        "composure": 55
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/587/25_120.png"
     },
     {
-      "name": "G. Fofana",
+      "name": "Camora -",
       "number": 12,
-      "position": "CM",
-      "overall": 67,
+      "position": "LB",
+      "overall": 66,
       "attributes": {
-        "pace": 59,
-        "shooting": 57,
-        "passing": 65,
-        "dribbling": 61,
-        "defending": 65,
-        "physicality": 82,
-        "stamina": 81,
-        "awareness": 62,
-        "composure": 67
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/191/058/25_120.png"
     },
     {
-      "name": "V. Costache",
+      "name": "Sheriff Sinyan -",
       "number": 13,
-      "position": "CM",
-      "overall": 67,
+      "position": "CB",
+      "overall": 66,
       "attributes": {
-        "pace": 84,
-        "shooting": 62,
-        "passing": 65,
-        "dribbling": 64,
-        "defending": 22,
-        "physicality": 60,
-        "stamina": 77,
-        "awareness": 65,
-        "composure": 68
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/233/820/25_120.png"
     },
     {
-      "name": "H. Sacko",
+      "name": "Damjan Đoković -",
       "number": 14,
       "position": "CM",
-      "overall": 67,
+      "overall": 66,
       "attributes": {
-        "pace": 85,
-        "shooting": 63,
-        "passing": 62,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 25,
-        "physicality": 75,
-        "stamina": 62,
-        "awareness": 65,
-        "composure": 49
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/205/983/25_120.png"
     },
     {
-      "name": "B. Adjei-Boateng",
+      "name": "Yacoub Aly Abeid -",
       "number": 15,
-      "position": "CM",
-      "overall": 66,
-      "attributes": {
-        "pace": 76,
-        "shooting": 58,
-        "passing": 65,
-        "dribbling": 59,
-        "defending": 64,
-        "physicality": 78,
-        "stamina": 80,
-        "awareness": 60,
-        "composure": 58
-      }
-    },
-    {
-      "name": "C. Petrila",
-      "number": 16,
-      "position": "RW",
-      "overall": 66,
-      "attributes": {
-        "pace": 80,
-        "shooting": 60,
-        "passing": 61,
-        "dribbling": 67,
-        "defending": 33,
-        "physicality": 50,
-        "stamina": 53,
-        "awareness": 60,
-        "composure": 58
-      }
-    },
-    {
-      "name": "21 S. Ben Youssef",
-      "number": 17,
-      "position": "CM",
-      "overall": 66,
-      "attributes": {
-        "pace": 53,
-        "shooting": 38,
-        "passing": 58,
-        "dribbling": 50,
-        "defending": 65,
-        "physicality": 77,
-        "stamina": 53,
-        "awareness": 55,
-        "composure": 64
-      }
-    },
-    {
-      "name": "O. Hoban",
-      "number": 18,
-      "position": "CM",
+      "position": "LB",
       "overall": 65,
       "attributes": {
-        "pace": 31,
-        "shooting": 51,
-        "passing": 67,
-        "dribbling": 56,
-        "defending": 66,
-        "physicality": 73,
-        "stamina": 61,
-        "awareness": 63,
-        "composure": 73
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/210/25_120.png"
+    },
+    {
+      "name": "Daniel Graovac -",
+      "number": 16,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/307/25_120.png"
+    },
+    {
+      "name": "Mohammed Kesselly Kamara -",
+      "number": 17,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/827/25_120.png"
+    },
+    {
+      "name": "Béni NKololo -",
+      "number": 18,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/233/645/25_120.png"
+    },
+    {
+      "name": "Lindon Emërllahu -",
+      "number": 19,
+      "position": "CDM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/077/233/25_120.png"
+    },
+    {
+      "name": "Mihai Maximilian Popa -",
+      "number": 20,
+      "position": "GK",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/253/688/25_120.png"
+    },
+    {
+      "name": "Virgiliu Postolachi -",
+      "number": 21,
+      "position": "ST",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/977/25_120.png"
+    },
+    {
+      "name": "Alexandru Mircea Țîrlea -",
+      "number": 22,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/075/25_120.png"
+    },
+    {
+      "name": "Flavius Iacob -",
+      "number": 23,
+      "position": "RB",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/074/641/25_120.png"
     }
   ]
 }

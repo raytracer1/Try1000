@@ -1,11 +1,12 @@
 {
   "name": "Greece",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "K. Manolas",
       "number": 1,
-      "position": "CB",
+      "position": "CM",
       "overall": 83,
       "attributes": {
         "pace": 84,
@@ -25,10 +26,11 @@
       "position": "GK",
       "overall": 81,
       "attributes": {
-        "pace": 84,
-        "defending": 84,
-        "passing": 78,
-        "dribbling": 78,
+        "pace": 44,
+        "shooting": 12,
+        "passing": 27,
+        "dribbling": 13,
+        "defending": 14,
         "physicality": 68,
         "stamina": 39,
         "awareness": 82,
@@ -55,7 +57,7 @@
     {
       "name": "Sokratis",
       "number": 4,
-      "position": "CB",
+      "position": "CM",
       "overall": 77,
       "attributes": {
         "pace": 66,
@@ -157,7 +159,7 @@
     {
       "name": "D. Siovas",
       "number": 10,
-      "position": "CB",
+      "position": "CM",
       "overall": 76,
       "attributes": {
         "pace": 29,
@@ -228,10 +230,11 @@
       "position": "GK",
       "overall": 75,
       "attributes": {
-        "pace": 77,
-        "defending": 80,
-        "passing": 72,
-        "dribbling": 74,
+        "pace": 45,
+        "shooting": 13,
+        "passing": 26,
+        "dribbling": 13,
+        "defending": 20,
         "physicality": 65,
         "stamina": 33,
         "awareness": 66,
@@ -241,7 +244,7 @@
     {
       "name": "21 J. Holebas",
       "number": 15,
-      "position": "CB",
+      "position": "CM",
       "overall": 74,
       "attributes": {
         "pace": 67,

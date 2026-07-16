@@ -4,13 +4,13 @@
       "name": "1. FC Heidenheim 1846",
       "type": "club",
       "file": "club/1._FC_Heidenheim_1846.json",
-      "players": 22
+      "players": 23
     },
     {
       "name": "1. FC Kaiserslautern",
       "type": "club",
       "file": "club/1._FC_Kaiserslautern.json",
-      "players": 21
+      "players": 23
     },
     {
       "name": "1. FC Köln",
@@ -22,7 +22,7 @@
       "name": "1. FC Magdeburg",
       "type": "club",
       "file": "club/1._FC_Magdeburg.json",
-      "players": 17
+      "players": 23
     },
     {
       "name": "1. FC Nürnberg",
@@ -34,7 +34,7 @@
       "name": "1. FC Saarbrücken",
       "type": "club",
       "file": "club/1._FC_Saarbrücken.json",
-      "players": 15
+      "players": 23
     },
     {
       "name": "1. FC Union Berlin",
@@ -61,30 +61,6 @@
       "players": 23
     },
     {
-      "name": "AC Monza",
-      "type": "club",
-      "file": "club/AC_Monza.json",
-      "players": 23
-    },
-    {
-      "name": "AC Sparta Praha",
-      "type": "club",
-      "file": "club/AC_Sparta_Praha.json",
-      "players": 23
-    },
-    {
-      "name": "AD Alcorcón",
-      "type": "club",
-      "file": "club/AD_Alcorcón.json",
-      "players": 21
-    },
-    {
-      "name": "ADO Den Haag",
-      "type": "club",
-      "file": "club/ADO_Den_Haag.json",
-      "players": 18
-    },
-    {
       "name": "AEK Athens",
       "type": "club",
       "file": "club/AEK_Athens.json",
@@ -100,25 +76,31 @@
       "name": "AFC Wimbledon",
       "type": "club",
       "file": "club/AFC_Wimbledon.json",
-      "players": 21
+      "players": 19
     },
     {
       "name": "AIK",
       "type": "club",
       "file": "club/AIK.json",
-      "players": 18
+      "players": 23
     },
     {
       "name": "AJ Auxerre",
       "type": "club",
       "file": "club/AJ_Auxerre.json",
-      "players": 22
+      "players": 23
     },
     {
-      "name": "APOEL Nicosia FC",
+      "name": "APOEL FC",
       "type": "club",
-      "file": "club/APOEL_Nicosia_FC.json",
-      "players": 21
+      "file": "club/APOEL_FC.json",
+      "players": 23
+    },
+    {
+      "name": "AS FC Buzău",
+      "type": "club",
+      "file": "club/AS_FC_Buzău.json",
+      "players": 19
     },
     {
       "name": "AS Monaco",
@@ -127,22 +109,16 @@
       "players": 23
     },
     {
-      "name": "AS Nancy Lorraine",
-      "type": "club",
-      "file": "club/AS_Nancy_Lorraine.json",
-      "players": 22
-    },
-    {
       "name": "AS Saint-Étienne",
       "type": "club",
       "file": "club/AS_Saint-Étienne.json",
       "players": 23
     },
     {
-      "name": "ATK Mohun Bagan FC",
+      "name": "AVS Futebol SAD",
       "type": "club",
-      "file": "club/ATK_Mohun_Bagan_FC.json",
-      "players": 11
+      "file": "club/AVS_Futebol_SAD.json",
+      "players": 23
     },
     {
       "name": "AZ Alkmaar",
@@ -151,28 +127,40 @@
       "players": 23
     },
     {
-      "name": "Aalborg BK",
+      "name": "Aalborg Boldspilklub",
       "type": "club",
-      "file": "club/Aalborg_BK.json",
-      "players": 23
+      "file": "club/Aalborg_Boldspilklub.json",
+      "players": 18
     },
     {
-      "name": "Aarhus GF",
+      "name": "Aarhus Gymnastikforening",
       "type": "club",
-      "file": "club/Aarhus_GF.json",
+      "file": "club/Aarhus_Gymnastikforening.json",
       "players": 22
     },
     {
       "name": "Aberdeen",
       "type": "club",
       "file": "club/Aberdeen.json",
+      "players": 22
+    },
+    {
+      "name": "Academia Puerto Cabello",
+      "type": "club",
+      "file": "club/Academia_Puerto_Cabello.json",
       "players": 23
     },
     {
       "name": "Adana Demirspor",
       "type": "club",
       "file": "club/Adana_Demirspor.json",
-      "players": 20
+      "players": 14
+    },
+    {
+      "name": "Adelaide United",
+      "type": "club",
+      "file": "club/Adelaide_United.json",
+      "players": 13
     },
     {
       "name": "Ajax",
@@ -181,10 +169,40 @@
       "players": 23
     },
     {
-      "name": "Al Ain FC",
+      "name": "Al Ahli SFC",
       "type": "club",
-      "file": "club/Al_Ain_FC.json",
-      "players": 11
+      "file": "club/Al_Ahli_SFC.json",
+      "players": 22
+    },
+    {
+      "name": "Al Ain",
+      "type": "club",
+      "file": "club/Al_Ain.json",
+      "players": 23
+    },
+    {
+      "name": "Al Akhdoud Saudi Club",
+      "type": "club",
+      "file": "club/Al_Akhdoud_Saudi_Club.json",
+      "players": 14
+    },
+    {
+      "name": "Al Ettifaq",
+      "type": "club",
+      "file": "club/Al_Ettifaq.json",
+      "players": 21
+    },
+    {
+      "name": "Al Fateh",
+      "type": "club",
+      "file": "club/Al_Fateh.json",
+      "players": 12
+    },
+    {
+      "name": "Al Fayha",
+      "type": "club",
+      "file": "club/Al_Fayha.json",
+      "players": 12
     },
     {
       "name": "Al Hilal",
@@ -196,36 +214,108 @@
       "name": "Al Ittihad",
       "type": "club",
       "file": "club/Al_Ittihad.json",
-      "players": 18
+      "players": 22
+    },
+    {
+      "name": "Al Khaleej",
+      "type": "club",
+      "file": "club/Al_Khaleej.json",
+      "players": 14
+    },
+    {
+      "name": "Al Kholood",
+      "type": "club",
+      "file": "club/Al_Kholood.json",
+      "players": 11
     },
     {
       "name": "Al Nassr",
       "type": "club",
       "file": "club/Al_Nassr.json",
-      "players": 21
+      "players": 22
+    },
+    {
+      "name": "Al Orobah FC",
+      "type": "club",
+      "file": "club/Al_Orobah_FC.json",
+      "players": 14
+    },
+    {
+      "name": "Al Qadsiah FC",
+      "type": "club",
+      "file": "club/Al_Qadsiah_FC.json",
+      "players": 19
+    },
+    {
+      "name": "Al Raed",
+      "type": "club",
+      "file": "club/Al_Raed.json",
+      "players": 16
+    },
+    {
+      "name": "Al Riyadh",
+      "type": "club",
+      "file": "club/Al_Riyadh.json",
+      "players": 16
     },
     {
       "name": "Al Shabab",
       "type": "club",
       "file": "club/Al_Shabab.json",
-      "players": 13
+      "players": 20
     },
     {
-      "name": "Albacete BP",
+      "name": "Al Taawoun FC",
       "type": "club",
-      "file": "club/Albacete_BP.json",
-      "players": 12
+      "file": "club/Al_Taawoun_FC.json",
+      "players": 22
     },
     {
-      "name": "Altay SK",
+      "name": "Al Wahda",
       "type": "club",
-      "file": "club/Altay_SK.json",
-      "players": 13
+      "file": "club/Al_Wahda.json",
+      "players": 15
+    },
+    {
+      "name": "Alanyaspor",
+      "type": "club",
+      "file": "club/Alanyaspor.json",
+      "players": 16
+    },
+    {
+      "name": "Albacete Balompié",
+      "type": "club",
+      "file": "club/Albacete_Balompié.json",
+      "players": 23
+    },
+    {
+      "name": "Alemannia Aachen",
+      "type": "club",
+      "file": "club/Alemannia_Aachen.json",
+      "players": 23
+    },
+    {
+      "name": "Alianza Lima",
+      "type": "club",
+      "file": "club/Alianza_Lima.json",
+      "players": 23
+    },
+    {
+      "name": "Almere City FC",
+      "type": "club",
+      "file": "club/Almere_City_FC.json",
+      "players": 23
     },
     {
       "name": "Amiens SC",
       "type": "club",
       "file": "club/Amiens_SC.json",
+      "players": 17
+    },
+    {
+      "name": "América de Cali",
+      "type": "club",
+      "file": "club/América_de_Cali.json",
       "players": 23
     },
     {
@@ -244,7 +334,7 @@
       "name": "Argentinos Juniors",
       "type": "club",
       "file": "club/Argentinos_Juniors.json",
-      "players": 15
+      "players": 23
     },
     {
       "name": "Arsenal",
@@ -253,10 +343,10 @@
       "players": 23
     },
     {
-      "name": "Arsenal de Sarandí",
+      "name": "Asociația Clubul Sportiv Petrolul 52",
       "type": "club",
-      "file": "club/Arsenal_de_Sarandí.json",
-      "players": 19
+      "file": "club/Asociația_Clubul_Sportiv_Petrolul_52.json",
+      "players": 20
     },
     {
       "name": "Aston Villa",
@@ -265,70 +355,76 @@
       "players": 23
     },
     {
-      "name": "Atakaş Hatayspor",
-      "type": "club",
-      "file": "club/Atakaş_Hatayspor.json",
-      "players": 21
-    },
-    {
       "name": "Atalanta",
       "type": "club",
       "file": "club/Atalanta.json",
       "players": 23
     },
     {
-      "name": "Athletic Club de Bilbao",
+      "name": "Athletic Club",
       "type": "club",
-      "file": "club/Athletic_Club_de_Bilbao.json",
+      "file": "club/Athletic_Club.json",
       "players": 23
     },
     {
       "name": "Atlanta United",
       "type": "club",
       "file": "club/Atlanta_United.json",
+      "players": 19
+    },
+    {
+      "name": "Atlético Bucaramanga",
+      "type": "club",
+      "file": "club/Atlético_Bucaramanga.json",
       "players": 23
+    },
+    {
+      "name": "Atlético Grau",
+      "type": "club",
+      "file": "club/Atlético_Grau.json",
+      "players": 19
+    },
+    {
+      "name": "Atlético Madrid",
+      "type": "club",
+      "file": "club/Atlético_Madrid.json",
+      "players": 23
+    },
+    {
+      "name": "Atlético Mineiro",
+      "type": "club",
+      "file": "club/Atlético_Mineiro.json",
+      "players": 20
     },
     {
       "name": "Atlético Nacional",
       "type": "club",
       "file": "club/Atlético_Nacional.json",
-      "players": 15
+      "players": 23
     },
     {
       "name": "Atlético Tucumán",
       "type": "club",
       "file": "club/Atlético_Tucumán.json",
-      "players": 20
+      "players": 22
     },
     {
-      "name": "Atlético de Madrid",
+      "name": "Auckland FC",
       "type": "club",
-      "file": "club/Atlético_de_Madrid.json",
-      "players": 23
+      "file": "club/Auckland_FC.json",
+      "players": 19
     },
     {
       "name": "Austin FC",
       "type": "club",
       "file": "club/Austin_FC.json",
-      "players": 18
-    },
-    {
-      "name": "Avispa Fukuoka",
-      "type": "club",
-      "file": "club/Avispa_Fukuoka.json",
-      "players": 14
-    },
-    {
-      "name": "Aytemiz Alanyaspor",
-      "type": "club",
-      "file": "club/Aytemiz_Alanyaspor.json",
-      "players": 21
+      "players": 20
     },
     {
       "name": "BK Häcken",
       "type": "club",
       "file": "club/BK_Häcken.json",
-      "players": 16
+      "players": 21
     },
     {
       "name": "BSC Young Boys",
@@ -337,22 +433,34 @@
       "players": 23
     },
     {
-      "name": "Barcelona Sporting Club",
+      "name": "Bahia",
       "type": "club",
-      "file": "club/Barcelona_Sporting_Club.json",
-      "players": 13
+      "file": "club/Bahia.json",
+      "players": 20
+    },
+    {
+      "name": "Barcelona de Guayaquil",
+      "type": "club",
+      "file": "club/Barcelona_de_Guayaquil.json",
+      "players": 23
     },
     {
       "name": "Barnsley",
       "type": "club",
       "file": "club/Barnsley.json",
+      "players": 22
+    },
+    {
+      "name": "Barracas Central",
+      "type": "club",
+      "file": "club/Barracas_Central.json",
       "players": 23
     },
     {
       "name": "Barrow",
       "type": "club",
       "file": "club/Barrow.json",
-      "players": 20
+      "players": 17
     },
     {
       "name": "Bayer 04 Leverkusen",
@@ -361,21 +469,15 @@
       "players": 23
     },
     {
-      "name": "Beijing Guoan FC",
+      "name": "Beijing Guoan",
       "type": "club",
-      "file": "club/Beijing_Guoan_FC.json",
-      "players": 11
-    },
-    {
-      "name": "Belenenses SAD",
-      "type": "club",
-      "file": "club/Belenenses_SAD.json",
+      "file": "club/Beijing_Guoan.json",
       "players": 21
     },
     {
-      "name": "Benevento",
+      "name": "Belgrano de Córdoba",
       "type": "club",
-      "file": "club/Benevento.json",
+      "file": "club/Belgrano_de_Córdoba.json",
       "players": 23
     },
     {
@@ -397,16 +499,22 @@
       "players": 23
     },
     {
-      "name": "Blackpool",
+      "name": "Blackpool FC",
       "type": "club",
-      "file": "club/Blackpool.json",
+      "file": "club/Blackpool_FC.json",
+      "players": 22
+    },
+    {
+      "name": "Blau-Weiß Linz",
+      "type": "club",
+      "file": "club/Blau-Weiß_Linz.json",
       "players": 23
     },
     {
       "name": "Boavista FC",
       "type": "club",
       "file": "club/Boavista_FC.json",
-      "players": 22
+      "players": 23
     },
     {
       "name": "Boca Juniors",
@@ -415,10 +523,10 @@
       "players": 23
     },
     {
-      "name": "Bohemian FC",
+      "name": "Bodrumspor",
       "type": "club",
-      "file": "club/Bohemian_FC.json",
-      "players": 12
+      "file": "club/Bodrumspor.json",
+      "players": 21
     },
     {
       "name": "Bologna",
@@ -433,6 +541,12 @@
       "players": 23
     },
     {
+      "name": "Bolívar",
+      "type": "club",
+      "file": "club/Bolívar.json",
+      "players": 21
+    },
+    {
       "name": "Borussia Dortmund",
       "type": "club",
       "file": "club/Borussia_Dortmund.json",
@@ -442,13 +556,25 @@
       "name": "Borussia Dortmund II",
       "type": "club",
       "file": "club/Borussia_Dortmund_II.json",
-      "players": 18
+      "players": 22
     },
     {
       "name": "Borussia Mönchengladbach",
       "type": "club",
       "file": "club/Borussia_Mönchengladbach.json",
       "players": 23
+    },
+    {
+      "name": "Boston River",
+      "type": "club",
+      "file": "club/Boston_River.json",
+      "players": 23
+    },
+    {
+      "name": "Botafogo",
+      "type": "club",
+      "file": "club/Botafogo.json",
+      "players": 20
     },
     {
       "name": "Bradford City",
@@ -466,13 +592,19 @@
       "name": "Brescia",
       "type": "club",
       "file": "club/Brescia.json",
-      "players": 15
+      "players": 22
     },
     {
       "name": "Brighton & Hove Albion",
       "type": "club",
       "file": "club/Brighton_&_Hove_Albion.json",
       "players": 23
+    },
+    {
+      "name": "Brisbane Roar",
+      "type": "club",
+      "file": "club/Brisbane_Roar.json",
+      "players": 13
     },
     {
       "name": "Bristol City",
@@ -487,16 +619,22 @@
       "players": 22
     },
     {
+      "name": "Bromley",
+      "type": "club",
+      "file": "club/Bromley.json",
+      "players": 16
+    },
+    {
       "name": "Brøndby IF",
       "type": "club",
       "file": "club/Brøndby_IF.json",
-      "players": 22
+      "players": 20
     },
     {
       "name": "Burgos CF",
       "type": "club",
       "file": "club/Burgos_CF.json",
-      "players": 12
+      "players": 23
     },
     {
       "name": "Burnley",
@@ -508,6 +646,12 @@
       "name": "Burton Albion",
       "type": "club",
       "file": "club/Burton_Albion.json",
+      "players": 18
+    },
+    {
+      "name": "CA Banfield",
+      "type": "club",
+      "file": "club/CA_Banfield.json",
       "players": 23
     },
     {
@@ -517,10 +661,16 @@
       "players": 23
     },
     {
-      "name": "CD Huachipato",
+      "name": "CD Castellón",
       "type": "club",
-      "file": "club/CD_Huachipato.json",
-      "players": 13
+      "file": "club/CD_Castellón.json",
+      "players": 23
+    },
+    {
+      "name": "CD Eldense",
+      "type": "club",
+      "file": "club/CD_Eldense.json",
+      "players": 23
     },
     {
       "name": "CD Leganés",
@@ -529,16 +679,22 @@
       "players": 23
     },
     {
-      "name": "CD Lugo",
-      "type": "club",
-      "file": "club/CD_Lugo.json",
-      "players": 17
-    },
-    {
       "name": "CD Mirandés",
       "type": "club",
       "file": "club/CD_Mirandés.json",
+      "players": 22
+    },
+    {
+      "name": "CD Nacional",
+      "type": "club",
+      "file": "club/CD_Nacional.json",
       "players": 23
+    },
+    {
+      "name": "CD Palestino",
+      "type": "club",
+      "file": "club/CD_Palestino.json",
+      "players": 18
     },
     {
       "name": "CD Tenerife",
@@ -547,28 +703,22 @@
       "players": 23
     },
     {
-      "name": "CD Tondela",
+      "name": "CF Montréal",
       "type": "club",
-      "file": "club/CD_Tondela.json",
-      "players": 23
-    },
-    {
-      "name": "CF Fuenlabrada",
-      "type": "club",
-      "file": "club/CF_Fuenlabrada.json",
-      "players": 19
-    },
-    {
-      "name": "CF Monterrey",
-      "type": "club",
-      "file": "club/CF_Monterrey.json",
-      "players": 23
+      "file": "club/CF_Montréal.json",
+      "players": 20
     },
     {
       "name": "CFR Cluj",
       "type": "club",
       "file": "club/CFR_Cluj.json",
-      "players": 18
+      "players": 23
+    },
+    {
+      "name": "CSM Politehnica Iași",
+      "type": "club",
+      "file": "club/CSM_Politehnica_Iași.json",
+      "players": 21
     },
     {
       "name": "Cagliari",
@@ -580,7 +730,19 @@
       "name": "Cambridge United",
       "type": "club",
       "file": "club/Cambridge_United.json",
-      "players": 20
+      "players": 23
+    },
+    {
+      "name": "Carabobo FC",
+      "type": "club",
+      "file": "club/Carabobo_FC.json",
+      "players": 22
+    },
+    {
+      "name": "Caracas FC",
+      "type": "club",
+      "file": "club/Caracas_FC.json",
+      "players": 21
     },
     {
       "name": "Cardiff City",
@@ -595,28 +757,76 @@
       "players": 18
     },
     {
+      "name": "Carrarese",
+      "type": "club",
+      "file": "club/Carrarese.json",
+      "players": 23
+    },
+    {
+      "name": "Casa Pia",
+      "type": "club",
+      "file": "club/Casa_Pia.json",
+      "players": 23
+    },
+    {
+      "name": "Catanzaro",
+      "type": "club",
+      "file": "club/Catanzaro.json",
+      "players": 23
+    },
+    {
       "name": "Celtic",
       "type": "club",
       "file": "club/Celtic.json",
       "players": 23
     },
     {
-      "name": "Cerezo Osaka",
+      "name": "Central Coast Mariners",
       "type": "club",
-      "file": "club/Cerezo_Osaka.json",
-      "players": 21
+      "file": "club/Central_Coast_Mariners.json",
+      "players": 11
     },
     {
-      "name": "Chamois Niortais Football Club",
+      "name": "Central Cordoba SdE",
       "type": "club",
-      "file": "club/Chamois_Niortais_Football_Club.json",
+      "file": "club/Central_Cordoba_SdE.json",
       "players": 23
+    },
+    {
+      "name": "Cercle Brugge KSV",
+      "type": "club",
+      "file": "club/Cercle_Brugge_KSV.json",
+      "players": 23
+    },
+    {
+      "name": "Cerro Largo",
+      "type": "club",
+      "file": "club/Cerro_Largo.json",
+      "players": 23
+    },
+    {
+      "name": "Cerro Porteño",
+      "type": "club",
+      "file": "club/Cerro_Porteño.json",
+      "players": 23
+    },
+    {
+      "name": "Cesena FC",
+      "type": "club",
+      "file": "club/Cesena_FC.json",
+      "players": 22
+    },
+    {
+      "name": "Charlotte FC",
+      "type": "club",
+      "file": "club/Charlotte_FC.json",
+      "players": 22
     },
     {
       "name": "Charlton Athletic",
       "type": "club",
       "file": "club/Charlton_Athletic.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "Chelsea",
@@ -628,103 +838,55 @@
       "name": "Cheltenham Town",
       "type": "club",
       "file": "club/Cheltenham_Town.json",
-      "players": 18
+      "players": 15
     },
     {
-      "name": "Chicago Fire Football Club",
+      "name": "Chengdu Rongcheng",
       "type": "club",
-      "file": "club/Chicago_Fire_Football_Club.json",
-      "players": 17
+      "file": "club/Chengdu_Rongcheng.json",
+      "players": 20
     },
     {
-      "name": "Chievo Verona",
+      "name": "Chesterfield",
       "type": "club",
-      "file": "club/Chievo_Verona.json",
-      "players": 17
+      "file": "club/Chesterfield.json",
+      "players": 19
+    },
+    {
+      "name": "Chicago Fire",
+      "type": "club",
+      "file": "club/Chicago_Fire.json",
+      "players": 19
+    },
+    {
+      "name": "Cienciano",
+      "type": "club",
+      "file": "club/Cienciano.json",
+      "players": 23
+    },
+    {
+      "name": "Cittadella",
+      "type": "club",
+      "file": "club/Cittadella.json",
+      "players": 23
     },
     {
       "name": "Clermont Foot 63",
       "type": "club",
       "file": "club/Clermont_Foot_63.json",
+      "players": 22
+    },
+    {
+      "name": "Club Atlético Sarmiento",
+      "type": "club",
+      "file": "club/Club_Atlético_Sarmiento.json",
       "players": 23
     },
     {
-      "name": "Club América",
+      "name": "Club Atlético Unión",
       "type": "club",
-      "file": "club/Club_América.json",
+      "file": "club/Club_Atlético_Unión.json",
       "players": 23
-    },
-    {
-      "name": "Club Atlas",
-      "type": "club",
-      "file": "club/Club_Atlas.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético Aldosivi",
-      "type": "club",
-      "file": "club/Club_Atlético_Aldosivi.json",
-      "players": 19
-    },
-    {
-      "name": "Club Atlético Banfield",
-      "type": "club",
-      "file": "club/Club_Atlético_Banfield.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético Central Córdoba",
-      "type": "club",
-      "file": "club/Club_Atlético_Central_Córdoba.json",
-      "players": 20
-    },
-    {
-      "name": "Club Atlético Colón",
-      "type": "club",
-      "file": "club/Club_Atlético_Colón.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético Huracán",
-      "type": "club",
-      "file": "club/Club_Atlético_Huracán.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético Independiente",
-      "type": "club",
-      "file": "club/Club_Atlético_Independiente.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético Lanús",
-      "type": "club",
-      "file": "club/Club_Atlético_Lanús.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético Peñarol",
-      "type": "club",
-      "file": "club/Club_Atlético_Peñarol.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético Talleres",
-      "type": "club",
-      "file": "club/Club_Atlético_Talleres.json",
-      "players": 23
-    },
-    {
-      "name": "Club Atlético de San Luis",
-      "type": "club",
-      "file": "club/Club_Atlético_de_San_Luis.json",
-      "players": 17
-    },
-    {
-      "name": "Club Bolívar",
-      "type": "club",
-      "file": "club/Club_Bolívar.json",
-      "players": 12
     },
     {
       "name": "Club Brugge KV",
@@ -733,99 +895,57 @@
       "players": 23
     },
     {
-      "name": "Club Cerro Porteño",
-      "type": "club",
-      "file": "club/Club_Cerro_Porteño.json",
-      "players": 15
-    },
-    {
-      "name": "Club Deportivo Guadalajara",
-      "type": "club",
-      "file": "club/Club_Deportivo_Guadalajara.json",
-      "players": 23
-    },
-    {
-      "name": "Club León",
-      "type": "club",
-      "file": "club/Club_León.json",
-      "players": 23
-    },
-    {
-      "name": "Club Libertad",
-      "type": "club",
-      "file": "club/Club_Libertad.json",
-      "players": 17
-    },
-    {
       "name": "Club Nacional de Football",
       "type": "club",
       "file": "club/Club_Nacional_de_Football.json",
       "players": 23
     },
     {
-      "name": "Club Necaxa",
-      "type": "club",
-      "file": "club/Club_Necaxa.json",
-      "players": 23
-    },
-    {
       "name": "Club Olimpia",
       "type": "club",
       "file": "club/Club_Olimpia.json",
-      "players": 13
-    },
-    {
-      "name": "Club Tijuana",
-      "type": "club",
-      "file": "club/Club_Tijuana.json",
-      "players": 22
-    },
-    {
-      "name": "Club Universidad Nacional",
-      "type": "club",
-      "file": "club/Club_Universidad_Nacional.json",
-      "players": 23
-    },
-    {
-      "name": "Club de Foot Montréal",
-      "type": "club",
-      "file": "club/Club_de_Foot_Montréal.json",
-      "players": 18
-    },
-    {
-      "name": "Clube Atlético Mineiro",
-      "type": "club",
-      "file": "club/Clube_Atlético_Mineiro.json",
-      "players": 12
-    },
-    {
-      "name": "Clube Sport Marítimo",
-      "type": "club",
-      "file": "club/Clube_Sport_Marítimo.json",
       "players": 23
     },
     {
       "name": "Colchester United",
       "type": "club",
       "file": "club/Colchester_United.json",
-      "players": 23
+      "players": 18
     },
     {
       "name": "Colo-Colo",
       "type": "club",
       "file": "club/Colo-Colo.json",
-      "players": 12
+      "players": 23
     },
     {
       "name": "Colorado Rapids",
       "type": "club",
       "file": "club/Colorado_Rapids.json",
-      "players": 23
+      "players": 16
     },
     {
       "name": "Columbus Crew",
       "type": "club",
       "file": "club/Columbus_Crew.json",
+      "players": 21
+    },
+    {
+      "name": "Como",
+      "type": "club",
+      "file": "club/Como.json",
+      "players": 23
+    },
+    {
+      "name": "Corinthians",
+      "type": "club",
+      "file": "club/Corinthians.json",
+      "players": 20
+    },
+    {
+      "name": "Cosenza",
+      "type": "club",
+      "file": "club/Cosenza.json",
       "players": 23
     },
     {
@@ -835,28 +955,34 @@
       "players": 23
     },
     {
+      "name": "Cracovia",
+      "type": "club",
+      "file": "club/Cracovia.json",
+      "players": 21
+    },
+    {
       "name": "Crawley Town",
       "type": "club",
       "file": "club/Crawley_Town.json",
-      "players": 20
+      "players": 22
+    },
+    {
+      "name": "Cremonese",
+      "type": "club",
+      "file": "club/Cremonese.json",
+      "players": 23
     },
     {
       "name": "Crewe Alexandra",
       "type": "club",
       "file": "club/Crewe_Alexandra.json",
-      "players": 23
+      "players": 18
     },
     {
-      "name": "Crotone",
+      "name": "Cruzeiro",
       "type": "club",
-      "file": "club/Crotone.json",
-      "players": 23
-    },
-    {
-      "name": "Cruz Azul",
-      "type": "club",
-      "file": "club/Cruz_Azul.json",
-      "players": 23
+      "file": "club/Cruzeiro.json",
+      "players": 20
     },
     {
       "name": "Crystal Palace",
@@ -871,16 +997,40 @@
       "players": 23
     },
     {
-      "name": "D.C. United",
+      "name": "Córdoba CF",
       "type": "club",
-      "file": "club/D.C._United.json",
+      "file": "club/Córdoba_CF.json",
       "players": 23
+    },
+    {
+      "name": "DC United",
+      "type": "club",
+      "file": "club/DC_United.json",
+      "players": 19
     },
     {
       "name": "DSC Arminia Bielefeld",
       "type": "club",
       "file": "club/DSC_Arminia_Bielefeld.json",
+      "players": 22
+    },
+    {
+      "name": "Daegu FC",
+      "type": "club",
+      "file": "club/Daegu_FC.json",
+      "players": 14
+    },
+    {
+      "name": "Daejeon Citizen",
+      "type": "club",
+      "file": "club/Daejeon_Citizen.json",
       "players": 23
+    },
+    {
+      "name": "Damac FC",
+      "type": "club",
+      "file": "club/Damac_FC.json",
+      "players": 13
     },
     {
       "name": "Defensa y Justicia",
@@ -889,10 +1039,10 @@
       "players": 23
     },
     {
-      "name": "Demir Grup Sivasspor",
+      "name": "Deportes Iquique",
       "type": "club",
-      "file": "club/Demir_Grup_Sivasspor.json",
-      "players": 20
+      "file": "club/Deportes_Iquique.json",
+      "players": 23
     },
     {
       "name": "Deportivo Alavés",
@@ -901,10 +1051,16 @@
       "players": 23
     },
     {
-      "name": "Deportivo Toluca",
+      "name": "Deportivo Riestra",
       "type": "club",
-      "file": "club/Deportivo_Toluca.json",
-      "players": 22
+      "file": "club/Deportivo_Riestra.json",
+      "players": 23
+    },
+    {
+      "name": "Deportivo Táchira",
+      "type": "club",
+      "file": "club/Deportivo_Táchira.json",
+      "players": 23
     },
     {
       "name": "Derby County",
@@ -913,10 +1069,16 @@
       "players": 23
     },
     {
-      "name": "Dijon FCO",
+      "name": "Derry City",
       "type": "club",
-      "file": "club/Dijon_FCO.json",
-      "players": 23
+      "file": "club/Derry_City.json",
+      "players": 15
+    },
+    {
+      "name": "Dinamo Bucureşti",
+      "type": "club",
+      "file": "club/Dinamo_Bucureşti.json",
+      "players": 19
     },
     {
       "name": "Dinamo Zagreb",
@@ -928,31 +1090,31 @@
       "name": "Djurgårdens IF",
       "type": "club",
       "file": "club/Djurgårdens_IF.json",
-      "players": 18
+      "players": 23
     },
     {
       "name": "Doncaster Rovers",
       "type": "club",
       "file": "club/Doncaster_Rovers.json",
-      "players": 23
-    },
-    {
-      "name": "Dundalk FC",
-      "type": "club",
-      "file": "club/Dundalk_FC.json",
-      "players": 13
+      "players": 21
     },
     {
       "name": "Dundee FC",
       "type": "club",
       "file": "club/Dundee_FC.json",
-      "players": 14
+      "players": 22
     },
     {
-      "name": "Dundee United",
+      "name": "Dundee United FC",
       "type": "club",
-      "file": "club/Dundee_United.json",
-      "players": 14
+      "file": "club/Dundee_United_FC.json",
+      "players": 20
+    },
+    {
+      "name": "Dynamo Dresden",
+      "type": "club",
+      "file": "club/Dynamo_Dresden.json",
+      "players": 22
     },
     {
       "name": "Dynamo Kyiv",
@@ -991,16 +1153,16 @@
       "players": 23
     },
     {
-      "name": "En Avant de Guingamp",
+      "name": "En Avant Guingamp",
       "type": "club",
-      "file": "club/En_Avant_de_Guingamp.json",
+      "file": "club/En_Avant_Guingamp.json",
       "players": 23
     },
     {
-      "name": "Estoril Praia",
+      "name": "Estrela da Amadora",
       "type": "club",
-      "file": "club/Estoril_Praia.json",
-      "players": 17
+      "file": "club/Estrela_da_Amadora.json",
+      "players": 23
     },
     {
       "name": "Estudiantes de La Plata",
@@ -1021,22 +1183,28 @@
       "players": 23
     },
     {
-      "name": "F.C. Hansa Rostock",
+      "name": "Eyüpspor",
       "type": "club",
-      "file": "club/F.C._Hansa_Rostock.json",
+      "file": "club/Eyüpspor.json",
+      "players": 21
+    },
+    {
+      "name": "FBC Melgar",
+      "type": "club",
+      "file": "club/FBC_Melgar.json",
       "players": 23
     },
     {
-      "name": "F.C. København",
+      "name": "FC Annecy",
       "type": "club",
-      "file": "club/F.C._København.json",
+      "file": "club/FC_Annecy.json",
       "players": 23
     },
     {
       "name": "FC Arouca",
       "type": "club",
       "file": "club/FC_Arouca.json",
-      "players": 17
+      "players": 23
     },
     {
       "name": "FC Augsburg",
@@ -1063,70 +1231,76 @@
       "players": 23
     },
     {
+      "name": "FC Botoşani",
+      "type": "club",
+      "file": "club/FC_Botoşani.json",
+      "players": 23
+    },
+    {
       "name": "FC Cartagena",
       "type": "club",
       "file": "club/FC_Cartagena.json",
-      "players": 22
+      "players": 23
     },
     {
       "name": "FC Cincinnati",
       "type": "club",
       "file": "club/FC_Cincinnati.json",
-      "players": 23
+      "players": 17
     },
     {
       "name": "FC Dallas",
       "type": "club",
       "file": "club/FC_Dallas.json",
-      "players": 20
+      "players": 19
     },
     {
-      "name": "FC Dinamo 1948 Bucureşti",
+      "name": "FC Energie Cottbus",
       "type": "club",
-      "file": "club/FC_Dinamo_1948_Bucureşti.json",
-      "players": 17
+      "file": "club/FC_Energie_Cottbus.json",
+      "players": 23
     },
     {
       "name": "FC Erzgebirge Aue",
       "type": "club",
       "file": "club/FC_Erzgebirge_Aue.json",
-      "players": 21
-    },
-    {
-      "name": "FC Farul Constanța",
-      "type": "club",
-      "file": "club/FC_Farul_Constanța.json",
-      "players": 12
-    },
-    {
-      "name": "FC Girondins de Bordeaux",
-      "type": "club",
-      "file": "club/FC_Girondins_de_Bordeaux.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "FC Groningen",
       "type": "club",
       "file": "club/FC_Groningen.json",
-      "players": 22
+      "players": 23
+    },
+    {
+      "name": "FC Hansa Rostock",
+      "type": "club",
+      "file": "club/FC_Hansa_Rostock.json",
+      "players": 23
+    },
+    {
+      "name": "FC Hermannstadt",
+      "type": "club",
+      "file": "club/FC_Hermannstadt.json",
+      "players": 21
     },
     {
       "name": "FC Ingolstadt 04",
       "type": "club",
       "file": "club/FC_Ingolstadt_04.json",
+      "players": 22
+    },
+    {
+      "name": "FC København",
+      "type": "club",
+      "file": "club/FC_København.json",
       "players": 23
     },
     {
       "name": "FC Lausanne-Sport",
       "type": "club",
       "file": "club/FC_Lausanne-Sport.json",
-      "players": 16
-    },
-    {
-      "name": "FC Lokomotiv Moscow",
-      "type": "club",
-      "file": "club/FC_Lokomotiv_Moscow.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "FC Lorient",
@@ -1138,19 +1312,25 @@
       "name": "FC Lugano",
       "type": "club",
       "file": "club/FC_Lugano.json",
-      "players": 20
+      "players": 23
     },
     {
       "name": "FC Luzern",
       "type": "club",
       "file": "club/FC_Luzern.json",
-      "players": 22
+      "players": 21
+    },
+    {
+      "name": "FC Martigues",
+      "type": "club",
+      "file": "club/FC_Martigues.json",
+      "players": 21
     },
     {
       "name": "FC Metz",
       "type": "club",
       "file": "club/FC_Metz.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "FC Midtjylland",
@@ -1168,13 +1348,7 @@
       "name": "FC Nordsjælland",
       "type": "club",
       "file": "club/FC_Nordsjælland.json",
-      "players": 21
-    },
-    {
-      "name": "FC Paços de Ferreira",
-      "type": "club",
-      "file": "club/FC_Paços_de_Ferreira.json",
-      "players": 18
+      "players": 15
     },
     {
       "name": "FC Porto",
@@ -1198,7 +1372,7 @@
       "name": "FC Seoul",
       "type": "club",
       "file": "club/FC_Seoul.json",
-      "players": 21
+      "players": 23
     },
     {
       "name": "FC Sion",
@@ -1207,28 +1381,16 @@
       "players": 23
     },
     {
-      "name": "FC Sochaux-Montbéliard",
-      "type": "club",
-      "file": "club/FC_Sochaux-Montbéliard.json",
-      "players": 23
-    },
-    {
-      "name": "FC St. Gallen 1879",
-      "type": "club",
-      "file": "club/FC_St._Gallen_1879.json",
-      "players": 14
-    },
-    {
       "name": "FC St. Pauli",
       "type": "club",
       "file": "club/FC_St._Pauli.json",
       "players": 23
     },
     {
-      "name": "FC Tokyo",
+      "name": "FC St.Gallen 1879",
       "type": "club",
-      "file": "club/FC_Tokyo.json",
-      "players": 17
+      "file": "club/FC_St.Gallen_1879.json",
+      "players": 23
     },
     {
       "name": "FC Twente",
@@ -1243,63 +1405,63 @@
       "players": 23
     },
     {
-      "name": "FC Viktoria 1889 Berlin",
+      "name": "FC Winterthur",
       "type": "club",
-      "file": "club/FC_Viktoria_1889_Berlin.json",
-      "players": 15
-    },
-    {
-      "name": "FC Viktoria Plzeň",
-      "type": "club",
-      "file": "club/FC_Viktoria_Plzeň.json",
-      "players": 14
-    },
-    {
-      "name": "FC Vizela",
-      "type": "club",
-      "file": "club/FC_Vizela.json",
-      "players": 15
-    },
-    {
-      "name": "FC Würzburger Kickers",
-      "type": "club",
-      "file": "club/FC_Würzburger_Kickers.json",
-      "players": 20
+      "file": "club/FC_Winterthur.json",
+      "players": 23
     },
     {
       "name": "FC Zürich",
       "type": "club",
       "file": "club/FC_Zürich.json",
-      "players": 17
+      "players": 23
     },
     {
-      "name": "FCSB (Steaua)",
+      "name": "FCSB",
       "type": "club",
-      "file": "club/FCSB_(Steaua).json",
-      "players": 21
+      "file": "club/FCSB.json",
+      "players": 23
+    },
+    {
+      "name": "FCV Dender EH",
+      "type": "club",
+      "file": "club/FCV_Dender_EH.json",
+      "players": 23
+    },
+    {
+      "name": "FCV Farul Constanța",
+      "type": "club",
+      "file": "club/FCV_Farul_Constanța.json",
+      "players": 19
     },
     {
       "name": "FK Austria Wien",
       "type": "club",
       "file": "club/FK_Austria_Wien.json",
-      "players": 20
+      "players": 22
     },
     {
       "name": "FK Bodø/Glimt",
       "type": "club",
       "file": "club/FK_Bodø-Glimt.json",
-      "players": 17
+      "players": 23
     },
     {
-      "name": "FSV Zwickau",
+      "name": "FK Haugesund",
       "type": "club",
-      "file": "club/FSV_Zwickau.json",
-      "players": 12
+      "file": "club/FK_Haugesund.json",
+      "players": 11
     },
     {
-      "name": "Fatih Karagümrük S.K.",
+      "name": "Famalicão",
       "type": "club",
-      "file": "club/Fatih_Karagümrük_S.K..json",
+      "file": "club/Famalicão.json",
+      "players": 23
+    },
+    {
+      "name": "Farense",
+      "type": "club",
+      "file": "club/Farense.json",
       "players": 23
     },
     {
@@ -1309,9 +1471,9 @@
       "players": 23
     },
     {
-      "name": "Ferencvárosi TC",
+      "name": "Ferencvárosi Torna Club",
       "type": "club",
-      "file": "club/Ferencvárosi_TC.json",
+      "file": "club/Ferencvárosi_Torna_Club.json",
       "players": 23
     },
     {
@@ -1327,22 +1489,28 @@
       "players": 23
     },
     {
+      "name": "Flamengo",
+      "type": "club",
+      "file": "club/Flamengo.json",
+      "players": 20
+    },
+    {
       "name": "Fleetwood Town",
       "type": "club",
       "file": "club/Fleetwood_Town.json",
-      "players": 20
+      "players": 22
     },
     {
       "name": "Fluminense",
       "type": "club",
       "file": "club/Fluminense.json",
-      "players": 11
+      "players": 20
     },
     {
-      "name": "Forest Green Rovers",
+      "name": "Fortaleza",
       "type": "club",
-      "file": "club/Forest_Green_Rovers.json",
-      "players": 17
+      "file": "club/Fortaleza.json",
+      "players": 20
     },
     {
       "name": "Fortuna Düsseldorf",
@@ -1354,31 +1522,43 @@
       "name": "Fortuna Sittard",
       "type": "club",
       "file": "club/Fortuna_Sittard.json",
-      "players": 17
-    },
-    {
-      "name": "Fulham",
-      "type": "club",
-      "file": "club/Fulham.json",
       "players": 23
     },
     {
-      "name": "Futebol Clube de Famalicão",
+      "name": "Fredrikstad FK",
       "type": "club",
-      "file": "club/Futebol_Clube_de_Famalicão.json",
+      "file": "club/Fredrikstad_FK.json",
+      "players": 20
+    },
+    {
+      "name": "Frosinone",
+      "type": "club",
+      "file": "club/Frosinone.json",
       "players": 23
     },
     {
-      "name": "Fútbol Club Juárez",
+      "name": "Fulham FC",
       "type": "club",
-      "file": "club/Fútbol_Club_Juárez.json",
+      "file": "club/Fulham_FC.json",
       "players": 23
     },
     {
-      "name": "GZT Giresunspor",
+      "name": "GAIS",
       "type": "club",
-      "file": "club/GZT_Giresunspor.json",
-      "players": 13
+      "file": "club/GAIS.json",
+      "players": 20
+    },
+    {
+      "name": "GD Estoril Praia",
+      "type": "club",
+      "file": "club/GD_Estoril_Praia.json",
+      "players": 22
+    },
+    {
+      "name": "GKS Katowice",
+      "type": "club",
+      "file": "club/GKS_Katowice.json",
+      "players": 23
     },
     {
       "name": "Galatasaray SK",
@@ -1387,21 +1567,15 @@
       "players": 23
     },
     {
-      "name": "Gallos Blancos de Querétaro",
+      "name": "Gangwon FC",
       "type": "club",
-      "file": "club/Gallos_Blancos_de_Querétaro.json",
-      "players": 20
+      "file": "club/Gangwon_FC.json",
+      "players": 19
     },
     {
-      "name": "Gamba Osaka",
+      "name": "Gaziantep FK",
       "type": "club",
-      "file": "club/Gamba_Osaka.json",
-      "players": 20
-    },
-    {
-      "name": "Gazişehir Gaziantep F.K.",
-      "type": "club",
-      "file": "club/Gazişehir_Gaziantep_F.K..json",
+      "file": "club/Gaziantep_FK.json",
       "players": 23
     },
     {
@@ -1409,12 +1583,6 @@
       "type": "club",
       "file": "club/Genoa.json",
       "players": 23
-    },
-    {
-      "name": "Gençlerbirliği SK",
-      "type": "club",
-      "file": "club/Gençlerbirliği_SK.json",
-      "players": 11
     },
     {
       "name": "Getafe CF",
@@ -1432,13 +1600,19 @@
       "name": "Gillingham",
       "type": "club",
       "file": "club/Gillingham.json",
-      "players": 22
+      "players": 19
+    },
+    {
+      "name": "Gimcheon Sangmu FC",
+      "type": "club",
+      "file": "club/Gimcheon_Sangmu_FC.json",
+      "players": 23
     },
     {
       "name": "Gimnasia y Esgrima La Plata",
       "type": "club",
       "file": "club/Gimnasia_y_Esgrima_La_Plata.json",
-      "players": 22
+      "players": 23
     },
     {
       "name": "Girona FC",
@@ -1450,7 +1624,7 @@
       "name": "Go Ahead Eagles",
       "type": "club",
       "file": "club/Go_Ahead_Eagles.json",
-      "players": 11
+      "players": 22
     },
     {
       "name": "Godoy Cruz",
@@ -1468,31 +1642,55 @@
       "name": "Grasshopper Club Zürich",
       "type": "club",
       "file": "club/Grasshopper_Club_Zürich.json",
-      "players": 13
+      "players": 23
+    },
+    {
+      "name": "Grazer AK 1902",
+      "type": "club",
+      "file": "club/Grazer_AK_1902.json",
+      "players": 22
     },
     {
       "name": "Grenoble Foot 38",
       "type": "club",
       "file": "club/Grenoble_Foot_38.json",
-      "players": 13
+      "players": 23
+    },
+    {
+      "name": "Grimsby Town",
+      "type": "club",
+      "file": "club/Grimsby_Town.json",
+      "players": 16
     },
     {
       "name": "Grêmio",
       "type": "club",
       "file": "club/Grêmio.json",
-      "players": 13
+      "players": 20
     },
     {
-      "name": "Guangzhou FC",
+      "name": "Gualberto Villarroel SJ",
       "type": "club",
-      "file": "club/Guangzhou_FC.json",
-      "players": 15
+      "file": "club/Gualberto_Villarroel_SJ.json",
+      "players": 21
+    },
+    {
+      "name": "Guaraní",
+      "type": "club",
+      "file": "club/Guaraní.json",
+      "players": 23
+    },
+    {
+      "name": "Gwangju FC",
+      "type": "club",
+      "file": "club/Gwangju_FC.json",
+      "players": 22
     },
     {
       "name": "Górnik Zabrze",
       "type": "club",
       "file": "club/Górnik_Zabrze.json",
-      "players": 12
+      "players": 20
     },
     {
       "name": "Göztepe SK",
@@ -1513,10 +1711,16 @@
       "players": 23
     },
     {
-      "name": "Hallescher FC",
+      "name": "Halmstads BK",
       "type": "club",
-      "file": "club/Hallescher_FC.json",
-      "players": 15
+      "file": "club/Halmstads_BK.json",
+      "players": 18
+    },
+    {
+      "name": "Hamarkameratene",
+      "type": "club",
+      "file": "club/Hamarkameratene.json",
+      "players": 14
     },
     {
       "name": "Hamburger SV",
@@ -1525,10 +1729,10 @@
       "players": 23
     },
     {
-      "name": "Hammarby IF",
+      "name": "Hammarby Fotboll",
       "type": "club",
-      "file": "club/Hammarby_IF.json",
-      "players": 17
+      "file": "club/Hammarby_Fotboll.json",
+      "players": 19
     },
     {
       "name": "Hannover 96",
@@ -1537,22 +1741,40 @@
       "players": 23
     },
     {
+      "name": "Hannover 96 II",
+      "type": "club",
+      "file": "club/Hannover_96_II.json",
+      "players": 13
+    },
+    {
       "name": "Harrogate Town",
       "type": "club",
       "file": "club/Harrogate_Town.json",
-      "players": 12
+      "players": 19
     },
     {
-      "name": "Heart of Midlothian",
+      "name": "Hatayspor",
       "type": "club",
-      "file": "club/Heart_of_Midlothian.json",
+      "file": "club/Hatayspor.json",
+      "players": 17
+    },
+    {
+      "name": "Hearts",
+      "type": "club",
+      "file": "club/Hearts.json",
       "players": 23
     },
     {
-      "name": "Hellas Verona",
+      "name": "Hellas Verona FC",
       "type": "club",
-      "file": "club/Hellas_Verona.json",
+      "file": "club/Hellas_Verona_FC.json",
       "players": 23
+    },
+    {
+      "name": "Henan FC",
+      "type": "club",
+      "file": "club/Henan_FC.json",
+      "players": 17
     },
     {
       "name": "Heracles Almelo",
@@ -1573,12 +1795,6 @@
       "players": 23
     },
     {
-      "name": "Hokkaido Consadole Sapporo",
-      "type": "club",
-      "file": "club/Hokkaido_Consadole_Sapporo.json",
-      "players": 11
-    },
-    {
       "name": "Holstein Kiel",
       "type": "club",
       "file": "club/Holstein_Kiel.json",
@@ -1588,7 +1804,7 @@
       "name": "Houston Dynamo",
       "type": "club",
       "file": "club/Houston_Dynamo.json",
-      "players": 23
+      "players": 21
     },
     {
       "name": "Huddersfield Town",
@@ -1603,34 +1819,76 @@
       "players": 23
     },
     {
+      "name": "Huracán",
+      "type": "club",
+      "file": "club/Huracán.json",
+      "players": 23
+    },
+    {
+      "name": "IF Brommapojkarna",
+      "type": "club",
+      "file": "club/IF_Brommapojkarna.json",
+      "players": 23
+    },
+    {
       "name": "IF Elfsborg",
       "type": "club",
       "file": "club/IF_Elfsborg.json",
-      "players": 17
+      "players": 21
     },
     {
       "name": "IFK Göteborg",
       "type": "club",
       "file": "club/IFK_Göteborg.json",
-      "players": 12
+      "players": 19
     },
     {
       "name": "IFK Norrköping",
       "type": "club",
       "file": "club/IFK_Norrköping.json",
-      "players": 15
+      "players": 20
+    },
+    {
+      "name": "IFK Värnamo",
+      "type": "club",
+      "file": "club/IFK_Värnamo.json",
+      "players": 19
+    },
+    {
+      "name": "IK Sirius",
+      "type": "club",
+      "file": "club/IK_Sirius.json",
+      "players": 19
     },
     {
       "name": "Incheon United FC",
       "type": "club",
       "file": "club/Incheon_United_FC.json",
-      "players": 13
+      "players": 18
+    },
+    {
+      "name": "Independiente",
+      "type": "club",
+      "file": "club/Independiente.json",
+      "players": 23
+    },
+    {
+      "name": "Independiente Rivadavia",
+      "type": "club",
+      "file": "club/Independiente_Rivadavia.json",
+      "players": 23
     },
     {
       "name": "Independiente del Valle",
       "type": "club",
       "file": "club/Independiente_del_Valle.json",
-      "players": 12
+      "players": 23
+    },
+    {
+      "name": "Instituto Atlético Central Córdoba",
+      "type": "club",
+      "file": "club/Instituto_Atlético_Central_Córdoba.json",
+      "players": 23
     },
     {
       "name": "Inter",
@@ -1639,10 +1897,16 @@
       "players": 23
     },
     {
-      "name": "Inter Miami CF",
+      "name": "Inter Miami",
       "type": "club",
-      "file": "club/Inter_Miami_CF.json",
-      "players": 19
+      "file": "club/Inter_Miami.json",
+      "players": 23
+    },
+    {
+      "name": "Internacional",
+      "type": "club",
+      "file": "club/Internacional.json",
+      "players": 20
     },
     {
       "name": "Ipswich Town",
@@ -1654,19 +1918,19 @@
       "name": "Jagiellonia Białystok",
       "type": "club",
       "file": "club/Jagiellonia_Białystok.json",
-      "players": 14
+      "players": 21
+    },
+    {
+      "name": "Jeju United FC",
+      "type": "club",
+      "file": "club/Jeju_United_FC.json",
+      "players": 22
     },
     {
       "name": "Jeonbuk Hyundai Motors",
       "type": "club",
       "file": "club/Jeonbuk_Hyundai_Motors.json",
-      "players": 21
-    },
-    {
-      "name": "Junior FC",
-      "type": "club",
-      "file": "club/Junior_FC.json",
-      "players": 19
+      "players": 23
     },
     {
       "name": "Juventus",
@@ -1678,7 +1942,7 @@
       "name": "K Beerschot VA",
       "type": "club",
       "file": "club/K_Beerschot_VA.json",
-      "players": 21
+      "players": 23
     },
     {
       "name": "KAA Gent",
@@ -1687,10 +1951,10 @@
       "players": 23
     },
     {
-      "name": "KAS Eupen",
+      "name": "KFUM-Kameratene Oslo",
       "type": "club",
-      "file": "club/KAS_Eupen.json",
-      "players": 23
+      "file": "club/KFUM-Kameratene_Oslo.json",
+      "players": 20
     },
     {
       "name": "KRC Genk",
@@ -1699,82 +1963,76 @@
       "players": 23
     },
     {
-      "name": "KSV Cercle Brugge",
-      "type": "club",
-      "file": "club/KSV_Cercle_Brugge.json",
-      "players": 23
-    },
-    {
       "name": "KV Kortrijk",
       "type": "club",
       "file": "club/KV_Kortrijk.json",
-      "players": 20
+      "players": 23
     },
     {
       "name": "KV Mechelen",
       "type": "club",
       "file": "club/KV_Mechelen.json",
-      "players": 19
+      "players": 23
     },
     {
-      "name": "KV Oostende",
+      "name": "KVC Westerlo",
       "type": "club",
-      "file": "club/KV_Oostende.json",
-      "players": 18
-    },
-    {
-      "name": "Kaizer Chiefs",
-      "type": "club",
-      "file": "club/Kaizer_Chiefs.json",
+      "file": "club/KVC_Westerlo.json",
       "players": 23
     },
     {
       "name": "Kalmar FF",
       "type": "club",
       "file": "club/Kalmar_FF.json",
-      "players": 17
+      "players": 14
     },
     {
       "name": "Karlsruher SC",
       "type": "club",
       "file": "club/Karlsruher_SC.json",
+      "players": 23
+    },
+    {
+      "name": "Kasımpaşa SK",
+      "type": "club",
+      "file": "club/Kasımpaşa_SK.json",
       "players": 20
     },
     {
-      "name": "Kashima Antlers",
+      "name": "Kayserispor",
       "type": "club",
-      "file": "club/Kashima_Antlers.json",
-      "players": 19
-    },
-    {
-      "name": "Kashiwa Reysol",
-      "type": "club",
-      "file": "club/Kashiwa_Reysol.json",
-      "players": 11
-    },
-    {
-      "name": "Kasimpaşa SK",
-      "type": "club",
-      "file": "club/Kasimpaşa_SK.json",
-      "players": 22
-    },
-    {
-      "name": "Kawasaki Frontale",
-      "type": "club",
-      "file": "club/Kawasaki_Frontale.json",
-      "players": 19
+      "file": "club/Kayserispor.json",
+      "players": 20
     },
     {
       "name": "Kilmarnock",
       "type": "club",
       "file": "club/Kilmarnock.json",
+      "players": 23
+    },
+    {
+      "name": "Konyaspor",
+      "type": "club",
+      "file": "club/Konyaspor.json",
+      "players": 23
+    },
+    {
+      "name": "Korona Kielce",
+      "type": "club",
+      "file": "club/Korona_Kielce.json",
+      "players": 21
+    },
+    {
+      "name": "Kristiansund BK",
+      "type": "club",
+      "file": "club/Kristiansund_BK.json",
       "players": 14
     },
     {
       "name": "LA Galaxy",
       "type": "club",
       "file": "club/LA_Galaxy.json",
-      "players": 23
+      "players": 21
     },
     {
       "name": "LASK Linz",
@@ -1783,9 +2041,15 @@
       "players": 23
     },
     {
-      "name": "LOSC Lille",
+      "name": "LDU Quito",
       "type": "club",
-      "file": "club/LOSC_Lille.json",
+      "file": "club/LDU_Quito.json",
+      "players": 23
+    },
+    {
+      "name": "Lanús",
+      "type": "club",
+      "file": "club/Lanús.json",
       "players": 23
     },
     {
@@ -1798,7 +2062,7 @@
       "name": "Le Havre AC",
       "type": "club",
       "file": "club/Le_Havre_AC.json",
-      "players": 22
+      "players": 23
     },
     {
       "name": "Lecce",
@@ -1810,13 +2074,13 @@
       "name": "Lech Poznań",
       "type": "club",
       "file": "club/Lech_Poznań.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "Lechia Gdańsk",
       "type": "club",
       "file": "club/Lechia_Gdańsk.json",
-      "players": 15
+      "players": 19
     },
     {
       "name": "Leeds United",
@@ -1837,22 +2101,40 @@
       "players": 23
     },
     {
-      "name": "Levante Unión Deportiva",
+      "name": "Levante UD",
       "type": "club",
-      "file": "club/Levante_Unión_Deportiva.json",
+      "file": "club/Levante_UD.json",
       "players": 23
     },
     {
       "name": "Leyton Orient",
       "type": "club",
       "file": "club/Leyton_Orient.json",
-      "players": 17
+      "players": 23
+    },
+    {
+      "name": "Libertad",
+      "type": "club",
+      "file": "club/Libertad.json",
+      "players": 22
+    },
+    {
+      "name": "Lille OSC",
+      "type": "club",
+      "file": "club/Lille_OSC.json",
+      "players": 23
+    },
+    {
+      "name": "Lillestrøm SK",
+      "type": "club",
+      "file": "club/Lillestrøm_SK.json",
+      "players": 15
     },
     {
       "name": "Lincoln City",
       "type": "club",
       "file": "club/Lincoln_City.json",
-      "players": 19
+      "players": 21
     },
     {
       "name": "Liverpool",
@@ -1861,16 +2143,10 @@
       "players": 23
     },
     {
-      "name": "Livingston FC",
-      "type": "club",
-      "file": "club/Livingston_FC.json",
-      "players": 18
-    },
-    {
       "name": "Los Angeles FC",
       "type": "club",
       "file": "club/Los_Angeles_FC.json",
-      "players": 17
+      "players": 23
     },
     {
       "name": "Luton Town",
@@ -1879,22 +2155,22 @@
       "players": 23
     },
     {
-      "name": "MSV Duisburg",
+      "name": "Lyngby Boldklub",
       "type": "club",
-      "file": "club/MSV_Duisburg.json",
-      "players": 16
+      "file": "club/Lyngby_Boldklub.json",
+      "players": 20
     },
     {
       "name": "Macarthur FC",
       "type": "club",
       "file": "club/Macarthur_FC.json",
-      "players": 13
+      "players": 16
     },
     {
       "name": "Malmö FF",
       "type": "club",
       "file": "club/Malmö_FF.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "Manchester City",
@@ -1912,25 +2188,37 @@
       "name": "Mansfield Town",
       "type": "club",
       "file": "club/Mansfield_Town.json",
-      "players": 21
+      "players": 23
     },
     {
-      "name": "Mazatlán Futbol Club",
+      "name": "Mantova",
       "type": "club",
-      "file": "club/Mazatlán_Futbol_Club.json",
-      "players": 18
+      "file": "club/Mantova.json",
+      "players": 23
+    },
+    {
+      "name": "Medipol Başakşehir FK",
+      "type": "club",
+      "file": "club/Medipol_Başakşehir_FK.json",
+      "players": 23
+    },
+    {
+      "name": "Meizhou Hakka",
+      "type": "club",
+      "file": "club/Meizhou_Hakka.json",
+      "players": 11
     },
     {
       "name": "Melbourne City FC",
       "type": "club",
       "file": "club/Melbourne_City_FC.json",
-      "players": 16
+      "players": 14
     },
     {
       "name": "Melbourne Victory",
       "type": "club",
       "file": "club/Melbourne_Victory.json",
-      "players": 11
+      "players": 14
     },
     {
       "name": "Middlesbrough",
@@ -1939,22 +2227,40 @@
       "players": 23
     },
     {
-      "name": "Millwall",
+      "name": "Millwall FC",
       "type": "club",
-      "file": "club/Millwall.json",
+      "file": "club/Millwall_FC.json",
       "players": 23
     },
     {
       "name": "Milton Keynes Dons",
       "type": "club",
       "file": "club/Milton_Keynes_Dons.json",
-      "players": 21
+      "players": 22
     },
     {
       "name": "Minnesota United FC",
       "type": "club",
       "file": "club/Minnesota_United_FC.json",
+      "players": 21
+    },
+    {
+      "name": "Mjällby AIF",
+      "type": "club",
+      "file": "club/Mjällby_AIF.json",
+      "players": 20
+    },
+    {
+      "name": "Modena",
+      "type": "club",
+      "file": "club/Modena.json",
       "players": 23
+    },
+    {
+      "name": "Mohun Bagan Super Giant",
+      "type": "club",
+      "file": "club/Mohun_Bagan_Super_Giant.json",
+      "players": 14
     },
     {
       "name": "Molde FK",
@@ -1963,27 +2269,51 @@
       "players": 23
     },
     {
-      "name": "Montpellier Hérault SC",
+      "name": "Montpellier HSC",
       "type": "club",
-      "file": "club/Montpellier_Hérault_SC.json",
+      "file": "club/Montpellier_HSC.json",
+      "players": 23
+    },
+    {
+      "name": "Monza",
+      "type": "club",
+      "file": "club/Monza.json",
       "players": 23
     },
     {
       "name": "Morecambe",
       "type": "club",
       "file": "club/Morecambe.json",
-      "players": 23
+      "players": 14
     },
     {
       "name": "Moreirense FC",
       "type": "club",
       "file": "club/Moreirense_FC.json",
-      "players": 17
+      "players": 23
     },
     {
-      "name": "Motherwell",
+      "name": "Motherwell FC",
       "type": "club",
-      "file": "club/Motherwell.json",
+      "file": "club/Motherwell_FC.json",
+      "players": 23
+    },
+    {
+      "name": "Motor Lublin",
+      "type": "club",
+      "file": "club/Motor_Lublin.json",
+      "players": 23
+    },
+    {
+      "name": "Mumbai City FC",
+      "type": "club",
+      "file": "club/Mumbai_City_FC.json",
+      "players": 13
+    },
+    {
+      "name": "Mushuc Runa",
+      "type": "club",
+      "file": "club/Mushuc_Runa.json",
       "players": 23
     },
     {
@@ -1993,16 +2323,22 @@
       "players": 23
     },
     {
-      "name": "N.E.C. Nijmegen",
+      "name": "NAC Breda",
       "type": "club",
-      "file": "club/N.E.C._Nijmegen.json",
+      "file": "club/NAC_Breda.json",
       "players": 23
     },
     {
-      "name": "Nagoya Grampus",
+      "name": "NEC Nijmegen",
       "type": "club",
-      "file": "club/Nagoya_Grampus.json",
-      "players": 16
+      "file": "club/NEC_Nijmegen.json",
+      "players": 22
+    },
+    {
+      "name": "Nacional Potosí",
+      "type": "club",
+      "file": "club/Nacional_Potosí.json",
+      "players": 23
     },
     {
       "name": "Napoli",
@@ -2014,25 +2350,31 @@
       "name": "Nashville SC",
       "type": "club",
       "file": "club/Nashville_SC.json",
-      "players": 13
+      "players": 19
     },
     {
       "name": "New England Revolution",
       "type": "club",
       "file": "club/New_England_Revolution.json",
-      "players": 19
+      "players": 20
     },
     {
       "name": "New York City FC",
       "type": "club",
       "file": "club/New_York_City_FC.json",
-      "players": 23
+      "players": 17
     },
     {
       "name": "New York Red Bulls",
       "type": "club",
       "file": "club/New_York_Red_Bulls.json",
-      "players": 23
+      "players": 19
+    },
+    {
+      "name": "Newcastle Jets",
+      "type": "club",
+      "file": "club/Newcastle_Jets.json",
+      "players": 15
     },
     {
       "name": "Newcastle United",
@@ -2050,7 +2392,7 @@
       "name": "Newport County",
       "type": "club",
       "file": "club/Newport_County.json",
-      "players": 21
+      "players": 12
     },
     {
       "name": "Northampton Town",
@@ -2071,10 +2413,10 @@
       "players": 23
     },
     {
-      "name": "Nîmes Olympique",
+      "name": "Notts County",
       "type": "club",
-      "file": "club/Nîmes_Olympique.json",
-      "players": 23
+      "file": "club/Notts_County.json",
+      "players": 19
     },
     {
       "name": "OGC Nice",
@@ -2083,27 +2425,15 @@
       "players": 23
     },
     {
-      "name": "Odds BK",
+      "name": "Odds Ballklubb",
       "type": "club",
-      "file": "club/Odds_BK.json",
-      "players": 12
+      "file": "club/Odds_Ballklubb.json",
+      "players": 15
     },
     {
-      "name": "Odense Boldklub",
+      "name": "Olympiacos FC",
       "type": "club",
-      "file": "club/Odense_Boldklub.json",
-      "players": 14
-    },
-    {
-      "name": "Oldham Athletic",
-      "type": "club",
-      "file": "club/Oldham_Athletic.json",
-      "players": 23
-    },
-    {
-      "name": "Olympiacos CFP",
-      "type": "club",
-      "file": "club/Olympiacos_CFP.json",
+      "file": "club/Olympiacos_FC.json",
       "players": 23
     },
     {
@@ -2119,15 +2449,15 @@
       "players": 23
     },
     {
-      "name": "Orlando City Soccer Club",
+      "name": "Once Caldas",
       "type": "club",
-      "file": "club/Orlando_City_Soccer_Club.json",
-      "players": 21
+      "file": "club/Once_Caldas.json",
+      "players": 23
     },
     {
-      "name": "Orlando Pirates",
+      "name": "Orlando City SC",
       "type": "club",
-      "file": "club/Orlando_Pirates.json",
+      "file": "club/Orlando_City_SC.json",
       "players": 15
     },
     {
@@ -2155,28 +2485,22 @@
       "players": 23
     },
     {
-      "name": "PFC CSKA Moscow",
-      "type": "club",
-      "file": "club/PFC_CSKA_Moscow.json",
-      "players": 23
-    },
-    {
       "name": "PSV",
       "type": "club",
       "file": "club/PSV.json",
       "players": 23
     },
     {
-      "name": "Pachuca",
+      "name": "Palermo FC",
       "type": "club",
-      "file": "club/Pachuca.json",
-      "players": 19
+      "file": "club/Palermo_FC.json",
+      "players": 23
     },
     {
       "name": "Palmeiras",
       "type": "club",
       "file": "club/Palmeiras.json",
-      "players": 11
+      "players": 20
     },
     {
       "name": "Panathinaikos FC",
@@ -2203,34 +2527,52 @@
       "players": 23
     },
     {
-      "name": "Patronato",
+      "name": "Pau FC",
       "type": "club",
-      "file": "club/Patronato.json",
-      "players": 13
+      "file": "club/Pau_FC.json",
+      "players": 23
     },
     {
       "name": "Perth Glory",
       "type": "club",
       "file": "club/Perth_Glory.json",
-      "players": 12
+      "players": 18
     },
     {
       "name": "Peterborough United",
       "type": "club",
       "file": "club/Peterborough_United.json",
+      "players": 22
+    },
+    {
+      "name": "Peñarol",
+      "type": "club",
+      "file": "club/Peñarol.json",
       "players": 23
     },
     {
       "name": "Philadelphia Union",
       "type": "club",
       "file": "club/Philadelphia_Union.json",
-      "players": 23
+      "players": 16
     },
     {
       "name": "Piast Gliwice",
       "type": "club",
       "file": "club/Piast_Gliwice.json",
-      "players": 11
+      "players": 20
+    },
+    {
+      "name": "Pisa",
+      "type": "club",
+      "file": "club/Pisa.json",
+      "players": 23
+    },
+    {
+      "name": "Platense",
+      "type": "club",
+      "file": "club/Platense.json",
+      "players": 23
     },
     {
       "name": "Plymouth Argyle",
@@ -2242,49 +2584,61 @@
       "name": "Pogoń Szczecin",
       "type": "club",
       "file": "club/Pogoń_Szczecin.json",
-      "players": 23
+      "players": 21
     },
     {
       "name": "Pohang Steelers",
       "type": "club",
       "file": "club/Pohang_Steelers.json",
-      "players": 12
+      "players": 20
     },
     {
       "name": "Port Vale",
       "type": "club",
       "file": "club/Port_Vale.json",
-      "players": 23
-    },
-    {
-      "name": "Portimonense SC",
-      "type": "club",
-      "file": "club/Portimonense_SC.json",
-      "players": 23
+      "players": 20
     },
     {
       "name": "Portland Timbers",
       "type": "club",
       "file": "club/Portland_Timbers.json",
-      "players": 21
+      "players": 22
     },
     {
       "name": "Portsmouth",
       "type": "club",
       "file": "club/Portsmouth.json",
-      "players": 22
+      "players": 23
     },
     {
       "name": "Preston North End",
       "type": "club",
       "file": "club/Preston_North_End.json",
+      "players": 22
+    },
+    {
+      "name": "Puszcza Niepołomice",
+      "type": "club",
+      "file": "club/Puszcza_Niepołomice.json",
+      "players": 22
+    },
+    {
+      "name": "Qarabağ FK",
+      "type": "club",
+      "file": "club/Qarabağ_FK.json",
       "players": 23
     },
     {
-      "name": "Puebla FC",
+      "name": "Qingdao Hainiu FC",
       "type": "club",
-      "file": "club/Puebla_FC.json",
-      "players": 20
+      "file": "club/Qingdao_Hainiu_FC.json",
+      "players": 14
+    },
+    {
+      "name": "Qingdao West Coast FC",
+      "type": "club",
+      "file": "club/Qingdao_West_Coast_FC.json",
+      "players": 14
     },
     {
       "name": "Queens Park Rangers",
@@ -2293,21 +2647,27 @@
       "players": 23
     },
     {
-      "name": "RB Bragantino",
-      "type": "club",
-      "file": "club/RB_Bragantino.json",
-      "players": 14
-    },
-    {
       "name": "RB Leipzig",
       "type": "club",
       "file": "club/RB_Leipzig.json",
       "players": 23
     },
     {
-      "name": "RC Celta de Vigo",
+      "name": "RC Celta",
       "type": "club",
-      "file": "club/RC_Celta_de_Vigo.json",
+      "file": "club/RC_Celta.json",
+      "players": 23
+    },
+    {
+      "name": "RC Deportivo de La Coruña",
+      "type": "club",
+      "file": "club/RC_Deportivo_de_La_Coruña.json",
+      "players": 23
+    },
+    {
+      "name": "RC Lens",
+      "type": "club",
+      "file": "club/RC_Lens.json",
       "players": 23
     },
     {
@@ -2317,9 +2677,9 @@
       "players": 23
     },
     {
-      "name": "RCD Espanyol de Barcelona",
+      "name": "RCD Espanyol",
       "type": "club",
-      "file": "club/RCD_Espanyol_de_Barcelona.json",
+      "file": "club/RCD_Espanyol.json",
       "players": 23
     },
     {
@@ -2332,18 +2692,12 @@
       "name": "RKC Waalwijk",
       "type": "club",
       "file": "club/RKC_Waalwijk.json",
-      "players": 15
+      "players": 23
     },
     {
       "name": "RSC Anderlecht",
       "type": "club",
       "file": "club/RSC_Anderlecht.json",
-      "players": 23
-    },
-    {
-      "name": "RZ Pellets Wolfsberger AC",
-      "type": "club",
-      "file": "club/RZ_Pellets_Wolfsberger_AC.json",
       "players": 23
     },
     {
@@ -2353,27 +2707,51 @@
       "players": 23
     },
     {
-      "name": "Racing Club de Lens",
+      "name": "Racing Club de Montevideo",
       "type": "club",
-      "file": "club/Racing_Club_de_Lens.json",
+      "file": "club/Racing_Club_de_Montevideo.json",
+      "players": 23
+    },
+    {
+      "name": "Racing Santander",
+      "type": "club",
+      "file": "club/Racing_Santander.json",
+      "players": 23
+    },
+    {
+      "name": "Racing de Ferrol",
+      "type": "club",
+      "file": "club/Racing_de_Ferrol.json",
+      "players": 23
+    },
+    {
+      "name": "Radomiak Radom",
+      "type": "club",
+      "file": "club/Radomiak_Radom.json",
       "players": 23
     },
     {
       "name": "Raków Częstochowa",
       "type": "club",
       "file": "club/Raków_Częstochowa.json",
-      "players": 18
+      "players": 22
     },
     {
       "name": "Randers FC",
       "type": "club",
       "file": "club/Randers_FC.json",
-      "players": 17
+      "players": 21
     },
     {
       "name": "Rangers FC",
       "type": "club",
       "file": "club/Rangers_FC.json",
+      "players": 23
+    },
+    {
+      "name": "Rapid Bucuresti",
+      "type": "club",
+      "file": "club/Rapid_Bucuresti.json",
       "players": 23
     },
     {
@@ -2383,9 +2761,9 @@
       "players": 23
     },
     {
-      "name": "Reading",
+      "name": "Reading FC",
       "type": "club",
-      "file": "club/Reading.json",
+      "file": "club/Reading_FC.json",
       "players": 23
     },
     {
@@ -2395,9 +2773,9 @@
       "players": 23
     },
     {
-      "name": "Real Madrid CF",
+      "name": "Real Madrid",
       "type": "club",
-      "file": "club/Real_Madrid_CF.json",
+      "file": "club/Real_Madrid.json",
       "players": 23
     },
     {
@@ -2410,18 +2788,12 @@
       "name": "Real Salt Lake",
       "type": "club",
       "file": "club/Real_Salt_Lake.json",
-      "players": 18
+      "players": 20
     },
     {
       "name": "Real Sociedad",
       "type": "club",
       "file": "club/Real_Sociedad.json",
-      "players": 23
-    },
-    {
-      "name": "Real Sociedad B",
-      "type": "club",
-      "file": "club/Real_Sociedad_B.json",
       "players": 23
     },
     {
@@ -2443,22 +2815,34 @@
       "players": 23
     },
     {
+      "name": "Red Star FC",
+      "type": "club",
+      "file": "club/Red_Star_FC.json",
+      "players": 21
+    },
+    {
+      "name": "Reggiana",
+      "type": "club",
+      "file": "club/Reggiana.json",
+      "players": 23
+    },
+    {
+      "name": "Rio Ave FC",
+      "type": "club",
+      "file": "club/Rio_Ave_FC.json",
+      "players": 23
+    },
+    {
       "name": "River Plate",
       "type": "club",
       "file": "club/River_Plate.json",
       "players": 23
     },
     {
-      "name": "Rochdale",
-      "type": "club",
-      "file": "club/Rochdale.json",
-      "players": 16
-    },
-    {
       "name": "Rodez Aveyron Football",
       "type": "club",
       "file": "club/Rodez_Aveyron_Football.json",
-      "players": 12
+      "players": 23
     },
     {
       "name": "Roma",
@@ -2476,7 +2860,7 @@
       "name": "Rosenborg BK",
       "type": "club",
       "file": "club/Rosenborg_BK.json",
-      "players": 23
+      "players": 20
     },
     {
       "name": "Ross County FC",
@@ -2485,10 +2869,16 @@
       "players": 21
     },
     {
+      "name": "Rot-Weiss Essen",
+      "type": "club",
+      "file": "club/Rot-Weiss_Essen.json",
+      "players": 23
+    },
+    {
       "name": "Rotherham United",
       "type": "club",
       "file": "club/Rotherham_United.json",
-      "players": 23
+      "players": 21
     },
     {
       "name": "Royal Antwerp FC",
@@ -2497,40 +2887,16 @@
       "players": 23
     },
     {
-      "name": "Royal Charleroi S.C.",
+      "name": "Royal Charleroi Sporting Club",
       "type": "club",
-      "file": "club/Royal_Charleroi_S.C..json",
+      "file": "club/Royal_Charleroi_Sporting_Club.json",
       "players": 23
     },
     {
-      "name": "Royal Excel Mouscron",
+      "name": "SC Freiburg",
       "type": "club",
-      "file": "club/Royal_Excel_Mouscron.json",
-      "players": 11
-    },
-    {
-      "name": "Royale Union Saint-Gilloise",
-      "type": "club",
-      "file": "club/Royale_Union_Saint-Gilloise.json",
-      "players": 13
-    },
-    {
-      "name": "SC Bastia",
-      "type": "club",
-      "file": "club/SC_Bastia.json",
-      "players": 15
-    },
-    {
-      "name": "SC Braga",
-      "type": "club",
-      "file": "club/SC_Braga.json",
+      "file": "club/SC_Freiburg.json",
       "players": 23
-    },
-    {
-      "name": "SC Cambuur",
-      "type": "club",
-      "file": "club/SC_Cambuur.json",
-      "players": 13
     },
     {
       "name": "SC Heerenveen",
@@ -2539,10 +2905,34 @@
       "players": 23
     },
     {
+      "name": "SC Oțelul Galați",
+      "type": "club",
+      "file": "club/SC_Oțelul_Galați.json",
+      "players": 22
+    },
+    {
       "name": "SC Paderborn 07",
       "type": "club",
       "file": "club/SC_Paderborn_07.json",
       "players": 23
+    },
+    {
+      "name": "SC Preußen Münster",
+      "type": "club",
+      "file": "club/SC_Preußen_Münster.json",
+      "players": 23
+    },
+    {
+      "name": "SC Rheindorf Altach",
+      "type": "club",
+      "file": "club/SC_Rheindorf_Altach.json",
+      "players": 21
+    },
+    {
+      "name": "SC Verl",
+      "type": "club",
+      "file": "club/SC_Verl.json",
+      "players": 21
     },
     {
       "name": "SD Eibar",
@@ -2557,27 +2947,21 @@
       "players": 23
     },
     {
-      "name": "SD Ponferradina",
+      "name": "SK Austria Klagenfurt",
       "type": "club",
-      "file": "club/SD_Ponferradina.json",
-      "players": 23
-    },
-    {
-      "name": "SG Dynamo Dresden",
-      "type": "club",
-      "file": "club/SG_Dynamo_Dresden.json",
-      "players": 23
+      "file": "club/SK_Austria_Klagenfurt.json",
+      "players": 22
     },
     {
       "name": "SK Brann",
       "type": "club",
       "file": "club/SK_Brann.json",
-      "players": 21
+      "players": 19
     },
     {
-      "name": "SK Rapid Wien",
+      "name": "SK Rapid",
       "type": "club",
-      "file": "club/SK_Rapid_Wien.json",
+      "file": "club/SK_Rapid.json",
       "players": 23
     },
     {
@@ -2599,16 +2983,28 @@
       "players": 23
     },
     {
-      "name": "SPAL",
+      "name": "SS Juve Stabia",
       "type": "club",
-      "file": "club/SPAL.json",
-      "players": 16
+      "file": "club/SS_Juve_Stabia.json",
+      "players": 23
+    },
+    {
+      "name": "SSC Bari",
+      "type": "club",
+      "file": "club/SSC_Bari.json",
+      "players": 23
     },
     {
       "name": "SSV Jahn Regensburg",
       "type": "club",
       "file": "club/SSV_Jahn_Regensburg.json",
-      "players": 21
+      "players": 23
+    },
+    {
+      "name": "SSV Ulm 1846",
+      "type": "club",
+      "file": "club/SSV_Ulm_1846.json",
+      "players": 23
     },
     {
       "name": "SV Darmstadt 98",
@@ -2617,10 +3013,10 @@
       "players": 23
     },
     {
-      "name": "SV Meppen",
+      "name": "SV Elversberg",
       "type": "club",
-      "file": "club/SV_Meppen.json",
-      "players": 13
+      "file": "club/SV_Elversberg.json",
+      "players": 23
     },
     {
       "name": "SV Sandhausen",
@@ -2629,10 +3025,10 @@
       "players": 23
     },
     {
-      "name": "SV Waldhof Mannheim 07",
+      "name": "SV Waldhof Mannheim",
       "type": "club",
-      "file": "club/SV_Waldhof_Mannheim_07.json",
-      "players": 16
+      "file": "club/SV_Waldhof_Mannheim.json",
+      "players": 23
     },
     {
       "name": "SV Wehen Wiesbaden",
@@ -2647,28 +3043,34 @@
       "players": 23
     },
     {
-      "name": "SV Zulte Waregem",
-      "type": "club",
-      "file": "club/SV_Zulte_Waregem.json",
-      "players": 23
-    },
-    {
-      "name": "Sagan Tosu",
-      "type": "club",
-      "file": "club/Sagan_Tosu.json",
-      "players": 13
-    },
-    {
       "name": "Salford City",
       "type": "club",
       "file": "club/Salford_City.json",
+      "players": 18
+    },
+    {
+      "name": "Sampdoria",
+      "type": "club",
+      "file": "club/Sampdoria.json",
+      "players": 23
+    },
+    {
+      "name": "Samsunspor",
+      "type": "club",
+      "file": "club/Samsunspor.json",
+      "players": 20
+    },
+    {
+      "name": "San Antonio Bulo Bulo",
+      "type": "club",
+      "file": "club/San_Antonio_Bulo_Bulo.json",
       "players": 23
     },
     {
       "name": "San Jose Earthquakes",
       "type": "club",
       "file": "club/San_Jose_Earthquakes.json",
-      "players": 17
+      "players": 23
     },
     {
       "name": "San Lorenzo de Almagro",
@@ -2680,12 +3082,6 @@
       "name": "Sandefjord Fotball",
       "type": "club",
       "file": "club/Sandefjord_Fotball.json",
-      "players": 11
-    },
-    {
-      "name": "Sanfrecce Hiroshima",
-      "type": "club",
-      "file": "club/Sanfrecce_Hiroshima.json",
       "players": 14
     },
     {
@@ -2695,46 +3091,34 @@
       "players": 22
     },
     {
-      "name": "Santos",
-      "type": "club",
-      "file": "club/Santos.json",
-      "players": 11
-    },
-    {
-      "name": "Santos Laguna",
-      "type": "club",
-      "file": "club/Santos_Laguna.json",
-      "players": 23
-    },
-    {
       "name": "Sarpsborg 08 FF",
       "type": "club",
       "file": "club/Sarpsborg_08_FF.json",
-      "players": 15
+      "players": 23
     },
     {
-      "name": "Scunthorpe United",
+      "name": "Sassuolo",
       "type": "club",
-      "file": "club/Scunthorpe_United.json",
-      "players": 17
+      "file": "club/Sassuolo.json",
+      "players": 23
     },
     {
       "name": "Seattle Sounders FC",
       "type": "club",
       "file": "club/Seattle_Sounders_FC.json",
-      "players": 23
+      "players": 21
     },
     {
-      "name": "Seraing",
+      "name": "Sepsi OSK",
       "type": "club",
-      "file": "club/Seraing.json",
-      "players": 12
+      "file": "club/Sepsi_OSK.json",
+      "players": 23
     },
     {
       "name": "Servette FC",
       "type": "club",
       "file": "club/Servette_FC.json",
-      "players": 14
+      "players": 22
     },
     {
       "name": "Sevilla FC",
@@ -2752,19 +3136,25 @@
       "name": "Shamrock Rovers",
       "type": "club",
       "file": "club/Shamrock_Rovers.json",
-      "players": 12
+      "players": 14
     },
     {
       "name": "Shandong Taishan",
       "type": "club",
       "file": "club/Shandong_Taishan.json",
-      "players": 13
+      "players": 19
     },
     {
-      "name": "Shanghai Port FC",
+      "name": "Shanghai Port",
       "type": "club",
-      "file": "club/Shanghai_Port_FC.json",
-      "players": 12
+      "file": "club/Shanghai_Port.json",
+      "players": 23
+    },
+    {
+      "name": "Shanghai Shenhua",
+      "type": "club",
+      "file": "club/Shanghai_Shenhua.json",
+      "players": 18
     },
     {
       "name": "Sheffield United",
@@ -2779,9 +3169,15 @@
       "players": 23
     },
     {
-      "name": "Shimizu S-Pulse",
+      "name": "Shelbourne FC",
       "type": "club",
-      "file": "club/Shimizu_S-Pulse.json",
+      "file": "club/Shelbourne_FC.json",
+      "players": 15
+    },
+    {
+      "name": "Shenzhen Peng City",
+      "type": "club",
+      "file": "club/Shenzhen_Peng_City.json",
       "players": 14
     },
     {
@@ -2794,7 +3190,7 @@
       "name": "Silkeborg IF",
       "type": "club",
       "file": "club/Silkeborg_IF.json",
-      "players": 12
+      "players": 19
     },
     {
       "name": "Sint-Truidense VV",
@@ -2803,16 +3199,16 @@
       "players": 23
     },
     {
+      "name": "Sivasspor",
+      "type": "club",
+      "file": "club/Sivasspor.json",
+      "players": 22
+    },
+    {
       "name": "Southampton",
       "type": "club",
       "file": "club/Southampton.json",
       "players": 23
-    },
-    {
-      "name": "Southend United",
-      "type": "club",
-      "file": "club/Southend_United.json",
-      "players": 12
     },
     {
       "name": "SpVgg Greuther Fürth",
@@ -2821,15 +3217,21 @@
       "players": 23
     },
     {
+      "name": "SpVgg Unterhaching",
+      "type": "club",
+      "file": "club/SpVgg_Unterhaching.json",
+      "players": 20
+    },
+    {
+      "name": "Sparta Praha",
+      "type": "club",
+      "file": "club/Sparta_Praha.json",
+      "players": 23
+    },
+    {
       "name": "Sparta Rotterdam",
       "type": "club",
       "file": "club/Sparta_Rotterdam.json",
-      "players": 17
-    },
-    {
-      "name": "Spartak Moskva",
-      "type": "club",
-      "file": "club/Spartak_Moskva.json",
       "players": 23
     },
     {
@@ -2839,21 +3241,27 @@
       "players": 23
     },
     {
-      "name": "Sport-Club Freiburg",
-      "type": "club",
-      "file": "club/Sport-Club_Freiburg.json",
-      "players": 23
-    },
-    {
-      "name": "Sportclub Verl",
-      "type": "club",
-      "file": "club/Sportclub_Verl.json",
-      "players": 13
-    },
-    {
       "name": "Sporting CP",
       "type": "club",
       "file": "club/Sporting_CP.json",
+      "players": 23
+    },
+    {
+      "name": "Sporting Club Bastia",
+      "type": "club",
+      "file": "club/Sporting_Club_Bastia.json",
+      "players": 23
+    },
+    {
+      "name": "Sporting Clube de Braga",
+      "type": "club",
+      "file": "club/Sporting_Clube_de_Braga.json",
+      "players": 23
+    },
+    {
+      "name": "Sporting Cristal",
+      "type": "club",
+      "file": "club/Sporting_Cristal.json",
       "players": 23
     },
     {
@@ -2863,33 +3271,45 @@
       "players": 17
     },
     {
-      "name": "St. Johnstone FC",
+      "name": "Sportivo Luqueño",
       "type": "club",
-      "file": "club/St._Johnstone_FC.json",
+      "file": "club/Sportivo_Luqueño.json",
+      "players": 23
+    },
+    {
+      "name": "St Johnstone FC",
+      "type": "club",
+      "file": "club/St_Johnstone_FC.json",
+      "players": 20
+    },
+    {
+      "name": "St Patrick's Athletic FC",
+      "type": "club",
+      "file": "club/St_Patrick's_Athletic_FC.json",
+      "players": 17
+    },
+    {
+      "name": "St. Louis CITY SC",
+      "type": "club",
+      "file": "club/St._Louis_CITY_SC.json",
       "players": 22
     },
     {
       "name": "St. Mirren",
       "type": "club",
       "file": "club/St._Mirren.json",
-      "players": 17
-    },
-    {
-      "name": "St. Patrick's Athletic",
-      "type": "club",
-      "file": "club/St._Patrick's_Athletic.json",
-      "players": 11
-    },
-    {
-      "name": "Stabæk Fotball",
-      "type": "club",
-      "file": "club/Stabæk_Fotball.json",
       "players": 19
     },
     {
       "name": "Stade Brestois 29",
       "type": "club",
       "file": "club/Stade_Brestois_29.json",
+      "players": 23
+    },
+    {
+      "name": "Stade Lavallois Mayenne FC",
+      "type": "club",
+      "file": "club/Stade_Lavallois_Mayenne_FC.json",
       "players": 23
     },
     {
@@ -2911,16 +3331,28 @@
       "players": 23
     },
     {
+      "name": "Stal Mielec",
+      "type": "club",
+      "file": "club/Stal_Mielec.json",
+      "players": 23
+    },
+    {
       "name": "Standard de Liège",
       "type": "club",
       "file": "club/Standard_de_Liège.json",
-      "players": 23
+      "players": 21
     },
     {
       "name": "Stevenage",
       "type": "club",
       "file": "club/Stevenage.json",
-      "players": 21
+      "players": 23
+    },
+    {
+      "name": "Stockport County",
+      "type": "club",
+      "file": "club/Stockport_County.json",
+      "players": 23
     },
     {
       "name": "Stoke City",
@@ -2929,22 +3361,22 @@
       "players": 23
     },
     {
+      "name": "Strømsgodset IF",
+      "type": "club",
+      "file": "club/Strømsgodset_IF.json",
+      "players": 20
+    },
+    {
       "name": "Sunderland",
       "type": "club",
       "file": "club/Sunderland.json",
       "players": 23
     },
     {
-      "name": "Sutton United",
+      "name": "Suwon FC",
       "type": "club",
-      "file": "club/Sutton_United.json",
-      "players": 14
-    },
-    {
-      "name": "Suwon Samsung Bluewings",
-      "type": "club",
-      "file": "club/Suwon_Samsung_Bluewings.json",
-      "players": 18
+      "file": "club/Suwon_FC.json",
+      "players": 17
     },
     {
       "name": "Swansea City",
@@ -2956,49 +3388,79 @@
       "name": "Swindon Town",
       "type": "club",
       "file": "club/Swindon_Town.json",
-      "players": 22
+      "players": 16
     },
     {
       "name": "Sydney FC",
       "type": "club",
       "file": "club/Sydney_FC.json",
-      "players": 13
+      "players": 15
     },
     {
-      "name": "SønderjyskE",
+      "name": "São Paulo",
       "type": "club",
-      "file": "club/SønderjyskE.json",
-      "players": 17
+      "file": "club/São_Paulo.json",
+      "players": 20
     },
     {
-      "name": "TSG Hoffenheim",
+      "name": "Sønderjyske Fodbold",
       "type": "club",
-      "file": "club/TSG_Hoffenheim.json",
+      "file": "club/Sønderjyske_Fodbold.json",
+      "players": 20
+    },
+    {
+      "name": "Südtirol",
+      "type": "club",
+      "file": "club/Südtirol.json",
+      "players": 23
+    },
+    {
+      "name": "TSG 1899 Hoffenheim",
+      "type": "club",
+      "file": "club/TSG_1899_Hoffenheim.json",
       "players": 23
     },
     {
       "name": "TSV 1860 München",
       "type": "club",
       "file": "club/TSV_1860_München.json",
-      "players": 19
-    },
-    {
-      "name": "Tigres U.A.N.L.",
-      "type": "club",
-      "file": "club/Tigres_U.A.N.L..json",
       "players": 23
     },
     {
-      "name": "Torino F.C.",
+      "name": "TSV Hartberg",
       "type": "club",
-      "file": "club/Torino_F.C..json",
+      "file": "club/TSV_Hartberg.json",
+      "players": 21
+    },
+    {
+      "name": "Talleres",
+      "type": "club",
+      "file": "club/Talleres.json",
+      "players": 23
+    },
+    {
+      "name": "Tianjin Jinmen Tiger",
+      "type": "club",
+      "file": "club/Tianjin_Jinmen_Tiger.json",
+      "players": 11
+    },
+    {
+      "name": "Tigre",
+      "type": "club",
+      "file": "club/Tigre.json",
+      "players": 23
+    },
+    {
+      "name": "Torino",
+      "type": "club",
+      "file": "club/Torino.json",
       "players": 23
     },
     {
       "name": "Toronto FC",
       "type": "club",
       "file": "club/Toronto_FC.json",
-      "players": 23
+      "players": 20
     },
     {
       "name": "Tottenham Hotspur",
@@ -3007,51 +3469,39 @@
       "players": 23
     },
     {
-      "name": "Toulouse Football Club",
+      "name": "Toulouse FC",
       "type": "club",
-      "file": "club/Toulouse_Football_Club.json",
-      "players": 20
+      "file": "club/Toulouse_FC.json",
+      "players": 23
     },
     {
       "name": "Trabzonspor",
       "type": "club",
       "file": "club/Trabzonspor.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "Tranmere Rovers",
       "type": "club",
       "file": "club/Tranmere_Rovers.json",
-      "players": 23
+      "players": 18
     },
     {
       "name": "Tromsø IL",
       "type": "club",
       "file": "club/Tromsø_IL.json",
-      "players": 11
+      "players": 17
     },
     {
-      "name": "Türkgücü München",
+      "name": "UD Almería",
       "type": "club",
-      "file": "club/Türkgücü_München.json",
-      "players": 15
-    },
-    {
-      "name": "U.C. Sampdoria",
-      "type": "club",
-      "file": "club/U.C._Sampdoria.json",
+      "file": "club/UD_Almería.json",
       "players": 23
     },
     {
-      "name": "U.S. Sassuolo Calcio",
+      "name": "UD Las Palmas",
       "type": "club",
-      "file": "club/U.S._Sassuolo_Calcio.json",
-      "players": 23
-    },
-    {
-      "name": "UD Ibiza",
-      "type": "club",
-      "file": "club/UD_Ibiza.json",
+      "file": "club/UD_Las_Palmas.json",
       "players": 23
     },
     {
@@ -3061,58 +3511,82 @@
       "players": 23
     },
     {
-      "name": "Udinese Calcio",
+      "name": "USL Dunkerque",
       "type": "club",
-      "file": "club/Udinese_Calcio.json",
+      "file": "club/USL_Dunkerque.json",
       "players": 23
     },
     {
-      "name": "Ulsan Hyundai FC",
+      "name": "UTA Arad",
       "type": "club",
-      "file": "club/Ulsan_Hyundai_FC.json",
+      "file": "club/UTA_Arad.json",
       "players": 23
+    },
+    {
+      "name": "Udinese",
+      "type": "club",
+      "file": "club/Udinese.json",
+      "players": 23
+    },
+    {
+      "name": "Ulsan HD FC",
+      "type": "club",
+      "file": "club/Ulsan_HD_FC.json",
+      "players": 23
+    },
+    {
+      "name": "Union Saint-Gilloise",
+      "type": "club",
+      "file": "club/Union_Saint-Gilloise.json",
+      "players": 23
+    },
+    {
+      "name": "Unirea Slobozia",
+      "type": "club",
+      "file": "club/Unirea_Slobozia.json",
+      "players": 22
     },
     {
       "name": "Universidad Católica",
       "type": "club",
       "file": "club/Universidad_Católica.json",
-      "players": 21
+      "players": 22
+    },
+    {
+      "name": "Universidad Católica del Ecuador",
+      "type": "club",
+      "file": "club/Universidad_Católica_del_Ecuador.json",
+      "players": 18
+    },
+    {
+      "name": "Universidad de Chile",
+      "type": "club",
+      "file": "club/Universidad_de_Chile.json",
+      "players": 23
+    },
+    {
+      "name": "Universitario de Deportes",
+      "type": "club",
+      "file": "club/Universitario_de_Deportes.json",
+      "players": 23
+    },
+    {
+      "name": "Universitatea Cluj",
+      "type": "club",
+      "file": "club/Universitatea_Cluj.json",
+      "players": 23
     },
     {
       "name": "Universitatea Craiova",
       "type": "club",
       "file": "club/Universitatea_Craiova.json",
-      "players": 19
+      "players": 21
     },
     {
-      "name": "Unión Deportiva Almería",
+      "name": "Unión Española",
       "type": "club",
-      "file": "club/Unión_Deportiva_Almería.json",
+      "file": "club/Unión_Española.json",
       "players": 23
-    },
-    {
-      "name": "Unión Deportiva Las Palmas",
-      "type": "club",
-      "file": "club/Unión_Deportiva_Las_Palmas.json",
-      "players": 23
-    },
-    {
-      "name": "Unión La Calera",
-      "type": "club",
-      "file": "club/Unión_La_Calera.json",
-      "players": 12
-    },
-    {
-      "name": "Unión de Santa Fe",
-      "type": "club",
-      "file": "club/Unión_de_Santa_Fe.json",
-      "players": 22
-    },
-    {
-      "name": "Urawa Red Diamonds",
-      "type": "club",
-      "file": "club/Urawa_Red_Diamonds.json",
-      "players": 16
     },
     {
       "name": "Valencia CF",
@@ -3121,33 +3595,27 @@
       "players": 23
     },
     {
-      "name": "Valenciennes FC",
-      "type": "club",
-      "file": "club/Valenciennes_FC.json",
-      "players": 23
-    },
-    {
       "name": "Vancouver Whitecaps FC",
       "type": "club",
       "file": "club/Vancouver_Whitecaps_FC.json",
-      "players": 23
+      "players": 22
     },
     {
-      "name": "Vegalta Sendai",
+      "name": "Vasco da Gama",
       "type": "club",
-      "file": "club/Vegalta_Sendai.json",
-      "players": 12
+      "file": "club/Vasco_da_Gama.json",
+      "players": 20
     },
     {
       "name": "Vejle Boldklub",
       "type": "club",
       "file": "club/Vejle_Boldklub.json",
-      "players": 15
+      "players": 19
     },
     {
-      "name": "Venezia FC",
+      "name": "Venezia",
       "type": "club",
-      "file": "club/Venezia_FC.json",
+      "file": "club/Venezia.json",
       "players": 23
     },
     {
@@ -3155,6 +3623,12 @@
       "type": "club",
       "file": "club/VfB_Stuttgart.json",
       "players": 23
+    },
+    {
+      "name": "VfB Stuttgart II",
+      "type": "club",
+      "file": "club/VfB_Stuttgart_II.json",
+      "players": 16
     },
     {
       "name": "VfL Bochum 1848",
@@ -3166,7 +3640,7 @@
       "name": "VfL Osnabrück",
       "type": "club",
       "file": "club/VfL_Osnabrück.json",
-      "players": 17
+      "players": 23
     },
     {
       "name": "VfL Wolfsburg",
@@ -3178,19 +3652,25 @@
       "name": "Viborg FF",
       "type": "club",
       "file": "club/Viborg_FF.json",
-      "players": 11
+      "players": 22
     },
     {
       "name": "Viking FK",
       "type": "club",
       "file": "club/Viking_FK.json",
-      "players": 19
+      "players": 23
     },
     {
       "name": "Viktoria Köln",
       "type": "club",
       "file": "club/Viktoria_Köln.json",
-      "players": 21
+      "players": 23
+    },
+    {
+      "name": "Viktoria Plzeň",
+      "type": "club",
+      "file": "club/Viktoria_Plzeň.json",
+      "players": 23
     },
     {
       "name": "Villarreal CF",
@@ -3199,28 +3679,22 @@
       "players": 23
     },
     {
-      "name": "Vissel Kobe",
+      "name": "Vitória",
       "type": "club",
-      "file": "club/Vissel_Kobe.json",
-      "players": 21
+      "file": "club/Vitória.json",
+      "players": 20
     },
     {
-      "name": "Vitesse",
+      "name": "Vitória SC",
       "type": "club",
-      "file": "club/Vitesse.json",
+      "file": "club/Vitória_SC.json",
       "players": 23
     },
     {
-      "name": "Vitória de Guimarães",
+      "name": "Västerås SK",
       "type": "club",
-      "file": "club/Vitória_de_Guimarães.json",
-      "players": 23
-    },
-    {
-      "name": "Vålerenga Fotball",
-      "type": "club",
-      "file": "club/Vålerenga_Fotball.json",
-      "players": 14
+      "file": "club/Västerås_SK.json",
+      "players": 12
     },
     {
       "name": "Vélez Sarsfield",
@@ -3229,22 +3703,28 @@
       "players": 23
     },
     {
+      "name": "WSG Tirol",
+      "type": "club",
+      "file": "club/WSG_Tirol.json",
+      "players": 19
+    },
+    {
       "name": "Walsall",
       "type": "club",
       "file": "club/Walsall.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "Watford",
       "type": "club",
       "file": "club/Watford.json",
-      "players": 23
+      "players": 22
     },
     {
       "name": "Wellington Phoenix",
       "type": "club",
       "file": "club/Wellington_Phoenix.json",
-      "players": 16
+      "players": 12
     },
     {
       "name": "West Bromwich Albion",
@@ -3262,13 +3742,19 @@
       "name": "Western Sydney Wanderers",
       "type": "club",
       "file": "club/Western_Sydney_Wanderers.json",
-      "players": 18
+      "players": 15
     },
     {
-      "name": "Western United FC",
+      "name": "Western United",
       "type": "club",
-      "file": "club/Western_United_FC.json",
-      "players": 15
+      "file": "club/Western_United.json",
+      "players": 13
+    },
+    {
+      "name": "Widzew Łódź",
+      "type": "club",
+      "file": "club/Widzew_Łódź.json",
+      "players": 23
     },
     {
       "name": "Wigan Athletic",
@@ -3283,16 +3769,10 @@
       "players": 22
     },
     {
-      "name": "Wisła Kraków",
+      "name": "Wolfsberger AC",
       "type": "club",
-      "file": "club/Wisła_Kraków.json",
+      "file": "club/Wolfsberger_AC.json",
       "players": 23
-    },
-    {
-      "name": "Wisła Płock",
-      "type": "club",
-      "file": "club/Wisła_Płock.json",
-      "players": 14
     },
     {
       "name": "Wolverhampton Wanderers",
@@ -3301,76 +3781,52 @@
       "players": 23
     },
     {
-      "name": "Wrexham AFC",
+      "name": "Wrexham",
       "type": "club",
-      "file": "club/Wrexham_AFC.json",
-      "players": 17
+      "file": "club/Wrexham.json",
+      "players": 23
+    },
+    {
+      "name": "Wuhan Three Towns",
+      "type": "club",
+      "file": "club/Wuhan_Three_Towns.json",
+      "players": 16
     },
     {
       "name": "Wycombe Wanderers",
       "type": "club",
       "file": "club/Wycombe_Wanderers.json",
-      "players": 22
+      "players": 23
     },
     {
-      "name": "Yeni Malatyaspor",
+      "name": "Yverdon Sport",
       "type": "club",
-      "file": "club/Yeni_Malatyaspor.json",
-      "players": 18
-    },
-    {
-      "name": "Yokohama F. Marinos",
-      "type": "club",
-      "file": "club/Yokohama_F._Marinos.json",
-      "players": 19
-    },
-    {
-      "name": "Yokohama FC",
-      "type": "club",
-      "file": "club/Yokohama_FC.json",
-      "players": 11
-    },
-    {
-      "name": "Yukatel Kayserispor",
-      "type": "club",
-      "file": "club/Yukatel_Kayserispor.json",
+      "file": "club/Yverdon_Sport.json",
       "players": 23
     },
     {
       "name": "Zagłębie Lubin",
       "type": "club",
       "file": "club/Zagłębie_Lubin.json",
-      "players": 12
+      "players": 21
+    },
+    {
+      "name": "Zhejiang FC",
+      "type": "club",
+      "file": "club/Zhejiang_FC.json",
+      "players": 16
     },
     {
       "name": "Çaykur Rizespor",
       "type": "club",
       "file": "club/Çaykur_Rizespor.json",
-      "players": 23
-    },
-    {
-      "name": "Östersunds FK",
-      "type": "club",
-      "file": "club/Östersunds_FK.json",
-      "players": 15
-    },
-    {
-      "name": "İstanbul Başakşehir FK",
-      "type": "club",
-      "file": "club/İstanbul_Başakşehir_FK.json",
-      "players": 23
-    },
-    {
-      "name": "İttifak Holding Konyaspor",
-      "type": "club",
-      "file": "club/İttifak_Holding_Konyaspor.json",
-      "players": 20
+      "players": 19
     },
     {
       "name": "Śląsk Wrocław",
       "type": "club",
       "file": "club/Śląsk_Wrocław.json",
-      "players": 17
+      "players": 23
     }
   ]
 }

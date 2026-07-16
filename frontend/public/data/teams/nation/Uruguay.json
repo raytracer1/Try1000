@@ -1,6 +1,7 @@
 {
   "name": "Uruguay",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "L. Suárez",
@@ -20,8 +21,25 @@
       }
     },
     {
-      "name": "E. Cavani",
+      "name": "08 A. Recoba",
       "number": 2,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 86,
+        "shooting": 82,
+        "passing": 84,
+        "dribbling": 92,
+        "defending": 23,
+        "physicality": 82,
+        "stamina": 72,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "E. Cavani",
+      "number": 3,
       "position": "CM",
       "overall": 85,
       "attributes": {
@@ -38,7 +56,7 @@
     },
     {
       "name": "J. Giménez",
-      "number": 3,
+      "number": 4,
       "position": "CB",
       "overall": 84,
       "attributes": {
@@ -55,7 +73,7 @@
     },
     {
       "name": "F. Valverde",
-      "number": 4,
+      "number": 5,
       "position": "CM",
       "overall": 83,
       "attributes": {
@@ -72,7 +90,7 @@
     },
     {
       "name": "S. Coates",
-      "number": 5,
+      "number": 6,
       "position": "CB",
       "overall": 83,
       "attributes": {
@@ -89,7 +107,7 @@
     },
     {
       "name": "L. Torreira",
-      "number": 6,
+      "number": 7,
       "position": "CM",
       "overall": 80,
       "attributes": {
@@ -106,7 +124,7 @@
     },
     {
       "name": "N. Lodeiro",
-      "number": 7,
+      "number": 8,
       "position": "LW",
       "overall": 80,
       "attributes": {
@@ -123,7 +141,7 @@
     },
     {
       "name": "21 M. Nérez",
-      "number": 8,
+      "number": 9,
       "position": "LB",
       "overall": 80,
       "attributes": {
@@ -140,7 +158,7 @@
     },
     {
       "name": "21 J. Sildero",
-      "number": 9,
+      "number": 10,
       "position": "RW",
       "overall": 80,
       "attributes": {
@@ -157,7 +175,7 @@
     },
     {
       "name": "21 M. Baldona",
-      "number": 10,
+      "number": 11,
       "position": "CM",
       "overall": 80,
       "attributes": {
@@ -174,7 +192,7 @@
     },
     {
       "name": "J. Rodríguez",
-      "number": 11,
+      "number": 12,
       "position": "ST",
       "overall": 80,
       "attributes": {
@@ -191,8 +209,8 @@
     },
     {
       "name": "21 J. Frendado",
-      "number": 12,
-      "position": "CB",
+      "number": 13,
+      "position": "CM",
       "overall": 80,
       "attributes": {
         "pace": 74,
@@ -208,7 +226,7 @@
     },
     {
       "name": "M. Gómez",
-      "number": 13,
+      "number": 14,
       "position": "CM",
       "overall": 80,
       "attributes": {
@@ -225,7 +243,7 @@
     },
     {
       "name": "21 L. Dálves",
-      "number": 14,
+      "number": 15,
       "position": "CM",
       "overall": 80,
       "attributes": {
@@ -242,8 +260,8 @@
     },
     {
       "name": "21 E. Schetino",
-      "number": 15,
-      "position": "CB",
+      "number": 16,
+      "position": "CM",
       "overall": 80,
       "attributes": {
         "pace": 78,
@@ -259,7 +277,7 @@
     },
     {
       "name": "21 S. Ardero",
-      "number": 16,
+      "number": 17,
       "position": "LW",
       "overall": 80,
       "attributes": {
@@ -276,7 +294,7 @@
     },
     {
       "name": "D. Godín",
-      "number": 17,
+      "number": 18,
       "position": "CB",
       "overall": 80,
       "attributes": {
@@ -293,14 +311,15 @@
     },
     {
       "name": "F. Muslera",
-      "number": 18,
+      "number": 19,
       "position": "GK",
       "overall": 80,
       "attributes": {
-        "pace": 78,
-        "defending": 79,
-        "passing": 80,
-        "dribbling": 82,
+        "pace": 62,
+        "shooting": 10,
+        "passing": 44,
+        "dribbling": 25,
+        "defending": 16,
         "physicality": 68,
         "stamina": 40,
         "awareness": 78,
@@ -309,14 +328,15 @@
     },
     {
       "name": "21 J. Serendero",
-      "number": 19,
+      "number": 20,
       "position": "GK",
       "overall": 80,
       "attributes": {
-        "pace": 78,
-        "defending": 77,
-        "passing": 81,
-        "dribbling": 80,
+        "pace": 42,
+        "shooting": 8,
+        "passing": 18,
+        "dribbling": 9,
+        "defending": 17,
         "physicality": 79,
         "stamina": 29,
         "awareness": 78,
@@ -325,7 +345,7 @@
     },
     {
       "name": "21 E. Riquero",
-      "number": 20,
+      "number": 21,
       "position": "CM",
       "overall": 79,
       "attributes": {
@@ -342,7 +362,7 @@
     },
     {
       "name": "21 E. Guichón",
-      "number": 21,
+      "number": 22,
       "position": "CM",
       "overall": 79,
       "attributes": {
@@ -359,7 +379,7 @@
     },
     {
       "name": "21 R. Di Leonardo",
-      "number": 22,
+      "number": 23,
       "position": "RB",
       "overall": 79,
       "attributes": {
@@ -372,23 +392,6 @@
         "stamina": 85,
         "awareness": 81,
         "composure": 54
-      }
-    },
-    {
-      "name": "M. Arambarri",
-      "number": 23,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 51,
-        "shooting": 49,
-        "passing": 79,
-        "dribbling": 72,
-        "defending": 80,
-        "physicality": 76,
-        "stamina": 73,
-        "awareness": 77,
-        "composure": 65
       }
     }
   ]

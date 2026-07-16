@@ -1,396 +1,419 @@
 {
   "name": "AZ Alkmaar",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/61/30.png",
   "players": [
     {
-      "name": "O. Wijndal",
+      "name": "Jordy Clasie -",
       "number": 1,
-      "position": "LB",
+      "position": "CDM",
       "overall": 79,
       "attributes": {
-        "pace": 84,
-        "shooting": 48,
-        "passing": 80,
-        "dribbling": 76,
-        "defending": 76,
-        "physicality": 68,
-        "stamina": 86,
-        "awareness": 78,
-        "composure": 75
-      }
-    },
-    {
-      "name": "F. Midtsjø",
-      "number": 2,
-      "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 76,
-        "shooting": 58,
-        "passing": 83,
-        "dribbling": 75,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 76,
-        "stamina": 90,
-        "awareness": 80,
-        "composure": 78
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/199/422/25_120.png"
     },
     {
-      "name": "J. Karlsson",
-      "number": 3,
-      "position": "LW",
-      "overall": 75,
-      "attributes": {
-        "pace": 80,
-        "shooting": 72,
-        "passing": 68,
-        "dribbling": 79,
-        "defending": 36,
-        "physicality": 42,
-        "stamina": 78,
-        "awareness": 69,
-        "composure": 73
-      }
-    },
-    {
-      "name": "20 S. Wuytens",
-      "number": 4,
-      "position": "CM",
+      "name": "Sven Mijnans -",
+      "number": 2,
+      "position": "CAM",
       "overall": 74,
       "attributes": {
-        "pace": 54,
-        "shooting": 51,
-        "passing": 76,
-        "dribbling": 68,
-        "defending": 73,
-        "physicality": 72,
-        "stamina": 75,
-        "awareness": 75,
-        "composure": 75
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/789/25_120.png"
     },
     {
-      "name": "V. Pavlidis",
-      "number": 5,
-      "position": "ST",
+      "name": "Wouter Goes -",
+      "number": 3,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/273/752/25_120.png"
+    },
+    {
+      "name": "Alexandre Penetra -",
+      "number": 4,
+      "position": "CB",
       "overall": 73,
       "attributes": {
-        "pace": 76,
-        "shooting": 76,
-        "passing": 60,
-        "dribbling": 72,
-        "defending": 42,
-        "physicality": 82,
-        "stamina": 83,
-        "awareness": 67,
-        "composure": 66
-      }
-    },
-    {
-      "name": "J. Clasie",
-      "number": 6,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 54,
-        "shooting": 50,
-        "passing": 78,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 60,
-        "physicality": 64,
-        "stamina": 65,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 74
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/288/25_120.png"
     },
     {
-      "name": "21 R. Vlaar",
-      "number": 7,
-      "position": "CM",
+      "name": "Seiya Maikuma -",
+      "number": 5,
+      "position": "RB",
       "overall": 72,
       "attributes": {
-        "pace": 31,
-        "shooting": 45,
-        "passing": 67,
-        "dribbling": 47,
-        "defending": 74,
-        "physicality": 90,
-        "stamina": 53,
-        "awareness": 66,
-        "composure": 71
-      }
-    },
-    {
-      "name": "D. de Wit",
-      "number": 8,
-      "position": "CAM",
-      "overall": 71,
-      "attributes": {
-        "pace": 62,
-        "shooting": 72,
-        "passing": 73,
-        "dribbling": 66,
-        "defending": 66,
-        "physicality": 79,
-        "stamina": 83,
-        "awareness": 72,
-        "composure": 71
-      }
-    },
-    {
-      "name": "A. Witry",
-      "number": 9,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 76,
-        "shooting": 55,
-        "passing": 67,
-        "dribbling": 65,
-        "defending": 66,
-        "physicality": 61,
-        "stamina": 84,
-        "awareness": 68,
-        "composure": 66
-      }
-    },
-    {
-      "name": "H. Evjen",
-      "number": 10,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 79,
-        "shooting": 66,
-        "passing": 67,
-        "dribbling": 74,
-        "defending": 66,
-        "physicality": 54,
-        "stamina": 85,
-        "awareness": 69,
-        "composure": 67
-      }
-    },
-    {
-      "name": "Y. Sugawara",
-      "number": 11,
-      "position": "RB",
-      "overall": 71,
-      "attributes": {
-        "pace": 77,
-        "shooting": 40,
-        "passing": 68,
-        "dribbling": 68,
-        "defending": 67,
-        "physicality": 64,
-        "stamina": 86,
-        "awareness": 69,
-        "composure": 67
-      }
-    },
-    {
-      "name": "T. Letschert",
-      "number": 12,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 55,
-        "shooting": 52,
-        "passing": 67,
-        "dribbling": 57,
-        "defending": 71,
-        "physicality": 81,
-        "stamina": 62,
-        "awareness": 67,
-        "composure": 66
-      }
-    },
-    {
-      "name": "P. Hatzidiakos",
-      "number": 13,
-      "position": "CB",
-      "overall": 71,
-      "attributes": {
-        "pace": 75,
-        "shooting": 45,
-        "passing": 76,
-        "dribbling": 58,
-        "defending": 68,
-        "physicality": 73,
-        "stamina": 73,
-        "awareness": 72,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/266/071/25_120.png"
     },
     {
-      "name": "A. Guðmundsson",
-      "number": 14,
+      "name": "Ruben van Bommel -",
+      "number": 6,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/275/592/25_120.png"
+    },
+    {
+      "name": "Troy Daniel Parrott -",
+      "number": 7,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/902/25_120.png"
+    },
+    {
+      "name": "Peer Koopmeiners -",
+      "number": 8,
+      "position": "CDM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/076/25_120.png"
+    },
+    {
+      "name": "Ibrahim Sadiq -",
+      "number": 9,
       "position": "RW",
       "overall": 71,
       "attributes": {
-        "pace": 79,
-        "shooting": 68,
-        "passing": 69,
-        "dribbling": 80,
-        "defending": 39,
-        "physicality": 72,
-        "stamina": 72,
-        "awareness": 69,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/244/513/25_120.png"
     },
     {
-      "name": "B. Martins Indi",
-      "number": 15,
-      "position": "CB",
+      "name": "Jeroen Zoet -",
+      "number": 10,
+      "position": "GK",
       "overall": 71,
       "attributes": {
-        "pace": 45,
-        "shooting": 38,
-        "passing": 65,
-        "dribbling": 54,
-        "defending": 73,
-        "physicality": 82,
-        "stamina": 66,
-        "awareness": 66,
-        "composure": 68
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/190/778/25_120.png"
     },
     {
-      "name": "P. Jensen",
-      "number": 16,
-      "position": "GK",
+      "name": "Kristijan Belić -",
+      "number": 11,
+      "position": "CDM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/253/082/25_120.png"
+    },
+    {
+      "name": "Rolando Maximiliano \"Bruno\" Martins Indi -",
+      "number": 12,
+      "position": "CB",
       "overall": 70,
       "attributes": {
-        "pace": 72,
-        "defending": 70,
-        "passing": 67,
-        "dribbling": 67,
-        "physicality": 65,
-        "stamina": 35,
-        "awareness": 65,
-        "composure": 58
-      }
-    },
-    {
-      "name": "Z. Aboukhlal",
-      "number": 17,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 81,
-        "shooting": 68,
-        "passing": 63,
-        "dribbling": 73,
-        "defending": 29,
-        "physicality": 59,
-        "stamina": 64,
-        "awareness": 61,
-        "composure": 64
-      }
-    },
-    {
-      "name": "S. Beukema",
-      "number": 18,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 65,
-        "shooting": 50,
-        "passing": 64,
-        "dribbling": 57,
-        "defending": 72,
-        "physicality": 75,
-        "stamina": 64,
-        "awareness": 63,
-        "composure": 64
-      }
-    },
-    {
-      "name": "T. Reijnders",
-      "number": 19,
-      "position": "CM",
-      "overall": 68,
-      "attributes": {
-        "pace": 75,
-        "shooting": 59,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 71,
-        "defending": 56,
-        "physicality": 63,
-        "stamina": 73,
-        "awareness": 72,
-        "composure": 73
-      }
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/199/550/25_120.png"
     },
     {
-      "name": "20 R. de Boer",
-      "number": 20,
+      "name": "Rome Jayden Owusu-Oduro -",
+      "number": 13,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/958/25_120.png"
+    },
+    {
+      "name": "David Møller Wolfe -",
+      "number": 14,
+      "position": "LB",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/135/25_120.png"
+    },
+    {
+      "name": "Zico Buurmeester -",
+      "number": 15,
       "position": "CM",
       "overall": 68,
       "attributes": {
-        "pace": 20,
-        "shooting": 15,
-        "passing": 22,
-        "dribbling": 19,
-        "defending": 14,
-        "physicality": 58,
-        "stamina": 32,
-        "awareness": 69,
-        "composure": 52
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/265/741/25_120.png"
     },
     {
-      "name": "H. Verhulst",
-      "number": 21,
-      "position": "CM",
-      "overall": 67,
+      "name": "Ernest Poku -",
+      "number": 16,
+      "position": "RW",
+      "overall": 68,
       "attributes": {
-        "pace": 52,
-        "shooting": 11,
-        "passing": 29,
-        "dribbling": 17,
-        "defending": 18,
-        "physicality": 66,
-        "stamina": 45,
-        "awareness": 64,
-        "composure": 38
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/219/25_120.png"
     },
     {
-      "name": "M. Taabouni",
+      "name": "Mayckel Lahdo -",
+      "number": 17,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/256/427/25_120.png"
+    },
+    {
+      "name": "Denso Kasius -",
+      "number": 18,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/267/446/25_120.png"
+    },
+    {
+      "name": "Mees De Wit -",
+      "number": 19,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/263/099/25_120.png"
+    },
+    {
+      "name": "Mexx Meerdink -",
+      "number": 20,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/267/974/25_120.png"
+    },
+    {
+      "name": "Maxim Dekker -",
+      "number": 21,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/268/106/25_120.png"
+    },
+    {
+      "name": "Kees Smit -",
       "number": 22,
       "position": "CM",
       "overall": 66,
       "attributes": {
-        "pace": 74,
-        "shooting": 54,
-        "passing": 66,
-        "dribbling": 71,
-        "defending": 50,
-        "physicality": 48,
-        "stamina": 58,
-        "awareness": 65,
-        "composure": 67
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/071/532/25_120.png"
     },
     {
-      "name": "T. Oosting",
+      "name": "Jayden Osei Addai -",
       "number": 23,
-      "position": "CM",
-      "overall": 65,
+      "position": "RW",
+      "overall": 66,
       "attributes": {
-        "pace": 66,
-        "shooting": 67,
-        "passing": 68,
-        "dribbling": 62,
-        "defending": 54,
-        "physicality": 54,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 64,
-        "composure": 64
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/279/239/25_120.png"
     }
   ]
 }

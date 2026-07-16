@@ -1,6 +1,7 @@
 {
   "name": "North Macedonia",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "E. Bardhi",
@@ -42,10 +43,11 @@
       "position": "GK",
       "overall": 75,
       "attributes": {
-        "pace": 74,
-        "defending": 76,
-        "passing": 76,
-        "dribbling": 76,
+        "pace": 38,
+        "shooting": 20,
+        "passing": 23,
+        "dribbling": 18,
+        "defending": 19,
         "physicality": 72,
         "stamina": 40,
         "awareness": 62,

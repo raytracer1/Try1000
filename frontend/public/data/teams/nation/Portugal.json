@@ -1,395 +1,419 @@
 {
   "name": "Portugal",
   "type": "nation",
+  "logo": "https://cdn.sofifa.net/meta/team/18701/30.png",
   "players": [
     {
-      "name": "Cristiano Ronaldo",
+      "name": "Rúben Dias -",
       "number": 1,
-      "position": "ST",
-      "overall": 91,
+      "position": "CB",
+      "overall": 86,
       "attributes": {
-        "pace": 88,
-        "shooting": 95,
-        "passing": 80,
-        "dribbling": 88,
-        "defending": 32,
-        "physicality": 77,
-        "stamina": 77,
-        "awareness": 94,
-        "composure": 95
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/818/25_120.png"
     },
     {
-      "name": "Bruno Fernandes",
+      "name": "Bruno Fernandes -",
       "number": 2,
       "position": "CAM",
-      "overall": 88,
-      "attributes": {
-        "pace": 73,
-        "shooting": 83,
-        "passing": 91,
-        "dribbling": 83,
-        "defending": 73,
-        "physicality": 70,
-        "stamina": 91,
-        "awareness": 91,
-        "composure": 87
-      }
-    },
-    {
-      "name": "Rúben Dias",
-      "number": 3,
-      "position": "CB",
-      "overall": 87,
-      "attributes": {
-        "pace": 65,
-        "shooting": 29,
-        "passing": 81,
-        "dribbling": 64,
-        "defending": 89,
-        "physicality": 88,
-        "stamina": 88,
-        "awareness": 87,
-        "composure": 81
-      }
-    },
-    {
-      "name": "João Cancelo",
-      "number": 4,
-      "position": "LB",
       "overall": 86,
       "attributes": {
-        "pace": 84,
-        "shooting": 68,
-        "passing": 85,
-        "dribbling": 85,
-        "defending": 82,
-        "physicality": 62,
-        "stamina": 90,
-        "awareness": 85,
-        "composure": 85
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/212/198/25_120.png"
     },
     {
-      "name": "Bernardo Silva",
+      "name": "Vitinha -",
+      "number": 3,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/255/253/25_120.png"
+    },
+    {
+      "name": "Rafael Leão -",
+      "number": 4,
+      "position": "LW",
+      "overall": 85,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/721/25_120.png"
+    },
+    {
+      "name": "Bernardo Silva -",
       "number": 5,
       "position": "CM",
-      "overall": 86,
+      "overall": 85,
       "attributes": {
-        "pace": 77,
-        "shooting": 77,
-        "passing": 86,
-        "dribbling": 92,
-        "defending": 63,
-        "physicality": 54,
-        "stamina": 93,
-        "awareness": 84,
-        "composure": 87
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/218/667/25_120.png"
     },
     {
-      "name": "Ricardo Pereira",
+      "name": "Cristiano Ronaldo -",
       "number": 6,
-      "position": "RB",
-      "overall": 84,
+      "position": "ST",
+      "overall": 85,
       "attributes": {
-        "pace": 83,
-        "shooting": 66,
-        "passing": 82,
-        "dribbling": 81,
-        "defending": 84,
-        "physicality": 69,
-        "stamina": 84,
-        "awareness": 83,
-        "composure": 81
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/020/801/25_120.png"
     },
     {
-      "name": "R. Guerreiro",
+      "name": "João Neves -",
       "number": 7,
-      "position": "LB",
+      "position": "CM",
       "overall": 84,
       "attributes": {
-        "pace": 67,
-        "shooting": 77,
-        "passing": 88,
-        "dribbling": 88,
-        "defending": 79,
-        "physicality": 50,
-        "stamina": 79,
-        "awareness": 86,
-        "composure": 86
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/834/25_120.png"
     },
     {
-      "name": "André Silva",
+      "name": "Diogo Costa -",
       "number": 8,
+      "position": "GK",
+      "overall": 84,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/234/577/25_120.png"
+    },
+    {
+      "name": "Diogo Jota -",
+      "number": 9,
       "position": "ST",
       "overall": 84,
       "attributes": {
-        "pace": 71,
-        "shooting": 87,
-        "passing": 79,
-        "dribbling": 84,
-        "defending": 40,
-        "physicality": 76,
-        "stamina": 79,
-        "awareness": 86,
-        "composure": 84
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/458/25_120.png"
     },
     {
-      "name": "João Félix",
-      "number": 9,
-      "position": "CM",
+      "name": "Rúben Neves -",
+      "number": 10,
+      "position": "CDM",
+      "overall": 84,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/293/25_120.png"
+    },
+    {
+      "name": "Nuno Mendes -",
+      "number": 11,
+      "position": "LB",
       "overall": 83,
       "attributes": {
-        "pace": 83,
-        "shooting": 79,
-        "passing": 80,
-        "dribbling": 86,
-        "defending": 42,
-        "physicality": 64,
-        "stamina": 75,
-        "awareness": 83,
-        "composure": 84
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/145/25_120.png"
     },
     {
-      "name": "Rúben Neves",
-      "number": 10,
-      "position": "CM",
-      "overall": 82,
-      "attributes": {
-        "pace": 54,
-        "shooting": 66,
-        "passing": 88,
-        "dribbling": 76,
-        "defending": 77,
-        "physicality": 67,
-        "stamina": 79,
-        "awareness": 80,
-        "composure": 84
-      }
-    },
-    {
-      "name": "Diogo Jota",
-      "number": 11,
-      "position": "CM",
-      "overall": 82,
-      "attributes": {
-        "pace": 81,
-        "shooting": 84,
-        "passing": 75,
-        "dribbling": 85,
-        "defending": 57,
-        "physicality": 71,
-        "stamina": 81,
-        "awareness": 84,
-        "composure": 83
-      }
-    },
-    {
-      "name": "Palhinha",
+      "name": "Palhinha -",
       "number": 12,
       "position": "CDM",
-      "overall": 82,
+      "overall": 83,
       "attributes": {
-        "pace": 62,
-        "shooting": 62,
-        "passing": 76,
-        "dribbling": 74,
-        "defending": 87,
-        "physicality": 88,
-        "stamina": 87,
-        "awareness": 77,
-        "composure": 82
-      }
-    },
-    {
-      "name": "Rafa",
-      "number": 13,
-      "position": "RW",
-      "overall": 82,
-      "attributes": {
-        "pace": 94,
-        "shooting": 74,
-        "passing": 77,
-        "dribbling": 86,
-        "defending": 47,
-        "physicality": 40,
-        "stamina": 77,
-        "awareness": 83,
-        "composure": 81
-      }
-    },
-    {
-      "name": "Pepe",
-      "number": 14,
-      "position": "CB",
-      "overall": 82,
-      "attributes": {
-        "pace": 81,
-        "shooting": 46,
-        "passing": 73,
-        "dribbling": 58,
-        "defending": 82,
-        "physicality": 86,
-        "stamina": 82,
-        "awareness": 81,
-        "composure": 80
-      }
-    },
-    {
-      "name": "A. Lopes",
-      "number": 15,
-      "position": "GK",
-      "overall": 82,
-      "attributes": {
-        "pace": 84,
-        "defending": 86,
-        "passing": 78,
-        "dribbling": 80,
-        "physicality": 73,
-        "stamina": 36,
-        "awareness": 82,
-        "composure": 65
-      }
-    },
-    {
-      "name": "Rui Patrício",
-      "number": 16,
-      "position": "GK",
-      "overall": 82,
-      "attributes": {
-        "pace": 82,
-        "defending": 83,
-        "passing": 80,
-        "dribbling": 80,
-        "physicality": 77,
-        "stamina": 45,
-        "awareness": 76,
-        "composure": 66
-      }
-    },
-    {
-      "name": "Pizzi",
-      "number": 17,
-      "position": "CM",
-      "overall": 81,
-      "attributes": {
-        "pace": 73,
-        "shooting": 77,
-        "passing": 82,
-        "dribbling": 82,
-        "defending": 67,
-        "physicality": 59,
-        "stamina": 78,
-        "awareness": 83,
-        "composure": 84
-      }
-    },
-    {
-      "name": "Pedro Gonçalves",
-      "number": 18,
-      "position": "RW",
-      "overall": 81,
-      "attributes": {
-        "pace": 76,
-        "shooting": 84,
-        "passing": 83,
-        "dribbling": 83,
-        "defending": 57,
-        "physicality": 58,
-        "stamina": 85,
-        "awareness": 84,
-        "composure": 86
-      }
-    },
-    {
-      "name": "Otávio",
-      "number": 19,
-      "position": "CM",
-      "overall": 81,
-      "attributes": {
-        "pace": 76,
-        "shooting": 68,
-        "passing": 79,
-        "dribbling": 86,
-        "defending": 67,
-        "physicality": 60,
-        "stamina": 80,
-        "awareness": 82,
-        "composure": 81
-      }
-    },
-    {
-      "name": "Danilo Pereira",
-      "number": 20,
-      "position": "CM",
-      "overall": 81,
-      "attributes": {
-        "pace": 67,
-        "shooting": 57,
-        "passing": 81,
-        "dribbling": 75,
-        "defending": 81,
-        "physicality": 89,
-        "stamina": 85,
-        "awareness": 75,
-        "composure": 78
-      }
-    },
-    {
-      "name": "17 Tiago",
-      "number": 21,
-      "position": "CM",
-      "overall": 81,
-      "attributes": {
-        "pace": 55,
-        "shooting": 62,
-        "passing": 84,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 77,
-        "physicality": 76,
-        "stamina": 67,
-        "awareness": 77,
-        "composure": 78
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/391/25_120.png"
     },
     {
-      "name": "Gonçalo Guedes",
-      "number": 22,
-      "position": "CM",
+      "name": "Trincão -",
+      "number": 13,
+      "position": "CAM",
       "overall": 81,
       "attributes": {
-        "pace": 87,
-        "shooting": 76,
-        "passing": 76,
-        "dribbling": 83,
-        "defending": 34,
-        "physicality": 68,
-        "stamina": 74,
-        "awareness": 79,
-        "composure": 78
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/778/25_120.png"
     },
     {
-      "name": "Nani",
-      "number": 23,
+      "name": "Rui Silva -",
+      "number": 14,
+      "position": "GK",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/210/385/25_120.png"
+    },
+    {
+      "name": "Gonçalo Inácio -",
+      "number": 15,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/257/179/25_120.png"
+    },
+    {
+      "name": "Gonçalo Ramos -",
+      "number": 16,
       "position": "ST",
-      "overall": 81,
+      "overall": 80,
       "attributes": {
-        "pace": 65,
-        "shooting": 73,
-        "passing": 82,
-        "dribbling": 86,
-        "defending": 22,
-        "physicality": 68,
-        "stamina": 67,
-        "awareness": 81,
-        "composure": 84
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/256/903/25_120.png"
+    },
+    {
+      "name": "João Félix -",
+      "number": 17,
+      "position": "CAM",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/444/25_120.png"
+    },
+    {
+      "name": "Diogo Dalot -",
+      "number": 18,
+      "position": "RB",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/234/574/25_120.png"
+    },
+    {
+      "name": "Francisco Conceição -",
+      "number": 19,
+      "position": "RW",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/261/050/25_120.png"
+    },
+    {
+      "name": "Pedro Neto -",
+      "number": 20,
+      "position": "RW",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/616/25_120.png"
+    },
+    {
+      "name": "António Silva -",
+      "number": 21,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/270/086/25_120.png"
+    },
+    {
+      "name": "Nuno Tavares -",
+      "number": 22,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/530/25_120.png"
+    },
+    {
+      "name": "Nélson Semedo -",
+      "number": 23,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/227/928/25_120.png"
     }
   ]
 }

@@ -1,395 +1,382 @@
 {
   "name": "Ukraine",
   "type": "nation",
+  "logo": "https://cdn.sofifa.net/meta/team/18624/30.png",
   "players": [
     {
-      "name": "R. Malinovskyi",
+      "name": "Artem Dovbyk -",
       "number": 1,
-      "position": "RW",
-      "overall": 81,
+      "position": "ST",
+      "overall": 83,
       "attributes": {
-        "pace": 74,
-        "shooting": 73,
-        "passing": 85,
-        "dribbling": 83,
-        "defending": 72,
-        "physicality": 79,
-        "stamina": 81,
-        "awareness": 77,
-        "composure": 75
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/458/25_120.png"
     },
     {
-      "name": "Marlos",
+      "name": "Viktor Tsygankov -",
       "number": 2,
       "position": "RW",
       "overall": 81,
       "attributes": {
-        "pace": 80,
-        "shooting": 76,
-        "passing": 80,
-        "dribbling": 87,
-        "defending": 46,
-        "physicality": 72,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 75,
-        "composure": 84
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/369/25_120.png"
     },
     {
-      "name": "O. Zinchenko",
+      "name": "Andriy Lunin -",
       "number": 3,
-      "position": "CM",
-      "overall": 80,
+      "position": "GK",
+      "overall": 81,
       "attributes": {
-        "pace": 71,
-        "shooting": 58,
-        "passing": 82,
-        "dribbling": 80,
-        "defending": 79,
-        "physicality": 63,
-        "stamina": 76,
-        "awareness": 78,
-        "composure": 80
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/952/25_120.png"
     },
     {
-      "name": "19 Y. Rakitskyi",
+      "name": "Georgiy Sudako -",
       "number": 4,
-      "position": "CB",
+      "position": "CAM",
       "overall": 80,
       "attributes": {
-        "pace": 72,
-        "shooting": 57,
-        "passing": 78,
-        "dribbling": 69,
-        "defending": 83,
-        "physicality": 84,
-        "stamina": 82,
-        "awareness": 76,
-        "composure": 78
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/259/913/25_120.png"
     },
     {
-      "name": "V. Tsygankov",
+      "name": "Anatolii Trubin -",
       "number": 5,
-      "position": "RW",
-      "overall": 80,
-      "attributes": {
-        "pace": 85,
-        "shooting": 75,
-        "passing": 80,
-        "dribbling": 80,
-        "defending": 36,
-        "physicality": 49,
-        "stamina": 74,
-        "awareness": 78,
-        "composure": 76
-      }
-    },
-    {
-      "name": "T. Stepanenko",
-      "number": 6,
-      "position": "CM",
+      "position": "GK",
       "overall": 79,
       "attributes": {
-        "pace": 63,
-        "shooting": 56,
-        "passing": 80,
-        "dribbling": 64,
-        "defending": 79,
-        "physicality": 76,
-        "stamina": 82,
-        "awareness": 78,
-        "composure": 81
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/250/753/25_120.png"
     },
     {
-      "name": "Júnior Moraes",
+      "name": "Illia Zabarnyi -",
+      "number": 6,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/781/25_120.png"
+    },
+    {
+      "name": "Mykola Shaparenko -",
       "number": 7,
       "position": "CM",
       "overall": 78,
       "attributes": {
-        "pace": 79,
-        "shooting": 82,
-        "passing": 78,
-        "dribbling": 78,
-        "defending": 13,
-        "physicality": 69,
-        "stamina": 73,
-        "awareness": 82,
-        "composure": 74
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/374/25_120.png"
     },
     {
-      "name": "R. Yaremchuk",
+      "name": "Oleksandr Zinchenko -",
       "number": 8,
-      "position": "ST",
+      "position": "LB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/227/813/25_120.png"
+    },
+    {
+      "name": "Vitalii Mykolenko -",
+      "number": 9,
+      "position": "LB",
       "overall": 77,
       "attributes": {
-        "pace": 83,
-        "shooting": 78,
-        "passing": 75,
-        "dribbling": 70,
-        "defending": 48,
-        "physicality": 76,
-        "stamina": 77,
-        "awareness": 76,
-        "composure": 67
-      }
-    },
-    {
-      "name": "M. Shaparenko",
-      "number": 9,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 75,
+        "pace": 70,
         "shooting": 70,
-        "passing": 77,
-        "dribbling": 78,
-        "defending": 67,
-        "physicality": 50,
-        "stamina": 74,
-        "awareness": 72,
-        "composure": 66
-      }
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/380/25_120.png"
     },
     {
-      "name": "V. Buyalskyi",
+      "name": "Mykola Matvienko -",
       "number": 10,
-      "position": "CM",
-      "overall": 76,
+      "position": "CB",
+      "overall": 77,
       "attributes": {
-        "pace": 79,
-        "shooting": 69,
-        "passing": 77,
-        "dribbling": 80,
-        "defending": 75,
-        "physicality": 47,
-        "stamina": 80,
-        "awareness": 80,
-        "composure": 73
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/528/25_120.png"
     },
     {
-      "name": "A. Yarmolenko",
+      "name": "Vitaliy Buyalskyi -",
       "number": 11,
-      "position": "CM",
+      "position": "CAM",
       "overall": 76,
       "attributes": {
-        "pace": 66,
-        "shooting": 78,
-        "passing": 77,
-        "dribbling": 81,
-        "defending": 35,
-        "physicality": 75,
-        "stamina": 51,
-        "awareness": 79,
-        "composure": 74
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/373/25_120.png"
     },
     {
-      "name": "V. Mykolenko",
+      "name": "Valeriy Bondar -",
       "number": 12,
-      "position": "LB",
-      "overall": 76,
+      "position": "CB",
+      "overall": 75,
       "attributes": {
-        "pace": 78,
-        "shooting": 44,
-        "passing": 72,
-        "dribbling": 54,
-        "defending": 73,
-        "physicality": 57,
-        "stamina": 78,
-        "awareness": 73,
-        "composure": 59
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/698/25_120.png"
     },
     {
-      "name": "E. Sobol",
+      "name": "Andriy Yarmolenko -",
       "number": 13,
-      "position": "LB",
+      "position": "RW",
       "overall": 75,
       "attributes": {
-        "pace": 80,
-        "shooting": 58,
-        "passing": 69,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 72,
-        "physicality": 67,
-        "stamina": 86,
-        "awareness": 71,
-        "composure": 64
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/194/794/25_120.png"
     },
     {
-      "name": "S. Sydorchuk",
+      "name": "Roman Yaremchuk -",
       "number": 14,
-      "position": "CDM",
-      "overall": 75,
+      "position": "ST",
+      "overall": 74,
       "attributes": {
-        "pace": 65,
-        "shooting": 63,
-        "passing": 75,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 75,
-        "physicality": 73,
-        "stamina": 78,
-        "awareness": 75,
-        "composure": 76
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/240/702/25_120.png"
     },
     {
-      "name": "A. Pyatov",
+      "name": "Taras Stepanenko -",
       "number": 15,
-      "position": "GK",
-      "overall": 75,
+      "position": "CDM",
+      "overall": 74,
       "attributes": {
-        "pace": 72,
-        "defending": 73,
-        "passing": 69,
-        "dribbling": 83,
-        "physicality": 84,
-        "stamina": 37,
-        "awareness": 71,
-        "composure": 52
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/206/413/25_120.png"
     },
     {
-      "name": "G. Bushchan",
+      "name": "Dmytro Riznyk -",
       "number": 16,
       "position": "GK",
-      "overall": 75,
-      "attributes": {
-        "pace": 75,
-        "defending": 79,
-        "passing": 65,
-        "dribbling": 72,
-        "physicality": 73,
-        "stamina": 18,
-        "awareness": 77,
-        "composure": 36
-      }
-    },
-    {
-      "name": "Y. Konoplyanka",
-      "number": 17,
-      "position": "CM",
       "overall": 74,
       "attributes": {
-        "pace": 73,
-        "shooting": 70,
-        "passing": 72,
-        "dribbling": 78,
-        "defending": 30,
-        "physicality": 71,
-        "stamina": 66,
-        "awareness": 74,
-        "composure": 73
-      }
-    },
-    {
-      "name": "19 T. Mykhalyk",
-      "number": 18,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 66,
-        "shooting": 40,
-        "passing": 67,
-        "dribbling": 51,
-        "defending": 73,
-        "physicality": 80,
-        "stamina": 58,
-        "awareness": 67,
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/265/628/25_120.png"
     },
     {
-      "name": "S. Kryvtsov",
-      "number": 19,
-      "position": "CM",
+      "name": "Vladyslav Vanat -",
+      "number": 17,
+      "position": "ST",
       "overall": 74,
       "attributes": {
-        "pace": 66,
-        "shooting": 38,
-        "passing": 69,
-        "dribbling": 42,
-        "defending": 77,
-        "physicality": 80,
-        "stamina": 77,
-        "awareness": 72,
-        "composure": 69
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/541/25_120.png"
     },
     {
-      "name": "M. Burda",
+      "name": "Yukhym Konoplya -",
+      "number": 18,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/263/804/25_120.png"
+    },
+    {
+      "name": "Oleksandr Svatok -",
+      "number": 19,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/278/884/25_120.png"
+    },
+    {
+      "name": "Yehor Yarmoliuk -",
       "number": 20,
       "position": "CM",
-      "overall": 74,
+      "overall": 69,
       "attributes": {
-        "pace": 66,
-        "shooting": 17,
-        "passing": 62,
-        "dribbling": 31,
-        "defending": 78,
-        "physicality": 80,
-        "stamina": 64,
-        "awareness": 74,
-        "composure": 68
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/270/608/25_120.png"
     },
     {
-      "name": "A. Lunin",
+      "name": "Yegor Nazaryna -",
       "number": 21,
       "position": "CM",
-      "overall": 74,
+      "overall": 69,
       "attributes": {
-        "pace": 35,
-        "shooting": 8,
-        "passing": 25,
-        "dribbling": 11,
-        "defending": 13,
-        "physicality": 61,
-        "stamina": 32,
-        "awareness": 74,
-        "composure": 56
-      }
-    },
-    {
-      "name": "V. Kovalenko",
-      "number": 22,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 75,
-        "shooting": 71,
-        "passing": 74,
-        "dribbling": 73,
-        "defending": 59,
-        "physicality": 72,
-        "stamina": 82,
-        "awareness": 68,
-        "composure": 64
-      }
-    },
-    {
-      "name": "D. Garmash",
-      "number": 23,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 67,
-        "shooting": 72,
-        "passing": 80,
-        "dribbling": 69,
-        "defending": 73,
-        "physicality": 72,
-        "stamina": 73,
-        "awareness": 75,
-        "composure": 75
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/021/25_120.png"
     }
   ]
 }

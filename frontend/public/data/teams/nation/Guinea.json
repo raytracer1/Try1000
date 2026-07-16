@@ -1,6 +1,7 @@
 {
   "name": "Guinea",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "N. Keïta",
@@ -209,7 +210,7 @@
     {
       "name": "S. Sow",
       "number": 13,
-      "position": "CB",
+      "position": "CM",
       "overall": 69,
       "attributes": {
         "pace": 64,
@@ -229,10 +230,11 @@
       "position": "GK",
       "overall": 69,
       "attributes": {
-        "pace": 70,
-        "defending": 71,
-        "passing": 64,
-        "dribbling": 66,
+        "pace": 23,
+        "shooting": 6,
+        "passing": 25,
+        "dribbling": 9,
+        "defending": 11,
         "physicality": 51,
         "stamina": 26,
         "awareness": 62,
@@ -259,7 +261,7 @@
     {
       "name": "F. Pogba",
       "number": 16,
-      "position": "CB",
+      "position": "CM",
       "overall": 68,
       "attributes": {
         "pace": 65,
@@ -378,7 +380,7 @@
     {
       "name": "I. Conté",
       "number": 23,
-      "position": "CB",
+      "position": "CM",
       "overall": 65,
       "attributes": {
         "pace": 44,

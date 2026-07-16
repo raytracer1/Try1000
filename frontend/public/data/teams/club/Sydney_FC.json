@@ -1,227 +1,276 @@
 {
   "name": "Sydney FC",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/253/30.png",
   "players": [
     {
-      "name": "M. Ninković",
+      "name": "Joseph Lolley -",
       "number": 1,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 69,
-        "shooting": 68,
-        "passing": 76,
-        "dribbling": 76,
-        "defending": 54,
-        "physicality": 72,
-        "stamina": 71,
-        "awareness": 68,
-        "composure": 71
-      }
-    },
-    {
-      "name": "R. Grant",
-      "number": 2,
-      "position": "RB",
-      "overall": 72,
-      "attributes": {
-        "pace": 71,
-        "shooting": 60,
-        "passing": 73,
-        "dribbling": 67,
-        "defending": 66,
-        "physicality": 77,
-        "stamina": 95,
-        "awareness": 65,
-        "composure": 70
-      }
-    },
-    {
-      "name": "A. Wilkinson",
-      "number": 3,
-      "position": "CB",
-      "overall": 71,
-      "attributes": {
-        "pace": 32,
-        "shooting": 36,
-        "passing": 68,
-        "dribbling": 42,
-        "defending": 74,
-        "physicality": 86,
-        "stamina": 79,
-        "awareness": 62,
-        "composure": 61
-      }
-    },
-    {
-      "name": "A. Le Fondre",
-      "number": 4,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 62,
-        "shooting": 76,
-        "passing": 63,
-        "dribbling": 67,
-        "defending": 25,
-        "physicality": 68,
-        "stamina": 82,
-        "awareness": 73,
-        "composure": 75
-      }
-    },
-    {
-      "name": "L. Brattan",
-      "number": 5,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 61,
-        "shooting": 52,
-        "passing": 70,
-        "dribbling": 66,
-        "defending": 64,
-        "physicality": 76,
-        "stamina": 76,
-        "awareness": 64,
-        "composure": 69
-      }
-    },
-    {
-      "name": "K. Barbarouses",
-      "number": 6,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 85,
-        "shooting": 71,
-        "passing": 67,
-        "dribbling": 71,
-        "defending": 29,
-        "physicality": 67,
-        "stamina": 92,
-        "awareness": 70,
-        "composure": 68
-      }
-    },
-    {
-      "name": "21 A. Baumjohann",
-      "number": 7,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 67,
-        "shooting": 63,
-        "passing": 69,
-        "dribbling": 73,
-        "defending": 22,
-        "physicality": 61,
-        "stamina": 47,
-        "awareness": 63,
-        "composure": 65
-      }
-    },
-    {
-      "name": "M. Zullo",
-      "number": 8,
-      "position": "CM",
-      "overall": 67,
+      "position": "RW",
+      "overall": 75,
       "attributes": {
         "pace": 70,
-        "shooting": 53,
-        "passing": 67,
-        "dribbling": 65,
-        "defending": 65,
-        "physicality": 67,
-        "stamina": 79,
-        "awareness": 65,
-        "composure": 66
-      }
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/221/587/25_120.png"
     },
     {
-      "name": "P. Retre",
-      "number": 9,
-      "position": "CM",
-      "overall": 65,
+      "name": "Alexander Ian Grant -",
+      "number": 2,
+      "position": "CB",
+      "overall": 73,
       "attributes": {
-        "pace": 54,
-        "shooting": 52,
-        "passing": 64,
-        "dribbling": 66,
-        "defending": 62,
-        "physicality": 69,
-        "stamina": 83,
-        "awareness": 61,
-        "composure": 64
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/209/210/25_120.png"
     },
     {
-      "name": "J. King",
-      "number": 10,
+      "name": "Anthony Richard Cáceres -",
+      "number": 3,
+      "position": "CAM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/209/886/25_120.png"
+    },
+    {
+      "name": "Patryk Klimala -",
+      "number": 4,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/757/25_120.png"
+    },
+    {
+      "name": "Anas Ouahim -",
+      "number": 5,
+      "position": "CAM",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/741/25_120.png"
+    },
+    {
+      "name": "Jordan Alan Courtney-Perkins -",
+      "number": 6,
       "position": "LB",
       "overall": 65,
       "attributes": {
-        "pace": 71,
-        "shooting": 27,
-        "passing": 65,
-        "dribbling": 61,
-        "defending": 64,
-        "physicality": 73,
-        "stamina": 80,
-        "awareness": 59,
-        "composure": 54
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/698/25_120.png"
     },
     {
-      "name": "A. Caceres",
-      "number": 11,
+      "name": "Léo Sena -",
+      "number": 7,
       "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/235/108/25_120.png"
+    },
+    {
+      "name": "Max Barry Burgess -",
+      "number": 8,
+      "position": "CAM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/225/757/25_120.png"
+    },
+    {
+      "name": "Rhyan Bert Grant -",
+      "number": 9,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/192/241/25_120.png"
+    },
+    {
+      "name": "Andrew James Redmayne -",
+      "number": 10,
+      "position": "GK",
       "overall": 64,
       "attributes": {
-        "pace": 67,
-        "shooting": 56,
-        "passing": 69,
-        "dribbling": 65,
-        "defending": 62,
-        "physicality": 65,
-        "stamina": 74,
-        "awareness": 59,
-        "composure": 56
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/183/244/25_120.png"
     },
     {
-      "name": "T. Buhagiar",
+      "name": "Alexandar Popović -",
+      "number": 11,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/070/25_120.png"
+    },
+    {
+      "name": "Joel Bruce King -",
       "number": 12,
-      "position": "CM",
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/005/25_120.png"
+    },
+    {
+      "name": "Jaushua James Elie Sotirio -",
+      "number": 13,
+      "position": "RW",
       "overall": 62,
       "attributes": {
-        "pace": 93,
-        "shooting": 60,
-        "passing": 55,
-        "dribbling": 60,
-        "defending": 18,
-        "physicality": 69,
-        "stamina": 81,
-        "awareness": 48,
-        "composure": 55
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/221/285/25_120.png"
     },
     {
-      "name": "B. Warland",
-      "number": 13,
-      "position": "CM",
+      "name": "Corey John Hollman -",
+      "number": 14,
+      "position": "CDM",
       "overall": 60,
       "attributes": {
-        "pace": 53,
-        "shooting": 22,
-        "passing": 45,
-        "dribbling": 38,
-        "defending": 61,
-        "physicality": 81,
-        "stamina": 69,
-        "awareness": 54,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/148/25_120.png"
+    },
+    {
+      "name": "Jaiden Kai Kucharski -",
+      "number": 15,
+      "position": "ST",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/323/25_120.png"
     }
   ]
 }

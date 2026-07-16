@@ -1,6 +1,7 @@
 {
   "name": "Iran",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "M. Taremi",
@@ -110,10 +111,11 @@
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 72,
-        "defending": 73,
-        "passing": 70,
-        "dribbling": 73,
+        "pace": 25,
+        "shooting": 10,
+        "passing": 24,
+        "dribbling": 10,
+        "defending": 14,
         "physicality": 60,
         "stamina": 21,
         "awareness": 70,
@@ -191,7 +193,7 @@
     {
       "name": "M. Pouraliganji",
       "number": 12,
-      "position": "CB",
+      "position": "CM",
       "overall": 69,
       "attributes": {
         "pace": 69,
@@ -293,7 +295,7 @@
     {
       "name": "M. Hosseini",
       "number": 18,
-      "position": "CB",
+      "position": "CM",
       "overall": 67,
       "attributes": {
         "pace": 65,

@@ -1,311 +1,402 @@
 {
   "name": "Al Ittihad",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/476/30.png",
   "players": [
     {
-      "name": "Romarinho",
+      "name": "Karim Benzema -",
       "number": 1,
-      "position": "LW",
-      "overall": 77,
+      "position": "ST",
+      "overall": 86,
       "attributes": {
-        "pace": 86,
-        "shooting": 78,
-        "passing": 74,
-        "dribbling": 80,
-        "defending": 22,
-        "physicality": 64,
-        "stamina": 83,
-        "awareness": 77,
-        "composure": 76
-      }
-    },
-    {
-      "name": "Igor Coronado",
-      "number": 2,
-      "position": "CAM",
-      "overall": 76,
-      "attributes": {
-        "pace": 78,
-        "shooting": 76,
-        "passing": 72,
-        "dribbling": 81,
-        "defending": 50,
-        "physicality": 56,
-        "stamina": 84,
-        "awareness": 70,
-        "composure": 73
-      }
-    },
-    {
-      "name": "20 S. Sanogo",
-      "number": 3,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 66,
-        "shooting": 50,
-        "passing": 75,
-        "dribbling": 73,
-        "defending": 72,
-        "physicality": 90,
-        "stamina": 85,
-        "awareness": 72,
-        "composure": 70
-      }
-    },
-    {
-      "name": "Marcelo Grohe",
-      "number": 4,
-      "position": "GK",
-      "overall": 76,
-      "attributes": {
-        "pace": 76,
-        "defending": 78,
-        "passing": 75,
-        "dribbling": 76,
-        "physicality": 65,
-        "stamina": 28,
-        "awareness": 72,
-        "composure": 69
-      }
-    },
-    {
-      "name": "Garry Rodrigues",
-      "number": 5,
-      "position": "LW",
-      "overall": 75,
-      "attributes": {
-        "pace": 84,
-        "shooting": 71,
-        "passing": 72,
-        "dribbling": 76,
-        "defending": 40,
-        "physicality": 60,
-        "stamina": 81,
-        "awareness": 70,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Hegazi",
-      "number": 6,
-      "position": "CB",
-      "overall": 75,
-      "attributes": {
-        "pace": 50,
-        "shooting": 17,
-        "passing": 67,
-        "dribbling": 53,
-        "defending": 77,
-        "physicality": 89,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 60
-      }
-    },
-    {
-      "name": "K. El Ahmadi",
-      "number": 7,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 58,
-        "shooting": 49,
-        "passing": 74,
-        "dribbling": 65,
-        "defending": 77,
-        "physicality": 76,
-        "stamina": 76,
-        "awareness": 69,
-        "composure": 79
-      }
-    },
-    {
-      "name": "21 L. Gil",
-      "number": 8,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 67,
-        "shooting": 35,
-        "passing": 78,
-        "dribbling": 74,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
         "physicality": 70,
-        "stamina": 77,
-        "awareness": 66,
-        "composure": 69
-      }
-    },
-    {
-      "name": "Bruno Henrique",
-      "number": 9,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 62,
-        "shooting": 59,
-        "passing": 74,
-        "dribbling": 67,
-        "defending": 71,
-        "physicality": 76,
         "stamina": 70,
-        "awareness": 68,
-        "composure": 71
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/165/153/25_120.png"
     },
     {
-      "name": "21 W. Bony",
-      "number": 10,
-      "position": "CM",
+      "name": "N'Golo Kanté -",
+      "number": 2,
+      "position": "CDM",
+      "overall": 85,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/215/914/25_120.png"
+    },
+    {
+      "name": "Moussa Diaby -",
+      "number": 3,
+      "position": "RW",
+      "overall": 83,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/852/25_120.png"
+    },
+    {
+      "name": "Fabinho -",
+      "number": 4,
+      "position": "CDM",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/209/499/25_120.png"
+    },
+    {
+      "name": "Danilo Pereira -",
+      "number": 5,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/200/888/25_120.png"
+    },
+    {
+      "name": "Predrag Rajković -",
+      "number": 6,
+      "position": "GK",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/727/25_120.png"
+    },
+    {
+      "name": "Steven Charles Bergwijn -",
+      "number": 7,
+      "position": "LW",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/225/953/25_120.png"
+    },
+    {
+      "name": "Houssem Aouar -",
+      "number": 8,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/234/906/25_120.png"
+    },
+    {
+      "name": "Ahmed Mohammed Sharahili -",
+      "number": 9,
+      "position": "CB",
       "overall": 73,
       "attributes": {
-        "pace": 48,
-        "shooting": 74,
-        "passing": 68,
-        "dribbling": 68,
-        "defending": 42,
-        "physicality": 90,
-        "stamina": 33,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 76
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/221/658/25_120.png"
     },
     {
-      "name": "Y. Niakaté",
+      "name": "Abdulelah Ali Awadh Al Amri -",
+      "number": 10,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/197/25_120.png"
+    },
+    {
+      "name": "Saleh Khalid Mohammed Al Shehri -",
       "number": 11,
       "position": "ST",
-      "overall": 72,
-      "attributes": {
-        "pace": 91,
-        "shooting": 75,
-        "passing": 64,
-        "dribbling": 69,
-        "defending": 20,
-        "physicality": 72,
-        "stamina": 71,
-        "awareness": 68,
-        "composure": 71
-      }
-    },
-    {
-      "name": "A. Al Malki",
-      "number": 12,
-      "position": "CM",
       "overall": 69,
       "attributes": {
-        "pace": 75,
-        "shooting": 59,
-        "passing": 71,
-        "dribbling": 68,
-        "defending": 74,
-        "physicality": 74,
-        "stamina": 84,
-        "awareness": 68,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/173/25_120.png"
     },
     {
-      "name": "S. Abdulhamid",
+      "name": "Hassan Kadesh Mahboob -",
+      "number": 12,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/210/843/25_120.png"
+    },
+    {
+      "name": "Muhannad Mustafa Al Shanqeeti -",
       "number": 13,
       "position": "RB",
-      "overall": 69,
+      "overall": 68,
       "attributes": {
-        "pace": 85,
-        "shooting": 41,
-        "passing": 64,
-        "dribbling": 67,
-        "defending": 64,
-        "physicality": 59,
-        "stamina": 85,
-        "awareness": 62,
-        "composure": 49
-      }
-    },
-    {
-      "name": "A. Prijović",
-      "number": 14,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 57,
-        "shooting": 68,
-        "passing": 64,
-        "dribbling": 64,
-        "defending": 33,
-        "physicality": 86,
-        "stamina": 60,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 72
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/156/25_120.png"
     },
     {
-      "name": "F. Al Muwallad",
+      "name": "Fawaz Khrees Al Sqoor -",
+      "number": 14,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/225/087/25_120.png"
+    },
+    {
+      "name": "Mario Mitaj -",
       "number": 15,
-      "position": "CM",
+      "position": "LB",
       "overall": 67,
       "attributes": {
-        "pace": 90,
-        "shooting": 55,
-        "passing": 62,
-        "dribbling": 68,
-        "defending": 30,
-        "physicality": 62,
-        "stamina": 63,
-        "awareness": 62,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/147/25_120.png"
     },
     {
-      "name": "Z. Al Sahafi",
+      "name": "Unai Hernández -",
       "number": 16,
-      "position": "CB",
-      "overall": 67,
-      "attributes": {
-        "pace": 48,
-        "shooting": 50,
-        "passing": 62,
-        "dribbling": 52,
-        "defending": 67,
-        "physicality": 84,
-        "stamina": 73,
-        "awareness": 65,
-        "composure": 47
-      }
-    },
-    {
-      "name": "H. Al Shamrani",
-      "number": 17,
-      "position": "CM",
+      "position": "LW",
       "overall": 65,
       "attributes": {
-        "pace": 83,
-        "shooting": 49,
-        "passing": 58,
-        "dribbling": 64,
-        "defending": 59,
-        "physicality": 73,
-        "stamina": 71,
-        "awareness": 56,
-        "composure": 58
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/278/391/25_120.png"
     },
     {
-      "name": "A. Al Hafith",
+      "name": "Abdulrahman Ali Hassan Al Aboud -",
+      "number": 17,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/043/25_120.png"
+    },
+    {
+      "name": "Abdulaziz Ali Mohammed Al Bishi -",
       "number": 18,
-      "position": "CM",
+      "position": "RW",
       "overall": 64,
       "attributes": {
-        "pace": 33,
-        "shooting": 34,
-        "passing": 60,
-        "dribbling": 35,
-        "defending": 64,
-        "physicality": 78,
-        "stamina": 77,
-        "awareness": 60,
-        "composure": 55
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/221/772/25_120.png"
+    },
+    {
+      "name": "Saad Mohammed Misfer Al Mousa Al Qahtani -",
+      "number": 19,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/263/884/25_120.png"
+    },
+    {
+      "name": "Muath Abdulaziz Ahmad Fagihy -",
+      "number": 20,
+      "position": "LB",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/830/25_120.png"
+    },
+    {
+      "name": "Abdulelah Mohammed Saeed Hawsawi -",
+      "number": 21,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/276/343/25_120.png"
+    },
+    {
+      "name": "Hamed Abdullah Ahmad Al Ghamdi -",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/963/25_120.png"
     }
   ]
 }

@@ -1,396 +1,420 @@
 {
   "name": "SL Benfica",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/605/30.png",
   "players": [
     {
-      "name": "Grimaldo",
+      "name": "Ángel Fabián Di María Hernández -",
       "number": 1,
-      "position": "LB",
-      "overall": 82,
+      "position": "RW",
+      "overall": 83,
       "attributes": {
-        "pace": 87,
-        "shooting": 52,
-        "passing": 83,
-        "dribbling": 83,
-        "defending": 76,
-        "physicality": 63,
-        "stamina": 90,
-        "awareness": 83,
-        "composure": 83
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/183/898/25_120.png"
     },
     {
-      "name": "19 Jonas",
+      "name": "Orkun Kökçü -",
       "number": 2,
       "position": "CM",
-      "overall": 82,
-      "attributes": {
-        "pace": 62,
-        "shooting": 87,
-        "passing": 75,
-        "dribbling": 82,
-        "defending": 36,
-        "physicality": 62,
-        "stamina": 66,
-        "awareness": 84,
-        "composure": 87
-      }
-    },
-    {
-      "name": "Rafa",
-      "number": 3,
-      "position": "RW",
-      "overall": 82,
-      "attributes": {
-        "pace": 94,
-        "shooting": 74,
-        "passing": 77,
-        "dribbling": 86,
-        "defending": 47,
-        "physicality": 40,
-        "stamina": 77,
-        "awareness": 83,
-        "composure": 81
-      }
-    },
-    {
-      "name": "Pizzi",
-      "number": 4,
-      "position": "CM",
       "overall": 81,
       "attributes": {
-        "pace": 73,
-        "shooting": 77,
-        "passing": 82,
-        "dribbling": 82,
-        "defending": 67,
-        "physicality": 59,
-        "stamina": 78,
-        "awareness": 83,
-        "composure": 84
-      }
-    },
-    {
-      "name": "J. Vertonghen",
-      "number": 5,
-      "position": "CB",
-      "overall": 81,
-      "attributes": {
-        "pace": 78,
-        "shooting": 54,
-        "passing": 76,
-        "dribbling": 64,
-        "defending": 84,
-        "physicality": 80,
-        "stamina": 72,
-        "awareness": 81,
-        "composure": 81
-      }
-    },
-    {
-      "name": "N. Otamendi",
-      "number": 6,
-      "position": "CB",
-      "overall": 81,
-      "attributes": {
-        "pace": 65,
-        "shooting": 54,
-        "passing": 73,
-        "dribbling": 51,
-        "defending": 83,
-        "physicality": 80,
-        "stamina": 75,
-        "awareness": 79,
-        "composure": 79
-      }
-    },
-    {
-      "name": "O. Vlachodimos",
-      "number": 7,
-      "position": "GK",
-      "overall": 81,
-      "attributes": {
-        "pace": 84,
-        "defending": 84,
-        "passing": 78,
-        "dribbling": 78,
-        "physicality": 68,
-        "stamina": 39,
-        "awareness": 82,
-        "composure": 56
-      }
-    },
-    {
-      "name": "João Mário",
-      "number": 8,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 68,
-        "shooting": 64,
-        "passing": 84,
-        "dribbling": 84,
-        "defending": 73,
-        "physicality": 65,
-        "stamina": 80,
-        "awareness": 75,
-        "composure": 86
-      }
-    },
-    {
-      "name": "Everton",
-      "number": 9,
-      "position": "LW",
-      "overall": 80,
-      "attributes": {
-        "pace": 86,
-        "shooting": 75,
-        "passing": 75,
-        "dribbling": 86,
-        "defending": 33,
-        "physicality": 60,
-        "stamina": 80,
-        "awareness": 79,
-        "composure": 79
-      }
-    },
-    {
-      "name": "18 Júlio César",
-      "number": 10,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 43,
-        "shooting": 12,
-        "passing": 23,
-        "dribbling": 27,
-        "defending": 10,
-        "physicality": 72,
-        "stamina": 35,
-        "awareness": 75,
-        "composure": 68
-      }
-    },
-    {
-      "name": "J. Weigl",
-      "number": 11,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 52,
-        "shooting": 65,
-        "passing": 84,
-        "dribbling": 76,
-        "defending": 82,
-        "physicality": 68,
-        "stamina": 85,
-        "awareness": 82,
-        "composure": 83
-      }
-    },
-    {
-      "name": "Lucas Veríssimo",
-      "number": 12,
-      "position": "CB",
-      "overall": 79,
-      "attributes": {
-        "pace": 82,
-        "shooting": 30,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 56,
-        "defending": 78,
-        "physicality": 79,
-        "stamina": 73,
-        "awareness": 78,
-        "composure": 71
-      }
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/245/25_120.png"
     },
     {
-      "name": "H. Seferović",
-      "number": 13,
+      "name": "Nicolás Hernán Gonzalo Otamendi -",
+      "number": 3,
+      "position": "CB",
+      "overall": 81,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/192/366/25_120.png"
+    },
+    {
+      "name": "Florentino -",
+      "number": 4,
+      "position": "CDM",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/234/569/25_120.png"
+    },
+    {
+      "name": "Fredrik Aursnes -",
+      "number": 5,
       "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/231/913/25_120.png"
+    },
+    {
+      "name": "Vangelis Pavlidis -",
+      "number": 6,
+      "position": "ST",
+      "overall": 80,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/188/25_120.png"
+    },
+    {
+      "name": "Muhammed Kerem Aktürkoğlu -",
+      "number": 7,
+      "position": "LW",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/580/25_120.png"
+    },
+    {
+      "name": "Anatolii Trubin -",
+      "number": 8,
+      "position": "GK",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/250/753/25_120.png"
+    },
+    {
+      "name": "Alexander Hartmann Bah -",
+      "number": 9,
+      "position": "RB",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/235/25_120.png"
+    },
+    {
+      "name": "Bruma -",
+      "number": 10,
+      "position": "LW",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/368/25_120.png"
+    },
+    {
+      "name": "António Silva -",
+      "number": 11,
+      "position": "CB",
       "overall": 78,
       "attributes": {
-        "pace": 75,
-        "shooting": 79,
-        "passing": 69,
-        "dribbling": 72,
-        "defending": 46,
-        "physicality": 87,
-        "stamina": 83,
-        "awareness": 75,
-        "composure": 77
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/270/086/25_120.png"
     },
     {
-      "name": "Helton Leite",
+      "name": "Álvaro Carreras -",
+      "number": 12,
+      "position": "LB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/268/889/25_120.png"
+    },
+    {
+      "name": "Tomás Araújo -",
+      "number": 13,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/096/25_120.png"
+    },
+    {
+      "name": "Leandro Barreiro Martins -",
       "number": 14,
       "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 51,
-        "shooting": 10,
-        "passing": 27,
-        "dribbling": 10,
-        "defending": 9,
-        "physicality": 79,
-        "stamina": 42,
-        "awareness": 80,
-        "composure": 41
-      }
-    },
-    {
-      "name": "Gedson Fernandes",
-      "number": 15,
-      "position": "CM",
       "overall": 77,
       "attributes": {
-        "pace": 79,
-        "shooting": 64,
-        "passing": 79,
-        "dribbling": 82,
-        "defending": 73,
-        "physicality": 71,
-        "stamina": 80,
-        "awareness": 79,
-        "composure": 75
-      }
-    },
-    {
-      "name": "V. Lazaro",
-      "number": 16,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 74,
-        "shooting": 68,
-        "passing": 76,
-        "dribbling": 80,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 66,
-        "stamina": 68,
-        "awareness": 75,
-        "composure": 76
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/253/25_120.png"
     },
     {
-      "name": "A. Taarabt",
-      "number": 17,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 67,
-        "shooting": 65,
-        "passing": 78,
-        "dribbling": 86,
-        "defending": 69,
-        "physicality": 71,
-        "stamina": 78,
-        "awareness": 80,
-        "composure": 83
-      }
-    },
-    {
-      "name": "André Almeida",
-      "number": 18,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 68,
-        "shooting": 58,
-        "passing": 80,
-        "dribbling": 74,
-        "defending": 81,
-        "physicality": 78,
-        "stamina": 65,
-        "awareness": 73,
-        "composure": 77
-      }
-    },
-    {
-      "name": "R. Yaremchuk",
-      "number": 19,
+      "name": "Andrea Belotti -",
+      "number": 15,
       "position": "ST",
       "overall": 77,
       "attributes": {
-        "pace": 83,
-        "shooting": 78,
-        "passing": 75,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 48,
-        "physicality": 76,
-        "stamina": 77,
-        "awareness": 76,
-        "composure": 67
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/208/596/25_120.png"
     },
     {
-      "name": "19 Luisão",
+      "name": "Arthur Cabral -",
+      "number": 16,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/186/25_120.png"
+    },
+    {
+      "name": "Renato Sanches -",
+      "number": 17,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/230/767/25_120.png"
+    },
+    {
+      "name": "Mohamed Zeki Amdouni -",
+      "number": 18,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/642/25_120.png"
+    },
+    {
+      "name": "Tiago Gouveia -",
+      "number": 19,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/268/868/25_120.png"
+    },
+    {
+      "name": "Andreas Rædergård Schjelderup -",
       "number": 20,
-      "position": "CM",
-      "overall": 77,
+      "position": "LW",
+      "overall": 73,
       "attributes": {
-        "pace": 29,
-        "shooting": 45,
-        "passing": 65,
-        "dribbling": 50,
-        "defending": 80,
-        "physicality": 93,
-        "stamina": 37,
-        "awareness": 67,
-        "composure": 81
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/952/25_120.png"
     },
     {
-      "name": "18 Eliseu",
+      "name": "Manu Silva -",
       "number": 21,
-      "position": "CM",
-      "overall": 76,
+      "position": "CDM",
+      "overall": 72,
       "attributes": {
-        "pace": 76,
-        "shooting": 59,
-        "passing": 72,
-        "dribbling": 73,
-        "defending": 76,
-        "physicality": 77,
-        "stamina": 75,
-        "awareness": 73,
-        "composure": 75
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/274/105/25_120.png"
     },
     {
-      "name": "Gabriel",
+      "name": "Samuel Elias Dahl -",
       "number": 22,
-      "position": "CM",
-      "overall": 76,
+      "position": "LB",
+      "overall": 71,
       "attributes": {
-        "pace": 55,
-        "shooting": 67,
-        "passing": 75,
-        "dribbling": 79,
-        "defending": 74,
-        "physicality": 81,
-        "stamina": 77,
-        "awareness": 75,
-        "composure": 81
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/277/252/25_120.png"
     },
     {
-      "name": "Diogo Gonçalves",
+      "name": "Gianluca Prestianni Gross -",
       "number": 23,
-      "position": "RB",
-      "overall": 76,
+      "position": "RW",
+      "overall": 70,
       "attributes": {
-        "pace": 86,
-        "shooting": 69,
-        "passing": 69,
-        "dribbling": 79,
-        "defending": 69,
-        "physicality": 66,
-        "stamina": 78,
-        "awareness": 76,
-        "composure": 75
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/292/25_120.png"
     }
   ]
 }

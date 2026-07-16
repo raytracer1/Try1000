@@ -1,396 +1,419 @@
 {
   "name": "Club Nacional de Football",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/828/30.png",
   "players": [
     {
-      "name": "S. Rochet",
+      "name": "Sebastián Coates Nión -",
       "number": 1,
-      "position": "GK",
-      "overall": 76,
-      "attributes": {
-        "pace": 76,
-        "defending": 77,
-        "passing": 78,
-        "dribbling": 76,
-        "physicality": 67,
-        "stamina": 39,
-        "awareness": 66,
-        "composure": 37
-      }
-    },
-    {
-      "name": "21 G. Castro",
-      "number": 2,
-      "position": "LW",
-      "overall": 75,
+      "position": "CB",
+      "overall": 80,
       "attributes": {
         "pace": 70,
-        "shooting": 71,
-        "passing": 78,
-        "dribbling": 80,
-        "defending": 42,
-        "physicality": 72,
-        "stamina": 44,
-        "awareness": 75,
-        "composure": 81
-      }
-    },
-    {
-      "name": "G. Bergessio",
-      "number": 3,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 41,
-        "shooting": 83,
-        "passing": 64,
-        "dribbling": 62,
-        "defending": 29,
-        "physicality": 88,
-        "stamina": 40,
-        "awareness": 77,
-        "composure": 77
-      }
-    },
-    {
-      "name": "B. Ocampo",
-      "number": 4,
-      "position": "RW",
-      "overall": 74,
-      "attributes": {
-        "pace": 82,
-        "shooting": 64,
-        "passing": 69,
-        "dribbling": 83,
-        "defending": 43,
-        "physicality": 59,
-        "stamina": 69,
-        "awareness": 61,
-        "composure": 70
-      }
-    },
-    {
-      "name": "A. D'Alessandro",
-      "number": 5,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 39,
-        "shooting": 69,
-        "passing": 80,
-        "dribbling": 75,
-        "defending": 29,
-        "physicality": 46,
-        "stamina": 30,
-        "awareness": 73,
-        "composure": 78
-      }
-    },
-    {
-      "name": "L. Fernández",
-      "number": 6,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 79,
-        "shooting": 73,
-        "passing": 67,
-        "dribbling": 73,
-        "defending": 42,
-        "physicality": 71,
-        "stamina": 75,
-        "awareness": 80,
-        "composure": 80
-      }
-    },
-    {
-      "name": "G. Neves",
-      "number": 7,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 63,
-        "shooting": 59,
-        "passing": 77,
-        "dribbling": 68,
-        "defending": 67,
-        "physicality": 51,
-        "stamina": 74,
-        "awareness": 69,
-        "composure": 69
-      }
-    },
-    {
-      "name": "F. Carballo",
-      "number": 8,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 72,
-        "shooting": 58,
-        "passing": 77,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 70,
         "defending": 70,
-        "physicality": 67,
-        "stamina": 80,
-        "awareness": 74,
-        "composure": 65
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/197/655/25_120.png"
     },
     {
-      "name": "G. Corujo",
-      "number": 9,
-      "position": "CB",
+      "name": "Eduardo Jesús Vargas Rojas -",
+      "number": 2,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/206/655/25_120.png"
+    },
+    {
+      "name": "Luciano Boggio Albín -",
+      "number": 3,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/265/766/25_120.png"
+    },
+    {
+      "name": "Christian Gabriel Oliva Giménez -",
+      "number": 4,
+      "position": "CDM",
       "overall": 72,
       "attributes": {
-        "pace": 71,
-        "shooting": 30,
-        "passing": 57,
-        "dribbling": 42,
-        "defending": 73,
-        "physicality": 78,
-        "stamina": 63,
-        "awareness": 61,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/247/076/25_120.png"
     },
     {
-      "name": "C. Cándido",
-      "number": 10,
-      "position": "LB",
+      "name": "Luis Ricardo Mejía Cajar -",
+      "number": 5,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/202/089/25_120.png"
+    },
+    {
+      "name": "Mauricio Ernesto Pereyra Antonini -",
+      "number": 6,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/204/691/25_120.png"
+    },
+    {
+      "name": "Rómulo Otero Vásquez -",
+      "number": 7,
+      "position": "CAM",
       "overall": 71,
       "attributes": {
-        "pace": 85,
-        "shooting": 60,
-        "passing": 72,
-        "dribbling": 68,
-        "defending": 69,
-        "physicality": 43,
-        "stamina": 68,
-        "awareness": 52,
-        "composure": 53
-      }
-    },
-    {
-      "name": "E. Martínez",
-      "number": 11,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 77,
-        "shooting": 55,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 64,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 58,
-        "stamina": 68,
-        "awareness": 68,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/217/097/25_120.png"
     },
     {
-      "name": "A. Méndez",
-      "number": 12,
-      "position": "RB",
+      "name": "Julián Camilo Millán Díaz -",
+      "number": 8,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/233/822/25_120.png"
+    },
+    {
+      "name": "Gonzalo Rodrigo Carneiro Méndez -",
+      "number": 9,
+      "position": "ST",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/648/25_120.png"
+    },
+    {
+      "name": "Diego Fernando Herazo Moreno -",
+      "number": 10,
+      "position": "ST",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/842/25_120.png"
+    },
+    {
+      "name": "Gabriel Alejandro Báez Corradi -",
+      "number": 11,
+      "position": "LB",
       "overall": 70,
       "attributes": {
-        "pace": 78,
-        "shooting": 41,
-        "passing": 63,
-        "dribbling": 60,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 95,
-        "stamina": 81,
-        "awareness": 66,
-        "composure": 57
-      }
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/015/25_120.png"
     },
     {
-      "name": "F. Píriz",
+      "name": "Jeremía Alexandre Recoba Perrone -",
+      "number": 12,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/070/334/25_120.png"
+    },
+    {
+      "name": "Nicolás Alejandro Rodríguez Charquero -",
       "number": 13,
-      "position": "CM",
+      "position": "RB",
       "overall": 69,
       "attributes": {
-        "pace": 52,
-        "shooting": 33,
-        "passing": 65,
-        "dribbling": 52,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
         "defending": 70,
-        "physicality": 80,
-        "stamina": 71,
-        "awareness": 68,
-        "composure": 67
-      }
-    },
-    {
-      "name": "M. Laborda",
-      "number": 14,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 69,
-        "shooting": 42,
-        "passing": 61,
-        "dribbling": 54,
-        "defending": 67,
-        "physicality": 66,
-        "stamina": 67,
-        "awareness": 63,
-        "composure": 52
-      }
-    },
-    {
-      "name": "A. Gabrielli",
-      "number": 15,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 67,
-        "shooting": 39,
-        "passing": 59,
-        "dribbling": 63,
-        "defending": 69,
-        "physicality": 62,
-        "stamina": 72,
-        "awareness": 63,
-        "composure": 64
-      }
-    },
-    {
-      "name": "C. Almeida",
-      "number": 16,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 51,
-        "shooting": 33,
-        "passing": 62,
-        "dribbling": 62,
-        "defending": 73,
-        "physicality": 46,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 65,
-        "composure": 62
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/628/25_120.png"
     },
     {
-      "name": "J. Trasante",
+      "name": "Yonathan Alexis Rodríguez Benítez -",
+      "number": 14,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/689/25_120.png"
+    },
+    {
+      "name": "Lucas Nahuel Morales Burruzo -",
+      "number": 15,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/267/597/25_120.png"
+    },
+    {
+      "name": "Lucas Martín Villalba Jaume -",
+      "number": 16,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/076/627/25_120.png"
+    },
+    {
+      "name": "Emiliano Ancheta Da Rosa -",
       "number": 17,
-      "position": "CM",
-      "overall": 66,
+      "position": "RB",
+      "overall": 68,
       "attributes": {
-        "pace": 58,
-        "shooting": 52,
-        "passing": 64,
-        "dribbling": 63,
-        "defending": 71,
-        "physicality": 66,
-        "stamina": 87,
-        "awareness": 81,
-        "composure": 59
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/261/989/25_120.png"
     },
     {
-      "name": "A. Trezza",
+      "name": "Diego Romero Lanz -",
       "number": 18,
-      "position": "LW",
+      "position": "LB",
       "overall": 66,
       "attributes": {
-        "pace": 87,
-        "shooting": 52,
-        "passing": 60,
-        "dribbling": 56,
-        "defending": 55,
-        "physicality": 54,
-        "stamina": 88,
-        "awareness": 72,
-        "composure": 48
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/272/421/25_120.png"
     },
     {
-      "name": "T. Vecino",
+      "name": "Ignacio Nahuel Suárez Ferreira -",
       "number": 19,
-      "position": "CM",
-      "overall": 65,
+      "position": "GK",
+      "overall": 66,
       "attributes": {
-        "pace": 66,
-        "shooting": 69,
-        "passing": 62,
-        "dribbling": 58,
-        "defending": 23,
-        "physicality": 55,
-        "stamina": 64,
-        "awareness": 61,
-        "composure": 62
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/258/209/25_120.png"
     },
     {
-      "name": "R. Orihuela",
+      "name": "Franco Catarozzi Parafita -",
       "number": 20,
       "position": "CM",
       "overall": 65,
       "attributes": {
-        "pace": 75,
-        "shooting": 31,
-        "passing": 57,
-        "dribbling": 57,
-        "defending": 71,
-        "physicality": 52,
-        "stamina": 59,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 59
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/261/637/25_120.png"
     },
     {
-      "name": "N. Marichal",
+      "name": "Gonzalo Ezequiel Petit Abad -",
       "number": 21,
-      "position": "CB",
+      "position": "ST",
       "overall": 65,
       "attributes": {
-        "pace": 64,
-        "shooting": 25,
-        "passing": 54,
-        "dribbling": 46,
-        "defending": 73,
-        "physicality": 56,
-        "stamina": 60,
-        "awareness": 64,
-        "composure": 52
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/070/333/25_120.png"
     },
     {
-      "name": "M. Rodríguez",
+      "name": "Bruno Gustavo Arady Mata -",
       "number": 22,
-      "position": "CM",
-      "overall": 65,
+      "position": "LW",
+      "overall": 64,
       "attributes": {
-        "pace": 26,
-        "shooting": 5,
-        "passing": 24,
-        "dribbling": 7,
-        "defending": 12,
-        "physicality": 56,
-        "stamina": 18,
-        "awareness": 51,
-        "composure": 24
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/077/418/25_120.png"
     },
     {
-      "name": "G. May",
+      "name": "Jairo Sebastián Amaro Mello -",
       "number": 23,
-      "position": "CM",
+      "position": "CDM",
       "overall": 63,
       "attributes": {
-        "pace": 74,
-        "shooting": 66,
-        "passing": 63,
-        "dribbling": 65,
-        "defending": 11,
-        "physicality": 54,
-        "stamina": 63,
-        "awareness": 63,
-        "composure": 43
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/075/286/25_120.png"
     }
   ]
 }

@@ -1,294 +1,348 @@
 {
   "name": "St. Mirren",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/496/30.png",
   "players": [
     {
-      "name": "J. Alnwick",
+      "name": "Mark O'Hara -",
       "number": 1,
-      "position": "GK",
+      "position": "CM",
       "overall": 68,
       "attributes": {
-        "pace": 69,
-        "defending": 67,
-        "passing": 67,
-        "dribbling": 67,
-        "physicality": 60,
-        "stamina": 41,
-        "awareness": 62,
-        "composure": 47
-      }
-    },
-    {
-      "name": "J. McGrath",
-      "number": 2,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 73,
-        "shooting": 63,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 69,
-        "defending": 60,
-        "physicality": 65,
-        "stamina": 85,
-        "awareness": 64,
-        "composure": 66
-      }
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/536/25_120.png"
     },
     {
-      "name": "M. Millar",
+      "name": "Scott Tanser -",
+      "number": 2,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/214/641/25_120.png"
+    },
+    {
+      "name": "Killian Phillips -",
       "number": 3,
       "position": "CM",
-      "overall": 67,
+      "overall": 66,
       "attributes": {
-        "pace": 84,
-        "shooting": 61,
-        "passing": 61,
-        "dribbling": 65,
-        "defending": 56,
-        "physicality": 73,
-        "stamina": 91,
-        "awareness": 58,
-        "composure": 59
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/261/300/25_120.png"
     },
     {
-      "name": "E. Erhahon",
+      "name": "Caolan Stephen Boyd-Munce -",
       "number": 4,
-      "position": "CM",
-      "overall": 66,
+      "position": "CDM",
+      "overall": 65,
       "attributes": {
-        "pace": 73,
-        "shooting": 56,
-        "passing": 67,
-        "dribbling": 63,
-        "defending": 65,
-        "physicality": 57,
-        "stamina": 81,
-        "awareness": 64,
-        "composure": 63
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/001/25_120.png"
     },
     {
-      "name": "R. Tait",
+      "name": "Marcus Fraser -",
       "number": 5,
-      "position": "CM",
-      "overall": 66,
+      "position": "CB",
+      "overall": 65,
       "attributes": {
-        "pace": 67,
-        "shooting": 30,
-        "passing": 63,
-        "dribbling": 62,
-        "defending": 62,
-        "physicality": 73,
-        "stamina": 87,
-        "awareness": 61,
-        "composure": 61
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/096/25_120.png"
     },
     {
-      "name": "E. Brophy",
+      "name": "Richard Akinfolarin Taylor -",
       "number": 6,
-      "position": "CM",
+      "position": "CB",
       "overall": 65,
       "attributes": {
-        "pace": 76,
-        "shooting": 64,
-        "passing": 60,
-        "dribbling": 64,
-        "defending": 27,
-        "physicality": 72,
-        "stamina": 74,
-        "awareness": 60,
-        "composure": 61
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/878/25_120.png"
     },
     {
-      "name": "C. Ronan",
+      "name": "Jonah Ananias Paul Ayunga -",
       "number": 7,
-      "position": "CM",
-      "overall": 65,
+      "position": "ST",
+      "overall": 64,
       "attributes": {
-        "pace": 69,
-        "shooting": 54,
-        "passing": 68,
-        "dribbling": 67,
-        "defending": 56,
-        "physicality": 34,
-        "stamina": 77,
-        "awareness": 53,
-        "composure": 65
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/233/665/25_120.png"
     },
     {
-      "name": "M. Fraser",
+      "name": "Greg Kiltie -",
       "number": 8,
-      "position": "CB",
-      "overall": 65,
+      "position": "LW",
+      "overall": 64,
       "attributes": {
-        "pace": 72,
-        "shooting": 35,
-        "passing": 57,
-        "dribbling": 56,
-        "defending": 65,
-        "physicality": 77,
-        "stamina": 90,
-        "awareness": 61,
-        "composure": 62
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/220/872/25_120.png"
     },
     {
-      "name": "G. Kiltie",
+      "name": "Alexander Gogić -",
       "number": 9,
-      "position": "CM",
-      "overall": 65,
+      "position": "CB",
+      "overall": 64,
       "attributes": {
-        "pace": 66,
-        "shooting": 58,
-        "passing": 65,
-        "dribbling": 67,
-        "defending": 48,
-        "physicality": 65,
-        "stamina": 67,
-        "awareness": 61,
-        "composure": 60
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/216/526/25_120.png"
     },
     {
-      "name": "21 C. Quaner",
+      "name": "Zachary Hemming -",
       "number": 10,
-      "position": "CM",
-      "overall": 65,
+      "position": "GK",
+      "overall": 64,
       "attributes": {
-        "pace": 73,
-        "shooting": 63,
-        "passing": 62,
-        "dribbling": 65,
-        "defending": 27,
-        "physicality": 79,
-        "stamina": 66,
-        "awareness": 63,
-        "composure": 59
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/240/597/25_120.png"
     },
     {
-      "name": "J. Shaughnessy",
+      "name": "Elvis Okello Bwomono -",
       "number": 11,
-      "position": "CB",
-      "overall": 65,
+      "position": "RB",
+      "overall": 64,
       "attributes": {
-        "pace": 65,
-        "shooting": 23,
-        "passing": 56,
-        "dribbling": 53,
-        "defending": 67,
-        "physicality": 74,
-        "stamina": 76,
-        "awareness": 58,
-        "composure": 58
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/240/616/25_120.png"
     },
     {
-      "name": "K. McAllister",
+      "name": "Mikaël Yann Mathieu Mandron -",
       "number": 12,
-      "position": "CM",
+      "position": "ST",
       "overall": 64,
       "attributes": {
-        "pace": 83,
-        "shooting": 58,
-        "passing": 59,
-        "dribbling": 66,
-        "defending": 26,
-        "physicality": 60,
-        "stamina": 61,
-        "awareness": 56,
-        "composure": 56
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/204/785/25_120.png"
     },
     {
-      "name": "C. Main",
+      "name": "Alexander Iacovitti -",
       "number": 13,
-      "position": "CM",
-      "overall": 64,
-      "attributes": {
-        "pace": 73,
-        "shooting": 62,
-        "passing": 54,
-        "dribbling": 56,
-        "defending": 26,
-        "physicality": 87,
-        "stamina": 77,
-        "awareness": 58,
-        "composure": 65
-      }
-    },
-    {
-      "name": "C. McCarthy",
-      "number": 14,
       "position": "CB",
-      "overall": 64,
+      "overall": 63,
       "attributes": {
-        "pace": 54,
-        "shooting": 21,
-        "passing": 55,
-        "dribbling": 50,
-        "defending": 68,
-        "physicality": 74,
-        "stamina": 88,
-        "awareness": 58,
-        "composure": 55
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/230/919/25_120.png"
     },
     {
-      "name": "C. Dunne",
+      "name": "Ryan Fiyinfoluwa Alebiosu -",
+      "number": 14,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/260/142/25_120.png"
+    },
+    {
+      "name": "Conor McMenamin -",
       "number": 15,
-      "position": "CM",
+      "position": "RW",
       "overall": 63,
       "attributes": {
-        "pace": 78,
-        "shooting": 25,
-        "passing": 55,
-        "dribbling": 53,
-        "defending": 62,
-        "physicality": 85,
-        "stamina": 34,
-        "awareness": 58,
-        "composure": 46
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/277/551/25_120.png"
     },
     {
-      "name": "19 A. Ferdinand",
+      "name": "Oisin Smyth -",
       "number": 16,
-      "position": "CM",
+      "position": "CAM",
       "overall": 63,
       "attributes": {
-        "pace": 34,
-        "shooting": 35,
-        "passing": 55,
-        "dribbling": 45,
-        "defending": 62,
-        "physicality": 72,
-        "stamina": 55,
-        "awareness": 58,
-        "composure": 63
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/267/472/25_120.png"
     },
     {
-      "name": "L. Erwin",
+      "name": "Declan Christopher John -",
       "number": 17,
+      "position": "LB",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/211/204/25_120.png"
+    },
+    {
+      "name": "Dennis Emmanuel Abiodun Bamidele Chijioke Adeniran -",
+      "number": 18,
       "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/637/25_120.png"
+    },
+    {
+      "name": "James Ryan Scott -",
+      "number": 19,
+      "position": "ST",
       "overall": 61,
       "attributes": {
-        "pace": 67,
-        "shooting": 60,
-        "passing": 56,
-        "dribbling": 61,
-        "defending": 15,
-        "physicality": 72,
-        "stamina": 69,
-        "awareness": 56,
-        "composure": 60
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/553/25_120.png"
     }
   ]
 }

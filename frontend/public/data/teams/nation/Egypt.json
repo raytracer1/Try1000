@@ -1,6 +1,7 @@
 {
   "name": "Egypt",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "M. Salah",
@@ -56,7 +57,7 @@
     {
       "name": "A. Hegazi",
       "number": 4,
-      "position": "CB",
+      "position": "CM",
       "overall": 75,
       "attributes": {
         "pace": 50,
@@ -107,7 +108,7 @@
     {
       "name": "21 M. Hamdy",
       "number": 7,
-      "position": "CB",
+      "position": "CM",
       "overall": 73,
       "attributes": {
         "pace": 74,
@@ -144,10 +145,11 @@
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 73,
-        "defending": 73,
-        "passing": 71,
-        "dribbling": 69,
+        "pace": 44,
+        "shooting": 18,
+        "passing": 39,
+        "dribbling": 13,
+        "defending": 21,
         "physicality": 83,
         "stamina": 36,
         "awareness": 73,

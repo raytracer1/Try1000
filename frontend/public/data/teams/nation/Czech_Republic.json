@@ -1,6 +1,7 @@
 {
   "name": "Czech Republic",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "T. Souček",
@@ -25,10 +26,11 @@
       "position": "GK",
       "overall": 81,
       "attributes": {
-        "pace": 83,
-        "defending": 84,
-        "passing": 77,
-        "dribbling": 80,
+        "pace": 37,
+        "shooting": 14,
+        "passing": 28,
+        "dribbling": 14,
+        "defending": 18,
         "physicality": 73,
         "stamina": 38,
         "awareness": 78,
@@ -160,10 +162,11 @@
       "position": "GK",
       "overall": 78,
       "attributes": {
-        "pace": 77,
-        "defending": 77,
-        "passing": 80,
-        "dribbling": 78,
+        "pace": 59,
+        "shooting": 7,
+        "passing": 40,
+        "dribbling": 30,
+        "defending": 12,
         "physicality": 60,
         "stamina": 25,
         "awareness": 73,
@@ -207,7 +210,7 @@
     {
       "name": "T. Holeš",
       "number": 13,
-      "position": "CB",
+      "position": "CM",
       "overall": 77,
       "attributes": {
         "pace": 78,

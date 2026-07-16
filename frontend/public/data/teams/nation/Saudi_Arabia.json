@@ -1,6 +1,7 @@
 {
   "name": "Saudi Arabia",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "S. Al Dawsari",
@@ -107,7 +108,7 @@
     {
       "name": "A. Al Amri",
       "number": 7,
-      "position": "CB",
+      "position": "CM",
       "overall": 71,
       "attributes": {
         "pace": 76,
@@ -161,10 +162,11 @@
       "position": "GK",
       "overall": 70,
       "attributes": {
-        "pace": 74,
-        "defending": 74,
-        "passing": 64,
-        "dribbling": 68,
+        "pace": 49,
+        "shooting": 20,
+        "passing": 27,
+        "dribbling": 14,
+        "defending": 20,
         "physicality": 62,
         "stamina": 35,
         "awareness": 67,
@@ -242,7 +244,7 @@
     {
       "name": "A. Sharahili",
       "number": 15,
-      "position": "CB",
+      "position": "CM",
       "overall": 68,
       "attributes": {
         "pace": 75,
@@ -262,10 +264,11 @@
       "position": "GK",
       "overall": 68,
       "attributes": {
-        "pace": 57,
-        "defending": 72,
-        "passing": 72,
-        "dribbling": 67,
+        "pace": 33,
+        "shooting": 16,
+        "passing": 32,
+        "dribbling": 19,
+        "defending": 18,
         "physicality": 73,
         "stamina": 35,
         "awareness": 64,
@@ -343,7 +346,7 @@
     {
       "name": "Z. Al Sahafi",
       "number": 21,
-      "position": "CB",
+      "position": "CM",
       "overall": 67,
       "attributes": {
         "pace": 48,
@@ -360,7 +363,7 @@
     {
       "name": "M. Hawsawi",
       "number": 22,
-      "position": "CB",
+      "position": "CM",
       "overall": 67,
       "attributes": {
         "pace": 59,
@@ -377,7 +380,7 @@
     {
       "name": "A. Al Bulayhi",
       "number": 23,
-      "position": "CB",
+      "position": "CM",
       "overall": 67,
       "attributes": {
         "pace": 63,

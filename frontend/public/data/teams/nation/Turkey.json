@@ -1,6 +1,7 @@
 {
   "name": "Turkey",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "H. Çalhanoğlu",
@@ -39,7 +40,7 @@
     {
       "name": "C. Söyüncü",
       "number": 3,
-      "position": "CB",
+      "position": "CM",
       "overall": 80,
       "attributes": {
         "pace": 81,
@@ -76,10 +77,11 @@
       "position": "GK",
       "overall": 79,
       "attributes": {
-        "pace": 80,
-        "defending": 81,
-        "passing": 75,
-        "dribbling": 78,
+        "pace": 56,
+        "shooting": 13,
+        "passing": 32,
+        "dribbling": 14,
+        "defending": 18,
         "physicality": 67,
         "stamina": 40,
         "awareness": 75,
@@ -140,7 +142,7 @@
     {
       "name": "O. Toprak",
       "number": 9,
-      "position": "CB",
+      "position": "CM",
       "overall": 77,
       "attributes": {
         "pace": 77,
@@ -177,10 +179,11 @@
       "position": "GK",
       "overall": 77,
       "attributes": {
-        "pace": 79,
-        "defending": 81,
-        "passing": 73,
-        "dribbling": 77,
+        "pace": 23,
+        "shooting": 10,
+        "passing": 30,
+        "dribbling": 10,
+        "defending": 13,
         "physicality": 64,
         "stamina": 31,
         "awareness": 66,

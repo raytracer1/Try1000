@@ -1,6 +1,7 @@
 {
   "name": "Bolivia",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "21 M. Martins",
@@ -224,8 +225,25 @@
       }
     },
     {
-      "name": "M. Villarroel",
+      "name": "15 J. Chávez",
       "number": 14,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 69,
+        "shooting": 53,
+        "passing": 71,
+        "dribbling": 57,
+        "defending": 56,
+        "physicality": 63,
+        "stamina": 86,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Villarroel",
+      "number": 15,
       "position": "CM",
       "overall": 66,
       "attributes": {
@@ -242,7 +260,7 @@
     },
     {
       "name": "J. Quinteros",
-      "number": 15,
+      "number": 16,
       "position": "CB",
       "overall": 66,
       "attributes": {
@@ -259,7 +277,7 @@
     },
     {
       "name": "S. Galindo",
-      "number": 16,
+      "number": 17,
       "position": "CAM",
       "overall": 65,
       "attributes": {
@@ -276,7 +294,7 @@
     },
     {
       "name": "L. Demiquel",
-      "number": 17,
+      "number": 18,
       "position": "CM",
       "overall": 65,
       "attributes": {
@@ -293,7 +311,7 @@
     },
     {
       "name": "R. Vargas",
-      "number": 18,
+      "number": 19,
       "position": "CM",
       "overall": 65,
       "attributes": {
@@ -310,7 +328,7 @@
     },
     {
       "name": "R. Castro",
-      "number": 19,
+      "number": 20,
       "position": "CM",
       "overall": 65,
       "attributes": {
@@ -327,7 +345,7 @@
     },
     {
       "name": "K. Salvatierra",
-      "number": 20,
+      "number": 21,
       "position": "CM",
       "overall": 65,
       "attributes": {
@@ -344,7 +362,7 @@
     },
     {
       "name": "G. Álvarez",
-      "number": 21,
+      "number": 22,
       "position": "CM",
       "overall": 65,
       "attributes": {
@@ -361,8 +379,8 @@
     },
     {
       "name": "L. Gutiérrez",
-      "number": 22,
-      "position": "CB",
+      "number": 23,
+      "position": "CM",
       "overall": 65,
       "attributes": {
         "pace": 52,
@@ -374,23 +392,6 @@
         "stamina": 58,
         "awareness": 66,
         "composure": 60
-      }
-    },
-    {
-      "name": "21 G. Valverde",
-      "number": 23,
-      "position": "CB",
-      "overall": 65,
-      "attributes": {
-        "pace": 59,
-        "shooting": 25,
-        "passing": 59,
-        "dribbling": 57,
-        "defending": 65,
-        "physicality": 66,
-        "stamina": 85,
-        "awareness": 59,
-        "composure": 48
       }
     }
   ]

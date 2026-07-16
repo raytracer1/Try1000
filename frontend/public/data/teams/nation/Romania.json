@@ -1,395 +1,418 @@
 {
   "name": "Romania",
   "type": "nation",
+  "logo": "https://cdn.sofifa.net/meta/team/18638/30.png",
   "players": [
     {
-      "name": "N. Stanciu",
+      "name": "Andrei Florin Rațiu -",
       "number": 1,
-      "position": "CAM",
-      "overall": 78,
+      "position": "RB",
+      "overall": 77,
       "attributes": {
         "pace": 70,
-        "shooting": 74,
-        "passing": 79,
-        "dribbling": 79,
-        "defending": 57,
-        "physicality": 61,
-        "stamina": 83,
-        "awareness": 80,
-        "composure": 76
-      }
-    },
-    {
-      "name": "�. Radu",
-      "number": 2,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 60,
-        "shooting": 55,
-        "passing": 71,
-        "dribbling": 66,
-        "defending": 82,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
         "physicality": 70,
-        "stamina": 81,
-        "awareness": 80,
-        "composure": 76
-      }
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/165/25_120.png"
     },
     {
-      "name": "C. Tătărușanu",
-      "number": 3,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 43,
-        "shooting": 15,
-        "passing": 36,
-        "dribbling": 16,
-        "defending": 15,
-        "physicality": 73,
-        "stamina": 42,
-        "awareness": 74,
-        "composure": 44
-      }
-    },
-    {
-      "name": "F. Niță",
-      "number": 4,
-      "position": "GK",
+      "name": "Dennis Man -",
+      "number": 2,
+      "position": "RW",
       "overall": 76,
       "attributes": {
-        "pace": 76,
-        "defending": 77,
-        "passing": 75,
-        "dribbling": 77,
-        "physicality": 79,
-        "stamina": 36,
-        "awareness": 64,
-        "composure": 62
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/239/978/25_120.png"
     },
     {
-      "name": "I. Radu",
+      "name": "Nicolae Claudiu Stanciu -",
+      "number": 3,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/212/207/25_120.png"
+    },
+    {
+      "name": "Ianis Hagi -",
+      "number": 4,
+      "position": "CAM",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/226/568/25_120.png"
+    },
+    {
+      "name": "Răzvan Gabriel Marin -",
       "number": 5,
       "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 38,
-        "shooting": 18,
-        "passing": 24,
-        "dribbling": 15,
-        "defending": 19,
-        "physicality": 58,
-        "stamina": 32,
-        "awareness": 65,
-        "composure": 56
-      }
-    },
-    {
-      "name": "R. Marin",
-      "number": 6,
-      "position": "CM",
       "overall": 74,
       "attributes": {
-        "pace": 66,
-        "shooting": 67,
-        "passing": 79,
-        "dribbling": 73,
-        "defending": 61,
-        "physicality": 57,
-        "stamina": 75,
-        "awareness": 69,
-        "composure": 71
-      }
-    },
-    {
-      "name": "D. Man",
-      "number": 7,
-      "position": "RW",
-      "overall": 74,
-      "attributes": {
-        "pace": 85,
-        "shooting": 77,
-        "passing": 67,
-        "dribbling": 72,
-        "defending": 48,
-        "physicality": 66,
-        "stamina": 81,
-        "awareness": 68,
-        "composure": 72
-      }
-    },
-    {
-      "name": "I. Hagi",
-      "number": 8,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 75,
+        "pace": 70,
         "shooting": 70,
-        "passing": 75,
-        "dribbling": 76,
-        "defending": 31,
-        "physicality": 67,
-        "stamina": 84,
-        "awareness": 71,
-        "composure": 71
-      }
-    },
-    {
-      "name": "A. Maxim",
-      "number": 9,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 64,
-        "shooting": 68,
-        "passing": 74,
-        "dribbling": 80,
-        "defending": 30,
-        "physicality": 52,
-        "stamina": 64,
-        "awareness": 71,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/235/813/25_120.png"
     },
     {
-      "name": "A. Mitriță",
-      "number": 10,
+      "name": "Alexandru Ionuț Mitriță -",
+      "number": 6,
       "position": "LW",
       "overall": 74,
       "attributes": {
-        "pace": 82,
-        "shooting": 69,
-        "passing": 74,
-        "dribbling": 76,
-        "defending": 21,
-        "physicality": 57,
-        "stamina": 63,
-        "awareness": 77,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Cicâldău",
-      "number": 11,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 68,
-        "shooting": 66,
-        "passing": 74,
-        "dribbling": 70,
-        "defending": 67,
-        "physicality": 62,
-        "stamina": 90,
-        "awareness": 70,
-        "composure": 71
-      }
-    },
-    {
-      "name": "F. Andone",
-      "number": 12,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 72,
-        "shooting": 68,
-        "passing": 65,
-        "dribbling": 70,
-        "defending": 54,
-        "physicality": 68,
-        "stamina": 65,
-        "awareness": 76,
-        "composure": 76
-      }
-    },
-    {
-      "name": "C. Budescu",
-      "number": 13,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 60,
-        "shooting": 71,
-        "passing": 74,
-        "dribbling": 74,
-        "defending": 45,
-        "physicality": 70,
-        "stamina": 60,
-        "awareness": 70,
-        "composure": 79
-      }
-    },
-    {
-      "name": "V. Chiricheș",
-      "number": 14,
-      "position": "CB",
-      "overall": 73,
-      "attributes": {
-        "pace": 59,
-        "shooting": 56,
-        "passing": 68,
-        "dribbling": 59,
-        "defending": 75,
-        "physicality": 68,
-        "stamina": 56,
-        "awareness": 72,
-        "composure": 67
-      }
-    },
-    {
-      "name": "S. Lung",
-      "number": 15,
-      "position": "GK",
-      "overall": 73,
-      "attributes": {
-        "pace": 72,
-        "defending": 74,
-        "passing": 70,
-        "dribbling": 74,
-        "physicality": 60,
-        "stamina": 26,
-        "awareness": 71,
-        "composure": 65
-      }
-    },
-    {
-      "name": "D. Nistor",
-      "number": 16,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 63,
-        "shooting": 62,
-        "passing": 75,
-        "dribbling": 67,
-        "defending": 63,
-        "physicality": 59,
-        "stamina": 91,
-        "awareness": 72,
-        "composure": 72
-      }
-    },
-    {
-      "name": "F. Tănase",
-      "number": 17,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 74,
-        "shooting": 73,
-        "passing": 72,
-        "dribbling": 70,
-        "defending": 52,
-        "physicality": 51,
-        "stamina": 84,
-        "awareness": 72,
-        "composure": 64
-      }
-    },
-    {
-      "name": "A. Băluță",
-      "number": 18,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 82,
+        "pace": 70,
         "shooting": 70,
         "passing": 70,
-        "dribbling": 71,
-        "defending": 50,
-        "physicality": 65,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
         "stamina": 70,
-        "awareness": 69,
-        "composure": 67
-      }
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/229/804/25_120.png"
     },
     {
-      "name": "C. Keșerü",
-      "number": 19,
+      "name": "Horațiu Alexandru Moldovan -",
+      "number": 7,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/136/25_120.png"
+    },
+    {
+      "name": "George Daniel Bîrligea -",
+      "number": 8,
       "position": "ST",
       "overall": 72,
       "attributes": {
         "pace": 70,
-        "shooting": 74,
-        "passing": 66,
-        "dribbling": 68,
-        "defending": 39,
-        "physicality": 76,
-        "stamina": 68,
-        "awareness": 65,
-        "composure": 70
-      }
-    },
-    {
-      "name": "F. Coman",
-      "number": 20,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 84,
         "shooting": 70,
         "passing": 70,
-        "dribbling": 71,
-        "defending": 32,
+        "dribbling": 70,
+        "defending": 70,
         "physicality": 70,
-        "stamina": 71,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 71
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/728/25_120.png"
     },
     {
-      "name": "C. Deac",
-      "number": 21,
-      "position": "CM",
+      "name": "Ștefan Târnovanu -",
+      "number": 9,
+      "position": "GK",
       "overall": 71,
       "attributes": {
-        "pace": 72,
-        "shooting": 69,
-        "passing": 73,
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 58,
         "physicality": 70,
-        "stamina": 84,
-        "awareness": 73,
-        "composure": 74
-      }
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/073/25_120.png"
     },
     {
-      "name": "N. Bancu",
+      "name": "Denis Mihai Drăguş -",
+      "number": 10,
+      "position": "ST",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/770/25_120.png"
+    },
+    {
+      "name": "Deian Cristian Sorescu -",
+      "number": 11,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/562/25_120.png"
+    },
+    {
+      "name": "Olimpiu Vasile Moruțan -",
+      "number": 12,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/278/25_120.png"
+    },
+    {
+      "name": "Adrian Gheorghe Șut -",
+      "number": 13,
+      "position": "CDM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/076/25_120.png"
+    },
+    {
+      "name": "Nicușor Silviu Bancu -",
+      "number": 14,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/000/25_120.png"
+    },
+    {
+      "name": "Florin Lucian Tănase -",
+      "number": 15,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/223/231/25_120.png"
+    },
+    {
+      "name": "Mihai Cristian Popescu -",
+      "number": 16,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/561/25_120.png"
+    },
+    {
+      "name": "Denis Alibec -",
+      "number": 17,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/197/971/25_120.png"
+    },
+    {
+      "name": "Dennis-Dorian Politic -",
+      "number": 18,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/247/674/25_120.png"
+    },
+    {
+      "name": "Florin Constantin Niță -",
+      "number": 19,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/238/033/25_120.png"
+    },
+    {
+      "name": "Denis Ciobotariu -",
+      "number": 20,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/563/25_120.png"
+    },
+    {
+      "name": "Virgil Eugen Ghiță -",
+      "number": 21,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/105/25_120.png"
+    },
+    {
+      "name": "Alexandru Mihăiță Chipciu -",
       "number": 22,
       "position": "LB",
-      "overall": 71,
+      "overall": 68,
       "attributes": {
-        "pace": 76,
-        "shooting": 62,
-        "passing": 68,
-        "dribbling": 69,
-        "defending": 68,
-        "physicality": 64,
-        "stamina": 90,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 74
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/212/048/25_120.png"
     },
     {
-      "name": "C. Ganea",
+      "name": "Marius Mihai Marin -",
       "number": 23,
-      "position": "LB",
-      "overall": 71,
+      "position": "CM",
+      "overall": 68,
       "attributes": {
-        "pace": 71,
-        "shooting": 56,
-        "passing": 72,
-        "dribbling": 65,
-        "defending": 67,
-        "physicality": 72,
-        "stamina": 78,
-        "awareness": 64,
-        "composure": 69
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/313/25_120.png"
     }
   ]
 }

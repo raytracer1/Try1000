@@ -1,6 +1,7 @@
 {
   "name": "India",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "S. Chhetri",
@@ -59,10 +60,11 @@
       "position": "GK",
       "overall": 64,
       "attributes": {
-        "pace": 64,
-        "defending": 65,
-        "passing": 59,
-        "dribbling": 62,
+        "pace": 40,
+        "shooting": 13,
+        "passing": 24,
+        "dribbling": 13,
+        "defending": 15,
         "physicality": 70,
         "stamina": 36,
         "awareness": 65,
@@ -75,10 +77,11 @@
       "position": "GK",
       "overall": 64,
       "attributes": {
-        "pace": 64,
-        "defending": 60,
-        "passing": 68,
-        "dribbling": 61,
+        "pace": 26,
+        "shooting": 6,
+        "passing": 18,
+        "dribbling": 12,
+        "defending": 7,
         "physicality": 71,
         "stamina": 38,
         "awareness": 57,
@@ -88,7 +91,7 @@
     {
       "name": "P. Kotal",
       "number": 6,
-      "position": "CB",
+      "position": "CM",
       "overall": 63,
       "attributes": {
         "pace": 74,
@@ -108,10 +111,11 @@
       "position": "GK",
       "overall": 63,
       "attributes": {
-        "pace": 63,
-        "defending": 62,
-        "passing": 58,
-        "dribbling": 64,
+        "pace": 43,
+        "shooting": 18,
+        "passing": 30,
+        "dribbling": 14,
+        "defending": 17,
         "physicality": 67,
         "stamina": 30,
         "awareness": 64,

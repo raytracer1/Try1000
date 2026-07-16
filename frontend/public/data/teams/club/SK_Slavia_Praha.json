@@ -1,396 +1,418 @@
 {
   "name": "SK Slavia Praha",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/216/30.png",
   "players": [
     {
-      "name": "N. Stanciu",
+      "name": "Murphy Oscar Dorley -",
       "number": 1,
+      "position": "CDM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/254/909/25_120.png"
+    },
+    {
+      "name": "Lukáš Provod -",
+      "number": 2,
       "position": "CAM",
       "overall": 78,
       "attributes": {
         "pace": 70,
-        "shooting": 74,
-        "passing": 79,
-        "dribbling": 79,
-        "defending": 57,
-        "physicality": 61,
-        "stamina": 83,
-        "awareness": 80,
-        "composure": 76
-      }
-    },
-    {
-      "name": "O. Kolář",
-      "number": 2,
-      "position": "GK",
-      "overall": 78,
-      "attributes": {
-        "pace": 77,
-        "defending": 77,
-        "passing": 80,
-        "dribbling": 78,
-        "physicality": 60,
-        "stamina": 25,
-        "awareness": 73,
-        "composure": 60
-      }
-    },
-    {
-      "name": "L. Provod",
-      "number": 3,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 79,
-        "shooting": 70,
-        "passing": 76,
-        "dribbling": 77,
-        "defending": 70,
-        "physicality": 85,
-        "stamina": 90,
-        "awareness": 78,
-        "composure": 77
-      }
-    },
-    {
-      "name": "P. Ševčík",
-      "number": 4,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 80,
-        "shooting": 69,
-        "passing": 78,
-        "dribbling": 78,
-        "defending": 66,
-        "physicality": 70,
-        "stamina": 91,
-        "awareness": 77,
-        "composure": 75
-      }
-    },
-    {
-      "name": "T. Holeš",
-      "number": 5,
-      "position": "CB",
-      "overall": 77,
-      "attributes": {
-        "pace": 78,
-        "shooting": 68,
-        "passing": 73,
-        "dribbling": 71,
-        "defending": 79,
-        "physicality": 79,
-        "stamina": 85,
-        "awareness": 76,
-        "composure": 73
-      }
-    },
-    {
-      "name": "O. Kúdela",
-      "number": 6,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 71,
-        "shooting": 51,
-        "passing": 74,
-        "dribbling": 65,
-        "defending": 77,
-        "physicality": 75,
-        "stamina": 78,
-        "awareness": 79,
-        "composure": 79
-      }
-    },
-    {
-      "name": "J. Bořil",
-      "number": 7,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 72,
-        "shooting": 58,
-        "passing": 71,
-        "dribbling": 70,
-        "defending": 75,
-        "physicality": 77,
-        "stamina": 87,
-        "awareness": 76,
-        "composure": 72
-      }
-    },
-    {
-      "name": "P. Olayinka",
-      "number": 8,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 84,
         "shooting": 70,
         "passing": 70,
-        "dribbling": 76,
-        "defending": 55,
-        "physicality": 74,
-        "stamina": 88,
-        "awareness": 75,
-        "composure": 75
-      }
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/253/727/25_120.png"
     },
     {
-      "name": "L. Masopust",
-      "number": 9,
-      "position": "RW",
+      "name": "Tomáš Holeš -",
+      "number": 3,
+      "position": "CB",
       "overall": 76,
       "attributes": {
-        "pace": 87,
+        "pace": 70,
         "shooting": 70,
-        "passing": 72,
-        "dribbling": 77,
-        "defending": 65,
-        "physicality": 74,
-        "stamina": 83,
-        "awareness": 75,
-        "composure": 70
-      }
-    },
-    {
-      "name": "O. Dorley",
-      "number": 10,
-      "position": "LB",
-      "overall": 75,
-      "attributes": {
-        "pace": 85,
-        "shooting": 52,
-        "passing": 75,
-        "dribbling": 78,
-        "defending": 69,
-        "physicality": 57,
-        "stamina": 87,
-        "awareness": 75,
-        "composure": 75
-      }
-    },
-    {
-      "name": "A. Bah",
-      "number": 11,
-      "position": "RB",
-      "overall": 75,
-      "attributes": {
-        "pace": 93,
-        "shooting": 55,
-        "passing": 65,
+        "passing": 70,
         "dribbling": 70,
-        "defending": 73,
-        "physicality": 74,
-        "stamina": 85,
-        "awareness": 71,
-        "composure": 68
-      }
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/251/116/25_120.png"
     },
     {
-      "name": "J. Kuchta",
-      "number": 12,
+      "name": "Jindřich Staněk -",
+      "number": 4,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/221/909/25_120.png"
+    },
+    {
+      "name": "Tomáš Chorý -",
+      "number": 5,
       "position": "ST",
       "overall": 75,
       "attributes": {
-        "pace": 79,
-        "shooting": 77,
-        "passing": 69,
-        "dribbling": 71,
-        "defending": 35,
-        "physicality": 79,
-        "stamina": 81,
-        "awareness": 74,
-        "composure": 72
-      }
-    },
-    {
-      "name": "I. Schranz",
-      "number": 13,
-      "position": "LW",
-      "overall": 75,
-      "attributes": {
-        "pace": 85,
-        "shooting": 77,
-        "passing": 66,
-        "dribbling": 72,
-        "defending": 25,
-        "physicality": 73,
-        "stamina": 78,
-        "awareness": 76,
-        "composure": 77
-      }
-    },
-    {
-      "name": "A. Mandous",
-      "number": 14,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 18,
-        "shooting": 9,
-        "passing": 33,
-        "dribbling": 14,
-        "defending": 12,
-        "physicality": 73,
-        "stamina": 25,
-        "awareness": 61,
-        "composure": 32
-      }
-    },
-    {
-      "name": "S. Plavšić",
-      "number": 15,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 84,
-        "shooting": 62,
-        "passing": 69,
-        "dribbling": 75,
-        "defending": 33,
-        "physicality": 45,
-        "stamina": 75,
-        "awareness": 74,
-        "composure": 68
-      }
-    },
-    {
-      "name": "D. Hovorka",
-      "number": 16,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 76,
-        "shooting": 29,
+        "pace": 70,
+        "shooting": 70,
         "passing": 70,
-        "dribbling": 67,
-        "defending": 74,
-        "physicality": 74,
-        "stamina": 63,
-        "awareness": 66,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": "https://cdn.sofifa.net/players/244/793/25_120.png"
     },
     {
-      "name": "I. Traoré",
-      "number": 17,
+      "name": "Christos Zafeiris -",
+      "number": 6,
       "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/264/330/25_120.png"
+    },
+    {
+      "name": "Jan Bořil -",
+      "number": 7,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/204/125/25_120.png"
+    },
+    {
+      "name": "David Douděra -",
+      "number": 8,
+      "position": "RW",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/269/509/25_120.png"
+    },
+    {
+      "name": "David Zima -",
+      "number": 9,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/255/687/25_120.png"
+    },
+    {
+      "name": "Igoh Ogbu -",
+      "number": 10,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/242/635/25_120.png"
+    },
+    {
+      "name": "Mojmír Chytil -",
+      "number": 11,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/274/906/25_120.png"
+    },
+    {
+      "name": "El Hadji Malick Diouf -",
+      "number": 12,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/274/915/25_120.png"
+    },
+    {
+      "name": "Tomáš Vlček -",
+      "number": 13,
+      "position": "CB",
       "overall": 73,
       "attributes": {
-        "pace": 63,
-        "shooting": 61,
-        "passing": 72,
-        "dribbling": 75,
-        "defending": 75,
-        "physicality": 83,
-        "stamina": 80,
-        "awareness": 74,
-        "composure": 83
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/248/169/25_120.png"
     },
     {
-      "name": "O. Lingr",
-      "number": 18,
-      "position": "CM",
+      "name": "Ivan Schranz -",
+      "number": 14,
+      "position": "LW",
       "overall": 73,
       "attributes": {
-        "pace": 80,
-        "shooting": 69,
-        "passing": 71,
-        "dribbling": 73,
-        "defending": 43,
-        "physicality": 69,
-        "stamina": 78,
-        "awareness": 73,
-        "composure": 73
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/263/287/25_120.png"
     },
     {
-      "name": "J. Hromada",
-      "number": 19,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 74,
-        "shooting": 59,
-        "passing": 72,
-        "dribbling": 72,
-        "defending": 74,
-        "physicality": 68,
-        "stamina": 84,
-        "awareness": 72,
-        "composure": 71
-      }
-    },
-    {
-      "name": "21 J. Stejskal",
-      "number": 20,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 50,
-        "shooting": 5,
-        "passing": 37,
-        "dribbling": 18,
-        "defending": 10,
-        "physicality": 63,
-        "stamina": 25,
-        "awareness": 51,
-        "composure": 28
-      }
-    },
-    {
-      "name": "L. Takács",
-      "number": 21,
-      "position": "CM",
+      "name": "Vasil Kušej -",
+      "number": 15,
+      "position": "LW",
       "overall": 72,
       "attributes": {
-        "pace": 60,
-        "shooting": 54,
-        "passing": 69,
-        "dribbling": 60,
-        "defending": 73,
-        "physicality": 88,
-        "stamina": 66,
-        "awareness": 66,
-        "composure": 60
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/241/186/25_120.png"
     },
     {
-      "name": "M. Krmenčík",
+      "name": "Jakub Markovič -",
+      "number": 16,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/179/25_120.png"
+    },
+    {
+      "name": "Lukáš Vorlický -",
+      "number": 17,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/274/452/25_120.png"
+    },
+    {
+      "name": "Štěpán Chaloupek -",
+      "number": 18,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/073/456/25_120.png"
+    },
+    {
+      "name": "Ondřej Zmrzlý -",
+      "number": 19,
+      "position": "LB",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/071/451/25_120.png"
+    },
+    {
+      "name": "Giannis-Fivos Botos -",
+      "number": 20,
+      "position": "CAM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/392/25_120.png"
+    },
+    {
+      "name": "Simion Boubacar Michez -",
+      "number": 21,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/072/632/25_120.png"
+    },
+    {
+      "name": "Dominik Pech -",
       "number": 22,
       "position": "CM",
-      "overall": 72,
+      "overall": 68,
       "attributes": {
-        "pace": 74,
-        "shooting": 75,
-        "passing": 67,
-        "dribbling": 68,
-        "defending": 25,
-        "physicality": 87,
-        "stamina": 58,
-        "awareness": 68,
-        "composure": 66
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/075/499/25_120.png"
     },
     {
-      "name": "T. Kacharaba",
+      "name": "Ondřej Kolář -",
       "number": 23,
-      "position": "CM",
-      "overall": 72,
+      "position": "GK",
+      "overall": 68,
       "attributes": {
-        "pace": 75,
-        "shooting": 39,
-        "passing": 62,
-        "dribbling": 51,
-        "defending": 74,
-        "physicality": 80,
-        "stamina": 66,
-        "awareness": 68,
-        "composure": 65
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/467/25_120.png"
     }
   ]
 }

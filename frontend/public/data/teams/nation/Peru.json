@@ -1,6 +1,7 @@
 {
   "name": "Peru",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "R. Tapia",
@@ -195,10 +196,11 @@
       "position": "GK",
       "overall": 74,
       "attributes": {
-        "pace": 75,
-        "defending": 75,
-        "passing": 71,
-        "dribbling": 72,
+        "pace": 49,
+        "shooting": 20,
+        "passing": 31,
+        "dribbling": 19,
+        "defending": 19,
         "physicality": 49,
         "stamina": 30,
         "awareness": 76,
@@ -279,10 +281,11 @@
       "position": "GK",
       "overall": 72,
       "attributes": {
-        "pace": 71,
-        "defending": 73,
-        "passing": 69,
-        "dribbling": 71,
+        "pace": 26,
+        "shooting": 8,
+        "passing": 23,
+        "dribbling": 11,
+        "defending": 12,
         "physicality": 56,
         "stamina": 32,
         "awareness": 71,
@@ -377,7 +380,7 @@
     {
       "name": "A. Santamaría",
       "number": 23,
-      "position": "CB",
+      "position": "CM",
       "overall": 69,
       "attributes": {
         "pace": 68,

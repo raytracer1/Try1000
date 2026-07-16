@@ -1,6 +1,7 @@
 {
   "name": "China PR",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "Ai Kesen",
@@ -110,10 +111,11 @@
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 72,
-        "defending": 74,
-        "passing": 70,
-        "dribbling": 72,
+        "pace": 43,
+        "shooting": 14,
+        "passing": 30,
+        "dribbling": 17,
+        "defending": 13,
         "physicality": 72,
         "stamina": 43,
         "awareness": 71,
@@ -174,7 +176,7 @@
     {
       "name": "Zhang Linpeng",
       "number": 11,
-      "position": "CB",
+      "position": "CM",
       "overall": 71,
       "attributes": {
         "pace": 74,

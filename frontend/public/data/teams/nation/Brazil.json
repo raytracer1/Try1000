@@ -1,6 +1,7 @@
 {
   "name": "Brazil",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "Neymar Jr",
@@ -42,10 +43,11 @@
       "position": "GK",
       "overall": 89,
       "attributes": {
-        "pace": 87,
-        "defending": 88,
-        "passing": 82,
-        "dribbling": 88,
+        "pace": 63,
+        "shooting": 14,
+        "passing": 61,
+        "dribbling": 23,
+        "defending": 15,
         "physicality": 78,
         "stamina": 41,
         "awareness": 88,
@@ -58,10 +60,11 @@
       "position": "GK",
       "overall": 89,
       "attributes": {
-        "pace": 86,
-        "defending": 89,
-        "passing": 86,
-        "dribbling": 90,
+        "pace": 47,
+        "shooting": 13,
+        "passing": 45,
+        "dribbling": 27,
+        "defending": 19,
         "physicality": 78,
         "stamina": 32,
         "awareness": 87,
@@ -71,7 +74,7 @@
     {
       "name": "Marquinhos",
       "number": 5,
-      "position": "CB",
+      "position": "CM",
       "overall": 87,
       "attributes": {
         "pace": 81,
@@ -307,8 +310,42 @@
       }
     },
     {
-      "name": "Alex Telles",
+      "name": "12 Nilmar",
       "number": 19,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 93,
+        "shooting": 85,
+        "passing": 76,
+        "dribbling": 87,
+        "defending": 18,
+        "physicality": 59,
+        "stamina": 68,
+        "awareness": 82,
+        "composure": 70
+      }
+    },
+    {
+      "name": "08 Cafu",
+      "number": 20,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 79,
+        "shooting": 22,
+        "passing": 82,
+        "dribbling": 82,
+        "defending": 85,
+        "physicality": 55,
+        "stamina": 91,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Alex Telles",
+      "number": 21,
       "position": "CM",
       "overall": 82,
       "attributes": {
@@ -325,7 +362,7 @@
     },
     {
       "name": "19 Dani Alves",
-      "number": 20,
+      "number": 22,
       "position": "RB",
       "overall": 82,
       "attributes": {
@@ -342,7 +379,7 @@
     },
     {
       "name": "Anderson Talisca",
-      "number": 21,
+      "number": 23,
       "position": "CAM",
       "overall": 82,
       "attributes": {
@@ -355,40 +392,6 @@
         "stamina": 82,
         "awareness": 78,
         "composure": 77
-      }
-    },
-    {
-      "name": "Oscar",
-      "number": 22,
-      "position": "CAM",
-      "overall": 82,
-      "attributes": {
-        "pace": 74,
-        "shooting": 78,
-        "passing": 85,
-        "dribbling": 81,
-        "defending": 59,
-        "physicality": 60,
-        "stamina": 84,
-        "awareness": 78,
-        "composure": 79
-      }
-    },
-    {
-      "name": "Richarlison",
-      "number": 23,
-      "position": "LW",
-      "overall": 82,
-      "attributes": {
-        "pace": 81,
-        "shooting": 80,
-        "passing": 79,
-        "dribbling": 86,
-        "defending": 58,
-        "physicality": 77,
-        "stamina": 83,
-        "awareness": 82,
-        "composure": 81
       }
     }
   ]

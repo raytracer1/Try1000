@@ -1,10 +1,28 @@
 {
   "name": "Bulgaria",
   "type": "nation",
+  "logo": "",
   "players": [
     {
-      "name": "20 I. Popov",
+      "name": "16 D. Berbatov",
       "number": 1,
+      "position": "ST",
+      "overall": 80,
+      "attributes": {
+        "pace": 60,
+        "shooting": 83,
+        "passing": 85,
+        "dribbling": 81,
+        "defending": 14,
+        "physicality": 71,
+        "stamina": 52,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "20 I. Popov",
+      "number": 2,
       "position": "CAM",
       "overall": 75,
       "attributes": {
@@ -21,7 +39,7 @@
     },
     {
       "name": "21 K. Despodov",
-      "number": 2,
+      "number": 3,
       "position": "LW",
       "overall": 73,
       "attributes": {
@@ -38,7 +56,7 @@
     },
     {
       "name": "21 Cicinho",
-      "number": 3,
+      "number": 4,
       "position": "LW",
       "overall": 71,
       "attributes": {
@@ -55,7 +73,7 @@
     },
     {
       "name": "K. Malinov",
-      "number": 4,
+      "number": 5,
       "position": "CM",
       "overall": 70,
       "attributes": {
@@ -72,7 +90,7 @@
     },
     {
       "name": "S. Popov",
-      "number": 5,
+      "number": 6,
       "position": "CM",
       "overall": 69,
       "attributes": {
@@ -89,7 +107,7 @@
     },
     {
       "name": "B. Kraev",
-      "number": 6,
+      "number": 7,
       "position": "CM",
       "overall": 69,
       "attributes": {
@@ -106,7 +124,7 @@
     },
     {
       "name": "21 A. Nedyalkov",
-      "number": 7,
+      "number": 8,
       "position": "CM",
       "overall": 69,
       "attributes": {
@@ -123,7 +141,7 @@
     },
     {
       "name": "20 V. Bojinov",
-      "number": 8,
+      "number": 9,
       "position": "CM",
       "overall": 69,
       "attributes": {
@@ -140,7 +158,7 @@
     },
     {
       "name": "21 I. Chochev",
-      "number": 9,
+      "number": 10,
       "position": "CM",
       "overall": 68,
       "attributes": {
@@ -157,7 +175,7 @@
     },
     {
       "name": "19 M. Aleksandrov",
-      "number": 10,
+      "number": 11,
       "position": "CM",
       "overall": 68,
       "attributes": {
@@ -174,7 +192,7 @@
     },
     {
       "name": "21 G. Kostadinov",
-      "number": 11,
+      "number": 12,
       "position": "CM",
       "overall": 68,
       "attributes": {
@@ -191,7 +209,7 @@
     },
     {
       "name": "21 Marcelinho",
-      "number": 12,
+      "number": 13,
       "position": "ST",
       "overall": 68,
       "attributes": {
@@ -208,8 +226,8 @@
     },
     {
       "name": "18 A. Aleksandrov",
-      "number": 13,
-      "position": "CB",
+      "number": 14,
+      "position": "CM",
       "overall": 68,
       "attributes": {
         "pace": 64,
@@ -225,7 +243,7 @@
     },
     {
       "name": "21 D. Iliev",
-      "number": 14,
+      "number": 15,
       "position": "ST",
       "overall": 67,
       "attributes": {
@@ -242,7 +260,7 @@
     },
     {
       "name": "M. Minchev",
-      "number": 15,
+      "number": 16,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -259,7 +277,7 @@
     },
     {
       "name": "21 T. Nedelev",
-      "number": 16,
+      "number": 17,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -276,7 +294,7 @@
     },
     {
       "name": "21 A. Galabinov",
-      "number": 17,
+      "number": 18,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -293,7 +311,7 @@
     },
     {
       "name": "21 V. Bozhikov",
-      "number": 18,
+      "number": 19,
       "position": "CB",
       "overall": 67,
       "attributes": {
@@ -310,7 +328,7 @@
     },
     {
       "name": "K. Dimitrov",
-      "number": 19,
+      "number": 20,
       "position": "CM",
       "overall": 67,
       "attributes": {
@@ -327,7 +345,7 @@
     },
     {
       "name": "D. Velkovski",
-      "number": 20,
+      "number": 21,
       "position": "LB",
       "overall": 66,
       "attributes": {
@@ -344,7 +362,7 @@
     },
     {
       "name": "21 I. Goranov",
-      "number": 21,
+      "number": 22,
       "position": "CM",
       "overall": 66,
       "attributes": {
@@ -361,7 +379,7 @@
     },
     {
       "name": "P. Iliev",
-      "number": 22,
+      "number": 23,
       "position": "CM",
       "overall": 66,
       "attributes": {
@@ -374,23 +392,6 @@
         "stamina": 38,
         "awareness": 55,
         "composure": 42
-      }
-    },
-    {
-      "name": "17 V. Gadzhev",
-      "number": 23,
-      "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 66,
-        "shooting": 53,
-        "passing": 69,
-        "dribbling": 66,
-        "defending": 67,
-        "physicality": 65,
-        "stamina": 66,
-        "awareness": 48,
-        "composure": 62
       }
     }
   ]

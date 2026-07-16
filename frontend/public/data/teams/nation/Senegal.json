@@ -1,6 +1,7 @@
 {
   "name": "Senegal",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "S. Mané",
@@ -22,7 +23,7 @@
     {
       "name": "K. Koulibaly",
       "number": 2,
-      "position": "CB",
+      "position": "CM",
       "overall": 86,
       "attributes": {
         "pace": 87,
@@ -42,10 +43,11 @@
       "position": "GK",
       "overall": 83,
       "attributes": {
-        "pace": 83,
-        "defending": 84,
-        "passing": 82,
-        "dribbling": 81,
+        "pace": 33,
+        "shooting": 5,
+        "passing": 39,
+        "dribbling": 13,
+        "defending": 11,
         "physicality": 72,
         "stamina": 35,
         "awareness": 80,
@@ -259,7 +261,7 @@
     {
       "name": "P. Cissé",
       "number": 16,
-      "position": "CB",
+      "position": "CM",
       "overall": 76,
       "attributes": {
         "pace": 81,
@@ -279,10 +281,11 @@
       "position": "GK",
       "overall": 76,
       "attributes": {
-        "pace": 76,
-        "defending": 76,
-        "passing": 76,
-        "dribbling": 75,
+        "pace": 41,
+        "shooting": 16,
+        "passing": 34,
+        "dribbling": 15,
+        "defending": 14,
         "physicality": 57,
         "stamina": 33,
         "awareness": 73,
@@ -343,7 +346,7 @@
     {
       "name": "19 K. Mbodji",
       "number": 21,
-      "position": "CB",
+      "position": "CM",
       "overall": 75,
       "attributes": {
         "pace": 63,

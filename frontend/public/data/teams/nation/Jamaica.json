@@ -1,6 +1,7 @@
 {
   "name": "Jamaica",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "L. Bailey",
@@ -42,10 +43,11 @@
       "position": "GK",
       "overall": 76,
       "attributes": {
-        "pace": 78,
-        "defending": 80,
-        "passing": 68,
-        "dribbling": 78,
+        "pace": 49,
+        "shooting": 13,
+        "passing": 32,
+        "dribbling": 11,
+        "defending": 14,
         "physicality": 68,
         "stamina": 41,
         "awareness": 71,
@@ -89,7 +91,7 @@
     {
       "name": "E. Pinnock",
       "number": 6,
-      "position": "CB",
+      "position": "CM",
       "overall": 74,
       "attributes": {
         "pace": 69,
@@ -259,7 +261,7 @@
     {
       "name": "L. Moore",
       "number": 16,
-      "position": "CB",
+      "position": "CM",
       "overall": 70,
       "attributes": {
         "pace": 73,
@@ -327,7 +329,7 @@
     {
       "name": "20 R. Austin",
       "number": 20,
-      "position": "CB",
+      "position": "CM",
       "overall": 68,
       "attributes": {
         "pace": 49,

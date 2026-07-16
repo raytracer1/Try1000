@@ -1,209 +1,348 @@
 {
   "name": "Silkeborg IF",
   "type": "club",
+  "logo": "https://cdn.sofifa.net/meta/team/86/30.png",
   "players": [
     {
-      "name": "18 I. Moro",
+      "name": "Tonni Adamsen -",
       "number": 1,
-      "position": "CM",
-      "overall": 66,
-      "attributes": {
-        "pace": 66,
-        "shooting": 54,
-        "passing": 64,
-        "dribbling": 64,
-        "defending": 63,
-        "physicality": 69,
-        "stamina": 81,
-        "awareness": 66,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Calisir",
-      "number": 2,
-      "position": "CB",
-      "overall": 66,
-      "attributes": {
-        "pace": 65,
-        "shooting": 28,
-        "passing": 65,
-        "dribbling": 55,
-        "defending": 68,
-        "physicality": 72,
-        "stamina": 68,
-        "awareness": 55,
-        "composure": 66
-      }
-    },
-    {
-      "name": "N. Helenius",
-      "number": 3,
       "position": "ST",
-      "overall": 66,
+      "overall": 70,
       "attributes": {
-        "pace": 62,
-        "shooting": 67,
-        "passing": 60,
-        "dribbling": 64,
-        "defending": 22,
-        "physicality": 84,
-        "stamina": 64,
-        "awareness": 65,
-        "composure": 65
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/271/320/25_120.png"
     },
     {
-      "name": "N. Larsen",
-      "number": 4,
+      "name": "Pelle Elkjær Mattsson -",
+      "number": 2,
+      "position": "CDM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/250/853/25_120.png"
+    },
+    {
+      "name": "Nicolai Oppen Larsen -",
+      "number": 3,
       "position": "GK",
-      "overall": 66,
+      "overall": 69,
       "attributes": {
-        "pace": 64,
-        "defending": 68,
-        "passing": 65,
-        "dribbling": 66,
-        "physicality": 67,
-        "stamina": 32,
-        "awareness": 60,
-        "composure": 57
-      }
+        "pace": 70,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/200/209/25_120.png"
     },
     {
-      "name": "R. Gojani",
+      "name": "Younes Bakiz -",
+      "number": 4,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/538/25_120.png"
+    },
+    {
+      "name": "Jeppe Andrup Andersen -",
       "number": 5,
+      "position": "CAM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/216/286/25_120.png"
+    },
+    {
+      "name": "Andreas Poulsen -",
+      "number": 6,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/236/875/25_120.png"
+    },
+    {
+      "name": "Pedro Ganchas -",
+      "number": 7,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/266/890/25_120.png"
+    },
+    {
+      "name": "Alexander Magnus Busch -",
+      "number": 8,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/588/25_120.png"
+    },
+    {
+      "name": "Callum William McCowatt -",
+      "number": 9,
+      "position": "CAM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/666/25_120.png"
+    },
+    {
+      "name": "Anders Ferslev Klynge -",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/257/259/25_120.png"
+    },
+    {
+      "name": "Robin Dahl Østrøm -",
+      "number": 11,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/257/036/25_120.png"
+    },
+    {
+      "name": "Fredrik Carlsen -",
+      "number": 12,
+      "position": "CAM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/275/742/25_120.png"
+    },
+    {
+      "name": "Pontus Rödin -",
+      "number": 13,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/252/737/25_120.png"
+    },
+    {
+      "name": "Mads Larsen -",
+      "number": 14,
       "position": "CM",
       "overall": 65,
       "attributes": {
-        "pace": 66,
-        "shooting": 39,
-        "passing": 69,
-        "dribbling": 65,
-        "defending": 43,
-        "physicality": 59,
-        "stamina": 79,
-        "awareness": 67,
-        "composure": 68
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/243/891/25_120.png"
     },
     {
-      "name": "N. Vallys",
-      "number": 6,
-      "position": "LW",
-      "overall": 65,
-      "attributes": {
-        "pace": 80,
-        "shooting": 60,
-        "passing": 62,
-        "dribbling": 64,
-        "defending": 35,
-        "physicality": 71,
-        "stamina": 67,
-        "awareness": 58,
-        "composure": 64
-      }
-    },
-    {
-      "name": "R. Carstensen",
-      "number": 7,
+      "name": "Jens Martin Gammelby -",
+      "number": 15,
       "position": "RB",
       "overall": 64,
       "attributes": {
-        "pace": 80,
-        "shooting": 45,
-        "passing": 60,
-        "dribbling": 62,
-        "defending": 59,
-        "physicality": 63,
-        "stamina": 76,
-        "awareness": 62,
-        "composure": 58
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/213/835/25_120.png"
     },
     {
-      "name": "M. Brink",
-      "number": 8,
-      "position": "CM",
+      "name": "Sofus Berger Brix -",
+      "number": 16,
+      "position": "CAM",
       "overall": 63,
       "attributes": {
-        "pace": 65,
-        "shooting": 55,
-        "passing": 66,
-        "dribbling": 63,
-        "defending": 62,
-        "physicality": 61,
-        "stamina": 80,
-        "awareness": 60,
-        "composure": 66
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/262/537/25_120.png"
     },
     {
-      "name": "G. Marcussen",
-      "number": 9,
+      "name": "Ramazan Orazov -",
+      "number": 17,
       "position": "CM",
-      "overall": 63,
-      "attributes": {
-        "pace": 76,
-        "shooting": 56,
-        "passing": 60,
-        "dribbling": 64,
-        "defending": 43,
-        "physicality": 56,
-        "stamina": 64,
-        "awareness": 55,
-        "composure": 46
-      }
-    },
-    {
-      "name": "G. Dahl",
-      "number": 10,
-      "position": "LB",
       "overall": 62,
       "attributes": {
-        "pace": 72,
-        "shooting": 32,
-        "passing": 61,
-        "dribbling": 59,
-        "defending": 59,
-        "physicality": 60,
-        "stamina": 65,
-        "awareness": 60,
-        "composure": 61
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/071/027/25_120.png"
     },
     {
-      "name": "S. Jørgensen",
-      "number": 11,
-      "position": "RW",
+      "name": "Mads Lautrup Freundlich -",
+      "number": 18,
+      "position": "CM",
       "overall": 61,
       "attributes": {
-        "pace": 72,
-        "shooting": 59,
-        "passing": 58,
-        "dribbling": 62,
-        "defending": 22,
-        "physicality": 52,
-        "stamina": 63,
-        "awareness": 50,
-        "composure": 64
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/073/644/25_120.png"
     },
     {
-      "name": "S. Tengstedt",
-      "number": 12,
-      "position": "CM",
+      "name": "Alexander Illum Simmelhack -",
+      "number": 19,
+      "position": "ST",
       "overall": 60,
       "attributes": {
-        "pace": 77,
-        "shooting": 58,
-        "passing": 56,
-        "dribbling": 64,
-        "defending": 17,
-        "physicality": 66,
-        "stamina": 61,
-        "awareness": 55,
-        "composure": 53
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/267/783/25_120.png"
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "name": "Switzerland",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "Y. Sommer",
@@ -8,10 +9,11 @@
       "position": "GK",
       "overall": 85,
       "attributes": {
-        "pace": 79,
-        "defending": 86,
-        "passing": 81,
-        "dribbling": 86,
+        "pace": 54,
+        "shooting": 13,
+        "passing": 40,
+        "dribbling": 15,
+        "defending": 19,
         "physicality": 68,
         "stamina": 45,
         "awareness": 82,
@@ -55,7 +57,7 @@
     {
       "name": "M. Akanji",
       "number": 4,
-      "position": "CB",
+      "position": "CM",
       "overall": 80,
       "attributes": {
         "pace": 84,
@@ -140,7 +142,7 @@
     {
       "name": "N. Elvedi",
       "number": 9,
-      "position": "CB",
+      "position": "CM",
       "overall": 79,
       "attributes": {
         "pace": 81,
@@ -160,10 +162,11 @@
       "position": "GK",
       "overall": 79,
       "attributes": {
-        "pace": 80,
-        "defending": 83,
-        "passing": 78,
-        "dribbling": 74,
+        "pace": 26,
+        "shooting": 10,
+        "passing": 39,
+        "dribbling": 24,
+        "defending": 15,
         "physicality": 81,
         "stamina": 21,
         "awareness": 77,
@@ -261,10 +264,11 @@
       "position": "GK",
       "overall": 77,
       "attributes": {
-        "pace": 77,
-        "defending": 79,
-        "passing": 75,
-        "dribbling": 75,
+        "pace": 51,
+        "shooting": 17,
+        "passing": 45,
+        "dribbling": 27,
+        "defending": 21,
         "physicality": 72,
         "stamina": 35,
         "awareness": 74,
@@ -274,7 +278,7 @@
     {
       "name": "R. Rodríguez",
       "number": 17,
-      "position": "CB",
+      "position": "CM",
       "overall": 76,
       "attributes": {
         "pace": 72,
@@ -291,7 +295,7 @@
     {
       "name": "F. Schär",
       "number": 18,
-      "position": "CB",
+      "position": "CM",
       "overall": 76,
       "attributes": {
         "pace": 59,
@@ -328,10 +332,11 @@
       "position": "GK",
       "overall": 76,
       "attributes": {
-        "pace": 77,
-        "defending": 77,
-        "passing": 75,
-        "dribbling": 75,
+        "pace": 49,
+        "shooting": 16,
+        "passing": 35,
+        "dribbling": 22,
+        "defending": 20,
         "physicality": 74,
         "stamina": 37,
         "awareness": 66,

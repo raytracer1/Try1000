@@ -1,6 +1,7 @@
 {
   "name": "Korea Republic",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "H. Son",
@@ -20,8 +21,25 @@
       }
     },
     {
-      "name": "Hwang Ui Jo",
+      "name": "14 J. Park",
       "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 76,
+        "shooting": 70,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 52,
+        "physicality": 59,
+        "stamina": 86,
+        "awareness": 82,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Hwang Ui Jo",
+      "number": 3,
       "position": "CM",
       "overall": 76,
       "attributes": {
@@ -38,7 +56,7 @@
     },
     {
       "name": "21 Kim Shin Wook",
-      "number": 3,
+      "number": 4,
       "position": "CM",
       "overall": 76,
       "attributes": {
@@ -55,7 +73,7 @@
     },
     {
       "name": "Hwang Hee Chan",
-      "number": 4,
+      "number": 5,
       "position": "CM",
       "overall": 75,
       "attributes": {
@@ -72,7 +90,7 @@
     },
     {
       "name": "Lee Jae Sung",
-      "number": 5,
+      "number": 6,
       "position": "CM",
       "overall": 75,
       "attributes": {
@@ -89,14 +107,15 @@
     },
     {
       "name": "Jo Hyeon Woo",
-      "number": 6,
+      "number": 7,
       "position": "GK",
       "overall": 75,
       "attributes": {
-        "pace": 76,
-        "defending": 81,
-        "passing": 71,
-        "dribbling": 73,
+        "pace": 50,
+        "shooting": 18,
+        "passing": 28,
+        "dribbling": 12,
+        "defending": 18,
         "physicality": 33,
         "stamina": 29,
         "awareness": 72,
@@ -105,7 +124,7 @@
     },
     {
       "name": "Ki Sung Yueng",
-      "number": 7,
+      "number": 8,
       "position": "CDM",
       "overall": 74,
       "attributes": {
@@ -122,7 +141,7 @@
     },
     {
       "name": "Kangin Lee",
-      "number": 8,
+      "number": 9,
       "position": "CM",
       "overall": 74,
       "attributes": {
@@ -139,7 +158,7 @@
     },
     {
       "name": "Kim Min Jae",
-      "number": 9,
+      "number": 10,
       "position": "CB",
       "overall": 74,
       "attributes": {
@@ -156,8 +175,8 @@
     },
     {
       "name": "Jang Hyeon Soo",
-      "number": 10,
-      "position": "CB",
+      "number": 11,
+      "position": "CM",
       "overall": 74,
       "attributes": {
         "pace": 66,
@@ -173,7 +192,7 @@
     },
     {
       "name": "Yoon Bit Garam",
-      "number": 11,
+      "number": 12,
       "position": "CM",
       "overall": 73,
       "attributes": {
@@ -190,14 +209,15 @@
     },
     {
       "name": "Kang Hyeon Mu",
-      "number": 12,
+      "number": 13,
       "position": "GK",
       "overall": 73,
       "attributes": {
-        "pace": 75,
-        "defending": 78,
-        "passing": 69,
-        "dribbling": 70,
+        "pace": 47,
+        "shooting": 16,
+        "passing": 29,
+        "dribbling": 20,
+        "defending": 20,
         "physicality": 32,
         "stamina": 27,
         "awareness": 68,
@@ -206,7 +226,7 @@
     },
     {
       "name": "Kim Bo Kyung",
-      "number": 13,
+      "number": 14,
       "position": "CM",
       "overall": 72,
       "attributes": {
@@ -223,7 +243,7 @@
     },
     {
       "name": "Han Kyo Won",
-      "number": 14,
+      "number": 15,
       "position": "CM",
       "overall": 72,
       "attributes": {
@@ -240,7 +260,7 @@
     },
     {
       "name": "Kim Tae Hwan",
-      "number": 15,
+      "number": 16,
       "position": "RB",
       "overall": 72,
       "attributes": {
@@ -257,7 +277,7 @@
     },
     {
       "name": "Kang Sang Woo",
-      "number": 16,
+      "number": 17,
       "position": "LW",
       "overall": 72,
       "attributes": {
@@ -274,7 +294,7 @@
     },
     {
       "name": "Kwon Chang Hoon",
-      "number": 17,
+      "number": 18,
       "position": "RW",
       "overall": 72,
       "attributes": {
@@ -291,7 +311,7 @@
     },
     {
       "name": "20 Hwang In beom",
-      "number": 18,
+      "number": 19,
       "position": "CM",
       "overall": 72,
       "attributes": {
@@ -308,8 +328,8 @@
     },
     {
       "name": "Kwon Kyung Won",
-      "number": 19,
-      "position": "CB",
+      "number": 20,
+      "position": "CM",
       "overall": 72,
       "attributes": {
         "pace": 62,
@@ -325,7 +345,7 @@
     },
     {
       "name": "Hong Chul",
-      "number": 20,
+      "number": 21,
       "position": "LB",
       "overall": 71,
       "attributes": {
@@ -342,7 +362,7 @@
     },
     {
       "name": "Lee Seung Gi",
-      "number": 21,
+      "number": 22,
       "position": "CM",
       "overall": 71,
       "attributes": {
@@ -359,7 +379,7 @@
     },
     {
       "name": "Choi Young Joon",
-      "number": 22,
+      "number": 23,
       "position": "CM",
       "overall": 71,
       "attributes": {
@@ -372,23 +392,6 @@
         "stamina": 91,
         "awareness": 67,
         "composure": 57
-      }
-    },
-    {
-      "name": "Son Jun Ho",
-      "number": 23,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 65,
-        "shooting": 56,
-        "passing": 76,
-        "dribbling": 63,
-        "defending": 67,
-        "physicality": 69,
-        "stamina": 92,
-        "awareness": 67,
-        "composure": 60
       }
     }
   ]

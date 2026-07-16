@@ -1,6 +1,7 @@
 {
   "name": "Suriname",
   "type": "nation",
+  "logo": "",
   "players": [
     {
       "name": "R. Haps",
@@ -110,10 +111,11 @@
       "position": "GK",
       "overall": 69,
       "attributes": {
-        "pace": 72,
-        "defending": 74,
-        "passing": 65,
-        "dribbling": 65,
+        "pace": 50,
+        "shooting": 12,
+        "passing": 45,
+        "dribbling": 19,
+        "defending": 15,
         "physicality": 77,
         "stamina": 38,
         "awareness": 65,
