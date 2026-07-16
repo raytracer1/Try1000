@@ -132,8 +132,10 @@ def import_csv(csv_path: str, output_dir: str):
                 json.dump({"name": team_name, "type": prefix, "players": squad}, f, ensure_ascii=False, indent=2)
             all_teams.append({"name": team_name, "type": prefix, "file": f"{prefix}/{safe}.json", "players": len(squad)})
 
-    with open(Path(output_dir) / "index.json", "w", encoding="utf-8") as f:
-        json.dump({"teams": sorted(all_teams, key=lambda t: t["name"])}, f, ensure_ascii=False, indent=2)
+    with open(Path(output_dir) / "clubs.json", "w", encoding="utf-8") as f:
+        json.dump({"teams": sorted(club_teams, key=lambda t: t["name"])}, f, ensure_ascii=False, indent=2)
+    with open(Path(output_dir) / "nations.json", "w", encoding="utf-8") as f:
+        json.dump({"teams": sorted(nation_teams, key=lambda t: t["name"])}, f, ensure_ascii=False, indent=2)
 
     print(f"\n✅ Done: {total} players from {len(players_by_team)} clubs + {len(players_by_nation)} nations")
     print(f"   Output: {os.path.abspath(output_dir)}/")

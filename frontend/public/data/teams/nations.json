@@ -1,0 +1,556 @@
+{
+  "teams": [
+    {
+      "name": "Albania",
+      "type": "nation",
+      "file": "nation/Albania.json",
+      "players": 23
+    },
+    {
+      "name": "Algeria",
+      "type": "nation",
+      "file": "nation/Algeria.json",
+      "players": 23
+    },
+    {
+      "name": "Angola",
+      "type": "nation",
+      "file": "nation/Angola.json",
+      "players": 19
+    },
+    {
+      "name": "Argentina",
+      "type": "nation",
+      "file": "nation/Argentina.json",
+      "players": 23
+    },
+    {
+      "name": "Australia",
+      "type": "nation",
+      "file": "nation/Australia.json",
+      "players": 23
+    },
+    {
+      "name": "Austria",
+      "type": "nation",
+      "file": "nation/Austria.json",
+      "players": 23
+    },
+    {
+      "name": "Belgium",
+      "type": "nation",
+      "file": "nation/Belgium.json",
+      "players": 23
+    },
+    {
+      "name": "Benin",
+      "type": "nation",
+      "file": "nation/Benin.json",
+      "players": 12
+    },
+    {
+      "name": "Bolivia",
+      "type": "nation",
+      "file": "nation/Bolivia.json",
+      "players": 23
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "type": "nation",
+      "file": "nation/Bosnia_and_Herzegovina.json",
+      "players": 23
+    },
+    {
+      "name": "Brazil",
+      "type": "nation",
+      "file": "nation/Brazil.json",
+      "players": 23
+    },
+    {
+      "name": "Bulgaria",
+      "type": "nation",
+      "file": "nation/Bulgaria.json",
+      "players": 23
+    },
+    {
+      "name": "Burkina Faso",
+      "type": "nation",
+      "file": "nation/Burkina_Faso.json",
+      "players": 19
+    },
+    {
+      "name": "Cameroon",
+      "type": "nation",
+      "file": "nation/Cameroon.json",
+      "players": 23
+    },
+    {
+      "name": "Canada",
+      "type": "nation",
+      "file": "nation/Canada.json",
+      "players": 23
+    },
+    {
+      "name": "Cape Verde Islands",
+      "type": "nation",
+      "file": "nation/Cape_Verde_Islands.json",
+      "players": 21
+    },
+    {
+      "name": "Chile",
+      "type": "nation",
+      "file": "nation/Chile.json",
+      "players": 23
+    },
+    {
+      "name": "China PR",
+      "type": "nation",
+      "file": "nation/China_PR.json",
+      "players": 23
+    },
+    {
+      "name": "Colombia",
+      "type": "nation",
+      "file": "nation/Colombia.json",
+      "players": 23
+    },
+    {
+      "name": "Comoros",
+      "type": "nation",
+      "file": "nation/Comoros.json",
+      "players": 11
+    },
+    {
+      "name": "Congo",
+      "type": "nation",
+      "file": "nation/Congo.json",
+      "players": 18
+    },
+    {
+      "name": "Congo DR",
+      "type": "nation",
+      "file": "nation/Congo_DR.json",
+      "players": 23
+    },
+    {
+      "name": "Costa Rica",
+      "type": "nation",
+      "file": "nation/Costa_Rica.json",
+      "players": 23
+    },
+    {
+      "name": "Croatia",
+      "type": "nation",
+      "file": "nation/Croatia.json",
+      "players": 23
+    },
+    {
+      "name": "Curacao",
+      "type": "nation",
+      "file": "nation/Curacao.json",
+      "players": 11
+    },
+    {
+      "name": "Cyprus",
+      "type": "nation",
+      "file": "nation/Cyprus.json",
+      "players": 15
+    },
+    {
+      "name": "Czech Republic",
+      "type": "nation",
+      "file": "nation/Czech_Republic.json",
+      "players": 23
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "type": "nation",
+      "file": "nation/Côte_d'Ivoire.json",
+      "players": 23
+    },
+    {
+      "name": "Denmark",
+      "type": "nation",
+      "file": "nation/Denmark.json",
+      "players": 23
+    },
+    {
+      "name": "Ecuador",
+      "type": "nation",
+      "file": "nation/Ecuador.json",
+      "players": 23
+    },
+    {
+      "name": "Egypt",
+      "type": "nation",
+      "file": "nation/Egypt.json",
+      "players": 23
+    },
+    {
+      "name": "England",
+      "type": "nation",
+      "file": "nation/England.json",
+      "players": 23
+    },
+    {
+      "name": "Finland",
+      "type": "nation",
+      "file": "nation/Finland.json",
+      "players": 23
+    },
+    {
+      "name": "France",
+      "type": "nation",
+      "file": "nation/France.json",
+      "players": 23
+    },
+    {
+      "name": "Gabon",
+      "type": "nation",
+      "file": "nation/Gabon.json",
+      "players": 16
+    },
+    {
+      "name": "Gambia",
+      "type": "nation",
+      "file": "nation/Gambia.json",
+      "players": 23
+    },
+    {
+      "name": "Georgia",
+      "type": "nation",
+      "file": "nation/Georgia.json",
+      "players": 23
+    },
+    {
+      "name": "Germany",
+      "type": "nation",
+      "file": "nation/Germany.json",
+      "players": 23
+    },
+    {
+      "name": "Ghana",
+      "type": "nation",
+      "file": "nation/Ghana.json",
+      "players": 23
+    },
+    {
+      "name": "Greece",
+      "type": "nation",
+      "file": "nation/Greece.json",
+      "players": 23
+    },
+    {
+      "name": "Guinea",
+      "type": "nation",
+      "file": "nation/Guinea.json",
+      "players": 23
+    },
+    {
+      "name": "Guinea Bissau",
+      "type": "nation",
+      "file": "nation/Guinea_Bissau.json",
+      "players": 13
+    },
+    {
+      "name": "Honduras",
+      "type": "nation",
+      "file": "nation/Honduras.json",
+      "players": 14
+    },
+    {
+      "name": "Hungary",
+      "type": "nation",
+      "file": "nation/Hungary.json",
+      "players": 23
+    },
+    {
+      "name": "Iceland",
+      "type": "nation",
+      "file": "nation/Iceland.json",
+      "players": 23
+    },
+    {
+      "name": "India",
+      "type": "nation",
+      "file": "nation/India.json",
+      "players": 19
+    },
+    {
+      "name": "Iran",
+      "type": "nation",
+      "file": "nation/Iran.json",
+      "players": 21
+    },
+    {
+      "name": "Israel",
+      "type": "nation",
+      "file": "nation/Israel.json",
+      "players": 23
+    },
+    {
+      "name": "Italy",
+      "type": "nation",
+      "file": "nation/Italy.json",
+      "players": 23
+    },
+    {
+      "name": "Jamaica",
+      "type": "nation",
+      "file": "nation/Jamaica.json",
+      "players": 23
+    },
+    {
+      "name": "Japan",
+      "type": "nation",
+      "file": "nation/Japan.json",
+      "players": 23
+    },
+    {
+      "name": "Korea Republic",
+      "type": "nation",
+      "file": "nation/Korea_Republic.json",
+      "players": 23
+    },
+    {
+      "name": "Kosovo",
+      "type": "nation",
+      "file": "nation/Kosovo.json",
+      "players": 23
+    },
+    {
+      "name": "Mali",
+      "type": "nation",
+      "file": "nation/Mali.json",
+      "players": 23
+    },
+    {
+      "name": "Mexico",
+      "type": "nation",
+      "file": "nation/Mexico.json",
+      "players": 23
+    },
+    {
+      "name": "Montenegro",
+      "type": "nation",
+      "file": "nation/Montenegro.json",
+      "players": 23
+    },
+    {
+      "name": "Morocco",
+      "type": "nation",
+      "file": "nation/Morocco.json",
+      "players": 23
+    },
+    {
+      "name": "Netherlands",
+      "type": "nation",
+      "file": "nation/Netherlands.json",
+      "players": 23
+    },
+    {
+      "name": "New Zealand",
+      "type": "nation",
+      "file": "nation/New_Zealand.json",
+      "players": 23
+    },
+    {
+      "name": "Nigeria",
+      "type": "nation",
+      "file": "nation/Nigeria.json",
+      "players": 23
+    },
+    {
+      "name": "North Macedonia",
+      "type": "nation",
+      "file": "nation/North_Macedonia.json",
+      "players": 20
+    },
+    {
+      "name": "Northern Ireland",
+      "type": "nation",
+      "file": "nation/Northern_Ireland.json",
+      "players": 23
+    },
+    {
+      "name": "Norway",
+      "type": "nation",
+      "file": "nation/Norway.json",
+      "players": 23
+    },
+    {
+      "name": "Panama",
+      "type": "nation",
+      "file": "nation/Panama.json",
+      "players": 13
+    },
+    {
+      "name": "Paraguay",
+      "type": "nation",
+      "file": "nation/Paraguay.json",
+      "players": 23
+    },
+    {
+      "name": "Peru",
+      "type": "nation",
+      "file": "nation/Peru.json",
+      "players": 23
+    },
+    {
+      "name": "Poland",
+      "type": "nation",
+      "file": "nation/Poland.json",
+      "players": 23
+    },
+    {
+      "name": "Portugal",
+      "type": "nation",
+      "file": "nation/Portugal.json",
+      "players": 23
+    },
+    {
+      "name": "Republic of Ireland",
+      "type": "nation",
+      "file": "nation/Republic_of_Ireland.json",
+      "players": 23
+    },
+    {
+      "name": "Romania",
+      "type": "nation",
+      "file": "nation/Romania.json",
+      "players": 23
+    },
+    {
+      "name": "Russia",
+      "type": "nation",
+      "file": "nation/Russia.json",
+      "players": 23
+    },
+    {
+      "name": "Saudi Arabia",
+      "type": "nation",
+      "file": "nation/Saudi_Arabia.json",
+      "players": 23
+    },
+    {
+      "name": "Scotland",
+      "type": "nation",
+      "file": "nation/Scotland.json",
+      "players": 23
+    },
+    {
+      "name": "Senegal",
+      "type": "nation",
+      "file": "nation/Senegal.json",
+      "players": 23
+    },
+    {
+      "name": "Serbia",
+      "type": "nation",
+      "file": "nation/Serbia.json",
+      "players": 23
+    },
+    {
+      "name": "Sierra Leone",
+      "type": "nation",
+      "file": "nation/Sierra_Leone.json",
+      "players": 12
+    },
+    {
+      "name": "Slovakia",
+      "type": "nation",
+      "file": "nation/Slovakia.json",
+      "players": 23
+    },
+    {
+      "name": "Slovenia",
+      "type": "nation",
+      "file": "nation/Slovenia.json",
+      "players": 23
+    },
+    {
+      "name": "South Africa",
+      "type": "nation",
+      "file": "nation/South_Africa.json",
+      "players": 23
+    },
+    {
+      "name": "Spain",
+      "type": "nation",
+      "file": "nation/Spain.json",
+      "players": 23
+    },
+    {
+      "name": "Suriname",
+      "type": "nation",
+      "file": "nation/Suriname.json",
+      "players": 12
+    },
+    {
+      "name": "Sweden",
+      "type": "nation",
+      "file": "nation/Sweden.json",
+      "players": 23
+    },
+    {
+      "name": "Switzerland",
+      "type": "nation",
+      "file": "nation/Switzerland.json",
+      "players": 23
+    },
+    {
+      "name": "Togo",
+      "type": "nation",
+      "file": "nation/Togo.json",
+      "players": 17
+    },
+    {
+      "name": "Tunisia",
+      "type": "nation",
+      "file": "nation/Tunisia.json",
+      "players": 23
+    },
+    {
+      "name": "Turkey",
+      "type": "nation",
+      "file": "nation/Turkey.json",
+      "players": 23
+    },
+    {
+      "name": "Ukraine",
+      "type": "nation",
+      "file": "nation/Ukraine.json",
+      "players": 23
+    },
+    {
+      "name": "United States",
+      "type": "nation",
+      "file": "nation/United_States.json",
+      "players": 23
+    },
+    {
+      "name": "Uruguay",
+      "type": "nation",
+      "file": "nation/Uruguay.json",
+      "players": 23
+    },
+    {
+      "name": "Venezuela",
+      "type": "nation",
+      "file": "nation/Venezuela.json",
+      "players": 23
+    },
+    {
+      "name": "Wales",
+      "type": "nation",
+      "file": "nation/Wales.json",
+      "players": 23
+    },
+    {
+      "name": "Zimbabwe",
+      "type": "nation",
+      "file": "nation/Zimbabwe.json",
+      "players": 11
+    }
+  ]
+}

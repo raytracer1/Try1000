@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { useSimulationStore } from "../../stores/simulationStore";
 import { api } from "../../lib/api";
 
 export default function SimulationPage() {
   const { activeJob, isRunning, results, startSimulation, cancelPolling } = useSimulationStore();
-  const [teams, setTeams] = useState<any[]>([]);
+  const [clubs, setClubs] = useState<any[]>([]);
+  const [nations, setNations] = useState<any[]>([]);
   const [searchH, setSearchH] = useState("");
   const [searchA, setSearchA] = useState("");
   const [home, setHome] = useState<any>(null);
@@ -15,19 +16,16 @@ export default function SimulationPage() {
   const [awayTacticId, setAwayTacticId] = useState("");
   const [tactics, setTactics] = useState<any[]>([]);
   const [matchCount, setMatchCount] = useState(10);
-  const [filter, setFilter] = useState<"club" | "nation">("club");
+  const [filterH, setFilterH] = useState<"club" | "nation">("club");
+  const [filterA, setFilterA] = useState<"club" | "nation">("club");
   const [importing, setImporting] = useState(false);
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("/data/teams/index.json").then(r => r.json()).then(d => setTeams(d.teams || [])).catch(() => {});
+    fetch("/data/teams/clubs.json").then(r => r.json()).then(d => setClubs(d.teams || [])).catch(() => {});
+    fetch("/data/teams/nations.json").then(r => r.json()).then(d => setNations(d.teams || [])).catch(() => {});
     api.getTactics().then(setTactics).catch(() => []);
   }, []);
-
-  const filtered = useMemo(() =>
-    teams.filter(t => t.type === filter && t.name.toLowerCase().includes("")).slice(0, 100),
-    [teams, filter]
-  );
 
   const loadTeam = async (t: any, side: "home" | "away") => {
     const resp = await fetch(`/data/teams/${t.file}`);
@@ -93,7 +91,7 @@ export default function SimulationPage() {
         <div className="bg-white border border-stone-200 rounded-lg p-4">
           <label className="text-sm font-semibold text-stone-700 block mb-2">Home Team</label>
           <div className="flex gap-2 mb-2">
-            <select className="text-xs bg-stone-50 border rounded px-2 py-1" value={filter} onChange={(e) => setFilter(e.target.value as any)}>
+            <select className="text-xs bg-stone-50 border rounded px-2 py-1" value={filterH} onChange={(e) => { setFilterH(e.target.value as any); setHome(null); setSearchH(""); }}>
               <option value="club">Clubs</option>
               <option value="nation">Nations</option>
             </select>
@@ -101,7 +99,7 @@ export default function SimulationPage() {
               value={searchH} onChange={(e) => { setSearchH(e.target.value); setHome(null); }} />
           </div>
           <div className="max-h-40 overflow-y-auto mb-2 border rounded">
-            {filtered.filter(t => t.name.toLowerCase().includes(searchH.toLowerCase())).slice(0, 30).map((t: any) => (
+            {(filterH === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchH.toLowerCase())).map((t: any) => (
               <button key={t.file} onClick={() => loadTeam(t, "home")}
                 className={`block w-full text-left px-2 py-1 text-xs border-b border-stone-100 hover:bg-green-50 ${home?.name === t.name ? "bg-green-100" : ""}`}>
                 {t.name} ({t.players}p)
@@ -119,10 +117,16 @@ export default function SimulationPage() {
         {/* Away Team */}
         <div className="bg-white border border-stone-200 rounded-lg p-4">
           <label className="text-sm font-semibold text-stone-700 block mb-2">Away Team</label>
-          <input className="w-full bg-stone-50 border border-stone-200 rounded px-2 py-1 text-xs mb-2" placeholder="Search..."
-            value={searchA} onChange={(e) => { setSearchA(e.target.value); setAway(null); }} />
+          <div className="flex gap-2 mb-2">
+            <select className="text-xs bg-stone-50 border rounded px-2 py-1" value={filterA} onChange={(e) => { setFilterA(e.target.value as any); setAway(null); setSearchA(""); }}>
+              <option value="club">Clubs</option>
+              <option value="nation">Nations</option>
+            </select>
+            <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-2 py-1 text-xs" placeholder="Search..."
+              value={searchA} onChange={(e) => { setSearchA(e.target.value); setAway(null); }} />
+          </div>
           <div className="max-h-40 overflow-y-auto mb-2 border rounded">
-            {filtered.filter(t => t.name.toLowerCase().includes(searchA.toLowerCase())).slice(0, 30).map((t: any) => (
+            {(filterA === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchA.toLowerCase())).map((t: any) => (
               <button key={t.file} onClick={() => loadTeam(t, "away")}
                 className={`block w-full text-left px-2 py-1 text-xs border-b border-stone-100 hover:bg-green-50 ${away?.name === t.name ? "bg-green-100" : ""}`}>
                 {t.name} ({t.players}p)
