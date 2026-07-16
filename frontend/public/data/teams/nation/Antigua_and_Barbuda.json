@@ -1,0 +1,109 @@
+{
+  "name": "Antigua and Barbuda",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "M. Romeo",
+      "number": 15,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 47,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 69,
+        "physicality": 67,
+        "stamina": 80,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "14 M. Leigertwood",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 63,
+        "shooting": 52,
+        "passing": 64,
+        "dribbling": 58,
+        "defending": 68,
+        "physicality": 84,
+        "stamina": 76,
+        "awareness": 63,
+        "composure": 70
+      }
+    },
+    {
+      "name": "L. James-Wildin",
+      "number": 2,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 80,
+        "shooting": 49,
+        "passing": 55,
+        "dribbling": 61,
+        "defending": 57,
+        "physicality": 76,
+        "stamina": 82,
+        "awareness": 56,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Z. Francis-Angol",
+      "number": 23,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 74,
+        "shooting": 34,
+        "passing": 56,
+        "dribbling": 57,
+        "defending": 58,
+        "physicality": 65,
+        "stamina": 74,
+        "awareness": 57,
+        "composure": 53
+      }
+    },
+    {
+      "name": "J. Parker",
+      "number": 13,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 83,
+        "shooting": 58,
+        "passing": 57,
+        "dribbling": 59,
+        "defending": 29,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 R. Browne",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 90,
+        "shooting": 47,
+        "passing": 54,
+        "dribbling": 63,
+        "defending": 37,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 46,
+        "composure": 52
+      }
+    }
+  ]
+}

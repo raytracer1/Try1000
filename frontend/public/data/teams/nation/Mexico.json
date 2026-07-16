@@ -1,398 +1,151 @@
 {
   "name": "Mexico",
   "type": "nation",
-  "logo": "",
+  "logo": "https://cdn.sofifa.net/meta/team/18576/30.png",
   "players": [
     {
-      "name": "R. Jiménez",
-      "number": 1,
+      "name": "Santiago Tomás Giménez -",
+      "number": 11,
       "position": "ST",
-      "overall": 83,
-      "attributes": {
-        "pace": 80,
-        "shooting": 84,
-        "passing": 81,
-        "dribbling": 84,
-        "defending": 38,
-        "physicality": 84,
-        "stamina": 82,
-        "awareness": 82,
-        "composure": 81
-      }
-    },
-    {
-      "name": "C. Vela",
-      "number": 2,
-      "position": "RW",
-      "overall": 83,
-      "attributes": {
-        "pace": 80,
-        "shooting": 85,
-        "passing": 81,
-        "dribbling": 84,
-        "defending": 22,
-        "physicality": 70,
-        "stamina": 69,
-        "awareness": 83,
-        "composure": 83
-      }
-    },
-    {
-      "name": "J. Corona",
-      "number": 3,
-      "position": "RW",
-      "overall": 82,
-      "attributes": {
-        "pace": 81,
-        "shooting": 66,
-        "passing": 82,
-        "dribbling": 85,
-        "defending": 74,
-        "physicality": 39,
-        "stamina": 88,
-        "awareness": 84,
-        "composure": 87
-      }
-    },
-    {
-      "name": "H. Herrera",
-      "number": 4,
-      "position": "CM",
-      "overall": 81,
+      "overall": 79,
       "attributes": {
         "pace": 70,
-        "shooting": 72,
-        "passing": 81,
-        "dribbling": 76,
-        "defending": 82,
-        "physicality": 80,
-        "stamina": 93,
-        "awareness": 81,
-        "composure": 77
-      }
-    },
-    {
-      "name": "H. Lozano",
-      "number": 5,
-      "position": "CM",
-      "overall": 81,
-      "attributes": {
-        "pace": 93,
-        "shooting": 77,
-        "passing": 74,
-        "dribbling": 83,
-        "defending": 35,
-        "physicality": 54,
-        "stamina": 76,
-        "awareness": 81,
-        "composure": 75
-      }
-    },
-    {
-      "name": "G. Ochoa",
-      "number": 6,
-      "position": "GK",
-      "overall": 80,
-      "attributes": {
-        "pace": 50,
-        "shooting": 12,
-        "passing": 36,
-        "dribbling": 10,
-        "defending": 10,
-        "physicality": 56,
-        "stamina": 34,
-        "awareness": 74,
-        "composure": 62
-      }
-    },
-    {
-      "name": "A. Guardado",
-      "number": 7,
-      "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 62,
-        "shooting": 64,
-        "passing": 82,
-        "dribbling": 78,
-        "defending": 75,
-        "physicality": 60,
-        "stamina": 81,
-        "awareness": 77,
-        "composure": 76
-      }
-    },
-    {
-      "name": "J. Hernández",
-      "number": 8,
-      "position": "ST",
-      "overall": 78,
-      "attributes": {
-        "pace": 65,
-        "shooting": 81,
-        "passing": 65,
-        "dribbling": 73,
-        "defending": 29,
-        "physicality": 66,
-        "stamina": 69,
-        "awareness": 84,
-        "composure": 79
-      }
-    },
-    {
-      "name": "A. Talavera",
-      "number": 9,
-      "position": "GK",
-      "overall": 78,
-      "attributes": {
-        "pace": 58,
-        "shooting": 13,
-        "passing": 35,
-        "dribbling": 10,
-        "defending": 13,
-        "physicality": 75,
-        "stamina": 36,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 60
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/245/152/25_120.png"
     },
     {
-      "name": "L. Montes",
-      "number": 10,
+      "name": "Julián Andrés Quiñones Quiñones -",
+      "number": 16,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/234/579/25_120.png"
+    },
+    {
+      "name": "Edson Omar Álvarez Velázquez -",
+      "number": 4,
+      "position": "CDM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/235/844/25_120.png"
+    },
+    {
+      "name": "Orbelín Pineda Alvarado -",
+      "number": 17,
       "position": "CAM",
       "overall": 77,
       "attributes": {
-        "pace": 63,
-        "shooting": 65,
-        "passing": 81,
-        "dribbling": 77,
-        "defending": 60,
-        "physicality": 63,
-        "stamina": 81,
-        "awareness": 80,
-        "composure": 81
-      }
-    },
-    {
-      "name": "O. Pineda",
-      "number": 11,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 87,
-        "shooting": 75,
-        "passing": 75,
-        "dribbling": 80,
-        "defending": 65,
-        "physicality": 57,
-        "stamina": 85,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
         "awareness": 70,
-        "composure": 69
-      }
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/224/574/25_120.png"
     },
     {
-      "name": "L. Rodríguez",
-      "number": 12,
-      "position": "RB",
-      "overall": 77,
-      "attributes": {
-        "pace": 82,
-        "shooting": 59,
-        "passing": 75,
-        "dribbling": 75,
-        "defending": 73,
-        "physicality": 77,
-        "stamina": 91,
-        "awareness": 74,
-        "composure": 75
-      }
-    },
-    {
-      "name": "R. Funes Mori",
-      "number": 13,
+      "name": "Raúl Alonso Jiménez Rodríguez -",
+      "number": 9,
       "position": "ST",
       "overall": 77,
       "attributes": {
-        "pace": 75,
-        "shooting": 83,
-        "passing": 70,
-        "dribbling": 75,
-        "defending": 45,
-        "physicality": 81,
-        "stamina": 82,
-        "awareness": 73,
-        "composure": 72
-      }
-    },
-    {
-      "name": "L. Romo",
-      "number": 14,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 69,
-        "shooting": 60,
-        "passing": 80,
-        "dribbling": 64,
-        "defending": 77,
-        "physicality": 90,
-        "stamina": 80,
-        "awareness": 72,
-        "composure": 69
-      }
-    },
-    {
-      "name": "E. Álvarez",
-      "number": 15,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 71,
-        "shooting": 50,
-        "passing": 74,
-        "dribbling": 63,
-        "defending": 77,
-        "physicality": 84,
-        "stamina": 85,
-        "awareness": 75,
-        "composure": 68
-      }
-    },
-    {
-      "name": "H. Moreno",
-      "number": 16,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 55,
-        "shooting": 43,
-        "passing": 75,
-        "dribbling": 56,
-        "defending": 79,
-        "physicality": 72,
-        "stamina": 64,
-        "awareness": 76,
-        "composure": 75
-      }
-    },
-    {
-      "name": "J. dos Santos",
-      "number": 17,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 67,
-        "shooting": 61,
-        "passing": 85,
-        "dribbling": 76,
-        "defending": 71,
-        "physicality": 66,
-        "stamina": 78,
-        "awareness": 75,
-        "composure": 76
-      }
-    },
-    {
-      "name": "R. Alvarado",
-      "number": 18,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 72,
-        "shooting": 68,
-        "passing": 75,
-        "dribbling": 75,
-        "defending": 49,
-        "physicality": 71,
-        "stamina": 84,
-        "awareness": 70,
-        "composure": 68
-      }
-    },
-    {
-      "name": "S. Córdova",
-      "number": 19,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 85,
+        "pace": 70,
         "shooting": 70,
-        "passing": 74,
-        "dribbling": 80,
-        "defending": 51,
-        "physicality": 61,
-        "stamina": 82,
-        "awareness": 75,
-        "composure": 76
-      }
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/204/838/25_120.png"
     },
     {
-      "name": "H. Martín",
-      "number": 20,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 82,
-        "shooting": 78,
-        "passing": 71,
-        "dribbling": 73,
-        "defending": 21,
-        "physicality": 85,
-        "stamina": 78,
-        "awareness": 75,
-        "composure": 75
-      }
-    },
-    {
-      "name": "N. Araújo",
+      "name": "César Saúl Huerta Valera -",
       "number": 21,
-      "position": "CM",
-      "overall": 76,
+      "position": "LW",
+      "overall": 75,
       "attributes": {
-        "pace": 69,
-        "shooting": 34,
-        "passing": 72,
-        "dribbling": 53,
-        "defending": 78,
-        "physicality": 88,
-        "stamina": 69,
-        "awareness": 71,
-        "composure": 71
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/246/289/25_120.png"
     },
     {
-      "name": "R. Cota",
-      "number": 22,
-      "position": "CM",
-      "overall": 76,
+      "name": "Johan Felipe Vásquez Ibarra -",
+      "number": 5,
+      "position": "CB",
+      "overall": 75,
       "attributes": {
-        "pace": 56,
-        "shooting": 12,
-        "passing": 26,
-        "dribbling": 15,
-        "defending": 13,
-        "physicality": 80,
-        "stamina": 36,
-        "awareness": 73,
-        "composure": 65
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/244/349/25_120.png"
     },
     {
-      "name": "C. Acevedo",
-      "number": 23,
-      "position": "CM",
-      "overall": 76,
+      "name": "Rodrigo Jhossel Huescas Hurtado -",
+      "number": 19,
+      "position": "RB",
+      "overall": 72,
       "attributes": {
-        "pace": 41,
-        "shooting": 9,
-        "passing": 25,
-        "dribbling": 11,
-        "defending": 11,
-        "physicality": 45,
-        "stamina": 40,
-        "awareness": 72,
-        "composure": 51
-      }
+        "pace": 70,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/263/711/25_120.png"
     }
   ]
 }

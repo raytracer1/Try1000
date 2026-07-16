@@ -1,0 +1,126 @@
+{
+  "name": "Guyana",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "T. Ondaan",
+      "number": 27,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 86,
+        "shooting": 61,
+        "passing": 60,
+        "dribbling": 67,
+        "defending": 21,
+        "physicality": 60,
+        "stamina": 65,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 W. Creavalle",
+      "number": 2,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 56,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 61,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 C. Harriott",
+      "number": 11,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 81,
+        "shooting": 61,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 31,
+        "physicality": 52,
+        "stamina": 68,
+        "awareness": 59,
+        "composure": 64
+      }
+    },
+    {
+      "name": "T. Vancooten",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 72,
+        "shooting": 35,
+        "passing": 56,
+        "dribbling": 53,
+        "defending": 64,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "20 N. Danns",
+      "number": 35,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 55,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 51,
+        "defending": 60,
+        "physicality": 65,
+        "stamina": 60,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 M. Briggs",
+      "number": 30,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 76,
+        "shooting": 43,
+        "passing": 59,
+        "dribbling": 58,
+        "defending": 56,
+        "physicality": 71,
+        "stamina": 65,
+        "awareness": 54,
+        "composure": 60
+      }
+    },
+    {
+      "name": "21 B. Spencer-Adams",
+      "number": 51,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 52,
+        "shooting": 29,
+        "passing": 49,
+        "dribbling": 37,
+        "defending": 67,
+        "physicality": 69,
+        "stamina": 52,
+        "awareness": 52,
+        "composure": 45
+      }
+    }
+  ]
+}

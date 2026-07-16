@@ -1,0 +1,126 @@
+{
+  "name": "Mauritania",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "A. Kamara",
+      "number": 47,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 89,
+        "shooting": 64,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 27,
+        "physicality": 88,
+        "stamina": 64,
+        "awareness": 67,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. El Hacen",
+      "number": 26,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 54,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 72,
+        "physicality": 85,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 57
+      }
+    },
+    {
+      "name": "17 A. Ba",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 78,
+        "shooting": 66,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 22,
+        "physicality": 54,
+        "stamina": 56,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "K. Camara",
+      "number": 6,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 38,
+        "passing": 64,
+        "dribbling": 60,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 89,
+        "awareness": 64,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Abeid",
+      "number": 3,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 40,
+        "passing": 62,
+        "dribbling": 52,
+        "defending": 61,
+        "physicality": 74,
+        "stamina": 86,
+        "awareness": 62,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 H. Abou Demba",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 78,
+        "shooting": 29,
+        "passing": 58,
+        "dribbling": 60,
+        "defending": 62,
+        "physicality": 67,
+        "stamina": 74,
+        "awareness": 54,
+        "composure": 45
+      }
+    },
+    {
+      "name": "17 S. Sarr",
+      "number": 23,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 33,
+        "passing": 56,
+        "dribbling": 57,
+        "defending": 57,
+        "physicality": 71,
+        "stamina": 74,
+        "awareness": 66,
+        "composure": 52
+      }
+    }
+  ]
+}

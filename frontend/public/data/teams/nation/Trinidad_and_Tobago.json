@@ -1,0 +1,109 @@
+{
+  "name": "Trinidad and Tobago",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "L. García",
+      "number": 9,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 85,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 83,
+        "defending": 30,
+        "physicality": 80,
+        "stamina": 70,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 K. Hyland",
+      "number": 88,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 49,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 68,
+        "physicality": 85,
+        "stamina": 83,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "K. Molino",
+      "number": 9,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 74,
+        "defending": 53,
+        "physicality": 69,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Jones",
+      "number": 33,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 57,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 64,
+        "physicality": 70,
+        "stamina": 72,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "N. Powder",
+      "number": 26,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 80,
+        "shooting": 32,
+        "passing": 49,
+        "dribbling": 56,
+        "defending": 54,
+        "physicality": 65,
+        "stamina": 84,
+        "awareness": 59,
+        "composure": 42
+      }
+    },
+    {
+      "name": "D. Phillips",
+      "number": 20,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 74,
+        "shooting": 44,
+        "passing": 59,
+        "dribbling": 55,
+        "defending": 60,
+        "physicality": 68,
+        "stamina": 63,
+        "awareness": 57,
+        "composure": 52
+      }
+    }
+  ]
+}

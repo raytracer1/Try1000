@@ -1,0 +1,109 @@
+{
+  "name": "Iraq",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "21 A. Adnan",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 74,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 77,
+        "defending": 75,
+        "physicality": 84,
+        "stamina": 86,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Meram",
+      "number": 9,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 57,
+        "physicality": 68,
+        "stamina": 68,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Yasin",
+      "number": 19,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 80,
+        "shooting": 62,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 30,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "20 Y. Kasim",
+      "number": 16,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 59,
+        "shooting": 48,
+        "passing": 68,
+        "dribbling": 61,
+        "defending": 58,
+        "physicality": 70,
+        "stamina": 66,
+        "awareness": 58,
+        "composure": 77
+      }
+    },
+    {
+      "name": "F. Putros",
+      "number": 5,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 67,
+        "shooting": 54,
+        "passing": 59,
+        "dribbling": 54,
+        "defending": 60,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "20 M. Ali",
+      "number": 13,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 72,
+        "shooting": 59,
+        "passing": 56,
+        "dribbling": 66,
+        "defending": 10,
+        "physicality": 70,
+        "stamina": 60,
+        "awareness": 63,
+        "composure": 70
+      }
+    }
+  ]
+}

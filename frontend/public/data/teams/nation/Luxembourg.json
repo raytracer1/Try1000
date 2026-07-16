@@ -1,0 +1,177 @@
+{
+  "name": "Luxembourg",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "L. Barreiro Martins",
+      "number": 8,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 59,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 72,
+        "physicality": 43,
+        "stamina": 90,
+        "awareness": 72,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Gerson Rodrigues",
+      "number": 11,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 85,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 46,
+        "physicality": 90,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Chanot",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 51,
+        "shooting": 38,
+        "passing": 65,
+        "dribbling": 38,
+        "defending": 74,
+        "physicality": 87,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Jans",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 39,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "D. Sinani",
+      "number": 24,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 43,
+        "physicality": 72,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "Mica Pinto",
+      "number": 5,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 22,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 67,
+        "physicality": 56,
+        "stamina": 76,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "L. Gerson",
+      "number": 6,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 48,
+        "shooting": 41,
+        "passing": 68,
+        "dribbling": 58,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 V. Thill",
+      "number": 45,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 75,
+        "shooting": 53,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 20,
+        "physicality": 31,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 55
+      }
+    },
+    {
+      "name": "M. Deville",
+      "number": 27,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 73,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 37,
+        "physicality": 84,
+        "stamina": 77,
+        "awareness": 60,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Carlson",
+      "number": 3,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 73,
+        "shooting": 19,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 71,
+        "stamina": 60,
+        "awareness": 57,
+        "composure": 56
+      }
+    }
+  ]
+}

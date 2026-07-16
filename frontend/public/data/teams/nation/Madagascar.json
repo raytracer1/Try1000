@@ -1,0 +1,177 @@
+{
+  "name": "Madagascar",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "M. Ilaimaharitra",
+      "number": 26,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 56,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 73,
+        "physicality": 77,
+        "stamina": 85,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Métanire",
+      "number": 19,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 21,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 90,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Morel",
+      "number": 21,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 54,
+        "shooting": 36,
+        "passing": 65,
+        "dribbling": 51,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 60,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Mombris",
+      "number": 23,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 31,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 68,
+        "physicality": 75,
+        "stamina": 89,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "R. Raveloson",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 62,
+        "passing": 74,
+        "dribbling": 69,
+        "defending": 68,
+        "physicality": 72,
+        "stamina": 81,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Lapoussin",
+      "number": 94,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 71,
+        "shooting": 57,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 63,
+        "physicality": 59,
+        "stamina": 65,
+        "awareness": 64,
+        "composure": 58
+      }
+    },
+    {
+      "name": "T. Fontaine",
+      "number": 5,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 18,
+        "passing": 65,
+        "dribbling": 18,
+        "defending": 65,
+        "physicality": 82,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 C. Andriamahitsinoro",
+      "number": 2,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 90,
+        "shooting": 65,
+        "passing": 58,
+        "dribbling": 68,
+        "defending": 23,
+        "physicality": 65,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 F. Andriatsima",
+      "number": 28,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 57,
+        "shooting": 67,
+        "passing": 57,
+        "dribbling": 61,
+        "defending": 19,
+        "physicality": 73,
+        "stamina": 61,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Héry",
+      "number": 23,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 66,
+        "shooting": 42,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 55,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 64
+      }
+    }
+  ]
+}

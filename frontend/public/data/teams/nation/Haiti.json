@@ -1,0 +1,143 @@
+{
+  "name": "Haiti",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "C. Arcus",
+      "number": 2,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 38,
+        "passing": 67,
+        "dribbling": 58,
+        "defending": 71,
+        "physicality": 74,
+        "stamina": 77,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 H. Bazile",
+      "number": 29,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 84,
+        "shooting": 63,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 28,
+        "physicality": 60,
+        "stamina": 64,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "D. Etienne Jr.",
+      "number": 22,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 59,
+        "passing": 61,
+        "dribbling": 69,
+        "defending": 29,
+        "physicality": 61,
+        "stamina": 67,
+        "awareness": 60,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Nazon",
+      "number": 9,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 60,
+        "dribbling": 67,
+        "defending": 20,
+        "physicality": 78,
+        "stamina": 50,
+        "awareness": 63,
+        "composure": 56
+      }
+    },
+    {
+      "name": "F. Pierrot",
+      "number": 9,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 58,
+        "dribbling": 59,
+        "defending": 24,
+        "physicality": 92,
+        "stamina": 65,
+        "awareness": 57,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Placide",
+      "number": 30,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 56,
+        "shooting": 12,
+        "passing": 34,
+        "dribbling": 10,
+        "defending": 13,
+        "physicality": 70,
+        "stamina": 27,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "L. Pierre",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 54,
+        "passing": 67,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 75,
+        "stamina": 69,
+        "awareness": 55,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Alceus",
+      "number": 92,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 39,
+        "passing": 64,
+        "dribbling": 58,
+        "defending": 60,
+        "physicality": 67,
+        "stamina": 71,
+        "awareness": 60,
+        "composure": 59
+      }
+    }
+  ]
+}

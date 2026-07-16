@@ -1,0 +1,109 @@
+{
+  "name": "Kenya",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "V. Wanyama",
+      "number": 2,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 54,
+        "shooting": 61,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 74,
+        "physicality": 92,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 76
+      }
+    },
+    {
+      "name": "J. Okumu",
+      "number": 2,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 52,
+        "passing": 71,
+        "dribbling": 54,
+        "defending": 69,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 J. Omolo",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 33,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 64,
+        "physicality": 69,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 70
+      }
+    },
+    {
+      "name": "E. Otieno",
+      "number": 25,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 86,
+        "shooting": 38,
+        "passing": 60,
+        "dribbling": 61,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 78,
+        "awareness": 56,
+        "composure": 61
+      }
+    },
+    {
+      "name": "C. Oduor",
+      "number": 22,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 76,
+        "shooting": 37,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 56,
+        "stamina": 59,
+        "awareness": 61,
+        "composure": 45
+      }
+    },
+    {
+      "name": "J. Ayunga",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 79,
+        "shooting": 59,
+        "passing": 52,
+        "dribbling": 58,
+        "defending": 36,
+        "physicality": 71,
+        "stamina": 64,
+        "awareness": 58,
+        "composure": 49
+      }
+    }
+  ]
+}
