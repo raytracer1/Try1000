@@ -35,10 +35,9 @@ export default function SimulationPage() {
     const sel = side === "home" ? home : away;
     return (
       <button onClick={() => loadTeam(t, side)}
-        className={`flex items-center gap-2 w-full text-left px-2 py-1 text-xs border-b border-stone-100 hover:bg-green-50 ${sel?.name === t.name ? "bg-green-100" : ""}`}>
-        {logoUrl ? (logoUrl.startsWith("http") ? <img src={logoUrl} alt="" referrerPolicy="no-referrer" className="w-4 h-4 object-contain" /> : <span className="text-sm">{logoUrl}</span>) : <div className="w-4 h-4" />}
-        <span className="flex-1 truncate">{t.name}</span>
-        <span className="text-stone-400">{t.players}p</span>
+        className={`flex items-center gap-2 w-full text-left px-3 py-2.5 text-base border-b border-stone-100 hover:bg-green-50 ${sel?.name === t.name ? "bg-green-100" : ""}`}>
+        {logoUrl ? (logoUrl.startsWith("http") ? <img src={logoUrl} alt="" referrerPolicy="no-referrer" className="w-12 h-12 object-contain" /> : <span className="text-xl">{logoUrl}</span>) : <div className="w-12 h-12" />}
+        <span className="flex-1 truncate text-base">{t.name}</span>
       </button>
     );
   };
@@ -81,21 +80,14 @@ export default function SimulationPage() {
 
   const PlayerList = ({ data }: { data: any }) => (
     <div>
-      {data && (
-        <div className="flex items-center gap-2 mb-2">
-          {data.logo && (data.logo.startsWith("http") ? <img src={data.logo} alt="" referrerPolicy="no-referrer" className="w-5 h-5 object-contain" /> : <span className="text-lg">{data.logo}</span>)}
-          <span className="text-sm font-semibold text-stone-700">{data.name}</span>
-          <span className="text-xs text-stone-400">({data.type})</span>
-        </div>
-      )}
-      <div className="text-xs text-stone-500 max-h-40 overflow-y-auto">
-        {(data?.players || []).slice(0, 11).map((p: any) => (
-          <div key={p.name} className="flex items-center justify-between py-1 border-b border-stone-100">
+      <div className="text-base text-stone-500 max-h-96 overflow-y-auto">
+        {(data?.players || []).map((p: any) => (
+          <div key={p.name} className="flex items-center justify-between py-1.5 border-b border-stone-100">
             <div className="flex items-center gap-2">
-              {p.image ? <img src={p.image} alt="" referrerPolicy="no-referrer" className="w-6 h-6 rounded-full object-cover bg-stone-200" /> : <div className="w-6 h-6 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-[10px]">{p.name.charAt(0)}</div>}
-              <span>{p.name}</span>
+              {p.image ? <img src={p.image} alt="" referrerPolicy="no-referrer" className="w-16 h-16 rounded-full object-cover bg-stone-200" /> : <div className="w-16 h-16 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-base">{p.name.charAt(0)}</div>}
+              <span className="text-lg">{p.name}</span>
             </div>
-            <span className="text-stone-400">{p.position} · {p.overall}</span>
+            <span className="text-stone-400 text-base">{p.position} · {p.overall}</span>
           </div>
         ))}
       </div>
@@ -109,16 +101,16 @@ export default function SimulationPage() {
       <div className="grid grid-cols-2 gap-4 mb-6">
         {/* Home Team */}
         <div className="bg-white border border-stone-200 rounded-lg p-4">
-          <label className="text-sm font-semibold text-stone-700 block mb-2">Home Team</label>
+          <label className="text-base font-semibold text-stone-700 block mb-2">Home Team</label>
           <div className="flex gap-2 mb-2">
-            <select className="text-xs bg-stone-50 border rounded px-2 py-1" value={filterH} onChange={(e) => { setFilterH(e.target.value as any); setHome(null); setSearchH(""); }}>
+            <select className="text-sm bg-stone-50 border rounded px-2 py-1" value={filterH} onChange={(e) => { setFilterH(e.target.value as any); setHome(null); setSearchH(""); }}>
               <option value="club">Clubs</option>
               <option value="nation">Nations</option>
             </select>
-            <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-2 py-1 text-xs" placeholder="Search..."
+            <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-3 py-1.5 text-sm" placeholder="Search..."
               value={searchH} onChange={(e) => { setSearchH(e.target.value); setHome(null); }} />
           </div>
-          <div className="max-h-40 overflow-y-auto mb-2 border rounded">
+          <div className="max-h-96 overflow-y-auto mb-2 border rounded">
             {(filterH === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchH.toLowerCase())).map((t: any) => (
               <TeamOption key={t.file} t={t} side="home" logoUrl={t.logo} />
             ))}
@@ -128,16 +120,16 @@ export default function SimulationPage() {
 
         {/* Away Team */}
         <div className="bg-white border border-stone-200 rounded-lg p-4">
-          <label className="text-sm font-semibold text-stone-700 block mb-2">Away Team</label>
+          <label className="text-base font-semibold text-stone-700 block mb-2">Away Team</label>
           <div className="flex gap-2 mb-2">
-            <select className="text-xs bg-stone-50 border rounded px-2 py-1" value={filterA} onChange={(e) => { setFilterA(e.target.value as any); setAway(null); setSearchA(""); }}>
+            <select className="text-sm bg-stone-50 border rounded px-2 py-1" value={filterA} onChange={(e) => { setFilterA(e.target.value as any); setAway(null); setSearchA(""); }}>
               <option value="club">Clubs</option>
               <option value="nation">Nations</option>
             </select>
-            <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-2 py-1 text-xs" placeholder="Search..."
+            <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-3 py-1.5 text-sm" placeholder="Search..."
               value={searchA} onChange={(e) => { setSearchA(e.target.value); setAway(null); }} />
           </div>
-          <div className="max-h-40 overflow-y-auto mb-2 border rounded">
+          <div className="max-h-96 overflow-y-auto mb-2 border rounded">
             {(filterA === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchA.toLowerCase())).map((t: any) => (
               <TeamOption key={t.file} t={t} side="away" logoUrl={t.logo} />
             ))}
@@ -149,15 +141,15 @@ export default function SimulationPage() {
       <div className="flex gap-3 items-center mb-6">
         {[1, 10, 100, 1000].map((n) => (
           <button key={n} onClick={() => setMatchCount(n)}
-            className={`px-4 py-2 text-sm font-medium ${matchCount === n ? "bg-green-700 text-white" : "bg-white border border-stone-200 text-stone-600 hover:border-green-700"}`}>
+            className={`px-4 py-2 text-base font-medium ${matchCount === n ? "bg-green-700 text-white" : "bg-white border border-stone-200 text-stone-600 hover:border-green-700"}`}>
             {n} {n === 1 ? "Match" : "Matches"}
           </button>
         ))}
         <button onClick={handleRun} disabled={isRunning || importing}
-          className="px-6 py-2 bg-green-700 text-white text-sm font-semibold hover:bg-green-800 disabled:opacity-50 ml-auto">
+          className="px-6 py-2 bg-green-700 text-white text-base font-semibold hover:bg-green-800 disabled:opacity-50 ml-auto">
           {importing ? "Importing..." : isRunning ? "Running..." : "Run"}
         </button>
-        {isRunning && <button onClick={cancelPolling} className="px-4 py-2 border border-red-300 text-red-600 text-sm font-medium hover:bg-red-50">Cancel</button>}
+        {isRunning && <button onClick={cancelPolling} className="px-4 py-2 border border-red-300 text-red-600 text-base font-medium hover:bg-red-50">Cancel</button>}
       </div>
       {error && <p className="text-red-600 text-sm mb-4">{error}</p>}
 
