@@ -1,0 +1,396 @@
+{
+  "name": "Sevilla FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Gómez",
+      "number": 1,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 83,
+        "shooting": 77,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 30,
+        "physicality": 44,
+        "stamina": 75,
+        "awareness": 86,
+        "composure": 85
+      }
+    },
+    {
+      "name": "M. Acuña",
+      "number": 2,
+      "position": "LB",
+      "overall": 84,
+      "attributes": {
+        "pace": 76,
+        "shooting": 66,
+        "passing": 82,
+        "dribbling": 87,
+        "defending": 84,
+        "physicality": 80,
+        "stamina": 90,
+        "awareness": 83,
+        "composure": 87
+      }
+    },
+    {
+      "name": "Jesús Navas",
+      "number": 3,
+      "position": "RB",
+      "overall": 84,
+      "attributes": {
+        "pace": 84,
+        "shooting": 65,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 77,
+        "physicality": 39,
+        "stamina": 82,
+        "awareness": 84,
+        "composure": 82
+      }
+    },
+    {
+      "name": "Fernando",
+      "number": 4,
+      "position": "CDM",
+      "overall": 84,
+      "attributes": {
+        "pace": 67,
+        "shooting": 54,
+        "passing": 84,
+        "dribbling": 71,
+        "defending": 85,
+        "physicality": 81,
+        "stamina": 82,
+        "awareness": 83,
+        "composure": 78
+      }
+    },
+    {
+      "name": "L. Ocampos",
+      "number": 5,
+      "position": "LW",
+      "overall": 83,
+      "attributes": {
+        "pace": 82,
+        "shooting": 86,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 61,
+        "physicality": 81,
+        "stamina": 91,
+        "awareness": 85,
+        "composure": 82
+      }
+    },
+    {
+      "name": "J. Koundé",
+      "number": 6,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 81,
+        "shooting": 47,
+        "passing": 80,
+        "dribbling": 69,
+        "defending": 85,
+        "physicality": 79,
+        "stamina": 76,
+        "awareness": 85,
+        "composure": 82
+      }
+    },
+    {
+      "name": "I. Rakitić",
+      "number": 7,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 56,
+        "shooting": 77,
+        "passing": 85,
+        "dribbling": 79,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 74,
+        "awareness": 80,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Suso",
+      "number": 8,
+      "position": "RW",
+      "overall": 82,
+      "attributes": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 84,
+        "dribbling": 87,
+        "defending": 23,
+        "physicality": 54,
+        "stamina": 72,
+        "awareness": 78,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Diego Carlos",
+      "number": 9,
+      "position": "CB",
+      "overall": 82,
+      "attributes": {
+        "pace": 77,
+        "shooting": 32,
+        "passing": 76,
+        "dribbling": 65,
+        "defending": 79,
+        "physicality": 87,
+        "stamina": 73,
+        "awareness": 84,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Y. En-Nesyri",
+      "number": 10,
+      "position": "ST",
+      "overall": 82,
+      "attributes": {
+        "pace": 81,
+        "shooting": 89,
+        "passing": 69,
+        "dribbling": 84,
+        "defending": 31,
+        "physicality": 76,
+        "stamina": 76,
+        "awareness": 80,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Y. Bounou",
+      "number": 11,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 82,
+        "defending": 84,
+        "passing": 79,
+        "dribbling": 81,
+        "physicality": 69,
+        "stamina": 43,
+        "awareness": 80,
+        "composure": 57
+      }
+    },
+    {
+      "name": "T. Delaney",
+      "number": 12,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 74,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 81,
+        "physicality": 77,
+        "stamina": 87,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "17 B. Trémoulinas",
+      "number": 13,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 82,
+        "shooting": 58,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 80,
+        "physicality": 63,
+        "stamina": 87,
+        "awareness": 82,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Joan Jordán",
+      "number": 14,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 66,
+        "shooting": 75,
+        "passing": 84,
+        "dribbling": 79,
+        "defending": 76,
+        "physicality": 74,
+        "stamina": 81,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "M. Dmitrović",
+      "number": 15,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 35,
+        "shooting": 20,
+        "passing": 40,
+        "dribbling": 8,
+        "defending": 22,
+        "physicality": 79,
+        "stamina": 45,
+        "awareness": 76,
+        "composure": 59
+      }
+    },
+    {
+      "name": "N. Gudelj",
+      "number": 16,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 61,
+        "shooting": 58,
+        "passing": 84,
+        "dribbling": 66,
+        "defending": 76,
+        "physicality": 85,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 80
+      }
+    },
+    {
+      "name": "19 G. Mercado",
+      "number": 17,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 75,
+        "shooting": 60,
+        "passing": 71,
+        "dribbling": 57,
+        "defending": 80,
+        "physicality": 82,
+        "stamina": 77,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Munir",
+      "number": 18,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 76,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 27,
+        "physicality": 66,
+        "stamina": 72,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "E. Lamela",
+      "number": 19,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 67,
+        "shooting": 74,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 50,
+        "physicality": 64,
+        "stamina": 61,
+        "awareness": 79,
+        "composure": 75
+      }
+    },
+    {
+      "name": "G. Montiel",
+      "number": 20,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 85,
+        "shooting": 41,
+        "passing": 76,
+        "dribbling": 71,
+        "defending": 73,
+        "physicality": 73,
+        "stamina": 93,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Óliver Torres",
+      "number": 21,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 59,
+        "shooting": 66,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 63,
+        "physicality": 42,
+        "stamina": 74,
+        "awareness": 76,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Rafa Mir",
+      "number": 22,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 72,
+        "shooting": 81,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 43,
+        "physicality": 82,
+        "stamina": 71,
+        "awareness": 75,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Augustinsson",
+      "number": 23,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 61,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 76,
+        "physicality": 65,
+        "stamina": 87,
+        "awareness": 73,
+        "composure": 74
+      }
+    }
+  ]
+}

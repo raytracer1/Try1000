@@ -1,0 +1,396 @@
+{
+  "name": "Hannover 96",
+  "type": "club",
+  "players": [
+    {
+      "name": "20 D. Aogo",
+      "number": 1,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "shooting": 40,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 73,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "R. Zieler",
+      "number": 2,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "defending": 74,
+        "passing": 69,
+        "dribbling": 73,
+        "physicality": 55,
+        "stamina": 32,
+        "awareness": 75,
+        "composure": 58
+      }
+    },
+    {
+      "name": "N. Hult",
+      "number": 3,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 58,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 70,
+        "physicality": 56,
+        "stamina": 76,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Ernst",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "shooting": 61,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 54,
+        "physicality": 67,
+        "stamina": 90,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "T. Trybull",
+      "number": 5,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 53,
+        "shooting": 35,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 68,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 73
+      }
+    },
+    {
+      "name": "M. Franke",
+      "number": 6,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 64,
+        "shooting": 24,
+        "passing": 54,
+        "dribbling": 42,
+        "defending": 74,
+        "physicality": 90,
+        "stamina": 60,
+        "awareness": 66,
+        "composure": 56
+      }
+    },
+    {
+      "name": "D. Kaiser",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 64,
+        "physicality": 62,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Kerk",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 78,
+        "shooting": 67,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 27,
+        "physicality": 63,
+        "stamina": 84,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Muroya",
+      "number": 9,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 92,
+        "shooting": 57,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 66,
+        "physicality": 67,
+        "stamina": 86,
+        "awareness": 62,
+        "composure": 56
+      }
+    },
+    {
+      "name": "G. Ondoua",
+      "number": 10,
+      "position": "CDM",
+      "overall": 70,
+      "attributes": {
+        "pace": 73,
+        "shooting": 38,
+        "passing": 71,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 75,
+        "stamina": 87,
+        "awareness": 63,
+        "composure": 54
+      }
+    },
+    {
+      "name": "L. Maina",
+      "number": 11,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 94,
+        "shooting": 61,
+        "passing": 66,
+        "dribbling": 72,
+        "defending": 23,
+        "physicality": 44,
+        "stamina": 65,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "L. Krajnc",
+      "number": 12,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 62,
+        "shooting": 25,
+        "passing": 65,
+        "dribbling": 56,
+        "defending": 70,
+        "physicality": 85,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "L. Hinterseer",
+      "number": 13,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 33,
+        "physicality": 84,
+        "stamina": 69,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Dehm",
+      "number": 14,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 78,
+        "shooting": 43,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 68,
+        "physicality": 61,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 50
+      }
+    },
+    {
+      "name": "J. Börner",
+      "number": 15,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 53,
+        "shooting": 56,
+        "passing": 62,
+        "dribbling": 56,
+        "defending": 70,
+        "physicality": 81,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "P. Twumasi",
+      "number": 16,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 75,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 23,
+        "physicality": 55,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Stolze",
+      "number": 17,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 85,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 23,
+        "physicality": 55,
+        "stamina": 78,
+        "awareness": 59,
+        "composure": 54
+      }
+    },
+    {
+      "name": "M. Frantz",
+      "number": 18,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 60,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 68,
+        "physicality": 75,
+        "stamina": 66,
+        "awareness": 75,
+        "composure": 73
+      }
+    },
+    {
+      "name": "F. Muslija",
+      "number": 19,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 75,
+        "shooting": 57,
+        "passing": 62,
+        "dribbling": 77,
+        "defending": 28,
+        "physicality": 40,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 57
+      }
+    },
+    {
+      "name": "H. Weydandt",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 69,
+        "passing": 54,
+        "dribbling": 58,
+        "defending": 36,
+        "physicality": 93,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "V. Sulejmani",
+      "number": 21,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 62,
+        "dribbling": 66,
+        "defending": 48,
+        "physicality": 72,
+        "stamina": 67,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "P. Ochs",
+      "number": 22,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 66,
+        "shooting": 62,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 60,
+        "physicality": 58,
+        "stamina": 67,
+        "awareness": 61,
+        "composure": 58
+      }
+    },
+    {
+      "name": "F. Evina",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 81,
+        "shooting": 64,
+        "passing": 59,
+        "dribbling": 65,
+        "defending": 35,
+        "physicality": 75,
+        "stamina": 64,
+        "awareness": 55,
+        "composure": 48
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Olympiacos CFP",
+  "type": "club",
+  "players": [
+    {
+      "name": "T. Vaclík",
+      "number": 1,
+      "position": "GK",
+      "overall": 81,
+      "attributes": {
+        "pace": 83,
+        "defending": 84,
+        "passing": 77,
+        "dribbling": 80,
+        "physicality": 73,
+        "stamina": 38,
+        "awareness": 78,
+        "composure": 60
+      }
+    },
+    {
+      "name": "19 Y. Touré",
+      "number": 2,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 55,
+        "shooting": 75,
+        "passing": 83,
+        "dribbling": 80,
+        "defending": 72,
+        "physicality": 90,
+        "stamina": 54,
+        "awareness": 78,
+        "composure": 81
+      }
+    },
+    {
+      "name": "K. Fortounis",
+      "number": 3,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 38,
+        "physicality": 68,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Y. M'Vila",
+      "number": 4,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 65,
+        "shooting": 61,
+        "passing": 81,
+        "dribbling": 73,
+        "defending": 76,
+        "physicality": 74,
+        "stamina": 82,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Y. El Arabi",
+      "number": 5,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 68,
+        "shooting": 87,
+        "passing": 72,
+        "dribbling": 80,
+        "defending": 30,
+        "physicality": 78,
+        "stamina": 69,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 Rafinha",
+      "number": 6,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 72,
+        "shooting": 37,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 77,
+        "physicality": 53,
+        "stamina": 74,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "M. Camara",
+      "number": 7,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 74,
+        "physicality": 82,
+        "stamina": 88,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "19 B. Natcho",
+      "number": 8,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 80,
+        "dribbling": 73,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 66,
+        "awareness": 78,
+        "composure": 84
+      }
+    },
+    {
+      "name": "21 Guilherme",
+      "number": 9,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 68,
+        "shooting": 58,
+        "passing": 78,
+        "dribbling": 68,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "17 E. Cambiasso",
+      "number": 10,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 55,
+        "shooting": 68,
+        "passing": 79,
+        "dribbling": 67,
+        "defending": 77,
+        "physicality": 73,
+        "stamina": 60,
+        "awareness": 80,
+        "composure": 87
+      }
+    },
+    {
+      "name": "Soares",
+      "number": 11,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 84,
+        "shooting": 75,
+        "passing": 66,
+        "dribbling": 75,
+        "defending": 45,
+        "physicality": 76,
+        "stamina": 78,
+        "awareness": 79,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Valbuena",
+      "number": 12,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 65,
+        "shooting": 73,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 26,
+        "physicality": 37,
+        "stamina": 58,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Rúben Semedo",
+      "number": 13,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 43,
+        "passing": 73,
+        "dribbling": 66,
+        "defending": 81,
+        "physicality": 81,
+        "stamina": 72,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Sokratis",
+      "number": 14,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 66,
+        "shooting": 47,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 78,
+        "physicality": 85,
+        "stamina": 64,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "K. Lala",
+      "number": 15,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "shooting": 59,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 72,
+        "physicality": 71,
+        "stamina": 82,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "G. Masouras",
+      "number": 16,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 84,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 41,
+        "physicality": 69,
+        "stamina": 76,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Rony Lopes",
+      "number": 17,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 28,
+        "physicality": 62,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "P. Cissé",
+      "number": 18,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 81,
+        "shooting": 23,
+        "passing": 64,
+        "dribbling": 39,
+        "defending": 77,
+        "physicality": 94,
+        "stamina": 71,
+        "awareness": 68,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Bouchalakis",
+      "number": 19,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 59,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 72,
+        "physicality": 78,
+        "stamina": 82,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "H. Onyekuru",
+      "number": 20,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 92,
+        "shooting": 72,
+        "passing": 67,
+        "dribbling": 82,
+        "defending": 38,
+        "physicality": 44,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 J. Holebas",
+      "number": 21,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 57,
+        "passing": 77,
+        "dribbling": 69,
+        "defending": 77,
+        "physicality": 70,
+        "stamina": 68,
+        "awareness": 71,
+        "composure": 72
+      }
+    },
+    {
+      "name": "K. Malong",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 84,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 70,
+        "physicality": 84,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "O. Ba",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 26,
+        "passing": 57,
+        "dribbling": 44,
+        "defending": 74,
+        "physicality": 85,
+        "stamina": 72,
+        "awareness": 62,
+        "composure": 66
+      }
+    }
+  ]
+}

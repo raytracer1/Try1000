@@ -1,0 +1,328 @@
+{
+  "name": "Stabæk Fotball",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Bolly",
+      "number": 1,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 93,
+        "shooting": 63,
+        "passing": 60,
+        "dribbling": 69,
+        "defending": 26,
+        "physicality": 70,
+        "stamina": 48,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Sandberg",
+      "number": 2,
+      "position": "GK",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "defending": 67,
+        "passing": 65,
+        "dribbling": 66,
+        "physicality": 67,
+        "stamina": 37,
+        "awareness": 67,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Haugen",
+      "number": 3,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 64,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 57,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "O. Edvardsen",
+      "number": 4,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 88,
+        "shooting": 64,
+        "passing": 56,
+        "dribbling": 67,
+        "defending": 48,
+        "physicality": 70,
+        "stamina": 79,
+        "awareness": 60,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Tomás Podstawski",
+      "number": 5,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 61,
+        "shooting": 48,
+        "passing": 68,
+        "dribbling": 62,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 72,
+        "awareness": 60,
+        "composure": 71
+      }
+    },
+    {
+      "name": "V. Wernersson",
+      "number": 6,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 44,
+        "passing": 66,
+        "dribbling": 64,
+        "defending": 63,
+        "physicality": 62,
+        "stamina": 83,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Wangberg",
+      "number": 7,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 43,
+        "shooting": 31,
+        "passing": 56,
+        "dribbling": 33,
+        "defending": 65,
+        "physicality": 81,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Y. Amankwah",
+      "number": 8,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 35,
+        "shooting": 25,
+        "passing": 46,
+        "dribbling": 29,
+        "defending": 64,
+        "physicality": 91,
+        "stamina": 67,
+        "awareness": 66,
+        "composure": 58
+      }
+    },
+    {
+      "name": "H. Shala",
+      "number": 9,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 73,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 56,
+        "physicality": 60,
+        "stamina": 74,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "T. Lumanza Lembi",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 48,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 63,
+        "physicality": 76,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Skytte",
+      "number": 11,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 49,
+        "shooting": 58,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 64,
+        "physicality": 82,
+        "stamina": 73,
+        "awareness": 64,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Moe",
+      "number": 12,
+      "position": "LB",
+      "overall": 64,
+      "attributes": {
+        "pace": 68,
+        "shooting": 25,
+        "passing": 59,
+        "dribbling": 56,
+        "defending": 63,
+        "physicality": 58,
+        "stamina": 71,
+        "awareness": 57,
+        "composure": 57
+      }
+    },
+    {
+      "name": "K. Pedersen",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 54,
+        "shooting": 31,
+        "passing": 61,
+        "dribbling": 43,
+        "defending": 65,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "L. Kassi",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 58,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 60,
+        "physicality": 71,
+        "stamina": 61,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Solbakken",
+      "number": 15,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 65,
+        "shooting": 51,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 56,
+        "physicality": 66,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "I. Mesík",
+      "number": 16,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 65,
+        "shooting": 35,
+        "passing": 66,
+        "dribbling": 57,
+        "defending": 63,
+        "physicality": 73,
+        "stamina": 67,
+        "awareness": 58,
+        "composure": 62
+      }
+    },
+    {
+      "name": "K. Hansen",
+      "number": 17,
+      "position": "LW",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 60,
+        "passing": 59,
+        "dribbling": 65,
+        "defending": 42,
+        "physicality": 56,
+        "stamina": 60,
+        "awareness": 56,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Ottesen",
+      "number": 18,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 72,
+        "shooting": 40,
+        "passing": 53,
+        "dribbling": 57,
+        "defending": 60,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 56,
+        "composure": 45
+      }
+    },
+    {
+      "name": "N. Jenssen",
+      "number": 19,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 59,
+        "shooting": 19,
+        "passing": 50,
+        "dribbling": 41,
+        "defending": 62,
+        "physicality": 68,
+        "stamina": 62,
+        "awareness": 56,
+        "composure": 51
+      }
+    }
+  ]
+}

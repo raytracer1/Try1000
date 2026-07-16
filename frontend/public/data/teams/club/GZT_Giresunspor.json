@@ -1,0 +1,226 @@
+{
+  "name": "GZT Giresunspor",
+  "type": "club",
+  "players": [
+    {
+      "name": "Y. Sankharé",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 67,
+        "shooting": 66,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 74,
+        "physicality": 81,
+        "stamina": 66,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. Pérez",
+      "number": 2,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 71,
+        "shooting": 29,
+        "passing": 61,
+        "dribbling": 53,
+        "defending": 70,
+        "physicality": 80,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. Behich",
+      "number": 3,
+      "position": "LB",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 61,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 60,
+        "stamina": 72,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Nalepa",
+      "number": 4,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 62,
+        "physicality": 76,
+        "stamina": 92,
+        "awareness": 69,
+        "composure": 58
+      }
+    },
+    {
+      "name": "E. Taşdemir",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 57,
+        "passing": 64,
+        "dribbling": 74,
+        "defending": 64,
+        "physicality": 55,
+        "stamina": 65,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Pelupessy",
+      "number": 6,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 34,
+        "passing": 68,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Doukara",
+      "number": 7,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 23,
+        "physicality": 85,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 75
+      }
+    },
+    {
+      "name": "I. Baldé",
+      "number": 8,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 72,
+        "passing": 62,
+        "dribbling": 57,
+        "defending": 30,
+        "physicality": 84,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "F. Diabaté",
+      "number": 9,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 87,
+        "shooting": 63,
+        "passing": 62,
+        "dribbling": 74,
+        "defending": 21,
+        "physicality": 34,
+        "stamina": 62,
+        "awareness": 63,
+        "composure": 57
+      }
+    },
+    {
+      "name": "O. Kocuk",
+      "number": 10,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 71,
+        "defending": 73,
+        "passing": 68,
+        "dribbling": 64,
+        "physicality": 55,
+        "stamina": 23,
+        "awareness": 59,
+        "composure": 44
+      }
+    },
+    {
+      "name": "M. Suleymanov",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 71,
+        "shooting": 67,
+        "passing": 64,
+        "dribbling": 70,
+        "defending": 29,
+        "physicality": 41,
+        "stamina": 52,
+        "awareness": 54,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Z. Yavru",
+      "number": 12,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 64,
+        "shooting": 40,
+        "passing": 61,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 64,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Champness",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 83,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 25,
+        "physicality": 73,
+        "stamina": 52,
+        "awareness": 53,
+        "composure": 54
+      }
+    }
+  ]
+}

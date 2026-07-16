@@ -1,0 +1,294 @@
+{
+  "name": "Club Atlético de San Luis",
+  "type": "club",
+  "players": [
+    {
+      "name": "D. Batallini",
+      "number": 1,
+      "position": "RW",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 80,
+        "defending": 53,
+        "physicality": 71,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "G. Berterame",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 81,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 19,
+        "physicality": 74,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Duque",
+      "number": 3,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 64,
+        "shooting": 43,
+        "passing": 73,
+        "dribbling": 58,
+        "defending": 72,
+        "physicality": 68,
+        "stamina": 88,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "F. Waller",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 75,
+        "shooting": 66,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 65,
+        "physicality": 63,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Güemez",
+      "number": 5,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 61,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 90,
+        "stamina": 76,
+        "awareness": 63,
+        "composure": 72
+      }
+    },
+    {
+      "name": "E. García",
+      "number": 6,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 66,
+        "physicality": 58,
+        "stamina": 86,
+        "awareness": 61,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Unai Bilbao",
+      "number": 7,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 32,
+        "shooting": 38,
+        "passing": 66,
+        "dribbling": 43,
+        "defending": 73,
+        "physicality": 82,
+        "stamina": 65,
+        "awareness": 67,
+        "composure": 54
+      }
+    },
+    {
+      "name": "M. Barovero",
+      "number": 8,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "defending": 72,
+        "passing": 67,
+        "dribbling": 73,
+        "physicality": 53,
+        "stamina": 32,
+        "awareness": 68,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Bareiro",
+      "number": 9,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 69,
+        "shooting": 73,
+        "passing": 61,
+        "dribbling": 68,
+        "defending": 16,
+        "physicality": 80,
+        "stamina": 58,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Leo Coelho",
+      "number": 10,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 41,
+        "passing": 62,
+        "dribbling": 40,
+        "defending": 73,
+        "physicality": 72,
+        "stamina": 65,
+        "awareness": 59,
+        "composure": 69
+      }
+    },
+    {
+      "name": "20 J. Cortés",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 65,
+        "physicality": 73,
+        "stamina": 53,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 F. Gallegos",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 63,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Sanabria",
+      "number": 13,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 59,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 60,
+        "physicality": 62,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 59
+      }
+    },
+    {
+      "name": "A. Lozano",
+      "number": 14,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 64,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 34,
+        "physicality": 50,
+        "stamina": 52,
+        "awareness": 51,
+        "composure": 51
+      }
+    },
+    {
+      "name": "Z. Muñoz",
+      "number": 15,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 51,
+        "shooting": 50,
+        "passing": 68,
+        "dribbling": 60,
+        "defending": 50,
+        "physicality": 56,
+        "stamina": 60,
+        "awareness": 52,
+        "composure": 55
+      }
+    },
+    {
+      "name": "E. Orona",
+      "number": 16,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 82,
+        "shooting": 45,
+        "passing": 68,
+        "dribbling": 53,
+        "defending": 60,
+        "physicality": 72,
+        "stamina": 69,
+        "awareness": 55,
+        "composure": 49
+      }
+    },
+    {
+      "name": "J. Hernández",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 75,
+        "shooting": 48,
+        "passing": 64,
+        "dribbling": 59,
+        "defending": 48,
+        "physicality": 45,
+        "stamina": 55,
+        "awareness": 57,
+        "composure": 65
+      }
+    }
+  ]
+}

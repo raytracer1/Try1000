@@ -1,0 +1,380 @@
+{
+  "name": "FC Cartagena",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Prior",
+      "number": 1,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 55,
+        "shooting": 16,
+        "passing": 38,
+        "dribbling": 18,
+        "defending": 14,
+        "physicality": 78,
+        "stamina": 30,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "P. De Blasis",
+      "number": 2,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 65,
+        "physicality": 33,
+        "stamina": 59,
+        "awareness": 71,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Luna",
+      "number": 3,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 58,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 68,
+        "physicality": 75,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "G. Silva",
+      "number": 4,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 59,
+        "shooting": 48,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 73,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Rubén Castro",
+      "number": 5,
+      "position": "ST",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 75,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 12,
+        "physicality": 61,
+        "stamina": 62,
+        "awareness": 75,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Alcalá",
+      "number": 6,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 34,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 50,
+        "defending": 72,
+        "physicality": 92,
+        "stamina": 44,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 L. Chichizola",
+      "number": 7,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 54,
+        "shooting": 16,
+        "passing": 14,
+        "dribbling": 17,
+        "defending": 12,
+        "physicality": 52,
+        "stamina": 31,
+        "awareness": 66,
+        "composure": 57
+      }
+    },
+    {
+      "name": "Sergio Tejera",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 67,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 68,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Okazaki",
+      "number": 9,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 56,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 56,
+        "physicality": 66,
+        "stamina": 61,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Y. Bodiger",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 52,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 71,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Antoñito",
+      "number": 11,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 78,
+        "shooting": 59,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 60,
+        "physicality": 63,
+        "stamina": 81,
+        "awareness": 64,
+        "composure": 62
+      }
+    },
+    {
+      "name": "R. Boateng",
+      "number": 12,
+      "position": "CAM",
+      "overall": 67,
+      "attributes": {
+        "pace": 71,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 69,
+        "physicality": 74,
+        "stamina": 83,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "De la Bella",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 47,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "M. Dauda",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 86,
+        "shooting": 66,
+        "passing": 61,
+        "dribbling": 68,
+        "defending": 23,
+        "physicality": 61,
+        "stamina": 62,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Ortuño",
+      "number": 15,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 64,
+        "shooting": 71,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 18,
+        "physicality": 75,
+        "stamina": 64,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "David Simón",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 42,
+        "passing": 58,
+        "dribbling": 60,
+        "defending": 58,
+        "physicality": 66,
+        "stamina": 89,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "A. Kawaya",
+      "number": 17,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 78,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 41,
+        "physicality": 79,
+        "stamina": 41,
+        "awareness": 58,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Berto Cayarga",
+      "number": 18,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 58,
+        "dribbling": 63,
+        "defending": 20,
+        "physicality": 70,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 Cristian López",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 68,
+        "shooting": 63,
+        "passing": 58,
+        "dribbling": 61,
+        "defending": 25,
+        "physicality": 78,
+        "stamina": 79,
+        "awareness": 68,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Clavería",
+      "number": 20,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 64,
+        "shooting": 57,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 66,
+        "physicality": 68,
+        "stamina": 79,
+        "awareness": 67,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Nacho Gil",
+      "number": 21,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 77,
+        "shooting": 58,
+        "passing": 59,
+        "dribbling": 61,
+        "defending": 41,
+        "physicality": 37,
+        "stamina": 62,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 Carlos David",
+      "number": 22,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 55,
+        "shooting": 41,
+        "passing": 55,
+        "dribbling": 46,
+        "defending": 57,
+        "physicality": 80,
+        "stamina": 69,
+        "awareness": 59,
+        "composure": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "name": "Belenenses SAD",
+  "type": "club",
+  "players": [
+    {
+      "name": "Carraça",
+      "number": 1,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 46,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 65,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Pedro Nuno",
+      "number": 2,
+      "position": "LW",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 33,
+        "physicality": 57,
+        "stamina": 75,
+        "awareness": 76,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Sandro",
+      "number": 3,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 61,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 73,
+        "physicality": 78,
+        "stamina": 48,
+        "awareness": 70,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 Cauê",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 75,
+        "physicality": 81,
+        "stamina": 82,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Cassierra",
+      "number": 5,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 81,
+        "shooting": 73,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 21,
+        "physicality": 71,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Rafael Camacho",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 80,
+        "shooting": 60,
+        "passing": 65,
+        "dribbling": 77,
+        "defending": 60,
+        "physicality": 58,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Tomás Ribeiro",
+      "number": 7,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 22,
+        "passing": 64,
+        "dribbling": 36,
+        "defending": 71,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 61
+      }
+    },
+    {
+      "name": "S. Sithole",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 59,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 69,
+        "physicality": 78,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "T. Phete",
+      "number": 9,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 48,
+        "shooting": 36,
+        "passing": 70,
+        "dribbling": 56,
+        "defending": 71,
+        "physicality": 78,
+        "stamina": 67,
+        "awareness": 73,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Afonso Sousa",
+      "number": 10,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 45,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 46,
+        "physicality": 47,
+        "stamina": 67,
+        "awareness": 76,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Nilton Varela",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 46,
+        "passing": 64,
+        "dribbling": 70,
+        "defending": 66,
+        "physicality": 71,
+        "stamina": 63,
+        "awareness": 64,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 Dieguinho",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 74,
+        "defending": 30,
+        "physicality": 45,
+        "stamina": 51,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 Richard Rodrigues",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 51,
+        "physicality": 56,
+        "stamina": 59,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "C. Akas",
+      "number": 14,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 68,
+        "shooting": 34,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 66,
+        "physicality": 82,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 51
+      }
+    },
+    {
+      "name": "T. Boni",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 50,
+        "shooting": 31,
+        "passing": 61,
+        "dribbling": 48,
+        "defending": 67,
+        "physicality": 77,
+        "stamina": 54,
+        "awareness": 58,
+        "composure": 45
+      }
+    },
+    {
+      "name": "Eduardo Kau",
+      "number": 16,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 49,
+        "shooting": 31,
+        "passing": 55,
+        "dribbling": 50,
+        "defending": 66,
+        "physicality": 83,
+        "stamina": 32,
+        "awareness": 53,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Rafa Santos",
+      "number": 17,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 33,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 67,
+        "stamina": 54,
+        "awareness": 69,
+        "composure": 46
+      }
+    },
+    {
+      "name": "Tomás Castro",
+      "number": 18,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 64,
+        "shooting": 55,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 39,
+        "physicality": 55,
+        "stamina": 34,
+        "awareness": 58,
+        "composure": 65
+      }
+    },
+    {
+      "name": "L. van der Gaag",
+      "number": 19,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 34,
+        "shooting": 24,
+        "passing": 52,
+        "dribbling": 38,
+        "defending": 66,
+        "physicality": 69,
+        "stamina": 54,
+        "awareness": 54,
+        "composure": 50
+      }
+    },
+    {
+      "name": "J. van der Gaag",
+      "number": 20,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 50,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 35,
+        "physicality": 53,
+        "stamina": 55,
+        "awareness": 50,
+        "composure": 57
+      }
+    },
+    {
+      "name": "João Monteiro",
+      "number": 21,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 24,
+        "shooting": 7,
+        "passing": 24,
+        "dribbling": 10,
+        "defending": 9,
+        "physicality": 60,
+        "stamina": 19,
+        "awareness": 60,
+        "composure": 32
+      }
+    }
+  ]
+}

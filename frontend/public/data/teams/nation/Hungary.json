@@ -1,0 +1,395 @@
+{
+  "name": "Hungary",
+  "type": "nation",
+  "players": [
+    {
+      "name": "P. Gulácsi",
+      "number": 1,
+      "position": "GK",
+      "overall": 85,
+      "attributes": {
+        "pace": 85,
+        "defending": 86,
+        "passing": 84,
+        "dribbling": 82,
+        "physicality": 74,
+        "stamina": 35,
+        "awareness": 81,
+        "composure": 45
+      }
+    },
+    {
+      "name": "W. Orban",
+      "number": 2,
+      "position": "CB",
+      "overall": 81,
+      "attributes": {
+        "pace": 49,
+        "shooting": 38,
+        "passing": 69,
+        "dribbling": 52,
+        "defending": 86,
+        "physicality": 85,
+        "stamina": 68,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "D. Szoboszlai",
+      "number": 3,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 73,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 30,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 80
+      }
+    },
+    {
+      "name": "21 B. Dzsudzsák",
+      "number": 4,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 21,
+        "physicality": 61,
+        "stamina": 65,
+        "awareness": 71,
+        "composure": 77
+      }
+    },
+    {
+      "name": "R. Sallai",
+      "number": 5,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 69,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 81,
+        "defending": 37,
+        "physicality": 61,
+        "stamina": 62,
+        "awareness": 74,
+        "composure": 65
+      }
+    },
+    {
+      "name": "18 Z. Gera",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 48,
+        "shooting": 69,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 58,
+        "physicality": 66,
+        "stamina": 67,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "T. Kádár",
+      "number": 7,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 34,
+        "passing": 71,
+        "dribbling": 58,
+        "defending": 73,
+        "physicality": 81,
+        "stamina": 90,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "L. Kleinheisler",
+      "number": 8,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 66,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 63,
+        "physicality": 67,
+        "stamina": 82,
+        "awareness": 76,
+        "composure": 76
+      }
+    },
+    {
+      "name": "D. Dibusz",
+      "number": 9,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "defending": 77,
+        "passing": 72,
+        "dribbling": 68,
+        "physicality": 36,
+        "stamina": 19,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "L. Négo",
+      "number": 10,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 89,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 66,
+        "physicality": 65,
+        "stamina": 77,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 Z. Kalmár",
+      "number": 11,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 64,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 46,
+        "physicality": 58,
+        "stamina": 55,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "E. Botka",
+      "number": 12,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 38,
+        "passing": 61,
+        "dribbling": 48,
+        "defending": 72,
+        "physicality": 75,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 56
+      }
+    },
+    {
+      "name": "19 A. Elek",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 62,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 58,
+        "defending": 68,
+        "physicality": 87,
+        "stamina": 81,
+        "awareness": 68,
+        "composure": 81
+      }
+    },
+    {
+      "name": "D. Sallói",
+      "number": 14,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 40,
+        "physicality": 66,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Szalai",
+      "number": 15,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 33,
+        "shooting": 73,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 44,
+        "physicality": 91,
+        "stamina": 53,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "G. Lovrencsics",
+      "number": 16,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 58,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 62,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Nagy",
+      "number": 17,
+      "position": "CDM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 48,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 68,
+        "physicality": 52,
+        "stamina": 74,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "N. Nikolić",
+      "number": 18,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 15,
+        "physicality": 73,
+        "stamina": 63,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "19 D. Böde",
+      "number": 19,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 74,
+        "passing": 69,
+        "dribbling": 58,
+        "defending": 29,
+        "physicality": 92,
+        "stamina": 54,
+        "awareness": 58,
+        "composure": 80
+      }
+    },
+    {
+      "name": "18 T. Priskin",
+      "number": 20,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 63,
+        "shooting": 75,
+        "passing": 64,
+        "dribbling": 57,
+        "defending": 33,
+        "physicality": 81,
+        "stamina": 51,
+        "awareness": 67,
+        "composure": 73
+      }
+    },
+    {
+      "name": "R. Varga",
+      "number": 21,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 28,
+        "physicality": 68,
+        "stamina": 65,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "D. Sigér",
+      "number": 22,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 58,
+        "shooting": 57,
+        "passing": 74,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 69,
+        "stamina": 88,
+        "awareness": 72,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 K. Németh",
+      "number": 23,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 33,
+        "physicality": 62,
+        "stamina": 62,
+        "awareness": 73,
+        "composure": 59
+      }
+    }
+  ]
+}

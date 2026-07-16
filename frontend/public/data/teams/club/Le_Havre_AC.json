@@ -1,0 +1,379 @@
+{
+  "name": "Le Havre AC",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Bonnet",
+      "number": 1,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 71,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 30,
+        "physicality": 62,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 67
+      }
+    },
+    {
+      "name": "P. Ba",
+      "number": 2,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 54,
+        "dribbling": 66,
+        "defending": 20,
+        "physicality": 77,
+        "stamina": 76,
+        "awareness": 57,
+        "composure": 61
+      }
+    },
+    {
+      "name": "F. Mayembo",
+      "number": 3,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 46,
+        "shooting": 31,
+        "passing": 57,
+        "dribbling": 44,
+        "defending": 69,
+        "physicality": 91,
+        "stamina": 74,
+        "awareness": 67,
+        "composure": 50
+      }
+    },
+    {
+      "name": "V. Lekhal",
+      "number": 4,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 42,
+        "passing": 71,
+        "dribbling": 56,
+        "defending": 65,
+        "physicality": 79,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Thiaré",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 20,
+        "physicality": 72,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Gorgelin",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 48,
+        "shooting": 13,
+        "passing": 12,
+        "dribbling": 20,
+        "defending": 15,
+        "physicality": 70,
+        "stamina": 30,
+        "awareness": 66,
+        "composure": 49
+      }
+    },
+    {
+      "name": "J. Fontaine",
+      "number": 7,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 50,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 63,
+        "physicality": 68,
+        "stamina": 82,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 H. Bazile",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 84,
+        "shooting": 63,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 28,
+        "physicality": 60,
+        "stamina": 64,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Q. Cornette",
+      "number": 9,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 59,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 48,
+        "physicality": 59,
+        "stamina": 47,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 R. Basque",
+      "number": 10,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 51,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 66,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Ben Mohamed",
+      "number": 11,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 87,
+        "shooting": 58,
+        "passing": 61,
+        "dribbling": 63,
+        "defending": 66,
+        "physicality": 69,
+        "stamina": 66,
+        "awareness": 53,
+        "composure": 60
+      }
+    },
+    {
+      "name": "N. Mbemba",
+      "number": 12,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 68,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 69,
+        "stamina": 67,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "N. Alioui",
+      "number": 13,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 77,
+        "shooting": 67,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 22,
+        "physicality": 58,
+        "stamina": 58,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Y. Fofana",
+      "number": 14,
+      "position": "GK",
+      "overall": 64,
+      "attributes": {
+        "pace": 64,
+        "defending": 66,
+        "passing": 62,
+        "dribbling": 62,
+        "physicality": 77,
+        "stamina": 26,
+        "awareness": 62,
+        "composure": 22
+      }
+    },
+    {
+      "name": "A. Ba",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 54,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 58,
+        "physicality": 60,
+        "stamina": 69,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "H. Abdelli",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 57,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 56,
+        "physicality": 72,
+        "stamina": 63,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Richardson",
+      "number": 17,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 59,
+        "shooting": 46,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 62,
+        "physicality": 68,
+        "stamina": 68,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "20 B. Traoré",
+      "number": 18,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 66,
+        "shooting": 23,
+        "passing": 58,
+        "dribbling": 54,
+        "defending": 60,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 51,
+        "composure": 59
+      }
+    },
+    {
+      "name": "T. Baldé",
+      "number": 19,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 33,
+        "passing": 59,
+        "dribbling": 57,
+        "defending": 64,
+        "physicality": 56,
+        "stamina": 53,
+        "awareness": 59,
+        "composure": 57
+      }
+    },
+    {
+      "name": "A. Sangante",
+      "number": 20,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 62,
+        "shooting": 25,
+        "passing": 57,
+        "dribbling": 42,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 61,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "21 A. Dzabana",
+      "number": 21,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 82,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 13,
+        "physicality": 56,
+        "stamina": 51,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "E. Mahmoud",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 73,
+        "shooting": 37,
+        "passing": 55,
+        "dribbling": 68,
+        "defending": 30,
+        "physicality": 57,
+        "stamina": 61,
+        "awareness": 45,
+        "composure": 51
+      }
+    }
+  ]
+}

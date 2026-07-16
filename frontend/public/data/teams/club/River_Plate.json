@@ -1,0 +1,397 @@
+{
+  "name": "River Plate",
+  "type": "club",
+  "players": [
+    {
+      "name": "21 I. Fernández",
+      "number": 1,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 73,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 81,
+        "composure": 85
+      }
+    },
+    {
+      "name": "E. Pérez",
+      "number": 2,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 66,
+        "shooting": 61,
+        "passing": 85,
+        "dribbling": 76,
+        "defending": 79,
+        "physicality": 78,
+        "stamina": 73,
+        "awareness": 80,
+        "composure": 80
+      }
+    },
+    {
+      "name": "F. Armani",
+      "number": 3,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 45,
+        "shooting": 11,
+        "passing": 35,
+        "dribbling": 19,
+        "defending": 13,
+        "physicality": 81,
+        "stamina": 35,
+        "awareness": 77,
+        "composure": 55
+      }
+    },
+    {
+      "name": "M. Suárez",
+      "number": 4,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 45,
+        "physicality": 74,
+        "stamina": 75,
+        "awareness": 81,
+        "composure": 85
+      }
+    },
+    {
+      "name": "N. De la Cruz",
+      "number": 5,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 83,
+        "shooting": 73,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 74,
+        "physicality": 44,
+        "stamina": 93,
+        "awareness": 77,
+        "composure": 82
+      }
+    },
+    {
+      "name": "M. Casco",
+      "number": 6,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 83,
+        "shooting": 60,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 71,
+        "physicality": 73,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 80
+      }
+    },
+    {
+      "name": "F. Angileri",
+      "number": 7,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 82,
+        "shooting": 63,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 72,
+        "physicality": 77,
+        "stamina": 90,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "B. Romero",
+      "number": 8,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 90,
+        "shooting": 80,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 59,
+        "physicality": 67,
+        "stamina": 81,
+        "awareness": 77,
+        "composure": 78
+      }
+    },
+    {
+      "name": "J. Pinola",
+      "number": 9,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 65,
+        "shooting": 51,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 77,
+        "physicality": 77,
+        "stamina": 64,
+        "awareness": 70,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Álvarez",
+      "number": 10,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 86,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 37,
+        "physicality": 52,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 78
+      }
+    },
+    {
+      "name": "B. Zuculini",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 60,
+        "passing": 76,
+        "dribbling": 69,
+        "defending": 72,
+        "physicality": 79,
+        "stamina": 79,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "19 R. Mora",
+      "number": 12,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 27,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "P. Díaz",
+      "number": 13,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 45,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 71,
+        "physicality": 76,
+        "stamina": 82,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Martínez",
+      "number": 14,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 38,
+        "passing": 71,
+        "dribbling": 63,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "E. Fernández",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 54,
+        "passing": 79,
+        "dribbling": 72,
+        "defending": 76,
+        "physicality": 69,
+        "stamina": 79,
+        "awareness": 73,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A. Palavecino",
+      "number": 16,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 71,
+        "shooting": 61,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 60,
+        "physicality": 64,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Carrascal",
+      "number": 17,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "shooting": 67,
+        "passing": 73,
+        "dribbling": 82,
+        "defending": 47,
+        "physicality": 44,
+        "stamina": 65,
+        "awareness": 71,
+        "composure": 79
+      }
+    },
+    {
+      "name": "A. Vigo",
+      "number": 18,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 83,
+        "shooting": 48,
+        "passing": 67,
+        "dribbling": 76,
+        "defending": 73,
+        "physicality": 64,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 57
+      }
+    },
+    {
+      "name": "R. Rojas",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 80,
+        "shooting": 49,
+        "passing": 66,
+        "dribbling": 59,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Maidana",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 36,
+        "shooting": 32,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 72,
+        "physicality": 86,
+        "stamina": 43,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "E. Bologna",
+      "number": 21,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 40,
+        "shooting": 13,
+        "passing": 34,
+        "dribbling": 13,
+        "defending": 22,
+        "physicality": 73,
+        "stamina": 33,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "L. Ponzio",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 43,
+        "shooting": 47,
+        "passing": 71,
+        "dribbling": 62,
+        "defending": 72,
+        "physicality": 71,
+        "stamina": 45,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 J. Arzura",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 39,
+        "passing": 66,
+        "dribbling": 58,
+        "defending": 71,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 67,
+        "composure": 63
+      }
+    }
+  ]
+}

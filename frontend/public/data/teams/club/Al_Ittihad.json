@@ -1,0 +1,311 @@
+{
+  "name": "Al Ittihad",
+  "type": "club",
+  "players": [
+    {
+      "name": "Romarinho",
+      "number": 1,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 86,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 80,
+        "defending": 22,
+        "physicality": 64,
+        "stamina": 83,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Igor Coronado",
+      "number": 2,
+      "position": "CAM",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 72,
+        "dribbling": 81,
+        "defending": 50,
+        "physicality": 56,
+        "stamina": 84,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "20 S. Sanogo",
+      "number": 3,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 66,
+        "shooting": 50,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 72,
+        "physicality": 90,
+        "stamina": 85,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Marcelo Grohe",
+      "number": 4,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "defending": 78,
+        "passing": 75,
+        "dribbling": 76,
+        "physicality": 65,
+        "stamina": 28,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Garry Rodrigues",
+      "number": 5,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 84,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 40,
+        "physicality": 60,
+        "stamina": 81,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Hegazi",
+      "number": 6,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 50,
+        "shooting": 17,
+        "passing": 67,
+        "dribbling": 53,
+        "defending": 77,
+        "physicality": 89,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 60
+      }
+    },
+    {
+      "name": "K. El Ahmadi",
+      "number": 7,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 58,
+        "shooting": 49,
+        "passing": 74,
+        "dribbling": 65,
+        "defending": 77,
+        "physicality": 76,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 79
+      }
+    },
+    {
+      "name": "21 L. Gil",
+      "number": 8,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 35,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 77,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Bruno Henrique",
+      "number": 9,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 62,
+        "shooting": 59,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 71,
+        "physicality": 76,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 W. Bony",
+      "number": 10,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 48,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 42,
+        "physicality": 90,
+        "stamina": 33,
+        "awareness": 70,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Y. Niakaté",
+      "number": 11,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 91,
+        "shooting": 75,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 20,
+        "physicality": 72,
+        "stamina": 71,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Al Malki",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 75,
+        "shooting": 59,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 74,
+        "physicality": 74,
+        "stamina": 84,
+        "awareness": 68,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Abdulhamid",
+      "number": 13,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 85,
+        "shooting": 41,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 64,
+        "physicality": 59,
+        "stamina": 85,
+        "awareness": 62,
+        "composure": 49
+      }
+    },
+    {
+      "name": "A. Prijović",
+      "number": 14,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 57,
+        "shooting": 68,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 33,
+        "physicality": 86,
+        "stamina": 60,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "F. Al Muwallad",
+      "number": 15,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 90,
+        "shooting": 55,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 30,
+        "physicality": 62,
+        "stamina": 63,
+        "awareness": 62,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Z. Al Sahafi",
+      "number": 16,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 48,
+        "shooting": 50,
+        "passing": 62,
+        "dribbling": 52,
+        "defending": 67,
+        "physicality": 84,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 47
+      }
+    },
+    {
+      "name": "H. Al Shamrani",
+      "number": 17,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 83,
+        "shooting": 49,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 59,
+        "physicality": 73,
+        "stamina": 71,
+        "awareness": 56,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Al Hafith",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 33,
+        "shooting": 34,
+        "passing": 60,
+        "dribbling": 35,
+        "defending": 64,
+        "physicality": 78,
+        "stamina": 77,
+        "awareness": 60,
+        "composure": 55
+      }
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "name": "Ukraine",
+  "type": "nation",
+  "players": [
+    {
+      "name": "R. Malinovskyi",
+      "number": 1,
+      "position": "RW",
+      "overall": 81,
+      "attributes": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 72,
+        "physicality": 79,
+        "stamina": 81,
+        "awareness": 77,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Marlos",
+      "number": 2,
+      "position": "RW",
+      "overall": 81,
+      "attributes": {
+        "pace": 80,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 87,
+        "defending": 46,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 75,
+        "composure": 84
+      }
+    },
+    {
+      "name": "O. Zinchenko",
+      "number": 3,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 71,
+        "shooting": 58,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 79,
+        "physicality": 63,
+        "stamina": 76,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "19 Y. Rakitskyi",
+      "number": 4,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 72,
+        "shooting": 57,
+        "passing": 78,
+        "dribbling": 69,
+        "defending": 83,
+        "physicality": 84,
+        "stamina": 82,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "V. Tsygankov",
+      "number": 5,
+      "position": "RW",
+      "overall": 80,
+      "attributes": {
+        "pace": 85,
+        "shooting": 75,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 36,
+        "physicality": 49,
+        "stamina": 74,
+        "awareness": 78,
+        "composure": 76
+      }
+    },
+    {
+      "name": "T. Stepanenko",
+      "number": 6,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 63,
+        "shooting": 56,
+        "passing": 80,
+        "dribbling": 64,
+        "defending": 79,
+        "physicality": 76,
+        "stamina": 82,
+        "awareness": 78,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Júnior Moraes",
+      "number": 7,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 13,
+        "physicality": 69,
+        "stamina": 73,
+        "awareness": 82,
+        "composure": 74
+      }
+    },
+    {
+      "name": "R. Yaremchuk",
+      "number": 8,
+      "position": "ST",
+      "overall": 77,
+      "attributes": {
+        "pace": 83,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 48,
+        "physicality": 76,
+        "stamina": 77,
+        "awareness": 76,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Shaparenko",
+      "number": 9,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 75,
+        "shooting": 70,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 67,
+        "physicality": 50,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 66
+      }
+    },
+    {
+      "name": "V. Buyalskyi",
+      "number": 10,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 79,
+        "shooting": 69,
+        "passing": 77,
+        "dribbling": 80,
+        "defending": 75,
+        "physicality": 47,
+        "stamina": 80,
+        "awareness": 80,
+        "composure": 73
+      }
+    },
+    {
+      "name": "A. Yarmolenko",
+      "number": 11,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 66,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 81,
+        "defending": 35,
+        "physicality": 75,
+        "stamina": 51,
+        "awareness": 79,
+        "composure": 74
+      }
+    },
+    {
+      "name": "V. Mykolenko",
+      "number": 12,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "shooting": 44,
+        "passing": 72,
+        "dribbling": 54,
+        "defending": 73,
+        "physicality": 57,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 59
+      }
+    },
+    {
+      "name": "E. Sobol",
+      "number": 13,
+      "position": "LB",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 58,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 67,
+        "stamina": 86,
+        "awareness": 71,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Sydorchuk",
+      "number": 14,
+      "position": "CDM",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 63,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 75,
+        "physicality": 73,
+        "stamina": 78,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Pyatov",
+      "number": 15,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 72,
+        "defending": 73,
+        "passing": 69,
+        "dribbling": 83,
+        "physicality": 84,
+        "stamina": 37,
+        "awareness": 71,
+        "composure": 52
+      }
+    },
+    {
+      "name": "G. Bushchan",
+      "number": 16,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "defending": 79,
+        "passing": 65,
+        "dribbling": 72,
+        "physicality": 73,
+        "stamina": 18,
+        "awareness": 77,
+        "composure": 36
+      }
+    },
+    {
+      "name": "Y. Konoplyanka",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 30,
+        "physicality": 71,
+        "stamina": 66,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "19 T. Mykhalyk",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 40,
+        "passing": 67,
+        "dribbling": 51,
+        "defending": 73,
+        "physicality": 80,
+        "stamina": 58,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Kryvtsov",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 38,
+        "passing": 69,
+        "dribbling": 42,
+        "defending": 77,
+        "physicality": 80,
+        "stamina": 77,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Burda",
+      "number": 20,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 17,
+        "passing": 62,
+        "dribbling": 31,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 64,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Lunin",
+      "number": 21,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 35,
+        "shooting": 8,
+        "passing": 25,
+        "dribbling": 11,
+        "defending": 13,
+        "physicality": 61,
+        "stamina": 32,
+        "awareness": 74,
+        "composure": 56
+      }
+    },
+    {
+      "name": "V. Kovalenko",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 59,
+        "physicality": 72,
+        "stamina": 82,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "D. Garmash",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 72,
+        "passing": 80,
+        "dribbling": 69,
+        "defending": 73,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 75,
+        "composure": 75
+      }
+    }
+  ]
+}

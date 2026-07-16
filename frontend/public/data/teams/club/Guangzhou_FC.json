@@ -1,0 +1,261 @@
+{
+  "name": "Guangzhou FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "Ai Kesen",
+      "number": 1,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 45,
+        "physicality": 82,
+        "stamina": 81,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Gao Late",
+      "number": 2,
+      "position": "CAM",
+      "overall": 79,
+      "attributes": {
+        "pace": 83,
+        "shooting": 77,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 41,
+        "physicality": 73,
+        "stamina": 76,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A Lan",
+      "number": 3,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 84,
+        "shooting": 79,
+        "passing": 68,
+        "dribbling": 83,
+        "defending": 20,
+        "physicality": 75,
+        "stamina": 77,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Fei Nanduo",
+      "number": 4,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 85,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 80,
+        "defending": 46,
+        "physicality": 66,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 Luo Guofu",
+      "number": 5,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 77,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 37,
+        "physicality": 74,
+        "stamina": 81,
+        "awareness": 79,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Li Xuepeng",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 81,
+        "shooting": 52,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Zhang Linpeng",
+      "number": 7,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 74,
+        "shooting": 49,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 67,
+        "physicality": 85,
+        "stamina": 79,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Huang Bowen",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 61,
+        "passing": 73,
+        "dribbling": 62,
+        "defending": 64,
+        "physicality": 78,
+        "stamina": 70,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Wei Shihao",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 82,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 73,
+        "defending": 25,
+        "physicality": 57,
+        "stamina": 78,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Deng Hanwen",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 42,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 63,
+        "physicality": 59,
+        "stamina": 74,
+        "awareness": 58,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Jiang Guangtai",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 83,
+        "shooting": 25,
+        "passing": 59,
+        "dribbling": 48,
+        "defending": 65,
+        "physicality": 78,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Liu Dianzuo",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 49,
+        "shooting": 15,
+        "passing": 24,
+        "dribbling": 17,
+        "defending": 20,
+        "physicality": 65,
+        "stamina": 38,
+        "awareness": 63,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Zheng Zhi",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 33,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 64,
+        "physicality": 63,
+        "stamina": 31,
+        "awareness": 62,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Yang Liyu",
+      "number": 14,
+      "position": "LW",
+      "overall": 66,
+      "attributes": {
+        "pace": 84,
+        "shooting": 54,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 42,
+        "physicality": 67,
+        "stamina": 79,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "He Chao",
+      "number": 15,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 65,
+        "shooting": 44,
+        "passing": 62,
+        "dribbling": 59,
+        "defending": 62,
+        "physicality": 76,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 61
+      }
+    }
+  ]
+}

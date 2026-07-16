@@ -1,0 +1,294 @@
+{
+  "name": "VfL Osnabrück",
+  "type": "club",
+  "players": [
+    {
+      "name": "T. Beermann",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 39,
+        "shooting": 37,
+        "passing": 55,
+        "dribbling": 36,
+        "defending": 72,
+        "physicality": 79,
+        "stamina": 56,
+        "awareness": 64,
+        "composure": 61
+      }
+    },
+    {
+      "name": "P. Kühn",
+      "number": 2,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "defending": 77,
+        "passing": 63,
+        "dribbling": 74,
+        "physicality": 80,
+        "stamina": 43,
+        "awareness": 60,
+        "composure": 48
+      }
+    },
+    {
+      "name": "M. Heider",
+      "number": 3,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 59,
+        "dribbling": 59,
+        "defending": 51,
+        "physicality": 79,
+        "stamina": 83,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 C. Santos",
+      "number": 4,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 66,
+        "shooting": 69,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 37,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 K. Engel",
+      "number": 5,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 64,
+        "dribbling": 55,
+        "defending": 64,
+        "physicality": 67,
+        "stamina": 55,
+        "awareness": 64,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Opoku",
+      "number": 6,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 80,
+        "shooting": 47,
+        "passing": 61,
+        "dribbling": 74,
+        "defending": 43,
+        "physicality": 57,
+        "stamina": 77,
+        "awareness": 54,
+        "composure": 61
+      }
+    },
+    {
+      "name": "M. Trapp",
+      "number": 7,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 46,
+        "shooting": 45,
+        "passing": 58,
+        "dribbling": 52,
+        "defending": 71,
+        "physicality": 86,
+        "stamina": 61,
+        "awareness": 58,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Köhler",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 56,
+        "shooting": 50,
+        "passing": 69,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 79,
+        "stamina": 76,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Klaas",
+      "number": 9,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 68,
+        "shooting": 51,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 34,
+        "physicality": 40,
+        "stamina": 64,
+        "awareness": 59,
+        "composure": 55
+      }
+    },
+    {
+      "name": "L. Gugganig",
+      "number": 10,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 43,
+        "shooting": 44,
+        "passing": 45,
+        "dribbling": 55,
+        "defending": 69,
+        "physicality": 85,
+        "stamina": 56,
+        "awareness": 62,
+        "composure": 54
+      }
+    },
+    {
+      "name": "O. Wähling",
+      "number": 11,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 66,
+        "shooting": 60,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 37,
+        "physicality": 65,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Bertram",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 63,
+        "passing": 61,
+        "dribbling": 64,
+        "defending": 37,
+        "physicality": 66,
+        "stamina": 72,
+        "awareness": 60,
+        "composure": 49
+      }
+    },
+    {
+      "name": "F. Kleinhansl",
+      "number": 13,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 72,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 68,
+        "defending": 57,
+        "physicality": 56,
+        "stamina": 72,
+        "awareness": 71,
+        "composure": 43
+      }
+    },
+    {
+      "name": "O. Traoré",
+      "number": 14,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 86,
+        "shooting": 36,
+        "passing": 61,
+        "dribbling": 64,
+        "defending": 60,
+        "physicality": 62,
+        "stamina": 72,
+        "awareness": 51,
+        "composure": 58
+      }
+    },
+    {
+      "name": "U. Bapoh",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 71,
+        "shooting": 65,
+        "passing": 59,
+        "dribbling": 65,
+        "defending": 37,
+        "physicality": 72,
+        "stamina": 50,
+        "awareness": 59,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Itter",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "shooting": 38,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 59,
+        "stamina": 60,
+        "awareness": 63,
+        "composure": 47
+      }
+    },
+    {
+      "name": "19 U. Sen",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 69,
+        "shooting": 65,
+        "passing": 48,
+        "dribbling": 60,
+        "defending": 18,
+        "physicality": 60,
+        "stamina": 59,
+        "awareness": 46,
+        "composure": 45
+      }
+    }
+  ]
+}

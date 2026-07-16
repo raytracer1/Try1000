@@ -1,0 +1,294 @@
+{
+  "name": "1. FC Magdeburg",
+  "type": "club",
+  "players": [
+    {
+      "name": "B. Atik",
+      "number": 1,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 36,
+        "physicality": 44,
+        "stamina": 72,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "R. Obermair",
+      "number": 2,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 63,
+        "passing": 63,
+        "dribbling": 70,
+        "defending": 66,
+        "physicality": 63,
+        "stamina": 70,
+        "awareness": 51,
+        "composure": 57
+      }
+    },
+    {
+      "name": "A. Müller",
+      "number": 3,
+      "position": "CDM",
+      "overall": 64,
+      "attributes": {
+        "pace": 53,
+        "shooting": 59,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 66,
+        "physicality": 45,
+        "stamina": 77,
+        "awareness": 59,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Kath",
+      "number": 4,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 74,
+        "shooting": 58,
+        "passing": 63,
+        "dribbling": 70,
+        "defending": 39,
+        "physicality": 63,
+        "stamina": 52,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Schuler",
+      "number": 5,
+      "position": "ST",
+      "overall": 64,
+      "attributes": {
+        "pace": 86,
+        "shooting": 66,
+        "passing": 52,
+        "dribbling": 57,
+        "defending": 25,
+        "physicality": 74,
+        "stamina": 62,
+        "awareness": 62,
+        "composure": 54
+      }
+    },
+    {
+      "name": "21 J. Gjasula",
+      "number": 6,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 50,
+        "shooting": 58,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 60,
+        "physicality": 76,
+        "stamina": 62,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "L. Bell Bell",
+      "number": 7,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 81,
+        "shooting": 59,
+        "passing": 58,
+        "dribbling": 63,
+        "defending": 57,
+        "physicality": 61,
+        "stamina": 74,
+        "awareness": 55,
+        "composure": 52
+      }
+    },
+    {
+      "name": "N. Granatowski",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 80,
+        "shooting": 58,
+        "passing": 58,
+        "dribbling": 61,
+        "defending": 45,
+        "physicality": 59,
+        "stamina": 83,
+        "awareness": 66,
+        "composure": 55
+      }
+    },
+    {
+      "name": "S. Conteh",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 93,
+        "shooting": 53,
+        "passing": 52,
+        "dribbling": 63,
+        "defending": 35,
+        "physicality": 57,
+        "stamina": 67,
+        "awareness": 52,
+        "composure": 47
+      }
+    },
+    {
+      "name": "K. Brünker",
+      "number": 10,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 72,
+        "shooting": 64,
+        "passing": 57,
+        "dribbling": 55,
+        "defending": 14,
+        "physicality": 88,
+        "stamina": 80,
+        "awareness": 55,
+        "composure": 56
+      }
+    },
+    {
+      "name": "D. Reimann",
+      "number": 11,
+      "position": "GK",
+      "overall": 63,
+      "attributes": {
+        "pace": 66,
+        "defending": 68,
+        "passing": 55,
+        "dribbling": 57,
+        "physicality": 47,
+        "stamina": 31,
+        "awareness": 60,
+        "composure": 40
+      }
+    },
+    {
+      "name": "A. Condé",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 73,
+        "shooting": 50,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 64,
+        "physicality": 69,
+        "stamina": 82,
+        "awareness": 55,
+        "composure": 57
+      }
+    },
+    {
+      "name": "C. Krempicki",
+      "number": 13,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 62,
+        "shooting": 54,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 61,
+        "physicality": 68,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Ceka",
+      "number": 14,
+      "position": "RW",
+      "overall": 62,
+      "attributes": {
+        "pace": 76,
+        "shooting": 58,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 28,
+        "physicality": 34,
+        "stamina": 63,
+        "awareness": 54,
+        "composure": 56
+      }
+    },
+    {
+      "name": "21 D. Steininger",
+      "number": 15,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 73,
+        "shooting": 53,
+        "passing": 56,
+        "dribbling": 59,
+        "defending": 32,
+        "physicality": 80,
+        "stamina": 63,
+        "awareness": 59,
+        "composure": 48
+      }
+    },
+    {
+      "name": "T. Knost",
+      "number": 16,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 28,
+        "passing": 57,
+        "dribbling": 51,
+        "defending": 59,
+        "physicality": 58,
+        "stamina": 73,
+        "awareness": 52,
+        "composure": 41
+      }
+    },
+    {
+      "name": "J. Rieckmann",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 53,
+        "shooting": 25,
+        "passing": 62,
+        "dribbling": 39,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 60,
+        "awareness": 60,
+        "composure": 55
+      }
+    }
+  ]
+}

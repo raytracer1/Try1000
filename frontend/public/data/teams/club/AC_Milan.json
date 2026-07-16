@@ -1,0 +1,396 @@
+{
+  "name": "AC Milan",
+  "type": "club",
+  "players": [
+    {
+      "name": "F. Kessié",
+      "number": 1,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 79,
+        "shooting": 67,
+        "passing": 83,
+        "dribbling": 78,
+        "defending": 84,
+        "physicality": 86,
+        "stamina": 94,
+        "awareness": 81,
+        "composure": 84
+      }
+    },
+    {
+      "name": "T. Hernández",
+      "number": 2,
+      "position": "LB",
+      "overall": 84,
+      "attributes": {
+        "pace": 94,
+        "shooting": 68,
+        "passing": 78,
+        "dribbling": 83,
+        "defending": 79,
+        "physicality": 79,
+        "stamina": 90,
+        "awareness": 84,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Z. Ibrahimović",
+      "number": 3,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 66,
+        "shooting": 86,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 37,
+        "physicality": 87,
+        "stamina": 52,
+        "awareness": 83,
+        "composure": 90
+      }
+    },
+    {
+      "name": "M. Maignan",
+      "number": 4,
+      "position": "GK",
+      "overall": 84,
+      "attributes": {
+        "pace": 83,
+        "defending": 86,
+        "passing": 81,
+        "dribbling": 84,
+        "physicality": 78,
+        "stamina": 39,
+        "awareness": 82,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Kjær",
+      "number": 5,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 71,
+        "shooting": 55,
+        "passing": 76,
+        "dribbling": 50,
+        "defending": 85,
+        "physicality": 82,
+        "stamina": 65,
+        "awareness": 79,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. Rebić",
+      "number": 6,
+      "position": "LW",
+      "overall": 82,
+      "attributes": {
+        "pace": 88,
+        "shooting": 85,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 50,
+        "physicality": 80,
+        "stamina": 81,
+        "awareness": 85,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Romagnoli",
+      "number": 7,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 69,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 86,
+        "physicality": 79,
+        "stamina": 70,
+        "awareness": 80,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Florenzi",
+      "number": 8,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 83,
+        "dribbling": 75,
+        "defending": 76,
+        "physicality": 50,
+        "stamina": 82,
+        "awareness": 77,
+        "composure": 81
+      }
+    },
+    {
+      "name": "I. Bennacer",
+      "number": 9,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 76,
+        "physicality": 66,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 79
+      }
+    },
+    {
+      "name": "T. Bakayoko",
+      "number": 10,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 65,
+        "shooting": 37,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 81,
+        "physicality": 87,
+        "stamina": 78,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "O. Giroud",
+      "number": 11,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 43,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 37,
+        "physicality": 88,
+        "stamina": 54,
+        "awareness": 81,
+        "composure": 79
+      }
+    },
+    {
+      "name": "F. Tomori",
+      "number": 12,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 86,
+        "shooting": 33,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 82,
+        "physicality": 81,
+        "stamina": 73,
+        "awareness": 79,
+        "composure": 76
+      }
+    },
+    {
+      "name": "21 M. Mandžukić",
+      "number": 13,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 67,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 64,
+        "physicality": 87,
+        "stamina": 67,
+        "awareness": 81,
+        "composure": 78
+      }
+    },
+    {
+      "name": "19 R. Montolivo",
+      "number": 14,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 55,
+        "shooting": 46,
+        "passing": 84,
+        "dribbling": 80,
+        "defending": 72,
+        "physicality": 69,
+        "stamina": 55,
+        "awareness": 80,
+        "composure": 82
+      }
+    },
+    {
+      "name": "D. Calabria",
+      "number": 15,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 76,
+        "shooting": 40,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 79,
+        "physicality": 65,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Brahim",
+      "number": 16,
+      "position": "CAM",
+      "overall": 78,
+      "attributes": {
+        "pace": 74,
+        "shooting": 69,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 23,
+        "physicality": 44,
+        "stamina": 67,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Tonali",
+      "number": 17,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 82,
+        "shooting": 60,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 76,
+        "stamina": 76,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "19 I. Abate",
+      "number": 18,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 85,
+        "shooting": 38,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 76,
+        "physicality": 69,
+        "stamina": 76,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Samu Castillejo",
+      "number": 19,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "shooting": 67,
+        "passing": 76,
+        "dribbling": 82,
+        "defending": 43,
+        "physicality": 48,
+        "stamina": 64,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Rafael Leão",
+      "number": 20,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 90,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 84,
+        "defending": 24,
+        "physicality": 76,
+        "stamina": 68,
+        "awareness": 70,
+        "composure": 76
+      }
+    },
+    {
+      "name": "C. Tătărușanu",
+      "number": 21,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 43,
+        "shooting": 15,
+        "passing": 36,
+        "dribbling": 16,
+        "defending": 15,
+        "physicality": 73,
+        "stamina": 42,
+        "awareness": 74,
+        "composure": 44
+      }
+    },
+    {
+      "name": "A. Saelemaekers",
+      "number": 22,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 81,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 65,
+        "physicality": 59,
+        "stamina": 83,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Conti",
+      "number": 23,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 74,
+        "physicality": 56,
+        "stamina": 78,
+        "awareness": 72,
+        "composure": 72
+      }
+    }
+  ]
+}

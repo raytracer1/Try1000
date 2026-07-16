@@ -1,0 +1,395 @@
+{
+  "name": "England",
+  "type": "nation",
+  "players": [
+    {
+      "name": "H. Kane",
+      "number": 1,
+      "position": "ST",
+      "overall": 90,
+      "attributes": {
+        "pace": 74,
+        "shooting": 94,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 36,
+        "physicality": 85,
+        "stamina": 83,
+        "awareness": 92,
+        "composure": 91
+      }
+    },
+    {
+      "name": "R. Sterling",
+      "number": 2,
+      "position": "CM",
+      "overall": 88,
+      "attributes": {
+        "pace": 88,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 87,
+        "defending": 53,
+        "physicality": 64,
+        "stamina": 79,
+        "awareness": 90,
+        "composure": 78
+      }
+    },
+    {
+      "name": "T. Alexander-Arnold",
+      "number": 3,
+      "position": "RB",
+      "overall": 87,
+      "attributes": {
+        "pace": 80,
+        "shooting": 60,
+        "passing": 86,
+        "dribbling": 78,
+        "defending": 83,
+        "physicality": 63,
+        "stamina": 88,
+        "awareness": 82,
+        "composure": 81
+      }
+    },
+    {
+      "name": "J. Sancho",
+      "number": 4,
+      "position": "LW",
+      "overall": 87,
+      "attributes": {
+        "pace": 78,
+        "shooting": 83,
+        "passing": 87,
+        "dribbling": 92,
+        "defending": 39,
+        "physicality": 68,
+        "stamina": 77,
+        "awareness": 85,
+        "composure": 86
+      }
+    },
+    {
+      "name": "J. Vardy",
+      "number": 5,
+      "position": "ST",
+      "overall": 86,
+      "attributes": {
+        "pace": 85,
+        "shooting": 90,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 52,
+        "physicality": 66,
+        "stamina": 76,
+        "awareness": 91,
+        "composure": 88
+      }
+    },
+    {
+      "name": "K. Walker",
+      "number": 6,
+      "position": "RB",
+      "overall": 85,
+      "attributes": {
+        "pace": 94,
+        "shooting": 51,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 84,
+        "physicality": 80,
+        "stamina": 86,
+        "awareness": 85,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Rashford",
+      "number": 7,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 93,
+        "shooting": 83,
+        "passing": 80,
+        "dribbling": 86,
+        "defending": 38,
+        "physicality": 75,
+        "stamina": 86,
+        "awareness": 84,
+        "composure": 80
+      }
+    },
+    {
+      "name": "J. Henderson",
+      "number": 8,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 66,
+        "shooting": 73,
+        "passing": 85,
+        "dribbling": 78,
+        "defending": 81,
+        "physicality": 78,
+        "stamina": 86,
+        "awareness": 85,
+        "composure": 82
+      }
+    },
+    {
+      "name": "K. Trippier",
+      "number": 9,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 73,
+        "shooting": 54,
+        "passing": 81,
+        "dribbling": 74,
+        "defending": 81,
+        "physicality": 64,
+        "stamina": 87,
+        "awareness": 81,
+        "composure": 77
+      }
+    },
+    {
+      "name": "L. Shaw",
+      "number": 10,
+      "position": "LB",
+      "overall": 84,
+      "attributes": {
+        "pace": 81,
+        "shooting": 44,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 83,
+        "physicality": 79,
+        "stamina": 80,
+        "awareness": 82,
+        "composure": 83
+      }
+    },
+    {
+      "name": "P. Foden",
+      "number": 11,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 59,
+        "physicality": 44,
+        "stamina": 79,
+        "awareness": 83,
+        "composure": 82
+      }
+    },
+    {
+      "name": "J. Grealish",
+      "number": 12,
+      "position": "LW",
+      "overall": 84,
+      "attributes": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 85,
+        "dribbling": 89,
+        "defending": 49,
+        "physicality": 61,
+        "stamina": 80,
+        "awareness": 79,
+        "composure": 88
+      }
+    },
+    {
+      "name": "H. Maguire",
+      "number": 13,
+      "position": "CB",
+      "overall": 84,
+      "attributes": {
+        "pace": 53,
+        "shooting": 48,
+        "passing": 78,
+        "dribbling": 71,
+        "defending": 83,
+        "physicality": 90,
+        "stamina": 82,
+        "awareness": 84,
+        "composure": 85
+      }
+    },
+    {
+      "name": "M. Mount",
+      "number": 14,
+      "position": "RW",
+      "overall": 83,
+      "attributes": {
+        "pace": 71,
+        "shooting": 79,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 57,
+        "physicality": 54,
+        "stamina": 86,
+        "awareness": 84,
+        "composure": 84
+      }
+    },
+    {
+      "name": "A. Wan-Bissaka",
+      "number": 15,
+      "position": "RB",
+      "overall": 83,
+      "attributes": {
+        "pace": 88,
+        "shooting": 46,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 87,
+        "physicality": 72,
+        "stamina": 81,
+        "awareness": 83,
+        "composure": 76
+      }
+    },
+    {
+      "name": "J. Stones",
+      "number": 16,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 73,
+        "shooting": 52,
+        "passing": 83,
+        "dribbling": 72,
+        "defending": 85,
+        "physicality": 78,
+        "stamina": 77,
+        "awareness": 82,
+        "composure": 80
+      }
+    },
+    {
+      "name": "J. Pickford",
+      "number": 17,
+      "position": "GK",
+      "overall": 83,
+      "attributes": {
+        "pace": 83,
+        "defending": 86,
+        "passing": 78,
+        "dribbling": 80,
+        "physicality": 70,
+        "stamina": 45,
+        "awareness": 80,
+        "composure": 65
+      }
+    },
+    {
+      "name": "N. Pope",
+      "number": 18,
+      "position": "GK",
+      "overall": 83,
+      "attributes": {
+        "pace": 81,
+        "defending": 84,
+        "passing": 83,
+        "dribbling": 83,
+        "physicality": 75,
+        "stamina": 37,
+        "awareness": 78,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Maddison",
+      "number": 19,
+      "position": "CAM",
+      "overall": 82,
+      "attributes": {
+        "pace": 72,
+        "shooting": 75,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 65,
+        "physicality": 51,
+        "stamina": 74,
+        "awareness": 76,
+        "composure": 84
+      }
+    },
+    {
+      "name": "B. Chilwell",
+      "number": 20,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 75,
+        "shooting": 49,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 79,
+        "physicality": 69,
+        "stamina": 88,
+        "awareness": 80,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Rice",
+      "number": 21,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 69,
+        "shooting": 42,
+        "passing": 82,
+        "dribbling": 75,
+        "defending": 83,
+        "physicality": 78,
+        "stamina": 85,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "J. Gomez",
+      "number": 22,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 85,
+        "shooting": 26,
+        "passing": 78,
+        "dribbling": 67,
+        "defending": 84,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 82,
+        "composure": 74
+      }
+    },
+    {
+      "name": "17 S. Gerrard",
+      "number": 23,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 54,
+        "shooting": 76,
+        "passing": 83,
+        "dribbling": 74,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 68,
+        "awareness": 85,
+        "composure": 84
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "PAOK",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Živković",
+      "number": 1,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 82,
+        "defending": 64,
+        "physicality": 54,
+        "stamina": 63,
+        "awareness": 69,
+        "composure": 80
+      }
+    },
+    {
+      "name": "S. Schwab",
+      "number": 2,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 64,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 69,
+        "physicality": 76,
+        "stamina": 88,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "S. Ingason",
+      "number": 3,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 62,
+        "shooting": 48,
+        "passing": 65,
+        "dribbling": 47,
+        "defending": 76,
+        "physicality": 77,
+        "stamina": 70,
+        "awareness": 74,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Kurtić",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 59,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 75,
+        "physicality": 78,
+        "stamina": 70,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Sidcley",
+      "number": 5,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 81,
+        "shooting": 63,
+        "passing": 74,
+        "dribbling": 80,
+        "defending": 76,
+        "physicality": 71,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Biseswar",
+      "number": 6,
+      "position": "CAM",
+      "overall": 74,
+      "attributes": {
+        "pace": 71,
+        "shooting": 64,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 24,
+        "physicality": 63,
+        "stamina": 56,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Mitriță",
+      "number": 7,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 82,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 21,
+        "physicality": 57,
+        "stamina": 63,
+        "awareness": 77,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Vieirinha",
+      "number": 8,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 66,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 54,
+        "stamina": 58,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Rodrigo",
+      "number": 9,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 48,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 71,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 Léo Matos",
+      "number": 10,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 71
+      }
+    },
+    {
+      "name": "O. El Kaddouri",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 62,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 61,
+        "physicality": 77,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Warda",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 34,
+        "physicality": 53,
+        "stamina": 71,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Nélson Oliveira",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 40,
+        "physicality": 78,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Kagawa",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 56,
+        "shooting": 68,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 53,
+        "physicality": 35,
+        "stamina": 56,
+        "awareness": 72,
+        "composure": 79
+      }
+    },
+    {
+      "name": "K. Świderski",
+      "number": 15,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 78,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 21,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Douglas Augusto",
+      "number": 16,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 70,
+        "physicality": 74,
+        "stamina": 77,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "T. Murg",
+      "number": 17,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 44,
+        "physicality": 65,
+        "stamina": 68,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "José Crespo",
+      "number": 18,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 68,
+        "shooting": 32,
+        "passing": 70,
+        "dribbling": 54,
+        "defending": 73,
+        "physicality": 74,
+        "stamina": 76,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Varela",
+      "number": 19,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 62,
+        "shooting": 43,
+        "passing": 56,
+        "dribbling": 55,
+        "defending": 69,
+        "physicality": 87,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Paschalakis",
+      "number": 20,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 79,
+        "defending": 79,
+        "passing": 62,
+        "dribbling": 70,
+        "physicality": 76,
+        "stamina": 34,
+        "awareness": 66,
+        "composure": 30
+      }
+    },
+    {
+      "name": "C. Akpom",
+      "number": 21,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 84,
+        "shooting": 70,
+        "passing": 59,
+        "dribbling": 68,
+        "defending": 29,
+        "physicality": 80,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 Léo Jabá",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 86,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 74,
+        "defending": 20,
+        "physicality": 72,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Esiti",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 50,
+        "shooting": 33,
+        "passing": 68,
+        "dribbling": 59,
+        "defending": 72,
+        "physicality": 88,
+        "stamina": 72,
+        "awareness": 65,
+        "composure": 66
+      }
+    }
+  ]
+}

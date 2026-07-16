@@ -1,0 +1,193 @@
+{
+  "name": "Sandefjord Fotball",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Njie",
+      "number": 1,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 88,
+        "shooting": 60,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 17,
+        "physicality": 63,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 65
+      }
+    },
+    {
+      "name": "H. Singh",
+      "number": 2,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 44,
+        "shooting": 53,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 54,
+        "physicality": 70,
+        "stamina": 66,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "B. Wembangomo",
+      "number": 3,
+      "position": "RB",
+      "overall": 64,
+      "attributes": {
+        "pace": 83,
+        "shooting": 45,
+        "passing": 57,
+        "dribbling": 64,
+        "defending": 61,
+        "physicality": 58,
+        "stamina": 75,
+        "awareness": 58,
+        "composure": 49
+      }
+    },
+    {
+      "name": "Marc Vales",
+      "number": 4,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 28,
+        "passing": 56,
+        "dribbling": 52,
+        "defending": 62,
+        "physicality": 80,
+        "stamina": 63,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "M. Kreuzriegler",
+      "number": 5,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 25,
+        "passing": 57,
+        "dribbling": 44,
+        "defending": 66,
+        "physicality": 71,
+        "stamina": 53,
+        "awareness": 63,
+        "composure": 57
+      }
+    },
+    {
+      "name": "Zé Eduardo",
+      "number": 6,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 71,
+        "shooting": 55,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 50,
+        "physicality": 84,
+        "stamina": 66,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Enric Vallès",
+      "number": 7,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 59,
+        "shooting": 57,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 60,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 55,
+        "composure": 56
+      }
+    },
+    {
+      "name": "A. Tveter",
+      "number": 8,
+      "position": "ST",
+      "overall": 62,
+      "attributes": {
+        "pace": 54,
+        "shooting": 62,
+        "passing": 60,
+        "dribbling": 58,
+        "defending": 30,
+        "physicality": 80,
+        "stamina": 54,
+        "awareness": 55,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Vega",
+      "number": 9,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 78,
+        "shooting": 54,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 39,
+        "physicality": 54,
+        "stamina": 65,
+        "awareness": 56,
+        "composure": 61
+      }
+    },
+    {
+      "name": "S. Foss",
+      "number": 10,
+      "position": "CB",
+      "overall": 62,
+      "attributes": {
+        "pace": 53,
+        "shooting": 20,
+        "passing": 52,
+        "dribbling": 38,
+        "defending": 63,
+        "physicality": 72,
+        "stamina": 59,
+        "awareness": 60,
+        "composure": 59
+      }
+    },
+    {
+      "name": "E. Brenden",
+      "number": 11,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 78,
+        "shooting": 50,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 45,
+        "physicality": 63,
+        "stamina": 69,
+        "awareness": 49,
+        "composure": 61
+      }
+    }
+  ]
+}

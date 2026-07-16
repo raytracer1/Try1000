@@ -1,0 +1,396 @@
+{
+  "name": "FC Schalke 04",
+  "type": "club",
+  "players": [
+    {
+      "name": "S. Sané",
+      "number": 1,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 54,
+        "shooting": 37,
+        "passing": 71,
+        "dribbling": 62,
+        "defending": 77,
+        "physicality": 91,
+        "stamina": 63,
+        "awareness": 76,
+        "composure": 73
+      }
+    },
+    {
+      "name": "S. Terodde",
+      "number": 2,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 81,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 42,
+        "physicality": 85,
+        "stamina": 67,
+        "awareness": 76,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 N. Bentaleb",
+      "number": 3,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 64,
+        "shooting": 62,
+        "passing": 77,
+        "dribbling": 80,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 V. Ibišević",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 57,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 33,
+        "physicality": 78,
+        "stamina": 50,
+        "awareness": 80,
+        "composure": 78
+      }
+    },
+    {
+      "name": "K. Itakura",
+      "number": 5,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 79,
+        "shooting": 20,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 79,
+        "physicality": 75,
+        "stamina": 85,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "R. Fährmann",
+      "number": 6,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "defending": 79,
+        "passing": 72,
+        "dribbling": 73,
+        "physicality": 71,
+        "stamina": 32,
+        "awareness": 75,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Latza",
+      "number": 7,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 38,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 58,
+        "physicality": 68,
+        "stamina": 90,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "R. Ranftl",
+      "number": 8,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 83,
+        "shooting": 62,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 89,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 K. Huntelaar",
+      "number": 9,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 51,
+        "shooting": 81,
+        "passing": 67,
+        "dribbling": 58,
+        "defending": 33,
+        "physicality": 77,
+        "stamina": 44,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "T. Ouwejan",
+      "number": 10,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 72,
+        "shooting": 46,
+        "passing": 75,
+        "dribbling": 71,
+        "defending": 69,
+        "physicality": 73,
+        "stamina": 79,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "V. Pálsson",
+      "number": 11,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 86,
+        "shooting": 51,
+        "passing": 69,
+        "dribbling": 57,
+        "defending": 71,
+        "physicality": 80,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Rzatkowski",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 67,
+        "shooting": 57,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 65,
+        "physicality": 56,
+        "stamina": 82,
+        "awareness": 71,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Drexler",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 63,
+        "shooting": 66,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 34,
+        "physicality": 50,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Fraisl",
+      "number": 14,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 40,
+        "shooting": 15,
+        "passing": 33,
+        "dribbling": 19,
+        "defending": 21,
+        "physicality": 62,
+        "stamina": 39,
+        "awareness": 69,
+        "composure": 24
+      }
+    },
+    {
+      "name": "R. Zalazar",
+      "number": 15,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 75,
+        "shooting": 64,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 65,
+        "physicality": 58,
+        "stamina": 89,
+        "awareness": 72,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Bülter",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 47,
+        "physicality": 77,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Kamiński",
+      "number": 17,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 53,
+        "passing": 69,
+        "dribbling": 56,
+        "defending": 69,
+        "physicality": 80,
+        "stamina": 54,
+        "awareness": 66,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Thiaw",
+      "number": 18,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 43,
+        "passing": 65,
+        "dribbling": 57,
+        "defending": 71,
+        "physicality": 74,
+        "stamina": 65,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Wouters",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 45,
+        "shooting": 21,
+        "passing": 69,
+        "dribbling": 60,
+        "defending": 69,
+        "physicality": 79,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "T. Becker",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 40,
+        "passing": 62,
+        "dribbling": 56,
+        "defending": 71,
+        "physicality": 77,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "D. Churlinov",
+      "number": 21,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 66,
+        "passing": 59,
+        "dribbling": 74,
+        "defending": 35,
+        "physicality": 47,
+        "stamina": 59,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "M. Pieringer",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 59,
+        "dribbling": 62,
+        "defending": 25,
+        "physicality": 74,
+        "stamina": 64,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Langer",
+      "number": 23,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 32,
+        "shooting": 14,
+        "passing": 29,
+        "dribbling": 11,
+        "defending": 12,
+        "physicality": 79,
+        "stamina": 32,
+        "awareness": 62,
+        "composure": 41
+      }
+    }
+  ]
+}

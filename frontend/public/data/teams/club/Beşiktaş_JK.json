@@ -1,0 +1,396 @@
+{
+  "name": "Beşiktaş JK",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Pjanić",
+      "number": 1,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 64,
+        "shooting": 56,
+        "passing": 84,
+        "dribbling": 81,
+        "defending": 77,
+        "physicality": 60,
+        "stamina": 79,
+        "awareness": 83,
+        "composure": 84
+      }
+    },
+    {
+      "name": "R. Ghezzal",
+      "number": 2,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 24,
+        "physicality": 51,
+        "stamina": 67,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "D. Vida",
+      "number": 3,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 76,
+        "shooting": 41,
+        "passing": 62,
+        "dribbling": 53,
+        "defending": 77,
+        "physicality": 80,
+        "stamina": 82,
+        "awareness": 72,
+        "composure": 78
+      }
+    },
+    {
+      "name": "21 Souza",
+      "number": 4,
+      "position": "CDM",
+      "overall": 77,
+      "attributes": {
+        "pace": 69,
+        "shooting": 54,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 78,
+        "physicality": 83,
+        "stamina": 90,
+        "awareness": 72,
+        "composure": 79
+      }
+    },
+    {
+      "name": "Alex Teixeira",
+      "number": 5,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 82,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 35,
+        "physicality": 72,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 82
+      }
+    },
+    {
+      "name": "V. Rosier",
+      "number": 6,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 83,
+        "shooting": 45,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 70,
+        "stamina": 84,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "19 Vágner Love",
+      "number": 7,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 67,
+        "dribbling": 75,
+        "defending": 33,
+        "physicality": 74,
+        "stamina": 68,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "M. Batshuayi",
+      "number": 8,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 78,
+        "passing": 62,
+        "dribbling": 76,
+        "defending": 26,
+        "physicality": 79,
+        "stamina": 65,
+        "awareness": 76,
+        "composure": 81
+      }
+    },
+    {
+      "name": "S. Uçan",
+      "number": 9,
+      "position": "CDM",
+      "overall": 75,
+      "attributes": {
+        "pace": 58,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 71,
+        "physicality": 64,
+        "stamina": 68,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Hutchinson",
+      "number": 10,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 61,
+        "passing": 81,
+        "dribbling": 71,
+        "defending": 75,
+        "physicality": 74,
+        "stamina": 75,
+        "awareness": 75,
+        "composure": 84
+      }
+    },
+    {
+      "name": "A. Ljajić",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 72,
+        "shooting": 67,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 46,
+        "physicality": 59,
+        "stamina": 63,
+        "awareness": 68,
+        "composure": 74
+      }
+    },
+    {
+      "name": "G. Nkoudou",
+      "number": 12,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 94,
+        "shooting": 65,
+        "passing": 72,
+        "dribbling": 80,
+        "defending": 37,
+        "physicality": 60,
+        "stamina": 67,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Günok",
+      "number": 13,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 57,
+        "shooting": 15,
+        "passing": 27,
+        "dribbling": 15,
+        "defending": 13,
+        "physicality": 71,
+        "stamina": 39,
+        "awareness": 65,
+        "composure": 56
+      }
+    },
+    {
+      "name": "21 Welinton",
+      "number": 14,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 43,
+        "passing": 60,
+        "dribbling": 41,
+        "defending": 77,
+        "physicality": 80,
+        "stamina": 71,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Larin",
+      "number": 15,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 18,
+        "physicality": 87,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "O. Özyakup",
+      "number": 16,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 63,
+        "shooting": 62,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 55,
+        "physicality": 57,
+        "stamina": 60,
+        "awareness": 65,
+        "composure": 74
+      }
+    },
+    {
+      "name": "E. Destanoğlu",
+      "number": 17,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 72,
+        "defending": 73,
+        "passing": 74,
+        "dribbling": 70,
+        "physicality": 68,
+        "stamina": 24,
+        "awareness": 60,
+        "composure": 26
+      }
+    },
+    {
+      "name": "F. N'Sakala",
+      "number": 18,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 83,
+        "shooting": 37,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "G. Töre",
+      "number": 19,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 82,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 79,
+        "defending": 38,
+        "physicality": 69,
+        "stamina": 60,
+        "awareness": 58,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Lens",
+      "number": 20,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 39,
+        "physicality": 78,
+        "stamina": 62,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Topal",
+      "number": 21,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 49,
+        "shooting": 58,
+        "passing": 71,
+        "dribbling": 65,
+        "defending": 74,
+        "physicality": 75,
+        "stamina": 72,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "K. Karaman",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "shooting": 74,
+        "passing": 70,
+        "dribbling": 77,
+        "defending": 24,
+        "physicality": 74,
+        "stamina": 67,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "R. Yılmaz",
+      "number": 23,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 42,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 69,
+        "physicality": 49,
+        "stamina": 67,
+        "awareness": 67,
+        "composure": 64
+      }
+    }
+  ]
+}

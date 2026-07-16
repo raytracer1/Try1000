@@ -1,0 +1,396 @@
+{
+  "name": "RSC Anderlecht",
+  "type": "club",
+  "players": [
+    {
+      "name": "20 V. Kompany",
+      "number": 1,
+      "position": "CB",
+      "overall": 82,
+      "attributes": {
+        "pace": 51,
+        "shooting": 45,
+        "passing": 74,
+        "dribbling": 63,
+        "defending": 84,
+        "physicality": 87,
+        "stamina": 63,
+        "awareness": 77,
+        "composure": 81
+      }
+    },
+    {
+      "name": "H. Van Crombrugge",
+      "number": 2,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "defending": 79,
+        "passing": 73,
+        "dribbling": 77,
+        "physicality": 67,
+        "stamina": 37,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "L. Refaelov",
+      "number": 3,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 62,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 60,
+        "physicality": 45,
+        "stamina": 76,
+        "awareness": 72,
+        "composure": 80
+      }
+    },
+    {
+      "name": "K. Olsson",
+      "number": 4,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 65,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 54,
+        "stamina": 80,
+        "awareness": 72,
+        "composure": 78
+      }
+    },
+    {
+      "name": "M. Murillo",
+      "number": 5,
+      "position": "RB",
+      "overall": 75,
+      "attributes": {
+        "pace": 84,
+        "shooting": 56,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 74,
+        "stamina": 75,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "W. Hoedt",
+      "number": 6,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 60,
+        "defending": 76,
+        "physicality": 82,
+        "stamina": 66,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "19 K. Mbodji",
+      "number": 7,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 63,
+        "shooting": 45,
+        "passing": 61,
+        "dribbling": 58,
+        "defending": 75,
+        "physicality": 92,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 A. Trebel",
+      "number": 8,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 67,
+        "passing": 75,
+        "dribbling": 71,
+        "defending": 74,
+        "physicality": 69,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "C. Kouamé",
+      "number": 9,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 84,
+        "shooting": 76,
+        "passing": 70,
+        "dribbling": 79,
+        "defending": 35,
+        "physicality": 70,
+        "stamina": 63,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "20 S. Nasri",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 56,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 37,
+        "physicality": 59,
+        "stamina": 43,
+        "awareness": 66,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Y. Verschaeren",
+      "number": 11,
+      "position": "CAM",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 48,
+        "physicality": 38,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Cullen",
+      "number": 12,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 50,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 71,
+        "physicality": 57,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "B. Raman",
+      "number": 13,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 81,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 74,
+        "defending": 33,
+        "physicality": 46,
+        "stamina": 80,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "I. Kiese Thelin",
+      "number": 14,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 74,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 25,
+        "physicality": 88,
+        "stamina": 78,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "B. Mykhaylichenko",
+      "number": 15,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 52,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 68,
+        "physicality": 67,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Ashimeru",
+      "number": 16,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 63,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 63,
+        "physicality": 64,
+        "stamina": 71,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "H. Delcroix",
+      "number": 17,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 21,
+        "passing": 71,
+        "dribbling": 55,
+        "defending": 75,
+        "physicality": 73,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Magallán",
+      "number": 18,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 54,
+        "shooting": 35,
+        "passing": 64,
+        "dribbling": 56,
+        "defending": 69,
+        "physicality": 83,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Amuzu",
+      "number": 19,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 88,
+        "shooting": 59,
+        "passing": 66,
+        "dribbling": 76,
+        "defending": 41,
+        "physicality": 53,
+        "stamina": 77,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Sergio Gómez",
+      "number": 20,
+      "position": "LB",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 64,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 61,
+        "physicality": 46,
+        "stamina": 64,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Ait El Hadj",
+      "number": 21,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 57,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 48,
+        "physicality": 53,
+        "stamina": 83,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Zirkzee",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 59,
+        "dribbling": 70,
+        "defending": 14,
+        "physicality": 78,
+        "stamina": 63,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Coosemans",
+      "number": 23,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 46,
+        "shooting": 12,
+        "passing": 38,
+        "dribbling": 13,
+        "defending": 13,
+        "physicality": 63,
+        "stamina": 30,
+        "awareness": 67,
+        "composure": 57
+      }
+    }
+  ]
+}

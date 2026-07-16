@@ -1,0 +1,396 @@
+{
+  "name": "Bolton Wanderers",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 S. Ireland",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 51,
+        "shooting": 62,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 45,
+        "physicality": 55,
+        "stamina": 45,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "17 M. Davies",
+      "number": 2,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 57,
+        "passing": 66,
+        "dribbling": 74,
+        "defending": 59,
+        "physicality": 59,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "E. Kachunga",
+      "number": 3,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 53,
+        "physicality": 70,
+        "stamina": 79,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "19 G. O'Neil",
+      "number": 4,
+      "position": "CAM",
+      "overall": 67,
+      "attributes": {
+        "pace": 50,
+        "shooting": 64,
+        "passing": 71,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 46,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "D. John",
+      "number": 5,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 85,
+        "shooting": 50,
+        "passing": 62,
+        "dribbling": 66,
+        "defending": 64,
+        "physicality": 63,
+        "stamina": 65,
+        "awareness": 61,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Afolayan",
+      "number": 6,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 82,
+        "shooting": 62,
+        "passing": 59,
+        "dribbling": 72,
+        "defending": 50,
+        "physicality": 58,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "19 M. Wilson",
+      "number": 7,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 52,
+        "shooting": 48,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 68,
+        "physicality": 73,
+        "stamina": 52,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Sheehan",
+      "number": 8,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 51,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 62,
+        "physicality": 63,
+        "stamina": 91,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "E. Doyle",
+      "number": 9,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 60,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 62,
+        "defending": 12,
+        "physicality": 69,
+        "stamina": 84,
+        "awareness": 67,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Ricardo Santos",
+      "number": 10,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 66,
+        "shooting": 38,
+        "passing": 55,
+        "dribbling": 48,
+        "defending": 66,
+        "physicality": 91,
+        "stamina": 84,
+        "awareness": 61,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Sarcevic",
+      "number": 11,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "G. Jones",
+      "number": 12,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 42,
+        "passing": 58,
+        "dribbling": 62,
+        "defending": 62,
+        "physicality": 63,
+        "stamina": 84,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "19 S. Darby",
+      "number": 13,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 73,
+        "shooting": 32,
+        "passing": 53,
+        "dribbling": 58,
+        "defending": 60,
+        "physicality": 65,
+        "stamina": 78,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Williams",
+      "number": 14,
+      "position": "CDM",
+      "overall": 65,
+      "attributes": {
+        "pace": 59,
+        "shooting": 42,
+        "passing": 64,
+        "dribbling": 55,
+        "defending": 64,
+        "physicality": 78,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "L. Isgrove",
+      "number": 15,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 83,
+        "shooting": 56,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 40,
+        "physicality": 46,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 50
+      }
+    },
+    {
+      "name": "G. Johnston",
+      "number": 16,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 56,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 60,
+        "awareness": 60,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Baptiste",
+      "number": 17,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 49,
+        "shooting": 29,
+        "passing": 60,
+        "dribbling": 51,
+        "defending": 64,
+        "physicality": 79,
+        "stamina": 51,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Bakayoko",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 80,
+        "shooting": 64,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 44,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 56,
+        "composure": 51
+      }
+    },
+    {
+      "name": "20 W. Buckley",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 72,
+        "shooting": 61,
+        "passing": 62,
+        "dribbling": 62,
+        "defending": 27,
+        "physicality": 64,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "20 A. Georgiou",
+      "number": 20,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 46,
+        "passing": 60,
+        "dribbling": 69,
+        "defending": 65,
+        "physicality": 52,
+        "stamina": 66,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "W. Aimson",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 55,
+        "shooting": 25,
+        "passing": 50,
+        "dribbling": 29,
+        "defending": 65,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Gilks",
+      "number": 22,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 33,
+        "shooting": 11,
+        "passing": 28,
+        "dribbling": 12,
+        "defending": 14,
+        "physicality": 54,
+        "stamina": 27,
+        "awareness": 60,
+        "composure": 48
+      }
+    },
+    {
+      "name": "J. Dixon",
+      "number": 23,
+      "position": "GK",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "defending": 63,
+        "passing": 61,
+        "dribbling": 63,
+        "physicality": 50,
+        "stamina": 30,
+        "awareness": 59,
+        "composure": 55
+      }
+    }
+  ]
+}

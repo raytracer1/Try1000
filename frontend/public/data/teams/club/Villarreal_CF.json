@@ -1,0 +1,396 @@
+{
+  "name": "Villarreal CF",
+  "type": "club",
+  "players": [
+    {
+      "name": "Parejo",
+      "number": 1,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 49,
+        "shooting": 83,
+        "passing": 92,
+        "dribbling": 82,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 78,
+        "awareness": 80,
+        "composure": 85
+      }
+    },
+    {
+      "name": "Gerard Moreno",
+      "number": 2,
+      "position": "ST",
+      "overall": 86,
+      "attributes": {
+        "pace": 78,
+        "shooting": 89,
+        "passing": 81,
+        "dribbling": 86,
+        "defending": 41,
+        "physicality": 75,
+        "stamina": 79,
+        "awareness": 89,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Sergio Asenjo",
+      "number": 3,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 54,
+        "shooting": 14,
+        "passing": 39,
+        "dribbling": 15,
+        "defending": 15,
+        "physicality": 73,
+        "stamina": 41,
+        "awareness": 80,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Raúl Albiol",
+      "number": 4,
+      "position": "CB",
+      "overall": 82,
+      "attributes": {
+        "pace": 34,
+        "shooting": 27,
+        "passing": 74,
+        "dribbling": 59,
+        "defending": 87,
+        "physicality": 80,
+        "stamina": 51,
+        "awareness": 82,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Paco Alcácer",
+      "number": 5,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 76,
+        "shooting": 85,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 24,
+        "physicality": 63,
+        "stamina": 60,
+        "awareness": 85,
+        "composure": 84
+      }
+    },
+    {
+      "name": "F. Coquelin",
+      "number": 6,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 68,
+        "shooting": 64,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 81,
+        "physicality": 78,
+        "stamina": 75,
+        "awareness": 81,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A. Mandi",
+      "number": 7,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 65,
+        "shooting": 41,
+        "passing": 80,
+        "dribbling": 64,
+        "defending": 80,
+        "physicality": 78,
+        "stamina": 65,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "G. Rulli",
+      "number": 8,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 80,
+        "defending": 80,
+        "passing": 79,
+        "dribbling": 79,
+        "physicality": 73,
+        "stamina": 42,
+        "awareness": 76,
+        "composure": 61
+      }
+    },
+    {
+      "name": "Rubén Peña",
+      "number": 9,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 82,
+        "shooting": 69,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 78,
+        "physicality": 66,
+        "stamina": 76,
+        "awareness": 78,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Manu Trigueros",
+      "number": 10,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 55,
+        "shooting": 66,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 72,
+        "physicality": 63,
+        "stamina": 74,
+        "awareness": 79,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Mario Gaspar",
+      "number": 11,
+      "position": "RB",
+      "overall": 79,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 81,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 76,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Iborra",
+      "number": 12,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 33,
+        "shooting": 67,
+        "passing": 82,
+        "dribbling": 69,
+        "defending": 77,
+        "physicality": 89,
+        "stamina": 65,
+        "awareness": 75,
+        "composure": 81
+      }
+    },
+    {
+      "name": "P. Estupiñán",
+      "number": 13,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 83,
+        "shooting": 20,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 80,
+        "physicality": 74,
+        "stamina": 79,
+        "awareness": 71,
+        "composure": 62
+      }
+    },
+    {
+      "name": "E. Capoue",
+      "number": 14,
+      "position": "CDM",
+      "overall": 78,
+      "attributes": {
+        "pace": 47,
+        "shooting": 70,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 78,
+        "physicality": 78,
+        "stamina": 77,
+        "awareness": 79,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Moi Gómez",
+      "number": 15,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 67,
+        "shooting": 75,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 52,
+        "physicality": 56,
+        "stamina": 78,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Pedraza",
+      "number": 16,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 83,
+        "awareness": 75,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Chukwueze",
+      "number": 17,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 84,
+        "shooting": 73,
+        "passing": 69,
+        "dribbling": 87,
+        "defending": 32,
+        "physicality": 63,
+        "stamina": 72,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "B. Dia",
+      "number": 18,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 78,
+        "shooting": 80,
+        "passing": 68,
+        "dribbling": 77,
+        "defending": 17,
+        "physicality": 83,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Alberto Moreno",
+      "number": 19,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 85,
+        "shooting": 59,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 59,
+        "stamina": 75,
+        "awareness": 75,
+        "composure": 66
+      }
+    },
+    {
+      "name": "18 A. Rukavina",
+      "number": 20,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 36,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 77,
+        "physicality": 69,
+        "stamina": 67,
+        "awareness": 81,
+        "composure": 67
+      }
+    },
+    {
+      "name": "20 Bruno",
+      "number": 21,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 31,
+        "shooting": 68,
+        "passing": 82,
+        "dribbling": 73,
+        "defending": 76,
+        "physicality": 70,
+        "stamina": 32,
+        "awareness": 73,
+        "composure": 80
+      }
+    },
+    {
+      "name": "A. Danjuma",
+      "number": 22,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 81,
+        "shooting": 74,
+        "passing": 71,
+        "dribbling": 80,
+        "defending": 52,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Foyth",
+      "number": 23,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 43,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 78,
+        "physicality": 74,
+        "stamina": 72,
+        "awareness": 73,
+        "composure": 65
+      }
+    }
+  ]
+}

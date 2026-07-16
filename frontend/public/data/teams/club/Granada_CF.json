@@ -1,0 +1,396 @@
+{
+  "name": "Granada CF",
+  "type": "club",
+  "players": [
+    {
+      "name": "D. Machís",
+      "number": 1,
+      "position": "RW",
+      "overall": 81,
+      "attributes": {
+        "pace": 86,
+        "shooting": 82,
+        "passing": 76,
+        "dribbling": 83,
+        "defending": 35,
+        "physicality": 68,
+        "stamina": 71,
+        "awareness": 75,
+        "composure": 79
+      }
+    },
+    {
+      "name": "S. Arias",
+      "number": 2,
+      "position": "RB",
+      "overall": 79,
+      "attributes": {
+        "pace": 78,
+        "shooting": 51,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 78,
+        "physicality": 67,
+        "stamina": 80,
+        "awareness": 80,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Montoro",
+      "number": 3,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 45,
+        "shooting": 54,
+        "passing": 85,
+        "dribbling": 72,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 66,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Germán",
+      "number": 4,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 55,
+        "shooting": 40,
+        "passing": 74,
+        "dribbling": 51,
+        "defending": 83,
+        "physicality": 81,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Luis Milla",
+      "number": 5,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 80,
+        "dribbling": 71,
+        "defending": 77,
+        "physicality": 72,
+        "stamina": 86,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Escudero",
+      "number": 6,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 72,
+        "shooting": 56,
+        "passing": 79,
+        "dribbling": 68,
+        "defending": 76,
+        "physicality": 68,
+        "stamina": 72,
+        "awareness": 78,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Puertas",
+      "number": 7,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 78,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 39,
+        "physicality": 76,
+        "stamina": 76,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Carlos Neva",
+      "number": 8,
+      "position": "LB",
+      "overall": 78,
+      "attributes": {
+        "pace": 78,
+        "shooting": 48,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 78,
+        "physicality": 62,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Domingos Duarte",
+      "number": 9,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 56,
+        "shooting": 30,
+        "passing": 78,
+        "dribbling": 48,
+        "defending": 81,
+        "physicality": 81,
+        "stamina": 74,
+        "awareness": 79,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Rochina",
+      "number": 10,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 74,
+        "passing": 78,
+        "dribbling": 82,
+        "defending": 57,
+        "physicality": 71,
+        "stamina": 67,
+        "awareness": 73,
+        "composure": 82
+      }
+    },
+    {
+      "name": "L. Suárez",
+      "number": 11,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 86,
+        "shooting": 83,
+        "passing": 66,
+        "dribbling": 74,
+        "defending": 48,
+        "physicality": 81,
+        "stamina": 79,
+        "awareness": 75,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Víctor Díaz",
+      "number": 12,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 71,
+        "shooting": 56,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 79,
+        "awareness": 75,
+        "composure": 64
+      }
+    },
+    {
+      "name": "C. Bacca",
+      "number": 13,
+      "position": "ST",
+      "overall": 77,
+      "attributes": {
+        "pace": 65,
+        "shooting": 78,
+        "passing": 68,
+        "dribbling": 76,
+        "defending": 16,
+        "physicality": 72,
+        "stamina": 56,
+        "awareness": 76,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Jorge Molina",
+      "number": 14,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 39,
+        "shooting": 81,
+        "passing": 78,
+        "dribbling": 71,
+        "defending": 32,
+        "physicality": 88,
+        "stamina": 33,
+        "awareness": 84,
+        "composure": 79
+      }
+    },
+    {
+      "name": "M. Gonalons",
+      "number": 15,
+      "position": "CDM",
+      "overall": 76,
+      "attributes": {
+        "pace": 40,
+        "shooting": 55,
+        "passing": 79,
+        "dribbling": 66,
+        "defending": 78,
+        "physicality": 72,
+        "stamina": 63,
+        "awareness": 75,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Luís Maximiano",
+      "number": 16,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "defending": 78,
+        "passing": 74,
+        "dribbling": 74,
+        "physicality": 68,
+        "stamina": 23,
+        "awareness": 76,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Y. Eteki",
+      "number": 17,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 60,
+        "shooting": 50,
+        "passing": 76,
+        "dribbling": 64,
+        "defending": 76,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "L. Abram",
+      "number": 18,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 67,
+        "shooting": 39,
+        "passing": 76,
+        "dribbling": 54,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 79,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 Álex Martínez",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 51,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 74,
+        "physicality": 55,
+        "stamina": 89,
+        "awareness": 57,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Quini",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 62,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 75,
+        "physicality": 63,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Alberto Soro",
+      "number": 21,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 47,
+        "physicality": 61,
+        "stamina": 68,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Monchu",
+      "number": 22,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 67,
+        "shooting": 65,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 56,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 63
+      }
+    },
+    {
+      "name": "R. Azeez",
+      "number": 23,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 51,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 92,
+        "awareness": 67,
+        "composure": 64
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Burnley",
+  "type": "club",
+  "players": [
+    {
+      "name": "N. Pope",
+      "number": 1,
+      "position": "GK",
+      "overall": 83,
+      "attributes": {
+        "pace": 81,
+        "defending": 84,
+        "passing": 83,
+        "dribbling": 83,
+        "physicality": 75,
+        "stamina": 37,
+        "awareness": 78,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Tarkowski",
+      "number": 2,
+      "position": "CB",
+      "overall": 81,
+      "attributes": {
+        "pace": 62,
+        "shooting": 40,
+        "passing": 74,
+        "dribbling": 63,
+        "defending": 82,
+        "physicality": 84,
+        "stamina": 71,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "C. Wood",
+      "number": 3,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 68,
+        "shooting": 81,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 30,
+        "physicality": 86,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "B. Mee",
+      "number": 4,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 63,
+        "shooting": 36,
+        "passing": 60,
+        "dribbling": 59,
+        "defending": 81,
+        "physicality": 80,
+        "stamina": 67,
+        "awareness": 78,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Westwood",
+      "number": 5,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 53,
+        "shooting": 55,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 76,
+        "physicality": 68,
+        "stamina": 86,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "D. McNeil",
+      "number": 6,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 77,
+        "dribbling": 81,
+        "defending": 54,
+        "physicality": 65,
+        "stamina": 78,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "J. Brownhill",
+      "number": 7,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 76,
+        "physicality": 69,
+        "stamina": 89,
+        "awareness": 77,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Lowton",
+      "number": 8,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 65,
+        "shooting": 52,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 78,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "C. Taylor",
+      "number": 9,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 49,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 76,
+        "physicality": 75,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Cork",
+      "number": 10,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 37,
+        "shooting": 54,
+        "passing": 78,
+        "dribbling": 66,
+        "defending": 76,
+        "physicality": 75,
+        "stamina": 82,
+        "awareness": 74,
+        "composure": 79
+      }
+    },
+    {
+      "name": "M. Cornet",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 87,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 70,
+        "physicality": 72,
+        "stamina": 91,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "17 J. Barton",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 64,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 74,
+        "stamina": 87,
+        "awareness": 71,
+        "composure": 76
+      }
+    },
+    {
+      "name": "J. Guðmundsson",
+      "number": 13,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 70,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 63,
+        "physicality": 67,
+        "stamina": 65,
+        "awareness": 75,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A. Barnes",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 76,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 46,
+        "physicality": 80,
+        "stamina": 68,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "C. Roberts",
+      "number": 15,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 48,
+        "passing": 71,
+        "dribbling": 67,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 91,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Vydra",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 28,
+        "physicality": 68,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "E. Pieters",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 63,
+        "shooting": 32,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 75,
+        "physicality": 77,
+        "stamina": 75,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Rodriguez",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 30,
+        "physicality": 73,
+        "stamina": 68,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "W. Hennessey",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 41,
+        "shooting": 12,
+        "passing": 29,
+        "dribbling": 8,
+        "defending": 18,
+        "physicality": 68,
+        "stamina": 29,
+        "awareness": 66,
+        "composure": 55
+      }
+    },
+    {
+      "name": "D. Stephens",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 49,
+        "shooting": 61,
+        "passing": 75,
+        "dribbling": 64,
+        "defending": 74,
+        "physicality": 70,
+        "stamina": 67,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Lennon",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 58,
+        "passing": 72,
+        "dribbling": 79,
+        "defending": 50,
+        "physicality": 53,
+        "stamina": 62,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "19 P. Crouch",
+      "number": 22,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 32,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 62,
+        "defending": 26,
+        "physicality": 68,
+        "stamina": 31,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "P. Bardsley",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 34,
+        "shooting": 47,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 75,
+        "physicality": 72,
+        "stamina": 66,
+        "awareness": 73,
+        "composure": 69
+      }
+    }
+  ]
+}

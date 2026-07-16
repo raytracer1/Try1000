@@ -1,0 +1,396 @@
+{
+  "name": "Real Valladolid CF",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Olaza",
+      "number": 1,
+      "position": "LB",
+      "overall": 78,
+      "attributes": {
+        "pace": 77,
+        "shooting": 65,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 80,
+        "physicality": 70,
+        "stamina": 78,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "F. Orellana",
+      "number": 2,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 82,
+        "defending": 37,
+        "physicality": 32,
+        "stamina": 55,
+        "awareness": 79,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Weissman",
+      "number": 3,
+      "position": "ST",
+      "overall": 77,
+      "attributes": {
+        "pace": 80,
+        "shooting": 82,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 24,
+        "physicality": 71,
+        "stamina": 69,
+        "awareness": 73,
+        "composure": 79
+      }
+    },
+    {
+      "name": "Roque Mesa",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 80,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 80,
+        "stamina": 76,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Toni Villa",
+      "number": 5,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 75,
+        "shooting": 64,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 56,
+        "physicality": 39,
+        "stamina": 68,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Óscar Plano",
+      "number": 6,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 86,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 58,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Joaquín",
+      "number": 7,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 44,
+        "passing": 71,
+        "dribbling": 58,
+        "defending": 76,
+        "physicality": 81,
+        "stamina": 70,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Kiko Olivas",
+      "number": 8,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 50,
+        "shooting": 56,
+        "passing": 74,
+        "dribbling": 56,
+        "defending": 77,
+        "physicality": 82,
+        "stamina": 71,
+        "awareness": 76,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Jordi Masip",
+      "number": 9,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 12,
+        "passing": 42,
+        "dribbling": 17,
+        "defending": 14,
+        "physicality": 54,
+        "stamina": 41,
+        "awareness": 80,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Rubén Alcaraz",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 61,
+        "shooting": 66,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 73,
+        "physicality": 80,
+        "stamina": 86,
+        "awareness": 77,
+        "composure": 75
+      }
+    },
+    {
+      "name": "G. Plata",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 85,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 79,
+        "defending": 46,
+        "physicality": 63,
+        "stamina": 69,
+        "awareness": 73,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Roberto",
+      "number": 12,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 71,
+        "defending": 77,
+        "passing": 73,
+        "dribbling": 71,
+        "physicality": 78,
+        "stamina": 32,
+        "awareness": 71,
+        "composure": 57
+      }
+    },
+    {
+      "name": "Anuar",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 62,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 73,
+        "physicality": 63,
+        "stamina": 90,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Janko",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 91,
+        "shooting": 41,
+        "passing": 65,
+        "dribbling": 73,
+        "defending": 73,
+        "physicality": 84,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Sergio León",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 33,
+        "physicality": 63,
+        "stamina": 65,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Luis Pérez",
+      "number": 16,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 83,
+        "shooting": 42,
+        "passing": 63,
+        "dribbling": 68,
+        "defending": 73,
+        "physicality": 69,
+        "stamina": 87,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. El Yamiq",
+      "number": 17,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 37,
+        "passing": 63,
+        "dribbling": 55,
+        "defending": 71,
+        "physicality": 82,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Raúl Carnero",
+      "number": 18,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 58,
+        "passing": 72,
+        "dribbling": 59,
+        "defending": 69,
+        "physicality": 70,
+        "stamina": 91,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Hervías",
+      "number": 19,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 76,
+        "defending": 53,
+        "physicality": 40,
+        "stamina": 76,
+        "awareness": 70,
+        "composure": 75
+      }
+    },
+    {
+      "name": "San Emeterio",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 62,
+        "shooting": 51,
+        "passing": 65,
+        "dribbling": 59,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 84,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Javi Sánchez",
+      "number": 21,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 28,
+        "passing": 75,
+        "dribbling": 34,
+        "defending": 74,
+        "physicality": 81,
+        "stamina": 64,
+        "awareness": 72,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Kike Pérez",
+      "number": 22,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 63,
+        "shooting": 59,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 65,
+        "physicality": 57,
+        "stamina": 59,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Aguado",
+      "number": 23,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 63,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 62,
+        "physicality": 31,
+        "stamina": 63,
+        "awareness": 65,
+        "composure": 67
+      }
+    }
+  ]
+}

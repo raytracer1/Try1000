@@ -1,0 +1,396 @@
+{
+  "name": "Club Atlético Huracán",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Díaz",
+      "number": 1,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "defending": 74,
+        "passing": 73,
+        "dribbling": 79,
+        "physicality": 74,
+        "stamina": 35,
+        "awareness": 73,
+        "composure": 33
+      }
+    },
+    {
+      "name": "21 E. Bonifacio",
+      "number": 2,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 71,
+        "shooting": 49,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 76,
+        "physicality": 69,
+        "stamina": 76,
+        "awareness": 73,
+        "composure": 79
+      }
+    },
+    {
+      "name": "18 D. Montenegro",
+      "number": 3,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 53,
+        "shooting": 68,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 29,
+        "physicality": 57,
+        "stamina": 48,
+        "awareness": 62,
+        "composure": 71
+      }
+    },
+    {
+      "name": "F. Cristaldo",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 75,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 64,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "20 C. Araujo",
+      "number": 5,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 54,
+        "shooting": 33,
+        "passing": 67,
+        "dribbling": 76,
+        "defending": 82,
+        "physicality": 65,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "N. Silva",
+      "number": 6,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 85,
+        "shooting": 61,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 15,
+        "physicality": 30,
+        "stamina": 66,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 A. Chávez",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 59,
+        "dribbling": 70,
+        "defending": 30,
+        "physicality": 80,
+        "stamina": 72,
+        "awareness": 69,
+        "composure": 76
+      }
+    },
+    {
+      "name": "J. Galván",
+      "number": 8,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 52,
+        "passing": 73,
+        "dribbling": 57,
+        "defending": 67,
+        "physicality": 82,
+        "stamina": 80,
+        "awareness": 72,
+        "composure": 59
+      }
+    },
+    {
+      "name": "C. Yacob",
+      "number": 9,
+      "position": "CDM",
+      "overall": 70,
+      "attributes": {
+        "pace": 37,
+        "shooting": 57,
+        "passing": 71,
+        "dribbling": 59,
+        "defending": 72,
+        "physicality": 74,
+        "stamina": 52,
+        "awareness": 67,
+        "composure": 82
+      }
+    },
+    {
+      "name": "18 M. García",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 41,
+        "shooting": 14,
+        "passing": 23,
+        "dribbling": 16,
+        "defending": 17,
+        "physicality": 45,
+        "stamina": 41,
+        "awareness": 68,
+        "composure": 24
+      }
+    },
+    {
+      "name": "L. Vera",
+      "number": 11,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 78,
+        "shooting": 51,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 61,
+        "physicality": 34,
+        "stamina": 77,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 R. Civelli",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 34,
+        "shooting": 56,
+        "passing": 59,
+        "dribbling": 35,
+        "defending": 62,
+        "physicality": 90,
+        "stamina": 64,
+        "awareness": 60,
+        "composure": 71
+      }
+    },
+    {
+      "name": "20 F. Pellegrino",
+      "number": 13,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 35,
+        "shooting": 17,
+        "passing": 28,
+        "dribbling": 15,
+        "defending": 16,
+        "physicality": 67,
+        "stamina": 30,
+        "awareness": 62,
+        "composure": 34
+      }
+    },
+    {
+      "name": "J. Candia",
+      "number": 14,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 69,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 37,
+        "physicality": 74,
+        "stamina": 51,
+        "awareness": 65,
+        "composure": 57
+      }
+    },
+    {
+      "name": "I. Erquiaga",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 48,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 66,
+        "physicality": 59,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 65
+      }
+    },
+    {
+      "name": "19 J. Sills",
+      "number": 16,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 28,
+        "passing": 62,
+        "dribbling": 57,
+        "defending": 72,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 61,
+        "composure": 56
+      }
+    },
+    {
+      "name": "P. Toranzo",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 39,
+        "shooting": 61,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 51,
+        "physicality": 64,
+        "stamina": 34,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "S. Rincón",
+      "number": 18,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 59,
+        "dribbling": 67,
+        "defending": 24,
+        "physicality": 76,
+        "stamina": 44,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Cóccaro",
+      "number": 19,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 59,
+        "shooting": 72,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 26,
+        "physicality": 70,
+        "stamina": 61,
+        "awareness": 65,
+        "composure": 47
+      }
+    },
+    {
+      "name": "J. Moya",
+      "number": 20,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 44,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 33,
+        "defending": 69,
+        "physicality": 74,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "L. Grimi",
+      "number": 21,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 51,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 67,
+        "physicality": 70,
+        "stamina": 62,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 D. Mendoza",
+      "number": 22,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 38,
+        "physicality": 83,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 67
+      }
+    },
+    {
+      "name": "F. Henríquez",
+      "number": 23,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 62,
+        "shooting": 48,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 61,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 63,
+        "composure": 49
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "name": "Sparta Rotterdam",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Okoye",
+      "number": 1,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 71,
+        "defending": 74,
+        "passing": 68,
+        "dribbling": 69,
+        "physicality": 75,
+        "stamina": 33,
+        "awareness": 64,
+        "composure": 37
+      }
+    },
+    {
+      "name": "L. Thy",
+      "number": 2,
+      "position": "ST",
+      "overall": 70,
+      "attributes": {
+        "pace": 76,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 41,
+        "physicality": 70,
+        "stamina": 82,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "L. Jans",
+      "number": 3,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 39,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "D. Abels",
+      "number": 4,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 63,
+        "shooting": 38,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Smeets",
+      "number": 5,
+      "position": "CAM",
+      "overall": 68,
+      "attributes": {
+        "pace": 63,
+        "shooting": 53,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 52,
+        "physicality": 73,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "G. Masouras",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 91,
+        "shooting": 40,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 64,
+        "physicality": 62,
+        "stamina": 80,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Engels",
+      "number": 7,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 83,
+        "shooting": 67,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 19,
+        "physicality": 64,
+        "stamina": 65,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Heylen",
+      "number": 8,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 41,
+        "shooting": 29,
+        "passing": 68,
+        "dribbling": 43,
+        "defending": 66,
+        "physicality": 84,
+        "stamina": 67,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Auassar",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 32,
+        "shooting": 52,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 64,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. van Leer",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 42,
+        "shooting": 12,
+        "passing": 33,
+        "dribbling": 11,
+        "defending": 15,
+        "physicality": 55,
+        "stamina": 32,
+        "awareness": 66,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Mijnans",
+      "number": 11,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 57,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 55,
+        "physicality": 59,
+        "stamina": 61,
+        "awareness": 60,
+        "composure": 52
+      }
+    },
+    {
+      "name": "Mica Pinto",
+      "number": 12,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 22,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 67,
+        "physicality": 56,
+        "stamina": 76,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "20 K. Karami",
+      "number": 13,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 50,
+        "passing": 62,
+        "dribbling": 69,
+        "defending": 62,
+        "physicality": 64,
+        "stamina": 71,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "K. Goudmijn",
+      "number": 14,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 76,
+        "shooting": 50,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 57,
+        "physicality": 35,
+        "stamina": 50,
+        "awareness": 58,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 D. Gravenberch",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 59,
+        "dribbling": 61,
+        "defending": 62,
+        "physicality": 89,
+        "stamina": 45,
+        "awareness": 59,
+        "composure": 57
+      }
+    },
+    {
+      "name": "E. Emegha",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 62,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 21,
+        "physicality": 76,
+        "stamina": 58,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Tahiri",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 73,
+        "shooting": 61,
+        "passing": 59,
+        "dribbling": 63,
+        "defending": 28,
+        "physicality": 51,
+        "stamina": 56,
+        "awareness": 62,
+        "composure": 59
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Rangers FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Tavernier",
+      "number": 1,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 84,
+        "shooting": 67,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 78,
+        "stamina": 87,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "C. Goldson",
+      "number": 2,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 67,
+        "shooting": 53,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 76,
+        "physicality": 84,
+        "stamina": 82,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. McGregor",
+      "number": 3,
+      "position": "GK",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "defending": 79,
+        "passing": 75,
+        "dribbling": 78,
+        "physicality": 71,
+        "stamina": 30,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Davis",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 37,
+        "shooting": 58,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 75,
+        "physicality": 59,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A. Morelos",
+      "number": 5,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 43,
+        "physicality": 86,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "R. Kent",
+      "number": 6,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 91,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 30,
+        "physicality": 49,
+        "stamina": 83,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "B. Barišić",
+      "number": 7,
+      "position": "LB",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 55,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 72,
+        "physicality": 76,
+        "stamina": 84,
+        "awareness": 67,
+        "composure": 73
+      }
+    },
+    {
+      "name": "R. Jack",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 75,
+        "stamina": 83,
+        "awareness": 72,
+        "composure": 83
+      }
+    },
+    {
+      "name": "G. Kamara",
+      "number": 9,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 56,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 73,
+        "physicality": 73,
+        "stamina": 86,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "K. Roofe",
+      "number": 10,
+      "position": "RW",
+      "overall": 74,
+      "attributes": {
+        "pace": 80,
+        "shooting": 76,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 49,
+        "physicality": 60,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "I. Hagi",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 70,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 31,
+        "physicality": 67,
+        "stamina": 84,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "L. Balogun",
+      "number": 12,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 60,
+        "defending": 72,
+        "physicality": 90,
+        "stamina": 60,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Helander",
+      "number": 13,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 47,
+        "shooting": 28,
+        "passing": 58,
+        "dribbling": 52,
+        "defending": 76,
+        "physicality": 85,
+        "stamina": 63,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Aribo",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 67,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 70,
+        "physicality": 69,
+        "stamina": 78,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Arfield",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 69,
+        "physicality": 70,
+        "stamina": 79,
+        "awareness": 73,
+        "composure": 77
+      }
+    },
+    {
+      "name": "F. Sakala",
+      "number": 16,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 87,
+        "shooting": 78,
+        "passing": 62,
+        "dribbling": 74,
+        "defending": 29,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Lundstram",
+      "number": 17,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 64,
+        "shooting": 69,
+        "passing": 73,
+        "dribbling": 67,
+        "defending": 71,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Bacuna",
+      "number": 18,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 69,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 74,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 73,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. McLaughlin",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 54,
+        "shooting": 20,
+        "passing": 27,
+        "dribbling": 16,
+        "defending": 17,
+        "physicality": 68,
+        "stamina": 37,
+        "awareness": 63,
+        "composure": 52
+      }
+    },
+    {
+      "name": "J. Defoe",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 55,
+        "shooting": 74,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 20,
+        "physicality": 35,
+        "stamina": 34,
+        "awareness": 72,
+        "composure": 79
+      }
+    },
+    {
+      "name": "J. Simpson",
+      "number": 21,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 55,
+        "shooting": 31,
+        "passing": 59,
+        "dribbling": 54,
+        "defending": 68,
+        "physicality": 83,
+        "stamina": 66,
+        "awareness": 65,
+        "composure": 54
+      }
+    },
+    {
+      "name": "B. Barker",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 91,
+        "shooting": 60,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 29,
+        "physicality": 51,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Wright",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 85,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 31,
+        "physicality": 43,
+        "stamina": 70,
+        "awareness": 53,
+        "composure": 65
+      }
+    }
+  ]
+}

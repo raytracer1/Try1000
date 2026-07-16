@@ -1,0 +1,396 @@
+{
+  "name": "Club Atlético Talleres",
+  "type": "club",
+  "players": [
+    {
+      "name": "G. Herrera",
+      "number": 1,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "defending": 77,
+        "passing": 73,
+        "dribbling": 75,
+        "physicality": 67,
+        "stamina": 45,
+        "awareness": 71,
+        "composure": 57
+      }
+    },
+    {
+      "name": "C. Auzqui",
+      "number": 2,
+      "position": "CAM",
+      "overall": 73,
+      "attributes": {
+        "pace": 86,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 49,
+        "physicality": 80,
+        "stamina": 82,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "E. Díaz",
+      "number": 3,
+      "position": "LB",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 38,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 73
+      }
+    },
+    {
+      "name": "N. Tenaglia",
+      "number": 4,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 37,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 72,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Velázquez",
+      "number": 5,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 64,
+        "shooting": 40,
+        "passing": 56,
+        "dribbling": 49,
+        "defending": 75,
+        "physicality": 81,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Komar",
+      "number": 6,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 33,
+        "passing": 70,
+        "dribbling": 44,
+        "defending": 74,
+        "physicality": 82,
+        "stamina": 78,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "M. Santos",
+      "number": 7,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 70,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 34,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Guilherme Parede",
+      "number": 8,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 74,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 45,
+        "physicality": 59,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 77
+      }
+    },
+    {
+      "name": "R. Pérez",
+      "number": 9,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 60,
+        "shooting": 28,
+        "passing": 66,
+        "dribbling": 60,
+        "defending": 70,
+        "physicality": 88,
+        "stamina": 58,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "18 J. Rojas",
+      "number": 10,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 91,
+        "shooting": 53,
+        "passing": 64,
+        "dribbling": 78,
+        "defending": 18,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "H. Fertoli",
+      "number": 11,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 85,
+        "shooting": 65,
+        "passing": 66,
+        "dribbling": 72,
+        "defending": 45,
+        "physicality": 60,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Méndez",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 55,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 67,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 77
+      }
+    },
+    {
+      "name": "F. Mac Allister",
+      "number": 13,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 35,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 66,
+        "physicality": 65,
+        "stamina": 60,
+        "awareness": 65,
+        "composure": 77
+      }
+    },
+    {
+      "name": "M. Retegui",
+      "number": 14,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 64,
+        "dribbling": 66,
+        "defending": 25,
+        "physicality": 82,
+        "stamina": 61,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Martino",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 76,
+        "shooting": 52,
+        "passing": 66,
+        "dribbling": 72,
+        "defending": 63,
+        "physicality": 57,
+        "stamina": 67,
+        "awareness": 68,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Garcia",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 73,
+        "shooting": 58,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 53,
+        "physicality": 38,
+        "stamina": 52,
+        "awareness": 61,
+        "composure": 67
+      }
+    },
+    {
+      "name": "R. Villagra",
+      "number": 17,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 64,
+        "shooting": 38,
+        "passing": 72,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Ortíz",
+      "number": 18,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 76,
+        "shooting": 53,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 57,
+        "physicality": 32,
+        "stamina": 63,
+        "awareness": 57,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Malatini",
+      "number": 19,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 71,
+        "shooting": 28,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 65,
+        "physicality": 52,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Blázquez",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 25,
+        "shooting": 6,
+        "passing": 26,
+        "dribbling": 9,
+        "defending": 12,
+        "physicality": 47,
+        "stamina": 22,
+        "awareness": 60,
+        "composure": 33
+      }
+    },
+    {
+      "name": "F. Torres",
+      "number": 21,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 60,
+        "shooting": 27,
+        "passing": 57,
+        "dribbling": 35,
+        "defending": 69,
+        "physicality": 60,
+        "stamina": 53,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Córdoba",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 66,
+        "shooting": 59,
+        "passing": 59,
+        "dribbling": 62,
+        "defending": 38,
+        "physicality": 61,
+        "stamina": 66,
+        "awareness": 58,
+        "composure": 53
+      }
+    },
+    {
+      "name": "21 E. Beltramone",
+      "number": 23,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 61,
+        "shooting": 44,
+        "passing": 69,
+        "dribbling": 60,
+        "defending": 48,
+        "physicality": 32,
+        "stamina": 59,
+        "awareness": 55,
+        "composure": 65
+      }
+    }
+  ]
+}

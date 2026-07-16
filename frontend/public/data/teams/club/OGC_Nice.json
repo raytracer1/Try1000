@@ -1,0 +1,396 @@
+{
+  "name": "OGC Nice",
+  "type": "club",
+  "players": [
+    {
+      "name": "18 W. Sneijder",
+      "number": 1,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 41,
+        "physicality": 57,
+        "stamina": 62,
+        "awareness": 77,
+        "composure": 83
+      }
+    },
+    {
+      "name": "A. Delort",
+      "number": 2,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 87,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 37,
+        "physicality": 87,
+        "stamina": 83,
+        "awareness": 78,
+        "composure": 79
+      }
+    },
+    {
+      "name": "W. Benítez",
+      "number": 3,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 80,
+        "defending": 83,
+        "passing": 79,
+        "dribbling": 80,
+        "physicality": 80,
+        "stamina": 40,
+        "awareness": 75,
+        "composure": 62
+      }
+    },
+    {
+      "name": "K. Dolberg",
+      "number": 4,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 24,
+        "physicality": 79,
+        "stamina": 73,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Gouiri",
+      "number": 5,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 77,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 81,
+        "defending": 41,
+        "physicality": 72,
+        "stamina": 74,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. Claude-Maurice",
+      "number": 6,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 86,
+        "shooting": 71,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 71,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 75
+      }
+    },
+    {
+      "name": "H. Kamara",
+      "number": 7,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 88,
+        "shooting": 61,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 74,
+        "physicality": 73,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "C. Stengs",
+      "number": 8,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 76,
+        "shooting": 65,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 31,
+        "physicality": 58,
+        "stamina": 76,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Y. Atal",
+      "number": 9,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 91,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 81,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 71,
+        "awareness": 73,
+        "composure": 77
+      }
+    },
+    {
+      "name": "M. Lemina",
+      "number": 10,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 59,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 74,
+        "physicality": 78,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "P. Rosario",
+      "number": 11,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 69,
+        "shooting": 59,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 81,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Kluivert",
+      "number": 12,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 89,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 83,
+        "defending": 32,
+        "physicality": 52,
+        "stamina": 65,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Dante",
+      "number": 13,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 32,
+        "shooting": 47,
+        "passing": 74,
+        "dribbling": 58,
+        "defending": 79,
+        "physicality": 85,
+        "stamina": 61,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "J. Todibo",
+      "number": 14,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 83,
+        "shooting": 40,
+        "passing": 75,
+        "dribbling": 62,
+        "defending": 80,
+        "physicality": 81,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "H. Boudaoui",
+      "number": 15,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 73,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 85,
+        "awareness": 74,
+        "composure": 77
+      }
+    },
+    {
+      "name": "K. Thuram",
+      "number": 16,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 60,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 74,
+        "physicality": 79,
+        "stamina": 78,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Schneiderlin",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 49,
+        "shooting": 53,
+        "passing": 77,
+        "dribbling": 68,
+        "defending": 74,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 73,
+        "composure": 78
+      }
+    },
+    {
+      "name": "J. Lotomba",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 44,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 73,
+        "physicality": 63,
+        "stamina": 74,
+        "awareness": 69,
+        "composure": 61
+      }
+    },
+    {
+      "name": "F. Daniliuc",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 66,
+        "shooting": 39,
+        "passing": 71,
+        "dribbling": 59,
+        "defending": 75,
+        "physicality": 81,
+        "stamina": 66,
+        "awareness": 71,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 Danilo",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 68,
+        "shooting": 59,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 73,
+        "physicality": 76,
+        "stamina": 78,
+        "awareness": 72,
+        "composure": 80
+      }
+    },
+    {
+      "name": "M. Bard",
+      "number": 21,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 82,
+        "shooting": 42,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 73,
+        "physicality": 68,
+        "stamina": 71,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Robson Bambu",
+      "number": 22,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 75,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 57,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 66,
+        "awareness": 71,
+        "composure": 60
+      }
+    },
+    {
+      "name": "E. Guessand",
+      "number": 23,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 68,
+        "passing": 59,
+        "dribbling": 68,
+        "defending": 21,
+        "physicality": 77,
+        "stamina": 62,
+        "awareness": 62,
+        "composure": 66
+      }
+    }
+  ]
+}

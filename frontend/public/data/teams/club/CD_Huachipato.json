@@ -1,0 +1,226 @@
+{
+  "name": "CD Huachipato",
+  "type": "club",
+  "players": [
+    {
+      "name": "C. Martínez",
+      "number": 1,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 88,
+        "shooting": 64,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 12,
+        "physicality": 73,
+        "stamina": 82,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "N. Ramírez",
+      "number": 2,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 62,
+        "shooting": 33,
+        "passing": 69,
+        "dribbling": 54,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 61,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "C. Cuevas",
+      "number": 3,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 55,
+        "passing": 66,
+        "dribbling": 69,
+        "defending": 60,
+        "physicality": 55,
+        "stamina": 69,
+        "awareness": 57,
+        "composure": 57
+      }
+    },
+    {
+      "name": "G. Castellón",
+      "number": 4,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "defending": 72,
+        "passing": 63,
+        "dribbling": 68,
+        "physicality": 78,
+        "stamina": 32,
+        "awareness": 69,
+        "composure": 21
+      }
+    },
+    {
+      "name": "21 Y. Urra",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 26,
+        "shooting": 8,
+        "passing": 29,
+        "dribbling": 13,
+        "defending": 9,
+        "physicality": 75,
+        "stamina": 24,
+        "awareness": 65,
+        "composure": 46
+      }
+    },
+    {
+      "name": "W. Mazzantti",
+      "number": 6,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 71,
+        "defending": 14,
+        "physicality": 66,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 55
+      }
+    },
+    {
+      "name": "C. Lobos",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 58,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 71,
+        "stamina": 72,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Verdugo",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 83,
+        "shooting": 55,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 61,
+        "physicality": 60,
+        "stamina": 74,
+        "awareness": 67,
+        "composure": 49
+      }
+    },
+    {
+      "name": "J. Altamirano",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 60,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 50,
+        "physicality": 56,
+        "stamina": 60,
+        "awareness": 50,
+        "composure": 55
+      }
+    },
+    {
+      "name": "B. Palmezano",
+      "number": 10,
+      "position": "CAM",
+      "overall": 63,
+      "attributes": {
+        "pace": 73,
+        "shooting": 57,
+        "passing": 66,
+        "dribbling": 62,
+        "defending": 29,
+        "physicality": 37,
+        "stamina": 48,
+        "awareness": 53,
+        "composure": 65
+      }
+    },
+    {
+      "name": "I. Tapia",
+      "number": 11,
+      "position": "CB",
+      "overall": 62,
+      "attributes": {
+        "pace": 52,
+        "shooting": 30,
+        "passing": 48,
+        "dribbling": 29,
+        "defending": 60,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 48
+      }
+    },
+    {
+      "name": "C. Huanca",
+      "number": 12,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 64,
+        "shooting": 67,
+        "passing": 44,
+        "dribbling": 56,
+        "defending": 11,
+        "physicality": 68,
+        "stamina": 50,
+        "awareness": 55,
+        "composure": 48
+      }
+    },
+    {
+      "name": "N. Silva",
+      "number": 13,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 58,
+        "shooting": 67,
+        "passing": 45,
+        "dribbling": 52,
+        "defending": 24,
+        "physicality": 60,
+        "stamina": 55,
+        "awareness": 56,
+        "composure": 50
+      }
+    }
+  ]
+}

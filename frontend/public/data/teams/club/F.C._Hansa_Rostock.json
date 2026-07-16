@@ -1,0 +1,396 @@
+{
+  "name": "F.C. Hansa Rostock",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Kolke",
+      "number": 1,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "defending": 74,
+        "passing": 67,
+        "dribbling": 69,
+        "physicality": 76,
+        "stamina": 45,
+        "awareness": 68,
+        "composure": 23
+      }
+    },
+    {
+      "name": "H. Behrens",
+      "number": 2,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 58,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 71,
+        "physicality": 78,
+        "stamina": 81,
+        "awareness": 72,
+        "composure": 66
+      }
+    },
+    {
+      "name": "N. Neidhart",
+      "number": 3,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 81,
+        "shooting": 53,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 64,
+        "physicality": 54,
+        "stamina": 90,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "B. Bahn",
+      "number": 4,
+      "position": "CAM",
+      "overall": 68,
+      "attributes": {
+        "pace": 79,
+        "shooting": 60,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 30,
+        "physicality": 56,
+        "stamina": 90,
+        "awareness": 67,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Riedel",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 76,
+        "shooting": 38,
+        "passing": 65,
+        "dribbling": 59,
+        "defending": 70,
+        "physicality": 74,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "L. Fröde",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 34,
+        "shooting": 44,
+        "passing": 68,
+        "dribbling": 57,
+        "defending": 68,
+        "physicality": 82,
+        "stamina": 80,
+        "awareness": 64,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Rizzuto",
+      "number": 7,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 44,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "H. Duljević",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 85,
+        "shooting": 61,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 39,
+        "physicality": 77,
+        "stamina": 66,
+        "awareness": 62,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Ingelsson",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 50,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 57,
+        "physicality": 73,
+        "stamina": 85,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Rhein",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 38,
+        "passing": 69,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "R. Munsy",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 89,
+        "shooting": 68,
+        "passing": 52,
+        "dribbling": 65,
+        "defending": 28,
+        "physicality": 87,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "S. Mamba",
+      "number": 12,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 94,
+        "shooting": 68,
+        "passing": 52,
+        "dribbling": 65,
+        "defending": 19,
+        "physicality": 73,
+        "stamina": 78,
+        "awareness": 65,
+        "composure": 53
+      }
+    },
+    {
+      "name": "J. Verhoek",
+      "number": 13,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 54,
+        "shooting": 70,
+        "passing": 62,
+        "dribbling": 57,
+        "defending": 21,
+        "physicality": 87,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "N. Omladič",
+      "number": 14,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 62,
+        "shooting": 57,
+        "passing": 64,
+        "dribbling": 72,
+        "defending": 48,
+        "physicality": 57,
+        "stamina": 58,
+        "awareness": 55,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Meier",
+      "number": 15,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 49,
+        "passing": 62,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 63,
+        "stamina": 71,
+        "awareness": 60,
+        "composure": 47
+      }
+    },
+    {
+      "name": "D. Roßbach",
+      "number": 16,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 61,
+        "shooting": 31,
+        "passing": 58,
+        "dribbling": 53,
+        "defending": 67,
+        "physicality": 76,
+        "stamina": 65,
+        "awareness": 59,
+        "composure": 53
+      }
+    },
+    {
+      "name": "T. Meißner",
+      "number": 17,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 52,
+        "shooting": 31,
+        "passing": 57,
+        "dribbling": 44,
+        "defending": 67,
+        "physicality": 82,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "L. Scherff",
+      "number": 18,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 80,
+        "shooting": 50,
+        "passing": 54,
+        "dribbling": 64,
+        "defending": 61,
+        "physicality": 64,
+        "stamina": 84,
+        "awareness": 58,
+        "composure": 62
+      }
+    },
+    {
+      "name": "B. Rother",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 52,
+        "passing": 62,
+        "dribbling": 56,
+        "defending": 63,
+        "physicality": 78,
+        "stamina": 77,
+        "awareness": 63,
+        "composure": 55
+      }
+    },
+    {
+      "name": "M. Litka",
+      "number": 20,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 74,
+        "shooting": 58,
+        "passing": 62,
+        "dribbling": 66,
+        "defending": 35,
+        "physicality": 40,
+        "stamina": 62,
+        "awareness": 57,
+        "composure": 48
+      }
+    },
+    {
+      "name": "T. Schwede",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 55,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 53,
+        "physicality": 64,
+        "stamina": 82,
+        "awareness": 63,
+        "composure": 59
+      }
+    },
+    {
+      "name": "K. Schumacher",
+      "number": 22,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 85,
+        "shooting": 56,
+        "passing": 55,
+        "dribbling": 70,
+        "defending": 31,
+        "physicality": 68,
+        "stamina": 68,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "R. Malone",
+      "number": 23,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 66,
+        "shooting": 28,
+        "passing": 54,
+        "dribbling": 30,
+        "defending": 69,
+        "physicality": 77,
+        "stamina": 65,
+        "awareness": 51,
+        "composure": 49
+      }
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "name": "K Beerschot VA",
+  "type": "club",
+  "players": [
+    {
+      "name": "R. Holzhauser",
+      "number": 1,
+      "position": "CAM",
+      "overall": 73,
+      "attributes": {
+        "pace": 54,
+        "shooting": 79,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 62,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 82
+      }
+    },
+    {
+      "name": "M. Suzuki",
+      "number": 2,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 82,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 21,
+        "physicality": 73,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Van den Bergh",
+      "number": 3,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 42,
+        "passing": 60,
+        "dribbling": 61,
+        "defending": 69,
+        "physicality": 76,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Noubissi",
+      "number": 4,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 82,
+        "shooting": 68,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 43,
+        "physicality": 87,
+        "stamina": 70,
+        "awareness": 60,
+        "composure": 63
+      }
+    },
+    {
+      "name": "T. De Smet",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 36,
+        "passing": 61,
+        "dribbling": 56,
+        "defending": 68,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 64,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Vanhamel",
+      "number": 6,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "defending": 70,
+        "passing": 68,
+        "dribbling": 67,
+        "physicality": 68,
+        "stamina": 24,
+        "awareness": 63,
+        "composure": 32
+      }
+    },
+    {
+      "name": "R. Sanusi",
+      "number": 7,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 63,
+        "shooting": 58,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 63,
+        "physicality": 72,
+        "stamina": 79,
+        "awareness": 67,
+        "composure": 71
+      }
+    },
+    {
+      "name": "I. Coulibaly",
+      "number": 8,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 81,
+        "shooting": 62,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 67,
+        "physicality": 61,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 Y. Vorogovskiy",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 35,
+        "passing": 61,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 62,
+        "stamina": 67,
+        "awareness": 66,
+        "composure": 53
+      }
+    },
+    {
+      "name": "M. Lemos",
+      "number": 10,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 62,
+        "shooting": 51,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 68,
+        "physicality": 77,
+        "stamina": 57,
+        "awareness": 64,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Shankland",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 23,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Sanyang",
+      "number": 12,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 81,
+        "shooting": 60,
+        "passing": 62,
+        "dribbling": 75,
+        "defending": 44,
+        "physicality": 46,
+        "stamina": 66,
+        "awareness": 52,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 Z. Bakkali",
+      "number": 13,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 66,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 75,
+        "defending": 17,
+        "physicality": 59,
+        "stamina": 36,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "R. Vaca",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 73,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 75,
+        "defending": 25,
+        "physicality": 22,
+        "stamina": 80,
+        "awareness": 53,
+        "composure": 51
+      }
+    },
+    {
+      "name": "B. Eleke",
+      "number": 15,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 52,
+        "dribbling": 59,
+        "defending": 42,
+        "physicality": 82,
+        "stamina": 69,
+        "awareness": 59,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Radić",
+      "number": 16,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 63,
+        "shooting": 38,
+        "passing": 64,
+        "dribbling": 34,
+        "defending": 67,
+        "physicality": 76,
+        "stamina": 59,
+        "awareness": 61,
+        "composure": 52
+      }
+    },
+    {
+      "name": "W. Biebauw",
+      "number": 17,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 32,
+        "shooting": 12,
+        "passing": 12,
+        "dribbling": 11,
+        "defending": 13,
+        "physicality": 76,
+        "stamina": 28,
+        "awareness": 58,
+        "composure": 29
+      }
+    },
+    {
+      "name": "M. Caicedo",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 57,
+        "passing": 71,
+        "dribbling": 58,
+        "defending": 60,
+        "physicality": 59,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 50
+      }
+    },
+    {
+      "name": "I. Soumaré",
+      "number": 19,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 81,
+        "shooting": 64,
+        "passing": 53,
+        "dribbling": 65,
+        "defending": 12,
+        "physicality": 40,
+        "stamina": 62,
+        "awareness": 55,
+        "composure": 61
+      }
+    },
+    {
+      "name": "A. Konstantopoulos",
+      "number": 20,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 72,
+        "shooting": 22,
+        "passing": 59,
+        "dribbling": 56,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 60,
+        "awareness": 57,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Mukuna-Trouet",
+      "number": 21,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 77,
+        "shooting": 62,
+        "passing": 54,
+        "dribbling": 63,
+        "defending": 23,
+        "physicality": 72,
+        "stamina": 54,
+        "awareness": 45,
+        "composure": 44
+      }
+    }
+  ]
+}

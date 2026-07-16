@@ -1,0 +1,244 @@
+{
+  "name": "HJK Helsinki",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 E. Echiéjilé",
+      "number": 1,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 72,
+        "shooting": 49,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 72,
+        "physicality": 73,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 51
+      }
+    },
+    {
+      "name": "21 F. Hasani",
+      "number": 2,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 71,
+        "defending": 39,
+        "physicality": 72,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 72
+      }
+    },
+    {
+      "name": "T. Sparv",
+      "number": 3,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 32,
+        "shooting": 48,
+        "passing": 65,
+        "dribbling": 52,
+        "defending": 65,
+        "physicality": 73,
+        "stamina": 62,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Riski",
+      "number": 4,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 75,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 47,
+        "physicality": 55,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. O'Shaughnessy",
+      "number": 5,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 57,
+        "shooting": 25,
+        "passing": 62,
+        "dribbling": 45,
+        "defending": 67,
+        "physicality": 80,
+        "stamina": 68,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "A. Tanaka",
+      "number": 6,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 56,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 58,
+        "physicality": 56,
+        "stamina": 73,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Lingman",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 55,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 52,
+        "physicality": 52,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Browne",
+      "number": 8,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 85,
+        "shooting": 55,
+        "passing": 58,
+        "dribbling": 69,
+        "defending": 17,
+        "physicality": 48,
+        "stamina": 63,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "19 V. Jalasto",
+      "number": 9,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 42,
+        "passing": 55,
+        "dribbling": 48,
+        "defending": 66,
+        "physicality": 77,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 55
+      }
+    },
+    {
+      "name": "V. Moren",
+      "number": 10,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 30,
+        "shooting": 25,
+        "passing": 55,
+        "dribbling": 32,
+        "defending": 66,
+        "physicality": 70,
+        "stamina": 58,
+        "awareness": 61,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Bubacar Djaló",
+      "number": 11,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "shooting": 27,
+        "passing": 60,
+        "dribbling": 49,
+        "defending": 65,
+        "physicality": 78,
+        "stamina": 74,
+        "awareness": 59,
+        "composure": 53
+      }
+    },
+    {
+      "name": "M. Halsti",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 32,
+        "shooting": 38,
+        "passing": 63,
+        "dribbling": 45,
+        "defending": 61,
+        "physicality": 73,
+        "stamina": 58,
+        "awareness": 60,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Dahlström",
+      "number": 13,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 66,
+        "shooting": 45,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 62,
+        "physicality": 67,
+        "stamina": 76,
+        "awareness": 61,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 H. Toivomäki",
+      "number": 14,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 72,
+        "shooting": 33,
+        "passing": 58,
+        "dribbling": 59,
+        "defending": 58,
+        "physicality": 62,
+        "stamina": 64,
+        "awareness": 56,
+        "composure": 55
+      }
+    }
+  ]
+}

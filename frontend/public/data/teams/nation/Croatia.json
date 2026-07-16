@@ -1,0 +1,396 @@
+{
+  "name": "Croatia",
+  "type": "nation",
+  "players": [
+    {
+      "name": "L. Modrić",
+      "number": 1,
+      "position": "CM",
+      "overall": 87,
+      "attributes": {
+        "pace": 70,
+        "shooting": 72,
+        "passing": 91,
+        "dribbling": 85,
+        "defending": 75,
+        "physicality": 58,
+        "stamina": 83,
+        "awareness": 88,
+        "composure": 92
+      }
+    },
+    {
+      "name": "M. Brozović",
+      "number": 2,
+      "position": "CDM",
+      "overall": 84,
+      "attributes": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 85,
+        "dribbling": 76,
+        "defending": 81,
+        "physicality": 67,
+        "stamina": 94,
+        "awareness": 76,
+        "composure": 82
+      }
+    },
+    {
+      "name": "M. Kovačić",
+      "number": 3,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 65,
+        "shooting": 61,
+        "passing": 90,
+        "dribbling": 89,
+        "defending": 73,
+        "physicality": 63,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 81
+      }
+    },
+    {
+      "name": "A. Kramarić",
+      "number": 4,
+      "position": "CAM",
+      "overall": 83,
+      "attributes": {
+        "pace": 67,
+        "shooting": 87,
+        "passing": 81,
+        "dribbling": 87,
+        "defending": 20,
+        "physicality": 68,
+        "stamina": 76,
+        "awareness": 84,
+        "composure": 83
+      }
+    },
+    {
+      "name": "I. Rakitić",
+      "number": 5,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 56,
+        "shooting": 77,
+        "passing": 85,
+        "dribbling": 79,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 74,
+        "awareness": 80,
+        "composure": 80
+      }
+    },
+    {
+      "name": "A. Rebić",
+      "number": 6,
+      "position": "LW",
+      "overall": 82,
+      "attributes": {
+        "pace": 88,
+        "shooting": 85,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 50,
+        "physicality": 80,
+        "stamina": 81,
+        "awareness": 85,
+        "composure": 75
+      }
+    },
+    {
+      "name": "D. Livaković",
+      "number": 7,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 81,
+        "defending": 85,
+        "passing": 78,
+        "dribbling": 80,
+        "physicality": 75,
+        "stamina": 32,
+        "awareness": 80,
+        "composure": 64
+      }
+    },
+    {
+      "name": "I. Perišić",
+      "number": 8,
+      "position": "LW",
+      "overall": 81,
+      "attributes": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 58,
+        "physicality": 76,
+        "stamina": 75,
+        "awareness": 79,
+        "composure": 80
+      }
+    },
+    {
+      "name": "S. Vrsaljko",
+      "number": 9,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 81,
+        "shooting": 44,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 80,
+        "physicality": 73,
+        "stamina": 85,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "N. Vlašić",
+      "number": 10,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 83,
+        "shooting": 76,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 55,
+        "physicality": 69,
+        "stamina": 80,
+        "awareness": 78,
+        "composure": 77
+      }
+    },
+    {
+      "name": "20 D. Lovren",
+      "number": 11,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 54,
+        "shooting": 33,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 82,
+        "physicality": 82,
+        "stamina": 64,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 V. Ćorluka",
+      "number": 12,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 58,
+        "shooting": 44,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 83,
+        "physicality": 84,
+        "stamina": 68,
+        "awareness": 73,
+        "composure": 78
+      }
+    },
+    {
+      "name": "19 D. Srna",
+      "number": 13,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 76,
+        "shooting": 69,
+        "passing": 85,
+        "dribbling": 72,
+        "defending": 76,
+        "physicality": 69,
+        "stamina": 68,
+        "awareness": 73,
+        "composure": 78
+      }
+    },
+    {
+      "name": "M. Pašalić",
+      "number": 14,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 65,
+        "shooting": 74,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 72,
+        "physicality": 75,
+        "stamina": 78,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 M. Mandžukić",
+      "number": 15,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 67,
+        "shooting": 78,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 64,
+        "physicality": 87,
+        "stamina": 67,
+        "awareness": 81,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. Vida",
+      "number": 16,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 76,
+        "shooting": 41,
+        "passing": 62,
+        "dribbling": 53,
+        "defending": 77,
+        "physicality": 80,
+        "stamina": 82,
+        "awareness": 72,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. Ćaleta-Car",
+      "number": 17,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 60,
+        "shooting": 32,
+        "passing": 78,
+        "dribbling": 59,
+        "defending": 78,
+        "physicality": 86,
+        "stamina": 77,
+        "awareness": 76,
+        "composure": 81
+      }
+    },
+    {
+      "name": "A. Budimir",
+      "number": 18,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 68,
+        "shooting": 84,
+        "passing": 68,
+        "dribbling": 78,
+        "defending": 35,
+        "physicality": 83,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Oršić",
+      "number": 19,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 91,
+        "shooting": 81,
+        "passing": 70,
+        "dribbling": 76,
+        "defending": 57,
+        "physicality": 57,
+        "stamina": 82,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "B. Sosa",
+      "number": 20,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 36,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 72,
+        "physicality": 67,
+        "stamina": 78,
+        "awareness": 74,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Majer",
+      "number": 21,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 62,
+        "shooting": 67,
+        "passing": 77,
+        "dribbling": 85,
+        "defending": 59,
+        "physicality": 49,
+        "stamina": 81,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "B. Petković",
+      "number": 22,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 72,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 41,
+        "physicality": 92,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 79
+      }
+    },
+    {
+      "name": "M. Badelj",
+      "number": 23,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 50,
+        "shooting": 54,
+        "passing": 80,
+        "dribbling": 72,
+        "defending": 75,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 69
+      }
+    }
+  ]
+}

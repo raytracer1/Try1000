@@ -1,0 +1,397 @@
+{
+  "name": "Burton Albion",
+  "type": "club",
+  "players": [
+    {
+      "name": "18 D. Bent",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 72,
+        "passing": 57,
+        "dribbling": 61,
+        "defending": 19,
+        "physicality": 69,
+        "stamina": 45,
+        "awareness": 64,
+        "composure": 79
+      }
+    },
+    {
+      "name": "L. Moult",
+      "number": 2,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 62,
+        "shooting": 67,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 36,
+        "physicality": 76,
+        "stamina": 48,
+        "awareness": 62,
+        "composure": 70
+      }
+    },
+    {
+      "name": "H. Chapman",
+      "number": 3,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 57,
+        "passing": 62,
+        "dribbling": 72,
+        "defending": 29,
+        "physicality": 55,
+        "stamina": 64,
+        "awareness": 60,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Mancienne",
+      "number": 4,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 67,
+        "shooting": 27,
+        "passing": 66,
+        "dribbling": 56,
+        "defending": 64,
+        "physicality": 80,
+        "stamina": 67,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "L. Akins",
+      "number": 5,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 64,
+        "passing": 61,
+        "dribbling": 64,
+        "defending": 59,
+        "physicality": 80,
+        "stamina": 84,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Smith",
+      "number": 6,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 82,
+        "shooting": 59,
+        "passing": 61,
+        "dribbling": 64,
+        "defending": 36,
+        "physicality": 34,
+        "stamina": 72,
+        "awareness": 56,
+        "composure": 60
+      }
+    },
+    {
+      "name": "T. Hamer",
+      "number": 7,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 37,
+        "passing": 57,
+        "dribbling": 56,
+        "defending": 62,
+        "physicality": 78,
+        "stamina": 82,
+        "awareness": 61,
+        "composure": 55
+      }
+    },
+    {
+      "name": "K. Hemmings",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 20,
+        "physicality": 73,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Bostwick",
+      "number": 9,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 34,
+        "shooting": 49,
+        "passing": 53,
+        "dribbling": 44,
+        "defending": 64,
+        "physicality": 91,
+        "stamina": 82,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Oshilaja",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 80,
+        "shooting": 24,
+        "passing": 58,
+        "dribbling": 53,
+        "defending": 64,
+        "physicality": 84,
+        "stamina": 78,
+        "awareness": 55,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 J. Buxton",
+      "number": 11,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 34,
+        "shooting": 33,
+        "passing": 54,
+        "dribbling": 23,
+        "defending": 64,
+        "physicality": 80,
+        "stamina": 47,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Powell",
+      "number": 12,
+      "position": "CAM",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 57,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 58,
+        "physicality": 53,
+        "stamina": 68,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Shaughnessy",
+      "number": 13,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 63,
+        "shooting": 45,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 63,
+        "physicality": 79,
+        "stamina": 75,
+        "awareness": 61,
+        "composure": 58
+      }
+    },
+    {
+      "name": "C. Borthwick-Jackson",
+      "number": 14,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 42,
+        "passing": 62,
+        "dribbling": 61,
+        "defending": 61,
+        "physicality": 74,
+        "stamina": 74,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "R. Leak",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 50,
+        "shooting": 23,
+        "passing": 53,
+        "dribbling": 50,
+        "defending": 65,
+        "physicality": 82,
+        "stamina": 56,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "B. Morris",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 42,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 61,
+        "physicality": 66,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "21 J. O'Toole",
+      "number": 17,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 50,
+        "shooting": 56,
+        "passing": 61,
+        "dribbling": 59,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 59,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Rowe",
+      "number": 18,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 75,
+        "shooting": 59,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 28,
+        "physicality": 58,
+        "stamina": 61,
+        "awareness": 57,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Hughes",
+      "number": 19,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 53,
+        "shooting": 29,
+        "passing": 54,
+        "dribbling": 42,
+        "defending": 64,
+        "physicality": 76,
+        "stamina": 63,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "E. Balcombe",
+      "number": 20,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 40,
+        "shooting": 10,
+        "passing": 17,
+        "dribbling": 10,
+        "defending": 10,
+        "physicality": 65,
+        "stamina": 30,
+        "awareness": 58,
+        "composure": 23
+      }
+    },
+    {
+      "name": "C. Lakin",
+      "number": 21,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 71,
+        "shooting": 53,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 58,
+        "physicality": 63,
+        "stamina": 73,
+        "awareness": 61,
+        "composure": 66
+      }
+    },
+    {
+      "name": "T. O'Connor",
+      "number": 22,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 68,
+        "shooting": 39,
+        "passing": 66,
+        "dribbling": 56,
+        "defending": 60,
+        "physicality": 70,
+        "stamina": 69,
+        "awareness": 60,
+        "composure": 53
+      }
+    },
+    {
+      "name": "T. Taylor",
+      "number": 23,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 63,
+        "shooting": 47,
+        "passing": 62,
+        "dribbling": 57,
+        "defending": 61,
+        "physicality": 62,
+        "stamina": 68,
+        "awareness": 57,
+        "composure": 55
+      }
+    }
+  ]
+}

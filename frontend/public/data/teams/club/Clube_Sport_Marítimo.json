@@ -1,0 +1,396 @@
+{
+  "name": "Clube Sport Marítimo",
+  "type": "club",
+  "players": [
+    {
+      "name": "Zainadine",
+      "number": 1,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 73,
+        "shooting": 22,
+        "passing": 64,
+        "dribbling": 58,
+        "defending": 75,
+        "physicality": 72,
+        "stamina": 77,
+        "awareness": 76,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Paulo Victor",
+      "number": 2,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 49,
+        "shooting": 12,
+        "passing": 38,
+        "dribbling": 14,
+        "defending": 11,
+        "physicality": 57,
+        "stamina": 30,
+        "awareness": 70,
+        "composure": 44
+      }
+    },
+    {
+      "name": "Miguel Silva",
+      "number": 3,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 77,
+        "defending": 76,
+        "passing": 68,
+        "dribbling": 72,
+        "physicality": 58,
+        "stamina": 27,
+        "awareness": 73,
+        "composure": 37
+      }
+    },
+    {
+      "name": "I. Rossi",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 44,
+        "passing": 72,
+        "dribbling": 65,
+        "defending": 75,
+        "physicality": 57,
+        "stamina": 69,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Tagueu",
+      "number": 5,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 74,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 23,
+        "physicality": 70,
+        "stamina": 71,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Bruno Xadas",
+      "number": 6,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 72,
+        "shooting": 62,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 47,
+        "physicality": 62,
+        "stamina": 54,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Jorge Sáenz",
+      "number": 7,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 69,
+        "shooting": 35,
+        "passing": 68,
+        "dribbling": 61,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 84,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "André Vidigal",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 65,
+        "passing": 64,
+        "dribbling": 74,
+        "defending": 23,
+        "physicality": 48,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Diogo Mendes",
+      "number": 9,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 42,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 J. Correa",
+      "number": 10,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 26,
+        "physicality": 60,
+        "stamina": 74,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Fábio China",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 32,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 69,
+        "physicality": 63,
+        "stamina": 69,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 Caio Secco",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 41,
+        "shooting": 15,
+        "passing": 37,
+        "dribbling": 14,
+        "defending": 17,
+        "physicality": 63,
+        "stamina": 30,
+        "awareness": 71,
+        "composure": 36
+      }
+    },
+    {
+      "name": "Pedro Pelágio",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 63,
+        "shooting": 46,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 58,
+        "physicality": 59,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 D. Moreno",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 60,
+        "passing": 68,
+        "dribbling": 61,
+        "defending": 64,
+        "physicality": 71,
+        "stamina": 74,
+        "awareness": 68,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Beltrame",
+      "number": 15,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 78,
+        "shooting": 58,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 16,
+        "physicality": 66,
+        "stamina": 64,
+        "awareness": 55,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Léo Andrade",
+      "number": 16,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 28,
+        "passing": 53,
+        "dribbling": 31,
+        "defending": 68,
+        "physicality": 75,
+        "stamina": 68,
+        "awareness": 66,
+        "composure": 48
+      }
+    },
+    {
+      "name": "A. Alipour",
+      "number": 17,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 56,
+        "dribbling": 62,
+        "defending": 17,
+        "physicality": 60,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "R. Guitane",
+      "number": 18,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 55,
+        "passing": 66,
+        "dribbling": 73,
+        "defending": 29,
+        "physicality": 32,
+        "stamina": 42,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Rúben Macedo",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 71,
+        "shooting": 59,
+        "passing": 62,
+        "dribbling": 69,
+        "defending": 25,
+        "physicality": 57,
+        "stamina": 65,
+        "awareness": 59,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Milson",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 80,
+        "shooting": 54,
+        "passing": 59,
+        "dribbling": 72,
+        "defending": 29,
+        "physicality": 52,
+        "stamina": 53,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Ricardinho",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 56,
+        "shooting": 70,
+        "passing": 64,
+        "dribbling": 66,
+        "defending": 22,
+        "physicality": 70,
+        "stamina": 62,
+        "awareness": 59,
+        "composure": 54
+      }
+    },
+    {
+      "name": "Rodrigo Andrade",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 66,
+        "shooting": 44,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 62,
+        "physicality": 64,
+        "stamina": 67,
+        "awareness": 58,
+        "composure": 57
+      }
+    },
+    {
+      "name": "Kibe",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 62,
+        "shooting": 66,
+        "passing": 51,
+        "dribbling": 60,
+        "defending": 25,
+        "physicality": 85,
+        "stamina": 54,
+        "awareness": 63,
+        "composure": 58
+      }
+    }
+  ]
+}

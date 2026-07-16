@@ -1,0 +1,345 @@
+{
+  "name": "Atlético Tucumán",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Heredia",
+      "number": 1,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 77,
+        "defending": 31,
+        "physicality": 72,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. Lucchetti",
+      "number": 2,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "defending": 70,
+        "passing": 70,
+        "dribbling": 69,
+        "physicality": 55,
+        "stamina": 35,
+        "awareness": 71,
+        "composure": 41
+      }
+    },
+    {
+      "name": "C. Rius",
+      "number": 3,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 59,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 57,
+        "physicality": 69,
+        "stamina": 59,
+        "awareness": 69,
+        "composure": 79
+      }
+    },
+    {
+      "name": "21 M. Alustiza",
+      "number": 4,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 74,
+        "defending": 33,
+        "physicality": 60,
+        "stamina": 59,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 J. Toledo",
+      "number": 5,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 47,
+        "shooting": 74,
+        "passing": 66,
+        "dribbling": 64,
+        "defending": 50,
+        "physicality": 91,
+        "stamina": 52,
+        "awareness": 70,
+        "composure": 81
+      }
+    },
+    {
+      "name": "A. Lotti",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 80,
+        "shooting": 76,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 23,
+        "physicality": 70,
+        "stamina": 66,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Y. Cabral",
+      "number": 7,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 48,
+        "shooting": 23,
+        "passing": 55,
+        "dribbling": 44,
+        "defending": 73,
+        "physicality": 87,
+        "stamina": 31,
+        "awareness": 67,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Mussis",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 51,
+        "passing": 71,
+        "dribbling": 62,
+        "defending": 70,
+        "physicality": 76,
+        "stamina": 72,
+        "awareness": 65,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 F. Monzón",
+      "number": 9,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 38,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 65,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "G. Risso Patrón",
+      "number": 10,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 76,
+        "shooting": 41,
+        "passing": 62,
+        "dribbling": 61,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 N. Aguirre",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 63,
+        "physicality": 72,
+        "stamina": 60,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "O. Benítez",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 76,
+        "shooting": 61,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 56,
+        "physicality": 80,
+        "stamina": 71,
+        "awareness": 64,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Tesuri",
+      "number": 13,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 75,
+        "shooting": 66,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 39,
+        "physicality": 42,
+        "stamina": 69,
+        "awareness": 56,
+        "composure": 59
+      }
+    },
+    {
+      "name": "S. Vergini",
+      "number": 14,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 33,
+        "shooting": 33,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 71,
+        "physicality": 82,
+        "stamina": 64,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Campos",
+      "number": 15,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 40,
+        "passing": 64,
+        "dribbling": 59,
+        "defending": 64,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 60,
+        "composure": 55
+      }
+    },
+    {
+      "name": "R. Ruiz",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 31,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 59,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Lagos",
+      "number": 17,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 68,
+        "shooting": 28,
+        "passing": 49,
+        "dribbling": 58,
+        "defending": 68,
+        "physicality": 62,
+        "stamina": 65,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Pereyra",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 63,
+        "shooting": 47,
+        "passing": 69,
+        "dribbling": 63,
+        "defending": 62,
+        "physicality": 65,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "A. Bustos",
+      "number": 19,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 58,
+        "passing": 69,
+        "dribbling": 59,
+        "defending": 65,
+        "physicality": 49,
+        "stamina": 46,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "C. Albornoz",
+      "number": 20,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 51,
+        "shooting": 38,
+        "passing": 64,
+        "dribbling": 52,
+        "defending": 64,
+        "physicality": 57,
+        "stamina": 34,
+        "awareness": 62,
+        "composure": 41
+      }
+    }
+  ]
+}

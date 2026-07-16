@@ -1,0 +1,396 @@
+{
+  "name": "Feyenoord",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Senesi",
+      "number": 1,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 56,
+        "shooting": 32,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 82,
+        "physicality": 82,
+        "stamina": 71,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "19 R. van Persie",
+      "number": 2,
+      "position": "CAM",
+      "overall": 78,
+      "attributes": {
+        "pace": 49,
+        "shooting": 79,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 32,
+        "physicality": 67,
+        "stamina": 52,
+        "awareness": 79,
+        "composure": 85
+      }
+    },
+    {
+      "name": "J. Bijlow",
+      "number": 3,
+      "position": "GK",
+      "overall": 78,
+      "attributes": {
+        "pace": 81,
+        "defending": 80,
+        "passing": 75,
+        "dribbling": 74,
+        "physicality": 70,
+        "stamina": 30,
+        "awareness": 77,
+        "composure": 54
+      }
+    },
+    {
+      "name": "L. Sinisterra",
+      "number": 4,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 87,
+        "shooting": 70,
+        "passing": 77,
+        "dribbling": 85,
+        "defending": 48,
+        "physicality": 58,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "T. Malacia",
+      "number": 5,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 81,
+        "shooting": 50,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 78,
+        "physicality": 67,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Toornstra",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 58,
+        "shooting": 74,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 64,
+        "physicality": 72,
+        "stamina": 91,
+        "awareness": 73,
+        "composure": 76
+      }
+    },
+    {
+      "name": "G. Trauner",
+      "number": 7,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 66,
+        "shooting": 51,
+        "passing": 68,
+        "dribbling": 58,
+        "defending": 76,
+        "physicality": 86,
+        "stamina": 90,
+        "awareness": 71,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Geertruida",
+      "number": 8,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 80,
+        "shooting": 59,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 78,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "17 D. Kuyt",
+      "number": 9,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 68,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 66,
+        "physicality": 75,
+        "stamina": 83,
+        "awareness": 77,
+        "composure": 84
+      }
+    },
+    {
+      "name": "O. Kökçü",
+      "number": 10,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 55,
+        "physicality": 65,
+        "stamina": 81,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "B. Linssen",
+      "number": 11,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 67,
+        "dribbling": 71,
+        "defending": 43,
+        "physicality": 58,
+        "stamina": 83,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 U. Spajić",
+      "number": 12,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 68,
+        "shooting": 34,
+        "passing": 62,
+        "dribbling": 62,
+        "defending": 75,
+        "physicality": 80,
+        "stamina": 67,
+        "awareness": 72,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Diemers",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 62,
+        "physicality": 62,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 73
+      }
+    },
+    {
+      "name": "G. Til",
+      "number": 14,
+      "position": "CAM",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 59,
+        "physicality": 68,
+        "stamina": 87,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. Jahanbakhsh",
+      "number": 15,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 37,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 Eric Botteghin",
+      "number": 16,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 30,
+        "shooting": 25,
+        "passing": 59,
+        "dribbling": 48,
+        "defending": 77,
+        "physicality": 90,
+        "stamina": 60,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "João Teixeira",
+      "number": 17,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 35,
+        "physicality": 60,
+        "stamina": 64,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Nelson",
+      "number": 18,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 85,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 77,
+        "defending": 37,
+        "physicality": 53,
+        "stamina": 64,
+        "awareness": 65,
+        "composure": 60
+      }
+    },
+    {
+      "name": "F. Aursnes",
+      "number": 19,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 64,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 69,
+        "physicality": 62,
+        "stamina": 91,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Dessers",
+      "number": 20,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 16,
+        "physicality": 79,
+        "stamina": 74,
+        "awareness": 75,
+        "composure": 68
+      }
+    },
+    {
+      "name": "O. Marciano",
+      "number": 21,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 44,
+        "shooting": 12,
+        "passing": 27,
+        "dribbling": 19,
+        "defending": 11,
+        "physicality": 76,
+        "stamina": 33,
+        "awareness": 69,
+        "composure": 48
+      }
+    },
+    {
+      "name": "M. Pedersen",
+      "number": 22,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 89,
+        "shooting": 48,
+        "passing": 56,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 64,
+        "stamina": 83,
+        "awareness": 57,
+        "composure": 54
+      }
+    },
+    {
+      "name": "R. Hendriks",
+      "number": 23,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 71,
+        "shooting": 29,
+        "passing": 65,
+        "dribbling": 52,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 63,
+        "awareness": 57,
+        "composure": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "name": "Congo",
+  "type": "nation",
+  "players": [
+    {
+      "name": "21 T. Bifouma",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 93,
+        "shooting": 72,
+        "passing": 67,
+        "dribbling": 77,
+        "defending": 23,
+        "physicality": 71,
+        "stamina": 67,
+        "awareness": 72,
+        "composure": 62
+      }
+    },
+    {
+      "name": "B. Samba",
+      "number": 2,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "defending": 74,
+        "passing": 67,
+        "dribbling": 71,
+        "physicality": 70,
+        "stamina": 37,
+        "awareness": 70,
+        "composure": 53
+      }
+    },
+    {
+      "name": "21 D. N'Dinga",
+      "number": 3,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 61,
+        "shooting": 50,
+        "passing": 74,
+        "dribbling": 59,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 60
+      }
+    },
+    {
+      "name": "P. Oniangué",
+      "number": 4,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 61,
+        "shooting": 64,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 66,
+        "physicality": 90,
+        "stamina": 85,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "B. Moussiti-Oko",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 55,
+        "shooting": 72,
+        "passing": 61,
+        "dribbling": 66,
+        "defending": 20,
+        "physicality": 91,
+        "stamina": 76,
+        "awareness": 61,
+        "composure": 60
+      }
+    },
+    {
+      "name": "F. Mayembo",
+      "number": 6,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 46,
+        "shooting": 31,
+        "passing": 57,
+        "dribbling": 44,
+        "defending": 69,
+        "physicality": 91,
+        "stamina": 74,
+        "awareness": 67,
+        "composure": 50
+      }
+    },
+    {
+      "name": "20 M. Baudry",
+      "number": 7,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 50,
+        "shooting": 17,
+        "passing": 54,
+        "dribbling": 30,
+        "defending": 71,
+        "physicality": 79,
+        "stamina": 71,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "D. Saint-Louis",
+      "number": 8,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 83,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 72,
+        "defending": 36,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Ganvoula",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 88,
+        "shooting": 63,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 21,
+        "physicality": 84,
+        "stamina": 59,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "G. Makouta",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 64,
+        "physicality": 82,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Bahamboula",
+      "number": 11,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 82,
+        "shooting": 62,
+        "passing": 61,
+        "dribbling": 71,
+        "defending": 39,
+        "physicality": 73,
+        "stamina": 68,
+        "awareness": 61,
+        "composure": 70
+      }
+    },
+    {
+      "name": "P. Mboungou",
+      "number": 12,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 81,
+        "shooting": 66,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 31,
+        "physicality": 57,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "21 C. Dikamona",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 63,
+        "shooting": 15,
+        "passing": 55,
+        "dribbling": 52,
+        "defending": 60,
+        "physicality": 86,
+        "stamina": 53,
+        "awareness": 55,
+        "composure": 50
+      }
+    },
+    {
+      "name": "B. Makouana",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 84,
+        "shooting": 62,
+        "passing": 56,
+        "dribbling": 65,
+        "defending": 33,
+        "physicality": 57,
+        "stamina": 53,
+        "awareness": 57,
+        "composure": 57
+      }
+    },
+    {
+      "name": "19 T. Badila",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 79,
+        "shooting": 37,
+        "passing": 49,
+        "dribbling": 48,
+        "defending": 64,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 57,
+        "composure": 53
+      }
+    },
+    {
+      "name": "P. Ibara",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 55,
+        "shooting": 65,
+        "passing": 58,
+        "dribbling": 53,
+        "defending": 28,
+        "physicality": 82,
+        "stamina": 52,
+        "awareness": 54,
+        "composure": 58
+      }
+    },
+    {
+      "name": "C. Missilou",
+      "number": 17,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 66,
+        "shooting": 51,
+        "passing": 62,
+        "dribbling": 60,
+        "defending": 62,
+        "physicality": 71,
+        "stamina": 76,
+        "awareness": 62,
+        "composure": 54
+      }
+    },
+    {
+      "name": "O. Zanzala",
+      "number": 18,
+      "position": "ST",
+      "overall": 61,
+      "attributes": {
+        "pace": 69,
+        "shooting": 62,
+        "passing": 51,
+        "dribbling": 58,
+        "defending": 20,
+        "physicality": 77,
+        "stamina": 69,
+        "awareness": 57,
+        "composure": 55
+      }
+    }
+  ]
+}

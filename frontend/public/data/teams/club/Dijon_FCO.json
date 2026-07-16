@@ -1,0 +1,396 @@
+{
+  "name": "Dijon FCO",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 Y. Gourcuff",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 51,
+        "shooting": 62,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 52,
+        "physicality": 67,
+        "stamina": 61,
+        "awareness": 72,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Le Bihan",
+      "number": 2,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 50,
+        "shooting": 78,
+        "passing": 62,
+        "dribbling": 72,
+        "defending": 40,
+        "physicality": 79,
+        "stamina": 61,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "D. Congré",
+      "number": 3,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 41,
+        "shooting": 25,
+        "passing": 69,
+        "dribbling": 61,
+        "defending": 72,
+        "physicality": 83,
+        "stamina": 65,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "B. Reynet",
+      "number": 4,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "defending": 75,
+        "passing": 71,
+        "dribbling": 74,
+        "physicality": 68,
+        "stamina": 35,
+        "awareness": 68,
+        "composure": 60
+      }
+    },
+    {
+      "name": "L. Deaux",
+      "number": 5,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 53,
+        "shooting": 51,
+        "passing": 71,
+        "dribbling": 62,
+        "defending": 74,
+        "physicality": 83,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "B. Ecuélé Manga",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 48,
+        "shooting": 27,
+        "passing": 62,
+        "dribbling": 44,
+        "defending": 69,
+        "physicality": 86,
+        "stamina": 78,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Traoré",
+      "number": 7,
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 38,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 67,
+        "awareness": 62,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Y. Benzia",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 64,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 46,
+        "physicality": 59,
+        "stamina": 55,
+        "awareness": 67,
+        "composure": 74
+      }
+    },
+    {
+      "name": "R. Philippoteaux",
+      "number": 9,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 34,
+        "physicality": 60,
+        "stamina": 57,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Panzo",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 35,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 72,
+        "physicality": 78,
+        "stamina": 71,
+        "awareness": 69,
+        "composure": 51
+      }
+    },
+    {
+      "name": "M. Konaté",
+      "number": 11,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 82,
+        "shooting": 69,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 17,
+        "physicality": 76,
+        "stamina": 68,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. Racioppi",
+      "number": 12,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 28,
+        "shooting": 7,
+        "passing": 19,
+        "dribbling": 7,
+        "defending": 14,
+        "physicality": 49,
+        "stamina": 20,
+        "awareness": 71,
+        "composure": 43
+      }
+    },
+    {
+      "name": "J. Marié",
+      "number": 13,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 34,
+        "shooting": 48,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 70,
+        "physicality": 65,
+        "stamina": 66,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 G. Ngonda",
+      "number": 14,
+      "position": "LB",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 40,
+        "passing": 61,
+        "dribbling": 67,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "18 C. Varrault",
+      "number": 15,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 30,
+        "shooting": 46,
+        "passing": 66,
+        "dribbling": 39,
+        "defending": 70,
+        "physicality": 75,
+        "stamina": 57,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 W. Lautoa",
+      "number": 16,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 41,
+        "shooting": 29,
+        "passing": 69,
+        "dribbling": 45,
+        "defending": 71,
+        "physicality": 84,
+        "stamina": 63,
+        "awareness": 68,
+        "composure": 50
+      }
+    },
+    {
+      "name": "20 F. Balmont",
+      "number": 17,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 33,
+        "shooting": 61,
+        "passing": 73,
+        "dribbling": 64,
+        "defending": 74,
+        "physicality": 57,
+        "stamina": 33,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "V. Jacob",
+      "number": 18,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 61,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 49,
+        "physicality": 39,
+        "stamina": 65,
+        "awareness": 48,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Coulibaly",
+      "number": 19,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 32,
+        "passing": 63,
+        "dribbling": 54,
+        "defending": 68,
+        "physicality": 82,
+        "stamina": 64,
+        "awareness": 61,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Pi",
+      "number": 20,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 63,
+        "physicality": 73,
+        "stamina": 90,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "B. Soumaré",
+      "number": 21,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 51,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 59,
+        "physicality": 60,
+        "stamina": 61,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "C. Rocchia",
+      "number": 22,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 77,
+        "shooting": 37,
+        "passing": 63,
+        "dribbling": 57,
+        "defending": 64,
+        "physicality": 61,
+        "stamina": 74,
+        "awareness": 64,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Scheidler",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 53,
+        "shooting": 71,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 32,
+        "physicality": 84,
+        "stamina": 70,
+        "awareness": 59,
+        "composure": 61
+      }
+    }
+  ]
+}

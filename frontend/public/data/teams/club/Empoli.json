@@ -1,0 +1,396 @@
+{
+  "name": "Empoli",
+  "type": "club",
+  "players": [
+    {
+      "name": "F. Di Francesco",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 81,
+        "shooting": 67,
+        "passing": 77,
+        "dribbling": 83,
+        "defending": 38,
+        "physicality": 62,
+        "stamina": 72,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "19 M. Pasqual",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 46,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 73,
+        "physicality": 66,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 78
+      }
+    },
+    {
+      "name": "P. Cutrone",
+      "number": 3,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 76,
+        "passing": 64,
+        "dribbling": 70,
+        "defending": 20,
+        "physicality": 72,
+        "stamina": 66,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "L. Tonelli",
+      "number": 4,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 25,
+        "passing": 54,
+        "dribbling": 54,
+        "defending": 77,
+        "physicality": 68,
+        "stamina": 49,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "L. Štulac",
+      "number": 5,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "shooting": 52,
+        "passing": 73,
+        "dribbling": 62,
+        "defending": 72,
+        "physicality": 69,
+        "stamina": 75,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Mancuso",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 64,
+        "dribbling": 72,
+        "defending": 22,
+        "physicality": 67,
+        "stamina": 85,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Ismajli",
+      "number": 7,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 22,
+        "passing": 67,
+        "dribbling": 58,
+        "defending": 75,
+        "physicality": 65,
+        "stamina": 63,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "G. Vicario",
+      "number": 8,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "defending": 75,
+        "passing": 70,
+        "dribbling": 74,
+        "physicality": 53,
+        "stamina": 18,
+        "awareness": 62,
+        "composure": 55
+      }
+    },
+    {
+      "name": "P. Stojanović",
+      "number": 9,
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 41,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 68,
+        "physicality": 65,
+        "stamina": 78,
+        "awareness": 65,
+        "composure": 54
+      }
+    },
+    {
+      "name": "21 L. Antonelli",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 71,
+        "shooting": 51,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 68,
+        "physicality": 72,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Luperto",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 48,
+        "shooting": 45,
+        "passing": 67,
+        "dribbling": 56,
+        "defending": 76,
+        "physicality": 70,
+        "stamina": 64,
+        "awareness": 70,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Romagnoli",
+      "number": 12,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 55,
+        "shooting": 39,
+        "passing": 54,
+        "dribbling": 52,
+        "defending": 76,
+        "physicality": 87,
+        "stamina": 71,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Żurkowski",
+      "number": 13,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 85,
+        "shooting": 58,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 68,
+        "physicality": 78,
+        "stamina": 89,
+        "awareness": 71,
+        "composure": 78
+      }
+    },
+    {
+      "name": "N. Haas",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 52,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 61,
+        "physicality": 62,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "N. Bajrami",
+      "number": 15,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 59,
+        "physicality": 61,
+        "stamina": 69,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Moreo",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 78,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 51,
+        "physicality": 84,
+        "stamina": 77,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "R. Fiamozzi",
+      "number": 17,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 87,
+        "shooting": 49,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 76,
+        "stamina": 89,
+        "awareness": 67,
+        "composure": 59
+      }
+    },
+    {
+      "name": "19 L. Mchedlidze",
+      "number": 18,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 34,
+        "physicality": 84,
+        "stamina": 52,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 D. Maietta",
+      "number": 19,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 33,
+        "shooting": 13,
+        "passing": 63,
+        "dribbling": 43,
+        "defending": 75,
+        "physicality": 77,
+        "stamina": 43,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "F. Bandinelli",
+      "number": 20,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 65,
+        "physicality": 60,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "19 M. Brighi",
+      "number": 21,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 52,
+        "shooting": 60,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 60,
+        "physicality": 67,
+        "stamina": 55,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Henderson",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 67,
+        "shooting": 56,
+        "passing": 74,
+        "dribbling": 66,
+        "defending": 57,
+        "physicality": 75,
+        "stamina": 78,
+        "awareness": 63,
+        "composure": 73
+      }
+    },
+    {
+      "name": "G. Crociata",
+      "number": 23,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 50,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 29,
+        "physicality": 58,
+        "stamina": 62,
+        "awareness": 68,
+        "composure": 59
+      }
+    }
+  ]
+}

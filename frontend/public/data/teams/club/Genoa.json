@@ -1,0 +1,396 @@
+{
+  "name": "Genoa",
+  "type": "club",
+  "players": [
+    {
+      "name": "S. Sirigu",
+      "number": 1,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 82,
+        "defending": 80,
+        "passing": 77,
+        "dribbling": 84,
+        "physicality": 66,
+        "stamina": 34,
+        "awareness": 78,
+        "composure": 62
+      }
+    },
+    {
+      "name": "F. Caicedo",
+      "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 74,
+        "shooting": 79,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 44,
+        "physicality": 91,
+        "stamina": 59,
+        "awareness": 79,
+        "composure": 77
+      }
+    },
+    {
+      "name": "D. Criscito",
+      "number": 3,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 56,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 79,
+        "physicality": 69,
+        "stamina": 69,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Badelj",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 50,
+        "shooting": 54,
+        "passing": 80,
+        "dribbling": 72,
+        "defending": 75,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "17 Edenílson",
+      "number": 5,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 83,
+        "shooting": 58,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 85,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Hernani",
+      "number": 6,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 64,
+        "shooting": 63,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 76,
+        "physicality": 68,
+        "stamina": 67,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "C. Ekuban",
+      "number": 7,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 88,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 75,
+        "defending": 22,
+        "physicality": 86,
+        "stamina": 88,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "N. Maksimović",
+      "number": 8,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 61,
+        "shooting": 22,
+        "passing": 59,
+        "dribbling": 49,
+        "defending": 76,
+        "physicality": 81,
+        "stamina": 72,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "I. Radovanović",
+      "number": 9,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 55,
+        "shooting": 40,
+        "passing": 74,
+        "dribbling": 65,
+        "defending": 77,
+        "physicality": 79,
+        "stamina": 64,
+        "awareness": 71,
+        "composure": 73
+      }
+    },
+    {
+      "name": "G. Pandev",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 49,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 82,
+        "defending": 40,
+        "physicality": 54,
+        "stamina": 32,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Z. Vanheusden",
+      "number": 11,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 60,
+        "shooting": 42,
+        "passing": 72,
+        "dribbling": 64,
+        "defending": 76,
+        "physicality": 77,
+        "stamina": 71,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Destro",
+      "number": 12,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 78,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 22,
+        "physicality": 65,
+        "stamina": 45,
+        "awareness": 65,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Šemper",
+      "number": 13,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 32,
+        "shooting": 15,
+        "passing": 34,
+        "dribbling": 12,
+        "defending": 12,
+        "physicality": 51,
+        "stamina": 21,
+        "awareness": 68,
+        "composure": 25
+      }
+    },
+    {
+      "name": "V. Behrami",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 53,
+        "shooting": 54,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 74,
+        "physicality": 71,
+        "stamina": 63,
+        "awareness": 68,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Masiello",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 39,
+        "shooting": 23,
+        "passing": 66,
+        "dribbling": 54,
+        "defending": 75,
+        "physicality": 69,
+        "stamina": 69,
+        "awareness": 78,
+        "composure": 78
+      }
+    },
+    {
+      "name": "17 Rubinho",
+      "number": 16,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 39,
+        "shooting": 18,
+        "passing": 29,
+        "dribbling": 15,
+        "defending": 13,
+        "physicality": 65,
+        "stamina": 35,
+        "awareness": 64,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Sturaro",
+      "number": 17,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 68,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 77,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "M. Fares",
+      "number": 18,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 79,
+        "shooting": 59,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 71,
+        "physicality": 68,
+        "stamina": 67,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Touré",
+      "number": 19,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 39,
+        "shooting": 41,
+        "passing": 64,
+        "dribbling": 60,
+        "defending": 77,
+        "physicality": 88,
+        "stamina": 76,
+        "awareness": 54,
+        "composure": 53
+      }
+    },
+    {
+      "name": "D. Biraschi",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 53,
+        "shooting": 31,
+        "passing": 66,
+        "dribbling": 56,
+        "defending": 78,
+        "physicality": 68,
+        "stamina": 53,
+        "awareness": 72,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Jandrei",
+      "number": 21,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 32,
+        "shooting": 8,
+        "passing": 25,
+        "dribbling": 11,
+        "defending": 10,
+        "physicality": 45,
+        "stamina": 26,
+        "awareness": 58,
+        "composure": 41
+      }
+    },
+    {
+      "name": "S. Sabelli",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 35,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 82,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Vásquez",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 68,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 50,
+        "defending": 74,
+        "physicality": 73,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 68
+      }
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "name": "Stevenage",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Taylor",
+      "number": 1,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 51,
+        "passing": 64,
+        "dribbling": 62,
+        "defending": 60,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 63,
+        "composure": 61
+      }
+    },
+    {
+      "name": "E. List",
+      "number": 2,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 92,
+        "shooting": 62,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 33,
+        "physicality": 71,
+        "stamina": 83,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "20 P. Taylor",
+      "number": 3,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 79,
+        "shooting": 58,
+        "passing": 54,
+        "dribbling": 71,
+        "defending": 24,
+        "physicality": 58,
+        "stamina": 71,
+        "awareness": 67,
+        "composure": 60
+      }
+    },
+    {
+      "name": "T. Vancooten",
+      "number": 4,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 72,
+        "shooting": 35,
+        "passing": 56,
+        "dribbling": 53,
+        "defending": 64,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "Bruno Andrade",
+      "number": 5,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 82,
+        "shooting": 57,
+        "passing": 58,
+        "dribbling": 63,
+        "defending": 51,
+        "physicality": 49,
+        "stamina": 62,
+        "awareness": 56,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. James-Wildin",
+      "number": 6,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 80,
+        "shooting": 49,
+        "passing": 55,
+        "dribbling": 61,
+        "defending": 57,
+        "physicality": 76,
+        "stamina": 82,
+        "awareness": 56,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Cuthbert",
+      "number": 7,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 33,
+        "shooting": 24,
+        "passing": 56,
+        "dribbling": 42,
+        "defending": 62,
+        "physicality": 90,
+        "stamina": 67,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Reeves",
+      "number": 8,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 73,
+        "shooting": 52,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 54,
+        "physicality": 62,
+        "stamina": 78,
+        "awareness": 56,
+        "composure": 64
+      }
+    },
+    {
+      "name": "20 B. Kennedy",
+      "number": 9,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 57,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 36,
+        "physicality": 53,
+        "stamina": 74,
+        "awareness": 57,
+        "composure": 56
+      }
+    },
+    {
+      "name": "20 C. Mackail-Smith",
+      "number": 10,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 62,
+        "passing": 55,
+        "dribbling": 59,
+        "defending": 33,
+        "physicality": 67,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 J. Roles",
+      "number": 11,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 67,
+        "shooting": 59,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 49,
+        "physicality": 47,
+        "stamina": 69,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Melbourne",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 74,
+        "shooting": 28,
+        "passing": 48,
+        "dribbling": 58,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 72,
+        "awareness": 56,
+        "composure": 46
+      }
+    },
+    {
+      "name": "21 J. Martin",
+      "number": 13,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 63,
+        "shooting": 24,
+        "passing": 51,
+        "dribbling": 49,
+        "defending": 59,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 R. Vincelot",
+      "number": 14,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 42,
+        "shooting": 42,
+        "passing": 59,
+        "dribbling": 53,
+        "defending": 60,
+        "physicality": 77,
+        "stamina": 63,
+        "awareness": 60,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Coker",
+      "number": 15,
+      "position": "LB",
+      "overall": 61,
+      "attributes": {
+        "pace": 64,
+        "shooting": 37,
+        "passing": 56,
+        "dribbling": 58,
+        "defending": 58,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 51
+      }
+    },
+    {
+      "name": "B. Barry",
+      "number": 16,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 73,
+        "shooting": 25,
+        "passing": 52,
+        "dribbling": 55,
+        "defending": 56,
+        "physicality": 67,
+        "stamina": 80,
+        "awareness": 54,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Daly",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 75,
+        "shooting": 62,
+        "passing": 52,
+        "dribbling": 60,
+        "defending": 21,
+        "physicality": 55,
+        "stamina": 54,
+        "awareness": 57,
+        "composure": 50
+      }
+    },
+    {
+      "name": "20 B. Nugent",
+      "number": 18,
+      "position": "CB",
+      "overall": 61,
+      "attributes": {
+        "pace": 45,
+        "shooting": 30,
+        "passing": 45,
+        "dribbling": 22,
+        "defending": 64,
+        "physicality": 84,
+        "stamina": 58,
+        "awareness": 48,
+        "composure": 48
+      }
+    },
+    {
+      "name": "J. Anang",
+      "number": 19,
+      "position": "GK",
+      "overall": 61,
+      "attributes": {
+        "pace": 61,
+        "defending": 62,
+        "passing": 60,
+        "dribbling": 59,
+        "physicality": 55,
+        "stamina": 25,
+        "awareness": 56,
+        "composure": 37
+      }
+    },
+    {
+      "name": "C. Carter",
+      "number": 20,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 72,
+        "shooting": 56,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 54,
+        "physicality": 62,
+        "stamina": 72,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Reid",
+      "number": 21,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 76,
+        "shooting": 58,
+        "passing": 50,
+        "dribbling": 58,
+        "defending": 20,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 56,
+        "composure": 56
+      }
+    }
+  ]
+}

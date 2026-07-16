@@ -1,0 +1,395 @@
+{
+  "name": "Italy",
+  "type": "nation",
+  "players": [
+    {
+      "name": "G. Donnarumma",
+      "number": 1,
+      "position": "GK",
+      "overall": 89,
+      "attributes": {
+        "pace": 91,
+        "defending": 90,
+        "passing": 83,
+        "dribbling": 85,
+        "physicality": 72,
+        "stamina": 34,
+        "awareness": 85,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Verratti",
+      "number": 2,
+      "position": "CM",
+      "overall": 87,
+      "attributes": {
+        "pace": 60,
+        "shooting": 60,
+        "passing": 90,
+        "dribbling": 91,
+        "defending": 82,
+        "physicality": 54,
+        "stamina": 76,
+        "awareness": 87,
+        "composure": 94
+      }
+    },
+    {
+      "name": "C. Immobile",
+      "number": 3,
+      "position": "ST",
+      "overall": 87,
+      "attributes": {
+        "pace": 87,
+        "shooting": 91,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 33,
+        "physicality": 76,
+        "stamina": 78,
+        "awareness": 90,
+        "composure": 79
+      }
+    },
+    {
+      "name": "L. Insigne",
+      "number": 4,
+      "position": "LW",
+      "overall": 86,
+      "attributes": {
+        "pace": 84,
+        "shooting": 76,
+        "passing": 87,
+        "dribbling": 90,
+        "defending": 24,
+        "physicality": 34,
+        "stamina": 74,
+        "awareness": 79,
+        "composure": 81
+      }
+    },
+    {
+      "name": "G. Chiellini",
+      "number": 5,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 69,
+        "shooting": 33,
+        "passing": 65,
+        "dribbling": 57,
+        "defending": 89,
+        "physicality": 91,
+        "stamina": 71,
+        "awareness": 80,
+        "composure": 83
+      }
+    },
+    {
+      "name": "Jorginho",
+      "number": 6,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 50,
+        "shooting": 64,
+        "passing": 92,
+        "dribbling": 79,
+        "defending": 81,
+        "physicality": 66,
+        "stamina": 87,
+        "awareness": 82,
+        "composure": 81
+      }
+    },
+    {
+      "name": "L. Bonucci",
+      "number": 7,
+      "position": "CB",
+      "overall": 85,
+      "attributes": {
+        "pace": 68,
+        "shooting": 48,
+        "passing": 81,
+        "dribbling": 69,
+        "defending": 85,
+        "physicality": 86,
+        "stamina": 65,
+        "awareness": 82,
+        "composure": 86
+      }
+    },
+    {
+      "name": "N. Barella",
+      "number": 8,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 76,
+        "shooting": 69,
+        "passing": 86,
+        "dribbling": 83,
+        "defending": 75,
+        "physicality": 69,
+        "stamina": 95,
+        "awareness": 89,
+        "composure": 85
+      }
+    },
+    {
+      "name": "19 C. Marchisio",
+      "number": 9,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 77,
+        "shooting": 56,
+        "passing": 85,
+        "dribbling": 84,
+        "defending": 78,
+        "physicality": 73,
+        "stamina": 77,
+        "awareness": 80,
+        "composure": 84
+      }
+    },
+    {
+      "name": "L. Spinazzola",
+      "number": 10,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 91,
+        "shooting": 60,
+        "passing": 78,
+        "dribbling": 83,
+        "defending": 77,
+        "physicality": 66,
+        "stamina": 81,
+        "awareness": 82,
+        "composure": 69
+      }
+    },
+    {
+      "name": "F. Chiesa",
+      "number": 11,
+      "position": "LW",
+      "overall": 83,
+      "attributes": {
+        "pace": 91,
+        "shooting": 79,
+        "passing": 78,
+        "dribbling": 89,
+        "defending": 44,
+        "physicality": 71,
+        "stamina": 85,
+        "awareness": 83,
+        "composure": 78
+      }
+    },
+    {
+      "name": "F. Acerbi",
+      "number": 12,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 62,
+        "shooting": 37,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 87,
+        "physicality": 85,
+        "stamina": 87,
+        "awareness": 85,
+        "composure": 85
+      }
+    },
+    {
+      "name": "19 A. Barzagli",
+      "number": 13,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 74,
+        "shooting": 21,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 88,
+        "physicality": 83,
+        "stamina": 53,
+        "awareness": 80,
+        "composure": 88
+      }
+    },
+    {
+      "name": "M. Locatelli",
+      "number": 14,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 60,
+        "shooting": 69,
+        "passing": 85,
+        "dribbling": 78,
+        "defending": 82,
+        "physicality": 78,
+        "stamina": 89,
+        "awareness": 83,
+        "composure": 77
+      }
+    },
+    {
+      "name": "20 D. De Rossi",
+      "number": 15,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 58,
+        "shooting": 50,
+        "passing": 81,
+        "dribbling": 64,
+        "defending": 82,
+        "physicality": 78,
+        "stamina": 70,
+        "awareness": 80,
+        "composure": 92
+      }
+    },
+    {
+      "name": "D. Berardi",
+      "number": 16,
+      "position": "RW",
+      "overall": 82,
+      "attributes": {
+        "pace": 77,
+        "shooting": 80,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 30,
+        "physicality": 63,
+        "stamina": 70,
+        "awareness": 77,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A. Romagnoli",
+      "number": 17,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 69,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 86,
+        "physicality": 79,
+        "stamina": 70,
+        "awareness": 80,
+        "composure": 76
+      }
+    },
+    {
+      "name": "P. Gollini",
+      "number": 18,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 48,
+        "shooting": 14,
+        "passing": 31,
+        "dribbling": 18,
+        "defending": 12,
+        "physicality": 68,
+        "stamina": 40,
+        "awareness": 77,
+        "composure": 63
+      }
+    },
+    {
+      "name": "S. Sirigu",
+      "number": 19,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 82,
+        "defending": 80,
+        "passing": 77,
+        "dribbling": 84,
+        "physicality": 66,
+        "stamina": 34,
+        "awareness": 78,
+        "composure": 62
+      }
+    },
+    {
+      "name": "L. Pellegrini",
+      "number": 20,
+      "position": "CAM",
+      "overall": 81,
+      "attributes": {
+        "pace": 79,
+        "shooting": 72,
+        "passing": 86,
+        "dribbling": 78,
+        "defending": 74,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 79,
+        "composure": 82
+      }
+    },
+    {
+      "name": "A. Florenzi",
+      "number": 21,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 74,
+        "shooting": 73,
+        "passing": 83,
+        "dribbling": 75,
+        "defending": 76,
+        "physicality": 50,
+        "stamina": 82,
+        "awareness": 77,
+        "composure": 81
+      }
+    },
+    {
+      "name": "M. Lazzari",
+      "number": 22,
+      "position": "RB",
+      "overall": 81,
+      "attributes": {
+        "pace": 92,
+        "shooting": 67,
+        "passing": 78,
+        "dribbling": 82,
+        "defending": 75,
+        "physicality": 56,
+        "stamina": 86,
+        "awareness": 78,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Politano",
+      "number": 23,
+      "position": "RW",
+      "overall": 81,
+      "attributes": {
+        "pace": 82,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 29,
+        "physicality": 41,
+        "stamina": 77,
+        "awareness": 81,
+        "composure": 79
+      }
+    }
+  ]
+}

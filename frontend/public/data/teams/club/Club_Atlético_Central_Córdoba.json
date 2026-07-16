@@ -1,0 +1,345 @@
+{
+  "name": "Club Atlético Central Córdoba",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Soraire",
+      "number": 1,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 69,
+        "physicality": 81,
+        "stamina": 88,
+        "awareness": 71,
+        "composure": 81
+      }
+    },
+    {
+      "name": "C. Vega",
+      "number": 2,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 68,
+        "stamina": 83,
+        "awareness": 66,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 A. Rojas",
+      "number": 3,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 64,
+        "shooting": 64,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 62,
+        "physicality": 70,
+        "stamina": 69,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 J. Fernández",
+      "number": 4,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 62,
+        "dribbling": 72,
+        "defending": 52,
+        "physicality": 56,
+        "stamina": 67,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Ribas",
+      "number": 5,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 73,
+        "passing": 53,
+        "dribbling": 65,
+        "defending": 21,
+        "physicality": 84,
+        "stamina": 63,
+        "awareness": 59,
+        "composure": 59
+      }
+    },
+    {
+      "name": "L. Melano",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 69,
+        "passing": 63,
+        "dribbling": 70,
+        "defending": 31,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 51
+      }
+    },
+    {
+      "name": "L. Sequeira",
+      "number": 7,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 69,
+        "passing": 62,
+        "dribbling": 78,
+        "defending": 28,
+        "physicality": 58,
+        "stamina": 65,
+        "awareness": 53,
+        "composure": 65
+      }
+    },
+    {
+      "name": "G. Bettini",
+      "number": 8,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 59,
+        "shooting": 41,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 57,
+        "stamina": 77,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. Riaño",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 16,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Mehring",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 49,
+        "shooting": 12,
+        "passing": 28,
+        "dribbling": 21,
+        "defending": 20,
+        "physicality": 69,
+        "stamina": 44,
+        "awareness": 69,
+        "composure": 35
+      }
+    },
+    {
+      "name": "C. Rigamonti",
+      "number": 11,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "defending": 68,
+        "passing": 65,
+        "dribbling": 69,
+        "physicality": 69,
+        "stamina": 29,
+        "awareness": 69,
+        "composure": 35
+      }
+    },
+    {
+      "name": "J. Bay",
+      "number": 12,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 72,
+        "shooting": 40,
+        "passing": 58,
+        "dribbling": 66,
+        "defending": 65,
+        "physicality": 69,
+        "stamina": 72,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "F. Andueza",
+      "number": 13,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 56,
+        "shooting": 25,
+        "passing": 62,
+        "dribbling": 48,
+        "defending": 65,
+        "physicality": 80,
+        "stamina": 66,
+        "awareness": 58,
+        "composure": 55
+      }
+    },
+    {
+      "name": "M. Giménez",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 53,
+        "shooting": 70,
+        "passing": 49,
+        "dribbling": 54,
+        "defending": 25,
+        "physicality": 79,
+        "stamina": 63,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "L. Torres",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 43,
+        "passing": 71,
+        "dribbling": 64,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 73,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "L. Brochero",
+      "number": 16,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 80,
+        "shooting": 62,
+        "passing": 56,
+        "dribbling": 69,
+        "defending": 33,
+        "physicality": 45,
+        "stamina": 55,
+        "awareness": 52,
+        "composure": 48
+      }
+    },
+    {
+      "name": "P. Argañaraz",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 78,
+        "shooting": 66,
+        "passing": 59,
+        "dribbling": 62,
+        "defending": 21,
+        "physicality": 58,
+        "stamina": 65,
+        "awareness": 55,
+        "composure": 58
+      }
+    },
+    {
+      "name": "O. Salomón",
+      "number": 18,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 29,
+        "passing": 60,
+        "dribbling": 41,
+        "defending": 67,
+        "physicality": 67,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 48
+      }
+    },
+    {
+      "name": "H. López Muñoz",
+      "number": 19,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 76,
+        "shooting": 59,
+        "passing": 62,
+        "dribbling": 70,
+        "defending": 38,
+        "physicality": 44,
+        "stamina": 55,
+        "awareness": 49,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Maciel",
+      "number": 20,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 55,
+        "shooting": 21,
+        "passing": 44,
+        "dribbling": 36,
+        "defending": 68,
+        "physicality": 74,
+        "stamina": 62,
+        "awareness": 56,
+        "composure": 48
+      }
+    }
+  ]
+}

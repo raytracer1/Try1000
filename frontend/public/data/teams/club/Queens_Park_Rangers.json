@@ -1,0 +1,396 @@
+{
+  "name": "Queens Park Rangers",
+  "type": "club",
+  "players": [
+    {
+      "name": "21 K. Prince",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 85,
+        "shooting": 75,
+        "passing": 63,
+        "dribbling": 77,
+        "defending": 44,
+        "physicality": 90,
+        "stamina": 70,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. Gray",
+      "number": 2,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 74,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 23,
+        "physicality": 73,
+        "stamina": 71,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Johansen",
+      "number": 3,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 65,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 70,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 76
+      }
+    },
+    {
+      "name": "C. Austin",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 50,
+        "shooting": 74,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 37,
+        "physicality": 80,
+        "stamina": 48,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "R. Dickie",
+      "number": 5,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 54,
+        "shooting": 32,
+        "passing": 65,
+        "dribbling": 56,
+        "defending": 73,
+        "physicality": 83,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 63
+      }
+    },
+    {
+      "name": "S. Dieng",
+      "number": 6,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "defending": 75,
+        "passing": 68,
+        "dribbling": 69,
+        "physicality": 63,
+        "stamina": 26,
+        "awareness": 72,
+        "composure": 44
+      }
+    },
+    {
+      "name": "Y. Barbet",
+      "number": 7,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 36,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 71,
+        "physicality": 77,
+        "stamina": 76,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "I. Chair",
+      "number": 8,
+      "position": "CAM",
+      "overall": 71,
+      "attributes": {
+        "pace": 74,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 34,
+        "physicality": 41,
+        "stamina": 74,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. McCallum",
+      "number": 9,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 52,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 68,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 60
+      }
+    },
+    {
+      "name": "L. Dykes",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 27,
+        "physicality": 83,
+        "stamina": 76,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. de Wijs",
+      "number": 11,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 49,
+        "shooting": 44,
+        "passing": 57,
+        "dribbling": 40,
+        "defending": 70,
+        "physicality": 88,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. Willock",
+      "number": 12,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 82,
+        "shooting": 60,
+        "passing": 63,
+        "dribbling": 76,
+        "defending": 27,
+        "physicality": 56,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Odubajo",
+      "number": 13,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 81,
+        "shooting": 55,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 63,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Adomah",
+      "number": 14,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 58,
+        "physicality": 67,
+        "stamina": 61,
+        "awareness": 67,
+        "composure": 73
+      }
+    },
+    {
+      "name": "20 Àngel Rangel",
+      "number": 15,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 47,
+        "shooting": 56,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 74,
+        "physicality": 73,
+        "stamina": 53,
+        "awareness": 71,
+        "composure": 73
+      }
+    },
+    {
+      "name": "D. Ball",
+      "number": 16,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 62,
+        "shooting": 41,
+        "passing": 69,
+        "dribbling": 53,
+        "defending": 65,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Dunne",
+      "number": 17,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 54,
+        "shooting": 40,
+        "passing": 64,
+        "dribbling": 46,
+        "defending": 72,
+        "physicality": 71,
+        "stamina": 59,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Field",
+      "number": 18,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 55,
+        "shooting": 52,
+        "passing": 75,
+        "dribbling": 63,
+        "defending": 66,
+        "physicality": 61,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 75
+      }
+    },
+    {
+      "name": "L. Amos",
+      "number": 19,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 58,
+        "shooting": 45,
+        "passing": 71,
+        "dribbling": 65,
+        "defending": 68,
+        "physicality": 57,
+        "stamina": 66,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "O. Kakay",
+      "number": 20,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 24,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 58,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 47
+      }
+    },
+    {
+      "name": "A. Dozzell",
+      "number": 21,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 71,
+        "shooting": 60,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 57,
+        "stamina": 86,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Archer",
+      "number": 22,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 42,
+        "shooting": 16,
+        "passing": 30,
+        "dribbling": 20,
+        "defending": 18,
+        "physicality": 57,
+        "stamina": 27,
+        "awareness": 54,
+        "composure": 38
+      }
+    },
+    {
+      "name": "G. Thomas",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 62,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 38,
+        "physicality": 57,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 63
+      }
+    }
+  ]
+}

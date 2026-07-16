@@ -1,0 +1,396 @@
+{
+  "name": "Valencia CF",
+  "type": "club",
+  "players": [
+    {
+      "name": "Gayà",
+      "number": 1,
+      "position": "LB",
+      "overall": 83,
+      "attributes": {
+        "pace": 85,
+        "shooting": 61,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 82,
+        "physicality": 66,
+        "stamina": 87,
+        "awareness": 84,
+        "composure": 76
+      }
+    },
+    {
+      "name": "20 E. Garay",
+      "number": 2,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 45,
+        "shooting": 51,
+        "passing": 73,
+        "dribbling": 60,
+        "defending": 83,
+        "physicality": 91,
+        "stamina": 63,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Gabriel Paulista",
+      "number": 3,
+      "position": "CB",
+      "overall": 82,
+      "attributes": {
+        "pace": 70,
+        "shooting": 42,
+        "passing": 80,
+        "dribbling": 60,
+        "defending": 83,
+        "physicality": 82,
+        "stamina": 81,
+        "awareness": 81,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Carlos Soler",
+      "number": 4,
+      "position": "RW",
+      "overall": 81,
+      "attributes": {
+        "pace": 80,
+        "shooting": 78,
+        "passing": 85,
+        "dribbling": 80,
+        "defending": 79,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 83,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Gonçalo Guedes",
+      "number": 5,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 87,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 83,
+        "defending": 34,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "J. Cillessen",
+      "number": 6,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 50,
+        "shooting": 10,
+        "passing": 50,
+        "dribbling": 12,
+        "defending": 12,
+        "physicality": 67,
+        "stamina": 40,
+        "awareness": 80,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Wass",
+      "number": 7,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 76,
+        "physicality": 73,
+        "stamina": 87,
+        "awareness": 80,
+        "composure": 77
+      }
+    },
+    {
+      "name": "M. Gómez",
+      "number": 8,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 66,
+        "shooting": 84,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 20,
+        "physicality": 87,
+        "stamina": 79,
+        "awareness": 80,
+        "composure": 82
+      }
+    },
+    {
+      "name": "U. Račić",
+      "number": 9,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 72,
+        "passing": 80,
+        "dribbling": 74,
+        "defending": 81,
+        "physicality": 87,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 75
+      }
+    },
+    {
+      "name": "D. Foulquier",
+      "number": 10,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 78,
+        "shooting": 63,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 75,
+        "physicality": 78,
+        "stamina": 81,
+        "awareness": 76,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Cheryshev",
+      "number": 11,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 79,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 58,
+        "physicality": 67,
+        "stamina": 71,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Manu Vallejo",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 74,
+        "shooting": 78,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 47,
+        "physicality": 65,
+        "stamina": 76,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Marcos André",
+      "number": 13,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 74,
+        "shooting": 80,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 36,
+        "physicality": 79,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Jaume",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 58,
+        "shooting": 11,
+        "passing": 57,
+        "dribbling": 13,
+        "defending": 12,
+        "physicality": 68,
+        "stamina": 40,
+        "awareness": 72,
+        "composure": 56
+      }
+    },
+    {
+      "name": "G. Mamardashvili",
+      "number": 15,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "defending": 79,
+        "passing": 77,
+        "dribbling": 76,
+        "physicality": 74,
+        "stamina": 45,
+        "awareness": 53,
+        "composure": 26
+      }
+    },
+    {
+      "name": "Thierry Correia",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 92,
+        "shooting": 40,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 69,
+        "physicality": 67,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "O. Alderete",
+      "number": 17,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 68,
+        "shooting": 54,
+        "passing": 68,
+        "dribbling": 62,
+        "defending": 77,
+        "physicality": 77,
+        "stamina": 74,
+        "awareness": 68,
+        "composure": 59
+      }
+    },
+    {
+      "name": "C. Piccini",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "shooting": 32,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 69,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Hélder Costa",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 85,
+        "shooting": 65,
+        "passing": 69,
+        "dribbling": 77,
+        "defending": 29,
+        "physicality": 54,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 E. Mangala",
+      "number": 20,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 63,
+        "shooting": 27,
+        "passing": 58,
+        "dribbling": 46,
+        "defending": 77,
+        "physicality": 88,
+        "stamina": 56,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "Jason",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 50,
+        "physicality": 64,
+        "stamina": 67,
+        "awareness": 76,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Toni Lato",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 55,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 56,
+        "stamina": 67,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Hugo Guillamón",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 59,
+        "shooting": 29,
+        "passing": 76,
+        "dribbling": 56,
+        "defending": 75,
+        "physicality": 69,
+        "stamina": 71,
+        "awareness": 72,
+        "composure": 61
+      }
+    }
+  ]
+}

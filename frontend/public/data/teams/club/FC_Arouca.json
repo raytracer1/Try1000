@@ -1,0 +1,295 @@
+{
+  "name": "FC Arouca",
+  "type": "club",
+  "players": [
+    {
+      "name": "Tiago Esgaio",
+      "number": 1,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "shooting": 49,
+        "passing": 66,
+        "dribbling": 64,
+        "defending": 74,
+        "physicality": 51,
+        "stamina": 81,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Eugeni",
+      "number": 2,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 64,
+        "shooting": 68,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 59,
+        "physicality": 71,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Pedro Moreira",
+      "number": 3,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 38,
+        "shooting": 63,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "17 Keirrison",
+      "number": 4,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 72,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 36,
+        "physicality": 72,
+        "stamina": 54,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "André Silva",
+      "number": 5,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 17,
+        "physicality": 63,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "João Basso",
+      "number": 6,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 54,
+        "shooting": 50,
+        "passing": 66,
+        "dribbling": 55,
+        "defending": 73,
+        "physicality": 67,
+        "stamina": 58,
+        "awareness": 70,
+        "composure": 53
+      }
+    },
+    {
+      "name": "A. Bukia",
+      "number": 7,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 82,
+        "shooting": 64,
+        "passing": 64,
+        "dribbling": 77,
+        "defending": 33,
+        "physicality": 42,
+        "stamina": 66,
+        "awareness": 70,
+        "composure": 59
+      }
+    },
+    {
+      "name": "G. Campi",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 39,
+        "shooting": 29,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 69,
+        "physicality": 93,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Velázquez",
+      "number": 9,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 57,
+        "defending": 71,
+        "physicality": 70,
+        "stamina": 57,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "O. Altman",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 65,
+        "passing": 69,
+        "dribbling": 74,
+        "defending": 18,
+        "physicality": 58,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Tiago Araújo",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 85,
+        "shooting": 56,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 41,
+        "physicality": 63,
+        "stamina": 77,
+        "awareness": 64,
+        "composure": 56
+      }
+    },
+    {
+      "name": "E. Kouassi",
+      "number": 12,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 42,
+        "passing": 67,
+        "dribbling": 58,
+        "defending": 64,
+        "physicality": 71,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 50
+      }
+    },
+    {
+      "name": "A. Ba",
+      "number": 13,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 43,
+        "shooting": 22,
+        "passing": 58,
+        "dribbling": 35,
+        "defending": 63,
+        "physicality": 83,
+        "stamina": 62,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "O. Dasa",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 77,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 72,
+        "defending": 29,
+        "physicality": 34,
+        "stamina": 73,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "B. Aloé",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 33,
+        "shooting": 27,
+        "passing": 46,
+        "dribbling": 31,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 64,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "O. Dabbagh",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 67,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 31,
+        "physicality": 74,
+        "stamina": 59,
+        "awareness": 47,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Antony",
+      "number": 17,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 78,
+        "shooting": 46,
+        "passing": 65,
+        "dribbling": 74,
+        "defending": 38,
+        "physicality": 53,
+        "stamina": 48,
+        "awareness": 63,
+        "composure": 63
+      }
+    }
+  ]
+}

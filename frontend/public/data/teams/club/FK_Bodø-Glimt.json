@@ -1,0 +1,294 @@
+{
+  "name": "FK Bodø/Glimt",
+  "type": "club",
+  "players": [
+    {
+      "name": "U. Saltnes",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 65,
+        "physicality": 82,
+        "stamina": 93,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "P. Berg",
+      "number": 2,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 59,
+        "passing": 77,
+        "dribbling": 70,
+        "defending": 66,
+        "physicality": 76,
+        "stamina": 92,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "F. Bjørkan",
+      "number": 3,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 83,
+        "shooting": 53,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 69,
+        "physicality": 67,
+        "stamina": 90,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Pellegrino",
+      "number": 4,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 83,
+        "shooting": 71,
+        "passing": 63,
+        "dribbling": 70,
+        "defending": 33,
+        "physicality": 64,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Lode",
+      "number": 5,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 29,
+        "passing": 69,
+        "dribbling": 60,
+        "defending": 70,
+        "physicality": 75,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "G. Koomson",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 91,
+        "shooting": 64,
+        "passing": 61,
+        "dribbling": 68,
+        "defending": 42,
+        "physicality": 62,
+        "stamina": 69,
+        "awareness": 62,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. Sampsted",
+      "number": 7,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 38,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 66,
+        "stamina": 84,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "N. Haikin",
+      "number": 8,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "defending": 70,
+        "passing": 66,
+        "dribbling": 65,
+        "physicality": 64,
+        "stamina": 37,
+        "awareness": 63,
+        "composure": 42
+      }
+    },
+    {
+      "name": "O. Solbakken",
+      "number": 9,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 61,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 32,
+        "physicality": 69,
+        "stamina": 76,
+        "awareness": 63,
+        "composure": 57
+      }
+    },
+    {
+      "name": "H. Vetlesen",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 58,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 59,
+        "physicality": 59,
+        "stamina": 73,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Sørli",
+      "number": 11,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 90,
+        "shooting": 60,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 52,
+        "physicality": 49,
+        "stamina": 67,
+        "awareness": 57,
+        "composure": 59
+      }
+    },
+    {
+      "name": "E. Botheim",
+      "number": 12,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 58,
+        "dribbling": 62,
+        "defending": 12,
+        "physicality": 66,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Konradsen",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 58,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 59,
+        "physicality": 58,
+        "stamina": 78,
+        "awareness": 63,
+        "composure": 59
+      }
+    },
+    {
+      "name": "V. Boniface",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 65,
+        "passing": 55,
+        "dribbling": 65,
+        "defending": 19,
+        "physicality": 67,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Pernambuco",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 56,
+        "passing": 56,
+        "dribbling": 70,
+        "defending": 22,
+        "physicality": 48,
+        "stamina": 56,
+        "awareness": 53,
+        "composure": 55
+      }
+    },
+    {
+      "name": "M. Käit",
+      "number": 16,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 61,
+        "shooting": 62,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 45,
+        "physicality": 64,
+        "stamina": 57,
+        "awareness": 53,
+        "composure": 58
+      }
+    },
+    {
+      "name": "L. Nordås",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 66,
+        "shooting": 61,
+        "passing": 51,
+        "dribbling": 57,
+        "defending": 20,
+        "physicality": 75,
+        "stamina": 66,
+        "awareness": 56,
+        "composure": 55
+      }
+    }
+  ]
+}

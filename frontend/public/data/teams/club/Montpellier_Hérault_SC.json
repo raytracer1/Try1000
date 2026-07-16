@@ -1,0 +1,396 @@
+{
+  "name": "Montpellier Hérault SC",
+  "type": "club",
+  "players": [
+    {
+      "name": "T. Savanier",
+      "number": 1,
+      "position": "CAM",
+      "overall": 80,
+      "attributes": {
+        "pace": 65,
+        "shooting": 71,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 71,
+        "physicality": 63,
+        "stamina": 78,
+        "awareness": 77,
+        "composure": 83
+      }
+    },
+    {
+      "name": "F. Mollet",
+      "number": 2,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 72,
+        "shooting": 70,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 54,
+        "physicality": 57,
+        "stamina": 76,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Omlin",
+      "number": 3,
+      "position": "GK",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "defending": 79,
+        "passing": 75,
+        "dribbling": 75,
+        "physicality": 72,
+        "stamina": 35,
+        "awareness": 74,
+        "composure": 55
+      }
+    },
+    {
+      "name": "J. Ferri",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 56,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 71,
+        "defending": 71,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Mavididi",
+      "number": 5,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 89,
+        "shooting": 75,
+        "passing": 71,
+        "dribbling": 79,
+        "defending": 18,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Pedro Mendes",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 63,
+        "shooting": 30,
+        "passing": 66,
+        "dribbling": 62,
+        "defending": 78,
+        "physicality": 83,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Sambia",
+      "number": 7,
+      "position": "RB",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 64,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 73,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 Hilton",
+      "number": 8,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 33,
+        "shooting": 45,
+        "passing": 72,
+        "dribbling": 64,
+        "defending": 78,
+        "physicality": 75,
+        "stamina": 50,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "M. Sakho",
+      "number": 9,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 51,
+        "shooting": 23,
+        "passing": 74,
+        "dribbling": 50,
+        "defending": 75,
+        "physicality": 90,
+        "stamina": 53,
+        "awareness": 67,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Oyongo",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 86,
+        "shooting": 54,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 71,
+        "physicality": 71,
+        "stamina": 87,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Souquet",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 71,
+        "shooting": 56,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 73,
+        "physicality": 66,
+        "stamina": 76,
+        "awareness": 71,
+        "composure": 72
+      }
+    },
+    {
+      "name": "V. Germain",
+      "number": 12,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 24,
+        "physicality": 62,
+        "stamina": 76,
+        "awareness": 76,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Ristić",
+      "number": 13,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 70,
+        "dribbling": 74,
+        "defending": 70,
+        "physicality": 66,
+        "stamina": 79,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "N. Cozza",
+      "number": 14,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 31,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 74,
+        "physicality": 70,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "D. Bertaud",
+      "number": 15,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 55,
+        "shooting": 15,
+        "passing": 28,
+        "dribbling": 18,
+        "defending": 17,
+        "physicality": 65,
+        "stamina": 42,
+        "awareness": 67,
+        "composure": 48
+      }
+    },
+    {
+      "name": "Matheus Thuler",
+      "number": 16,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 68,
+        "shooting": 26,
+        "passing": 62,
+        "dribbling": 45,
+        "defending": 72,
+        "physicality": 82,
+        "stamina": 68,
+        "awareness": 66,
+        "composure": 57
+      }
+    },
+    {
+      "name": "E. Wahi",
+      "number": 17,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 69,
+        "passing": 66,
+        "dribbling": 76,
+        "defending": 29,
+        "physicality": 69,
+        "stamina": 56,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Suárez",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 76,
+        "shooting": 32,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 61,
+        "physicality": 69,
+        "stamina": 73,
+        "awareness": 59,
+        "composure": 61
+      }
+    },
+    {
+      "name": "P. Škuletić",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 55,
+        "shooting": 71,
+        "passing": 59,
+        "dribbling": 53,
+        "defending": 15,
+        "physicality": 85,
+        "stamina": 54,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Leroy",
+      "number": 20,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 64,
+        "shooting": 51,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 60,
+        "physicality": 73,
+        "stamina": 74,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "N. Gioacchini",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 77,
+        "shooting": 72,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 19,
+        "physicality": 70,
+        "stamina": 66,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Estève",
+      "number": 22,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 26,
+        "passing": 59,
+        "dribbling": 47,
+        "defending": 68,
+        "physicality": 81,
+        "stamina": 59,
+        "awareness": 59,
+        "composure": 54
+      }
+    },
+    {
+      "name": "B. Makouana",
+      "number": 23,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 84,
+        "shooting": 62,
+        "passing": 56,
+        "dribbling": 65,
+        "defending": 33,
+        "physicality": 57,
+        "stamina": 53,
+        "awareness": 57,
+        "composure": 57
+      }
+    }
+  ]
+}

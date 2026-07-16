@@ -1,0 +1,227 @@
+{
+  "name": "Grêmio",
+  "type": "club",
+  "players": [
+    {
+      "name": "Ronaldo Cabrais",
+      "number": 1,
+      "position": "CAM",
+      "overall": 83,
+      "attributes": {
+        "pace": 87,
+        "shooting": 74,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 35,
+        "physicality": 68,
+        "stamina": 88,
+        "awareness": 84,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Josué Chiamulera",
+      "number": 2,
+      "position": "CB",
+      "overall": 82,
+      "attributes": {
+        "pace": 76,
+        "shooting": 38,
+        "passing": 74,
+        "dribbling": 56,
+        "defending": 87,
+        "physicality": 76,
+        "stamina": 77,
+        "awareness": 85,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Jesus Andradaldo",
+      "number": 3,
+      "position": "RB",
+      "overall": 75,
+      "attributes": {
+        "pace": 73,
+        "shooting": 36,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 64,
+        "stamina": 76,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Enaldo Praz",
+      "number": 4,
+      "position": "LB",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 70,
+        "dribbling": 61,
+        "defending": 77,
+        "physicality": 64,
+        "stamina": 79,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Edercinho Sepa",
+      "number": 5,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 65,
+        "passing": 76,
+        "dribbling": 64,
+        "defending": 76,
+        "physicality": 70,
+        "stamina": 78,
+        "awareness": 82,
+        "composure": 69
+      }
+    },
+    {
+      "name": "José Mirazar",
+      "number": 6,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 72,
+        "shooting": 64,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 23,
+        "physicality": 67,
+        "stamina": 82,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Juliano Mascarinhas",
+      "number": 7,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 61,
+        "shooting": 52,
+        "passing": 74,
+        "dribbling": 62,
+        "defending": 72,
+        "physicality": 75,
+        "stamina": 79,
+        "awareness": 71,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Enaldo Toxeto",
+      "number": 8,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 47,
+        "passing": 68,
+        "dribbling": 58,
+        "defending": 77,
+        "physicality": 74,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Alam Araújo",
+      "number": 9,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 75,
+        "shooting": 55,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 73,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Jadson Vidigal",
+      "number": 10,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 12,
+        "physicality": 55,
+        "stamina": 62,
+        "awareness": 75,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Raphael Paneira",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 54,
+        "shooting": 62,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 44,
+        "physicality": 74,
+        "stamina": 46,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Paulão Junqueiras",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 41,
+        "shooting": 77,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 19,
+        "physicality": 92,
+        "stamina": 45,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Nathael Silbeira",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 16,
+        "shooting": 16,
+        "passing": 16,
+        "dribbling": 18,
+        "defending": 15,
+        "physicality": 44,
+        "stamina": 13,
+        "awareness": 78,
+        "composure": 55
+      }
+    }
+  ]
+}

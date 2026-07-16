@@ -1,0 +1,396 @@
+{
+  "name": "KRC Genk",
+  "type": "club",
+  "players": [
+    {
+      "name": "P. Onuachu",
+      "number": 1,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 76,
+        "shooting": 83,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 48,
+        "physicality": 93,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Ito",
+      "number": 2,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 88,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 61,
+        "physicality": 61,
+        "stamina": 89,
+        "awareness": 73,
+        "composure": 77
+      }
+    },
+    {
+      "name": "T. Bongonda",
+      "number": 3,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 83,
+        "defending": 26,
+        "physicality": 57,
+        "stamina": 70,
+        "awareness": 73,
+        "composure": 81
+      }
+    },
+    {
+      "name": "D. Muñoz",
+      "number": 4,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 82,
+        "shooting": 46,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 78,
+        "physicality": 72,
+        "stamina": 81,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "B. Heynen",
+      "number": 5,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 71,
+        "physicality": 67,
+        "stamina": 83,
+        "awareness": 72,
+        "composure": 78
+      }
+    },
+    {
+      "name": "P. Hrošovský",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 73,
+        "physicality": 57,
+        "stamina": 81,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Lucumí",
+      "number": 7,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 23,
+        "passing": 72,
+        "dribbling": 58,
+        "defending": 75,
+        "physicality": 85,
+        "stamina": 76,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "G. Arteaga",
+      "number": 8,
+      "position": "LB",
+      "overall": 73,
+      "attributes": {
+        "pace": 79,
+        "shooting": 53,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 58,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Juklerød",
+      "number": 9,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 89,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 82,
+        "awareness": 64,
+        "composure": 71
+      }
+    },
+    {
+      "name": "K. Thorstvedt",
+      "number": 10,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 70,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 67,
+        "physicality": 85,
+        "stamina": 74,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "M. Ndayishimiye",
+      "number": 11,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 25,
+        "physicality": 46,
+        "stamina": 70,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "C. Cuesta",
+      "number": 12,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 21,
+        "passing": 73,
+        "dribbling": 56,
+        "defending": 73,
+        "physicality": 74,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "C. Eiting",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 51,
+        "shooting": 49,
+        "passing": 78,
+        "dribbling": 69,
+        "defending": 58,
+        "physicality": 50,
+        "stamina": 67,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Paintsil",
+      "number": 14,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 81,
+        "shooting": 66,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 28,
+        "physicality": 55,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "I. Ugbo",
+      "number": 15,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 66,
+        "dribbling": 69,
+        "defending": 30,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Mujaid",
+      "number": 16,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 21,
+        "passing": 64,
+        "dribbling": 48,
+        "defending": 72,
+        "physicality": 76,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 52
+      }
+    },
+    {
+      "name": "M. Vandevoordt",
+      "number": 17,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 74,
+        "defending": 73,
+        "passing": 70,
+        "dribbling": 66,
+        "physicality": 60,
+        "stamina": 32,
+        "awareness": 70,
+        "composure": 52
+      }
+    },
+    {
+      "name": "M. McKenzie",
+      "number": 18,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 76,
+        "shooting": 37,
+        "passing": 73,
+        "dribbling": 54,
+        "defending": 74,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "B. Toma",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 62,
+        "shooting": 62,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 64,
+        "physicality": 69,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Preciado",
+      "number": 20,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 85,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 71,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 82,
+        "awareness": 58,
+        "composure": 64
+      }
+    },
+    {
+      "name": "L. Oyen",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 56,
+        "passing": 65,
+        "dribbling": 72,
+        "defending": 42,
+        "physicality": 32,
+        "stamina": 62,
+        "awareness": 50,
+        "composure": 55
+      }
+    },
+    {
+      "name": "19 P. Zebli",
+      "number": 22,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 68,
+        "shooting": 58,
+        "passing": 58,
+        "dribbling": 54,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 74,
+        "awareness": 61,
+        "composure": 56
+      }
+    },
+    {
+      "name": "T. Leysen",
+      "number": 23,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 25,
+        "shooting": 7,
+        "passing": 21,
+        "dribbling": 10,
+        "defending": 11,
+        "physicality": 48,
+        "stamina": 28,
+        "awareness": 49,
+        "composure": 28
+      }
+    }
+  ]
+}

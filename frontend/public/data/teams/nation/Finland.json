@@ -1,0 +1,395 @@
+{
+  "name": "Finland",
+  "type": "nation",
+  "players": [
+    {
+      "name": "L. Hrádecký",
+      "number": 1,
+      "position": "GK",
+      "overall": 83,
+      "attributes": {
+        "pace": 85,
+        "defending": 87,
+        "passing": 78,
+        "dribbling": 83,
+        "physicality": 55,
+        "stamina": 34,
+        "awareness": 82,
+        "composure": 48
+      }
+    },
+    {
+      "name": "T. Pukki",
+      "number": 2,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 81,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 29,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 83,
+        "composure": 81
+      }
+    },
+    {
+      "name": "A. Ring",
+      "number": 3,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 69,
+        "shooting": 62,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 74,
+        "stamina": 79,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "G. Kamara",
+      "number": 4,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 56,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 73,
+        "physicality": 73,
+        "stamina": 86,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "J. Uronen",
+      "number": 5,
+      "position": "LB",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 47,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 71,
+        "physicality": 69,
+        "stamina": 89,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Lod",
+      "number": 6,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 71,
+        "shooting": 72,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 50,
+        "physicality": 75,
+        "stamina": 71,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Pohjanpalo",
+      "number": 7,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 63,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 21,
+        "physicality": 76,
+        "stamina": 64,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Joronen",
+      "number": 8,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 45,
+        "shooting": 13,
+        "passing": 20,
+        "dribbling": 16,
+        "defending": 14,
+        "physicality": 64,
+        "stamina": 33,
+        "awareness": 70,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 P. Hetemaj",
+      "number": 9,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 54,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 88,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "F. Jensen",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 57,
+        "physicality": 74,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "N. Moisander",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 51,
+        "shooting": 39,
+        "passing": 76,
+        "dribbling": 66,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 52,
+        "awareness": 70,
+        "composure": 76
+      }
+    },
+    {
+      "name": "R. Schüller",
+      "number": 12,
+      "position": "CDM",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 52,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 71,
+        "physicality": 62,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "17 J. Jääskeläinen",
+      "number": 13,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 36,
+        "shooting": 10,
+        "passing": 25,
+        "dribbling": 11,
+        "defending": 13,
+        "physicality": 65,
+        "stamina": 30,
+        "awareness": 65,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Raitala",
+      "number": 14,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 61,
+        "shooting": 29,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Forss",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 54,
+        "dribbling": 64,
+        "defending": 48,
+        "physicality": 69,
+        "stamina": 64,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "P. Arajuuri",
+      "number": 16,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 33,
+        "shooting": 36,
+        "passing": 57,
+        "dribbling": 39,
+        "defending": 68,
+        "physicality": 88,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 61
+      }
+    },
+    {
+      "name": "R. Taylor",
+      "number": 17,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 77,
+        "shooting": 62,
+        "passing": 63,
+        "dribbling": 73,
+        "defending": 56,
+        "physicality": 68,
+        "stamina": 77,
+        "awareness": 59,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 T. Lam",
+      "number": 18,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 74,
+        "shooting": 51,
+        "passing": 67,
+        "dribbling": 57,
+        "defending": 65,
+        "physicality": 75,
+        "stamina": 71,
+        "awareness": 60,
+        "composure": 63
+      }
+    },
+    {
+      "name": "N. Hämäläinen",
+      "number": 19,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 79,
+        "shooting": 37,
+        "passing": 61,
+        "dribbling": 66,
+        "defending": 64,
+        "physicality": 56,
+        "stamina": 74,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "T. Sparv",
+      "number": 20,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 32,
+        "shooting": 48,
+        "passing": 65,
+        "dribbling": 52,
+        "defending": 65,
+        "physicality": 73,
+        "stamina": 62,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Lappalainen",
+      "number": 21,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 88,
+        "shooting": 67,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 42,
+        "physicality": 68,
+        "stamina": 58,
+        "awareness": 64,
+        "composure": 58
+      }
+    },
+    {
+      "name": "R. Ivanov",
+      "number": 22,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 54,
+        "shooting": 29,
+        "passing": 58,
+        "dribbling": 45,
+        "defending": 68,
+        "physicality": 80,
+        "stamina": 58,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "N. Mäenpää",
+      "number": 23,
+      "position": "GK",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "defending": 65,
+        "passing": 68,
+        "dribbling": 66,
+        "physicality": 62,
+        "stamina": 38,
+        "awareness": 66,
+        "composure": 39
+      }
+    }
+  ]
+}

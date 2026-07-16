@@ -1,0 +1,396 @@
+{
+  "name": "Real Sociedad",
+  "type": "club",
+  "players": [
+    {
+      "name": "Oyarzabal",
+      "number": 1,
+      "position": "LW",
+      "overall": 85,
+      "attributes": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 32,
+        "physicality": 57,
+        "stamina": 82,
+        "awareness": 81,
+        "composure": 83
+      }
+    },
+    {
+      "name": "David Silva",
+      "number": 2,
+      "position": "CAM",
+      "overall": 85,
+      "attributes": {
+        "pace": 57,
+        "shooting": 72,
+        "passing": 90,
+        "dribbling": 86,
+        "defending": 53,
+        "physicality": 45,
+        "stamina": 66,
+        "awareness": 85,
+        "composure": 91
+      }
+    },
+    {
+      "name": "Merino",
+      "number": 3,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 83,
+        "defending": 84,
+        "physicality": 79,
+        "stamina": 84,
+        "awareness": 84,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Portu",
+      "number": 4,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 90,
+        "shooting": 81,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 61,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 81,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. Isak",
+      "number": 5,
+      "position": "ST",
+      "overall": 82,
+      "attributes": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 21,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 81,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. Januzaj",
+      "number": 6,
+      "position": "RW",
+      "overall": 81,
+      "attributes": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 81,
+        "dribbling": 86,
+        "defending": 23,
+        "physicality": 58,
+        "stamina": 70,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Álex Remiro",
+      "number": 7,
+      "position": "GK",
+      "overall": 81,
+      "attributes": {
+        "pace": 84,
+        "defending": 82,
+        "passing": 74,
+        "dribbling": 84,
+        "physicality": 73,
+        "stamina": 42,
+        "awareness": 74,
+        "composure": 55
+      }
+    },
+    {
+      "name": "Nacho Monreal",
+      "number": 8,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 68,
+        "shooting": 55,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 83,
+        "physicality": 64,
+        "stamina": 69,
+        "awareness": 82,
+        "composure": 76
+      }
+    },
+    {
+      "name": "18 Xabi Prieto",
+      "number": 9,
+      "position": "CAM",
+      "overall": 80,
+      "attributes": {
+        "pace": 51,
+        "shooting": 74,
+        "passing": 85,
+        "dribbling": 77,
+        "defending": 57,
+        "physicality": 61,
+        "stamina": 64,
+        "awareness": 83,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Zubeldia",
+      "number": 10,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 74,
+        "shooting": 67,
+        "passing": 81,
+        "dribbling": 70,
+        "defending": 80,
+        "physicality": 78,
+        "stamina": 83,
+        "awareness": 81,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Illarramendi",
+      "number": 11,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 38,
+        "shooting": 72,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 79,
+        "physicality": 68,
+        "stamina": 69,
+        "awareness": 81,
+        "composure": 79
+      }
+    },
+    {
+      "name": "Aritz Elustondo",
+      "number": 12,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 68,
+        "shooting": 26,
+        "passing": 77,
+        "dribbling": 48,
+        "defending": 81,
+        "physicality": 77,
+        "stamina": 74,
+        "awareness": 76,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Le Normand",
+      "number": 13,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 19,
+        "passing": 77,
+        "dribbling": 52,
+        "defending": 77,
+        "physicality": 82,
+        "stamina": 60,
+        "awareness": 68,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Gorosabel",
+      "number": 14,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "shooting": 38,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 77,
+        "physicality": 67,
+        "stamina": 77,
+        "awareness": 72,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Zaldúa",
+      "number": 15,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 68,
+        "shooting": 25,
+        "passing": 78,
+        "dribbling": 60,
+        "defending": 78,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Ryan",
+      "number": 16,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 52,
+        "shooting": 11,
+        "passing": 40,
+        "dribbling": 13,
+        "defending": 20,
+        "physicality": 65,
+        "stamina": 34,
+        "awareness": 71,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 Moyá",
+      "number": 17,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 34,
+        "shooting": 11,
+        "passing": 31,
+        "dribbling": 13,
+        "defending": 14,
+        "physicality": 57,
+        "stamina": 30,
+        "awareness": 74,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Ander Guevara",
+      "number": 18,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 52,
+        "shooting": 70,
+        "passing": 82,
+        "dribbling": 69,
+        "defending": 81,
+        "physicality": 67,
+        "stamina": 77,
+        "awareness": 77,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Sørloth",
+      "number": 19,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 87,
+        "shooting": 75,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 23,
+        "physicality": 88,
+        "stamina": 83,
+        "awareness": 74,
+        "composure": 79
+      }
+    },
+    {
+      "name": "Zubimendi",
+      "number": 20,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 59,
+        "shooting": 64,
+        "passing": 79,
+        "dribbling": 67,
+        "defending": 76,
+        "physicality": 67,
+        "stamina": 76,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "20 D. Zurutuza",
+      "number": 21,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 54,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 53,
+        "awareness": 81,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Carlos Fernández",
+      "number": 22,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 73,
+        "shooting": 79,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 21,
+        "physicality": 73,
+        "stamina": 64,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Aihen Muñoz",
+      "number": 23,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 49,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 74,
+        "awareness": 75,
+        "composure": 72
+      }
+    }
+  ]
+}

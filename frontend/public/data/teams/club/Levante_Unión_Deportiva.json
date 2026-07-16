@@ -1,0 +1,396 @@
+{
+  "name": "Levante Unión Deportiva",
+  "type": "club",
+  "players": [
+    {
+      "name": "Campaña",
+      "number": 1,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 66,
+        "shooting": 73,
+        "passing": 84,
+        "dribbling": 83,
+        "defending": 75,
+        "physicality": 71,
+        "stamina": 82,
+        "awareness": 80,
+        "composure": 83
+      }
+    },
+    {
+      "name": "Morales",
+      "number": 2,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 86,
+        "shooting": 84,
+        "passing": 77,
+        "dribbling": 87,
+        "defending": 54,
+        "physicality": 67,
+        "stamina": 78,
+        "awareness": 80,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Aitor",
+      "number": 3,
+      "position": "GK",
+      "overall": 81,
+      "attributes": {
+        "pace": 82,
+        "defending": 83,
+        "passing": 78,
+        "dribbling": 81,
+        "physicality": 48,
+        "stamina": 42,
+        "awareness": 80,
+        "composure": 55
+      }
+    },
+    {
+      "name": "Roger",
+      "number": 4,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 77,
+        "shooting": 84,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 36,
+        "physicality": 74,
+        "stamina": 78,
+        "awareness": 83,
+        "composure": 80
+      }
+    },
+    {
+      "name": "E. Bardhi",
+      "number": 5,
+      "position": "LW",
+      "overall": 79,
+      "attributes": {
+        "pace": 71,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 65,
+        "physicality": 45,
+        "stamina": 75,
+        "awareness": 81,
+        "composure": 82
+      }
+    },
+    {
+      "name": "De Frutos",
+      "number": 6,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 81,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 83,
+        "defending": 29,
+        "physicality": 49,
+        "stamina": 76,
+        "awareness": 70,
+        "composure": 79
+      }
+    },
+    {
+      "name": "Melero",
+      "number": 7,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 65,
+        "shooting": 77,
+        "passing": 81,
+        "dribbling": 73,
+        "defending": 74,
+        "physicality": 79,
+        "stamina": 79,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Clerc",
+      "number": 8,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 89,
+        "shooting": 56,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 72,
+        "physicality": 72,
+        "stamina": 85,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Soldado",
+      "number": 9,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 52,
+        "shooting": 82,
+        "passing": 79,
+        "dribbling": 73,
+        "defending": 41,
+        "physicality": 72,
+        "stamina": 49,
+        "awareness": 79,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Malsa",
+      "number": 10,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 64,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 80,
+        "physicality": 75,
+        "stamina": 83,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Rúben Vezo",
+      "number": 11,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 53,
+        "passing": 70,
+        "dribbling": 59,
+        "defending": 79,
+        "physicality": 77,
+        "stamina": 71,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "N. Vukčević",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 53,
+        "shooting": 59,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 79,
+        "physicality": 77,
+        "stamina": 75,
+        "awareness": 78,
+        "composure": 70
+      }
+    },
+    {
+      "name": "N. Radoja",
+      "number": 13,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 62,
+        "shooting": 58,
+        "passing": 81,
+        "dribbling": 74,
+        "defending": 75,
+        "physicality": 78,
+        "stamina": 74,
+        "awareness": 75,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Postigo",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 44,
+        "passing": 66,
+        "dribbling": 51,
+        "defending": 76,
+        "physicality": 82,
+        "stamina": 59,
+        "awareness": 68,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Jorge Miramón",
+      "number": 15,
+      "position": "RB",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 72,
+        "physicality": 72,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Hernâni",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 91,
+        "shooting": 63,
+        "passing": 65,
+        "dribbling": 84,
+        "defending": 19,
+        "physicality": 58,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 75
+      }
+    },
+    {
+      "name": "17 Natxo Insa",
+      "number": 17,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 66,
+        "shooting": 58,
+        "passing": 76,
+        "dribbling": 69,
+        "defending": 73,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Son",
+      "number": 18,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 48,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 68,
+        "physicality": 72,
+        "stamina": 81,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Mustafi",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 61,
+        "shooting": 58,
+        "passing": 70,
+        "dribbling": 53,
+        "defending": 72,
+        "physicality": 78,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Dani Gómez",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 81,
+        "shooting": 76,
+        "passing": 68,
+        "dribbling": 74,
+        "defending": 32,
+        "physicality": 71,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Róber",
+      "number": 21,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 54,
+        "shooting": 47,
+        "passing": 73,
+        "dribbling": 56,
+        "defending": 76,
+        "physicality": 74,
+        "stamina": 60,
+        "awareness": 67,
+        "composure": 62
+      }
+    },
+    {
+      "name": "O. Duarte",
+      "number": 22,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 51,
+        "shooting": 48,
+        "passing": 60,
+        "dribbling": 49,
+        "defending": 76,
+        "physicality": 83,
+        "stamina": 64,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Coke",
+      "number": 23,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 58,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 70,
+        "physicality": 62,
+        "stamina": 59,
+        "awareness": 67,
+        "composure": 66
+      }
+    }
+  ]
+}

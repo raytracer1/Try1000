@@ -1,0 +1,395 @@
+{
+  "name": "Canada",
+  "type": "nation",
+  "players": [
+    {
+      "name": "A. Davies",
+      "number": 1,
+      "position": "LB",
+      "overall": 82,
+      "attributes": {
+        "pace": 96,
+        "shooting": 67,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 77,
+        "physicality": 72,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. David",
+      "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 87,
+        "shooting": 80,
+        "passing": 78,
+        "dribbling": 79,
+        "defending": 21,
+        "physicality": 75,
+        "stamina": 85,
+        "awareness": 74,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Stephen Eustáquio",
+      "number": 3,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 77,
+        "dribbling": 70,
+        "defending": 76,
+        "physicality": 69,
+        "stamina": 81,
+        "awareness": 76,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Borjan",
+      "number": 4,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "defending": 73,
+        "passing": 74,
+        "dribbling": 74,
+        "physicality": 79,
+        "stamina": 40,
+        "awareness": 73,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Hutchinson",
+      "number": 5,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 61,
+        "passing": 81,
+        "dribbling": 71,
+        "defending": 75,
+        "physicality": 74,
+        "stamina": 75,
+        "awareness": 75,
+        "composure": 84
+      }
+    },
+    {
+      "name": "C. Larin",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 18,
+        "physicality": 87,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Arfield",
+      "number": 7,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 69,
+        "physicality": 70,
+        "stamina": 79,
+        "awareness": 73,
+        "composure": 77
+      }
+    },
+    {
+      "name": "M. Crépeau",
+      "number": 8,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 71,
+        "defending": 74,
+        "passing": 70,
+        "dribbling": 73,
+        "physicality": 69,
+        "stamina": 40,
+        "awareness": 70,
+        "composure": 51
+      }
+    },
+    {
+      "name": "J. Osorio",
+      "number": 9,
+      "position": "RW",
+      "overall": 72,
+      "attributes": {
+        "pace": 59,
+        "shooting": 69,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Hoilett",
+      "number": 10,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 81,
+        "shooting": 67,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 39,
+        "physicality": 61,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Cavallini",
+      "number": 11,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 72,
+        "shooting": 71,
+        "passing": 60,
+        "dribbling": 69,
+        "defending": 32,
+        "physicality": 90,
+        "stamina": 78,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Henry",
+      "number": 12,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 36,
+        "passing": 60,
+        "dribbling": 46,
+        "defending": 68,
+        "physicality": 92,
+        "stamina": 69,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "R. Laryea",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 85,
+        "shooting": 60,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 69,
+        "physicality": 65,
+        "stamina": 86,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Kaye",
+      "number": 14,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 55,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 71,
+        "physicality": 72,
+        "stamina": 85,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Piette",
+      "number": 15,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 56,
+        "shooting": 31,
+        "passing": 69,
+        "dribbling": 56,
+        "defending": 73,
+        "physicality": 76,
+        "stamina": 90,
+        "awareness": 69,
+        "composure": 60
+      }
+    },
+    {
+      "name": "D. Wotherspoon",
+      "number": 16,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 75,
+        "defending": 63,
+        "physicality": 67,
+        "stamina": 83,
+        "awareness": 63,
+        "composure": 70
+      }
+    },
+    {
+      "name": "T. Buchanan",
+      "number": 17,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 89,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 62,
+        "stamina": 69,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Gutiérrez",
+      "number": 18,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 81,
+        "shooting": 34,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 64,
+        "physicality": 71,
+        "stamina": 74,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Z. Brault-Guillard",
+      "number": 19,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 90,
+        "shooting": 36,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 65,
+        "physicality": 68,
+        "stamina": 82,
+        "awareness": 63,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Adekugbe",
+      "number": 20,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 42,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 62,
+        "physicality": 70,
+        "stamina": 81,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "K. Miller",
+      "number": 21,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 80,
+        "shooting": 20,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 84,
+        "stamina": 67,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "D. St. Clair",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 26,
+        "shooting": 5,
+        "passing": 16,
+        "dribbling": 9,
+        "defending": 10,
+        "physicality": 47,
+        "stamina": 26,
+        "awareness": 62,
+        "composure": 39
+      }
+    },
+    {
+      "name": "A. Johnston",
+      "number": 23,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 39,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 66,
+        "physicality": 66,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 55
+      }
+    }
+  ]
+}

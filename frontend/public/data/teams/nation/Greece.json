@@ -1,0 +1,395 @@
+{
+  "name": "Greece",
+  "type": "nation",
+  "players": [
+    {
+      "name": "K. Manolas",
+      "number": 1,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 84,
+        "shooting": 25,
+        "passing": 65,
+        "dribbling": 54,
+        "defending": 85,
+        "physicality": 83,
+        "stamina": 69,
+        "awareness": 81,
+        "composure": 83
+      }
+    },
+    {
+      "name": "O. Vlachodimos",
+      "number": 2,
+      "position": "GK",
+      "overall": 81,
+      "attributes": {
+        "pace": 84,
+        "defending": 84,
+        "passing": 78,
+        "dribbling": 78,
+        "physicality": 68,
+        "stamina": 39,
+        "awareness": 82,
+        "composure": 56
+      }
+    },
+    {
+      "name": "K. Fortounis",
+      "number": 3,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 38,
+        "physicality": 68,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Sokratis",
+      "number": 4,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 66,
+        "shooting": 47,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 78,
+        "physicality": 85,
+        "stamina": 64,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Bakasetas",
+      "number": 5,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 45,
+        "physicality": 76,
+        "stamina": 82,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Zeca",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 59,
+        "passing": 74,
+        "dribbling": 69,
+        "defending": 75,
+        "physicality": 68,
+        "stamina": 92,
+        "awareness": 76,
+        "composure": 80
+      }
+    },
+    {
+      "name": "G. Masouras",
+      "number": 7,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 84,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 41,
+        "physicality": 69,
+        "stamina": 76,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "P. Mantalos",
+      "number": 8,
+      "position": "CAM",
+      "overall": 76,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 52,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "D. Pelkas",
+      "number": 9,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 82,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 30,
+        "physicality": 44,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Siovas",
+      "number": 10,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 29,
+        "shooting": 38,
+        "passing": 72,
+        "dribbling": 62,
+        "defending": 77,
+        "physicality": 90,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Bouchalakis",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 59,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 72,
+        "physicality": 78,
+        "stamina": 82,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 A. Samaris",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 59,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 79,
+        "physicality": 86,
+        "stamina": 65,
+        "awareness": 72,
+        "composure": 76
+      }
+    },
+    {
+      "name": "K. Tsimikas",
+      "number": 13,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 49,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 73,
+        "physicality": 71,
+        "stamina": 77,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Dioudis",
+      "number": 14,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "defending": 80,
+        "passing": 72,
+        "dribbling": 74,
+        "physicality": 65,
+        "stamina": 33,
+        "awareness": 66,
+        "composure": 56
+      }
+    },
+    {
+      "name": "21 J. Holebas",
+      "number": 15,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 57,
+        "passing": 77,
+        "dribbling": 69,
+        "defending": 77,
+        "physicality": 70,
+        "stamina": 68,
+        "awareness": 71,
+        "composure": 72
+      }
+    },
+    {
+      "name": "C. Tzolis",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 86,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 79,
+        "defending": 35,
+        "physicality": 57,
+        "stamina": 70,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "D. Giannoulis",
+      "number": 17,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 83,
+        "shooting": 42,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 73,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "G. Giakoumakis",
+      "number": 18,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "shooting": 80,
+        "passing": 58,
+        "dribbling": 68,
+        "defending": 24,
+        "physicality": 82,
+        "stamina": 71,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "T. Fountas",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 86,
+        "shooting": 78,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 40,
+        "physicality": 57,
+        "stamina": 75,
+        "awareness": 71,
+        "composure": 73
+      }
+    },
+    {
+      "name": "V. Pavlidis",
+      "number": 20,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 60,
+        "dribbling": 72,
+        "defending": 42,
+        "physicality": 82,
+        "stamina": 83,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 I. Fetfatzidis",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 30,
+        "physicality": 47,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 K. Mitroglou",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 54,
+        "shooting": 75,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 18,
+        "physicality": 86,
+        "stamina": 60,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "P. Retsos",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 26,
+        "passing": 77,
+        "dribbling": 46,
+        "defending": 79,
+        "physicality": 74,
+        "stamina": 67,
+        "awareness": 72,
+        "composure": 73
+      }
+    }
+  ]
+}

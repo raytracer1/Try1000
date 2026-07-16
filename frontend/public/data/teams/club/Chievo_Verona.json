@@ -1,0 +1,295 @@
+{
+  "name": "Chievo Verona",
+  "type": "club",
+  "players": [
+    {
+      "name": "21 E. Giaccherini",
+      "number": 1,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 65,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 64,
+        "physicality": 54,
+        "stamina": 70,
+        "awareness": 73,
+        "composure": 76
+      }
+    },
+    {
+      "name": "21 L. Garritano",
+      "number": 2,
+      "position": "LW",
+      "overall": 73,
+      "attributes": {
+        "pace": 87,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 54,
+        "physicality": 55,
+        "stamina": 79,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 A. Ciciretti",
+      "number": 3,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 80,
+        "shooting": 68,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 36,
+        "physicality": 45,
+        "stamina": 62,
+        "awareness": 66,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 F. Renzetti",
+      "number": 4,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 48,
+        "passing": 71,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 66,
+        "stamina": 91,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "19 M. Andreolli",
+      "number": 5,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 53,
+        "shooting": 16,
+        "passing": 55,
+        "dribbling": 49,
+        "defending": 73,
+        "physicality": 77,
+        "stamina": 30,
+        "awareness": 65,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 F. Đorđević",
+      "number": 6,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 56,
+        "shooting": 75,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 35,
+        "physicality": 83,
+        "stamina": 59,
+        "awareness": 65,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 A. Di Gaudio",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 57,
+        "passing": 64,
+        "dribbling": 74,
+        "defending": 21,
+        "physicality": 31,
+        "stamina": 68,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "20 D. Brivio",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 38,
+        "passing": 64,
+        "dribbling": 53,
+        "defending": 72,
+        "physicality": 78,
+        "stamina": 67,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 F. Margiotta",
+      "number": 9,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 63,
+        "shooting": 74,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 17,
+        "physicality": 62,
+        "stamina": 62,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 M. Leverbe",
+      "number": 10,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 41,
+        "passing": 64,
+        "dribbling": 47,
+        "defending": 74,
+        "physicality": 76,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 A. Seculin",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 30,
+        "shooting": 12,
+        "passing": 29,
+        "dribbling": 12,
+        "defending": 10,
+        "physicality": 48,
+        "stamina": 29,
+        "awareness": 61,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 G. Gigliotti",
+      "number": 12,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 39,
+        "passing": 62,
+        "dribbling": 55,
+        "defending": 71,
+        "physicality": 70,
+        "stamina": 82,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "19 A. Cinelli",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 53,
+        "shooting": 51,
+        "passing": 71,
+        "dribbling": 58,
+        "defending": 65,
+        "physicality": 69,
+        "stamina": 67,
+        "awareness": 64,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 S. Väisänen",
+      "number": 14,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 52,
+        "shooting": 35,
+        "passing": 58,
+        "dribbling": 52,
+        "defending": 68,
+        "physicality": 72,
+        "stamina": 50,
+        "awareness": 56,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 E. Zuelli",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 54,
+        "passing": 69,
+        "dribbling": 59,
+        "defending": 65,
+        "physicality": 58,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 54
+      }
+    },
+    {
+      "name": "21 D. Ivan",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 55,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 60,
+        "physicality": 44,
+        "stamina": 72,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 S. Grubač",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 47,
+        "shooting": 62,
+        "passing": 57,
+        "dribbling": 52,
+        "defending": 21,
+        "physicality": 72,
+        "stamina": 47,
+        "awareness": 56,
+        "composure": 54
+      }
+    }
+  ]
+}

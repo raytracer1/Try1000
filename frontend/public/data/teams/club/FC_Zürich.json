@@ -1,0 +1,294 @@
+{
+  "name": "FC Zürich",
+  "type": "club",
+  "players": [
+    {
+      "name": "B. Džemaili",
+      "number": 1,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 51,
+        "shooting": 65,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 71,
+        "physicality": 63,
+        "stamina": 70,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Leitner",
+      "number": 2,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 61,
+        "shooting": 59,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 67,
+        "physicality": 48,
+        "stamina": 57,
+        "awareness": 63,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Y. Brecher",
+      "number": 3,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "defending": 73,
+        "passing": 65,
+        "dribbling": 68,
+        "physicality": 67,
+        "stamina": 24,
+        "awareness": 68,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Guerrero",
+      "number": 4,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 49,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 69,
+        "physicality": 60,
+        "stamina": 71,
+        "awareness": 65,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Ćorić",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 61,
+        "shooting": 63,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 38,
+        "physicality": 58,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Gogia",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 75,
+        "defending": 22,
+        "physicality": 58,
+        "stamina": 66,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Tosin",
+      "number": 7,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 93,
+        "shooting": 65,
+        "passing": 57,
+        "dribbling": 70,
+        "defending": 34,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "B. Kramer",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 64,
+        "passing": 58,
+        "dribbling": 63,
+        "defending": 29,
+        "physicality": 85,
+        "stamina": 61,
+        "awareness": 59,
+        "composure": 63
+      }
+    },
+    {
+      "name": "B. Omeragic",
+      "number": 9,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 78,
+        "shooting": 25,
+        "passing": 64,
+        "dribbling": 50,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Khelifi",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 80,
+        "shooting": 58,
+        "passing": 59,
+        "dribbling": 68,
+        "defending": 27,
+        "physicality": 35,
+        "stamina": 63,
+        "awareness": 62,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 H. Kryeziu",
+      "number": 11,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 48,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 66,
+        "physicality": 66,
+        "stamina": 70,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Aliti",
+      "number": 12,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 36,
+        "passing": 61,
+        "dribbling": 52,
+        "defending": 62,
+        "physicality": 78,
+        "stamina": 84,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "20 L. Kharabadze",
+      "number": 13,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 83,
+        "shooting": 45,
+        "passing": 51,
+        "dribbling": 66,
+        "defending": 58,
+        "physicality": 70,
+        "stamina": 83,
+        "awareness": 53,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Ceesay",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 88,
+        "shooting": 62,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 30,
+        "physicality": 63,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 55
+      }
+    },
+    {
+      "name": "M. Hornschuh",
+      "number": 15,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 52,
+        "shooting": 36,
+        "passing": 61,
+        "dribbling": 54,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 48,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "F. Rohner",
+      "number": 16,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 83,
+        "shooting": 54,
+        "passing": 60,
+        "dribbling": 59,
+        "defending": 53,
+        "physicality": 44,
+        "stamina": 65,
+        "awareness": 61,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Wallner",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 70,
+        "shooting": 38,
+        "passing": 50,
+        "dribbling": 47,
+        "defending": 59,
+        "physicality": 63,
+        "stamina": 67,
+        "awareness": 56,
+        "composure": 51
+      }
+    }
+  ]
+}

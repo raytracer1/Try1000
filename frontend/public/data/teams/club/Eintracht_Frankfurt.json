@@ -1,0 +1,396 @@
+{
+  "name": "Eintracht Frankfurt",
+  "type": "club",
+  "players": [
+    {
+      "name": "F. Kostić",
+      "number": 1,
+      "position": "LW",
+      "overall": 84,
+      "attributes": {
+        "pace": 88,
+        "shooting": 75,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 72,
+        "physicality": 77,
+        "stamina": 90,
+        "awareness": 82,
+        "composure": 80
+      }
+    },
+    {
+      "name": "K. Trapp",
+      "number": 2,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 82,
+        "defending": 84,
+        "passing": 78,
+        "dribbling": 82,
+        "physicality": 73,
+        "stamina": 45,
+        "awareness": 82,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Hinteregger",
+      "number": 3,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 74,
+        "shooting": 65,
+        "passing": 72,
+        "dribbling": 54,
+        "defending": 85,
+        "physicality": 83,
+        "stamina": 76,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. Kamada",
+      "number": 4,
+      "position": "CAM",
+      "overall": 79,
+      "attributes": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 46,
+        "physicality": 57,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 80
+      }
+    },
+    {
+      "name": "R. Borré",
+      "number": 5,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 41,
+        "physicality": 67,
+        "stamina": 85,
+        "awareness": 79,
+        "composure": 81
+      }
+    },
+    {
+      "name": "A. Younes",
+      "number": 6,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 80,
+        "dribbling": 87,
+        "defending": 43,
+        "physicality": 50,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Sow",
+      "number": 7,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 81,
+        "shooting": 61,
+        "passing": 85,
+        "dribbling": 75,
+        "defending": 77,
+        "physicality": 76,
+        "stamina": 85,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "S. Rode",
+      "number": 8,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 52,
+        "shooting": 61,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 77,
+        "physicality": 74,
+        "stamina": 76,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "M. Hasebe",
+      "number": 9,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 51,
+        "shooting": 45,
+        "passing": 78,
+        "dribbling": 66,
+        "defending": 74,
+        "physicality": 62,
+        "stamina": 60,
+        "awareness": 74,
+        "composure": 85
+      }
+    },
+    {
+      "name": "E. Ndicka",
+      "number": 10,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 38,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 79,
+        "physicality": 78,
+        "stamina": 75,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. da Costa",
+      "number": 11,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 70,
+        "shooting": 51,
+        "passing": 64,
+        "dribbling": 70,
+        "defending": 79,
+        "physicality": 80,
+        "stamina": 88,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "20 Gelson Fernandes",
+      "number": 12,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 58,
+        "shooting": 51,
+        "passing": 72,
+        "dribbling": 63,
+        "defending": 76,
+        "physicality": 73,
+        "stamina": 90,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Hauge",
+      "number": 13,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 88,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 78,
+        "defending": 43,
+        "physicality": 67,
+        "stamina": 83,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 D. Abraham",
+      "number": 14,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "shooting": 46,
+        "passing": 68,
+        "dribbling": 44,
+        "defending": 79,
+        "physicality": 80,
+        "stamina": 68,
+        "awareness": 74,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Gonçalo Paciência",
+      "number": 15,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 51,
+        "shooting": 76,
+        "passing": 64,
+        "dribbling": 77,
+        "defending": 30,
+        "physicality": 82,
+        "stamina": 72,
+        "awareness": 76,
+        "composure": 81
+      }
+    },
+    {
+      "name": "A. Touré",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 87,
+        "shooting": 62,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "E. Durm",
+      "number": 17,
+      "position": "RB",
+      "overall": 74,
+      "attributes": {
+        "pace": 72,
+        "shooting": 53,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 76,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Lammers",
+      "number": 18,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 67,
+        "dribbling": 80,
+        "defending": 21,
+        "physicality": 70,
+        "stamina": 71,
+        "awareness": 71,
+        "composure": 73
+      }
+    },
+    {
+      "name": "T. Chandler",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 64,
+        "shooting": 70,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 74,
+        "physicality": 82,
+        "stamina": 66,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Barkok",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 84,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 81,
+        "defending": 59,
+        "physicality": 68,
+        "stamina": 65,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "K. Jakić",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 44,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 72,
+        "physicality": 81,
+        "stamina": 86,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. Lenz",
+      "number": 22,
+      "position": "LB",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 35,
+        "passing": 73,
+        "dribbling": 67,
+        "defending": 75,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "S. Ilsanker",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "shooting": 45,
+        "passing": 58,
+        "dribbling": 49,
+        "defending": 74,
+        "physicality": 83,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 65
+      }
+    }
+  ]
+}

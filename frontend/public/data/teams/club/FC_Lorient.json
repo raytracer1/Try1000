@@ -1,0 +1,396 @@
+{
+  "name": "FC Lorient",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Abergel",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 68,
+        "shooting": 42,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 76,
+        "physicality": 67,
+        "stamina": 89,
+        "awareness": 72,
+        "composure": 62
+      }
+    },
+    {
+      "name": "T. Moffi",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 64,
+        "dribbling": 73,
+        "defending": 23,
+        "physicality": 86,
+        "stamina": 67,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "P. Nardi",
+      "number": 3,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 77,
+        "defending": 79,
+        "passing": 68,
+        "dribbling": 72,
+        "physicality": 54,
+        "stamina": 20,
+        "awareness": 69,
+        "composure": 35
+      }
+    },
+    {
+      "name": "F. Lemoine",
+      "number": 4,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 32,
+        "shooting": 53,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 73,
+        "physicality": 69,
+        "stamina": 83,
+        "awareness": 64,
+        "composure": 70
+      }
+    },
+    {
+      "name": "V. Le Goff",
+      "number": 5,
+      "position": "LB",
+      "overall": 73,
+      "attributes": {
+        "pace": 71,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 73,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Laurienté",
+      "number": 6,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 67,
+        "passing": 70,
+        "dribbling": 78,
+        "defending": 38,
+        "physicality": 33,
+        "stamina": 63,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "T. Monconduit",
+      "number": 7,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 63,
+        "shooting": 49,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Morel",
+      "number": 8,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 54,
+        "shooting": 36,
+        "passing": 65,
+        "dribbling": 51,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 60,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Laporte",
+      "number": 9,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 51,
+        "shooting": 19,
+        "passing": 64,
+        "dribbling": 43,
+        "defending": 73,
+        "physicality": 83,
+        "stamina": 82,
+        "awareness": 65,
+        "composure": 53
+      }
+    },
+    {
+      "name": "E. Le Fée",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 64,
+        "shooting": 48,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 59,
+        "physicality": 34,
+        "stamina": 63,
+        "awareness": 64,
+        "composure": 74
+      }
+    },
+    {
+      "name": "18 A. Mvuemba",
+      "number": 11,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 57,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 64,
+        "physicality": 66,
+        "stamina": 74,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Igor Silva",
+      "number": 12,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 44,
+        "passing": 63,
+        "dribbling": 73,
+        "defending": 65,
+        "physicality": 60,
+        "stamina": 78,
+        "awareness": 61,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Q. Boisgard",
+      "number": 13,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 58,
+        "shooting": 63,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 62,
+        "physicality": 70,
+        "stamina": 72,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Grbic",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 58,
+        "dribbling": 65,
+        "defending": 31,
+        "physicality": 81,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Diarra",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 57,
+        "physicality": 35,
+        "stamina": 72,
+        "awareness": 56,
+        "composure": 66
+      }
+    },
+    {
+      "name": "H. Mendes",
+      "number": 16,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 79,
+        "shooting": 39,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 69,
+        "physicality": 77,
+        "stamina": 66,
+        "awareness": 55,
+        "composure": 52
+      }
+    },
+    {
+      "name": "21 J. Delaplace",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 53,
+        "shooting": 47,
+        "passing": 69,
+        "dribbling": 62,
+        "defending": 68,
+        "physicality": 63,
+        "stamina": 72,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 M. Saunier",
+      "number": 18,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 36,
+        "shooting": 16,
+        "passing": 67,
+        "dribbling": 50,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 61,
+        "awareness": 66,
+        "composure": 61
+      }
+    },
+    {
+      "name": "T. Fontaine",
+      "number": 19,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 18,
+        "passing": 65,
+        "dribbling": 18,
+        "defending": 65,
+        "physicality": 82,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 S. Marveaux",
+      "number": 20,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 51,
+        "shooting": 61,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 57,
+        "physicality": 57,
+        "stamina": 69,
+        "awareness": 64,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 Y. Etienne",
+      "number": 21,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 72,
+        "shooting": 37,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 58,
+        "stamina": 62,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "M. Jenz",
+      "number": 22,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 64,
+        "shooting": 27,
+        "passing": 58,
+        "dribbling": 45,
+        "defending": 70,
+        "physicality": 84,
+        "stamina": 70,
+        "awareness": 54,
+        "composure": 57
+      }
+    },
+    {
+      "name": "L. Mouyokolo",
+      "number": 23,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 58,
+        "shooting": 20,
+        "passing": 52,
+        "dribbling": 43,
+        "defending": 66,
+        "physicality": 86,
+        "stamina": 64,
+        "awareness": 53,
+        "composure": 52
+      }
+    }
+  ]
+}

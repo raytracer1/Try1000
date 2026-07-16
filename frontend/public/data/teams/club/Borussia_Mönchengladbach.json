@@ -1,0 +1,396 @@
+{
+  "name": "Borussia Mönchengladbach",
+  "type": "club",
+  "players": [
+    {
+      "name": "Y. Sommer",
+      "number": 1,
+      "position": "GK",
+      "overall": 85,
+      "attributes": {
+        "pace": 79,
+        "defending": 86,
+        "passing": 81,
+        "dribbling": 86,
+        "physicality": 68,
+        "stamina": 45,
+        "awareness": 82,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Ginter",
+      "number": 2,
+      "position": "CB",
+      "overall": 84,
+      "attributes": {
+        "pace": 69,
+        "shooting": 55,
+        "passing": 79,
+        "dribbling": 61,
+        "defending": 89,
+        "physicality": 84,
+        "stamina": 75,
+        "awareness": 86,
+        "composure": 71
+      }
+    },
+    {
+      "name": "L. Stindl",
+      "number": 3,
+      "position": "CAM",
+      "overall": 82,
+      "attributes": {
+        "pace": 59,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 82,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 84,
+        "composure": 83
+      }
+    },
+    {
+      "name": "F. Neuhaus",
+      "number": 4,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 57,
+        "shooting": 70,
+        "passing": 85,
+        "dribbling": 83,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 81,
+        "awareness": 82,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. Zakaria",
+      "number": 5,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 86,
+        "shooting": 66,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 82,
+        "physicality": 87,
+        "stamina": 81,
+        "awareness": 82,
+        "composure": 83
+      }
+    },
+    {
+      "name": "S. Lainer",
+      "number": 6,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 78,
+        "shooting": 59,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 77,
+        "physicality": 72,
+        "stamina": 92,
+        "awareness": 77,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Plea",
+      "number": 7,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 66,
+        "shooting": 83,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 40,
+        "physicality": 75,
+        "stamina": 77,
+        "awareness": 82,
+        "composure": 79
+      }
+    },
+    {
+      "name": "R. Bensebaini",
+      "number": 8,
+      "position": "LB",
+      "overall": 79,
+      "attributes": {
+        "pace": 77,
+        "shooting": 62,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physicality": 78,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Hofmann",
+      "number": 9,
+      "position": "RW",
+      "overall": 79,
+      "attributes": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 49,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 83,
+        "composure": 81
+      }
+    },
+    {
+      "name": "M. Thuram",
+      "number": 10,
+      "position": "LW",
+      "overall": 79,
+      "attributes": {
+        "pace": 84,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 84,
+        "defending": 49,
+        "physicality": 87,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 74
+      }
+    },
+    {
+      "name": "C. Kramer",
+      "number": 11,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 38,
+        "shooting": 48,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 87,
+        "awareness": 82,
+        "composure": 77
+      }
+    },
+    {
+      "name": "N. Elvedi",
+      "number": 12,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 81,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 84,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Embolo",
+      "number": 13,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 86,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 63,
+        "physicality": 85,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "20 Raffael",
+      "number": 14,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 55,
+        "shooting": 75,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 42,
+        "physicality": 58,
+        "stamina": 59,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "20 F. Johnson",
+      "number": 15,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 75,
+        "physicality": 60,
+        "stamina": 67,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "P. Herrmann",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 26,
+        "physicality": 56,
+        "stamina": 67,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Bénes",
+      "number": 17,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 60,
+        "shooting": 64,
+        "passing": 79,
+        "dribbling": 74,
+        "defending": 50,
+        "physicality": 59,
+        "stamina": 70,
+        "awareness": 73,
+        "composure": 60
+      }
+    },
+    {
+      "name": "H. Wolf",
+      "number": 18,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 79,
+        "defending": 39,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 71,
+        "composure": 72
+      }
+    },
+    {
+      "name": "T. Jantschke",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 35,
+        "passing": 71,
+        "dribbling": 62,
+        "defending": 74,
+        "physicality": 72,
+        "stamina": 66,
+        "awareness": 77,
+        "composure": 79
+      }
+    },
+    {
+      "name": "T. Sippel",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 42,
+        "shooting": 12,
+        "passing": 33,
+        "dribbling": 13,
+        "defending": 15,
+        "physicality": 65,
+        "stamina": 41,
+        "awareness": 72,
+        "composure": 41
+      }
+    },
+    {
+      "name": "21 I. Traoré",
+      "number": 21,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 44,
+        "physicality": 39,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Beyer",
+      "number": 22,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 29,
+        "passing": 68,
+        "dribbling": 59,
+        "defending": 74,
+        "physicality": 69,
+        "stamina": 61,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "K. Koné",
+      "number": 23,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 55,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 70,
+        "physicality": 68,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 70
+      }
+    }
+  ]
+}

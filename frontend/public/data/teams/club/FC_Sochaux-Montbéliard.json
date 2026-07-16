@@ -1,0 +1,396 @@
+{
+  "name": "FC Sochaux-Montbéliard",
+  "type": "club",
+  "players": [
+    {
+      "name": "G. Weissbeck",
+      "number": 1,
+      "position": "CAM",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "shooting": 68,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 52,
+        "physicality": 65,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "T. Mauricio",
+      "number": 2,
+      "position": "RW",
+      "overall": 70,
+      "attributes": {
+        "pace": 75,
+        "shooting": 69,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 32,
+        "physicality": 55,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "V. Henry",
+      "number": 3,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 76,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 66,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Prévot",
+      "number": 4,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "defending": 69,
+        "passing": 68,
+        "dribbling": 68,
+        "physicality": 57,
+        "stamina": 27,
+        "awareness": 63,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Lopy",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 67,
+        "physicality": 77,
+        "stamina": 90,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "19 M. Sissoko",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 52,
+        "shooting": 53,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 46,
+        "awareness": 68,
+        "composure": 79
+      }
+    },
+    {
+      "name": "F. Pogba",
+      "number": 7,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 65,
+        "shooting": 21,
+        "passing": 63,
+        "dribbling": 53,
+        "defending": 66,
+        "physicality": 87,
+        "stamina": 71,
+        "awareness": 58,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Ndour",
+      "number": 8,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 27,
+        "passing": 68,
+        "dribbling": 60,
+        "defending": 67,
+        "physicality": 69,
+        "stamina": 56,
+        "awareness": 60,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 P. Paye",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 31,
+        "passing": 65,
+        "dribbling": 45,
+        "defending": 66,
+        "physicality": 63,
+        "stamina": 80,
+        "awareness": 65,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Niane",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 66,
+        "defending": 14,
+        "physicality": 69,
+        "stamina": 67,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 F. Ourega",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 87,
+        "shooting": 59,
+        "passing": 61,
+        "dribbling": 73,
+        "defending": 33,
+        "physicality": 60,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 J. Martial",
+      "number": 12,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 25,
+        "passing": 67,
+        "dribbling": 39,
+        "defending": 66,
+        "physicality": 76,
+        "stamina": 71,
+        "awareness": 63,
+        "composure": 56
+      }
+    },
+    {
+      "name": "A. Kalulu",
+      "number": 13,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 91,
+        "shooting": 60,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 21,
+        "physicality": 42,
+        "stamina": 59,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 S. M'Bakata",
+      "number": 14,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 27,
+        "passing": 59,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 69,
+        "stamina": 76,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Ambri",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 86,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 67,
+        "defending": 30,
+        "physicality": 60,
+        "stamina": 59,
+        "awareness": 58,
+        "composure": 53
+      }
+    },
+    {
+      "name": "A. Virginius",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 87,
+        "shooting": 59,
+        "passing": 59,
+        "dribbling": 68,
+        "defending": 25,
+        "physicality": 36,
+        "stamina": 52,
+        "awareness": 55,
+        "composure": 58
+      }
+    },
+    {
+      "name": "C. Diedhiou",
+      "number": 17,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 24,
+        "passing": 47,
+        "dribbling": 35,
+        "defending": 65,
+        "physicality": 81,
+        "stamina": 63,
+        "awareness": 53,
+        "composure": 60
+      }
+    },
+    {
+      "name": "21 S. Daham",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 73,
+        "shooting": 54,
+        "passing": 70,
+        "dribbling": 63,
+        "defending": 56,
+        "physicality": 66,
+        "stamina": 77,
+        "awareness": 59,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Y. Kitala",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 69,
+        "passing": 53,
+        "dribbling": 53,
+        "defending": 19,
+        "physicality": 78,
+        "stamina": 56,
+        "awareness": 51,
+        "composure": 56
+      }
+    },
+    {
+      "name": "R. Ndiaye",
+      "number": 20,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 68,
+        "shooting": 33,
+        "passing": 68,
+        "dribbling": 60,
+        "defending": 58,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 55,
+        "composure": 55
+      }
+    },
+    {
+      "name": "I. Aaneba",
+      "number": 21,
+      "position": "CB",
+      "overall": 61,
+      "attributes": {
+        "pace": 47,
+        "shooting": 21,
+        "passing": 60,
+        "dribbling": 53,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 52,
+        "awareness": 57,
+        "composure": 43
+      }
+    },
+    {
+      "name": "21 R. Sans",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 62,
+        "shooting": 39,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 59,
+        "physicality": 50,
+        "stamina": 56,
+        "awareness": 56,
+        "composure": 56
+      }
+    },
+    {
+      "name": "M. Do Couto",
+      "number": 23,
+      "position": "LW",
+      "overall": 60,
+      "attributes": {
+        "pace": 72,
+        "shooting": 60,
+        "passing": 56,
+        "dribbling": 65,
+        "defending": 30,
+        "physicality": 25,
+        "stamina": 54,
+        "awareness": 52,
+        "composure": 52
+      }
+    }
+  ]
+}

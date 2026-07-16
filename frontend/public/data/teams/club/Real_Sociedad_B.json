@@ -1,0 +1,396 @@
+{
+  "name": "Real Sociedad B",
+  "type": "club",
+  "players": [
+    {
+      "name": "Álex Sola",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 69,
+        "shooting": 59,
+        "passing": 65,
+        "dribbling": 76,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Roberto López",
+      "number": 2,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 62,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 13,
+        "physicality": 67,
+        "stamina": 58,
+        "awareness": 63,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Luca Sangalli",
+      "number": 3,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 62,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 66,
+        "stamina": 54,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Cristo Romero",
+      "number": 4,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 55,
+        "passing": 67,
+        "dribbling": 71,
+        "defending": 61,
+        "physicality": 41,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 51
+      }
+    },
+    {
+      "name": "Ezkurdia",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 31,
+        "passing": 67,
+        "dribbling": 42,
+        "defending": 72,
+        "physicality": 68,
+        "stamina": 79,
+        "awareness": 52,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Zubiaurre",
+      "number": 6,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 28,
+        "shooting": 11,
+        "passing": 16,
+        "dribbling": 14,
+        "defending": 12,
+        "physicality": 58,
+        "stamina": 22,
+        "awareness": 65,
+        "composure": 47
+      }
+    },
+    {
+      "name": "Ayesa",
+      "number": 7,
+      "position": "GK",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "defending": 66,
+        "passing": 67,
+        "dribbling": 69,
+        "physicality": 62,
+        "stamina": 24,
+        "awareness": 57,
+        "composure": 21
+      }
+    },
+    {
+      "name": "Olasagasti",
+      "number": 8,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 62,
+        "shooting": 51,
+        "passing": 74,
+        "dribbling": 54,
+        "defending": 64,
+        "physicality": 65,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Valera",
+      "number": 9,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 84,
+        "shooting": 63,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 24,
+        "physicality": 47,
+        "stamina": 55,
+        "awareness": 58,
+        "composure": 49
+      }
+    },
+    {
+      "name": "J. Blasco",
+      "number": 10,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 68,
+        "shooting": 44,
+        "passing": 64,
+        "dribbling": 52,
+        "defending": 71,
+        "physicality": 68,
+        "stamina": 76,
+        "awareness": 57,
+        "composure": 53
+      }
+    },
+    {
+      "name": "Lobete",
+      "number": 11,
+      "position": "LW",
+      "overall": 66,
+      "attributes": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 53,
+        "dribbling": 63,
+        "defending": 13,
+        "physicality": 61,
+        "stamina": 59,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Turrientes",
+      "number": 12,
+      "position": "CDM",
+      "overall": 65,
+      "attributes": {
+        "pace": 67,
+        "shooting": 41,
+        "passing": 71,
+        "dribbling": 62,
+        "defending": 62,
+        "physicality": 43,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 64
+      }
+    },
+    {
+      "name": "P. Pokorný",
+      "number": 13,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 69,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 72,
+        "awareness": 56,
+        "composure": 58
+      }
+    },
+    {
+      "name": "N. Djouahra",
+      "number": 14,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 31,
+        "physicality": 59,
+        "stamina": 50,
+        "awareness": 55,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Karrikaburu",
+      "number": 15,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 70,
+        "passing": 56,
+        "dribbling": 62,
+        "defending": 28,
+        "physicality": 57,
+        "stamina": 51,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Arambarri",
+      "number": 16,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 52,
+        "shooting": 16,
+        "passing": 62,
+        "dribbling": 25,
+        "defending": 67,
+        "physicality": 71,
+        "stamina": 70,
+        "awareness": 55,
+        "composure": 52
+      }
+    },
+    {
+      "name": "Aldasoro",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 67,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Alkain",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 59,
+        "dribbling": 68,
+        "defending": 28,
+        "physicality": 56,
+        "stamina": 51,
+        "awareness": 56,
+        "composure": 53
+      }
+    },
+    {
+      "name": "Jon Magunazelaia",
+      "number": 19,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 62,
+        "passing": 72,
+        "dribbling": 61,
+        "defending": 48,
+        "physicality": 47,
+        "stamina": 69,
+        "awareness": 55,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Ander Martín",
+      "number": 20,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 64,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 46,
+        "physicality": 55,
+        "stamina": 52,
+        "awareness": 53,
+        "composure": 57
+      }
+    },
+    {
+      "name": "Urko González",
+      "number": 21,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 52,
+        "shooting": 47,
+        "passing": 72,
+        "dribbling": 45,
+        "defending": 68,
+        "physicality": 66,
+        "stamina": 56,
+        "awareness": 61,
+        "composure": 46
+      }
+    },
+    {
+      "name": "Dani Garrido",
+      "number": 22,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 56,
+        "shooting": 47,
+        "passing": 69,
+        "dribbling": 59,
+        "defending": 59,
+        "physicality": 46,
+        "stamina": 69,
+        "awareness": 62,
+        "composure": 54
+      }
+    },
+    {
+      "name": "Jorge Aguirre",
+      "number": 23,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 56,
+        "shooting": 66,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 21,
+        "physicality": 62,
+        "stamina": 55,
+        "awareness": 56,
+        "composure": 48
+      }
+    }
+  ]
+}

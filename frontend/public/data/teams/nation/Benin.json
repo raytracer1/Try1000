@@ -1,0 +1,210 @@
+{
+  "name": "Benin",
+  "type": "nation",
+  "players": [
+    {
+      "name": "21 S. Sessègnon",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 80,
+        "defending": 68,
+        "physicality": 72,
+        "stamina": 71,
+        "awareness": 71,
+        "composure": 77
+      }
+    },
+    {
+      "name": "S. Mounié",
+      "number": 2,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 41,
+        "physicality": 84,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Dossou",
+      "number": 3,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 72,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 41,
+        "physicality": 69,
+        "stamina": 66,
+        "awareness": 71,
+        "composure": 60
+      }
+    },
+    {
+      "name": "C. Hountondji",
+      "number": 4,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 43,
+        "shooting": 28,
+        "passing": 68,
+        "dribbling": 49,
+        "defending": 75,
+        "physicality": 84,
+        "stamina": 56,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Allagbé",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 28,
+        "shooting": 15,
+        "passing": 25,
+        "dribbling": 16,
+        "defending": 14,
+        "physicality": 45,
+        "stamina": 28,
+        "awareness": 56,
+        "composure": 61
+      }
+    },
+    {
+      "name": "C. Soukou",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 70,
+        "defending": 35,
+        "physicality": 77,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. D'Almeida",
+      "number": 7,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 79,
+        "shooting": 54,
+        "passing": 72,
+        "dribbling": 64,
+        "defending": 62,
+        "physicality": 81,
+        "stamina": 92,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Y. Aguemon",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 81,
+        "shooting": 59,
+        "passing": 58,
+        "dribbling": 68,
+        "defending": 58,
+        "physicality": 62,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 R. Gestede",
+      "number": 9,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 58,
+        "shooting": 65,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 39,
+        "physicality": 88,
+        "stamina": 50,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "M. Ahlinvi",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 62,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 68,
+        "physicality": 64,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 67
+      }
+    },
+    {
+      "name": "20 D. Kiki",
+      "number": 11,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 68,
+        "shooting": 47,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 61,
+        "physicality": 70,
+        "stamina": 76,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "21 D. Djigla",
+      "number": 12,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 91,
+        "shooting": 52,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 25,
+        "physicality": 47,
+        "stamina": 59,
+        "awareness": 51,
+        "composure": 52
+      }
+    }
+  ]
+}

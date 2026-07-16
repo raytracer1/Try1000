@@ -1,0 +1,294 @@
+{
+  "name": "Wrexham AFC",
+  "type": "club",
+  "players": [
+    {
+      "name": "P. Mullin",
+      "number": 1,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 77,
+        "shooting": 68,
+        "passing": 58,
+        "dribbling": 65,
+        "defending": 35,
+        "physicality": 71,
+        "stamina": 81,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. Tozer",
+      "number": 2,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 48,
+        "shooting": 43,
+        "passing": 58,
+        "dribbling": 44,
+        "defending": 64,
+        "physicality": 89,
+        "stamina": 90,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "D. Jones",
+      "number": 3,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 44,
+        "shooting": 58,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 66,
+        "stamina": 52,
+        "awareness": 65,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Jones",
+      "number": 4,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 54,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 58,
+        "physicality": 66,
+        "stamina": 79,
+        "awareness": 65,
+        "composure": 61
+      }
+    },
+    {
+      "name": "A. Hayden",
+      "number": 5,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 26,
+        "passing": 54,
+        "dribbling": 49,
+        "defending": 64,
+        "physicality": 82,
+        "stamina": 73,
+        "awareness": 59,
+        "composure": 55
+      }
+    },
+    {
+      "name": "R. Hall-Johnson",
+      "number": 6,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 78,
+        "shooting": 48,
+        "passing": 56,
+        "dribbling": 58,
+        "defending": 60,
+        "physicality": 65,
+        "stamina": 72,
+        "awareness": 56,
+        "composure": 55
+      }
+    },
+    {
+      "name": "L. Young",
+      "number": 7,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 67,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 60,
+        "physicality": 58,
+        "stamina": 83,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Davies",
+      "number": 8,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 73,
+        "shooting": 56,
+        "passing": 62,
+        "dribbling": 61,
+        "defending": 56,
+        "physicality": 50,
+        "stamina": 78,
+        "awareness": 58,
+        "composure": 55
+      }
+    },
+    {
+      "name": "B. Hosannah",
+      "number": 9,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 75,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 58,
+        "defending": 59,
+        "physicality": 60,
+        "stamina": 64,
+        "awareness": 54,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Reckord",
+      "number": 10,
+      "position": "LB",
+      "overall": 61,
+      "attributes": {
+        "pace": 75,
+        "shooting": 46,
+        "passing": 55,
+        "dribbling": 56,
+        "defending": 58,
+        "physicality": 68,
+        "stamina": 71,
+        "awareness": 54,
+        "composure": 57
+      }
+    },
+    {
+      "name": "H. Lennon",
+      "number": 11,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 25,
+        "passing": 52,
+        "dribbling": 45,
+        "defending": 61,
+        "physicality": 75,
+        "stamina": 59,
+        "awareness": 56,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Brisley",
+      "number": 12,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 47,
+        "shooting": 24,
+        "passing": 54,
+        "dribbling": 22,
+        "defending": 61,
+        "physicality": 73,
+        "stamina": 66,
+        "awareness": 58,
+        "composure": 62
+      }
+    },
+    {
+      "name": "D. Jarvis",
+      "number": 13,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 73,
+        "shooting": 52,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 54,
+        "physicality": 55,
+        "stamina": 67,
+        "awareness": 56,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Green",
+      "number": 14,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 78,
+        "shooting": 40,
+        "passing": 53,
+        "dribbling": 57,
+        "defending": 54,
+        "physicality": 56,
+        "stamina": 72,
+        "awareness": 53,
+        "composure": 55
+      }
+    },
+    {
+      "name": "K. Thomas",
+      "number": 15,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 75,
+        "shooting": 61,
+        "passing": 53,
+        "dribbling": 56,
+        "defending": 32,
+        "physicality": 72,
+        "stamina": 64,
+        "awareness": 56,
+        "composure": 53
+      }
+    },
+    {
+      "name": "J. Hyde",
+      "number": 16,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 65,
+        "shooting": 60,
+        "passing": 55,
+        "dribbling": 57,
+        "defending": 22,
+        "physicality": 74,
+        "stamina": 71,
+        "awareness": 58,
+        "composure": 59
+      }
+    },
+    {
+      "name": "R. Lainton",
+      "number": 17,
+      "position": "GK",
+      "overall": 60,
+      "attributes": {
+        "pace": 61,
+        "defending": 60,
+        "passing": 59,
+        "dribbling": 59,
+        "physicality": 63,
+        "stamina": 33,
+        "awareness": 57,
+        "composure": 24
+      }
+    }
+  ]
+}

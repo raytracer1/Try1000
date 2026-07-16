@@ -1,0 +1,260 @@
+{
+  "name": "Club Cerro Porteño",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Boselli",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 83,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 35,
+        "physicality": 81,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Villasanti",
+      "number": 2,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 65,
+        "physicality": 68,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Jean",
+      "number": 3,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 71,
+        "defending": 75,
+        "passing": 73,
+        "dribbling": 74,
+        "physicality": 65,
+        "stamina": 20,
+        "awareness": 50,
+        "composure": 28
+      }
+    },
+    {
+      "name": "R. Carrascal",
+      "number": 4,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 59,
+        "passing": 69,
+        "dribbling": 59,
+        "defending": 70,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Cardozo Lucena",
+      "number": 5,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 63,
+        "shooting": 44,
+        "passing": 77,
+        "dribbling": 68,
+        "defending": 71,
+        "physicality": 49,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Espínola",
+      "number": 6,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 59,
+        "shooting": 41,
+        "passing": 67,
+        "dribbling": 44,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 50
+      }
+    },
+    {
+      "name": "A. Duarte",
+      "number": 7,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 71,
+        "shooting": 32,
+        "passing": 59,
+        "dribbling": 44,
+        "defending": 75,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Carrizo",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 88,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 31,
+        "physicality": 63,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "C. Aquino",
+      "number": 9,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 67,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 29,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "E. Giménez",
+      "number": 10,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 81,
+        "shooting": 66,
+        "passing": 61,
+        "dribbling": 70,
+        "defending": 37,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 50,
+        "composure": 61
+      }
+    },
+    {
+      "name": "F. Romero",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 66,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 19,
+        "physicality": 72,
+        "stamina": 63,
+        "awareness": 65,
+        "composure": 48
+      }
+    },
+    {
+      "name": "R. Morales",
+      "number": 12,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 67,
+        "shooting": 72,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 20,
+        "physicality": 60,
+        "stamina": 53,
+        "awareness": 58,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Patiño",
+      "number": 13,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 17,
+        "passing": 63,
+        "dribbling": 30,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 64,
+        "awareness": 59,
+        "composure": 61
+      }
+    },
+    {
+      "name": "P. Adorno",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 55,
+        "shooting": 29,
+        "passing": 59,
+        "dribbling": 39,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 52,
+        "awareness": 53,
+        "composure": 47
+      }
+    },
+    {
+      "name": "F. Ovelar",
+      "number": 15,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 55,
+        "passing": 55,
+        "dribbling": 65,
+        "defending": 55,
+        "physicality": 58,
+        "stamina": 51,
+        "awareness": 55,
+        "composure": 62
+      }
+    }
+  ]
+}

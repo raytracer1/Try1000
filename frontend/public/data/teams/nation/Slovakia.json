@@ -1,0 +1,397 @@
+{
+  "name": "Slovakia",
+  "type": "nation",
+  "players": [
+    {
+      "name": "M. Škriniar",
+      "number": 1,
+      "position": "CB",
+      "overall": 86,
+      "attributes": {
+        "pace": 84,
+        "shooting": 42,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 88,
+        "physicality": 86,
+        "stamina": 79,
+        "awareness": 86,
+        "composure": 87
+      }
+    },
+    {
+      "name": "M. Dúbravka",
+      "number": 2,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 44,
+        "shooting": 10,
+        "passing": 48,
+        "dribbling": 19,
+        "defending": 15,
+        "physicality": 60,
+        "stamina": 38,
+        "awareness": 75,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Hamšík",
+      "number": 3,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 67,
+        "shooting": 73,
+        "passing": 83,
+        "dribbling": 80,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 84
+      }
+    },
+    {
+      "name": "21 M. Škrtel",
+      "number": 4,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 52,
+        "shooting": 35,
+        "passing": 63,
+        "dribbling": 46,
+        "defending": 79,
+        "physicality": 89,
+        "stamina": 67,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Kucka",
+      "number": 5,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 57,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 77,
+        "physicality": 87,
+        "stamina": 86,
+        "awareness": 79,
+        "composure": 75
+      }
+    },
+    {
+      "name": "S. Lobotka",
+      "number": 6,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 60,
+        "shooting": 64,
+        "passing": 84,
+        "dribbling": 77,
+        "defending": 76,
+        "physicality": 56,
+        "stamina": 83,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "O. Duda",
+      "number": 7,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 59,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 62,
+        "physicality": 57,
+        "stamina": 84,
+        "awareness": 73,
+        "composure": 81
+      }
+    },
+    {
+      "name": "D. Hancko",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 43,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 75,
+        "physicality": 79,
+        "stamina": 79,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "I. Schranz",
+      "number": 9,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 85,
+        "shooting": 77,
+        "passing": 66,
+        "dribbling": 72,
+        "defending": 25,
+        "physicality": 73,
+        "stamina": 78,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "P. Hrošovský",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 73,
+        "physicality": 57,
+        "stamina": 81,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Rusnák",
+      "number": 11,
+      "position": "CAM",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 49,
+        "physicality": 62,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "P. Pekarík",
+      "number": 12,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 60,
+        "shooting": 35,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 76,
+        "physicality": 62,
+        "stamina": 79,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "M. Valjent",
+      "number": 13,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 25,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 80,
+        "physicality": 83,
+        "stamina": 83,
+        "awareness": 64,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Hromada",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 59,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 68,
+        "stamina": 84,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "L. Bénes",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 60,
+        "shooting": 64,
+        "passing": 79,
+        "dribbling": 74,
+        "defending": 50,
+        "physicality": 59,
+        "stamina": 70,
+        "awareness": 73,
+        "composure": 60
+      }
+    },
+    {
+      "name": "F. Kiss",
+      "number": 16,
+      "position": "CDM",
+      "overall": 73,
+      "attributes": {
+        "pace": 34,
+        "shooting": 57,
+        "passing": 75,
+        "dribbling": 66,
+        "defending": 71,
+        "physicality": 83,
+        "stamina": 88,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Rodák",
+      "number": 17,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 43,
+        "shooting": 20,
+        "passing": 28,
+        "dribbling": 15,
+        "defending": 17,
+        "physicality": 68,
+        "stamina": 27,
+        "awareness": 71,
+        "composure": 51
+      }
+    },
+    {
+      "name": "M. Bero",
+      "number": 18,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 75,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 66,
+        "physicality": 80,
+        "stamina": 88,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Greguš",
+      "number": 19,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 61,
+        "passing": 76,
+        "dribbling": 69,
+        "defending": 69,
+        "physicality": 73,
+        "stamina": 77,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 M. Stoch",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 30,
+        "physicality": 44,
+        "stamina": 62,
+        "awareness": 53,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Štetina",
+      "number": 21,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 21,
+        "passing": 68,
+        "dribbling": 59,
+        "defending": 73,
+        "physicality": 88,
+        "stamina": 60,
+        "awareness": 64,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Greif",
+      "number": 22,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 22,
+        "shooting": 9,
+        "passing": 25,
+        "dribbling": 10,
+        "defending": 11,
+        "physicality": 60,
+        "stamina": 17,
+        "awareness": 66,
+        "composure": 32
+      }
+    },
+    {
+      "name": "L. Haraslín",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 80,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 41,
+        "physicality": 61,
+        "stamina": 78,
+        "awareness": 64,
+        "composure": 65
+      }
+    }
+  ]
+}

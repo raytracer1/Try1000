@@ -1,0 +1,294 @@
+{
+  "name": "IF Elfsborg",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Larsson",
+      "number": 1,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 81,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 71,
+        "stamina": 86,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Rømer",
+      "number": 2,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 64,
+        "shooting": 54,
+        "passing": 68,
+        "dribbling": 62,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Olsson",
+      "number": 3,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 61,
+        "shooting": 48,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 55,
+        "physicality": 72,
+        "stamina": 77,
+        "awareness": 60,
+        "composure": 72
+      }
+    },
+    {
+      "name": "T. Rönning",
+      "number": 4,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "defending": 71,
+        "passing": 69,
+        "dribbling": 69,
+        "physicality": 59,
+        "stamina": 45,
+        "awareness": 58,
+        "composure": 36
+      }
+    },
+    {
+      "name": "F. Holst",
+      "number": 5,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 81,
+        "shooting": 55,
+        "passing": 71,
+        "dribbling": 63,
+        "defending": 60,
+        "physicality": 63,
+        "stamina": 84,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Strand",
+      "number": 6,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 87,
+        "shooting": 27,
+        "passing": 62,
+        "dribbling": 60,
+        "defending": 60,
+        "physicality": 56,
+        "stamina": 80,
+        "awareness": 55,
+        "composure": 51
+      }
+    },
+    {
+      "name": "P. Frick",
+      "number": 7,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 55,
+        "defending": 34,
+        "physicality": 85,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Holmén",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 60,
+        "shooting": 61,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 69,
+        "stamina": 49,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "20 A. Dyer",
+      "number": 9,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 71,
+        "shooting": 62,
+        "passing": 63,
+        "dribbling": 58,
+        "defending": 57,
+        "physicality": 63,
+        "stamina": 91,
+        "awareness": 65,
+        "composure": 61
+      }
+    },
+    {
+      "name": "R. Alm",
+      "number": 10,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 81,
+        "shooting": 61,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 37,
+        "physicality": 59,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "L. Väisänen",
+      "number": 11,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 29,
+        "passing": 56,
+        "dribbling": 54,
+        "defending": 67,
+        "physicality": 70,
+        "stamina": 61,
+        "awareness": 63,
+        "composure": 58
+      }
+    },
+    {
+      "name": "M. Jarjué",
+      "number": 12,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 67,
+        "shooting": 34,
+        "passing": 61,
+        "dribbling": 54,
+        "defending": 67,
+        "physicality": 88,
+        "stamina": 65,
+        "awareness": 54,
+        "composure": 52
+      }
+    },
+    {
+      "name": "20 J. Jönsson",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 42,
+        "shooting": 34,
+        "passing": 58,
+        "dribbling": 45,
+        "defending": 58,
+        "physicality": 77,
+        "stamina": 30,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Okkels",
+      "number": 14,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 82,
+        "shooting": 58,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 25,
+        "physicality": 63,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Ndione",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 55,
+        "dribbling": 62,
+        "defending": 45,
+        "physicality": 84,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "19 E. Bajrami",
+      "number": 16,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 63,
+        "shooting": 59,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 31,
+        "physicality": 58,
+        "stamina": 51,
+        "awareness": 55,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Guðjohnsen",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 52,
+        "shooting": 64,
+        "passing": 52,
+        "dribbling": 54,
+        "defending": 25,
+        "physicality": 78,
+        "stamina": 56,
+        "awareness": 61,
+        "composure": 57
+      }
+    }
+  ]
+}

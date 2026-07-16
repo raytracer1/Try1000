@@ -1,0 +1,396 @@
+{
+  "name": "Stade de Reims",
+  "type": "club",
+  "players": [
+    {
+      "name": "P. Rajković",
+      "number": 1,
+      "position": "GK",
+      "overall": 78,
+      "attributes": {
+        "pace": 77,
+        "defending": 81,
+        "passing": 76,
+        "dribbling": 79,
+        "physicality": 66,
+        "stamina": 26,
+        "awareness": 73,
+        "composure": 32
+      }
+    },
+    {
+      "name": "Y. Abdelhamid",
+      "number": 2,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 31,
+        "shooting": 25,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 80,
+        "physicality": 85,
+        "stamina": 79,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "T. Foket",
+      "number": 3,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 76,
+        "physicality": 71,
+        "stamina": 90,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "G. Konan",
+      "number": 4,
+      "position": "LB",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "shooting": 43,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 67,
+        "stamina": 82,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Zeneli",
+      "number": 5,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 81,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 83,
+        "defending": 33,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "V. Berisha",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 66,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 58,
+        "physicality": 71,
+        "stamina": 85,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "M. Cafaro",
+      "number": 7,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "shooting": 66,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 41,
+        "physicality": 56,
+        "stamina": 71,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Matusiwa",
+      "number": 8,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 59,
+        "shooting": 38,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 83,
+        "awareness": 71,
+        "composure": 66
+      }
+    },
+    {
+      "name": "M. van Bergen",
+      "number": 9,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 92,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 74,
+        "defending": 21,
+        "physicality": 40,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "W. Faes",
+      "number": 10,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 50,
+        "shooting": 31,
+        "passing": 70,
+        "dribbling": 53,
+        "defending": 75,
+        "physicality": 79,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Doumbia",
+      "number": 11,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 81,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 37,
+        "physicality": 63,
+        "stamina": 74,
+        "awareness": 67,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Munetsi",
+      "number": 12,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 59,
+        "shooting": 41,
+        "passing": 74,
+        "dribbling": 65,
+        "defending": 73,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 66,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Gravillon",
+      "number": 13,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 36,
+        "passing": 62,
+        "dribbling": 48,
+        "defending": 73,
+        "physicality": 86,
+        "stamina": 57,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "N. Mbuku",
+      "number": 14,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 65,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 34,
+        "physicality": 48,
+        "stamina": 60,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "N. Penneteau",
+      "number": 15,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 27,
+        "shooting": 9,
+        "passing": 33,
+        "dribbling": 14,
+        "defending": 11,
+        "physicality": 63,
+        "stamina": 26,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Moreto Cassamá",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 51,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 68,
+        "physicality": 51,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Donis",
+      "number": 17,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 81,
+        "shooting": 69,
+        "passing": 64,
+        "dribbling": 73,
+        "defending": 18,
+        "physicality": 62,
+        "stamina": 62,
+        "awareness": 67,
+        "composure": 61
+      }
+    },
+    {
+      "name": "E. Touré",
+      "number": 18,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 14,
+        "physicality": 73,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "I. Kebbal",
+      "number": 19,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 62,
+        "passing": 64,
+        "dribbling": 72,
+        "defending": 20,
+        "physicality": 31,
+        "stamina": 53,
+        "awareness": 53,
+        "composure": 56
+      }
+    },
+    {
+      "name": "F. Doucouré",
+      "number": 20,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 79,
+        "shooting": 31,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 64,
+        "physicality": 50,
+        "stamina": 65,
+        "awareness": 56,
+        "composure": 47
+      }
+    },
+    {
+      "name": "Y. Diouf",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 44,
+        "shooting": 8,
+        "passing": 35,
+        "dribbling": 12,
+        "defending": 11,
+        "physicality": 52,
+        "stamina": 44,
+        "awareness": 54,
+        "composure": 44
+      }
+    },
+    {
+      "name": "D. Lopy",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 59,
+        "shooting": 48,
+        "passing": 70,
+        "dribbling": 62,
+        "defending": 60,
+        "physicality": 75,
+        "stamina": 67,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "A. Flips",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 61,
+        "shooting": 53,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 49,
+        "physicality": 55,
+        "stamina": 53,
+        "awareness": 55,
+        "composure": 61
+      }
+    }
+  ]
+}

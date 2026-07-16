@@ -1,0 +1,312 @@
+{
+  "name": "Western Sydney Wanderers",
+  "type": "club",
+  "players": [
+    {
+      "name": "R. Williams",
+      "number": 1,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 61,
+        "shooting": 49,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 68,
+        "physicality": 81,
+        "stamina": 76,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "20 A. Meier",
+      "number": 2,
+      "position": "ST",
+      "overall": 70,
+      "attributes": {
+        "pace": 34,
+        "shooting": 74,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 44,
+        "physicality": 85,
+        "stamina": 42,
+        "awareness": 70,
+        "composure": 75
+      }
+    },
+    {
+      "name": "K. Baccus",
+      "number": 3,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 71,
+        "shooting": 41,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 70,
+        "physicality": 59,
+        "stamina": 85,
+        "awareness": 70,
+        "composure": 63
+      }
+    },
+    {
+      "name": "S. Ugarković",
+      "number": 4,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 71,
+        "shooting": 38,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 66,
+        "physicality": 75,
+        "stamina": 87,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "T. Hemed",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 49,
+        "shooting": 74,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 37,
+        "physicality": 80,
+        "stamina": 64,
+        "awareness": 72,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 G. Dorrans",
+      "number": 6,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 57,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 55,
+        "physicality": 66,
+        "stamina": 66,
+        "awareness": 69,
+        "composure": 77
+      }
+    },
+    {
+      "name": "T. Antonis",
+      "number": 7,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 63,
+        "shooting": 60,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 62,
+        "physicality": 66,
+        "stamina": 64,
+        "awareness": 65,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Traoré",
+      "number": 8,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 72,
+        "shooting": 44,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 62,
+        "physicality": 77,
+        "stamina": 78,
+        "awareness": 66,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Z. Gordon",
+      "number": 9,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 31,
+        "passing": 54,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 79,
+        "stamina": 81,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Troisi",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 61,
+        "shooting": 60,
+        "passing": 71,
+        "dribbling": 63,
+        "defending": 55,
+        "physicality": 71,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 S. McDonald",
+      "number": 11,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 62,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 46,
+        "physicality": 71,
+        "stamina": 65,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "B. Ibini",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 84,
+        "shooting": 59,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 42,
+        "physicality": 82,
+        "stamina": 31,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "T. Russell",
+      "number": 13,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 75,
+        "shooting": 39,
+        "passing": 59,
+        "dribbling": 58,
+        "defending": 56,
+        "physicality": 61,
+        "stamina": 80,
+        "awareness": 55,
+        "composure": 53
+      }
+    },
+    {
+      "name": "21 S. Cox",
+      "number": 14,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 55,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 61,
+        "defending": 31,
+        "physicality": 72,
+        "stamina": 79,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 B. Kamau",
+      "number": 15,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 88,
+        "shooting": 55,
+        "passing": 55,
+        "dribbling": 61,
+        "defending": 57,
+        "physicality": 44,
+        "stamina": 67,
+        "awareness": 51,
+        "composure": 53
+      }
+    },
+    {
+      "name": "T. Aquilina",
+      "number": 16,
+      "position": "LB",
+      "overall": 62,
+      "attributes": {
+        "pace": 82,
+        "shooting": 20,
+        "passing": 59,
+        "dribbling": 60,
+        "defending": 60,
+        "physicality": 59,
+        "stamina": 78,
+        "awareness": 50,
+        "composure": 47
+      }
+    },
+    {
+      "name": "M. Natta",
+      "number": 17,
+      "position": "CB",
+      "overall": 60,
+      "attributes": {
+        "pace": 77,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 53,
+        "defending": 60,
+        "physicality": 76,
+        "stamina": 72,
+        "awareness": 55,
+        "composure": 51
+      }
+    },
+    {
+      "name": "R. Najjarine",
+      "number": 18,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 65,
+        "shooting": 48,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 42,
+        "physicality": 56,
+        "stamina": 41,
+        "awareness": 53,
+        "composure": 58
+      }
+    }
+  ]
+}

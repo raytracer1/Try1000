@@ -1,0 +1,396 @@
+{
+  "name": "Everton",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Digne",
+      "number": 1,
+      "position": "LB",
+      "overall": 84,
+      "attributes": {
+        "pace": 77,
+        "shooting": 60,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 83,
+        "physicality": 69,
+        "stamina": 86,
+        "awareness": 83,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Allan",
+      "number": 2,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 68,
+        "shooting": 73,
+        "passing": 83,
+        "dribbling": 81,
+        "defending": 87,
+        "physicality": 70,
+        "stamina": 92,
+        "awareness": 84,
+        "composure": 85
+      }
+    },
+    {
+      "name": "J. Pickford",
+      "number": 3,
+      "position": "GK",
+      "overall": 83,
+      "attributes": {
+        "pace": 83,
+        "defending": 86,
+        "passing": 78,
+        "dribbling": 80,
+        "physicality": 70,
+        "stamina": 45,
+        "awareness": 80,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Richarlison",
+      "number": 4,
+      "position": "LW",
+      "overall": 82,
+      "attributes": {
+        "pace": 81,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 86,
+        "defending": 58,
+        "physicality": 77,
+        "stamina": 83,
+        "awareness": 82,
+        "composure": 81
+      }
+    },
+    {
+      "name": "J. Rodríguez",
+      "number": 5,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 51,
+        "shooting": 84,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 41,
+        "physicality": 64,
+        "stamina": 55,
+        "awareness": 83,
+        "composure": 87
+      }
+    },
+    {
+      "name": "D. Calvert-Lewin",
+      "number": 6,
+      "position": "ST",
+      "overall": 81,
+      "attributes": {
+        "pace": 89,
+        "shooting": 82,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 31,
+        "physicality": 83,
+        "stamina": 80,
+        "awareness": 81,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Keane",
+      "number": 7,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 58,
+        "shooting": 50,
+        "passing": 76,
+        "dribbling": 64,
+        "defending": 83,
+        "physicality": 86,
+        "stamina": 68,
+        "awareness": 77,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Doucouré",
+      "number": 8,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 74,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 80,
+        "physicality": 80,
+        "stamina": 89,
+        "awareness": 79,
+        "composure": 74
+      }
+    },
+    {
+      "name": "G. Sigurðsson",
+      "number": 9,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 53,
+        "shooting": 74,
+        "passing": 82,
+        "dribbling": 78,
+        "defending": 61,
+        "physicality": 64,
+        "stamina": 77,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Y. Mina",
+      "number": 10,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 54,
+        "shooting": 51,
+        "passing": 76,
+        "dribbling": 62,
+        "defending": 81,
+        "physicality": 89,
+        "stamina": 66,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "S. Coleman",
+      "number": 11,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 66,
+        "shooting": 61,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 81,
+        "physicality": 66,
+        "stamina": 71,
+        "awareness": 77,
+        "composure": 82
+      }
+    },
+    {
+      "name": "J. Gbamin",
+      "number": 12,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 78,
+        "shooting": 40,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 79,
+        "physicality": 79,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "André Gomes",
+      "number": 13,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 55,
+        "shooting": 62,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 68,
+        "physicality": 77,
+        "stamina": 70,
+        "awareness": 75,
+        "composure": 84
+      }
+    },
+    {
+      "name": "A. Townsend",
+      "number": 14,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "shooting": 69,
+        "passing": 75,
+        "dribbling": 81,
+        "defending": 35,
+        "physicality": 62,
+        "stamina": 74,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Rondón",
+      "number": 15,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 71,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 28,
+        "physicality": 87,
+        "stamina": 74,
+        "awareness": 76,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Holgate",
+      "number": 16,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 75,
+        "shooting": 37,
+        "passing": 77,
+        "dribbling": 67,
+        "defending": 80,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 74
+      }
+    },
+    {
+      "name": "B. Godfrey",
+      "number": 17,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 90,
+        "shooting": 35,
+        "passing": 71,
+        "dribbling": 62,
+        "defending": 78,
+        "physicality": 83,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Iwobi",
+      "number": 18,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 63,
+        "passing": 77,
+        "dribbling": 83,
+        "defending": 41,
+        "physicality": 72,
+        "stamina": 74,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 Bernard",
+      "number": 19,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "shooting": 64,
+        "passing": 73,
+        "dribbling": 81,
+        "defending": 42,
+        "physicality": 30,
+        "stamina": 62,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "20 L. Baines",
+      "number": 20,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 53,
+        "shooting": 59,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 77,
+        "physicality": 55,
+        "stamina": 55,
+        "awareness": 75,
+        "composure": 82
+      }
+    },
+    {
+      "name": "F. Delph",
+      "number": 21,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 58,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 76,
+        "physicality": 60,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "T. Davies",
+      "number": 22,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 64,
+        "shooting": 64,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 73,
+        "physicality": 65,
+        "stamina": 77,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "D. Gray",
+      "number": 23,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 84,
+        "shooting": 75,
+        "passing": 68,
+        "dribbling": 83,
+        "defending": 45,
+        "physicality": 56,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 60
+      }
+    }
+  ]
+}

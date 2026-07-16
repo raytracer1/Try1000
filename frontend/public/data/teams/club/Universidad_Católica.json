@@ -1,0 +1,363 @@
+{
+  "name": "Universidad Católica",
+  "type": "club",
+  "players": [
+    {
+      "name": "D. Buonanotte",
+      "number": 1,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 85,
+        "shooting": 62,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 31,
+        "physicality": 29,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Fuenzalida",
+      "number": 2,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 86,
+        "shooting": 59,
+        "passing": 72,
+        "dribbling": 79,
+        "defending": 66,
+        "physicality": 62,
+        "stamina": 82,
+        "awareness": 76,
+        "composure": 69
+      }
+    },
+    {
+      "name": "E. Puch",
+      "number": 3,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 82,
+        "shooting": 71,
+        "passing": 68,
+        "dribbling": 77,
+        "defending": 44,
+        "physicality": 64,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "F. Zampedri",
+      "number": 4,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 69,
+        "shooting": 80,
+        "passing": 64,
+        "dribbling": 74,
+        "defending": 19,
+        "physicality": 88,
+        "stamina": 50,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Aued",
+      "number": 5,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 60,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 73,
+        "physicality": 77,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "F. Gutiérrez",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 63,
+        "shooting": 66,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 66,
+        "physicality": 55,
+        "stamina": 64,
+        "awareness": 74,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 B. Kuscevic",
+      "number": 7,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 35,
+        "passing": 68,
+        "dribbling": 56,
+        "defending": 74,
+        "physicality": 82,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Parot",
+      "number": 8,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 55,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 66,
+        "physicality": 81,
+        "stamina": 71,
+        "awareness": 59,
+        "composure": 66
+      }
+    },
+    {
+      "name": "G. Lezcano",
+      "number": 9,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 63,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 18,
+        "physicality": 70,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 71
+      }
+    },
+    {
+      "name": "V. Huerta",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 50,
+        "shooting": 16,
+        "passing": 52,
+        "dribbling": 28,
+        "defending": 72,
+        "physicality": 87,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 61
+      }
+    },
+    {
+      "name": "J. Fuentes",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 48,
+        "passing": 70,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 84,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Leiva",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 75,
+        "shooting": 63,
+        "passing": 74,
+        "dribbling": 69,
+        "defending": 50,
+        "physicality": 69,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 60
+      }
+    },
+    {
+      "name": "I. Saavedra",
+      "number": 13,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 56,
+        "passing": 71,
+        "dribbling": 67,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 77,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "R. Rebolledo",
+      "number": 14,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 74,
+        "shooting": 23,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. Ampuero",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 60,
+        "shooting": 16,
+        "passing": 68,
+        "dribbling": 36,
+        "defending": 72,
+        "physicality": 81,
+        "stamina": 64,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Cornejo",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 54,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 C. Munder",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 85,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 68,
+        "defending": 32,
+        "physicality": 61,
+        "stamina": 70,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "T. Asta-Buruaga",
+      "number": 18,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 67,
+        "shooting": 37,
+        "passing": 56,
+        "dribbling": 45,
+        "defending": 70,
+        "physicality": 72,
+        "stamina": 71,
+        "awareness": 60,
+        "composure": 52
+      }
+    },
+    {
+      "name": "D. Valencia",
+      "number": 19,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 61,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 16,
+        "physicality": 66,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Nuñez",
+      "number": 20,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 63,
+        "shooting": 55,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 57,
+        "physicality": 57,
+        "stamina": 68,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "C. Montes",
+      "number": 21,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 76,
+        "shooting": 57,
+        "passing": 53,
+        "dribbling": 66,
+        "defending": 20,
+        "physicality": 42,
+        "stamina": 58,
+        "awareness": 56,
+        "composure": 48
+      }
+    }
+  ]
+}

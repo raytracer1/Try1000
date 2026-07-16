@@ -1,0 +1,395 @@
+{
+  "name": "Colorado Rapids",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Barrios",
+      "number": 1,
+      "position": "RW",
+      "overall": 74,
+      "attributes": {
+        "pace": 90,
+        "shooting": 63,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 31,
+        "physicality": 36,
+        "stamina": 78,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Y. Namli",
+      "number": 2,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 72,
+        "dribbling": 79,
+        "defending": 45,
+        "physicality": 62,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "K. Acosta",
+      "number": 3,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 67,
+        "physicality": 70,
+        "stamina": 90,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Price",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 43,
+        "shooting": 37,
+        "passing": 75,
+        "dribbling": 59,
+        "defending": 65,
+        "physicality": 69,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "19 S. Gashi",
+      "number": 5,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 55,
+        "physicality": 69,
+        "stamina": 67,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "M. Kaye",
+      "number": 6,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 55,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 71,
+        "physicality": 72,
+        "stamina": 85,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "20 T. Howard",
+      "number": 7,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "defending": 68,
+        "passing": 72,
+        "dribbling": 71,
+        "physicality": 74,
+        "stamina": 26,
+        "awareness": 66,
+        "composure": 54
+      }
+    },
+    {
+      "name": "D. Rubio",
+      "number": 8,
+      "position": "ST",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 59,
+        "physicality": 69,
+        "stamina": 79,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "K. Rosenberry",
+      "number": 9,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 48,
+        "passing": 66,
+        "dribbling": 64,
+        "defending": 63,
+        "physicality": 68,
+        "stamina": 88,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "C. Bassett",
+      "number": 10,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 63,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 59,
+        "physicality": 63,
+        "stamina": 73,
+        "awareness": 67,
+        "composure": 50
+      }
+    },
+    {
+      "name": "A. Trusty",
+      "number": 11,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 77,
+        "shooting": 29,
+        "passing": 61,
+        "dribbling": 59,
+        "defending": 70,
+        "physicality": 84,
+        "stamina": 75,
+        "awareness": 66,
+        "composure": 62
+      }
+    },
+    {
+      "name": "L. Abubakar",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 31,
+        "passing": 65,
+        "dribbling": 41,
+        "defending": 70,
+        "physicality": 86,
+        "stamina": 68,
+        "awareness": 67,
+        "composure": 54
+      }
+    },
+    {
+      "name": "S. Beitashour",
+      "number": 13,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 45,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 71,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "D. Wilson",
+      "number": 14,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 53,
+        "shooting": 44,
+        "passing": 63,
+        "dribbling": 58,
+        "defending": 67,
+        "physicality": 84,
+        "stamina": 77,
+        "awareness": 58,
+        "composure": 63
+      }
+    },
+    {
+      "name": "W. Yarbrough",
+      "number": 15,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 67,
+        "defending": 68,
+        "passing": 62,
+        "dribbling": 68,
+        "physicality": 75,
+        "stamina": 34,
+        "awareness": 67,
+        "composure": 48
+      }
+    },
+    {
+      "name": "19 Y. Boli",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 82,
+        "shooting": 65,
+        "passing": 58,
+        "dribbling": 68,
+        "defending": 21,
+        "physicality": 70,
+        "stamina": 62,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Andre Shinyashiki",
+      "number": 17,
+      "position": "LW",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 73,
+        "defending": 35,
+        "physicality": 62,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Lewis",
+      "number": 18,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 36,
+        "physicality": 59,
+        "stamina": 57,
+        "awareness": 53,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Badji",
+      "number": 19,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 65,
+        "passing": 59,
+        "dribbling": 67,
+        "defending": 39,
+        "physicality": 78,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 61
+      }
+    },
+    {
+      "name": "C. Warner",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 53,
+        "physicality": 70,
+        "stamina": 69,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "D. Moor",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 31,
+        "shooting": 39,
+        "passing": 67,
+        "dribbling": 57,
+        "defending": 63,
+        "physicality": 72,
+        "stamina": 50,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "K. Ford",
+      "number": 22,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 29,
+        "passing": 50,
+        "dribbling": 39,
+        "defending": 65,
+        "physicality": 88,
+        "stamina": 68,
+        "awareness": 62,
+        "composure": 48
+      }
+    },
+    {
+      "name": "B. Galván",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 74,
+        "shooting": 60,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 39,
+        "physicality": 54,
+        "stamina": 63,
+        "awareness": 55,
+        "composure": 54
+      }
+    }
+  ]
+}

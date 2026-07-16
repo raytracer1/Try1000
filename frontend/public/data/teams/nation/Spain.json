@@ -1,0 +1,396 @@
+{
+  "name": "Spain",
+  "type": "nation",
+  "players": [
+    {
+      "name": "Sergio Ramos",
+      "number": 1,
+      "position": "CB",
+      "overall": 88,
+      "attributes": {
+        "pace": 69,
+        "shooting": 65,
+        "passing": 82,
+        "dribbling": 65,
+        "defending": 89,
+        "physicality": 84,
+        "stamina": 78,
+        "awareness": 92,
+        "composure": 88
+      }
+    },
+    {
+      "name": "Marcos Llorente",
+      "number": 2,
+      "position": "RW",
+      "overall": 86,
+      "attributes": {
+        "pace": 90,
+        "shooting": 81,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 80,
+        "physicality": 79,
+        "stamina": 90,
+        "awareness": 86,
+        "composure": 83
+      }
+    },
+    {
+      "name": "Jordi Alba",
+      "number": 3,
+      "position": "LB",
+      "overall": 86,
+      "attributes": {
+        "pace": 86,
+        "shooting": 73,
+        "passing": 85,
+        "dribbling": 81,
+        "defending": 78,
+        "physicality": 61,
+        "stamina": 87,
+        "awareness": 80,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Thiago",
+      "number": 4,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 55,
+        "shooting": 68,
+        "passing": 90,
+        "dribbling": 90,
+        "defending": 71,
+        "physicality": 59,
+        "stamina": 74,
+        "awareness": 84,
+        "composure": 88
+      }
+    },
+    {
+      "name": "Parejo",
+      "number": 5,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 49,
+        "shooting": 83,
+        "passing": 92,
+        "dribbling": 82,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 78,
+        "awareness": 80,
+        "composure": 85
+      }
+    },
+    {
+      "name": "Gerard Moreno",
+      "number": 6,
+      "position": "ST",
+      "overall": 86,
+      "attributes": {
+        "pace": 78,
+        "shooting": 89,
+        "passing": 81,
+        "dribbling": 86,
+        "defending": 41,
+        "physicality": 75,
+        "stamina": 79,
+        "awareness": 89,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Rodri",
+      "number": 7,
+      "position": "CDM",
+      "overall": 86,
+      "attributes": {
+        "pace": 62,
+        "shooting": 64,
+        "passing": 85,
+        "dribbling": 78,
+        "defending": 84,
+        "physicality": 82,
+        "stamina": 87,
+        "awareness": 80,
+        "composure": 83
+      }
+    },
+    {
+      "name": "Sergio Busquets",
+      "number": 8,
+      "position": "CDM",
+      "overall": 86,
+      "attributes": {
+        "pace": 43,
+        "shooting": 67,
+        "passing": 87,
+        "dribbling": 81,
+        "defending": 82,
+        "physicality": 72,
+        "stamina": 78,
+        "awareness": 86,
+        "composure": 90
+      }
+    },
+    {
+      "name": "A. Laporte",
+      "number": 9,
+      "position": "CB",
+      "overall": 86,
+      "attributes": {
+        "pace": 67,
+        "shooting": 45,
+        "passing": 82,
+        "dribbling": 63,
+        "defending": 87,
+        "physicality": 84,
+        "stamina": 72,
+        "awareness": 87,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Koke",
+      "number": 10,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 69,
+        "shooting": 72,
+        "passing": 86,
+        "dribbling": 80,
+        "defending": 81,
+        "physicality": 75,
+        "stamina": 93,
+        "awareness": 88,
+        "composure": 86
+      }
+    },
+    {
+      "name": "Carvajal",
+      "number": 11,
+      "position": "RB",
+      "overall": 85,
+      "attributes": {
+        "pace": 80,
+        "shooting": 51,
+        "passing": 83,
+        "dribbling": 78,
+        "defending": 82,
+        "physicality": 74,
+        "stamina": 89,
+        "awareness": 83,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Oyarzabal",
+      "number": 12,
+      "position": "LW",
+      "overall": 85,
+      "attributes": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 32,
+        "physicality": 57,
+        "stamina": 82,
+        "awareness": 81,
+        "composure": 83
+      }
+    },
+    {
+      "name": "David Silva",
+      "number": 13,
+      "position": "CAM",
+      "overall": 85,
+      "attributes": {
+        "pace": 57,
+        "shooting": 72,
+        "passing": 90,
+        "dribbling": 86,
+        "defending": 53,
+        "physicality": 45,
+        "stamina": 66,
+        "awareness": 85,
+        "composure": 91
+      }
+    },
+    {
+      "name": "Jesús Navas",
+      "number": 14,
+      "position": "RB",
+      "overall": 84,
+      "attributes": {
+        "pace": 84,
+        "shooting": 65,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 77,
+        "physicality": 39,
+        "stamina": 82,
+        "awareness": 84,
+        "composure": 82
+      }
+    },
+    {
+      "name": "Iago Aspas",
+      "number": 15,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 86,
+        "shooting": 89,
+        "passing": 80,
+        "dribbling": 87,
+        "defending": 21,
+        "physicality": 60,
+        "stamina": 69,
+        "awareness": 84,
+        "composure": 85
+      }
+    },
+    {
+      "name": "Luis Alberto",
+      "number": 16,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 59,
+        "shooting": 77,
+        "passing": 92,
+        "dribbling": 85,
+        "defending": 58,
+        "physicality": 64,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Piqué",
+      "number": 17,
+      "position": "CB",
+      "overall": 84,
+      "attributes": {
+        "pace": 64,
+        "shooting": 65,
+        "passing": 80,
+        "dribbling": 63,
+        "defending": 85,
+        "physicality": 86,
+        "stamina": 63,
+        "awareness": 85,
+        "composure": 87
+      }
+    },
+    {
+      "name": "De Gea",
+      "number": 18,
+      "position": "GK",
+      "overall": 84,
+      "attributes": {
+        "pace": 86,
+        "defending": 87,
+        "passing": 79,
+        "dribbling": 79,
+        "physicality": 55,
+        "stamina": 43,
+        "awareness": 83,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Merino",
+      "number": 19,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 75,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 83,
+        "defending": 84,
+        "physicality": 79,
+        "stamina": 84,
+        "awareness": 84,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Angeliño",
+      "number": 20,
+      "position": "LB",
+      "overall": 83,
+      "attributes": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 74,
+        "physicality": 60,
+        "stamina": 85,
+        "awareness": 82,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Canales",
+      "number": 21,
+      "position": "LW",
+      "overall": 83,
+      "attributes": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 71,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 83,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Gayà",
+      "number": 22,
+      "position": "LB",
+      "overall": 83,
+      "attributes": {
+        "pace": 85,
+        "shooting": 61,
+        "passing": 81,
+        "dribbling": 79,
+        "defending": 82,
+        "physicality": 66,
+        "stamina": 87,
+        "awareness": 84,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Muniain",
+      "number": 23,
+      "position": "LW",
+      "overall": 83,
+      "attributes": {
+        "pace": 78,
+        "shooting": 79,
+        "passing": 85,
+        "dribbling": 87,
+        "defending": 55,
+        "physicality": 49,
+        "stamina": 77,
+        "awareness": 80,
+        "composure": 82
+      }
+    }
+  ]
+}

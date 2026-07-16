@@ -1,0 +1,243 @@
+{
+  "name": "Dundee FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Griffiths",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 73,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 16,
+        "physicality": 60,
+        "stamina": 53,
+        "awareness": 64,
+        "composure": 72
+      }
+    },
+    {
+      "name": "19 K. Miller",
+      "number": 2,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 23,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 82
+      }
+    },
+    {
+      "name": "C. Adam",
+      "number": 3,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 33,
+        "shooting": 62,
+        "passing": 70,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 83,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "18 Aurtenetxe",
+      "number": 4,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 68,
+        "shooting": 47,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 65,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "18 S. Murray",
+      "number": 5,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 86,
+        "shooting": 68,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 12,
+        "physicality": 69,
+        "stamina": 65,
+        "awareness": 59,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Cummings",
+      "number": 6,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 40,
+        "physicality": 62,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 68
+      }
+    },
+    {
+      "name": "P. McGowan",
+      "number": 7,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 73,
+        "shooting": 63,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 53,
+        "physicality": 43,
+        "stamina": 79,
+        "awareness": 63,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Kerr",
+      "number": 8,
+      "position": "RB",
+      "overall": 64,
+      "attributes": {
+        "pace": 76,
+        "shooting": 24,
+        "passing": 56,
+        "dribbling": 60,
+        "defending": 61,
+        "physicality": 73,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 50
+      }
+    },
+    {
+      "name": "P. McMullan",
+      "number": 9,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 83,
+        "shooting": 56,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 25,
+        "physicality": 34,
+        "stamina": 68,
+        "awareness": 54,
+        "composure": 51
+      }
+    },
+    {
+      "name": "R. Sweeney",
+      "number": 10,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 53,
+        "shooting": 32,
+        "passing": 55,
+        "dribbling": 51,
+        "defending": 64,
+        "physicality": 85,
+        "stamina": 75,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "D. Mullen",
+      "number": 11,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 79,
+        "shooting": 65,
+        "passing": 56,
+        "dribbling": 60,
+        "defending": 37,
+        "physicality": 69,
+        "stamina": 79,
+        "awareness": 59,
+        "composure": 57
+      }
+    },
+    {
+      "name": "C. Sheridan",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 78,
+        "shooting": 57,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 19,
+        "physicality": 83,
+        "stamina": 57,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Legzdins",
+      "number": 13,
+      "position": "GK",
+      "overall": 63,
+      "attributes": {
+        "pace": 59,
+        "defending": 64,
+        "passing": 61,
+        "dribbling": 64,
+        "physicality": 65,
+        "stamina": 31,
+        "awareness": 60,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Jakubiak",
+      "number": 14,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 79,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 12,
+        "physicality": 65,
+        "stamina": 67,
+        "awareness": 55,
+        "composure": 47
+      }
+    }
+  ]
+}

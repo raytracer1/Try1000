@@ -1,0 +1,396 @@
+{
+  "name": "Gazişehir Gaziantep F.K.",
+  "type": "club",
+  "players": [
+    {
+      "name": "20 M. Sow",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 43,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Maxim",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 64,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 80,
+        "defending": 30,
+        "physicality": 52,
+        "stamina": 64,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 K. Mirallas",
+      "number": 3,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 66,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 52,
+        "physicality": 59,
+        "stamina": 62,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "P. Djilobodji",
+      "number": 4,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 54,
+        "shooting": 32,
+        "passing": 70,
+        "dribbling": 56,
+        "defending": 76,
+        "physicality": 84,
+        "stamina": 71,
+        "awareness": 61,
+        "composure": 54
+      }
+    },
+    {
+      "name": "S. Caulker",
+      "number": 5,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 66,
+        "shooting": 28,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 74,
+        "physicality": 88,
+        "stamina": 77,
+        "awareness": 66,
+        "composure": 75
+      }
+    },
+    {
+      "name": "20 Y. Lodygin",
+      "number": 6,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 40,
+        "shooting": 16,
+        "passing": 25,
+        "dribbling": 20,
+        "defending": 16,
+        "physicality": 71,
+        "stamina": 27,
+        "awareness": 63,
+        "composure": 27
+      }
+    },
+    {
+      "name": "S. Kitsiou",
+      "number": 7,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 54,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 62,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. El Messaoudi",
+      "number": 8,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 63,
+        "physicality": 83,
+        "stamina": 75,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Demir",
+      "number": 9,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 35,
+        "physicality": 67,
+        "stamina": 66,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 A. Tetteh",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 67,
+        "shooting": 36,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 71,
+        "physicality": 88,
+        "stamina": 77,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "T. Børven",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 74,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 29,
+        "physicality": 73,
+        "stamina": 82,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "G. Güvenç",
+      "number": 12,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 71,
+        "defending": 74,
+        "passing": 70,
+        "dribbling": 70,
+        "physicality": 68,
+        "stamina": 37,
+        "awareness": 64,
+        "composure": 30
+      }
+    },
+    {
+      "name": "A. Sagal",
+      "number": 13,
+      "position": "RW",
+      "overall": 70,
+      "attributes": {
+        "pace": 75,
+        "shooting": 62,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 56,
+        "physicality": 77,
+        "stamina": 90,
+        "awareness": 63,
+        "composure": 69
+      }
+    },
+    {
+      "name": "R. Niyaz",
+      "number": 14,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 73,
+        "shooting": 59,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 67,
+        "physicality": 50,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "P. Olkowski",
+      "number": 15,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 50,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Toșca",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 46,
+        "passing": 69,
+        "dribbling": 57,
+        "defending": 72,
+        "physicality": 73,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 60
+      }
+    },
+    {
+      "name": "N. Dicko",
+      "number": 17,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 84,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 38,
+        "physicality": 80,
+        "stamina": 67,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "O. Ceylan",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 77,
+        "shooting": 28,
+        "passing": 71,
+        "dribbling": 67,
+        "defending": 70,
+        "physicality": 63,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 Roderick Miranda",
+      "number": 19,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 36,
+        "shooting": 26,
+        "passing": 63,
+        "dribbling": 51,
+        "defending": 71,
+        "physicality": 86,
+        "stamina": 64,
+        "awareness": 65,
+        "composure": 57
+      }
+    },
+    {
+      "name": "E. Ersoy",
+      "number": 20,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 53,
+        "shooting": 22,
+        "passing": 62,
+        "dribbling": 53,
+        "defending": 73,
+        "physicality": 80,
+        "stamina": 71,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 André Sousa",
+      "number": 21,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 55,
+        "shooting": 61,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Merkel",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 61,
+        "shooting": 57,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 64,
+        "physicality": 60,
+        "stamina": 72,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Jefferson",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 47,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 65,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 58
+      }
+    }
+  ]
+}

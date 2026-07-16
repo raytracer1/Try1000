@@ -1,0 +1,396 @@
+{
+  "name": "Manchester City",
+  "type": "club",
+  "players": [
+    {
+      "name": "K. De Bruyne",
+      "number": 1,
+      "position": "CM",
+      "overall": 91,
+      "attributes": {
+        "pace": 76,
+        "shooting": 82,
+        "passing": 94,
+        "dribbling": 88,
+        "defending": 65,
+        "physicality": 74,
+        "stamina": 89,
+        "awareness": 91,
+        "composure": 89
+      }
+    },
+    {
+      "name": "Ederson",
+      "number": 2,
+      "position": "GK",
+      "overall": 89,
+      "attributes": {
+        "pace": 87,
+        "defending": 88,
+        "passing": 82,
+        "dribbling": 88,
+        "physicality": 78,
+        "stamina": 41,
+        "awareness": 88,
+        "composure": 70
+      }
+    },
+    {
+      "name": "R. Sterling",
+      "number": 3,
+      "position": "CM",
+      "overall": 88,
+      "attributes": {
+        "pace": 88,
+        "shooting": 85,
+        "passing": 83,
+        "dribbling": 87,
+        "defending": 53,
+        "physicality": 64,
+        "stamina": 79,
+        "awareness": 90,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Rúben Dias",
+      "number": 4,
+      "position": "CB",
+      "overall": 87,
+      "attributes": {
+        "pace": 65,
+        "shooting": 29,
+        "passing": 81,
+        "dribbling": 64,
+        "defending": 89,
+        "physicality": 88,
+        "stamina": 88,
+        "awareness": 87,
+        "composure": 81
+      }
+    },
+    {
+      "name": "João Cancelo",
+      "number": 5,
+      "position": "LB",
+      "overall": 86,
+      "attributes": {
+        "pace": 84,
+        "shooting": 68,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 82,
+        "physicality": 62,
+        "stamina": 90,
+        "awareness": 85,
+        "composure": 85
+      }
+    },
+    {
+      "name": "Bernardo Silva",
+      "number": 6,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 86,
+        "dribbling": 92,
+        "defending": 63,
+        "physicality": 54,
+        "stamina": 93,
+        "awareness": 84,
+        "composure": 87
+      }
+    },
+    {
+      "name": "Rodri",
+      "number": 7,
+      "position": "CDM",
+      "overall": 86,
+      "attributes": {
+        "pace": 62,
+        "shooting": 64,
+        "passing": 85,
+        "dribbling": 78,
+        "defending": 84,
+        "physicality": 82,
+        "stamina": 87,
+        "awareness": 80,
+        "composure": 83
+      }
+    },
+    {
+      "name": "R. Mahrez",
+      "number": 8,
+      "position": "RW",
+      "overall": 86,
+      "attributes": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 91,
+        "defending": 31,
+        "physicality": 57,
+        "stamina": 75,
+        "awareness": 81,
+        "composure": 84
+      }
+    },
+    {
+      "name": "A. Laporte",
+      "number": 9,
+      "position": "CB",
+      "overall": 86,
+      "attributes": {
+        "pace": 67,
+        "shooting": 45,
+        "passing": 82,
+        "dribbling": 63,
+        "defending": 87,
+        "physicality": 84,
+        "stamina": 72,
+        "awareness": 87,
+        "composure": 84
+      }
+    },
+    {
+      "name": "I. Gündoğan",
+      "number": 10,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 65,
+        "shooting": 80,
+        "passing": 88,
+        "dribbling": 86,
+        "defending": 75,
+        "physicality": 73,
+        "stamina": 74,
+        "awareness": 86,
+        "composure": 87
+      }
+    },
+    {
+      "name": "K. Walker",
+      "number": 11,
+      "position": "RB",
+      "overall": 85,
+      "attributes": {
+        "pace": 94,
+        "shooting": 51,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 84,
+        "physicality": 80,
+        "stamina": 86,
+        "awareness": 85,
+        "composure": 75
+      }
+    },
+    {
+      "name": "P. Foden",
+      "number": 12,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 59,
+        "physicality": 44,
+        "stamina": 79,
+        "awareness": 83,
+        "composure": 82
+      }
+    },
+    {
+      "name": "J. Grealish",
+      "number": 13,
+      "position": "LW",
+      "overall": 84,
+      "attributes": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 85,
+        "dribbling": 89,
+        "defending": 49,
+        "physicality": 61,
+        "stamina": 80,
+        "awareness": 79,
+        "composure": 88
+      }
+    },
+    {
+      "name": "Fernandinho",
+      "number": 14,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 52,
+        "shooting": 66,
+        "passing": 83,
+        "dribbling": 76,
+        "defending": 85,
+        "physicality": 75,
+        "stamina": 66,
+        "awareness": 86,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Gabriel Jesus",
+      "number": 15,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 82,
+        "shooting": 84,
+        "passing": 77,
+        "dribbling": 86,
+        "defending": 30,
+        "physicality": 69,
+        "stamina": 79,
+        "awareness": 86,
+        "composure": 79
+      }
+    },
+    {
+      "name": "J. Stones",
+      "number": 16,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 73,
+        "shooting": 52,
+        "passing": 83,
+        "dribbling": 72,
+        "defending": 85,
+        "physicality": 78,
+        "stamina": 77,
+        "awareness": 82,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Ferran Torres",
+      "number": 17,
+      "position": "ST",
+      "overall": 82,
+      "attributes": {
+        "pace": 78,
+        "shooting": 81,
+        "passing": 80,
+        "dribbling": 84,
+        "defending": 24,
+        "physicality": 70,
+        "stamina": 73,
+        "awareness": 81,
+        "composure": 82
+      }
+    },
+    {
+      "name": "O. Zinchenko",
+      "number": 18,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 71,
+        "shooting": 58,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 79,
+        "physicality": 63,
+        "stamina": 76,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "B. Mendy",
+      "number": 19,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 76,
+        "shooting": 39,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 78,
+        "physicality": 79,
+        "stamina": 71,
+        "awareness": 77,
+        "composure": 74
+      }
+    },
+    {
+      "name": "N. Aké",
+      "number": 20,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 73,
+        "shooting": 48,
+        "passing": 77,
+        "dribbling": 67,
+        "defending": 81,
+        "physicality": 76,
+        "stamina": 74,
+        "awareness": 76,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Z. Steffen",
+      "number": 21,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 52,
+        "shooting": 9,
+        "passing": 52,
+        "dribbling": 15,
+        "defending": 12,
+        "physicality": 69,
+        "stamina": 39,
+        "awareness": 72,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Carson",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 37,
+        "shooting": 19,
+        "passing": 25,
+        "dribbling": 17,
+        "defending": 15,
+        "physicality": 70,
+        "stamina": 28,
+        "awareness": 62,
+        "composure": 38
+      }
+    },
+    {
+      "name": "Kayky",
+      "number": 23,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 82,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 73,
+        "defending": 30,
+        "physicality": 43,
+        "stamina": 60,
+        "awareness": 49,
+        "composure": 58
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Inter",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Škriniar",
+      "number": 1,
+      "position": "CB",
+      "overall": 86,
+      "attributes": {
+        "pace": 84,
+        "shooting": 42,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 88,
+        "physicality": 86,
+        "stamina": 79,
+        "awareness": 86,
+        "composure": 87
+      }
+    },
+    {
+      "name": "S. Handanovič",
+      "number": 2,
+      "position": "GK",
+      "overall": 86,
+      "attributes": {
+        "pace": 81,
+        "defending": 87,
+        "passing": 81,
+        "dribbling": 92,
+        "physicality": 69,
+        "stamina": 41,
+        "awareness": 79,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Martínez",
+      "number": 3,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 83,
+        "shooting": 85,
+        "passing": 78,
+        "dribbling": 83,
+        "defending": 31,
+        "physicality": 84,
+        "stamina": 80,
+        "awareness": 89,
+        "composure": 83
+      }
+    },
+    {
+      "name": "S. de Vrij",
+      "number": 4,
+      "position": "CB",
+      "overall": 85,
+      "attributes": {
+        "pace": 74,
+        "shooting": 25,
+        "passing": 75,
+        "dribbling": 66,
+        "defending": 87,
+        "physicality": 79,
+        "stamina": 80,
+        "awareness": 85,
+        "composure": 85
+      }
+    },
+    {
+      "name": "N. Barella",
+      "number": 5,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 76,
+        "shooting": 69,
+        "passing": 86,
+        "dribbling": 83,
+        "defending": 75,
+        "physicality": 69,
+        "stamina": 95,
+        "awareness": 89,
+        "composure": 85
+      }
+    },
+    {
+      "name": "M. Brozović",
+      "number": 6,
+      "position": "CDM",
+      "overall": 84,
+      "attributes": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 85,
+        "dribbling": 76,
+        "defending": 81,
+        "physicality": 67,
+        "stamina": 94,
+        "awareness": 76,
+        "composure": 82
+      }
+    },
+    {
+      "name": "E. Džeko",
+      "number": 7,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 67,
+        "shooting": 85,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 28,
+        "physicality": 86,
+        "stamina": 74,
+        "awareness": 80,
+        "composure": 86
+      }
+    },
+    {
+      "name": "H. Çalhanoğlu",
+      "number": 8,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 62,
+        "shooting": 75,
+        "passing": 85,
+        "dribbling": 86,
+        "defending": 56,
+        "physicality": 49,
+        "stamina": 75,
+        "awareness": 78,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. Dumfries",
+      "number": 9,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 84,
+        "shooting": 64,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 79,
+        "physicality": 89,
+        "stamina": 94,
+        "awareness": 80,
+        "composure": 73
+      }
+    },
+    {
+      "name": "C. Eriksen",
+      "number": 10,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 62,
+        "shooting": 73,
+        "passing": 89,
+        "dribbling": 77,
+        "defending": 57,
+        "physicality": 52,
+        "stamina": 59,
+        "awareness": 79,
+        "composure": 87
+      }
+    },
+    {
+      "name": "A. Vidal",
+      "number": 11,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 65,
+        "shooting": 75,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 84,
+        "physicality": 80,
+        "stamina": 78,
+        "awareness": 81,
+        "composure": 80
+      }
+    },
+    {
+      "name": "I. Perišić",
+      "number": 12,
+      "position": "LW",
+      "overall": 81,
+      "attributes": {
+        "pace": 81,
+        "shooting": 78,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 58,
+        "physicality": 76,
+        "stamina": 75,
+        "awareness": 79,
+        "composure": 80
+      }
+    },
+    {
+      "name": "20 Gabriel Barbosa",
+      "number": 13,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 77,
+        "shooting": 83,
+        "passing": 75,
+        "dribbling": 82,
+        "defending": 27,
+        "physicality": 59,
+        "stamina": 83,
+        "awareness": 84,
+        "composure": 76
+      }
+    },
+    {
+      "name": "J. Correa",
+      "number": 14,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 87,
+        "shooting": 77,
+        "passing": 81,
+        "dribbling": 88,
+        "defending": 37,
+        "physicality": 74,
+        "stamina": 76,
+        "awareness": 80,
+        "composure": 73
+      }
+    },
+    {
+      "name": "A. Sánchez",
+      "number": 15,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 44,
+        "physicality": 68,
+        "stamina": 68,
+        "awareness": 79,
+        "composure": 75
+      }
+    },
+    {
+      "name": "S. Sensi",
+      "number": 16,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 64,
+        "shooting": 49,
+        "passing": 87,
+        "dribbling": 79,
+        "defending": 73,
+        "physicality": 50,
+        "stamina": 65,
+        "awareness": 73,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A. Bastoni",
+      "number": 17,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 68,
+        "shooting": 26,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 84,
+        "physicality": 81,
+        "stamina": 81,
+        "awareness": 78,
+        "composure": 77
+      }
+    },
+    {
+      "name": "D. D'Ambrosio",
+      "number": 18,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 67,
+        "shooting": 48,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 80,
+        "physicality": 78,
+        "stamina": 80,
+        "awareness": 78,
+        "composure": 73
+      }
+    },
+    {
+      "name": "A. Kolarov",
+      "number": 19,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 63,
+        "shooting": 60,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 80,
+        "physicality": 73,
+        "stamina": 67,
+        "awareness": 77,
+        "composure": 83
+      }
+    },
+    {
+      "name": "17 Felipe Melo",
+      "number": 20,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 69,
+        "shooting": 61,
+        "passing": 78,
+        "dribbling": 73,
+        "defending": 80,
+        "physicality": 82,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Vecino",
+      "number": 21,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 77,
+        "physicality": 72,
+        "stamina": 77,
+        "awareness": 77,
+        "composure": 81
+      }
+    },
+    {
+      "name": "M. Darmian",
+      "number": 22,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 80,
+        "physicality": 62,
+        "stamina": 75,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "R. Gagliardini",
+      "number": 23,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 55,
+        "shooting": 54,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 78,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 74
+      }
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "name": "SC Bastia",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Robic",
+      "number": 1,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 61,
+        "passing": 64,
+        "dribbling": 66,
+        "defending": 37,
+        "physicality": 66,
+        "stamina": 87,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Palun",
+      "number": 2,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 57,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Sainati",
+      "number": 3,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 64,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 33,
+        "defending": 66,
+        "physicality": 83,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Placide",
+      "number": 4,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 56,
+        "shooting": 12,
+        "passing": 34,
+        "dribbling": 10,
+        "defending": 13,
+        "physicality": 70,
+        "stamina": 27,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "I. Saadi",
+      "number": 5,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 55,
+        "shooting": 65,
+        "passing": 59,
+        "dribbling": 61,
+        "defending": 19,
+        "physicality": 80,
+        "stamina": 67,
+        "awareness": 61,
+        "composure": 67
+      }
+    },
+    {
+      "name": "D. Guidi",
+      "number": 6,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 62,
+        "shooting": 37,
+        "passing": 57,
+        "dribbling": 41,
+        "defending": 67,
+        "physicality": 76,
+        "stamina": 86,
+        "awareness": 55,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Taoui",
+      "number": 7,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 69,
+        "passing": 58,
+        "dribbling": 72,
+        "defending": 19,
+        "physicality": 57,
+        "stamina": 55,
+        "awareness": 57,
+        "composure": 55
+      }
+    },
+    {
+      "name": "T. Vincensini",
+      "number": 8,
+      "position": "GK",
+      "overall": 64,
+      "attributes": {
+        "pace": 64,
+        "defending": 63,
+        "passing": 65,
+        "dribbling": 63,
+        "physicality": 57,
+        "stamina": 19,
+        "awareness": 61,
+        "composure": 52
+      }
+    },
+    {
+      "name": "C. Ben Saada",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 49,
+        "shooting": 59,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 38,
+        "physicality": 33,
+        "stamina": 43,
+        "awareness": 60,
+        "composure": 59
+      }
+    },
+    {
+      "name": "K. Nagera",
+      "number": 10,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 79,
+        "shooting": 62,
+        "passing": 57,
+        "dribbling": 64,
+        "defending": 25,
+        "physicality": 45,
+        "stamina": 54,
+        "awareness": 54,
+        "composure": 59
+      }
+    },
+    {
+      "name": "B. Santelli",
+      "number": 11,
+      "position": "RW",
+      "overall": 63,
+      "attributes": {
+        "pace": 79,
+        "shooting": 60,
+        "passing": 61,
+        "dribbling": 66,
+        "defending": 29,
+        "physicality": 65,
+        "stamina": 51,
+        "awareness": 59,
+        "composure": 49
+      }
+    },
+    {
+      "name": "Y. Bocognano",
+      "number": 12,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 37,
+        "shooting": 27,
+        "passing": 64,
+        "dribbling": 26,
+        "defending": 65,
+        "physicality": 89,
+        "stamina": 75,
+        "awareness": 52,
+        "composure": 50
+      }
+    },
+    {
+      "name": "G. Coulibaly",
+      "number": 13,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 38,
+        "shooting": 45,
+        "passing": 61,
+        "dribbling": 52,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 58,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Guibert",
+      "number": 14,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 43,
+        "shooting": 45,
+        "passing": 59,
+        "dribbling": 54,
+        "defending": 62,
+        "physicality": 74,
+        "stamina": 67,
+        "awareness": 60,
+        "composure": 52
+      }
+    },
+    {
+      "name": "T. Ducrocq",
+      "number": 15,
+      "position": "CDM",
+      "overall": 60,
+      "attributes": {
+        "pace": 72,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 54,
+        "physicality": 49,
+        "stamina": 67,
+        "awareness": 62,
+        "composure": 62
+      }
+    }
+  ]
+}

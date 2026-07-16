@@ -1,0 +1,294 @@
+{
+  "name": "Sporting Kansas City",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Russell",
+      "number": 1,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 67,
+        "dribbling": 79,
+        "defending": 56,
+        "physicality": 76,
+        "stamina": 84,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Pulido",
+      "number": 2,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 35,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "T. Melia",
+      "number": 3,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "defending": 73,
+        "passing": 68,
+        "dribbling": 74,
+        "physicality": 68,
+        "stamina": 42,
+        "awareness": 67,
+        "composure": 53
+      }
+    },
+    {
+      "name": "R. Walter",
+      "number": 4,
+      "position": "CDM",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "shooting": 57,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 69,
+        "physicality": 66,
+        "stamina": 71,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Ilie Sánchez",
+      "number": 5,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 50,
+        "shooting": 39,
+        "passing": 77,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "D. Sallói",
+      "number": 6,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 40,
+        "physicality": 66,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 64
+      }
+    },
+    {
+      "name": "G. Kinda",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 76,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 60,
+        "physicality": 55,
+        "stamina": 74,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Fontàs",
+      "number": 8,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 30,
+        "shooting": 45,
+        "passing": 73,
+        "dribbling": 58,
+        "defending": 72,
+        "physicality": 81,
+        "stamina": 58,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "N. Isimat-Mirin",
+      "number": 9,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 46,
+        "shooting": 28,
+        "passing": 66,
+        "dribbling": 36,
+        "defending": 71,
+        "physicality": 84,
+        "stamina": 55,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "G. Zusi",
+      "number": 10,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 56,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 68,
+        "physicality": 71,
+        "stamina": 83,
+        "awareness": 61,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Mauri",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 64,
+        "shooting": 40,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 65,
+        "physicality": 33,
+        "stamina": 69,
+        "awareness": 67,
+        "composure": 79
+      }
+    },
+    {
+      "name": "J. Lindsey",
+      "number": 12,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 81,
+        "shooting": 42,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 64,
+        "physicality": 69,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Dia",
+      "number": 13,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 32,
+        "passing": 59,
+        "dribbling": 63,
+        "defending": 62,
+        "physicality": 63,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 55
+      }
+    },
+    {
+      "name": "K. Shelton",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 59,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 40,
+        "physicality": 88,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 55
+      }
+    },
+    {
+      "name": "19 B. Evans",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 59,
+        "shooting": 56,
+        "passing": 64,
+        "dribbling": 62,
+        "defending": 61,
+        "physicality": 66,
+        "stamina": 59,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Pulskamp",
+      "number": 16,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 21,
+        "shooting": 9,
+        "passing": 27,
+        "dribbling": 8,
+        "defending": 13,
+        "physicality": 62,
+        "stamina": 20,
+        "awareness": 53,
+        "composure": 34
+      }
+    },
+    {
+      "name": "K. McIntosh",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 41,
+        "shooting": 16,
+        "passing": 26,
+        "dribbling": 16,
+        "defending": 16,
+        "physicality": 57,
+        "stamina": 44,
+        "awareness": 49,
+        "composure": 58
+      }
+    }
+  ]
+}

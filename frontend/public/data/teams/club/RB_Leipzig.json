@@ -1,0 +1,396 @@
+{
+  "name": "RB Leipzig",
+  "type": "club",
+  "players": [
+    {
+      "name": "P. Gulácsi",
+      "number": 1,
+      "position": "GK",
+      "overall": 85,
+      "attributes": {
+        "pace": 85,
+        "defending": 86,
+        "passing": 84,
+        "dribbling": 82,
+        "physicality": 74,
+        "stamina": 35,
+        "awareness": 81,
+        "composure": 45
+      }
+    },
+    {
+      "name": "André Silva",
+      "number": 2,
+      "position": "ST",
+      "overall": 84,
+      "attributes": {
+        "pace": 71,
+        "shooting": 87,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 40,
+        "physicality": 76,
+        "stamina": 79,
+        "awareness": 86,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Angeliño",
+      "number": 3,
+      "position": "LB",
+      "overall": 83,
+      "attributes": {
+        "pace": 73,
+        "shooting": 70,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 74,
+        "physicality": 60,
+        "stamina": 85,
+        "awareness": 82,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Dani Olmo",
+      "number": 4,
+      "position": "CAM",
+      "overall": 82,
+      "attributes": {
+        "pace": 58,
+        "shooting": 74,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 50,
+        "physicality": 54,
+        "stamina": 80,
+        "awareness": 83,
+        "composure": 82
+      }
+    },
+    {
+      "name": "K. Laimer",
+      "number": 5,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 81,
+        "shooting": 69,
+        "passing": 82,
+        "dribbling": 78,
+        "defending": 79,
+        "physicality": 69,
+        "stamina": 88,
+        "awareness": 79,
+        "composure": 79
+      }
+    },
+    {
+      "name": "C. Nkunku",
+      "number": 6,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 83,
+        "dribbling": 86,
+        "defending": 72,
+        "physicality": 63,
+        "stamina": 74,
+        "awareness": 78,
+        "composure": 79
+      }
+    },
+    {
+      "name": "K. Kampl",
+      "number": 7,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 62,
+        "shooting": 62,
+        "passing": 87,
+        "dribbling": 85,
+        "defending": 63,
+        "physicality": 47,
+        "stamina": 86,
+        "awareness": 82,
+        "composure": 84
+      }
+    },
+    {
+      "name": "N. Mukiele",
+      "number": 8,
+      "position": "RB",
+      "overall": 81,
+      "attributes": {
+        "pace": 82,
+        "shooting": 40,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 85,
+        "physicality": 79,
+        "stamina": 79,
+        "awareness": 77,
+        "composure": 73
+      }
+    },
+    {
+      "name": "E. Forsberg",
+      "number": 9,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 68,
+        "shooting": 74,
+        "passing": 86,
+        "dribbling": 83,
+        "defending": 27,
+        "physicality": 59,
+        "stamina": 69,
+        "awareness": 83,
+        "composure": 79
+      }
+    },
+    {
+      "name": "W. Orban",
+      "number": 10,
+      "position": "CB",
+      "overall": 81,
+      "attributes": {
+        "pace": 49,
+        "shooting": 38,
+        "passing": 69,
+        "dribbling": 52,
+        "defending": 86,
+        "physicality": 85,
+        "stamina": 68,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "L. Klostermann",
+      "number": 11,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 89,
+        "shooting": 59,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 81,
+        "physicality": 76,
+        "stamina": 82,
+        "awareness": 81,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Halstenberg",
+      "number": 12,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 62,
+        "shooting": 59,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 78,
+        "physicality": 79,
+        "stamina": 82,
+        "awareness": 77,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Haidara",
+      "number": 13,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 67,
+        "shooting": 69,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 69,
+        "physicality": 65,
+        "stamina": 81,
+        "awareness": 78,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Y. Poulsen",
+      "number": 14,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 84,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 59,
+        "physicality": 78,
+        "stamina": 86,
+        "awareness": 80,
+        "composure": 72
+      }
+    },
+    {
+      "name": "D. Szoboszlai",
+      "number": 15,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 73,
+        "passing": 78,
+        "dribbling": 80,
+        "defending": 30,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 80
+      }
+    },
+    {
+      "name": "T. Adams",
+      "number": 16,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 83,
+        "shooting": 48,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 77,
+        "physicality": 68,
+        "stamina": 86,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "B. Henrichs",
+      "number": 17,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 50,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Gvardiol",
+      "number": 18,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 87,
+        "shooting": 42,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 84,
+        "stamina": 79,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Simakan",
+      "number": 19,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 27,
+        "passing": 69,
+        "dribbling": 62,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 74,
+        "awareness": 75,
+        "composure": 71
+      }
+    },
+    {
+      "name": "M. Saracchi",
+      "number": 20,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 79,
+        "shooting": 61,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 68,
+        "physicality": 62,
+        "stamina": 73,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "I. Moriba",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 70,
+        "physicality": 64,
+        "stamina": 75,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "B. Brobbey",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 75,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 23,
+        "physicality": 92,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 74
+      }
+    },
+    {
+      "name": "P. Tschauner",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 46,
+        "shooting": 9,
+        "passing": 24,
+        "dribbling": 7,
+        "defending": 12,
+        "physicality": 75,
+        "stamina": 23,
+        "awareness": 72,
+        "composure": 38
+      }
+    }
+  ]
+}

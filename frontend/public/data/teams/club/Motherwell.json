@@ -1,0 +1,396 @@
+{
+  "name": "Motherwell",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 R. McCormack",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 25,
+        "physicality": 76,
+        "stamina": 50,
+        "awareness": 66,
+        "composure": 71
+      }
+    },
+    {
+      "name": "L. Kelly",
+      "number": 2,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 71,
+        "defending": 71,
+        "passing": 69,
+        "dribbling": 71,
+        "physicality": 37,
+        "stamina": 32,
+        "awareness": 57,
+        "composure": 38
+      }
+    },
+    {
+      "name": "S. O'Donnell",
+      "number": 3,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 74,
+        "shooting": 44,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 62,
+        "physicality": 76,
+        "stamina": 89,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "19 G. Ariyibi",
+      "number": 4,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 94,
+        "shooting": 52,
+        "passing": 57,
+        "dribbling": 74,
+        "defending": 37,
+        "physicality": 60,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "T. Watt",
+      "number": 5,
+      "position": "LW",
+      "overall": 66,
+      "attributes": {
+        "pace": 73,
+        "shooting": 66,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 47,
+        "physicality": 73,
+        "stamina": 83,
+        "awareness": 63,
+        "composure": 69
+      }
+    },
+    {
+      "name": "B. Mugabi",
+      "number": 6,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 25,
+        "passing": 51,
+        "dribbling": 48,
+        "defending": 65,
+        "physicality": 83,
+        "stamina": 73,
+        "awareness": 57,
+        "composure": 47
+      }
+    },
+    {
+      "name": "L. Donnelly",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 63,
+        "physicality": 72,
+        "stamina": 68,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Goss",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 56,
+        "passing": 69,
+        "dribbling": 63,
+        "defending": 60,
+        "physicality": 76,
+        "stamina": 66,
+        "awareness": 62,
+        "composure": 68
+      }
+    },
+    {
+      "name": "20 C. Tanner",
+      "number": 9,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 75,
+        "shooting": 60,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 27,
+        "physicality": 56,
+        "stamina": 63,
+        "awareness": 62,
+        "composure": 52
+      }
+    },
+    {
+      "name": "J. Carroll",
+      "number": 10,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 36,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 61,
+        "physicality": 60,
+        "stamina": 73,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "M. O'Hara",
+      "number": 11,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 61,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 74,
+        "stamina": 79,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "K. van Veen",
+      "number": 12,
+      "position": "ST",
+      "overall": 64,
+      "attributes": {
+        "pace": 52,
+        "shooting": 65,
+        "passing": 55,
+        "dribbling": 62,
+        "defending": 13,
+        "physicality": 81,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 59
+      }
+    },
+    {
+      "name": "K. Woolery",
+      "number": 13,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 82,
+        "shooting": 62,
+        "passing": 61,
+        "dribbling": 63,
+        "defending": 14,
+        "physicality": 56,
+        "stamina": 78,
+        "awareness": 57,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Roberts",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 80,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 52,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Maguire",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 53,
+        "passing": 63,
+        "dribbling": 62,
+        "defending": 61,
+        "physicality": 76,
+        "stamina": 76,
+        "awareness": 61,
+        "composure": 57
+      }
+    },
+    {
+      "name": "L. Grimshaw",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 40,
+        "passing": 56,
+        "dribbling": 55,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 74,
+        "awareness": 58,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 J. Hastie",
+      "number": 17,
+      "position": "RW",
+      "overall": 63,
+      "attributes": {
+        "pace": 80,
+        "shooting": 59,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 33,
+        "physicality": 52,
+        "stamina": 68,
+        "awareness": 59,
+        "composure": 55
+      }
+    },
+    {
+      "name": "N. McGinley",
+      "number": 18,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 68,
+        "shooting": 32,
+        "passing": 59,
+        "dribbling": 54,
+        "defending": 62,
+        "physicality": 76,
+        "stamina": 73,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Ojala",
+      "number": 19,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 34,
+        "shooting": 17,
+        "passing": 58,
+        "dribbling": 42,
+        "defending": 65,
+        "physicality": 87,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. Slattery",
+      "number": 20,
+      "position": "CDM",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 58,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 54,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Amaluzor",
+      "number": 21,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 91,
+        "shooting": 56,
+        "passing": 58,
+        "dribbling": 63,
+        "defending": 48,
+        "physicality": 74,
+        "stamina": 73,
+        "awareness": 50,
+        "composure": 52
+      }
+    },
+    {
+      "name": "R. Lamie",
+      "number": 22,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 55,
+        "shooting": 22,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 61,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 54,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 S. Seedorf",
+      "number": 23,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 90,
+        "shooting": 50,
+        "passing": 53,
+        "dribbling": 62,
+        "defending": 22,
+        "physicality": 59,
+        "stamina": 62,
+        "awareness": 55,
+        "composure": 44
+      }
+    }
+  ]
+}

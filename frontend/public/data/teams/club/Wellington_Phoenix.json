@@ -1,0 +1,277 @@
+{
+  "name": "Wellington Phoenix",
+  "type": "club",
+  "players": [
+    {
+      "name": "G. Hooper",
+      "number": 1,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 63,
+        "shooting": 74,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 29,
+        "physicality": 79,
+        "stamina": 52,
+        "awareness": 70,
+        "composure": 78
+      }
+    },
+    {
+      "name": "R. Piscopo",
+      "number": 2,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 77,
+        "shooting": 64,
+        "passing": 64,
+        "dribbling": 78,
+        "defending": 35,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Taylor",
+      "number": 3,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 57,
+        "shooting": 36,
+        "passing": 67,
+        "dribbling": 47,
+        "defending": 67,
+        "physicality": 86,
+        "stamina": 65,
+        "awareness": 64,
+        "composure": 75
+      }
+    },
+    {
+      "name": "D. Ball",
+      "number": 4,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 74,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 51,
+        "physicality": 75,
+        "stamina": 87,
+        "awareness": 71,
+        "composure": 66
+      }
+    },
+    {
+      "name": "O. Sail",
+      "number": 5,
+      "position": "GK",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "defending": 69,
+        "passing": 64,
+        "dribbling": 64,
+        "physicality": 66,
+        "stamina": 45,
+        "awareness": 68,
+        "composure": 39
+      }
+    },
+    {
+      "name": "T. Payne",
+      "number": 6,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 73,
+        "shooting": 53,
+        "passing": 58,
+        "dribbling": 54,
+        "defending": 63,
+        "physicality": 82,
+        "stamina": 71,
+        "awareness": 59,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 L. DeVere",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 47,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 32,
+        "defending": 67,
+        "physicality": 84,
+        "stamina": 44,
+        "awareness": 58,
+        "composure": 66
+      }
+    },
+    {
+      "name": "C. Lewis",
+      "number": 8,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 56,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 55,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 63
+      }
+    },
+    {
+      "name": "B. Waine",
+      "number": 9,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 77,
+        "shooting": 65,
+        "passing": 56,
+        "dribbling": 59,
+        "defending": 38,
+        "physicality": 74,
+        "stamina": 69,
+        "awareness": 60,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. McGarry",
+      "number": 10,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 80,
+        "shooting": 54,
+        "passing": 60,
+        "dribbling": 66,
+        "defending": 53,
+        "physicality": 72,
+        "stamina": 79,
+        "awareness": 54,
+        "composure": 53
+      }
+    },
+    {
+      "name": "L. Fenton",
+      "number": 11,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 74,
+        "shooting": 52,
+        "passing": 57,
+        "dribbling": 60,
+        "defending": 56,
+        "physicality": 67,
+        "stamina": 73,
+        "awareness": 58,
+        "composure": 57
+      }
+    },
+    {
+      "name": "N. Pennington",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 54,
+        "shooting": 50,
+        "passing": 64,
+        "dribbling": 59,
+        "defending": 58,
+        "physicality": 62,
+        "stamina": 74,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Rufer",
+      "number": 13,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 66,
+        "shooting": 52,
+        "passing": 63,
+        "dribbling": 57,
+        "defending": 57,
+        "physicality": 73,
+        "stamina": 74,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "19 N. Burns",
+      "number": 14,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 56,
+        "dribbling": 64,
+        "defending": 46,
+        "physicality": 62,
+        "stamina": 60,
+        "awareness": 55,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 M. Ridenton",
+      "number": 15,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 67,
+        "shooting": 52,
+        "passing": 62,
+        "dribbling": 55,
+        "defending": 58,
+        "physicality": 67,
+        "stamina": 77,
+        "awareness": 57,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Sotirio",
+      "number": 16,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 91,
+        "shooting": 54,
+        "passing": 53,
+        "dribbling": 52,
+        "defending": 48,
+        "physicality": 71,
+        "stamina": 77,
+        "awareness": 55,
+        "composure": 46
+      }
+    }
+  ]
+}

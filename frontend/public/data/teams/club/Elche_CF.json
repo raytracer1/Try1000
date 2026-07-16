@@ -1,0 +1,396 @@
+{
+  "name": "Elche CF",
+  "type": "club",
+  "players": [
+    {
+      "name": "Lucas Pérez",
+      "number": 1,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 79,
+        "shooting": 85,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 24,
+        "physicality": 70,
+        "stamina": 68,
+        "awareness": 80,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Edgar Badia",
+      "number": 2,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 43,
+        "shooting": 12,
+        "passing": 30,
+        "dribbling": 14,
+        "defending": 12,
+        "physicality": 55,
+        "stamina": 35,
+        "awareness": 75,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Pastore",
+      "number": 3,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 62,
+        "shooting": 70,
+        "passing": 88,
+        "dribbling": 76,
+        "defending": 51,
+        "physicality": 54,
+        "stamina": 33,
+        "awareness": 59,
+        "composure": 69
+      }
+    },
+    {
+      "name": "P. Piatti",
+      "number": 4,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 74,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 35,
+        "physicality": 47,
+        "stamina": 66,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "I. Marcone",
+      "number": 5,
+      "position": "CDM",
+      "overall": 77,
+      "attributes": {
+        "pace": 42,
+        "shooting": 58,
+        "passing": 78,
+        "dribbling": 71,
+        "defending": 75,
+        "physicality": 81,
+        "stamina": 82,
+        "awareness": 74,
+        "composure": 77
+      }
+    },
+    {
+      "name": "21 E. Rigoni",
+      "number": 6,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 41,
+        "physicality": 58,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "D. Benedetto",
+      "number": 7,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 25,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 74,
+        "composure": 80
+      }
+    },
+    {
+      "name": "J. Mojica",
+      "number": 8,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 91,
+        "shooting": 62,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Fidel",
+      "number": 9,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 40,
+        "physicality": 61,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Omar Mascarell",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 55,
+        "shooting": 53,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 72,
+        "physicality": 71,
+        "stamina": 77,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Boyé",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 63,
+        "dribbling": 81,
+        "defending": 45,
+        "physicality": 85,
+        "stamina": 68,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Pere Milla",
+      "number": 12,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 30,
+        "physicality": 65,
+        "stamina": 77,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Raúl Guti",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 69,
+        "physicality": 79,
+        "stamina": 88,
+        "awareness": 75,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Barragán",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 44,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 72,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Josan",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 75,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 53,
+        "physicality": 46,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "H. Palacios",
+      "number": 16,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 83,
+        "shooting": 27,
+        "passing": 70,
+        "dribbling": 58,
+        "defending": 68,
+        "physicality": 78,
+        "stamina": 90,
+        "awareness": 68,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 Jonathas",
+      "number": 17,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 72,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 24,
+        "physicality": 86,
+        "stamina": 57,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "E. Roco",
+      "number": 18,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 33,
+        "shooting": 43,
+        "passing": 68,
+        "dribbling": 53,
+        "defending": 77,
+        "physicality": 84,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Kiko Casilla",
+      "number": 19,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "defending": 74,
+        "passing": 70,
+        "dribbling": 69,
+        "physicality": 71,
+        "stamina": 41,
+        "awareness": 71,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Tete Morente",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 79,
+        "shooting": 73,
+        "passing": 70,
+        "dribbling": 74,
+        "defending": 35,
+        "physicality": 68,
+        "stamina": 73,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 Víctor Rodríguez",
+      "number": 21,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 47,
+        "physicality": 64,
+        "stamina": 61,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Bigas",
+      "number": 22,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 49,
+        "passing": 72,
+        "dribbling": 55,
+        "defending": 73,
+        "physicality": 73,
+        "stamina": 66,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Gonzalo Verdú",
+      "number": 23,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 60,
+        "shooting": 49,
+        "passing": 62,
+        "dribbling": 51,
+        "defending": 69,
+        "physicality": 83,
+        "stamina": 68,
+        "awareness": 68,
+        "composure": 59
+      }
+    }
+  ]
+}

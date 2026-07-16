@@ -1,0 +1,396 @@
+{
+  "name": "Sheffield United",
+  "type": "club",
+  "players": [
+    {
+      "name": "S. Berge",
+      "number": 1,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 72,
+        "shooting": 52,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 91,
+        "stamina": 83,
+        "awareness": 73,
+        "composure": 83
+      }
+    },
+    {
+      "name": "J. O'Connell",
+      "number": 2,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 63,
+        "shooting": 35,
+        "passing": 71,
+        "dribbling": 61,
+        "defending": 77,
+        "physicality": 83,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "R. Olsen",
+      "number": 3,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "defending": 77,
+        "passing": 75,
+        "dribbling": 75,
+        "physicality": 75,
+        "stamina": 37,
+        "awareness": 71,
+        "composure": 45
+      }
+    },
+    {
+      "name": "J. Fleck",
+      "number": 4,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 70,
+        "physicality": 66,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Egan",
+      "number": 5,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 43,
+        "passing": 71,
+        "dribbling": 55,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 71,
+        "awareness": 75,
+        "composure": 64
+      }
+    },
+    {
+      "name": "C. Hourihane",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 54,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 65,
+        "defending": 72,
+        "physicality": 67,
+        "stamina": 87,
+        "awareness": 75,
+        "composure": 68
+      }
+    },
+    {
+      "name": "O. Norwood",
+      "number": 7,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 51,
+        "shooting": 60,
+        "passing": 76,
+        "dribbling": 62,
+        "defending": 68,
+        "physicality": 56,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Bogle",
+      "number": 8,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 81,
+        "shooting": 55,
+        "passing": 68,
+        "dribbling": 74,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 71
+      }
+    },
+    {
+      "name": "E. Stevens",
+      "number": 9,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 72,
+        "shooting": 43,
+        "passing": 69,
+        "dribbling": 74,
+        "defending": 74,
+        "physicality": 73,
+        "stamina": 81,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. Basham",
+      "number": 10,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 37,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 75,
+        "physicality": 79,
+        "stamina": 75,
+        "awareness": 73,
+        "composure": 62
+      }
+    },
+    {
+      "name": "D. McGoldrick",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 66,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 27,
+        "physicality": 72,
+        "stamina": 69,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "G. Baldock",
+      "number": 12,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 50,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 71,
+        "physicality": 67,
+        "stamina": 81,
+        "awareness": 69,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. Davies",
+      "number": 13,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 36,
+        "passing": 71,
+        "dribbling": 60,
+        "defending": 74,
+        "physicality": 79,
+        "stamina": 65,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "B. Osborn",
+      "number": 14,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 61,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 56,
+        "stamina": 85,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Robinson",
+      "number": 15,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 74,
+        "physicality": 72,
+        "stamina": 71,
+        "awareness": 68,
+        "composure": 59
+      }
+    },
+    {
+      "name": "B. Sharp",
+      "number": 16,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 52,
+        "shooting": 79,
+        "passing": 66,
+        "dribbling": 58,
+        "defending": 34,
+        "physicality": 72,
+        "stamina": 53,
+        "awareness": 77,
+        "composure": 82
+      }
+    },
+    {
+      "name": "M. Gibbs-White",
+      "number": 17,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 68,
+        "shooting": 58,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 56,
+        "physicality": 66,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "O. McBurnie",
+      "number": 18,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 55,
+        "shooting": 71,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 29,
+        "physicality": 79,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Freeman",
+      "number": 19,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 54,
+        "physicality": 62,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "L. Mousset",
+      "number": 20,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 71,
+        "passing": 61,
+        "dribbling": 73,
+        "defending": 20,
+        "physicality": 76,
+        "stamina": 68,
+        "awareness": 67,
+        "composure": 62
+      }
+    },
+    {
+      "name": "W. Foderingham",
+      "number": 21,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 40,
+        "shooting": 13,
+        "passing": 30,
+        "dribbling": 12,
+        "defending": 20,
+        "physicality": 71,
+        "stamina": 34,
+        "awareness": 67,
+        "composure": 53
+      }
+    },
+    {
+      "name": "R. Brewster",
+      "number": 22,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 79,
+        "shooting": 73,
+        "passing": 61,
+        "dribbling": 72,
+        "defending": 18,
+        "physicality": 62,
+        "stamina": 64,
+        "awareness": 71,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Verrips",
+      "number": 23,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 16,
+        "shooting": 6,
+        "passing": 25,
+        "dribbling": 13,
+        "defending": 14,
+        "physicality": 67,
+        "stamina": 17,
+        "awareness": 62,
+        "composure": 28
+      }
+    }
+  ]
+}

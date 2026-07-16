@@ -1,0 +1,363 @@
+{
+  "name": "Cape Verde Islands",
+  "type": "nation",
+  "players": [
+    {
+      "name": "Jovane Cabral",
+      "number": 1,
+      "position": "LW",
+      "overall": 78,
+      "attributes": {
+        "pace": 86,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 82,
+        "defending": 35,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 78,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Zé Luís",
+      "number": 2,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 82,
+        "shooting": 76,
+        "passing": 65,
+        "dribbling": 76,
+        "defending": 19,
+        "physicality": 83,
+        "stamina": 75,
+        "awareness": 76,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Jamiro Monteiro",
+      "number": 3,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 62,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 69,
+        "physicality": 73,
+        "stamina": 89,
+        "awareness": 73,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Garry Rodrigues",
+      "number": 4,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 84,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 40,
+        "physicality": 60,
+        "stamina": 81,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 Héldon",
+      "number": 5,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 85,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 77,
+        "defending": 25,
+        "physicality": 59,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Djaniny",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 82,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 77,
+        "defending": 25,
+        "physicality": 82,
+        "stamina": 85,
+        "awareness": 71,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Júlio Tavares",
+      "number": 7,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 55,
+        "shooting": 77,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 23,
+        "physicality": 85,
+        "stamina": 82,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "18 Ryan Mendes",
+      "number": 8,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 84,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 79,
+        "defending": 28,
+        "physicality": 58,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Varela",
+      "number": 9,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 62,
+        "shooting": 43,
+        "passing": 56,
+        "dribbling": 55,
+        "defending": 69,
+        "physicality": 87,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Vagner",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 88,
+        "shooting": 76,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 34,
+        "physicality": 54,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 Ricardo Gomes",
+      "number": 11,
+      "position": "ST",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 63,
+        "dribbling": 72,
+        "defending": 23,
+        "physicality": 81,
+        "stamina": 62,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Carlos Ponck",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 35,
+        "passing": 59,
+        "dribbling": 59,
+        "defending": 72,
+        "physicality": 83,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Lisandro Semedo",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 83,
+        "shooting": 65,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 25,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Nuno da Costa",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 78,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 17,
+        "physicality": 62,
+        "stamina": 65,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Fortes",
+      "number": 15,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 34,
+        "shooting": 41,
+        "passing": 65,
+        "dribbling": 38,
+        "defending": 73,
+        "physicality": 91,
+        "stamina": 75,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "19 Kuca",
+      "number": 16,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 83,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 73,
+        "defending": 15,
+        "physicality": 53,
+        "stamina": 61,
+        "awareness": 68,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Kenny Rocha Santos",
+      "number": 17,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "shooting": 59,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 62,
+        "physicality": 61,
+        "stamina": 76,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Gilson Tavares",
+      "number": 18,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 82,
+        "shooting": 67,
+        "passing": 60,
+        "dribbling": 75,
+        "defending": 18,
+        "physicality": 50,
+        "stamina": 65,
+        "awareness": 66,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 Gégé",
+      "number": 19,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 34,
+        "shooting": 30,
+        "passing": 61,
+        "dribbling": 49,
+        "defending": 66,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 61,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 Bruno Leite",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 46,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 81,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Ely",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 82,
+        "shooting": 61,
+        "passing": 64,
+        "dribbling": 62,
+        "defending": 29,
+        "physicality": 61,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 65
+      }
+    }
+  ]
+}

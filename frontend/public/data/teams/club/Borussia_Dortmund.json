@@ -1,0 +1,396 @@
+{
+  "name": "Borussia Dortmund",
+  "type": "club",
+  "players": [
+    {
+      "name": "E. Haaland",
+      "number": 1,
+      "position": "CM",
+      "overall": 88,
+      "attributes": {
+        "pace": 94,
+        "shooting": 94,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 43,
+        "physicality": 93,
+        "stamina": 82,
+        "awareness": 88,
+        "composure": 84
+      }
+    },
+    {
+      "name": "M. Hummels",
+      "number": 2,
+      "position": "CB",
+      "overall": 86,
+      "attributes": {
+        "pace": 64,
+        "shooting": 57,
+        "passing": 82,
+        "dribbling": 69,
+        "defending": 90,
+        "physicality": 86,
+        "stamina": 66,
+        "awareness": 88,
+        "composure": 89
+      }
+    },
+    {
+      "name": "M. Reus",
+      "number": 3,
+      "position": "CAM",
+      "overall": 85,
+      "attributes": {
+        "pace": 71,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 38,
+        "physicality": 66,
+        "stamina": 67,
+        "awareness": 86,
+        "composure": 85
+      }
+    },
+    {
+      "name": "R. Guerreiro",
+      "number": 4,
+      "position": "LB",
+      "overall": 84,
+      "attributes": {
+        "pace": 67,
+        "shooting": 77,
+        "passing": 88,
+        "dribbling": 88,
+        "defending": 79,
+        "physicality": 50,
+        "stamina": 79,
+        "awareness": 86,
+        "composure": 86
+      }
+    },
+    {
+      "name": "A. Witsel",
+      "number": 5,
+      "position": "CDM",
+      "overall": 83,
+      "attributes": {
+        "pace": 61,
+        "shooting": 71,
+        "passing": 90,
+        "dribbling": 78,
+        "defending": 80,
+        "physicality": 82,
+        "stamina": 76,
+        "awareness": 85,
+        "composure": 90
+      }
+    },
+    {
+      "name": "E. Can",
+      "number": 6,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 87,
+        "shooting": 76,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 87,
+        "physicality": 86,
+        "stamina": 88,
+        "awareness": 81,
+        "composure": 79
+      }
+    },
+    {
+      "name": "T. Hazard",
+      "number": 7,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 82,
+        "dribbling": 85,
+        "defending": 47,
+        "physicality": 65,
+        "stamina": 78,
+        "awareness": 81,
+        "composure": 78
+      }
+    },
+    {
+      "name": "J. Brandt",
+      "number": 8,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 69,
+        "shooting": 73,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 47,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 79,
+        "composure": 81
+      }
+    },
+    {
+      "name": "D. Malen",
+      "number": 9,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 90,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 83,
+        "defending": 24,
+        "physicality": 75,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Akanji",
+      "number": 10,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 84,
+        "shooting": 38,
+        "passing": 79,
+        "dribbling": 74,
+        "defending": 82,
+        "physicality": 80,
+        "stamina": 72,
+        "awareness": 81,
+        "composure": 76
+      }
+    },
+    {
+      "name": "R. Bürki",
+      "number": 11,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 50,
+        "shooting": 8,
+        "passing": 37,
+        "dribbling": 12,
+        "defending": 13,
+        "physicality": 76,
+        "stamina": 36,
+        "awareness": 78,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Bellingham",
+      "number": 12,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 73,
+        "shooting": 69,
+        "passing": 79,
+        "dribbling": 80,
+        "defending": 78,
+        "physicality": 71,
+        "stamina": 87,
+        "awareness": 82,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Dahoud",
+      "number": 13,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 63,
+        "shooting": 62,
+        "passing": 82,
+        "dribbling": 84,
+        "defending": 64,
+        "physicality": 59,
+        "stamina": 90,
+        "awareness": 79,
+        "composure": 71
+      }
+    },
+    {
+      "name": "G. Kobel",
+      "number": 14,
+      "position": "GK",
+      "overall": 79,
+      "attributes": {
+        "pace": 80,
+        "defending": 83,
+        "passing": 78,
+        "dribbling": 74,
+        "physicality": 81,
+        "stamina": 21,
+        "awareness": 77,
+        "composure": 66
+      }
+    },
+    {
+      "name": "D. Zagadou",
+      "number": 15,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 66,
+        "shooting": 26,
+        "passing": 75,
+        "dribbling": 51,
+        "defending": 86,
+        "physicality": 92,
+        "stamina": 65,
+        "awareness": 72,
+        "composure": 78
+      }
+    },
+    {
+      "name": "M. Hitz",
+      "number": 16,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 46,
+        "shooting": 27,
+        "passing": 29,
+        "dribbling": 13,
+        "defending": 15,
+        "physicality": 78,
+        "stamina": 38,
+        "awareness": 73,
+        "composure": 44
+      }
+    },
+    {
+      "name": "T. Meunier",
+      "number": 17,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "shooting": 70,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 75,
+        "physicality": 83,
+        "stamina": 83,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 L. Piszczek",
+      "number": 18,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 72,
+        "shooting": 64,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 68,
+        "awareness": 78,
+        "composure": 82
+      }
+    },
+    {
+      "name": "N. Schulz",
+      "number": 19,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 90,
+        "shooting": 48,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 73,
+        "physicality": 79,
+        "stamina": 77,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "G. Reyna",
+      "number": 20,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 79,
+        "dribbling": 85,
+        "defending": 35,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Wolf",
+      "number": 21,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 89,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 77,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 82,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Pongračić",
+      "number": 22,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 21,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 77,
+        "physicality": 90,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "18 R. Weidenfeller",
+      "number": 23,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 24,
+        "shooting": 11,
+        "passing": 31,
+        "dribbling": 12,
+        "defending": 17,
+        "physicality": 76,
+        "stamina": 28,
+        "awareness": 74,
+        "composure": 62
+      }
+    }
+  ]
+}

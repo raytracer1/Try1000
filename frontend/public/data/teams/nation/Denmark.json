@@ -1,0 +1,396 @@
+{
+  "name": "Denmark",
+  "type": "nation",
+  "players": [
+    {
+      "name": "K. Schmeichel",
+      "number": 1,
+      "position": "GK",
+      "overall": 85,
+      "attributes": {
+        "pace": 84,
+        "defending": 90,
+        "passing": 78,
+        "dribbling": 83,
+        "physicality": 64,
+        "stamina": 34,
+        "awareness": 82,
+        "composure": 67
+      }
+    },
+    {
+      "name": "P. Højbjerg",
+      "number": 2,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 61,
+        "shooting": 65,
+        "passing": 83,
+        "dribbling": 76,
+        "defending": 84,
+        "physicality": 78,
+        "stamina": 88,
+        "awareness": 82,
+        "composure": 82
+      }
+    },
+    {
+      "name": "S. Kjær",
+      "number": 3,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 71,
+        "shooting": 55,
+        "passing": 76,
+        "dribbling": 50,
+        "defending": 85,
+        "physicality": 82,
+        "stamina": 65,
+        "awareness": 79,
+        "composure": 69
+      }
+    },
+    {
+      "name": "C. Eriksen",
+      "number": 4,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 62,
+        "shooting": 73,
+        "passing": 89,
+        "dribbling": 77,
+        "defending": 57,
+        "physicality": 52,
+        "stamina": 59,
+        "awareness": 79,
+        "composure": 87
+      }
+    },
+    {
+      "name": "T. Delaney",
+      "number": 5,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 74,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 81,
+        "physicality": 77,
+        "stamina": 87,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. Wass",
+      "number": 6,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 76,
+        "physicality": 73,
+        "stamina": 87,
+        "awareness": 80,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. Christensen",
+      "number": 7,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 69,
+        "shooting": 36,
+        "passing": 79,
+        "dribbling": 66,
+        "defending": 84,
+        "physicality": 73,
+        "stamina": 68,
+        "awareness": 79,
+        "composure": 76
+      }
+    },
+    {
+      "name": "K. Dolberg",
+      "number": 8,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 76,
+        "shooting": 80,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 24,
+        "physicality": 79,
+        "stamina": 73,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "J. Vestergaard",
+      "number": 9,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 34,
+        "shooting": 34,
+        "passing": 70,
+        "dribbling": 45,
+        "defending": 80,
+        "physicality": 90,
+        "stamina": 66,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Y. Poulsen",
+      "number": 10,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 84,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 59,
+        "physicality": 78,
+        "stamina": 86,
+        "awareness": 80,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Braithwaite",
+      "number": 11,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 80,
+        "shooting": 78,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 30,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Damsgaard",
+      "number": 12,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 81,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 83,
+        "defending": 46,
+        "physicality": 57,
+        "stamina": 74,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Mæhle",
+      "number": 13,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 91,
+        "shooting": 50,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 74,
+        "stamina": 90,
+        "awareness": 74,
+        "composure": 70
+      }
+    },
+    {
+      "name": "R. Kristensen",
+      "number": 14,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 80,
+        "shooting": 60,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 72,
+        "physicality": 77,
+        "stamina": 92,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "E. Sviatchenko",
+      "number": 15,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 67,
+        "shooting": 41,
+        "passing": 71,
+        "dribbling": 51,
+        "defending": 76,
+        "physicality": 88,
+        "stamina": 74,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "R. Skov",
+      "number": 16,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 79,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 69,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Christiansen",
+      "number": 17,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "R. Falk",
+      "number": 18,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 64,
+        "passing": 77,
+        "dribbling": 80,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 90,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "J. Larsen",
+      "number": 19,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 59,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 74,
+        "stamina": 83,
+        "awareness": 79,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Bah",
+      "number": 20,
+      "position": "RB",
+      "overall": 75,
+      "attributes": {
+        "pace": 93,
+        "shooting": 55,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 73,
+        "physicality": 74,
+        "stamina": 85,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "P. Zinckernagel",
+      "number": 21,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 86,
+        "shooting": 71,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 38,
+        "physicality": 64,
+        "stamina": 82,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Scholz",
+      "number": 22,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 48,
+        "passing": 75,
+        "dribbling": 66,
+        "defending": 76,
+        "physicality": 83,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 79
+      }
+    },
+    {
+      "name": "A. Maxsø",
+      "number": 23,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 52,
+        "shooting": 47,
+        "passing": 74,
+        "dribbling": 41,
+        "defending": 74,
+        "physicality": 87,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 68
+      }
+    }
+  ]
+}

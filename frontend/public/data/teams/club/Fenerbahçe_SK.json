@@ -1,0 +1,396 @@
+{
+  "name": "Fenerbahçe SK",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Özil",
+      "number": 1,
+      "position": "RW",
+      "overall": 79,
+      "attributes": {
+        "pace": 59,
+        "shooting": 67,
+        "passing": 88,
+        "dribbling": 79,
+        "defending": 16,
+        "physicality": 50,
+        "stamina": 50,
+        "awareness": 77,
+        "composure": 83
+      }
+    },
+    {
+      "name": "20 E. Belözoğlu",
+      "number": 2,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 36,
+        "shooting": 66,
+        "passing": 84,
+        "dribbling": 77,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 51,
+        "awareness": 70,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Luiz Gustavo",
+      "number": 3,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 51,
+        "shooting": 40,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 79,
+        "physicality": 79,
+        "stamina": 81,
+        "awareness": 70,
+        "composure": 84
+      }
+    },
+    {
+      "name": "A. Bayındır",
+      "number": 4,
+      "position": "GK",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "defending": 81,
+        "passing": 73,
+        "dribbling": 77,
+        "physicality": 64,
+        "stamina": 31,
+        "awareness": 66,
+        "composure": 49
+      }
+    },
+    {
+      "name": "J. Sosa",
+      "number": 5,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 71,
+        "shooting": 60,
+        "passing": 83,
+        "dribbling": 77,
+        "defending": 67,
+        "physicality": 64,
+        "stamina": 62,
+        "awareness": 73,
+        "composure": 79
+      }
+    },
+    {
+      "name": "D. Pelkas",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 82,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 30,
+        "physicality": 44,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Rossi",
+      "number": 7,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 82,
+        "shooting": 77,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 18,
+        "physicality": 54,
+        "stamina": 79,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "I. Kahveci",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 79,
+        "shooting": 67,
+        "passing": 78,
+        "dribbling": 78,
+        "defending": 61,
+        "physicality": 67,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "E. Valencia",
+      "number": 9,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 88,
+        "shooting": 75,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 40,
+        "physicality": 76,
+        "stamina": 81,
+        "awareness": 73,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Berisha",
+      "number": 10,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 24,
+        "physicality": 79,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Perotti",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 64,
+        "passing": 73,
+        "dribbling": 84,
+        "defending": 31,
+        "physicality": 48,
+        "stamina": 47,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Szalai",
+      "number": 12,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "shooting": 32,
+        "passing": 69,
+        "dribbling": 48,
+        "defending": 74,
+        "physicality": 87,
+        "stamina": 79,
+        "awareness": 60,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Novák",
+      "number": 13,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "shooting": 64,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 71,
+        "stamina": 77,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Dursun",
+      "number": 14,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 77,
+        "passing": 70,
+        "dribbling": 74,
+        "defending": 31,
+        "physicality": 78,
+        "stamina": 69,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Kim Min Jae",
+      "number": 15,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 80,
+        "shooting": 23,
+        "passing": 73,
+        "dribbling": 54,
+        "defending": 75,
+        "physicality": 86,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Aziz",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 26,
+        "passing": 65,
+        "dribbling": 52,
+        "defending": 76,
+        "physicality": 83,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "19 V. Demirel",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 30,
+        "shooting": 14,
+        "passing": 38,
+        "dribbling": 25,
+        "defending": 14,
+        "physicality": 83,
+        "stamina": 42,
+        "awareness": 71,
+        "composure": 50
+      }
+    },
+    {
+      "name": "M. Meyer",
+      "number": 18,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 53,
+        "shooting": 63,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 65,
+        "physicality": 51,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Zajc",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 60,
+        "physicality": 61,
+        "stamina": 76,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Tisserand",
+      "number": 20,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 56,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 73,
+        "physicality": 79,
+        "stamina": 73,
+        "awareness": 75,
+        "composure": 65
+      }
+    },
+    {
+      "name": "N. Sangaré",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 87,
+        "shooting": 34,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 90,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 P. Cissé",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 54,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 19,
+        "physicality": 68,
+        "stamina": 61,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "B. Osayi-Samuel",
+      "number": 23,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 93,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 80,
+        "defending": 38,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 63
+      }
+    }
+  ]
+}

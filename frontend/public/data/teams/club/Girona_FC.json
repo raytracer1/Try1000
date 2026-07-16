@@ -1,0 +1,396 @@
+{
+  "name": "Girona FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "C. Stuani",
+      "number": 1,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 69,
+        "shooting": 80,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 49,
+        "physicality": 84,
+        "stamina": 81,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Samu Sáiz",
+      "number": 2,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 83,
+        "defending": 30,
+        "physicality": 59,
+        "stamina": 73,
+        "awareness": 67,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 S. Cristóforo",
+      "number": 3,
+      "position": "CDM",
+      "overall": 74,
+      "attributes": {
+        "pace": 46,
+        "shooting": 50,
+        "passing": 76,
+        "dribbling": 64,
+        "defending": 75,
+        "physicality": 65,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "B. Espinosa",
+      "number": 4,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 44,
+        "shooting": 40,
+        "passing": 70,
+        "dribbling": 40,
+        "defending": 74,
+        "physicality": 87,
+        "stamina": 59,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Borja García",
+      "number": 5,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 67,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "N. Bustos",
+      "number": 6,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 80,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 29,
+        "physicality": 69,
+        "stamina": 75,
+        "awareness": 73,
+        "composure": 77
+      }
+    },
+    {
+      "name": "20 Marc Muniesa",
+      "number": 7,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 57,
+        "shooting": 42,
+        "passing": 70,
+        "dribbling": 63,
+        "defending": 72,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Juan Carlos",
+      "number": 8,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 71,
+        "defending": 74,
+        "passing": 73,
+        "dribbling": 72,
+        "physicality": 71,
+        "stamina": 42,
+        "awareness": 68,
+        "composure": 53
+      }
+    },
+    {
+      "name": "20 Carles Planas",
+      "number": 9,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 52,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 70,
+        "physicality": 78,
+        "stamina": 76,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Aleix García",
+      "number": 10,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 63,
+        "shooting": 67,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 63,
+        "physicality": 52,
+        "stamina": 67,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 Aday Benítez",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 66,
+        "physicality": 58,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 66
+      }
+    },
+    {
+      "name": "David Juncà",
+      "number": 12,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 35,
+        "passing": 68,
+        "dribbling": 61,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Jairo",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 87,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 75,
+        "defending": 21,
+        "physicality": 37,
+        "stamina": 51,
+        "awareness": 53,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Jordi Calavera",
+      "number": 14,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 46,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 85,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Adrián Ortolá",
+      "number": 15,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 14,
+        "passing": 45,
+        "dribbling": 18,
+        "defending": 13,
+        "physicality": 54,
+        "stamina": 43,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Pol Lozano",
+      "number": 16,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 73,
+        "shooting": 55,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 64,
+        "physicality": 63,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Juanpe",
+      "number": 17,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 60,
+        "shooting": 35,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 68,
+        "physicality": 86,
+        "stamina": 68,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Valery",
+      "number": 18,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 61,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 60,
+        "stamina": 67,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Pablo Moreno",
+      "number": 19,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 76,
+        "shooting": 71,
+        "passing": 64,
+        "dribbling": 70,
+        "defending": 16,
+        "physicality": 59,
+        "stamina": 63,
+        "awareness": 64,
+        "composure": 58
+      }
+    },
+    {
+      "name": "P. Diamanka",
+      "number": 20,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 71,
+        "shooting": 61,
+        "passing": 66,
+        "dribbling": 60,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Alex Baena",
+      "number": 21,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 63,
+        "dribbling": 74,
+        "defending": 39,
+        "physicality": 46,
+        "stamina": 55,
+        "awareness": 52,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Bueno",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 52,
+        "shooting": 16,
+        "passing": 60,
+        "dribbling": 40,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 72,
+        "awareness": 60,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Terrats",
+      "number": 23,
+      "position": "CDM",
+      "overall": 66,
+      "attributes": {
+        "pace": 60,
+        "shooting": 35,
+        "passing": 72,
+        "dribbling": 60,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 62,
+        "awareness": 61,
+        "composure": 52
+      }
+    }
+  ]
+}

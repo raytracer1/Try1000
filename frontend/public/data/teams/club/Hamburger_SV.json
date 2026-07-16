@@ -1,0 +1,396 @@
+{
+  "name": "Hamburger SV",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 Douglas Santos",
+      "number": 1,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 81,
+        "shooting": 49,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 50,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 66
+      }
+    },
+    {
+      "name": "17 E. Spahić",
+      "number": 2,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 54,
+        "shooting": 42,
+        "passing": 66,
+        "dribbling": 40,
+        "defending": 75,
+        "physicality": 78,
+        "stamina": 52,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "T. Leibold",
+      "number": 3,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 54,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 68,
+        "physicality": 63,
+        "stamina": 81,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Kittel",
+      "number": 4,
+      "position": "LW",
+      "overall": 73,
+      "attributes": {
+        "pace": 86,
+        "shooting": 68,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 24,
+        "physicality": 53,
+        "stamina": 71,
+        "awareness": 67,
+        "composure": 61
+      }
+    },
+    {
+      "name": "19 P. Lasogga",
+      "number": 5,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 50,
+        "shooting": 76,
+        "passing": 45,
+        "dribbling": 59,
+        "defending": 40,
+        "physicality": 88,
+        "stamina": 58,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "S. Schonlau",
+      "number": 6,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 60,
+        "shooting": 39,
+        "passing": 68,
+        "dribbling": 50,
+        "defending": 79,
+        "physicality": 74,
+        "stamina": 73,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "B. Jatta",
+      "number": 7,
+      "position": "RW",
+      "overall": 72,
+      "attributes": {
+        "pace": 87,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 75,
+        "defending": 43,
+        "physicality": 78,
+        "stamina": 80,
+        "awareness": 62,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Meffert",
+      "number": 8,
+      "position": "CDM",
+      "overall": 72,
+      "attributes": {
+        "pace": 55,
+        "shooting": 42,
+        "passing": 73,
+        "dribbling": 64,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 83,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Vušković",
+      "number": 9,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 25,
+        "passing": 62,
+        "dribbling": 32,
+        "defending": 74,
+        "physicality": 77,
+        "stamina": 60,
+        "awareness": 65,
+        "composure": 52
+      }
+    },
+    {
+      "name": "L. Reis",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 78,
+        "shooting": 54,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 68,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 A. Hunt",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 58,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 38,
+        "physicality": 63,
+        "stamina": 55,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Vagnoman",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 90,
+        "shooting": 45,
+        "passing": 66,
+        "dribbling": 69,
+        "defending": 68,
+        "physicality": 87,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 56
+      }
+    },
+    {
+      "name": "D. Heuer Fernandes",
+      "number": 13,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 71,
+        "defending": 74,
+        "passing": 69,
+        "dribbling": 68,
+        "physicality": 69,
+        "stamina": 43,
+        "awareness": 66,
+        "composure": 28
+      }
+    },
+    {
+      "name": "D. Kinsombi",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Gyamerah",
+      "number": 15,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 77,
+        "shooting": 40,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 68,
+        "awareness": 66,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Heyer",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 76,
+        "shooting": 53,
+        "passing": 71,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 81,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Muheim",
+      "number": 17,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 51,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 64,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Wintzheimer",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 64,
+        "shooting": 73,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 27,
+        "physicality": 71,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "R. Glatzel",
+      "number": 19,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 70,
+        "passing": 52,
+        "dribbling": 65,
+        "defending": 22,
+        "physicality": 85,
+        "stamina": 64,
+        "awareness": 70,
+        "composure": 61
+      }
+    },
+    {
+      "name": "S. Ambrosius",
+      "number": 20,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 25,
+        "passing": 61,
+        "dribbling": 43,
+        "defending": 71,
+        "physicality": 84,
+        "stamina": 59,
+        "awareness": 53,
+        "composure": 56
+      }
+    },
+    {
+      "name": "M. Johansson",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 42,
+        "shooting": 20,
+        "passing": 35,
+        "dribbling": 17,
+        "defending": 12,
+        "physicality": 63,
+        "stamina": 35,
+        "awareness": 58,
+        "composure": 51
+      }
+    },
+    {
+      "name": "M. Kaufmann",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 74,
+        "shooting": 64,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 22,
+        "physicality": 73,
+        "stamina": 62,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. David",
+      "number": 23,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 29,
+        "passing": 65,
+        "dribbling": 57,
+        "defending": 65,
+        "physicality": 80,
+        "stamina": 58,
+        "awareness": 59,
+        "composure": 45
+      }
+    }
+  ]
+}

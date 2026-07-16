@@ -1,0 +1,345 @@
+{
+  "name": "Barrow",
+  "type": "club",
+  "players": [
+    {
+      "name": "21 N. Eardley",
+      "number": 1,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "shooting": 43,
+        "passing": 59,
+        "dribbling": 57,
+        "defending": 61,
+        "physicality": 63,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Devitt",
+      "number": 2,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 59,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 47,
+        "physicality": 43,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 64
+      }
+    },
+    {
+      "name": "R. Gotts",
+      "number": 3,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 57,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 59,
+        "physicality": 58,
+        "stamina": 73,
+        "awareness": 63,
+        "composure": 62
+      }
+    },
+    {
+      "name": "R. Hutton",
+      "number": 4,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 33,
+        "passing": 57,
+        "dribbling": 60,
+        "defending": 58,
+        "physicality": 66,
+        "stamina": 77,
+        "awareness": 58,
+        "composure": 44
+      }
+    },
+    {
+      "name": "P. Brough",
+      "number": 5,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 67,
+        "shooting": 46,
+        "passing": 55,
+        "dribbling": 54,
+        "defending": 61,
+        "physicality": 82,
+        "stamina": 84,
+        "awareness": 57,
+        "composure": 55
+      }
+    },
+    {
+      "name": "P. Farman",
+      "number": 6,
+      "position": "GK",
+      "overall": 63,
+      "attributes": {
+        "pace": 64,
+        "defending": 66,
+        "passing": 60,
+        "dribbling": 60,
+        "physicality": 58,
+        "stamina": 37,
+        "awareness": 62,
+        "composure": 43
+      }
+    },
+    {
+      "name": "M. Jones",
+      "number": 7,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 58,
+        "passing": 63,
+        "dribbling": 62,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 81,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "O. Banks",
+      "number": 8,
+      "position": "CB",
+      "overall": 62,
+      "attributes": {
+        "pace": 52,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 55,
+        "defending": 57,
+        "physicality": 78,
+        "stamina": 82,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "J. Gordon",
+      "number": 9,
+      "position": "RW",
+      "overall": 62,
+      "attributes": {
+        "pace": 79,
+        "shooting": 61,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 48,
+        "physicality": 72,
+        "stamina": 83,
+        "awareness": 59,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 C. Taylor",
+      "number": 10,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 62,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 57,
+        "physicality": 63,
+        "stamina": 57,
+        "awareness": 61,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Kay",
+      "number": 11,
+      "position": "LW",
+      "overall": 62,
+      "attributes": {
+        "pace": 73,
+        "shooting": 56,
+        "passing": 55,
+        "dribbling": 57,
+        "defending": 58,
+        "physicality": 64,
+        "stamina": 73,
+        "awareness": 57,
+        "composure": 54
+      }
+    },
+    {
+      "name": "M. Platt",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 62,
+        "shooting": 25,
+        "passing": 53,
+        "dribbling": 36,
+        "defending": 62,
+        "physicality": 81,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 51
+      }
+    },
+    {
+      "name": "21 D. Donohue",
+      "number": 13,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 50,
+        "passing": 62,
+        "dribbling": 60,
+        "defending": 59,
+        "physicality": 64,
+        "stamina": 68,
+        "awareness": 55,
+        "composure": 56
+      }
+    },
+    {
+      "name": "G. Williams",
+      "number": 14,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 75,
+        "shooting": 61,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 28,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "T. Beadling",
+      "number": 15,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 60,
+        "shooting": 55,
+        "passing": 63,
+        "dribbling": 58,
+        "defending": 62,
+        "physicality": 73,
+        "stamina": 70,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "L. James",
+      "number": 16,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 77,
+        "shooting": 59,
+        "passing": 55,
+        "dribbling": 61,
+        "defending": 37,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 58,
+        "composure": 55
+      }
+    },
+    {
+      "name": "O. Zanzala",
+      "number": 17,
+      "position": "ST",
+      "overall": 61,
+      "attributes": {
+        "pace": 69,
+        "shooting": 62,
+        "passing": 51,
+        "dribbling": 58,
+        "defending": 20,
+        "physicality": 77,
+        "stamina": 69,
+        "awareness": 57,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 C. Andrew",
+      "number": 18,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 68,
+        "shooting": 58,
+        "passing": 56,
+        "dribbling": 55,
+        "defending": 45,
+        "physicality": 82,
+        "stamina": 66,
+        "awareness": 58,
+        "composure": 57
+      }
+    },
+    {
+      "name": "K. Ntlhe",
+      "number": 19,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 75,
+        "shooting": 37,
+        "passing": 56,
+        "dribbling": 56,
+        "defending": 59,
+        "physicality": 64,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 53
+      }
+    },
+    {
+      "name": "J. Stevens",
+      "number": 20,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 71,
+        "shooting": 45,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 45,
+        "physicality": 49,
+        "stamina": 63,
+        "awareness": 52,
+        "composure": 51
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Paris Saint-Germain",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Messi",
+      "number": 1,
+      "position": "RW",
+      "overall": 93,
+      "attributes": {
+        "pace": 80,
+        "shooting": 95,
+        "passing": 91,
+        "dribbling": 96,
+        "defending": 35,
+        "physicality": 69,
+        "stamina": 72,
+        "awareness": 94,
+        "composure": 96
+      }
+    },
+    {
+      "name": "Neymar Jr",
+      "number": 2,
+      "position": "LW",
+      "overall": 91,
+      "attributes": {
+        "pace": 89,
+        "shooting": 83,
+        "passing": 86,
+        "dribbling": 95,
+        "defending": 32,
+        "physicality": 53,
+        "stamina": 81,
+        "awareness": 89,
+        "composure": 93
+      }
+    },
+    {
+      "name": "K. Mbappé",
+      "number": 3,
+      "position": "ST",
+      "overall": 91,
+      "attributes": {
+        "pace": 97,
+        "shooting": 93,
+        "passing": 85,
+        "dribbling": 93,
+        "defending": 34,
+        "physicality": 77,
+        "stamina": 88,
+        "awareness": 93,
+        "composure": 88
+      }
+    },
+    {
+      "name": "G. Donnarumma",
+      "number": 4,
+      "position": "GK",
+      "overall": 89,
+      "attributes": {
+        "pace": 91,
+        "defending": 90,
+        "passing": 83,
+        "dribbling": 85,
+        "physicality": 72,
+        "stamina": 34,
+        "awareness": 85,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Sergio Ramos",
+      "number": 5,
+      "position": "CB",
+      "overall": 88,
+      "attributes": {
+        "pace": 69,
+        "shooting": 65,
+        "passing": 82,
+        "dribbling": 65,
+        "defending": 89,
+        "physicality": 84,
+        "stamina": 78,
+        "awareness": 92,
+        "composure": 88
+      }
+    },
+    {
+      "name": "K. Navas",
+      "number": 6,
+      "position": "CM",
+      "overall": 88,
+      "attributes": {
+        "pace": 53,
+        "shooting": 15,
+        "passing": 40,
+        "dribbling": 24,
+        "defending": 14,
+        "physicality": 75,
+        "stamina": 39,
+        "awareness": 85,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Verratti",
+      "number": 7,
+      "position": "CM",
+      "overall": 87,
+      "attributes": {
+        "pace": 60,
+        "shooting": 60,
+        "passing": 90,
+        "dribbling": 91,
+        "defending": 82,
+        "physicality": 54,
+        "stamina": 76,
+        "awareness": 87,
+        "composure": 94
+      }
+    },
+    {
+      "name": "A. Di María",
+      "number": 8,
+      "position": "CM",
+      "overall": 87,
+      "attributes": {
+        "pace": 83,
+        "shooting": 79,
+        "passing": 84,
+        "dribbling": 88,
+        "defending": 55,
+        "physicality": 62,
+        "stamina": 78,
+        "awareness": 84,
+        "composure": 86
+      }
+    },
+    {
+      "name": "Marquinhos",
+      "number": 9,
+      "position": "CB",
+      "overall": 87,
+      "attributes": {
+        "pace": 81,
+        "shooting": 51,
+        "passing": 84,
+        "dribbling": 69,
+        "defending": 89,
+        "physicality": 78,
+        "stamina": 83,
+        "awareness": 87,
+        "composure": 86
+      }
+    },
+    {
+      "name": "A. Hakimi",
+      "number": 10,
+      "position": "RB",
+      "overall": 85,
+      "attributes": {
+        "pace": 95,
+        "shooting": 73,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 78,
+        "physicality": 73,
+        "stamina": 91,
+        "awareness": 84,
+        "composure": 80
+      }
+    },
+    {
+      "name": "G. Wijnaldum",
+      "number": 11,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 76,
+        "shooting": 75,
+        "passing": 87,
+        "dribbling": 85,
+        "defending": 80,
+        "physicality": 74,
+        "stamina": 93,
+        "awareness": 86,
+        "composure": 86
+      }
+    },
+    {
+      "name": "P. Kimpembe",
+      "number": 12,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 81,
+        "shooting": 31,
+        "passing": 80,
+        "dribbling": 63,
+        "defending": 86,
+        "physicality": 87,
+        "stamina": 81,
+        "awareness": 80,
+        "composure": 80
+      }
+    },
+    {
+      "name": "M. Icardi",
+      "number": 13,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 68,
+        "shooting": 87,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 24,
+        "physicality": 73,
+        "stamina": 67,
+        "awareness": 84,
+        "composure": 83
+      }
+    },
+    {
+      "name": "19 Dani Alves",
+      "number": 14,
+      "position": "RB",
+      "overall": 82,
+      "attributes": {
+        "pace": 77,
+        "shooting": 61,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 78,
+        "physicality": 55,
+        "stamina": 74,
+        "awareness": 80,
+        "composure": 83
+      }
+    },
+    {
+      "name": "Juan Bernat",
+      "number": 15,
+      "position": "LB",
+      "overall": 82,
+      "attributes": {
+        "pace": 82,
+        "shooting": 65,
+        "passing": 81,
+        "dribbling": 82,
+        "defending": 81,
+        "physicality": 58,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 78
+      }
+    },
+    {
+      "name": "I. Gueye",
+      "number": 16,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 69,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 76,
+        "defending": 87,
+        "physicality": 69,
+        "stamina": 85,
+        "awareness": 81,
+        "composure": 79
+      }
+    },
+    {
+      "name": "L. Paredes",
+      "number": 17,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 66,
+        "shooting": 61,
+        "passing": 84,
+        "dribbling": 79,
+        "defending": 78,
+        "physicality": 77,
+        "stamina": 79,
+        "awareness": 78,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Danilo Pereira",
+      "number": 18,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 67,
+        "shooting": 57,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 81,
+        "physicality": 89,
+        "stamina": 85,
+        "awareness": 75,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Rafinha",
+      "number": 19,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 68,
+        "shooting": 70,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 74,
+        "physicality": 67,
+        "stamina": 66,
+        "awareness": 77,
+        "composure": 82
+      }
+    },
+    {
+      "name": "J. Draxler",
+      "number": 20,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 81,
+        "dribbling": 83,
+        "defending": 64,
+        "physicality": 67,
+        "stamina": 68,
+        "awareness": 78,
+        "composure": 82
+      }
+    },
+    {
+      "name": "18 T. Motta",
+      "number": 21,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 29,
+        "shooting": 53,
+        "passing": 82,
+        "dribbling": 65,
+        "defending": 82,
+        "physicality": 83,
+        "stamina": 61,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Ander Herrera",
+      "number": 22,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 62,
+        "shooting": 69,
+        "passing": 81,
+        "dribbling": 78,
+        "defending": 81,
+        "physicality": 70,
+        "stamina": 81,
+        "awareness": 80,
+        "composure": 82
+      }
+    },
+    {
+      "name": "17 Maxwell",
+      "number": 23,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 74,
+        "shooting": 71,
+        "passing": 82,
+        "dribbling": 75,
+        "defending": 78,
+        "physicality": 70,
+        "stamina": 83,
+        "awareness": 77,
+        "composure": 81
+      }
+    }
+  ]
+}

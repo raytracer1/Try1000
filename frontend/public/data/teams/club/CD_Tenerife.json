@@ -1,0 +1,396 @@
+{
+  "name": "CD Tenerife",
+  "type": "club",
+  "players": [
+    {
+      "name": "Enric Gallego",
+      "number": 1,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 52,
+        "shooting": 79,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 17,
+        "physicality": 82,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Moore",
+      "number": 2,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 88,
+        "shooting": 59,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 63,
+        "physicality": 75,
+        "stamina": 83,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "N. Leiva",
+      "number": 3,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 82,
+        "shooting": 70,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 22,
+        "physicality": 55,
+        "stamina": 73,
+        "awareness": 67,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Míchel",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 42,
+        "shooting": 64,
+        "passing": 81,
+        "dribbling": 72,
+        "defending": 52,
+        "physicality": 58,
+        "stamina": 43,
+        "awareness": 73,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Alex Muñoz",
+      "number": 5,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 86,
+        "shooting": 62,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 66,
+        "physicality": 80,
+        "stamina": 85,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 Serantes",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 18,
+        "passing": 21,
+        "dribbling": 16,
+        "defending": 20,
+        "physicality": 52,
+        "stamina": 44,
+        "awareness": 71,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Aitor Sanz",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 48,
+        "shooting": 54,
+        "passing": 75,
+        "dribbling": 63,
+        "defending": 64,
+        "physicality": 70,
+        "stamina": 78,
+        "awareness": 63,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Mollejo",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 77,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 44,
+        "physicality": 61,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Mellot",
+      "number": 9,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 42,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 64,
+        "physicality": 71,
+        "stamina": 91,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Juan Soriano",
+      "number": 10,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 72,
+        "defending": 72,
+        "passing": 66,
+        "dribbling": 69,
+        "physicality": 58,
+        "stamina": 35,
+        "awareness": 67,
+        "composure": 47
+      }
+    },
+    {
+      "name": "Rubén Díez",
+      "number": 11,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 59,
+        "physicality": 50,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Àlex Corredera",
+      "number": 12,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 59,
+        "physicality": 64,
+        "stamina": 77,
+        "awareness": 64,
+        "composure": 73
+      }
+    },
+    {
+      "name": "S. Shashoua",
+      "number": 13,
+      "position": "CAM",
+      "overall": 69,
+      "attributes": {
+        "pace": 87,
+        "shooting": 71,
+        "passing": 66,
+        "dribbling": 73,
+        "defending": 32,
+        "physicality": 58,
+        "stamina": 69,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Pomares",
+      "number": 14,
+      "position": "LB",
+      "overall": 69,
+      "attributes": {
+        "pace": 77,
+        "shooting": 56,
+        "passing": 67,
+        "dribbling": 57,
+        "defending": 65,
+        "physicality": 76,
+        "stamina": 83,
+        "awareness": 64,
+        "composure": 53
+      }
+    },
+    {
+      "name": "21 Ramón Folch",
+      "number": 15,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 33,
+        "shooting": 48,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 69,
+        "stamina": 81,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Álex Bermejo",
+      "number": 16,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 58,
+        "physicality": 62,
+        "stamina": 69,
+        "awareness": 62,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Javi Alonso",
+      "number": 17,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 60,
+        "shooting": 48,
+        "passing": 74,
+        "dribbling": 60,
+        "defending": 64,
+        "physicality": 72,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Carlos Ruiz",
+      "number": 18,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 46,
+        "passing": 67,
+        "dribbling": 50,
+        "defending": 67,
+        "physicality": 83,
+        "stamina": 81,
+        "awareness": 59,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Alberto",
+      "number": 19,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 54,
+        "shooting": 42,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 66,
+        "physicality": 91,
+        "stamina": 85,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Borja Lasso",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 65,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 35,
+        "physicality": 69,
+        "stamina": 63,
+        "awareness": 65,
+        "composure": 72
+      }
+    },
+    {
+      "name": "N. Šipčić",
+      "number": 21,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 31,
+        "passing": 63,
+        "dribbling": 58,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 67,
+        "awareness": 60,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Hernández",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 30,
+        "shooting": 6,
+        "passing": 41,
+        "dribbling": 12,
+        "defending": 7,
+        "physicality": 74,
+        "stamina": 38,
+        "awareness": 66,
+        "composure": 52
+      }
+    },
+    {
+      "name": "José León",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 25,
+        "passing": 65,
+        "dribbling": 42,
+        "defending": 64,
+        "physicality": 74,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 56
+      }
+    }
+  ]
+}

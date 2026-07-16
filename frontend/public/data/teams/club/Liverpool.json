@@ -1,0 +1,396 @@
+{
+  "name": "Liverpool",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Salah",
+      "number": 1,
+      "position": "RW",
+      "overall": 89,
+      "attributes": {
+        "pace": 91,
+        "shooting": 91,
+        "passing": 84,
+        "dribbling": 90,
+        "defending": 43,
+        "physicality": 75,
+        "stamina": 85,
+        "awareness": 92,
+        "composure": 90
+      }
+    },
+    {
+      "name": "S. Mané",
+      "number": 2,
+      "position": "LW",
+      "overall": 89,
+      "attributes": {
+        "pace": 90,
+        "shooting": 86,
+        "passing": 84,
+        "dribbling": 90,
+        "defending": 42,
+        "physicality": 72,
+        "stamina": 85,
+        "awareness": 91,
+        "composure": 84
+      }
+    },
+    {
+      "name": "V. van Dijk",
+      "number": 3,
+      "position": "CB",
+      "overall": 89,
+      "attributes": {
+        "pace": 88,
+        "shooting": 52,
+        "passing": 79,
+        "dribbling": 70,
+        "defending": 92,
+        "physicality": 92,
+        "stamina": 69,
+        "awareness": 87,
+        "composure": 90
+      }
+    },
+    {
+      "name": "Alisson",
+      "number": 4,
+      "position": "GK",
+      "overall": 89,
+      "attributes": {
+        "pace": 86,
+        "defending": 89,
+        "passing": 86,
+        "dribbling": 90,
+        "physicality": 78,
+        "stamina": 32,
+        "awareness": 87,
+        "composure": 65
+      }
+    },
+    {
+      "name": "T. Alexander-Arnold",
+      "number": 5,
+      "position": "RB",
+      "overall": 87,
+      "attributes": {
+        "pace": 80,
+        "shooting": 60,
+        "passing": 86,
+        "dribbling": 78,
+        "defending": 83,
+        "physicality": 63,
+        "stamina": 88,
+        "awareness": 82,
+        "composure": 81
+      }
+    },
+    {
+      "name": "A. Robertson",
+      "number": 6,
+      "position": "LB",
+      "overall": 87,
+      "attributes": {
+        "pace": 85,
+        "shooting": 55,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 84,
+        "physicality": 65,
+        "stamina": 95,
+        "awareness": 85,
+        "composure": 83
+      }
+    },
+    {
+      "name": "Thiago",
+      "number": 7,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 55,
+        "shooting": 68,
+        "passing": 90,
+        "dribbling": 90,
+        "defending": 71,
+        "physicality": 59,
+        "stamina": 74,
+        "awareness": 84,
+        "composure": 88
+      }
+    },
+    {
+      "name": "Fabinho",
+      "number": 8,
+      "position": "CDM",
+      "overall": 86,
+      "attributes": {
+        "pace": 68,
+        "shooting": 63,
+        "passing": 84,
+        "dribbling": 78,
+        "defending": 87,
+        "physicality": 81,
+        "stamina": 88,
+        "awareness": 86,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Roberto Firmino",
+      "number": 9,
+      "position": "ST",
+      "overall": 85,
+      "attributes": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 84,
+        "dribbling": 89,
+        "defending": 64,
+        "physicality": 74,
+        "stamina": 87,
+        "awareness": 86,
+        "composure": 88
+      }
+    },
+    {
+      "name": "J. Henderson",
+      "number": 10,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 66,
+        "shooting": 73,
+        "passing": 85,
+        "dribbling": 78,
+        "defending": 81,
+        "physicality": 78,
+        "stamina": 86,
+        "awareness": 85,
+        "composure": 82
+      }
+    },
+    {
+      "name": "J. Matip",
+      "number": 11,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 65,
+        "shooting": 36,
+        "passing": 77,
+        "dribbling": 69,
+        "defending": 86,
+        "physicality": 81,
+        "stamina": 69,
+        "awareness": 84,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Diogo Jota",
+      "number": 12,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 81,
+        "shooting": 84,
+        "passing": 75,
+        "dribbling": 85,
+        "defending": 57,
+        "physicality": 71,
+        "stamina": 81,
+        "awareness": 84,
+        "composure": 83
+      }
+    },
+    {
+      "name": "J. Gomez",
+      "number": 13,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 85,
+        "shooting": 26,
+        "passing": 78,
+        "dribbling": 67,
+        "defending": 84,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 82,
+        "composure": 74
+      }
+    },
+    {
+      "name": "N. Keïta",
+      "number": 14,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 65,
+        "shooting": 74,
+        "passing": 83,
+        "dribbling": 85,
+        "defending": 64,
+        "physicality": 59,
+        "stamina": 73,
+        "awareness": 80,
+        "composure": 81
+      }
+    },
+    {
+      "name": "20 D. Lovren",
+      "number": 15,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 54,
+        "shooting": 33,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 82,
+        "physicality": 82,
+        "stamina": 64,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Milner",
+      "number": 16,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 52,
+        "shooting": 62,
+        "passing": 82,
+        "dribbling": 76,
+        "defending": 80,
+        "physicality": 70,
+        "stamina": 77,
+        "awareness": 84,
+        "composure": 84
+      }
+    },
+    {
+      "name": "A. Oxlade-Chamberlain",
+      "number": 17,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 81,
+        "shooting": 70,
+        "passing": 80,
+        "dribbling": 83,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 78,
+        "composure": 77
+      }
+    },
+    {
+      "name": "I. Konaté",
+      "number": 18,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 75,
+        "shooting": 29,
+        "passing": 75,
+        "dribbling": 67,
+        "defending": 85,
+        "physicality": 83,
+        "stamina": 61,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Origi",
+      "number": 19,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 84,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 24,
+        "physicality": 77,
+        "stamina": 70,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "K. Tsimikas",
+      "number": 20,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 49,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 73,
+        "physicality": 71,
+        "stamina": 77,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "T. Minamino",
+      "number": 21,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 71,
+        "dribbling": 81,
+        "defending": 30,
+        "physicality": 55,
+        "stamina": 76,
+        "awareness": 71,
+        "composure": 79
+      }
+    },
+    {
+      "name": "L. Karius",
+      "number": 22,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 54,
+        "shooting": 18,
+        "passing": 38,
+        "dribbling": 16,
+        "defending": 11,
+        "physicality": 64,
+        "stamina": 36,
+        "awareness": 72,
+        "composure": 60
+      }
+    },
+    {
+      "name": "Adrián",
+      "number": 23,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 44,
+        "shooting": 16,
+        "passing": 21,
+        "dribbling": 15,
+        "defending": 19,
+        "physicality": 63,
+        "stamina": 38,
+        "awareness": 71,
+        "composure": 59
+      }
+    }
+  ]
+}

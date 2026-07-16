@@ -1,0 +1,209 @@
+{
+  "name": "Perth Glory",
+  "type": "club",
+  "players": [
+    {
+      "name": "B. Fornaroli",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 68,
+        "dribbling": 76,
+        "defending": 40,
+        "physicality": 83,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 Diego Castro",
+      "number": 2,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 56,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 78,
+        "defending": 42,
+        "physicality": 58,
+        "stamina": 46,
+        "awareness": 79,
+        "composure": 80
+      }
+    },
+    {
+      "name": "B. O'Neill",
+      "number": 3,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 51,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 91,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 S. Langkamp",
+      "number": 4,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 46,
+        "shooting": 22,
+        "passing": 62,
+        "dribbling": 35,
+        "defending": 72,
+        "physicality": 83,
+        "stamina": 52,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "B. Jones",
+      "number": 5,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "defending": 70,
+        "passing": 65,
+        "dribbling": 73,
+        "physicality": 72,
+        "stamina": 40,
+        "awareness": 71,
+        "composure": 56
+      }
+    },
+    {
+      "name": "19 S. Lowry",
+      "number": 6,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 58,
+        "shooting": 36,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 63,
+        "physicality": 88,
+        "stamina": 65,
+        "awareness": 52,
+        "composure": 62
+      }
+    },
+    {
+      "name": "K. Ota",
+      "number": 7,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "shooting": 48,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 63,
+        "physicality": 79,
+        "stamina": 68,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Keogh",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 65,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 39,
+        "physicality": 78,
+        "stamina": 81,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Clisby",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 68,
+        "shooting": 45,
+        "passing": 55,
+        "dribbling": 51,
+        "defending": 57,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Calver",
+      "number": 10,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 63,
+        "shooting": 23,
+        "passing": 59,
+        "dribbling": 49,
+        "defending": 61,
+        "physicality": 81,
+        "stamina": 66,
+        "awareness": 52,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Aspropotamitis",
+      "number": 11,
+      "position": "CB",
+      "overall": 62,
+      "attributes": {
+        "pace": 63,
+        "shooting": 21,
+        "passing": 61,
+        "dribbling": 32,
+        "defending": 60,
+        "physicality": 83,
+        "stamina": 74,
+        "awareness": 54,
+        "composure": 65
+      }
+    },
+    {
+      "name": "O. Malik",
+      "number": 12,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 33,
+        "passing": 60,
+        "dribbling": 54,
+        "defending": 59,
+        "physicality": 72,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 57
+      }
+    }
+  ]
+}

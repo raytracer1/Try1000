@@ -1,0 +1,396 @@
+{
+  "name": "Roma",
+  "type": "club",
+  "players": [
+    {
+      "name": "H. Mkhitaryan",
+      "number": 1,
+      "position": "LW",
+      "overall": 83,
+      "attributes": {
+        "pace": 85,
+        "shooting": 80,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 53,
+        "physicality": 69,
+        "stamina": 88,
+        "awareness": 82,
+        "composure": 82
+      }
+    },
+    {
+      "name": "L. Spinazzola",
+      "number": 2,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 91,
+        "shooting": 60,
+        "passing": 78,
+        "dribbling": 83,
+        "defending": 77,
+        "physicality": 66,
+        "stamina": 81,
+        "awareness": 82,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Veretout",
+      "number": 3,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 85,
+        "dribbling": 76,
+        "defending": 81,
+        "physicality": 79,
+        "stamina": 85,
+        "awareness": 79,
+        "composure": 82
+      }
+    },
+    {
+      "name": "Rui Patrício",
+      "number": 4,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 82,
+        "defending": 83,
+        "passing": 80,
+        "dribbling": 80,
+        "physicality": 77,
+        "stamina": 45,
+        "awareness": 76,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Pellegrini",
+      "number": 5,
+      "position": "CAM",
+      "overall": 81,
+      "attributes": {
+        "pace": 79,
+        "shooting": 72,
+        "passing": 86,
+        "dribbling": 78,
+        "defending": 74,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 79,
+        "composure": 82
+      }
+    },
+    {
+      "name": "17 F. Totti",
+      "number": 6,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 34,
+        "shooting": 81,
+        "passing": 90,
+        "dribbling": 82,
+        "defending": 24,
+        "physicality": 75,
+        "stamina": 54,
+        "awareness": 79,
+        "composure": 85
+      }
+    },
+    {
+      "name": "G. Mancini",
+      "number": 7,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 65,
+        "shooting": 48,
+        "passing": 67,
+        "dribbling": 51,
+        "defending": 81,
+        "physicality": 83,
+        "stamina": 86,
+        "awareness": 80,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. El Shaarawy",
+      "number": 8,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 87,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 37,
+        "physicality": 64,
+        "stamina": 71,
+        "awareness": 75,
+        "composure": 73
+      }
+    },
+    {
+      "name": "R. Karsdorp",
+      "number": 9,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 89,
+        "shooting": 53,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 79,
+        "physicality": 78,
+        "stamina": 80,
+        "awareness": 77,
+        "composure": 74
+      }
+    },
+    {
+      "name": "N. Zaniolo",
+      "number": 10,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 84,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 80,
+        "defending": 59,
+        "physicality": 88,
+        "stamina": 74,
+        "awareness": 78,
+        "composure": 70
+      }
+    },
+    {
+      "name": "B. Cristante",
+      "number": 11,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 53,
+        "shooting": 68,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 77,
+        "physicality": 78,
+        "stamina": 81,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Nzonzi",
+      "number": 12,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 40,
+        "shooting": 51,
+        "passing": 79,
+        "dribbling": 70,
+        "defending": 77,
+        "physicality": 89,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 79
+      }
+    },
+    {
+      "name": "C. Smalling",
+      "number": 13,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 73,
+        "shooting": 54,
+        "passing": 65,
+        "dribbling": 59,
+        "defending": 81,
+        "physicality": 85,
+        "stamina": 67,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "T. Abraham",
+      "number": 14,
+      "position": "ST",
+      "overall": 78,
+      "attributes": {
+        "pace": 77,
+        "shooting": 82,
+        "passing": 77,
+        "dribbling": 72,
+        "defending": 23,
+        "physicality": 79,
+        "stamina": 69,
+        "awareness": 79,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 A. Mirante",
+      "number": 15,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 43,
+        "shooting": 17,
+        "passing": 35,
+        "dribbling": 24,
+        "defending": 12,
+        "physicality": 55,
+        "stamina": 33,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Ibañez",
+      "number": 16,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 80,
+        "shooting": 27,
+        "passing": 63,
+        "dribbling": 40,
+        "defending": 79,
+        "physicality": 77,
+        "stamina": 78,
+        "awareness": 81,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Viña",
+      "number": 17,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 82,
+        "shooting": 65,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 71,
+        "physicality": 66,
+        "stamina": 84,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Gonzalo Villar",
+      "number": 18,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 66,
+        "shooting": 54,
+        "passing": 84,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 68,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Borja Mayoral",
+      "number": 19,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 69,
+        "shooting": 77,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 29,
+        "physicality": 73,
+        "stamina": 71,
+        "awareness": 76,
+        "composure": 82
+      }
+    },
+    {
+      "name": "A. Diawara",
+      "number": 20,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 61,
+        "shooting": 48,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 75,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Carles Pérez",
+      "number": 21,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 79,
+        "shooting": 72,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 37,
+        "physicality": 64,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Kumbulla",
+      "number": 22,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 54,
+        "shooting": 26,
+        "passing": 61,
+        "dribbling": 52,
+        "defending": 77,
+        "physicality": 78,
+        "stamina": 68,
+        "awareness": 76,
+        "composure": 63
+      }
+    },
+    {
+      "name": "F. Fazio",
+      "number": 23,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 34,
+        "shooting": 41,
+        "passing": 64,
+        "dribbling": 44,
+        "defending": 78,
+        "physicality": 83,
+        "stamina": 63,
+        "awareness": 70,
+        "composure": 79
+      }
+    }
+  ]
+}

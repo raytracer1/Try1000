@@ -1,0 +1,396 @@
+{
+  "name": "Bradford City",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 K. Henry",
+      "number": 1,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 52,
+        "shooting": 51,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 66,
+        "physicality": 79,
+        "stamina": 60,
+        "awareness": 62,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Y. Songo'o",
+      "number": 2,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 54,
+        "shooting": 37,
+        "passing": 63,
+        "dribbling": 56,
+        "defending": 64,
+        "physicality": 81,
+        "stamina": 80,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "A. Cook",
+      "number": 3,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 58,
+        "dribbling": 59,
+        "defending": 26,
+        "physicality": 90,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 61
+      }
+    },
+    {
+      "name": "C. Cooke",
+      "number": 4,
+      "position": "CAM",
+      "overall": 64,
+      "attributes": {
+        "pace": 63,
+        "shooting": 57,
+        "passing": 64,
+        "dribbling": 66,
+        "defending": 56,
+        "physicality": 67,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "E. Watt",
+      "number": 5,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 46,
+        "passing": 65,
+        "dribbling": 59,
+        "defending": 59,
+        "physicality": 54,
+        "stamina": 91,
+        "awareness": 59,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Eisa",
+      "number": 6,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 93,
+        "shooting": 57,
+        "passing": 55,
+        "dribbling": 66,
+        "defending": 31,
+        "physicality": 64,
+        "stamina": 78,
+        "awareness": 53,
+        "composure": 59
+      }
+    },
+    {
+      "name": "A. Gilliead",
+      "number": 7,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 80,
+        "shooting": 58,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 43,
+        "physicality": 64,
+        "stamina": 91,
+        "awareness": 59,
+        "composure": 65
+      }
+    },
+    {
+      "name": "L. Sutton",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 78,
+        "shooting": 42,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 61,
+        "physicality": 63,
+        "stamina": 78,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "21 L. Novak",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 63,
+        "shooting": 64,
+        "passing": 58,
+        "dribbling": 55,
+        "defending": 40,
+        "physicality": 78,
+        "stamina": 66,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "O. Threlkeld",
+      "number": 10,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 67,
+        "shooting": 46,
+        "passing": 61,
+        "dribbling": 55,
+        "defending": 63,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "C. Vernam",
+      "number": 11,
+      "position": "LW",
+      "overall": 63,
+      "attributes": {
+        "pace": 87,
+        "shooting": 59,
+        "passing": 57,
+        "dribbling": 64,
+        "defending": 29,
+        "physicality": 64,
+        "stamina": 71,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "F. Kelleher",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 53,
+        "shooting": 28,
+        "passing": 53,
+        "dribbling": 42,
+        "defending": 62,
+        "physicality": 80,
+        "stamina": 79,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "P. O'Connor",
+      "number": 13,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 48,
+        "shooting": 17,
+        "passing": 51,
+        "dribbling": 40,
+        "defending": 62,
+        "physicality": 82,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 49
+      }
+    },
+    {
+      "name": "N. Canavan",
+      "number": 14,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 52,
+        "shooting": 15,
+        "passing": 44,
+        "dribbling": 37,
+        "defending": 64,
+        "physicality": 82,
+        "stamina": 61,
+        "awareness": 61,
+        "composure": 45
+      }
+    },
+    {
+      "name": "C. Lavery",
+      "number": 15,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 75,
+        "shooting": 61,
+        "passing": 59,
+        "dribbling": 61,
+        "defending": 35,
+        "physicality": 63,
+        "stamina": 72,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "L. Ridehalgh",
+      "number": 16,
+      "position": "LB",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 45,
+        "passing": 57,
+        "dribbling": 55,
+        "defending": 58,
+        "physicality": 64,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 49
+      }
+    },
+    {
+      "name": "T. Robinson",
+      "number": 17,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 66,
+        "passing": 54,
+        "dribbling": 60,
+        "defending": 36,
+        "physicality": 69,
+        "stamina": 70,
+        "awareness": 56,
+        "composure": 58
+      }
+    },
+    {
+      "name": "R. O'Donnell",
+      "number": 18,
+      "position": "GK",
+      "overall": 62,
+      "attributes": {
+        "pace": 62,
+        "defending": 62,
+        "passing": 63,
+        "dribbling": 61,
+        "physicality": 73,
+        "stamina": 32,
+        "awareness": 57,
+        "composure": 47
+      }
+    },
+    {
+      "name": "G. Evans",
+      "number": 19,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 65,
+        "shooting": 56,
+        "passing": 58,
+        "dribbling": 61,
+        "defending": 56,
+        "physicality": 71,
+        "stamina": 72,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "L. Angol",
+      "number": 20,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 83,
+        "shooting": 61,
+        "passing": 56,
+        "dribbling": 61,
+        "defending": 23,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 53,
+        "composure": 56
+      }
+    },
+    {
+      "name": "21 Z. Ismail",
+      "number": 21,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 81,
+        "shooting": 57,
+        "passing": 55,
+        "dribbling": 64,
+        "defending": 34,
+        "physicality": 53,
+        "stamina": 56,
+        "awareness": 53,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 C. Donaldson",
+      "number": 22,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 54,
+        "shooting": 60,
+        "passing": 54,
+        "dribbling": 58,
+        "defending": 31,
+        "physicality": 79,
+        "stamina": 67,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Hornby",
+      "number": 23,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 46,
+        "shooting": 11,
+        "passing": 25,
+        "dribbling": 13,
+        "defending": 13,
+        "physicality": 58,
+        "stamina": 24,
+        "awareness": 52,
+        "composure": 45
+      }
+    }
+  ]
+}

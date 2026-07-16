@@ -1,0 +1,294 @@
+{
+  "name": "St. Mirren",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Alnwick",
+      "number": 1,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "defending": 67,
+        "passing": 67,
+        "dribbling": 67,
+        "physicality": 60,
+        "stamina": 41,
+        "awareness": 62,
+        "composure": 47
+      }
+    },
+    {
+      "name": "J. McGrath",
+      "number": 2,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 73,
+        "shooting": 63,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 60,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "M. Millar",
+      "number": 3,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 84,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 65,
+        "defending": 56,
+        "physicality": 73,
+        "stamina": 91,
+        "awareness": 58,
+        "composure": 59
+      }
+    },
+    {
+      "name": "E. Erhahon",
+      "number": 4,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 73,
+        "shooting": 56,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 57,
+        "stamina": 81,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "R. Tait",
+      "number": 5,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 67,
+        "shooting": 30,
+        "passing": 63,
+        "dribbling": 62,
+        "defending": 62,
+        "physicality": 73,
+        "stamina": 87,
+        "awareness": 61,
+        "composure": 61
+      }
+    },
+    {
+      "name": "E. Brophy",
+      "number": 6,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 27,
+        "physicality": 72,
+        "stamina": 74,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "C. Ronan",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 54,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 56,
+        "physicality": 34,
+        "stamina": 77,
+        "awareness": 53,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Fraser",
+      "number": 8,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 35,
+        "passing": 57,
+        "dribbling": 56,
+        "defending": 65,
+        "physicality": 77,
+        "stamina": 90,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "G. Kiltie",
+      "number": 9,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 58,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 48,
+        "physicality": 65,
+        "stamina": 67,
+        "awareness": 61,
+        "composure": 60
+      }
+    },
+    {
+      "name": "21 C. Quaner",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 73,
+        "shooting": 63,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 27,
+        "physicality": 79,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Shaughnessy",
+      "number": 11,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "shooting": 23,
+        "passing": 56,
+        "dribbling": 53,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 76,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "K. McAllister",
+      "number": 12,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 83,
+        "shooting": 58,
+        "passing": 59,
+        "dribbling": 66,
+        "defending": 26,
+        "physicality": 60,
+        "stamina": 61,
+        "awareness": 56,
+        "composure": 56
+      }
+    },
+    {
+      "name": "C. Main",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 73,
+        "shooting": 62,
+        "passing": 54,
+        "dribbling": 56,
+        "defending": 26,
+        "physicality": 87,
+        "stamina": 77,
+        "awareness": 58,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. McCarthy",
+      "number": 14,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 54,
+        "shooting": 21,
+        "passing": 55,
+        "dribbling": 50,
+        "defending": 68,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 58,
+        "composure": 55
+      }
+    },
+    {
+      "name": "C. Dunne",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 78,
+        "shooting": 25,
+        "passing": 55,
+        "dribbling": 53,
+        "defending": 62,
+        "physicality": 85,
+        "stamina": 34,
+        "awareness": 58,
+        "composure": 46
+      }
+    },
+    {
+      "name": "19 A. Ferdinand",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 34,
+        "shooting": 35,
+        "passing": 55,
+        "dribbling": 45,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 55,
+        "awareness": 58,
+        "composure": 63
+      }
+    },
+    {
+      "name": "L. Erwin",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 60,
+        "passing": 56,
+        "dribbling": 61,
+        "defending": 15,
+        "physicality": 72,
+        "stamina": 69,
+        "awareness": 56,
+        "composure": 60
+      }
+    }
+  ]
+}

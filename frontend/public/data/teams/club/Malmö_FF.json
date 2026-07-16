@@ -1,0 +1,396 @@
+{
+  "name": "Malmö FF",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Christiansen",
+      "number": 1,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "O. Toivonen",
+      "number": 2,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 44,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 37,
+        "physicality": 79,
+        "stamina": 65,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. Ahmedhodžić",
+      "number": 3,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 82,
+        "shooting": 19,
+        "passing": 71,
+        "dribbling": 59,
+        "defending": 69,
+        "physicality": 78,
+        "stamina": 72,
+        "awareness": 73,
+        "composure": 77
+      }
+    },
+    {
+      "name": "S. Peña",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 49,
+        "physicality": 68,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Čolak",
+      "number": 5,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 77,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 31,
+        "physicality": 77,
+        "stamina": 78,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Olsson",
+      "number": 6,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 55,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "N. Moisander",
+      "number": 7,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 51,
+        "shooting": 39,
+        "passing": 76,
+        "dribbling": 66,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 52,
+        "awareness": 70,
+        "composure": 76
+      }
+    },
+    {
+      "name": "21 R. Bengtsson",
+      "number": 8,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 34,
+        "shooting": 38,
+        "passing": 64,
+        "dribbling": 52,
+        "defending": 72,
+        "physicality": 78,
+        "stamina": 34,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Dahlin",
+      "number": 9,
+      "position": "GK",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "defending": 67,
+        "passing": 72,
+        "dribbling": 79,
+        "physicality": 77,
+        "stamina": 39,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "V. Birmančević",
+      "number": 10,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 66,
+        "passing": 60,
+        "dribbling": 76,
+        "defending": 35,
+        "physicality": 51,
+        "stamina": 78,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Berget",
+      "number": 11,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 69,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 56,
+        "physicality": 73,
+        "stamina": 92,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "E. Larsson",
+      "number": 12,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 45,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 90,
+        "awareness": 66,
+        "composure": 63
+      }
+    },
+    {
+      "name": "O. Lewicki",
+      "number": 13,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 59,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 64,
+        "physicality": 65,
+        "stamina": 89,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Knudsen",
+      "number": 14,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 25,
+        "passing": 61,
+        "dribbling": 57,
+        "defending": 66,
+        "physicality": 73,
+        "stamina": 88,
+        "awareness": 66,
+        "composure": 61
+      }
+    },
+    {
+      "name": "S. Rieks",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 68,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "L. Nielsen",
+      "number": 16,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 25,
+        "passing": 57,
+        "dribbling": 50,
+        "defending": 65,
+        "physicality": 82,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 61
+      }
+    },
+    {
+      "name": "E. Rakip",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 64,
+        "shooting": 53,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 67,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "F. Beijmo",
+      "number": 18,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 85,
+        "shooting": 23,
+        "passing": 59,
+        "dribbling": 58,
+        "defending": 64,
+        "physicality": 71,
+        "stamina": 85,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "F. Brorsson",
+      "number": 19,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 74,
+        "shooting": 20,
+        "passing": 59,
+        "dribbling": 51,
+        "defending": 63,
+        "physicality": 84,
+        "stamina": 60,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "B. Innocent",
+      "number": 20,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 73,
+        "shooting": 41,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 63,
+        "physicality": 84,
+        "stamina": 74,
+        "awareness": 60,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Nalić",
+      "number": 21,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 78,
+        "shooting": 59,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 43,
+        "physicality": 74,
+        "stamina": 76,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "R. Gall",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 79,
+        "shooting": 60,
+        "passing": 57,
+        "dribbling": 66,
+        "defending": 24,
+        "physicality": 34,
+        "stamina": 69,
+        "awareness": 58,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Abubakari",
+      "number": 23,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 50,
+        "dribbling": 57,
+        "defending": 16,
+        "physicality": 83,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 48
+      }
+    }
+  ]
+}

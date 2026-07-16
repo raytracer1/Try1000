@@ -1,0 +1,396 @@
+{
+  "name": "Crystal Palace",
+  "type": "club",
+  "players": [
+    {
+      "name": "W. Zaha",
+      "number": 1,
+      "position": "LW",
+      "overall": 82,
+      "attributes": {
+        "pace": 90,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 91,
+        "defending": 34,
+        "physicality": 77,
+        "stamina": 75,
+        "awareness": 76,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Guaita",
+      "number": 2,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 81,
+        "defending": 82,
+        "passing": 79,
+        "dribbling": 77,
+        "physicality": 62,
+        "stamina": 41,
+        "awareness": 74,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Kouyaté",
+      "number": 3,
+      "position": "CDM",
+      "overall": 78,
+      "attributes": {
+        "pace": 66,
+        "shooting": 63,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 79,
+        "physicality": 85,
+        "stamina": 87,
+        "awareness": 79,
+        "composure": 72
+      }
+    },
+    {
+      "name": "E. Eze",
+      "number": 4,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 77,
+        "dribbling": 83,
+        "defending": 57,
+        "physicality": 68,
+        "stamina": 77,
+        "awareness": 70,
+        "composure": 77
+      }
+    },
+    {
+      "name": "J. Andersen",
+      "number": 5,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 60,
+        "shooting": 40,
+        "passing": 78,
+        "dribbling": 53,
+        "defending": 78,
+        "physicality": 83,
+        "stamina": 69,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "L. Milivojević",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 50,
+        "shooting": 55,
+        "passing": 78,
+        "dribbling": 62,
+        "defending": 76,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "W. Hughes",
+      "number": 7,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 60,
+        "shooting": 68,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 72,
+        "physicality": 58,
+        "stamina": 76,
+        "awareness": 78,
+        "composure": 79
+      }
+    },
+    {
+      "name": "J. Schlupp",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 84,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 70,
+        "physicality": 75,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. McArthur",
+      "number": 9,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 52,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 76,
+        "physicality": 66,
+        "stamina": 76,
+        "awareness": 80,
+        "composure": 80
+      }
+    },
+    {
+      "name": "J. Ayew",
+      "number": 10,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 52,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "O. Edouard",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 82,
+        "shooting": 78,
+        "passing": 72,
+        "dribbling": 80,
+        "defending": 46,
+        "physicality": 82,
+        "stamina": 77,
+        "awareness": 68,
+        "composure": 82
+      }
+    },
+    {
+      "name": "N. Clyne",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 67,
+        "shooting": 54,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 75,
+        "physicality": 60,
+        "stamina": 57,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Riedewald",
+      "number": 13,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 64,
+        "shooting": 51,
+        "passing": 77,
+        "dribbling": 66,
+        "defending": 75,
+        "physicality": 74,
+        "stamina": 62,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "C. Benteke",
+      "number": 14,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 56,
+        "shooting": 76,
+        "passing": 66,
+        "dribbling": 64,
+        "defending": 25,
+        "physicality": 87,
+        "stamina": 59,
+        "awareness": 76,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Mateta",
+      "number": 15,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 65,
+        "dribbling": 74,
+        "defending": 31,
+        "physicality": 86,
+        "stamina": 65,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Tomkins",
+      "number": 16,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 33,
+        "shooting": 29,
+        "passing": 68,
+        "dribbling": 44,
+        "defending": 77,
+        "physicality": 80,
+        "stamina": 34,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "C. Gallagher",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 75,
+        "defending": 70,
+        "physicality": 60,
+        "stamina": 79,
+        "awareness": 74,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Ward",
+      "number": 18,
+      "position": "RB",
+      "overall": 74,
+      "attributes": {
+        "pace": 55,
+        "shooting": 46,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 76,
+        "physicality": 71,
+        "stamina": 69,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Kelly",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 51,
+        "shooting": 38,
+        "passing": 68,
+        "dribbling": 58,
+        "defending": 77,
+        "physicality": 77,
+        "stamina": 49,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Olise",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 61,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 56,
+        "physicality": 41,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Guéhi",
+      "number": 21,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 24,
+        "passing": 67,
+        "dribbling": 61,
+        "defending": 75,
+        "physicality": 77,
+        "stamina": 67,
+        "awareness": 73,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Butland",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 16,
+        "passing": 40,
+        "dribbling": 21,
+        "defending": 13,
+        "physicality": 79,
+        "stamina": 40,
+        "awareness": 73,
+        "composure": 62
+      }
+    },
+    {
+      "name": "18 Diego Cavalieri",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 33,
+        "shooting": 13,
+        "passing": 26,
+        "dribbling": 16,
+        "defending": 13,
+        "physicality": 67,
+        "stamina": 39,
+        "awareness": 64,
+        "composure": 42
+      }
+    }
+  ]
+}

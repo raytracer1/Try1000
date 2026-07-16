@@ -1,0 +1,226 @@
+{
+  "name": "Club Olimpia",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Silva",
+      "number": 1,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 88,
+        "shooting": 66,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 68,
+        "physicality": 64,
+        "stamina": 91,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "R. Ortiz",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 60,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 79,
+        "stamina": 86,
+        "awareness": 68,
+        "composure": 72
+      }
+    },
+    {
+      "name": "D. González",
+      "number": 3,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 82,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 51,
+        "physicality": 58,
+        "stamina": 77,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "20 E. Adebayor",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 62,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 25,
+        "physicality": 80,
+        "stamina": 51,
+        "awareness": 70,
+        "composure": 82
+      }
+    },
+    {
+      "name": "S. Otálvaro",
+      "number": 5,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 40,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Aguilar",
+      "number": 6,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "defending": 75,
+        "passing": 69,
+        "dribbling": 68,
+        "physicality": 80,
+        "stamina": 36,
+        "awareness": 68,
+        "composure": 37
+      }
+    },
+    {
+      "name": "21 R. Rojas",
+      "number": 7,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 62,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 67,
+        "physicality": 83,
+        "stamina": 87,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Estigarribia",
+      "number": 8,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 65,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 68,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "V. Salazar",
+      "number": 9,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 88,
+        "shooting": 47,
+        "passing": 66,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 62,
+        "stamina": 84,
+        "awareness": 66,
+        "composure": 55
+      }
+    },
+    {
+      "name": "R. Santa Cruz",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 35,
+        "shooting": 76,
+        "passing": 69,
+        "dribbling": 63,
+        "defending": 25,
+        "physicality": 77,
+        "stamina": 30,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "S. Salcedo",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 60,
+        "shooting": 28,
+        "passing": 47,
+        "dribbling": 47,
+        "defending": 69,
+        "physicality": 80,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Ale",
+      "number": 12,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 61,
+        "shooting": 37,
+        "passing": 62,
+        "dribbling": 39,
+        "defending": 70,
+        "physicality": 77,
+        "stamina": 64,
+        "awareness": 65,
+        "composure": 47
+      }
+    },
+    {
+      "name": "D. Duarte",
+      "number": 13,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 58,
+        "dribbling": 63,
+        "defending": 17,
+        "physicality": 59,
+        "stamina": 66,
+        "awareness": 52,
+        "composure": 52
+      }
+    }
+  ]
+}

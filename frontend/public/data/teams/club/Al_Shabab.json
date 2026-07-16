@@ -1,0 +1,226 @@
+{
+  "name": "Al Shabab",
+  "type": "club",
+  "players": [
+    {
+      "name": "E. Banega",
+      "number": 1,
+      "position": "CAM",
+      "overall": 82,
+      "attributes": {
+        "pace": 61,
+        "shooting": 71,
+        "passing": 84,
+        "dribbling": 83,
+        "defending": 77,
+        "physicality": 67,
+        "stamina": 74,
+        "awareness": 82,
+        "composure": 80
+      }
+    },
+    {
+      "name": "19 M. Boussoufa",
+      "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 80,
+        "dribbling": 82,
+        "defending": 42,
+        "physicality": 34,
+        "stamina": 71,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "O. Ighalo",
+      "number": 3,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 68,
+        "shooting": 78,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 45,
+        "physicality": 84,
+        "stamina": 59,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Carlos Júnior",
+      "number": 4,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 77,
+        "passing": 69,
+        "dribbling": 79,
+        "defending": 50,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. N'Diaye",
+      "number": 5,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 58,
+        "shooting": 58,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 90,
+        "stamina": 84,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "I. Lichnovsky",
+      "number": 6,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 61,
+        "shooting": 35,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 76,
+        "physicality": 77,
+        "stamina": 74,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Sebá",
+      "number": 7,
+      "position": "RW",
+      "overall": 72,
+      "attributes": {
+        "pace": 85,
+        "shooting": 66,
+        "passing": 67,
+        "dribbling": 71,
+        "defending": 55,
+        "physicality": 79,
+        "stamina": 71,
+        "awareness": 65,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Paulinho",
+      "number": 8,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 59,
+        "passing": 70,
+        "dribbling": 78,
+        "defending": 72,
+        "physicality": 53,
+        "stamina": 86,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Sharahili",
+      "number": 9,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 75,
+        "shooting": 31,
+        "passing": 62,
+        "dribbling": 53,
+        "defending": 66,
+        "physicality": 78,
+        "stamina": 84,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "N. Al Abed",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 53,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 39,
+        "physicality": 54,
+        "stamina": 36,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "H. Bahebri",
+      "number": 11,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 62,
+        "passing": 60,
+        "dribbling": 71,
+        "defending": 43,
+        "physicality": 62,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Bajandouh",
+      "number": 12,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 46,
+        "shooting": 52,
+        "passing": 68,
+        "dribbling": 58,
+        "defending": 65,
+        "physicality": 74,
+        "stamina": 63,
+        "awareness": 58,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Al Qarni",
+      "number": 13,
+      "position": "GK",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "defending": 68,
+        "passing": 61,
+        "dribbling": 65,
+        "physicality": 52,
+        "stamina": 31,
+        "awareness": 60,
+        "composure": 46
+      }
+    }
+  ]
+}

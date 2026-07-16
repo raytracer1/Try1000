@@ -1,0 +1,396 @@
+{
+  "name": "VfL Wolfsburg",
+  "type": "club",
+  "players": [
+    {
+      "name": "K. Casteels",
+      "number": 1,
+      "position": "GK",
+      "overall": 86,
+      "attributes": {
+        "pace": 85,
+        "defending": 87,
+        "passing": 83,
+        "dribbling": 84,
+        "physicality": 72,
+        "stamina": 44,
+        "awareness": 83,
+        "composure": 40
+      }
+    },
+    {
+      "name": "W. Weghorst",
+      "number": 2,
+      "position": "ST",
+      "overall": 83,
+      "attributes": {
+        "pace": 66,
+        "shooting": 87,
+        "passing": 76,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 89,
+        "stamina": 83,
+        "awareness": 85,
+        "composure": 83
+      }
+    },
+    {
+      "name": "M. Arnold",
+      "number": 3,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 65,
+        "shooting": 77,
+        "passing": 82,
+        "dribbling": 78,
+        "defending": 79,
+        "physicality": 73,
+        "stamina": 78,
+        "awareness": 83,
+        "composure": 79
+      }
+    },
+    {
+      "name": "R. Baku",
+      "number": 4,
+      "position": "RW",
+      "overall": 80,
+      "attributes": {
+        "pace": 85,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 83,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 91,
+        "awareness": 78,
+        "composure": 76
+      }
+    },
+    {
+      "name": "X. Schlager",
+      "number": 5,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 64,
+        "shooting": 66,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 85,
+        "awareness": 81,
+        "composure": 74
+      }
+    },
+    {
+      "name": "K. Mbabu",
+      "number": 6,
+      "position": "RB",
+      "overall": 79,
+      "attributes": {
+        "pace": 88,
+        "shooting": 49,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 76,
+        "physicality": 78,
+        "stamina": 91,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "M. Lacroix",
+      "number": 7,
+      "position": "CB",
+      "overall": 79,
+      "attributes": {
+        "pace": 93,
+        "shooting": 29,
+        "passing": 73,
+        "dribbling": 60,
+        "defending": 78,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "R. Steffen",
+      "number": 8,
+      "position": "LW",
+      "overall": 78,
+      "attributes": {
+        "pace": 74,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 39,
+        "physicality": 57,
+        "stamina": 76,
+        "awareness": 78,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Brooks",
+      "number": 9,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 64,
+        "shooting": 39,
+        "passing": 74,
+        "dribbling": 64,
+        "defending": 83,
+        "physicality": 84,
+        "stamina": 61,
+        "awareness": 75,
+        "composure": 81
+      }
+    },
+    {
+      "name": "J. Roussillon",
+      "number": 10,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 88,
+        "shooting": 63,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 73,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Y. Gerhardt",
+      "number": 11,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 63,
+        "shooting": 72,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 70,
+        "physicality": 76,
+        "stamina": 78,
+        "awareness": 78,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Guilavogui",
+      "number": 12,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 72,
+        "shooting": 49,
+        "passing": 75,
+        "dribbling": 63,
+        "defending": 77,
+        "physicality": 80,
+        "stamina": 74,
+        "awareness": 77,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Philipp",
+      "number": 13,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 76,
+        "shooting": 78,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 48,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 77,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Waldschmidt",
+      "number": 14,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 71,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 19,
+        "physicality": 64,
+        "stamina": 70,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Paulo Otávio",
+      "number": 15,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 91,
+        "shooting": 51,
+        "passing": 70,
+        "dribbling": 78,
+        "defending": 70,
+        "physicality": 45,
+        "stamina": 72,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Lukébakio",
+      "number": 16,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 85,
+        "shooting": 74,
+        "passing": 73,
+        "dribbling": 82,
+        "defending": 29,
+        "physicality": 68,
+        "stamina": 71,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Bornauw",
+      "number": 17,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 44,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 76,
+        "physicality": 79,
+        "stamina": 67,
+        "awareness": 75,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Mehmedi",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 80,
+        "defending": 39,
+        "physicality": 67,
+        "stamina": 64,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 Camacho",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 53,
+        "shooting": 58,
+        "passing": 78,
+        "dribbling": 64,
+        "defending": 78,
+        "physicality": 73,
+        "stamina": 34,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "L. Nmecha",
+      "number": 20,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 86,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 33,
+        "physicality": 79,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 João Victor",
+      "number": 21,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 82,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 30,
+        "physicality": 61,
+        "stamina": 72,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "P. Pervan",
+      "number": 22,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 27,
+        "shooting": 9,
+        "passing": 22,
+        "dribbling": 14,
+        "defending": 21,
+        "physicality": 54,
+        "stamina": 23,
+        "awareness": 70,
+        "composure": 30
+      }
+    },
+    {
+      "name": "William",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 32,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 71,
+        "physicality": 63,
+        "stamina": 68,
+        "awareness": 75,
+        "composure": 64
+      }
+    }
+  ]
+}

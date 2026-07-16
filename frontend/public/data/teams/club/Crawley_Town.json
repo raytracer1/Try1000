@@ -1,0 +1,345 @@
+{
+  "name": "Crawley Town",
+  "type": "club",
+  "players": [
+    {
+      "name": "G. Francomb",
+      "number": 1,
+      "position": "RB",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 52,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 60,
+        "physicality": 61,
+        "stamina": 71,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Lynch",
+      "number": 2,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 47,
+        "shooting": 28,
+        "passing": 52,
+        "dribbling": 45,
+        "defending": 63,
+        "physicality": 90,
+        "stamina": 33,
+        "awareness": 60,
+        "composure": 67
+      }
+    },
+    {
+      "name": "G. Morris",
+      "number": 3,
+      "position": "GK",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "defending": 64,
+        "passing": 62,
+        "dribbling": 63,
+        "physicality": 63,
+        "stamina": 30,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Hessenthaler",
+      "number": 4,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 67,
+        "shooting": 47,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 62,
+        "physicality": 64,
+        "stamina": 88,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "M. Marshall",
+      "number": 5,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 80,
+        "shooting": 57,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 55,
+        "physicality": 59,
+        "stamina": 66,
+        "awareness": 54,
+        "composure": 55
+      }
+    },
+    {
+      "name": "J. Powell",
+      "number": 6,
+      "position": "RW",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 64,
+        "dribbling": 62,
+        "defending": 58,
+        "physicality": 61,
+        "stamina": 87,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 J. Hesketh",
+      "number": 7,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "shooting": 54,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 53,
+        "physicality": 34,
+        "stamina": 60,
+        "awareness": 60,
+        "composure": 70
+      }
+    },
+    {
+      "name": "T. Nichols",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 76,
+        "shooting": 63,
+        "passing": 63,
+        "dribbling": 62,
+        "defending": 25,
+        "physicality": 59,
+        "stamina": 90,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 J. Wright",
+      "number": 9,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 59,
+        "shooting": 58,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 57,
+        "physicality": 70,
+        "stamina": 76,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Payne",
+      "number": 10,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 67,
+        "shooting": 50,
+        "passing": 67,
+        "dribbling": 57,
+        "defending": 60,
+        "physicality": 59,
+        "stamina": 81,
+        "awareness": 57,
+        "composure": 66
+      }
+    },
+    {
+      "name": "K. Appiah",
+      "number": 11,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 81,
+        "shooting": 64,
+        "passing": 53,
+        "dribbling": 60,
+        "defending": 31,
+        "physicality": 70,
+        "stamina": 77,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Matthews",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 68,
+        "shooting": 54,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 53,
+        "physicality": 51,
+        "stamina": 64,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "A. Nadesan",
+      "number": 13,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 82,
+        "shooting": 61,
+        "passing": 53,
+        "dribbling": 60,
+        "defending": 23,
+        "physicality": 71,
+        "stamina": 79,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "T. Craig",
+      "number": 14,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 37,
+        "shooting": 23,
+        "passing": 58,
+        "dribbling": 46,
+        "defending": 60,
+        "physicality": 80,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "T. Dallison",
+      "number": 15,
+      "position": "CB",
+      "overall": 62,
+      "attributes": {
+        "pace": 50,
+        "shooting": 23,
+        "passing": 52,
+        "dribbling": 43,
+        "defending": 61,
+        "physicality": 87,
+        "stamina": 66,
+        "awareness": 55,
+        "composure": 56
+      }
+    },
+    {
+      "name": "A. Davies",
+      "number": 16,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 73,
+        "shooting": 39,
+        "passing": 55,
+        "dribbling": 57,
+        "defending": 57,
+        "physicality": 57,
+        "stamina": 79,
+        "awareness": 55,
+        "composure": 44
+      }
+    },
+    {
+      "name": "W. Ferry",
+      "number": 17,
+      "position": "LW",
+      "overall": 61,
+      "attributes": {
+        "pace": 65,
+        "shooting": 54,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 38,
+        "physicality": 48,
+        "stamina": 46,
+        "awareness": 53,
+        "composure": 53
+      }
+    },
+    {
+      "name": "N. Tsaroulla",
+      "number": 18,
+      "position": "LB",
+      "overall": 60,
+      "attributes": {
+        "pace": 73,
+        "shooting": 39,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 56,
+        "physicality": 47,
+        "stamina": 64,
+        "awareness": 51,
+        "composure": 48
+      }
+    },
+    {
+      "name": "21 D. Sesay",
+      "number": 19,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 80,
+        "shooting": 31,
+        "passing": 54,
+        "dribbling": 60,
+        "defending": 58,
+        "physicality": 65,
+        "stamina": 62,
+        "awareness": 48,
+        "composure": 58
+      }
+    },
+    {
+      "name": "R. Grego-Cox",
+      "number": 20,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 79,
+        "shooting": 57,
+        "passing": 51,
+        "dribbling": 60,
+        "defending": 20,
+        "physicality": 39,
+        "stamina": 47,
+        "awareness": 59,
+        "composure": 58
+      }
+    }
+  ]
+}

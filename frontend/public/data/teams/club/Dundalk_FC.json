@@ -1,0 +1,227 @@
+{
+  "name": "Dundalk FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Duffy",
+      "number": 1,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 80,
+        "shooting": 62,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 47,
+        "physicality": 69,
+        "stamina": 80,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "W. Zahibo",
+      "number": 2,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 53,
+        "shooting": 37,
+        "passing": 64,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 85,
+        "stamina": 71,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "P. Hoban",
+      "number": 3,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 65,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 35,
+        "physicality": 81,
+        "stamina": 77,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 C. Shields",
+      "number": 4,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 36,
+        "shooting": 53,
+        "passing": 64,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 78,
+        "stamina": 80,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Cleary",
+      "number": 5,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 62,
+        "shooting": 33,
+        "passing": 59,
+        "dribbling": 48,
+        "defending": 66,
+        "physicality": 71,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 52
+      }
+    },
+    {
+      "name": "D. Leahy",
+      "number": 6,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 52,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 63,
+        "physicality": 61,
+        "stamina": 73,
+        "awareness": 57,
+        "composure": 59
+      }
+    },
+    {
+      "name": "A. Boyle",
+      "number": 7,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 47,
+        "shooting": 30,
+        "passing": 56,
+        "dribbling": 43,
+        "defending": 63,
+        "physicality": 82,
+        "stamina": 75,
+        "awareness": 61,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Murray",
+      "number": 8,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 63,
+        "shooting": 58,
+        "passing": 64,
+        "dribbling": 59,
+        "defending": 56,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "C. Dummigan",
+      "number": 9,
+      "position": "LB",
+      "overall": 62,
+      "attributes": {
+        "pace": 71,
+        "shooting": 41,
+        "passing": 55,
+        "dribbling": 59,
+        "defending": 58,
+        "physicality": 61,
+        "stamina": 76,
+        "awareness": 54,
+        "composure": 50
+      }
+    },
+    {
+      "name": "D. McMillan",
+      "number": 10,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 64,
+        "shooting": 62,
+        "passing": 58,
+        "dribbling": 55,
+        "defending": 19,
+        "physicality": 68,
+        "stamina": 62,
+        "awareness": 62,
+        "composure": 56
+      }
+    },
+    {
+      "name": "D. Kelly",
+      "number": 11,
+      "position": "RW",
+      "overall": 62,
+      "attributes": {
+        "pace": 82,
+        "shooting": 60,
+        "passing": 59,
+        "dribbling": 63,
+        "defending": 41,
+        "physicality": 62,
+        "stamina": 61,
+        "awareness": 52,
+        "composure": 50
+      }
+    },
+    {
+      "name": "S. Nattestad",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 48,
+        "shooting": 36,
+        "passing": 56,
+        "dribbling": 36,
+        "defending": 63,
+        "physicality": 86,
+        "stamina": 62,
+        "awareness": 54,
+        "composure": 53
+      }
+    },
+    {
+      "name": "W. Patching",
+      "number": 13,
+      "position": "CAM",
+      "overall": 60,
+      "attributes": {
+        "pace": 62,
+        "shooting": 52,
+        "passing": 64,
+        "dribbling": 62,
+        "defending": 49,
+        "physicality": 60,
+        "stamina": 63,
+        "awareness": 58,
+        "composure": 65
+      }
+    }
+  ]
+}

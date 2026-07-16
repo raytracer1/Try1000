@@ -1,0 +1,379 @@
+{
+  "name": "1. FC Heidenheim 1846",
+  "type": "club",
+  "players": [
+    {
+      "name": "P. Mainka",
+      "number": 1,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 52,
+        "shooting": 33,
+        "passing": 64,
+        "dribbling": 45,
+        "defending": 77,
+        "physicality": 84,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "T. Kleindienst",
+      "number": 2,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "shooting": 77,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 29,
+        "physicality": 86,
+        "stamina": 81,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Busch",
+      "number": 3,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 84,
+        "shooting": 40,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 69,
+        "physicality": 74,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 55
+      }
+    },
+    {
+      "name": "O. Hüsing",
+      "number": 4,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 57,
+        "shooting": 27,
+        "passing": 61,
+        "dribbling": 45,
+        "defending": 73,
+        "physicality": 90,
+        "stamina": 58,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "K. Müller",
+      "number": 5,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 72,
+        "defending": 74,
+        "passing": 68,
+        "dribbling": 72,
+        "physicality": 76,
+        "stamina": 31,
+        "awareness": 69,
+        "composure": 52
+      }
+    },
+    {
+      "name": "N. Theuerkauf",
+      "number": 6,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 60,
+        "shooting": 46,
+        "passing": 67,
+        "dribbling": 59,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "C. Kühlwetter",
+      "number": 7,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 73,
+        "passing": 66,
+        "dribbling": 72,
+        "defending": 38,
+        "physicality": 71,
+        "stamina": 81,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "K. Sessa",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 77,
+        "shooting": 57,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 68,
+        "physicality": 45,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "T. Mohr",
+      "number": 9,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 59,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 60
+      }
+    },
+    {
+      "name": "K. Kerschbaumer",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 74,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 91,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "D. Burnić",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 67,
+        "physicality": 63,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 60
+      }
+    },
+    {
+      "name": "R. Leipertz",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 68,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 27,
+        "physicality": 73,
+        "stamina": 90,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Schöppner",
+      "number": 13,
+      "position": "CDM",
+      "overall": 68,
+      "attributes": {
+        "pace": 64,
+        "shooting": 57,
+        "passing": 71,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 90,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "D. Thomalla",
+      "number": 14,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 60,
+        "shooting": 68,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 30,
+        "physicality": 64,
+        "stamina": 82,
+        "awareness": 70,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Föhrenbach",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 79,
+        "shooting": 29,
+        "passing": 63,
+        "dribbling": 60,
+        "defending": 67,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 61,
+        "composure": 54
+      }
+    },
+    {
+      "name": "20 R. Strauß",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 46,
+        "passing": 61,
+        "dribbling": 60,
+        "defending": 66,
+        "physicality": 57,
+        "stamina": 75,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Malone",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 79,
+        "shooting": 68,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 28,
+        "physicality": 78,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "F. Pick",
+      "number": 18,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 80,
+        "shooting": 60,
+        "passing": 63,
+        "dribbling": 68,
+        "defending": 27,
+        "physicality": 47,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 52
+      }
+    },
+    {
+      "name": "V. Eicher",
+      "number": 19,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 44,
+        "shooting": 15,
+        "passing": 25,
+        "dribbling": 12,
+        "defending": 15,
+        "physicality": 72,
+        "stamina": 36,
+        "awareness": 56,
+        "composure": 43
+      }
+    },
+    {
+      "name": "M. Rittmüller",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 42,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 60,
+        "stamina": 64,
+        "awareness": 52,
+        "composure": 52
+      }
+    },
+    {
+      "name": "T. Siersleben",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 64,
+        "shooting": 23,
+        "passing": 59,
+        "dribbling": 51,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 58,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "G. Mollo",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 55,
+        "shooting": 67,
+        "passing": 56,
+        "dribbling": 55,
+        "defending": 33,
+        "physicality": 63,
+        "stamina": 55,
+        "awareness": 55,
+        "composure": 55
+      }
+    }
+  ]
+}

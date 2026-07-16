@@ -1,0 +1,396 @@
+{
+  "name": "Dinamo Zagreb",
+  "type": "club",
+  "players": [
+    {
+      "name": "D. Livaković",
+      "number": 1,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 81,
+        "defending": 85,
+        "passing": 78,
+        "dribbling": 80,
+        "physicality": 75,
+        "stamina": 32,
+        "awareness": 80,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Oršić",
+      "number": 2,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 91,
+        "shooting": 81,
+        "passing": 70,
+        "dribbling": 76,
+        "defending": 57,
+        "physicality": 57,
+        "stamina": 82,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "B. Petković",
+      "number": 3,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 72,
+        "passing": 79,
+        "dribbling": 83,
+        "defending": 41,
+        "physicality": 92,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 79
+      }
+    },
+    {
+      "name": "A. Ademi",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 75,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 76,
+        "physicality": 85,
+        "stamina": 87,
+        "awareness": 76,
+        "composure": 79
+      }
+    },
+    {
+      "name": "L. Ivanušec",
+      "number": 5,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 67,
+        "passing": 75,
+        "dribbling": 83,
+        "defending": 59,
+        "physicality": 70,
+        "stamina": 78,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 N. Moro",
+      "number": 6,
+      "position": "CDM",
+      "overall": 74,
+      "attributes": {
+        "pace": 71,
+        "shooting": 64,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 69,
+        "physicality": 76,
+        "stamina": 83,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "S. Ristovski",
+      "number": 7,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 78,
+        "shooting": 57,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 73,
+        "stamina": 78,
+        "awareness": 69,
+        "composure": 73
+      }
+    },
+    {
+      "name": "K. Théophile-Catherine",
+      "number": 8,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 46,
+        "passing": 72,
+        "dribbling": 60,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "R. Lauritsen",
+      "number": 9,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 63,
+        "shooting": 42,
+        "passing": 65,
+        "dribbling": 49,
+        "defending": 74,
+        "physicality": 78,
+        "stamina": 72,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "19 T. Doumbia",
+      "number": 10,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 71,
+        "physicality": 86,
+        "stamina": 85,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Mišić",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 56,
+        "shooting": 64,
+        "passing": 76,
+        "dribbling": 72,
+        "defending": 64,
+        "physicality": 71,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Tolić",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 59,
+        "shooting": 67,
+        "passing": 76,
+        "dribbling": 81,
+        "defending": 42,
+        "physicality": 78,
+        "stamina": 65,
+        "awareness": 61,
+        "composure": 82
+      }
+    },
+    {
+      "name": "S. Moharrami",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 81,
+        "shooting": 26,
+        "passing": 59,
+        "dribbling": 67,
+        "defending": 75,
+        "physicality": 48,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "F. Moubandje",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 67,
+        "shooting": 42,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 68,
+        "physicality": 75,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "B. Franjic",
+      "number": 15,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 77,
+        "shooting": 42,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 66,
+        "physicality": 76,
+        "stamina": 78,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "D. Perić",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 36,
+        "passing": 61,
+        "dribbling": 65,
+        "defending": 71,
+        "physicality": 84,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Bulat",
+      "number": 17,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 60,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Gojak",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 59,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 64,
+        "physicality": 80,
+        "stamina": 76,
+        "awareness": 59,
+        "composure": 81
+      }
+    },
+    {
+      "name": "E. Dilaver",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 39,
+        "passing": 66,
+        "dribbling": 57,
+        "defending": 71,
+        "physicality": 72,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Špikić",
+      "number": 20,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 85,
+        "shooting": 62,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 32,
+        "physicality": 64,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Leovac",
+      "number": 21,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 83,
+        "shooting": 49,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 64,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 I. Hajrović",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 76,
+        "shooting": 61,
+        "passing": 63,
+        "dribbling": 76,
+        "defending": 41,
+        "physicality": 54,
+        "stamina": 56,
+        "awareness": 58,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Čop",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 37,
+        "shooting": 67,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 30,
+        "physicality": 68,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 71
+      }
+    }
+  ]
+}

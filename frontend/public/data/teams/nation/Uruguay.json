@@ -1,0 +1,395 @@
+{
+  "name": "Uruguay",
+  "type": "nation",
+  "players": [
+    {
+      "name": "L. Suárez",
+      "number": 1,
+      "position": "CM",
+      "overall": 88,
+      "attributes": {
+        "pace": 69,
+        "shooting": 93,
+        "passing": 83,
+        "dribbling": 83,
+        "defending": 45,
+        "physicality": 85,
+        "stamina": 78,
+        "awareness": 92,
+        "composure": 87
+      }
+    },
+    {
+      "name": "E. Cavani",
+      "number": 2,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 68,
+        "shooting": 89,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 48,
+        "physicality": 77,
+        "stamina": 81,
+        "awareness": 90,
+        "composure": 85
+      }
+    },
+    {
+      "name": "J. Giménez",
+      "number": 3,
+      "position": "CB",
+      "overall": 84,
+      "attributes": {
+        "pace": 73,
+        "shooting": 37,
+        "passing": 70,
+        "dribbling": 54,
+        "defending": 87,
+        "physicality": 86,
+        "stamina": 60,
+        "awareness": 78,
+        "composure": 76
+      }
+    },
+    {
+      "name": "F. Valverde",
+      "number": 4,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 90,
+        "shooting": 69,
+        "passing": 85,
+        "dribbling": 79,
+        "defending": 80,
+        "physicality": 79,
+        "stamina": 86,
+        "awareness": 84,
+        "composure": 82
+      }
+    },
+    {
+      "name": "S. Coates",
+      "number": 5,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 70,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 65,
+        "defending": 86,
+        "physicality": 94,
+        "stamina": 80,
+        "awareness": 77,
+        "composure": 79
+      }
+    },
+    {
+      "name": "L. Torreira",
+      "number": 6,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 72,
+        "shooting": 61,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 82,
+        "physicality": 68,
+        "stamina": 84,
+        "awareness": 77,
+        "composure": 78
+      }
+    },
+    {
+      "name": "N. Lodeiro",
+      "number": 7,
+      "position": "LW",
+      "overall": 80,
+      "attributes": {
+        "pace": 72,
+        "shooting": 72,
+        "passing": 88,
+        "dribbling": 81,
+        "defending": 52,
+        "physicality": 68,
+        "stamina": 88,
+        "awareness": 80,
+        "composure": 81
+      }
+    },
+    {
+      "name": "21 M. Nérez",
+      "number": 8,
+      "position": "LB",
+      "overall": 80,
+      "attributes": {
+        "pace": 80,
+        "shooting": 51,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 77,
+        "physicality": 68,
+        "stamina": 89,
+        "awareness": 80,
+        "composure": 82
+      }
+    },
+    {
+      "name": "21 J. Sildero",
+      "number": 9,
+      "position": "RW",
+      "overall": 80,
+      "attributes": {
+        "pace": 75,
+        "shooting": 74,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 35,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 82,
+        "composure": 81
+      }
+    },
+    {
+      "name": "21 M. Baldona",
+      "number": 10,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 68,
+        "shooting": 58,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 81,
+        "physicality": 71,
+        "stamina": 89,
+        "awareness": 78,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Rodríguez",
+      "number": 11,
+      "position": "ST",
+      "overall": 80,
+      "attributes": {
+        "pace": 87,
+        "shooting": 84,
+        "passing": 67,
+        "dribbling": 81,
+        "defending": 40,
+        "physicality": 76,
+        "stamina": 84,
+        "awareness": 80,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 J. Frendado",
+      "number": 12,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 74,
+        "shooting": 56,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 82,
+        "physicality": 77,
+        "stamina": 60,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Gómez",
+      "number": 13,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 66,
+        "shooting": 84,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 20,
+        "physicality": 87,
+        "stamina": 79,
+        "awareness": 80,
+        "composure": 82
+      }
+    },
+    {
+      "name": "21 L. Dálves",
+      "number": 14,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 81,
+        "shooting": 82,
+        "passing": 68,
+        "dribbling": 74,
+        "defending": 27,
+        "physicality": 87,
+        "stamina": 56,
+        "awareness": 83,
+        "composure": 79
+      }
+    },
+    {
+      "name": "21 E. Schetino",
+      "number": 15,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 78,
+        "shooting": 38,
+        "passing": 74,
+        "dribbling": 56,
+        "defending": 83,
+        "physicality": 73,
+        "stamina": 76,
+        "awareness": 85,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 S. Ardero",
+      "number": 16,
+      "position": "LW",
+      "overall": 80,
+      "attributes": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 13,
+        "physicality": 48,
+        "stamina": 67,
+        "awareness": 80,
+        "composure": 77
+      }
+    },
+    {
+      "name": "D. Godín",
+      "number": 17,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 55,
+        "shooting": 42,
+        "passing": 77,
+        "dribbling": 53,
+        "defending": 81,
+        "physicality": 82,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "F. Muslera",
+      "number": 18,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 78,
+        "defending": 79,
+        "passing": 80,
+        "dribbling": 82,
+        "physicality": 68,
+        "stamina": 40,
+        "awareness": 78,
+        "composure": 60
+      }
+    },
+    {
+      "name": "21 J. Serendero",
+      "number": 19,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 78,
+        "defending": 77,
+        "passing": 81,
+        "dribbling": 80,
+        "physicality": 79,
+        "stamina": 29,
+        "awareness": 78,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 E. Riquero",
+      "number": 20,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 81,
+        "shooting": 53,
+        "passing": 80,
+        "dribbling": 77,
+        "defending": 81,
+        "physicality": 68,
+        "stamina": 91,
+        "awareness": 78,
+        "composure": 81
+      }
+    },
+    {
+      "name": "21 E. Guichón",
+      "number": 21,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 86,
+        "shooting": 45,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 77,
+        "physicality": 33,
+        "stamina": 76,
+        "awareness": 80,
+        "composure": 76
+      }
+    },
+    {
+      "name": "21 R. Di Leonardo",
+      "number": 22,
+      "position": "RB",
+      "overall": 79,
+      "attributes": {
+        "pace": 75,
+        "shooting": 48,
+        "passing": 71,
+        "dribbling": 78,
+        "defending": 77,
+        "physicality": 62,
+        "stamina": 85,
+        "awareness": 81,
+        "composure": 54
+      }
+    },
+    {
+      "name": "M. Arambarri",
+      "number": 23,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 51,
+        "shooting": 49,
+        "passing": 79,
+        "dribbling": 72,
+        "defending": 80,
+        "physicality": 76,
+        "stamina": 73,
+        "awareness": 77,
+        "composure": 65
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "TSG Hoffenheim",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Kramarić",
+      "number": 1,
+      "position": "CAM",
+      "overall": 83,
+      "attributes": {
+        "pace": 67,
+        "shooting": 87,
+        "passing": 81,
+        "dribbling": 87,
+        "defending": 20,
+        "physicality": 68,
+        "stamina": 76,
+        "awareness": 84,
+        "composure": 83
+      }
+    },
+    {
+      "name": "O. Baumann",
+      "number": 2,
+      "position": "GK",
+      "overall": 82,
+      "attributes": {
+        "pace": 81,
+        "defending": 82,
+        "passing": 80,
+        "dribbling": 79,
+        "physicality": 69,
+        "stamina": 39,
+        "awareness": 82,
+        "composure": 52
+      }
+    },
+    {
+      "name": "P. Kadeřábek",
+      "number": 3,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 28,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 71,
+        "physicality": 77,
+        "stamina": 83,
+        "awareness": 81,
+        "composure": 76
+      }
+    },
+    {
+      "name": "F. Grillitsch",
+      "number": 4,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 84,
+        "dribbling": 78,
+        "defending": 72,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 81,
+        "composure": 81
+      }
+    },
+    {
+      "name": "C. Baumgartner",
+      "number": 5,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 78,
+        "shooting": 75,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 54,
+        "physicality": 49,
+        "stamina": 67,
+        "awareness": 77,
+        "composure": 75
+      }
+    },
+    {
+      "name": "I. Bebou",
+      "number": 6,
+      "position": "ST",
+      "overall": 77,
+      "attributes": {
+        "pace": 89,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 82,
+        "defending": 35,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 73
+      }
+    },
+    {
+      "name": "S. Rudy",
+      "number": 7,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 66,
+        "shooting": 59,
+        "passing": 80,
+        "dribbling": 74,
+        "defending": 72,
+        "physicality": 64,
+        "stamina": 77,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "K. Vogt",
+      "number": 8,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 50,
+        "passing": 80,
+        "dribbling": 67,
+        "defending": 77,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 76,
+        "composure": 80
+      }
+    },
+    {
+      "name": "D. Samassékou",
+      "number": 9,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 62,
+        "shooting": 42,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 75,
+        "physicality": 68,
+        "stamina": 82,
+        "awareness": 75,
+        "composure": 79
+      }
+    },
+    {
+      "name": "M. Dabbur",
+      "number": 10,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 67,
+        "shooting": 79,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 37,
+        "physicality": 74,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "R. Skov",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 79,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 69,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "E. Bičakčić",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 24,
+        "passing": 60,
+        "dribbling": 35,
+        "defending": 77,
+        "physicality": 83,
+        "stamina": 61,
+        "awareness": 73,
+        "composure": 63
+      }
+    },
+    {
+      "name": "B. Hübner",
+      "number": 13,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 34,
+        "shooting": 20,
+        "passing": 62,
+        "dribbling": 58,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 34,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "S. Posch",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 23,
+        "passing": 69,
+        "dribbling": 34,
+        "defending": 81,
+        "physicality": 76,
+        "stamina": 63,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "18 E. Polański",
+      "number": 15,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 51,
+        "shooting": 63,
+        "passing": 72,
+        "dribbling": 63,
+        "defending": 75,
+        "physicality": 77,
+        "stamina": 74,
+        "awareness": 74,
+        "composure": 75
+      }
+    },
+    {
+      "name": "S. Adamyan",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 79,
+        "defending": 25,
+        "physicality": 68,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "K. Akpoguma",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 86,
+        "shooting": 45,
+        "passing": 67,
+        "dribbling": 59,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 65,
+        "awareness": 73,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Bruun Larsen",
+      "number": 18,
+      "position": "LW",
+      "overall": 73,
+      "attributes": {
+        "pace": 87,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 54,
+        "physicality": 71,
+        "stamina": 58,
+        "awareness": 72,
+        "composure": 66
+      }
+    },
+    {
+      "name": "D. Raum",
+      "number": 19,
+      "position": "LB",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 57,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 68,
+        "physicality": 67,
+        "stamina": 82,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "H. Nordtveit",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 73,
+        "dribbling": 64,
+        "defending": 75,
+        "physicality": 77,
+        "stamina": 63,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Geiger",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 52,
+        "shooting": 38,
+        "passing": 80,
+        "dribbling": 75,
+        "defending": 54,
+        "physicality": 42,
+        "stamina": 76,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "P. Pentke",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 36,
+        "shooting": 10,
+        "passing": 30,
+        "dribbling": 25,
+        "defending": 22,
+        "physicality": 79,
+        "stamina": 40,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Gaćinović",
+      "number": 23,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 51,
+        "passing": 73,
+        "dribbling": 77,
+        "defending": 64,
+        "physicality": 53,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 64
+      }
+    }
+  ]
+}

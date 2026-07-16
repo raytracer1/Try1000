@@ -1,0 +1,379 @@
+{
+  "name": "AJ Auxerre",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Autret",
+      "number": 1,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 71,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 49,
+        "physicality": 63,
+        "stamina": 53,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "G. Charbonnier",
+      "number": 2,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 33,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 46,
+        "physicality": 81,
+        "stamina": 56,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "H. Sakhi",
+      "number": 3,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 80,
+        "dribbling": 72,
+        "defending": 60,
+        "physicality": 58,
+        "stamina": 71,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Q. Bernard",
+      "number": 4,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 57,
+        "passing": 69,
+        "dribbling": 62,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 92,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Jubal",
+      "number": 5,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 61,
+        "shooting": 22,
+        "passing": 64,
+        "dribbling": 51,
+        "defending": 71,
+        "physicality": 78,
+        "stamina": 60,
+        "awareness": 70,
+        "composure": 57
+      }
+    },
+    {
+      "name": "C. Arcus",
+      "number": 6,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 38,
+        "passing": 67,
+        "dribbling": 58,
+        "defending": 71,
+        "physicality": 74,
+        "stamina": 77,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Touré",
+      "number": 7,
+      "position": "CDM",
+      "overall": 70,
+      "attributes": {
+        "pace": 32,
+        "shooting": 42,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 69,
+        "physicality": 77,
+        "stamina": 85,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "20 M. Yattara",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 77,
+        "shooting": 70,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 25,
+        "physicality": 77,
+        "stamina": 60,
+        "awareness": 60,
+        "composure": 71
+      }
+    },
+    {
+      "name": "G. Lloris",
+      "number": 9,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 50,
+        "shooting": 29,
+        "passing": 65,
+        "dribbling": 49,
+        "defending": 72,
+        "physicality": 81,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Coeff",
+      "number": 10,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 63,
+        "shooting": 47,
+        "passing": 68,
+        "dribbling": 56,
+        "defending": 66,
+        "physicality": 80,
+        "stamina": 90,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "G. Hein",
+      "number": 11,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 65,
+        "passing": 69,
+        "dribbling": 74,
+        "defending": 35,
+        "physicality": 50,
+        "stamina": 59,
+        "awareness": 59,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 A. Ngando",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 59,
+        "shooting": 64,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 35,
+        "physicality": 37,
+        "stamina": 40,
+        "awareness": 59,
+        "composure": 63
+      }
+    },
+    {
+      "name": "D. Léon",
+      "number": 13,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "defending": 71,
+        "passing": 66,
+        "dribbling": 66,
+        "physicality": 79,
+        "stamina": 29,
+        "awareness": 63,
+        "composure": 46
+      }
+    },
+    {
+      "name": "G. Perrin",
+      "number": 14,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 83,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 31,
+        "physicality": 59,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 S. Souprayen",
+      "number": 15,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 21,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Trouillet",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 64,
+        "shooting": 44,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 59,
+        "physicality": 54,
+        "stamina": 59,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "17 A. Ba",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 78,
+        "shooting": 66,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 22,
+        "physicality": 54,
+        "stamina": 56,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Ndom",
+      "number": 18,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 47,
+        "shooting": 48,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 67,
+        "physicality": 86,
+        "stamina": 59,
+        "awareness": 55,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Laiton",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 44,
+        "shooting": 8,
+        "passing": 17,
+        "dribbling": 14,
+        "defending": 11,
+        "physicality": 71,
+        "stamina": 42,
+        "awareness": 67,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. Georgen",
+      "number": 20,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 48,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 64,
+        "physicality": 58,
+        "stamina": 52,
+        "awareness": 52,
+        "composure": 55
+      }
+    },
+    {
+      "name": "O. Camara",
+      "number": 21,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 59,
+        "shooting": 40,
+        "passing": 70,
+        "dribbling": 57,
+        "defending": 54,
+        "physicality": 66,
+        "stamina": 70,
+        "awareness": 53,
+        "composure": 50
+      }
+    },
+    {
+      "name": "L. Sinayoko",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 53,
+        "shooting": 66,
+        "passing": 53,
+        "dribbling": 51,
+        "defending": 17,
+        "physicality": 72,
+        "stamina": 52,
+        "awareness": 59,
+        "composure": 54
+      }
+    }
+  ]
+}

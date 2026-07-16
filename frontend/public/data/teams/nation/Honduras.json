@@ -1,0 +1,244 @@
+{
+  "name": "Honduras",
+  "type": "nation",
+  "players": [
+    {
+      "name": "A. Elis",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 89,
+        "shooting": 75,
+        "passing": 65,
+        "dribbling": 79,
+        "defending": 21,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 69
+      }
+    },
+    {
+      "name": "R. Quioto",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 85,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 17,
+        "physicality": 84,
+        "stamina": 74,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Lozano",
+      "number": 3,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 40,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "B. Acosta",
+      "number": 4,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 88,
+        "shooting": 62,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 65,
+        "physicality": 81,
+        "stamina": 86,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Najar",
+      "number": 5,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 74,
+        "shooting": 61,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 70,
+        "physicality": 67,
+        "stamina": 47,
+        "awareness": 63,
+        "composure": 68
+      }
+    },
+    {
+      "name": "19 E. Izaguirre",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 25,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 68,
+        "physicality": 71,
+        "stamina": 83,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 J. Benguche",
+      "number": 7,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 71,
+        "passing": 56,
+        "dribbling": 60,
+        "defending": 20,
+        "physicality": 86,
+        "stamina": 59,
+        "awareness": 61,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Figueroa",
+      "number": 8,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 42,
+        "shooting": 49,
+        "passing": 64,
+        "dribbling": 53,
+        "defending": 72,
+        "physicality": 77,
+        "stamina": 61,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "B. García",
+      "number": 9,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 62,
+        "shooting": 59,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 61,
+        "physicality": 69,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "D. Acosta",
+      "number": 10,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 39,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 64,
+        "physicality": 70,
+        "stamina": 54,
+        "awareness": 53,
+        "composure": 57
+      }
+    },
+    {
+      "name": "20 D. Maldonado",
+      "number": 11,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 29,
+        "passing": 59,
+        "dribbling": 28,
+        "defending": 66,
+        "physicality": 65,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 49
+      }
+    },
+    {
+      "name": "19 L. López",
+      "number": 12,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 38,
+        "shooting": 8,
+        "passing": 31,
+        "dribbling": 32,
+        "defending": 15,
+        "physicality": 68,
+        "stamina": 32,
+        "awareness": 58,
+        "composure": 52
+      }
+    },
+    {
+      "name": "J. Rosales",
+      "number": 13,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 65,
+        "shooting": 39,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 48,
+        "physicality": 47,
+        "stamina": 66,
+        "awareness": 58,
+        "composure": 53
+      }
+    },
+    {
+      "name": "K. Álvarez",
+      "number": 14,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 86,
+        "shooting": 28,
+        "passing": 56,
+        "dribbling": 58,
+        "defending": 52,
+        "physicality": 72,
+        "stamina": 79,
+        "awareness": 51,
+        "composure": 51
+      }
+    }
+  ]
+}

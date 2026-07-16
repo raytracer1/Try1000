@@ -1,0 +1,396 @@
+{
+  "name": "Olympique de Marseille",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Milik",
+      "number": 1,
+      "position": "ST",
+      "overall": 81,
+      "attributes": {
+        "pace": 68,
+        "shooting": 85,
+        "passing": 70,
+        "dribbling": 77,
+        "defending": 34,
+        "physicality": 78,
+        "stamina": 63,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "S. Mandanda",
+      "number": 2,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 43,
+        "shooting": 13,
+        "passing": 46,
+        "dribbling": 19,
+        "defending": 15,
+        "physicality": 61,
+        "stamina": 31,
+        "awareness": 80,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Gerson",
+      "number": 3,
+      "position": "LW",
+      "overall": 80,
+      "attributes": {
+        "pace": 74,
+        "shooting": 61,
+        "passing": 86,
+        "dribbling": 77,
+        "defending": 82,
+        "physicality": 76,
+        "stamina": 77,
+        "awareness": 84,
+        "composure": 78
+      }
+    },
+    {
+      "name": "D. Payet",
+      "number": 4,
+      "position": "CAM",
+      "overall": 80,
+      "attributes": {
+        "pace": 68,
+        "shooting": 75,
+        "passing": 83,
+        "dribbling": 84,
+        "defending": 37,
+        "physicality": 72,
+        "stamina": 69,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "B. Kamara",
+      "number": 5,
+      "position": "CDM",
+      "overall": 80,
+      "attributes": {
+        "pace": 74,
+        "shooting": 39,
+        "passing": 79,
+        "dribbling": 70,
+        "defending": 81,
+        "physicality": 76,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 81
+      }
+    },
+    {
+      "name": "Pau López",
+      "number": 6,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 80,
+        "defending": 82,
+        "passing": 79,
+        "dribbling": 80,
+        "physicality": 52,
+        "stamina": 42,
+        "awareness": 74,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Álvaro",
+      "number": 7,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 62,
+        "shooting": 22,
+        "passing": 74,
+        "dribbling": 49,
+        "defending": 82,
+        "physicality": 82,
+        "stamina": 76,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "D. Ćaleta-Car",
+      "number": 8,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 60,
+        "shooting": 32,
+        "passing": 78,
+        "dribbling": 59,
+        "defending": 78,
+        "physicality": 86,
+        "stamina": 77,
+        "awareness": 76,
+        "composure": 81
+      }
+    },
+    {
+      "name": "V. Rongier",
+      "number": 9,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 68,
+        "shooting": 63,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 80,
+        "physicality": 69,
+        "stamina": 82,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Guendouzi",
+      "number": 10,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 75,
+        "shooting": 56,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 73,
+        "physicality": 72,
+        "stamina": 80,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "C. Ünder",
+      "number": 11,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 78,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 82,
+        "defending": 33,
+        "physicality": 50,
+        "stamina": 67,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Amavi",
+      "number": 12,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 75,
+        "physicality": 73,
+        "stamina": 76,
+        "awareness": 75,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Pol Lirola",
+      "number": 13,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "P. Gueye",
+      "number": 14,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 37,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 76,
+        "physicality": 79,
+        "stamina": 81,
+        "awareness": 76,
+        "composure": 73
+      }
+    },
+    {
+      "name": "W. Saliba",
+      "number": 15,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 25,
+        "passing": 73,
+        "dribbling": 66,
+        "defending": 80,
+        "physicality": 82,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Harit",
+      "number": 16,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "shooting": 67,
+        "passing": 74,
+        "dribbling": 83,
+        "defending": 50,
+        "physicality": 34,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Luis Henrique",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 83,
+        "shooting": 65,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 34,
+        "physicality": 77,
+        "stamina": 72,
+        "awareness": 60,
+        "composure": 67
+      }
+    },
+    {
+      "name": "L. Balerdi",
+      "number": 18,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 29,
+        "passing": 75,
+        "dribbling": 60,
+        "defending": 77,
+        "physicality": 78,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 K. Mitroglou",
+      "number": 19,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 54,
+        "shooting": 75,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 18,
+        "physicality": 86,
+        "stamina": 60,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "17 A. Diaby",
+      "number": 20,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 74,
+        "physicality": 69,
+        "stamina": 34,
+        "awareness": 74,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Luan Peres",
+      "number": 21,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 75,
+        "shooting": 30,
+        "passing": 71,
+        "dribbling": 61,
+        "defending": 75,
+        "physicality": 77,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 56
+      }
+    },
+    {
+      "name": "K. de la Fuente",
+      "number": 22,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 81,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 22,
+        "physicality": 57,
+        "stamina": 47,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "21 Y. Pelé",
+      "number": 23,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 40,
+        "shooting": 14,
+        "passing": 34,
+        "dribbling": 13,
+        "defending": 13,
+        "physicality": 72,
+        "stamina": 32,
+        "awareness": 70,
+        "composure": 59
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "name": "Zagłębie Lubin",
+  "type": "club",
+  "players": [
+    {
+      "name": "21 M. Stoch",
+      "number": 1,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 30,
+        "physicality": 44,
+        "stamina": 62,
+        "awareness": 53,
+        "composure": 68
+      }
+    },
+    {
+      "name": "E. Bashkirov",
+      "number": 2,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 67,
+        "shooting": 56,
+        "passing": 68,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 53,
+        "stamina": 96,
+        "awareness": 62,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Starzyński",
+      "number": 3,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 34,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 47,
+        "physicality": 44,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 72
+      }
+    },
+    {
+      "name": "P. Szysz",
+      "number": 4,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 86,
+        "shooting": 66,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 37,
+        "physicality": 67,
+        "stamina": 83,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "K. Chodyna",
+      "number": 5,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 52,
+        "passing": 57,
+        "dribbling": 57,
+        "defending": 61,
+        "physicality": 57,
+        "stamina": 83,
+        "awareness": 62,
+        "composure": 51
+      }
+    },
+    {
+      "name": "A. Pantić",
+      "number": 6,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 36,
+        "passing": 63,
+        "dribbling": 55,
+        "defending": 63,
+        "physicality": 72,
+        "stamina": 53,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Żubrowski",
+      "number": 7,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 53,
+        "shooting": 31,
+        "passing": 62,
+        "dribbling": 61,
+        "defending": 61,
+        "physicality": 70,
+        "stamina": 81,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Wójcicki",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 54,
+        "passing": 56,
+        "dribbling": 58,
+        "defending": 58,
+        "physicality": 73,
+        "stamina": 74,
+        "awareness": 61,
+        "composure": 56
+      }
+    },
+    {
+      "name": "L. Poręba",
+      "number": 9,
+      "position": "CDM",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "shooting": 38,
+        "passing": 62,
+        "dribbling": 57,
+        "defending": 62,
+        "physicality": 71,
+        "stamina": 83,
+        "awareness": 58,
+        "composure": 48
+      }
+    },
+    {
+      "name": "K. Kruk",
+      "number": 10,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 64,
+        "shooting": 48,
+        "passing": 54,
+        "dribbling": 33,
+        "defending": 64,
+        "physicality": 75,
+        "stamina": 68,
+        "awareness": 59,
+        "composure": 52
+      }
+    },
+    {
+      "name": "21 J. Bednarczyk",
+      "number": 11,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 74,
+        "shooting": 49,
+        "passing": 56,
+        "dribbling": 66,
+        "defending": 57,
+        "physicality": 48,
+        "stamina": 67,
+        "awareness": 49,
+        "composure": 55
+      }
+    },
+    {
+      "name": "A. Ratajczyk",
+      "number": 12,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 69,
+        "shooting": 54,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 22,
+        "physicality": 43,
+        "stamina": 49,
+        "awareness": 54,
+        "composure": 48
+      }
+    }
+  ]
+}

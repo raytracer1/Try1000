@@ -1,0 +1,396 @@
+{
+  "name": "FC Bayern München",
+  "type": "club",
+  "players": [
+    {
+      "name": "R. Lewandowski",
+      "number": 1,
+      "position": "ST",
+      "overall": 92,
+      "attributes": {
+        "pace": 79,
+        "shooting": 95,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 42,
+        "physicality": 86,
+        "stamina": 76,
+        "awareness": 93,
+        "composure": 88
+      }
+    },
+    {
+      "name": "M. Neuer",
+      "number": 2,
+      "position": "GK",
+      "overall": 90,
+      "attributes": {
+        "pace": 88,
+        "defending": 88,
+        "passing": 88,
+        "dribbling": 89,
+        "physicality": 80,
+        "stamina": 43,
+        "awareness": 87,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Kimmich",
+      "number": 3,
+      "position": "CM",
+      "overall": 89,
+      "attributes": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 87,
+        "dribbling": 83,
+        "defending": 85,
+        "physicality": 68,
+        "stamina": 94,
+        "awareness": 88,
+        "composure": 85
+      }
+    },
+    {
+      "name": "17 P. Lahm",
+      "number": 4,
+      "position": "RB",
+      "overall": 88,
+      "attributes": {
+        "pace": 67,
+        "shooting": 47,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 87,
+        "physicality": 59,
+        "stamina": 79,
+        "awareness": 91,
+        "composure": 94
+      }
+    },
+    {
+      "name": "L. Goretzka",
+      "number": 5,
+      "position": "CM",
+      "overall": 87,
+      "attributes": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 86,
+        "dribbling": 84,
+        "defending": 85,
+        "physicality": 88,
+        "stamina": 88,
+        "awareness": 88,
+        "composure": 82
+      }
+    },
+    {
+      "name": "T. Müller",
+      "number": 6,
+      "position": "CAM",
+      "overall": 87,
+      "attributes": {
+        "pace": 67,
+        "shooting": 88,
+        "passing": 85,
+        "dribbling": 77,
+        "defending": 57,
+        "physicality": 66,
+        "stamina": 86,
+        "awareness": 94,
+        "composure": 84
+      }
+    },
+    {
+      "name": "K. Coman",
+      "number": 7,
+      "position": "CM",
+      "overall": 86,
+      "attributes": {
+        "pace": 93,
+        "shooting": 75,
+        "passing": 80,
+        "dribbling": 89,
+        "defending": 27,
+        "physicality": 64,
+        "stamina": 69,
+        "awareness": 85,
+        "composure": 78
+      }
+    },
+    {
+      "name": "S. Gnabry",
+      "number": 8,
+      "position": "RW",
+      "overall": 85,
+      "attributes": {
+        "pace": 77,
+        "shooting": 86,
+        "passing": 82,
+        "dribbling": 88,
+        "defending": 44,
+        "physicality": 68,
+        "stamina": 78,
+        "awareness": 86,
+        "composure": 80
+      }
+    },
+    {
+      "name": "M. Sabitzer",
+      "number": 9,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 81,
+        "shooting": 81,
+        "passing": 84,
+        "dribbling": 79,
+        "defending": 70,
+        "physicality": 76,
+        "stamina": 85,
+        "awareness": 86,
+        "composure": 80
+      }
+    },
+    {
+      "name": "L. Sané",
+      "number": 10,
+      "position": "LW",
+      "overall": 84,
+      "attributes": {
+        "pace": 89,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 87,
+        "defending": 32,
+        "physicality": 70,
+        "stamina": 68,
+        "awareness": 79,
+        "composure": 80
+      }
+    },
+    {
+      "name": "L. Hernández",
+      "number": 11,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 77,
+        "shooting": 53,
+        "passing": 74,
+        "dribbling": 65,
+        "defending": 85,
+        "physicality": 77,
+        "stamina": 76,
+        "awareness": 85,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Davies",
+      "number": 12,
+      "position": "LB",
+      "overall": 82,
+      "attributes": {
+        "pace": 96,
+        "shooting": 67,
+        "passing": 81,
+        "dribbling": 85,
+        "defending": 77,
+        "physicality": 72,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 74
+      }
+    },
+    {
+      "name": "17 Xabi Alonso",
+      "number": 13,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 33,
+        "shooting": 56,
+        "passing": 89,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 69,
+        "stamina": 62,
+        "awareness": 81,
+        "composure": 83
+      }
+    },
+    {
+      "name": "D. Upamecano",
+      "number": 14,
+      "position": "CB",
+      "overall": 82,
+      "attributes": {
+        "pace": 90,
+        "shooting": 39,
+        "passing": 76,
+        "dribbling": 69,
+        "defending": 84,
+        "physicality": 88,
+        "stamina": 65,
+        "awareness": 77,
+        "composure": 71
+      }
+    },
+    {
+      "name": "N. Süle",
+      "number": 15,
+      "position": "CB",
+      "overall": 82,
+      "attributes": {
+        "pace": 79,
+        "shooting": 22,
+        "passing": 78,
+        "dribbling": 43,
+        "defending": 86,
+        "physicality": 93,
+        "stamina": 63,
+        "awareness": 79,
+        "composure": 75
+      }
+    },
+    {
+      "name": "C. Tolisso",
+      "number": 16,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 64,
+        "shooting": 75,
+        "passing": 82,
+        "dribbling": 76,
+        "defending": 77,
+        "physicality": 76,
+        "stamina": 77,
+        "awareness": 82,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 Douglas Costa",
+      "number": 17,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 85,
+        "shooting": 62,
+        "passing": 77,
+        "dribbling": 91,
+        "defending": 38,
+        "physicality": 56,
+        "stamina": 66,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "B. Pavard",
+      "number": 18,
+      "position": "RB",
+      "overall": 79,
+      "attributes": {
+        "pace": 69,
+        "shooting": 43,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 79,
+        "physicality": 76,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 76
+      }
+    },
+    {
+      "name": "21 Javi Martínez",
+      "number": 19,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 39,
+        "shooting": 43,
+        "passing": 73,
+        "dribbling": 60,
+        "defending": 81,
+        "physicality": 82,
+        "stamina": 55,
+        "awareness": 79,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Marc Roca",
+      "number": 20,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 50,
+        "shooting": 59,
+        "passing": 82,
+        "dribbling": 72,
+        "defending": 73,
+        "physicality": 66,
+        "stamina": 72,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "E. Choupo-Moting",
+      "number": 21,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 74,
+        "passing": 75,
+        "dribbling": 81,
+        "defending": 36,
+        "physicality": 80,
+        "stamina": 72,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Musiala",
+      "number": 22,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 73,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 86,
+        "defending": 28,
+        "physicality": 43,
+        "stamina": 60,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "B. Sarr",
+      "number": 23,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 67,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 68,
+        "physicality": 63,
+        "stamina": 88,
+        "awareness": 74,
+        "composure": 74
+      }
+    }
+  ]
+}

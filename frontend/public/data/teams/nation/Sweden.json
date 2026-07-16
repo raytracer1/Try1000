@@ -1,0 +1,395 @@
+{
+  "name": "Sweden",
+  "type": "nation",
+  "players": [
+    {
+      "name": "Z. Ibrahimović",
+      "number": 1,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 66,
+        "shooting": 86,
+        "passing": 80,
+        "dribbling": 78,
+        "defending": 37,
+        "physicality": 87,
+        "stamina": 52,
+        "awareness": 83,
+        "composure": 90
+      }
+    },
+    {
+      "name": "A. Isak",
+      "number": 2,
+      "position": "ST",
+      "overall": 82,
+      "attributes": {
+        "pace": 85,
+        "shooting": 83,
+        "passing": 79,
+        "dribbling": 79,
+        "defending": 21,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 81,
+        "composure": 77
+      }
+    },
+    {
+      "name": "D. Kulusevski",
+      "number": 3,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 83,
+        "shooting": 70,
+        "passing": 79,
+        "dribbling": 85,
+        "defending": 64,
+        "physicality": 77,
+        "stamina": 85,
+        "awareness": 80,
+        "composure": 83
+      }
+    },
+    {
+      "name": "E. Forsberg",
+      "number": 4,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 68,
+        "shooting": 74,
+        "passing": 86,
+        "dribbling": 83,
+        "defending": 27,
+        "physicality": 59,
+        "stamina": 69,
+        "awareness": 83,
+        "composure": 79
+      }
+    },
+    {
+      "name": "V. Lindelöf",
+      "number": 5,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 65,
+        "shooting": 42,
+        "passing": 79,
+        "dribbling": 70,
+        "defending": 81,
+        "physicality": 76,
+        "stamina": 77,
+        "awareness": 83,
+        "composure": 83
+      }
+    },
+    {
+      "name": "18 K. Källström",
+      "number": 6,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 37,
+        "shooting": 62,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 62,
+        "physicality": 78,
+        "stamina": 62,
+        "awareness": 76,
+        "composure": 75
+      }
+    },
+    {
+      "name": "L. Augustinsson",
+      "number": 7,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 61,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 73,
+        "defending": 76,
+        "physicality": 65,
+        "stamina": 87,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "V. Claesson",
+      "number": 8,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 76,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 49,
+        "physicality": 72,
+        "stamina": 88,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. Ekdal",
+      "number": 9,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 44,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 74,
+        "defending": 72,
+        "physicality": 71,
+        "stamina": 82,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "D. Moberg Karlsson",
+      "number": 10,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 90,
+        "shooting": 71,
+        "passing": 69,
+        "dribbling": 79,
+        "defending": 24,
+        "physicality": 59,
+        "stamina": 72,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "R. Olsen",
+      "number": 11,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "defending": 77,
+        "passing": 75,
+        "dribbling": 75,
+        "physicality": 75,
+        "stamina": 37,
+        "awareness": 71,
+        "composure": 45
+      }
+    },
+    {
+      "name": "K. Olsson",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 65,
+        "passing": 79,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 54,
+        "stamina": 80,
+        "awareness": 72,
+        "composure": 78
+      }
+    },
+    {
+      "name": "J. Karlsson",
+      "number": 13,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 72,
+        "passing": 68,
+        "dribbling": 79,
+        "defending": 36,
+        "physicality": 42,
+        "stamina": 78,
+        "awareness": 69,
+        "composure": 73
+      }
+    },
+    {
+      "name": "M. Berg",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 77,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 33,
+        "physicality": 76,
+        "stamina": 67,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "P. Jansson",
+      "number": 15,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 61,
+        "shooting": 29,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 76,
+        "physicality": 86,
+        "stamina": 69,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "R. Quaison",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 79,
+        "defending": 39,
+        "physicality": 72,
+        "stamina": 78,
+        "awareness": 79,
+        "composure": 76
+      }
+    },
+    {
+      "name": "S. Andersson",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 55,
+        "shooting": 77,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 30,
+        "physicality": 81,
+        "stamina": 70,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "F. Helander",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 47,
+        "shooting": 28,
+        "passing": 58,
+        "dribbling": 52,
+        "defending": 76,
+        "physicality": 85,
+        "stamina": 63,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "K. Nordfeldt",
+      "number": 19,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "defending": 75,
+        "passing": 70,
+        "dribbling": 74,
+        "physicality": 73,
+        "stamina": 32,
+        "awareness": 75,
+        "composure": 50
+      }
+    },
+    {
+      "name": "G. Gudmundsson",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 88,
+        "shooting": 59,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 70,
+        "physicality": 64,
+        "stamina": 76,
+        "awareness": 67,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Svanberg",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 79,
+        "shooting": 64,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 73
+      }
+    },
+    {
+      "name": "K. Sema",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 79,
+        "shooting": 63,
+        "passing": 73,
+        "dribbling": 76,
+        "defending": 66,
+        "physicality": 70,
+        "stamina": 72,
+        "awareness": 70,
+        "composure": 62
+      }
+    },
+    {
+      "name": "E. Krafth",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 56,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 74,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 72
+      }
+    }
+  ]
+}

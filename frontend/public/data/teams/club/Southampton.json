@@ -1,0 +1,396 @@
+{
+  "name": "Southampton",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Ward-Prowse",
+      "number": 1,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 54,
+        "shooting": 71,
+        "passing": 85,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 64,
+        "stamina": 91,
+        "awareness": 75,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Oriol Romeu",
+      "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 34,
+        "shooting": 25,
+        "passing": 78,
+        "dribbling": 63,
+        "defending": 82,
+        "physicality": 82,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "R. Perraud",
+      "number": 3,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 74,
+        "shooting": 65,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 64,
+        "stamina": 86,
+        "awareness": 75,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Armstrong",
+      "number": 4,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 73,
+        "shooting": 76,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 83,
+        "awareness": 77,
+        "composure": 70
+      }
+    },
+    {
+      "name": "K. Walker-Peters",
+      "number": 5,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 74,
+        "shooting": 35,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 77,
+        "physicality": 61,
+        "stamina": 78,
+        "awareness": 75,
+        "composure": 73
+      }
+    },
+    {
+      "name": "A. Armstrong",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 88,
+        "shooting": 79,
+        "passing": 70,
+        "dribbling": 74,
+        "defending": 23,
+        "physicality": 61,
+        "stamina": 81,
+        "awareness": 76,
+        "composure": 75
+      }
+    },
+    {
+      "name": "C. Adams",
+      "number": 7,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 84,
+        "shooting": 76,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 42,
+        "physicality": 79,
+        "stamina": 77,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "T. Walcott",
+      "number": 8,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 84,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 78,
+        "defending": 39,
+        "physicality": 55,
+        "stamina": 61,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "N. Redmond",
+      "number": 9,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 82,
+        "defending": 26,
+        "physicality": 50,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Salisu",
+      "number": 10,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 71,
+        "shooting": 30,
+        "passing": 72,
+        "dribbling": 47,
+        "defending": 78,
+        "physicality": 87,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Bednarek",
+      "number": 11,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 54,
+        "shooting": 19,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 71,
+        "awareness": 77,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Elyounoussi",
+      "number": 12,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 57,
+        "physicality": 64,
+        "stamina": 69,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. McCarthy",
+      "number": 13,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 74,
+        "defending": 80,
+        "passing": 74,
+        "dribbling": 75,
+        "physicality": 63,
+        "stamina": 35,
+        "awareness": 71,
+        "composure": 61
+      }
+    },
+    {
+      "name": "F. Forster",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 35,
+        "shooting": 13,
+        "passing": 27,
+        "dribbling": 20,
+        "defending": 13,
+        "physicality": 80,
+        "stamina": 29,
+        "awareness": 70,
+        "composure": 54
+      }
+    },
+    {
+      "name": "M. Djenepo",
+      "number": 15,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 81,
+        "shooting": 70,
+        "passing": 67,
+        "dribbling": 83,
+        "defending": 37,
+        "physicality": 62,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Stephens",
+      "number": 16,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 54,
+        "shooting": 36,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 78,
+        "physicality": 78,
+        "stamina": 68,
+        "awareness": 71,
+        "composure": 64
+      }
+    },
+    {
+      "name": "I. Diallo",
+      "number": 17,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 61,
+        "shooting": 41,
+        "passing": 71,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 67,
+        "stamina": 79,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Long",
+      "number": 18,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 68,
+        "passing": 64,
+        "dribbling": 74,
+        "defending": 27,
+        "physicality": 64,
+        "stamina": 58,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Lyanco",
+      "number": 19,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 33,
+        "passing": 68,
+        "dribbling": 57,
+        "defending": 76,
+        "physicality": 74,
+        "stamina": 52,
+        "awareness": 67,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Y. Valery",
+      "number": 20,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 42,
+        "passing": 64,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "W. Smallbone",
+      "number": 21,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 62,
+        "physicality": 41,
+        "stamina": 55,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "N. Tella",
+      "number": 22,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 85,
+        "shooting": 59,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 34,
+        "physicality": 49,
+        "stamina": 67,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "18 S. Taylor",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 31,
+        "shooting": 11,
+        "passing": 28,
+        "dribbling": 11,
+        "defending": 12,
+        "physicality": 72,
+        "stamina": 40,
+        "awareness": 63,
+        "composure": 62
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "name": "FC St. Gallen 1879",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Görtler",
+      "number": 1,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 67,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 58,
+        "physicality": 75,
+        "stamina": 91,
+        "awareness": 75,
+        "composure": 68
+      }
+    },
+    {
+      "name": "19 T. Barnetta",
+      "number": 2,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 60,
+        "passing": 77,
+        "dribbling": 68,
+        "defending": 52,
+        "physicality": 58,
+        "stamina": 49,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "L. Zigi",
+      "number": 3,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 75,
+        "defending": 74,
+        "passing": 64,
+        "dribbling": 66,
+        "physicality": 71,
+        "stamina": 32,
+        "awareness": 65,
+        "composure": 48
+      }
+    },
+    {
+      "name": "J. Guillemenot",
+      "number": 4,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 77,
+        "shooting": 65,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 38,
+        "physicality": 70,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 61
+      }
+    },
+    {
+      "name": "L. Stergiou",
+      "number": 5,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 66,
+        "shooting": 27,
+        "passing": 57,
+        "dribbling": 38,
+        "defending": 70,
+        "physicality": 74,
+        "stamina": 71,
+        "awareness": 61,
+        "composure": 56
+      }
+    },
+    {
+      "name": "O. Diakité",
+      "number": 6,
+      "position": "CDM",
+      "overall": 65,
+      "attributes": {
+        "pace": 71,
+        "shooting": 48,
+        "passing": 66,
+        "dribbling": 62,
+        "defending": 64,
+        "physicality": 78,
+        "stamina": 67,
+        "awareness": 56,
+        "composure": 58
+      }
+    },
+    {
+      "name": "K. Duah",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 92,
+        "shooting": 66,
+        "passing": 56,
+        "dribbling": 64,
+        "defending": 30,
+        "physicality": 76,
+        "stamina": 80,
+        "awareness": 56,
+        "composure": 58
+      }
+    },
+    {
+      "name": "B. Babić",
+      "number": 8,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 83,
+        "shooting": 64,
+        "passing": 52,
+        "dribbling": 63,
+        "defending": 18,
+        "physicality": 68,
+        "stamina": 63,
+        "awareness": 65,
+        "composure": 60
+      }
+    },
+    {
+      "name": "F. Schubert",
+      "number": 9,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 69,
+        "passing": 57,
+        "dribbling": 52,
+        "defending": 25,
+        "physicality": 87,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 53
+      }
+    },
+    {
+      "name": "19 P. Koch",
+      "number": 10,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 36,
+        "passing": 57,
+        "dribbling": 54,
+        "defending": 61,
+        "physicality": 64,
+        "stamina": 71,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "E. Youan",
+      "number": 11,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 72,
+        "shooting": 64,
+        "passing": 58,
+        "dribbling": 62,
+        "defending": 23,
+        "physicality": 57,
+        "stamina": 53,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "N. Lüchinger",
+      "number": 12,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 71,
+        "shooting": 19,
+        "passing": 59,
+        "dribbling": 66,
+        "defending": 60,
+        "physicality": 69,
+        "stamina": 67,
+        "awareness": 59,
+        "composure": 50
+      }
+    },
+    {
+      "name": "L. Watkowiak",
+      "number": 13,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 23,
+        "shooting": 7,
+        "passing": 19,
+        "dribbling": 10,
+        "defending": 13,
+        "physicality": 83,
+        "stamina": 26,
+        "awareness": 54,
+        "composure": 21
+      }
+    },
+    {
+      "name": "L. Münst",
+      "number": 14,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 61,
+        "shooting": 50,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 55,
+        "physicality": 49,
+        "stamina": 61,
+        "awareness": 63,
+        "composure": 54
+      }
+    }
+  ]
+}

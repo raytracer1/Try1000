@@ -1,0 +1,345 @@
+{
+  "name": "Cambridge United",
+  "type": "club",
+  "players": [
+    {
+      "name": "W. Hoolahan",
+      "number": 1,
+      "position": "CAM",
+      "overall": 66,
+      "attributes": {
+        "pace": 49,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 52,
+        "physicality": 42,
+        "stamina": 34,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "G. Williams",
+      "number": 2,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 33,
+        "passing": 59,
+        "dribbling": 60,
+        "defending": 63,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Brophy",
+      "number": 3,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 76,
+        "shooting": 53,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 58,
+        "physicality": 63,
+        "stamina": 89,
+        "awareness": 57,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Ironside",
+      "number": 4,
+      "position": "ST",
+      "overall": 64,
+      "attributes": {
+        "pace": 66,
+        "shooting": 64,
+        "passing": 53,
+        "dribbling": 58,
+        "defending": 34,
+        "physicality": 85,
+        "stamina": 76,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "H. Dunk",
+      "number": 5,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 80,
+        "shooting": 47,
+        "passing": 53,
+        "dribbling": 59,
+        "defending": 57,
+        "physicality": 64,
+        "stamina": 84,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "P. Digby",
+      "number": 6,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 40,
+        "shooting": 51,
+        "passing": 64,
+        "dribbling": 55,
+        "defending": 62,
+        "physicality": 83,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 59
+      }
+    },
+    {
+      "name": "L. Jones",
+      "number": 7,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 61,
+        "shooting": 22,
+        "passing": 55,
+        "dribbling": 40,
+        "defending": 65,
+        "physicality": 81,
+        "stamina": 53,
+        "awareness": 59,
+        "composure": 51
+      }
+    },
+    {
+      "name": "A. May",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 57,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 60,
+        "physicality": 64,
+        "stamina": 83,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "20 S. Carruthers",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 67,
+        "shooting": 54,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 58,
+        "physicality": 48,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Iredale",
+      "number": 10,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 33,
+        "passing": 55,
+        "dribbling": 58,
+        "defending": 59,
+        "physicality": 62,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 53
+      }
+    },
+    {
+      "name": "C. Masterson",
+      "number": 11,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 52,
+        "shooting": 30,
+        "passing": 49,
+        "dribbling": 33,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 53,
+        "awareness": 59,
+        "composure": 50
+      }
+    },
+    {
+      "name": "D. Mitov",
+      "number": 12,
+      "position": "GK",
+      "overall": 63,
+      "attributes": {
+        "pace": 64,
+        "defending": 63,
+        "passing": 61,
+        "dribbling": 62,
+        "physicality": 58,
+        "stamina": 35,
+        "awareness": 56,
+        "composure": 42
+      }
+    },
+    {
+      "name": "L. O'Neil",
+      "number": 13,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 64,
+        "shooting": 51,
+        "passing": 62,
+        "dribbling": 58,
+        "defending": 59,
+        "physicality": 72,
+        "stamina": 78,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "20 R. Lambe",
+      "number": 14,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 78,
+        "shooting": 53,
+        "passing": 57,
+        "dribbling": 60,
+        "defending": 49,
+        "physicality": 73,
+        "stamina": 62,
+        "awareness": 57,
+        "composure": 50
+      }
+    },
+    {
+      "name": "J. Lankester",
+      "number": 15,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 75,
+        "shooting": 61,
+        "passing": 58,
+        "dribbling": 62,
+        "defending": 45,
+        "physicality": 62,
+        "stamina": 61,
+        "awareness": 56,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Smith",
+      "number": 16,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 69,
+        "shooting": 62,
+        "passing": 56,
+        "dribbling": 56,
+        "defending": 19,
+        "physicality": 76,
+        "stamina": 65,
+        "awareness": 54,
+        "composure": 58
+      }
+    },
+    {
+      "name": "H. Knibbs",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 73,
+        "shooting": 59,
+        "passing": 51,
+        "dribbling": 59,
+        "defending": 25,
+        "physicality": 72,
+        "stamina": 67,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "L. Davies",
+      "number": 18,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 78,
+        "shooting": 42,
+        "passing": 53,
+        "dribbling": 56,
+        "defending": 55,
+        "physicality": 59,
+        "stamina": 69,
+        "awareness": 55,
+        "composure": 49
+      }
+    },
+    {
+      "name": "S. Tracey",
+      "number": 19,
+      "position": "RW",
+      "overall": 60,
+      "attributes": {
+        "pace": 74,
+        "shooting": 56,
+        "passing": 55,
+        "dribbling": 65,
+        "defending": 38,
+        "physicality": 60,
+        "stamina": 52,
+        "awareness": 46,
+        "composure": 48
+      }
+    },
+    {
+      "name": "J. Okedina",
+      "number": 20,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 71,
+        "shooting": 30,
+        "passing": 53,
+        "dribbling": 57,
+        "defending": 61,
+        "physicality": 73,
+        "stamina": 74,
+        "awareness": 57,
+        "composure": 50
+      }
+    }
+  ]
+}

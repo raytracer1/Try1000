@@ -1,0 +1,397 @@
+{
+  "name": "Stoke City",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Sima",
+      "number": 1,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 89,
+        "shooting": 76,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 38,
+        "physicality": 70,
+        "stamina": 86,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "17 S. Given",
+      "number": 2,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 44,
+        "shooting": 14,
+        "passing": 38,
+        "dribbling": 13,
+        "defending": 11,
+        "physicality": 57,
+        "stamina": 29,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Clucas",
+      "number": 3,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 88,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "N. Powell",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 54,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Vrančić",
+      "number": 5,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 47,
+        "shooting": 66,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "R. Sawyers",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 58,
+        "passing": 78,
+        "dribbling": 70,
+        "defending": 63,
+        "physicality": 70,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 76
+      }
+    },
+    {
+      "name": "21 M. Bauer",
+      "number": 7,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 78,
+        "shooting": 34,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 72,
+        "physicality": 68,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "T. Smith",
+      "number": 8,
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 48,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 73,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 71,
+        "composure": 63
+      }
+    },
+    {
+      "name": "H. Souttar",
+      "number": 9,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 40,
+        "shooting": 25,
+        "passing": 64,
+        "dribbling": 56,
+        "defending": 70,
+        "physicality": 84,
+        "stamina": 66,
+        "awareness": 70,
+        "composure": 56
+      }
+    },
+    {
+      "name": "A. Davies",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 40,
+        "shooting": 11,
+        "passing": 25,
+        "dribbling": 12,
+        "defending": 16,
+        "physicality": 47,
+        "stamina": 29,
+        "awareness": 70,
+        "composure": 47
+      }
+    },
+    {
+      "name": "J. Allen",
+      "number": 11,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 66,
+        "shooting": 60,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 71,
+        "physicality": 60,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 78
+      }
+    },
+    {
+      "name": "21 J. Mikel",
+      "number": 12,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 50,
+        "passing": 77,
+        "dribbling": 67,
+        "defending": 75,
+        "physicality": 78,
+        "stamina": 73,
+        "awareness": 74,
+        "composure": 79
+      }
+    },
+    {
+      "name": "T. Campbell",
+      "number": 13,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 73,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 31,
+        "physicality": 74,
+        "stamina": 59,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Fletcher",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 71,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 22,
+        "physicality": 79,
+        "stamina": 57,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Chester",
+      "number": 15,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 55,
+        "shooting": 33,
+        "passing": 61,
+        "dribbling": 55,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 64,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "L. Østigård",
+      "number": 16,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 71,
+        "shooting": 33,
+        "passing": 62,
+        "dribbling": 49,
+        "defending": 71,
+        "physicality": 79,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 58
+      }
+    },
+    {
+      "name": "D. Batth",
+      "number": 17,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 32,
+        "shooting": 20,
+        "passing": 56,
+        "dribbling": 31,
+        "defending": 68,
+        "physicality": 90,
+        "stamina": 72,
+        "awareness": 63,
+        "composure": 51
+      }
+    },
+    {
+      "name": "19 D. Fletcher",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 44,
+        "shooting": 59,
+        "passing": 71,
+        "dribbling": 63,
+        "defending": 72,
+        "physicality": 67,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Fox",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 61,
+        "shooting": 41,
+        "passing": 64,
+        "dribbling": 58,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 74,
+        "awareness": 68,
+        "composure": 59
+      }
+    },
+    {
+      "name": "T. Ince",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 63,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 36,
+        "physicality": 52,
+        "stamina": 60,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "J. Brown",
+      "number": 21,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 65,
+        "passing": 63,
+        "dribbling": 68,
+        "defending": 49,
+        "physicality": 69,
+        "stamina": 82,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Thompson",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 51,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 60,
+        "physicality": 62,
+        "stamina": 69,
+        "awareness": 67,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Tymon",
+      "number": 23,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 46,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 64,
+        "physicality": 66,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 55
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Panathinaikos FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "S. Palacios",
+      "number": 1,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 91,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 79,
+        "defending": 49,
+        "physicality": 60,
+        "stamina": 81,
+        "awareness": 73,
+        "composure": 79
+      }
+    },
+    {
+      "name": "Maurício",
+      "number": 2,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 78,
+        "dribbling": 74,
+        "defending": 74,
+        "physicality": 73,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "19 A. Mounier",
+      "number": 3,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 32,
+        "physicality": 60,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Dioudis",
+      "number": 4,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "defending": 80,
+        "passing": 72,
+        "dribbling": 74,
+        "physicality": 65,
+        "stamina": 33,
+        "awareness": 66,
+        "composure": 56
+      }
+    },
+    {
+      "name": "17 M. Essien",
+      "number": 5,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 55,
+        "shooting": 54,
+        "passing": 76,
+        "dribbling": 68,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 84
+      }
+    },
+    {
+      "name": "Rubén Pérez",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 46,
+        "shooting": 58,
+        "passing": 79,
+        "dribbling": 62,
+        "defending": 78,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Brignoli",
+      "number": 7,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 33,
+        "shooting": 20,
+        "passing": 36,
+        "dribbling": 12,
+        "defending": 21,
+        "physicality": 42,
+        "stamina": 34,
+        "awareness": 66,
+        "composure": 53
+      }
+    },
+    {
+      "name": "Carlitos",
+      "number": 8,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 74,
+        "passing": 69,
+        "dribbling": 74,
+        "defending": 13,
+        "physicality": 68,
+        "stamina": 71,
+        "awareness": 73,
+        "composure": 80
+      }
+    },
+    {
+      "name": "D. Kourbelis",
+      "number": 9,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 45,
+        "passing": 72,
+        "dribbling": 64,
+        "defending": 73,
+        "physicality": 71,
+        "stamina": 78,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "F. Macheda",
+      "number": 10,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 11,
+        "physicality": 71,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Juankar",
+      "number": 11,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 74,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 71,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "G. Kotsiras",
+      "number": 12,
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 82,
+        "shooting": 61,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 73,
+        "awareness": 58,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Y. Ngbakoto",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 18,
+        "physicality": 69,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Chatzigiovanis",
+      "number": 14,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 78,
+        "shooting": 63,
+        "passing": 68,
+        "dribbling": 76,
+        "defending": 30,
+        "physicality": 57,
+        "stamina": 65,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Schenkeveld",
+      "number": 15,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 79,
+        "shooting": 34,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 75,
+        "physicality": 80,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Aitor",
+      "number": 16,
+      "position": "RW",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 72,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 24,
+        "physicality": 49,
+        "stamina": 68,
+        "awareness": 66,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Fran Vélez",
+      "number": 17,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 28,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 71,
+        "physicality": 82,
+        "stamina": 73,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 Y. Mollo",
+      "number": 18,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 78,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 65,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Y. Ayoub",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 59,
+        "passing": 71,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 68,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "F. Sánchez",
+      "number": 20,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 69,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "G. Bouzoukis",
+      "number": 21,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 58,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 45,
+        "physicality": 55,
+        "stamina": 64,
+        "awareness": 67,
+        "composure": 59
+      }
+    },
+    {
+      "name": "R. Lundqvist",
+      "number": 22,
+      "position": "CAM",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 63,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 61,
+        "physicality": 64,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Alexandropoulos",
+      "number": 23,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 75,
+        "shooting": 53,
+        "passing": 72,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 62,
+        "stamina": 71,
+        "awareness": 62,
+        "composure": 64
+      }
+    }
+  ]
+}

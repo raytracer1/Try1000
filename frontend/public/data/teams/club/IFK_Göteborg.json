@@ -1,0 +1,210 @@
+{
+  "name": "IFK Göteborg",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Berg",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 77,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 33,
+        "physicality": 76,
+        "stamina": 67,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "O. Wendt",
+      "number": 2,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 59,
+        "shooting": 56,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 71,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "G. Svensson",
+      "number": 3,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 34,
+        "shooting": 34,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 73,
+        "physicality": 80,
+        "stamina": 81,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Thern",
+      "number": 4,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 76,
+        "shooting": 62,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 58,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "H. Aiesh",
+      "number": 5,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 80,
+        "shooting": 56,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 38,
+        "physicality": 73,
+        "stamina": 76,
+        "awareness": 61,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 P. Wernbloom",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 49,
+        "shooting": 64,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 74,
+        "physicality": 81,
+        "stamina": 51,
+        "awareness": 60,
+        "composure": 71
+      }
+    },
+    {
+      "name": "T. Sana",
+      "number": 7,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 29,
+        "physicality": 59,
+        "stamina": 71,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Erlingmark",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 52,
+        "passing": 65,
+        "dribbling": 56,
+        "defending": 66,
+        "physicality": 73,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "K. Sigþórsson",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 63,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 66,
+        "defending": 42,
+        "physicality": 82,
+        "stamina": 47,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Eriksson",
+      "number": 10,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 53,
+        "shooting": 42,
+        "passing": 65,
+        "dribbling": 59,
+        "defending": 64,
+        "physicality": 71,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "P. Lagemyr",
+      "number": 11,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 63,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 28,
+        "physicality": 32,
+        "stamina": 64,
+        "awareness": 52,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Bjärsmyr",
+      "number": 12,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 48,
+        "shooting": 28,
+        "passing": 50,
+        "dribbling": 37,
+        "defending": 71,
+        "physicality": 67,
+        "stamina": 51,
+        "awareness": 64,
+        "composure": 65
+      }
+    }
+  ]
+}

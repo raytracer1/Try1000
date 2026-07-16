@@ -1,0 +1,396 @@
+{
+  "name": "FC Girondins de Bordeaux",
+  "type": "club",
+  "players": [
+    {
+      "name": "B. Costil",
+      "number": 1,
+      "position": "GK",
+      "overall": 79,
+      "attributes": {
+        "pace": 78,
+        "defending": 80,
+        "passing": 77,
+        "dribbling": 78,
+        "physicality": 65,
+        "stamina": 28,
+        "awareness": 76,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Fransérgio",
+      "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 63,
+        "shooting": 71,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 73,
+        "physicality": 79,
+        "stamina": 87,
+        "awareness": 81,
+        "composure": 82
+      }
+    },
+    {
+      "name": "18 J. Toulalan",
+      "number": 3,
+      "position": "CDM",
+      "overall": 78,
+      "attributes": {
+        "pace": 36,
+        "shooting": 27,
+        "passing": 78,
+        "dribbling": 65,
+        "defending": 81,
+        "physicality": 79,
+        "stamina": 76,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "L. Koscielny",
+      "number": 4,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 54,
+        "shooting": 37,
+        "passing": 76,
+        "dribbling": 62,
+        "defending": 79,
+        "physicality": 77,
+        "stamina": 63,
+        "awareness": 77,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 H. Ben Arfa",
+      "number": 5,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 69,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 84,
+        "defending": 35,
+        "physicality": 64,
+        "stamina": 65,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Hwang Ui Jo",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "shooting": 78,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 42,
+        "physicality": 73,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Otávio",
+      "number": 7,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 63,
+        "shooting": 48,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 76,
+        "physicality": 74,
+        "stamina": 79,
+        "awareness": 78,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Y. Adli",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 63,
+        "shooting": 66,
+        "passing": 78,
+        "dribbling": 76,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Elis",
+      "number": 9,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 89,
+        "shooting": 75,
+        "passing": 65,
+        "dribbling": 79,
+        "defending": 21,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Benito",
+      "number": 10,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 72,
+        "shooting": 43,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 76,
+        "stamina": 89,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "R. Oudin",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 71,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 27,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Kalu",
+      "number": 12,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 84,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 79,
+        "defending": 32,
+        "physicality": 47,
+        "stamina": 69,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "P. Baysse",
+      "number": 13,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 48,
+        "shooting": 40,
+        "passing": 68,
+        "dribbling": 62,
+        "defending": 76,
+        "physicality": 84,
+        "stamina": 58,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Dilrosun",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 80,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 83,
+        "defending": 44,
+        "physicality": 54,
+        "stamina": 66,
+        "awareness": 64,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Briand",
+      "number": 15,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 63,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 71,
+        "defending": 46,
+        "physicality": 74,
+        "stamina": 62,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "E. Kwateng",
+      "number": 16,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 63,
+        "shooting": 32,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 74,
+        "physicality": 64,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Maja",
+      "number": 17,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 22,
+        "physicality": 65,
+        "stamina": 62,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Mexer",
+      "number": 18,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 40,
+        "shooting": 44,
+        "passing": 72,
+        "dribbling": 59,
+        "defending": 74,
+        "physicality": 76,
+        "stamina": 64,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 V. Jovanović",
+      "number": 19,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 36,
+        "shooting": 47,
+        "passing": 69,
+        "dribbling": 62,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "G. Mensah",
+      "number": 20,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 74,
+        "shooting": 53,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 70,
+        "physicality": 57,
+        "stamina": 71,
+        "awareness": 68,
+        "composure": 63
+      }
+    },
+    {
+      "name": "19 M. Gajić",
+      "number": 21,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 69,
+        "shooting": 61,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "19 J. Plašil",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 34,
+        "shooting": 56,
+        "passing": 77,
+        "dribbling": 69,
+        "defending": 64,
+        "physicality": 54,
+        "stamina": 34,
+        "awareness": 76,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 M. Poundjé",
+      "number": 23,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 29,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 69,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 67,
+        "composure": 62
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Algeria",
+  "type": "nation",
+  "players": [
+    {
+      "name": "R. Mahrez",
+      "number": 1,
+      "position": "RW",
+      "overall": 86,
+      "attributes": {
+        "pace": 79,
+        "shooting": 82,
+        "passing": 83,
+        "dribbling": 91,
+        "defending": 31,
+        "physicality": 57,
+        "stamina": 75,
+        "awareness": 81,
+        "composure": 84
+      }
+    },
+    {
+      "name": "19 Y. Brahimi",
+      "number": 2,
+      "position": "LW",
+      "overall": 85,
+      "attributes": {
+        "pace": 75,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 93,
+        "defending": 36,
+        "physicality": 49,
+        "stamina": 85,
+        "awareness": 84,
+        "composure": 90
+      }
+    },
+    {
+      "name": "A. Delort",
+      "number": 3,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 87,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 37,
+        "physicality": 87,
+        "stamina": 83,
+        "awareness": 78,
+        "composure": 79
+      }
+    },
+    {
+      "name": "I. Bennacer",
+      "number": 4,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 84,
+        "dribbling": 84,
+        "defending": 76,
+        "physicality": 66,
+        "stamina": 79,
+        "awareness": 81,
+        "composure": 79
+      }
+    },
+    {
+      "name": "A. Mandi",
+      "number": 5,
+      "position": "CB",
+      "overall": 80,
+      "attributes": {
+        "pace": 65,
+        "shooting": 41,
+        "passing": 80,
+        "dribbling": 64,
+        "defending": 80,
+        "physicality": 78,
+        "stamina": 65,
+        "awareness": 79,
+        "composure": 78
+      }
+    },
+    {
+      "name": "R. Bensebaini",
+      "number": 6,
+      "position": "LB",
+      "overall": 79,
+      "attributes": {
+        "pace": 77,
+        "shooting": 62,
+        "passing": 77,
+        "dribbling": 77,
+        "defending": 77,
+        "physicality": 78,
+        "stamina": 79,
+        "awareness": 76,
+        "composure": 73
+      }
+    },
+    {
+      "name": "R. Ghezzal",
+      "number": 7,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 24,
+        "physicality": 51,
+        "stamina": 67,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Oukidja",
+      "number": 8,
+      "position": "GK",
+      "overall": 78,
+      "attributes": {
+        "pace": 79,
+        "defending": 83,
+        "passing": 73,
+        "dribbling": 78,
+        "physicality": 73,
+        "stamina": 35,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "F. Ghoulam",
+      "number": 9,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 75,
+        "shooting": 54,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 77,
+        "physicality": 65,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "S. Benrahma",
+      "number": 10,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 76,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 82,
+        "defending": 32,
+        "physicality": 49,
+        "stamina": 69,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Y. Atal",
+      "number": 11,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 91,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 81,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 71,
+        "awareness": 73,
+        "composure": 77
+      }
+    },
+    {
+      "name": "19 S. Hanni",
+      "number": 12,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 54,
+        "physicality": 65,
+        "stamina": 79,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "I. Slimani",
+      "number": 13,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 49,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 48,
+        "physicality": 86,
+        "stamina": 64,
+        "awareness": 78,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Z. Ferhat",
+      "number": 14,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 81,
+        "shooting": 63,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 30,
+        "physicality": 74,
+        "stamina": 88,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "F. Boulaya",
+      "number": 15,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 75,
+        "dribbling": 83,
+        "defending": 22,
+        "physicality": 50,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 77
+      }
+    },
+    {
+      "name": "H. Boudaoui",
+      "number": 16,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 73,
+        "shooting": 68,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 85,
+        "awareness": 74,
+        "composure": 77
+      }
+    },
+    {
+      "name": "S. Feghouli",
+      "number": 17,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 32,
+        "physicality": 62,
+        "stamina": 63,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "H. Belkebla",
+      "number": 18,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 57,
+        "shooting": 41,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 66,
+        "stamina": 89,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 S. Taïder",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 83,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 N. Bentaleb",
+      "number": 20,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 64,
+        "shooting": 62,
+        "passing": 77,
+        "dribbling": 80,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 M. Abeid",
+      "number": 21,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 63,
+        "shooting": 65,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 70,
+        "physicality": 77,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 76
+      }
+    },
+    {
+      "name": "A. Ounas",
+      "number": 22,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 82,
+        "shooting": 64,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 54,
+        "physicality": 55,
+        "stamina": 72,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "R. Boudebouz",
+      "number": 23,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 35,
+        "physicality": 61,
+        "stamina": 58,
+        "awareness": 72,
+        "composure": 72
+      }
+    }
+  ]
+}

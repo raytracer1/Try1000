@@ -1,0 +1,329 @@
+{
+  "name": "Angola",
+  "type": "nation",
+  "players": [
+    {
+      "name": "Clinton Mata",
+      "number": 1,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 85,
+        "shooting": 53,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 77,
+        "physicality": 74,
+        "stamina": 93,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "21 Bastos",
+      "number": 2,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 78,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 62,
+        "defending": 79,
+        "physicality": 80,
+        "stamina": 59,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Fábio Abreu",
+      "number": 3,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 82,
+        "shooting": 77,
+        "passing": 65,
+        "dribbling": 71,
+        "defending": 17,
+        "physicality": 80,
+        "stamina": 82,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Wilson Eduardo",
+      "number": 4,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 33,
+        "physicality": 69,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 77
+      }
+    },
+    {
+      "name": "21 Gelson Dala",
+      "number": 5,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 71,
+        "passing": 66,
+        "dribbling": 75,
+        "defending": 19,
+        "physicality": 60,
+        "stamina": 72,
+        "awareness": 75,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Fredy",
+      "number": 6,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 87,
+        "shooting": 63,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 55,
+        "physicality": 51,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Bela",
+      "number": 7,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 91,
+        "shooting": 69,
+        "passing": 62,
+        "dribbling": 72,
+        "defending": 27,
+        "physicality": 56,
+        "stamina": 79,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Ramalho",
+      "number": 8,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 40,
+        "passing": 69,
+        "dribbling": 52,
+        "defending": 72,
+        "physicality": 76,
+        "stamina": 65,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Lucoqui",
+      "number": 9,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 81,
+        "shooting": 32,
+        "passing": 63,
+        "dribbling": 68,
+        "defending": 71,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 64,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Núrio Fortuna",
+      "number": 10,
+      "position": "LW",
+      "overall": 70,
+      "attributes": {
+        "pace": 81,
+        "shooting": 53,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 69,
+        "physicality": 68,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Bruno Gaspar",
+      "number": 11,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 79,
+        "shooting": 50,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 66,
+        "physicality": 65,
+        "stamina": 68,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Pululu",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 89,
+        "shooting": 65,
+        "passing": 64,
+        "dribbling": 73,
+        "defending": 18,
+        "physicality": 72,
+        "stamina": 69,
+        "awareness": 53,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 Djalma",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 41,
+        "physicality": 75,
+        "stamina": 53,
+        "awareness": 64,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Show",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 61,
+        "shooting": 44,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 68,
+        "physicality": 66,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Buatu",
+      "number": 15,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 54,
+        "shooting": 32,
+        "passing": 63,
+        "dribbling": 52,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Milson",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 80,
+        "shooting": 54,
+        "passing": 59,
+        "dribbling": 72,
+        "defending": 29,
+        "physicality": 52,
+        "stamina": 53,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 Zito Luvumbo",
+      "number": 17,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 66,
+        "dribbling": 74,
+        "defending": 40,
+        "physicality": 40,
+        "stamina": 50,
+        "awareness": 58,
+        "composure": 45
+      }
+    },
+    {
+      "name": "Elliot Simões",
+      "number": 18,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 81,
+        "shooting": 54,
+        "passing": 59,
+        "dribbling": 65,
+        "defending": 38,
+        "physicality": 33,
+        "stamina": 67,
+        "awareness": 57,
+        "composure": 49
+      }
+    },
+    {
+      "name": "Capita",
+      "number": 19,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 71,
+        "shooting": 53,
+        "passing": 58,
+        "dribbling": 72,
+        "defending": 23,
+        "physicality": 38,
+        "stamina": 53,
+        "awareness": 43,
+        "composure": 61
+      }
+    }
+  ]
+}

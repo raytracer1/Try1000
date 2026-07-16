@@ -1,0 +1,380 @@
+{
+  "name": "Club Tijuana",
+  "type": "club",
+  "players": [
+    {
+      "name": "F. Martínez",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 92,
+        "shooting": 76,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 25,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Orozco",
+      "number": 2,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 59,
+        "shooting": 15,
+        "passing": 59,
+        "dribbling": 29,
+        "defending": 19,
+        "physicality": 75,
+        "stamina": 45,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "D. Barbona",
+      "number": 3,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 84,
+        "shooting": 66,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 40,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "G. Alcalá",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 59,
+        "shooting": 17,
+        "passing": 24,
+        "dribbling": 13,
+        "defending": 12,
+        "physicality": 66,
+        "stamina": 40,
+        "awareness": 71,
+        "composure": 43
+      }
+    },
+    {
+      "name": "L. Rodríguez",
+      "number": 5,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 63,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 58,
+        "physicality": 55,
+        "stamina": 88,
+        "awareness": 63,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Ruiz",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 63,
+        "passing": 75,
+        "dribbling": 71,
+        "defending": 62,
+        "physicality": 64,
+        "stamina": 76,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "B. Angulo",
+      "number": 7,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 50,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Ortiz",
+      "number": 8,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 76,
+        "shooting": 73,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 32,
+        "physicality": 51,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "M. Manotas",
+      "number": 9,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 74,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 31,
+        "physicality": 61,
+        "stamina": 74,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 Luís Leal",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 30,
+        "physicality": 74,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 66
+      }
+    },
+    {
+      "name": "C. Rivera",
+      "number": 11,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 53,
+        "shooting": 55,
+        "passing": 71,
+        "dribbling": 64,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "V. Loroña",
+      "number": 12,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 76,
+        "shooting": 33,
+        "passing": 65,
+        "dribbling": 71,
+        "defending": 68,
+        "physicality": 68,
+        "stamina": 74,
+        "awareness": 63,
+        "composure": 53
+      }
+    },
+    {
+      "name": "21 G. Jara",
+      "number": 13,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 46,
+        "shooting": 45,
+        "passing": 68,
+        "dribbling": 59,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 60,
+        "awareness": 69,
+        "composure": 75
+      }
+    },
+    {
+      "name": "18 J. Angulo",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 85,
+        "shooting": 67,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 28,
+        "physicality": 68,
+        "stamina": 67,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "E. Castillo",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 70,
+        "defending": 41,
+        "physicality": 82,
+        "stamina": 71,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "E. Tercero",
+      "number": 16,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 74,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 69,
+        "physicality": 66,
+        "stamina": 68,
+        "awareness": 67,
+        "composure": 58
+      }
+    },
+    {
+      "name": "M. Domínguez",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 55,
+        "passing": 68,
+        "dribbling": 75,
+        "defending": 41,
+        "physicality": 31,
+        "stamina": 61,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "Y. Rak",
+      "number": 18,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 60,
+        "shooting": 25,
+        "passing": 67,
+        "dribbling": 49,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "V. Guzmán",
+      "number": 19,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 28,
+        "passing": 60,
+        "dribbling": 52,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 72,
+        "awareness": 56,
+        "composure": 55
+      }
+    },
+    {
+      "name": "20 L. Michel",
+      "number": 20,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 52,
+        "shooting": 13,
+        "passing": 29,
+        "dribbling": 14,
+        "defending": 13,
+        "physicality": 65,
+        "stamina": 21,
+        "awareness": 68,
+        "composure": 46
+      }
+    },
+    {
+      "name": "21 C. Higuera",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 45,
+        "shooting": 12,
+        "passing": 22,
+        "dribbling": 14,
+        "defending": 13,
+        "physicality": 50,
+        "stamina": 30,
+        "awareness": 59,
+        "composure": 38
+      }
+    },
+    {
+      "name": "B. Díaz",
+      "number": 22,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 26,
+        "shooting": 7,
+        "passing": 28,
+        "dribbling": 11,
+        "defending": 12,
+        "physicality": 60,
+        "stamina": 22,
+        "awareness": 56,
+        "composure": 39
+      }
+    }
+  ]
+}

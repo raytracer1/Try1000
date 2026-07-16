@@ -1,0 +1,328 @@
+{
+  "name": "Burkina Faso",
+  "type": "nation",
+  "players": [
+    {
+      "name": "E. Tapsoba",
+      "number": 1,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 75,
+        "shooting": 54,
+        "passing": 81,
+        "dribbling": 66,
+        "defending": 84,
+        "physicality": 81,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 80
+      }
+    },
+    {
+      "name": "B. Traoré",
+      "number": 2,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 82,
+        "defending": 40,
+        "physicality": 65,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "18 C. Kaboré",
+      "number": 3,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 70,
+        "shooting": 47,
+        "passing": 76,
+        "dribbling": 66,
+        "defending": 76,
+        "physicality": 74,
+        "stamina": 86,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "19 B. Koné",
+      "number": 4,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 61,
+        "shooting": 31,
+        "passing": 61,
+        "dribbling": 41,
+        "defending": 76,
+        "physicality": 79,
+        "stamina": 63,
+        "awareness": 60,
+        "composure": 67
+      }
+    },
+    {
+      "name": "H. Koffi",
+      "number": 5,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "defending": 76,
+        "passing": 71,
+        "dribbling": 69,
+        "physicality": 68,
+        "stamina": 30,
+        "awareness": 71,
+        "composure": 58
+      }
+    },
+    {
+      "name": "L. Traoré",
+      "number": 6,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 22,
+        "physicality": 84,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "B. Dabo",
+      "number": 7,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 59,
+        "shooting": 62,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 73,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 S. Yago",
+      "number": 8,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 34,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "17 J. Zongo",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 92,
+        "shooting": 64,
+        "passing": 59,
+        "dribbling": 69,
+        "defending": 37,
+        "physicality": 77,
+        "stamina": 58,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Bayala",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 87,
+        "shooting": 62,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 37,
+        "physicality": 72,
+        "stamina": 77,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "I. Kabore",
+      "number": 11,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 91,
+        "shooting": 21,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 64,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 63,
+        "composure": 53
+      }
+    },
+    {
+      "name": "21 J. Pitroipa",
+      "number": 12,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 62,
+        "passing": 68,
+        "dribbling": 71,
+        "defending": 39,
+        "physicality": 47,
+        "stamina": 47,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 H. Bandé",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 86,
+        "shooting": 68,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 41,
+        "physicality": 58,
+        "stamina": 62,
+        "awareness": 67,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Tapsoba",
+      "number": 14,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 83,
+        "shooting": 67,
+        "passing": 63,
+        "dribbling": 70,
+        "defending": 18,
+        "physicality": 55,
+        "stamina": 57,
+        "awareness": 51,
+        "composure": 57
+      }
+    },
+    {
+      "name": "T. Boni",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 50,
+        "shooting": 31,
+        "passing": 61,
+        "dribbling": 48,
+        "defending": 67,
+        "physicality": 77,
+        "stamina": 54,
+        "awareness": 58,
+        "composure": 45
+      }
+    },
+    {
+      "name": "I. Paro",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 18,
+        "passing": 65,
+        "dribbling": 48,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 72,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Ouattara",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 78,
+        "shooting": 58,
+        "passing": 56,
+        "dribbling": 67,
+        "defending": 33,
+        "physicality": 53,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "D. Ouédraogo",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 32,
+        "passing": 56,
+        "dribbling": 47,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 61,
+        "awareness": 61,
+        "composure": 48
+      }
+    },
+    {
+      "name": "A. Yoda",
+      "number": 19,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 67,
+        "shooting": 32,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 63,
+        "physicality": 63,
+        "stamina": 67,
+        "awareness": 47,
+        "composure": 60
+      }
+    }
+  ]
+}

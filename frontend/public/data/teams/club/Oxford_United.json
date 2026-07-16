@@ -1,0 +1,396 @@
+{
+  "name": "Oxford United",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Henry",
+      "number": 1,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "shooting": 64,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 62,
+        "physicality": 63,
+        "stamina": 82,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "B. Bodin",
+      "number": 2,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 74,
+        "shooting": 66,
+        "passing": 62,
+        "dribbling": 73,
+        "defending": 48,
+        "physicality": 62,
+        "stamina": 70,
+        "awareness": 56,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Seddon",
+      "number": 3,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 44,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 61,
+        "physicality": 56,
+        "stamina": 78,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "20 G. Thorne",
+      "number": 4,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 51,
+        "shooting": 53,
+        "passing": 68,
+        "dribbling": 60,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 57,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "C. Brannagan",
+      "number": 5,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 64,
+        "shooting": 63,
+        "passing": 70,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 63,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "R. Williams",
+      "number": 6,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 61,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 52,
+        "physicality": 59,
+        "stamina": 90,
+        "awareness": 64,
+        "composure": 58
+      }
+    },
+    {
+      "name": "H. Kane",
+      "number": 7,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 71,
+        "shooting": 60,
+        "passing": 72,
+        "dribbling": 62,
+        "defending": 59,
+        "physicality": 54,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Alex Gorrín",
+      "number": 8,
+      "position": "CDM",
+      "overall": 66,
+      "attributes": {
+        "pace": 61,
+        "shooting": 39,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 65,
+        "physicality": 69,
+        "stamina": 79,
+        "awareness": 61,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Long",
+      "number": 9,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 66,
+        "shooting": 45,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Taylor",
+      "number": 10,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 72,
+        "shooting": 67,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 19,
+        "physicality": 61,
+        "stamina": 69,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Thorniley",
+      "number": 11,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 60,
+        "shooting": 32,
+        "passing": 58,
+        "dribbling": 52,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "18 M. Williamson",
+      "number": 12,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 32,
+        "shooting": 33,
+        "passing": 55,
+        "dribbling": 35,
+        "defending": 68,
+        "physicality": 74,
+        "stamina": 63,
+        "awareness": 58,
+        "composure": 64
+      }
+    },
+    {
+      "name": "E. Moore",
+      "number": 13,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 50,
+        "shooting": 26,
+        "passing": 58,
+        "dribbling": 36,
+        "defending": 64,
+        "physicality": 90,
+        "stamina": 79,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "20 T. McMahon",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 67,
+        "shooting": 40,
+        "passing": 58,
+        "dribbling": 59,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 58,
+        "composure": 68
+      }
+    },
+    {
+      "name": "18 C. Ribeiro",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 41,
+        "passing": 50,
+        "dribbling": 54,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 77,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "G. Whyte",
+      "number": 16,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 78,
+        "shooting": 60,
+        "passing": 61,
+        "dribbling": 69,
+        "defending": 39,
+        "physicality": 36,
+        "stamina": 60,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Stevens",
+      "number": 17,
+      "position": "GK",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "defending": 65,
+        "passing": 64,
+        "dribbling": 63,
+        "physicality": 62,
+        "stamina": 32,
+        "awareness": 58,
+        "composure": 32
+      }
+    },
+    {
+      "name": "M. Sykes",
+      "number": 18,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 73,
+        "shooting": 59,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 62,
+        "physicality": 64,
+        "stamina": 71,
+        "awareness": 60,
+        "composure": 60
+      }
+    },
+    {
+      "name": "20 J. Mackie",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 61,
+        "shooting": 62,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 53,
+        "physicality": 72,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Mousinho",
+      "number": 20,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 46,
+        "shooting": 48,
+        "passing": 61,
+        "dribbling": 55,
+        "defending": 64,
+        "physicality": 80,
+        "stamina": 44,
+        "awareness": 61,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 R. Hall",
+      "number": 21,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 88,
+        "shooting": 57,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 20,
+        "physicality": 57,
+        "stamina": 53,
+        "awareness": 58,
+        "composure": 59
+      }
+    },
+    {
+      "name": "S. Winnall",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 65,
+        "passing": 55,
+        "dribbling": 61,
+        "defending": 21,
+        "physicality": 62,
+        "stamina": 52,
+        "awareness": 62,
+        "composure": 70
+      }
+    },
+    {
+      "name": "N. Holland",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 78,
+        "shooting": 55,
+        "passing": 58,
+        "dribbling": 66,
+        "defending": 21,
+        "physicality": 41,
+        "stamina": 53,
+        "awareness": 59,
+        "composure": 62
+      }
+    }
+  ]
+}

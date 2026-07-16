@@ -1,0 +1,396 @@
+{
+  "name": "Newcastle United",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Dúbravka",
+      "number": 1,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 44,
+        "shooting": 10,
+        "passing": 48,
+        "dribbling": 19,
+        "defending": 15,
+        "physicality": 60,
+        "stamina": 38,
+        "awareness": 75,
+        "composure": 59
+      }
+    },
+    {
+      "name": "C. Wilson",
+      "number": 2,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 40,
+        "physicality": 79,
+        "stamina": 76,
+        "awareness": 79,
+        "composure": 79
+      }
+    },
+    {
+      "name": "A. Saint-Maximin",
+      "number": 3,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 90,
+        "shooting": 65,
+        "passing": 74,
+        "dribbling": 91,
+        "defending": 18,
+        "physicality": 63,
+        "stamina": 74,
+        "awareness": 74,
+        "composure": 80
+      }
+    },
+    {
+      "name": "M. Almirón",
+      "number": 4,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 85,
+        "shooting": 71,
+        "passing": 77,
+        "dribbling": 82,
+        "defending": 55,
+        "physicality": 53,
+        "stamina": 81,
+        "awareness": 78,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Lascelles",
+      "number": 5,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 62,
+        "shooting": 34,
+        "passing": 64,
+        "dribbling": 47,
+        "defending": 77,
+        "physicality": 83,
+        "stamina": 69,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "F. Schär",
+      "number": 6,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 59,
+        "shooting": 60,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 78,
+        "physicality": 78,
+        "stamina": 71,
+        "awareness": 74,
+        "composure": 74
+      }
+    },
+    {
+      "name": "17 C. Tioté",
+      "number": 7,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 69,
+        "shooting": 47,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 78,
+        "physicality": 86,
+        "stamina": 78,
+        "awareness": 70,
+        "composure": 77
+      }
+    },
+    {
+      "name": "I. Hayden",
+      "number": 8,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 60,
+        "shooting": 53,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 76,
+        "physicality": 77,
+        "stamina": 78,
+        "awareness": 77,
+        "composure": 72
+      }
+    },
+    {
+      "name": "K. Darlow",
+      "number": 9,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 54,
+        "shooting": 14,
+        "passing": 36,
+        "dribbling": 14,
+        "defending": 11,
+        "physicality": 60,
+        "stamina": 44,
+        "awareness": 68,
+        "composure": 53
+      }
+    },
+    {
+      "name": "19 M. Diamé",
+      "number": 10,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 68,
+        "shooting": 64,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 82,
+        "physicality": 79,
+        "stamina": 79,
+        "awareness": 75,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Shelvey",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 49,
+        "shooting": 64,
+        "passing": 81,
+        "dribbling": 73,
+        "defending": 62,
+        "physicality": 71,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 78
+      }
+    },
+    {
+      "name": "J. Willock",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 76,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 65,
+        "physicality": 66,
+        "stamina": 74,
+        "awareness": 77,
+        "composure": 70
+      }
+    },
+    {
+      "name": "R. Fraser",
+      "number": 13,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 71,
+        "passing": 65,
+        "dribbling": 77,
+        "defending": 53,
+        "physicality": 50,
+        "stamina": 58,
+        "awareness": 72,
+        "composure": 76
+      }
+    },
+    {
+      "name": "C. Clark",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 51,
+        "shooting": 44,
+        "passing": 61,
+        "dribbling": 50,
+        "defending": 78,
+        "physicality": 76,
+        "stamina": 61,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "F. Fernández",
+      "number": 15,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 48,
+        "shooting": 28,
+        "passing": 68,
+        "dribbling": 44,
+        "defending": 78,
+        "physicality": 78,
+        "stamina": 62,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Ritchie",
+      "number": 16,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 62,
+        "shooting": 69,
+        "passing": 75,
+        "dribbling": 77,
+        "defending": 69,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Hendrick",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 63,
+        "shooting": 66,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 69,
+        "physicality": 73,
+        "stamina": 74,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Joelinton",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 77,
+        "shooting": 70,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 48,
+        "physicality": 82,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Manquillo",
+      "number": 19,
+      "position": "RB",
+      "overall": 74,
+      "attributes": {
+        "pace": 66,
+        "shooting": 32,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "P. Dummett",
+      "number": 20,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 64,
+        "shooting": 41,
+        "passing": 71,
+        "dribbling": 65,
+        "defending": 76,
+        "physicality": 70,
+        "stamina": 67,
+        "awareness": 75,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Woodman",
+      "number": 21,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "defending": 74,
+        "passing": 70,
+        "dribbling": 73,
+        "physicality": 46,
+        "stamina": 30,
+        "awareness": 72,
+        "composure": 54
+      }
+    },
+    {
+      "name": "E. Krafth",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 56,
+        "passing": 69,
+        "dribbling": 69,
+        "defending": 74,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 74,
+        "composure": 72
+      }
+    },
+    {
+      "name": "J. Lewis",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 53,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 79,
+        "awareness": 68,
+        "composure": 75
+      }
+    }
+  ]
+}

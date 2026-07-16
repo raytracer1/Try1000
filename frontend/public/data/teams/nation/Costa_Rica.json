@@ -1,0 +1,397 @@
+{
+  "name": "Costa Rica",
+  "type": "nation",
+  "players": [
+    {
+      "name": "K. Navas",
+      "number": 1,
+      "position": "CM",
+      "overall": 88,
+      "attributes": {
+        "pace": 53,
+        "shooting": 15,
+        "passing": 40,
+        "dribbling": 24,
+        "defending": 14,
+        "physicality": 75,
+        "stamina": 39,
+        "awareness": 85,
+        "composure": 67
+      }
+    },
+    {
+      "name": "18 B. Ruíz",
+      "number": 2,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 66,
+        "shooting": 64,
+        "passing": 77,
+        "dribbling": 85,
+        "defending": 38,
+        "physicality": 67,
+        "stamina": 51,
+        "awareness": 70,
+        "composure": 80
+      }
+    },
+    {
+      "name": "J. Campbell",
+      "number": 3,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 81,
+        "shooting": 75,
+        "passing": 77,
+        "dribbling": 79,
+        "defending": 40,
+        "physicality": 81,
+        "stamina": 66,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 C. Borges",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 52,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 73,
+        "physicality": 76,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "O. Duarte",
+      "number": 5,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 51,
+        "shooting": 48,
+        "passing": 60,
+        "dribbling": 49,
+        "defending": 76,
+        "physicality": 83,
+        "stamina": 64,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "C. Gamboa",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 83,
+        "shooting": 32,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 64
+      }
+    },
+    {
+      "name": "E. Aguilar",
+      "number": 7,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 60,
+        "shooting": 63,
+        "passing": 79,
+        "dribbling": 72,
+        "defending": 40,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 63,
+        "composure": 70
+      }
+    },
+    {
+      "name": "R. Matarrita",
+      "number": 8,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 78,
+        "shooting": 38,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 66,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "F. Calvo",
+      "number": 9,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 41,
+        "passing": 64,
+        "dribbling": 62,
+        "defending": 66,
+        "physicality": 77,
+        "stamina": 78,
+        "awareness": 73,
+        "composure": 64
+      }
+    },
+    {
+      "name": "R. Leal",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 64,
+        "shooting": 61,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 38,
+        "physicality": 40,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Mora",
+      "number": 11,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 78,
+        "shooting": 44,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 69,
+        "physicality": 61,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "L. Díaz",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 89,
+        "shooting": 54,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 33,
+        "physicality": 62,
+        "stamina": 67,
+        "awareness": 62,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 K. Waston",
+      "number": 13,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 46,
+        "shooting": 30,
+        "passing": 56,
+        "dribbling": 37,
+        "defending": 63,
+        "physicality": 92,
+        "stamina": 58,
+        "awareness": 63,
+        "composure": 52
+      }
+    },
+    {
+      "name": "P. Jiménez",
+      "number": 14,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 71,
+        "shooting": 60,
+        "passing": 64,
+        "dribbling": 80,
+        "defending": 37,
+        "physicality": 41,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 49
+      }
+    },
+    {
+      "name": "M. George",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 87,
+        "shooting": 63,
+        "passing": 56,
+        "dribbling": 64,
+        "defending": 18,
+        "physicality": 90,
+        "stamina": 68,
+        "awareness": 63,
+        "composure": 56
+      }
+    },
+    {
+      "name": "21 G. González",
+      "number": 16,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 55,
+        "shooting": 40,
+        "passing": 58,
+        "dribbling": 59,
+        "defending": 66,
+        "physicality": 76,
+        "stamina": 63,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 B. Acosta",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 40,
+        "shooting": 35,
+        "passing": 58,
+        "dribbling": 45,
+        "defending": 64,
+        "physicality": 91,
+        "stamina": 61,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Cascante",
+      "number": 18,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 51,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 45,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 57,
+        "awareness": 65,
+        "composure": 55
+      }
+    },
+    {
+      "name": "19 E. Alvarado",
+      "number": 19,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 52,
+        "shooting": 18,
+        "passing": 22,
+        "dribbling": 13,
+        "defending": 12,
+        "physicality": 62,
+        "stamina": 40,
+        "awareness": 66,
+        "composure": 45
+      }
+    },
+    {
+      "name": "U. Segura",
+      "number": 20,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 58,
+        "shooting": 59,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 54,
+        "physicality": 65,
+        "stamina": 69,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Loría",
+      "number": 21,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 62,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 41,
+        "physicality": 63,
+        "stamina": 60,
+        "awareness": 54,
+        "composure": 66
+      }
+    },
+    {
+      "name": "B. Oviedo",
+      "number": 22,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 54,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 62,
+        "physicality": 58,
+        "stamina": 68,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "F. Brown Forbes",
+      "number": 23,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 82,
+        "shooting": 65,
+        "passing": 55,
+        "dribbling": 61,
+        "defending": 42,
+        "physicality": 90,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "name": "Wycombe Wanderers",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Jacobson",
+      "number": 1,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 54,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 68,
+        "physicality": 71,
+        "stamina": 79,
+        "awareness": 70,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. Stewart",
+      "number": 2,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 56,
+        "shooting": 20,
+        "passing": 53,
+        "dribbling": 46,
+        "defending": 69,
+        "physicality": 87,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Obita",
+      "number": 3,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 59,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 69,
+        "physicality": 76,
+        "stamina": 53,
+        "awareness": 67,
+        "composure": 68
+      }
+    },
+    {
+      "name": "C. Thompson",
+      "number": 4,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 53,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 83,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "D. Gape",
+      "number": 5,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 66,
+        "shooting": 54,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 66,
+        "physicality": 69,
+        "stamina": 79,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "G. McCleary",
+      "number": 6,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 51,
+        "physicality": 77,
+        "stamina": 51,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. McCarthy",
+      "number": 7,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 49,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 63,
+        "physicality": 76,
+        "stamina": 78,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Horgan",
+      "number": 8,
+      "position": "LW",
+      "overall": 67,
+      "attributes": {
+        "pace": 82,
+        "shooting": 62,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 26,
+        "physicality": 55,
+        "stamina": 75,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Kaikai",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 80,
+        "shooting": 61,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 49,
+        "physicality": 53,
+        "stamina": 56,
+        "awareness": 56,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Stockdale",
+      "number": 10,
+      "position": "GK",
+      "overall": 67,
+      "attributes": {
+        "pace": 66,
+        "defending": 69,
+        "passing": 64,
+        "dribbling": 66,
+        "physicality": 59,
+        "stamina": 25,
+        "awareness": 62,
+        "composure": 42
+      }
+    },
+    {
+      "name": "D. Wheeler",
+      "number": 11,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 78,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 66,
+        "defending": 41,
+        "physicality": 67,
+        "stamina": 78,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Grimmer",
+      "number": 12,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 73,
+        "shooting": 44,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 64,
+        "physicality": 74,
+        "stamina": 80,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "S. Vokes",
+      "number": 13,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 49,
+        "shooting": 63,
+        "passing": 56,
+        "dribbling": 56,
+        "defending": 38,
+        "physicality": 84,
+        "stamina": 58,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "R. Tafazolli",
+      "number": 14,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 52,
+        "shooting": 18,
+        "passing": 54,
+        "dribbling": 41,
+        "defending": 65,
+        "physicality": 85,
+        "stamina": 69,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Scowen",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 57,
+        "shooting": 51,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 63,
+        "stamina": 81,
+        "awareness": 64,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. Akinfenwa",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 44,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 50,
+        "defending": 40,
+        "physicality": 97,
+        "stamina": 34,
+        "awareness": 64,
+        "composure": 68
+      }
+    },
+    {
+      "name": "N. Freeman",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 55,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 56,
+        "physicality": 60,
+        "stamina": 74,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "B. Hanlan",
+      "number": 18,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 84,
+        "shooting": 61,
+        "passing": 54,
+        "dribbling": 63,
+        "defending": 30,
+        "physicality": 77,
+        "stamina": 81,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "A. Mehmeti",
+      "number": 19,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 64,
+        "shooting": 51,
+        "passing": 65,
+        "dribbling": 72,
+        "defending": 58,
+        "physicality": 59,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Bloomfield",
+      "number": 20,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 46,
+        "shooting": 53,
+        "passing": 66,
+        "dribbling": 58,
+        "defending": 62,
+        "physicality": 67,
+        "stamina": 42,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "T. De Barr",
+      "number": 21,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 83,
+        "shooting": 56,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 29,
+        "physicality": 59,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 54
+      }
+    },
+    {
+      "name": "O. Pendlebury",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 65,
+        "shooting": 42,
+        "passing": 64,
+        "dribbling": 60,
+        "defending": 53,
+        "physicality": 65,
+        "stamina": 68,
+        "awareness": 56,
+        "composure": 55
+      }
+    }
+  ]
+}

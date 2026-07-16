@@ -1,0 +1,362 @@
+{
+  "name": "Iran",
+  "type": "nation",
+  "players": [
+    {
+      "name": "M. Taremi",
+      "number": 1,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 76,
+        "shooting": 81,
+        "passing": 74,
+        "dribbling": 81,
+        "defending": 41,
+        "physicality": 76,
+        "stamina": 80,
+        "awareness": 81,
+        "composure": 81
+      }
+    },
+    {
+      "name": "18 S. Azmoun",
+      "number": 2,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 79,
+        "shooting": 76,
+        "passing": 67,
+        "dribbling": 73,
+        "defending": 33,
+        "physicality": 72,
+        "stamina": 65,
+        "awareness": 74,
+        "composure": 65
+      }
+    },
+    {
+      "name": "K. Ansarifard",
+      "number": 3,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 77,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 42,
+        "physicality": 74,
+        "stamina": 73,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Gholizadeh",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 78,
+        "defending": 55,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Mohammadi",
+      "number": 5,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 86,
+        "shooting": 53,
+        "passing": 67,
+        "dribbling": 73,
+        "defending": 69,
+        "physicality": 68,
+        "stamina": 85,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Jahanbakhsh",
+      "number": 6,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 77,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 77,
+        "defending": 37,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 70,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Abedzadeh",
+      "number": 7,
+      "position": "GK",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "defending": 73,
+        "passing": 70,
+        "dribbling": 73,
+        "physicality": 60,
+        "stamina": 21,
+        "awareness": 70,
+        "composure": 34
+      }
+    },
+    {
+      "name": "K. Rezaei",
+      "number": 8,
+      "position": "ST",
+      "overall": 71,
+      "attributes": {
+        "pace": 68,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 18,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "S. Moharrami",
+      "number": 9,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 81,
+        "shooting": 26,
+        "passing": 59,
+        "dribbling": 67,
+        "defending": 75,
+        "physicality": 48,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "E. Haji Safi",
+      "number": 10,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 76,
+        "shooting": 56,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 63,
+        "physicality": 73,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Beiranvand",
+      "number": 11,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 48,
+        "shooting": 8,
+        "passing": 21,
+        "dribbling": 12,
+        "defending": 15,
+        "physicality": 79,
+        "stamina": 21,
+        "awareness": 70,
+        "composure": 40
+      }
+    },
+    {
+      "name": "M. Pouraliganji",
+      "number": 12,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "shooting": 58,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 71,
+        "physicality": 73,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 60
+      }
+    },
+    {
+      "name": "S. Ghoddos",
+      "number": 13,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 60,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 65,
+        "defending": 50,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Beitashour",
+      "number": 14,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 45,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 71,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Ezatolahi",
+      "number": 15,
+      "position": "CDM",
+      "overall": 67,
+      "attributes": {
+        "pace": 58,
+        "shooting": 52,
+        "passing": 66,
+        "dribbling": 61,
+        "defending": 66,
+        "physicality": 73,
+        "stamina": 69,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 R. Ghoochannejhad",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 32,
+        "physicality": 64,
+        "stamina": 60,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Mohebi",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 78,
+        "shooting": 67,
+        "passing": 59,
+        "dribbling": 72,
+        "defending": 35,
+        "physicality": 72,
+        "stamina": 64,
+        "awareness": 70,
+        "composure": 61
+      }
+    },
+    {
+      "name": "M. Hosseini",
+      "number": 18,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 18,
+        "passing": 62,
+        "dribbling": 42,
+        "defending": 72,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Alipour",
+      "number": 19,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 70,
+        "passing": 56,
+        "dribbling": 62,
+        "defending": 17,
+        "physicality": 60,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Naderi",
+      "number": 20,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 24,
+        "passing": 58,
+        "dribbling": 34,
+        "defending": 65,
+        "physicality": 81,
+        "stamina": 73,
+        "awareness": 62,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 A. Sayyadmanesh",
+      "number": 21,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 60,
+        "shooting": 62,
+        "passing": 45,
+        "dribbling": 70,
+        "defending": 20,
+        "physicality": 61,
+        "stamina": 56,
+        "awareness": 52,
+        "composure": 62
+      }
+    }
+  ]
+}

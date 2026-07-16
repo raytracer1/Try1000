@@ -1,0 +1,396 @@
+{
+  "name": "Heracles Almelo",
+  "type": "club",
+  "players": [
+    {
+      "name": "R. Vloet",
+      "number": 1,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 76,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 42,
+        "physicality": 72,
+        "stamina": 87,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Blaswich",
+      "number": 2,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "defending": 76,
+        "passing": 70,
+        "dribbling": 71,
+        "physicality": 74,
+        "stamina": 31,
+        "awareness": 67,
+        "composure": 54
+      }
+    },
+    {
+      "name": "L. de la Torre",
+      "number": 3,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 59,
+        "shooting": 52,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 57,
+        "physicality": 46,
+        "stamina": 74,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "O. Kiomourtzoglou",
+      "number": 4,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 52,
+        "shooting": 44,
+        "passing": 67,
+        "dribbling": 54,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 78,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "K. Sierhuis",
+      "number": 5,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 70,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 19,
+        "physicality": 84,
+        "stamina": 73,
+        "awareness": 64,
+        "composure": 63
+      }
+    },
+    {
+      "name": "D. Burgzorg",
+      "number": 6,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 86,
+        "shooting": 65,
+        "passing": 64,
+        "dribbling": 72,
+        "defending": 32,
+        "physicality": 71,
+        "stamina": 69,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Knoester",
+      "number": 7,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 50,
+        "shooting": 20,
+        "passing": 68,
+        "dribbling": 46,
+        "defending": 71,
+        "physicality": 81,
+        "stamina": 71,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "B. Başaçıkoğlu",
+      "number": 8,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 83,
+        "shooting": 62,
+        "passing": 62,
+        "dribbling": 72,
+        "defending": 44,
+        "physicality": 44,
+        "stamina": 62,
+        "awareness": 58,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 T. Breukers",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 63,
+        "shooting": 40,
+        "passing": 56,
+        "dribbling": 59,
+        "defending": 68,
+        "physicality": 67,
+        "stamina": 83,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "N. Laursen",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 61,
+        "passing": 65,
+        "dribbling": 69,
+        "defending": 28,
+        "physicality": 57,
+        "stamina": 63,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "G. Quagliata",
+      "number": 11,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 82,
+        "shooting": 35,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 56,
+        "stamina": 73,
+        "awareness": 62,
+        "composure": 55
+      }
+    },
+    {
+      "name": "L. Schoofs",
+      "number": 12,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 43,
+        "shooting": 36,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 69,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "I. Azzaoui",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 74,
+        "shooting": 56,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 29,
+        "physicality": 57,
+        "stamina": 63,
+        "awareness": 58,
+        "composure": 63
+      }
+    },
+    {
+      "name": "S. Bakıs",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 36,
+        "shooting": 69,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 27,
+        "physicality": 77,
+        "stamina": 51,
+        "awareness": 69,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Rente",
+      "number": 15,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "shooting": 23,
+        "passing": 63,
+        "dribbling": 45,
+        "defending": 68,
+        "physicality": 83,
+        "stamina": 66,
+        "awareness": 56,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 T. Bijleveld",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 67,
+        "shooting": 48,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 61,
+        "physicality": 57,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "N. Fadiga",
+      "number": 17,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 82,
+        "shooting": 50,
+        "passing": 60,
+        "dribbling": 66,
+        "defending": 61,
+        "physicality": 68,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 J. Hardeveld",
+      "number": 18,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 54,
+        "shooting": 31,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 64,
+        "physicality": 70,
+        "stamina": 55,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "20 D. Dos Santos",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 86,
+        "shooting": 53,
+        "passing": 58,
+        "dribbling": 68,
+        "defending": 38,
+        "physicality": 39,
+        "stamina": 67,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "N. Bakboord",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 38,
+        "passing": 61,
+        "dribbling": 59,
+        "defending": 66,
+        "physicality": 59,
+        "stamina": 62,
+        "awareness": 55,
+        "composure": 56
+      }
+    },
+    {
+      "name": "20 J. Konings",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 75,
+        "shooting": 68,
+        "passing": 61,
+        "dribbling": 63,
+        "defending": 28,
+        "physicality": 68,
+        "stamina": 79,
+        "awareness": 57,
+        "composure": 57
+      }
+    },
+    {
+      "name": "K. Lunding",
+      "number": 22,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 77,
+        "shooting": 56,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 28,
+        "physicality": 44,
+        "stamina": 59,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "A. Szőke",
+      "number": 23,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 67,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 35,
+        "physicality": 65,
+        "stamina": 58,
+        "awareness": 54,
+        "composure": 64
+      }
+    }
+  ]
+}

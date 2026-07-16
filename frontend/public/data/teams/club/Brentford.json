@@ -1,0 +1,396 @@
+{
+  "name": "Brentford",
+  "type": "club",
+  "players": [
+    {
+      "name": "I. Toney",
+      "number": 1,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 62,
+        "dribbling": 68,
+        "defending": 48,
+        "physicality": 81,
+        "stamina": 79,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "F. Onyeka",
+      "number": 2,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 88,
+        "shooting": 62,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 90,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Y. Wissa",
+      "number": 3,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 91,
+        "shooting": 75,
+        "passing": 65,
+        "dribbling": 77,
+        "defending": 23,
+        "physicality": 68,
+        "stamina": 71,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "K. Ajer",
+      "number": 4,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 57,
+        "passing": 73,
+        "dribbling": 72,
+        "defending": 76,
+        "physicality": 90,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 75
+      }
+    },
+    {
+      "name": "P. Jansson",
+      "number": 5,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 61,
+        "shooting": 29,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 76,
+        "physicality": 86,
+        "stamina": 69,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Jensen",
+      "number": 6,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 59,
+        "passing": 76,
+        "dribbling": 69,
+        "defending": 62,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 79
+      }
+    },
+    {
+      "name": "C. Nørgaard",
+      "number": 7,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 62,
+        "shooting": 55,
+        "passing": 73,
+        "dribbling": 67,
+        "defending": 74,
+        "physicality": 75,
+        "stamina": 77,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "R. Henry",
+      "number": 8,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 91,
+        "shooting": 40,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 72,
+        "physicality": 61,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "E. Pinnock",
+      "number": 9,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 33,
+        "passing": 68,
+        "dribbling": 56,
+        "defending": 74,
+        "physicality": 83,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "David Raya",
+      "number": 10,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "defending": 74,
+        "passing": 73,
+        "dribbling": 70,
+        "physicality": 38,
+        "stamina": 29,
+        "awareness": 72,
+        "composure": 49
+      }
+    },
+    {
+      "name": "J. Dasilva",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 67,
+        "passing": 77,
+        "dribbling": 75,
+        "defending": 64,
+        "physicality": 79,
+        "stamina": 75,
+        "awareness": 71,
+        "composure": 75
+      }
+    },
+    {
+      "name": "V. Janelt",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 57,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 73,
+        "physicality": 74,
+        "stamina": 79,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Álvaro",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 51,
+        "shooting": 8,
+        "passing": 29,
+        "dribbling": 14,
+        "defending": 11,
+        "physicality": 59,
+        "stamina": 37,
+        "awareness": 65,
+        "composure": 52
+      }
+    },
+    {
+      "name": "B. Mbeumo",
+      "number": 14,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 82,
+        "shooting": 72,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 41,
+        "physicality": 60,
+        "stamina": 76,
+        "awareness": 71,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Sergi Canós",
+      "number": 15,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 68,
+        "dribbling": 76,
+        "defending": 58,
+        "physicality": 68,
+        "stamina": 65,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "Zanka",
+      "number": 16,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 52,
+        "shooting": 34,
+        "passing": 65,
+        "dribbling": 46,
+        "defending": 75,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "T. Fosu",
+      "number": 17,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 83,
+        "shooting": 67,
+        "passing": 66,
+        "dribbling": 72,
+        "defending": 26,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Jeanvier",
+      "number": 18,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 72,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 45,
+        "defending": 73,
+        "physicality": 77,
+        "stamina": 64,
+        "awareness": 69,
+        "composure": 59
+      }
+    },
+    {
+      "name": "S. Ghoddos",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 60,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 65,
+        "defending": 50,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Forss",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 54,
+        "dribbling": 64,
+        "defending": 48,
+        "physicality": 69,
+        "stamina": 64,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Sørensen",
+      "number": 21,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 58,
+        "shooting": 43,
+        "passing": 62,
+        "dribbling": 55,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 70,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Roerslev",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 77,
+        "shooting": 32,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 63,
+        "physicality": 64,
+        "stamina": 69,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "C. Goode",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 53,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 54,
+        "defending": 66,
+        "physicality": 82,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "name": "Togo",
+  "type": "nation",
+  "players": [
+    {
+      "name": "D. Djené",
+      "number": 1,
+      "position": "CB",
+      "overall": 81,
+      "attributes": {
+        "pace": 69,
+        "shooting": 29,
+        "passing": 75,
+        "dribbling": 50,
+        "defending": 83,
+        "physicality": 78,
+        "stamina": 73,
+        "awareness": 82,
+        "composure": 73
+      }
+    },
+    {
+      "name": "I. Bebou",
+      "number": 2,
+      "position": "ST",
+      "overall": 77,
+      "attributes": {
+        "pace": 89,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 82,
+        "defending": 35,
+        "physicality": 67,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 73
+      }
+    },
+    {
+      "name": "K. Laba",
+      "number": 3,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 79,
+        "shooting": 77,
+        "passing": 64,
+        "dribbling": 66,
+        "defending": 15,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 75,
+        "composure": 72
+      }
+    },
+    {
+      "name": "20 E. Adebayor",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 62,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 25,
+        "physicality": 80,
+        "stamina": 51,
+        "awareness": 70,
+        "composure": 82
+      }
+    },
+    {
+      "name": "21 A. Romao",
+      "number": 5,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 50,
+        "shooting": 41,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 76,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Dossevi",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 62,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 30,
+        "physicality": 58,
+        "stamina": 63,
+        "awareness": 73,
+        "composure": 62
+      }
+    },
+    {
+      "name": "19 S. Gakpé",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 81,
+        "shooting": 64,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 21,
+        "physicality": 68,
+        "stamina": 61,
+        "awareness": 61,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Ayité",
+      "number": 8,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 84,
+        "shooting": 64,
+        "passing": 67,
+        "dribbling": 69,
+        "defending": 31,
+        "physicality": 70,
+        "stamina": 68,
+        "awareness": 70,
+        "composure": 55
+      }
+    },
+    {
+      "name": "19 P. Mlapa",
+      "number": 9,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 69,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 27,
+        "physicality": 88,
+        "stamina": 65,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "E. Amenyido",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 28,
+        "physicality": 73,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Ananou",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 79,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 56,
+        "defending": 66,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "K. Denkey",
+      "number": 12,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 55,
+        "dribbling": 68,
+        "defending": 12,
+        "physicality": 74,
+        "stamina": 62,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "D. Henen",
+      "number": 13,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 67,
+        "defending": 24,
+        "physicality": 71,
+        "stamina": 63,
+        "awareness": 56,
+        "composure": 64
+      }
+    },
+    {
+      "name": "L. Bessilé",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 69,
+        "shooting": 26,
+        "passing": 54,
+        "dribbling": 59,
+        "defending": 68,
+        "physicality": 72,
+        "stamina": 61,
+        "awareness": 58,
+        "composure": 45
+      }
+    },
+    {
+      "name": "21 S. Lawson",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 43,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 64,
+        "physicality": 69,
+        "stamina": 66,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 H. Ouro-Sama",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "shooting": 24,
+        "passing": 60,
+        "dribbling": 42,
+        "defending": 68,
+        "physicality": 68,
+        "stamina": 53,
+        "awareness": 55,
+        "composure": 48
+      }
+    },
+    {
+      "name": "M. Barcola",
+      "number": 17,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 29,
+        "shooting": 11,
+        "passing": 25,
+        "dribbling": 10,
+        "defending": 8,
+        "physicality": 70,
+        "stamina": 24,
+        "awareness": 60,
+        "composure": 31
+      }
+    }
+  ]
+}

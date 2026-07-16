@@ -1,0 +1,192 @@
+{
+  "name": "Go Ahead Eagles",
+  "type": "club",
+  "players": [
+    {
+      "name": "Córdoba",
+      "number": 1,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 79,
+        "shooting": 70,
+        "passing": 74,
+        "dribbling": 78,
+        "defending": 68,
+        "physicality": 66,
+        "stamina": 72,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Marc Cardona",
+      "number": 2,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 17,
+        "physicality": 65,
+        "stamina": 61,
+        "awareness": 74,
+        "composure": 66
+      }
+    },
+    {
+      "name": "W. Hahn",
+      "number": 3,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "defending": 74,
+        "passing": 65,
+        "dribbling": 65,
+        "physicality": 77,
+        "stamina": 38,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "G. Botos",
+      "number": 4,
+      "position": "CAM",
+      "overall": 67,
+      "attributes": {
+        "pace": 64,
+        "shooting": 50,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 51,
+        "physicality": 47,
+        "stamina": 60,
+        "awareness": 57,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Lucassen",
+      "number": 5,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 62,
+        "shooting": 48,
+        "passing": 64,
+        "dribbling": 60,
+        "defending": 72,
+        "physicality": 58,
+        "stamina": 67,
+        "awareness": 64,
+        "composure": 57
+      }
+    },
+    {
+      "name": "R. Oratmangoen",
+      "number": 6,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 62,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 20,
+        "physicality": 56,
+        "stamina": 65,
+        "awareness": 59,
+        "composure": 55
+      }
+    },
+    {
+      "name": "Y. Bourhane",
+      "number": 7,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 51,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 77,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Kramer",
+      "number": 8,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 60,
+        "shooting": 21,
+        "passing": 50,
+        "dribbling": 45,
+        "defending": 65,
+        "physicality": 74,
+        "stamina": 53,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Noppert",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 50,
+        "shooting": 19,
+        "passing": 20,
+        "dribbling": 19,
+        "defending": 15,
+        "physicality": 66,
+        "stamina": 42,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "O. Heil",
+      "number": 10,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 82,
+        "shooting": 60,
+        "passing": 59,
+        "dribbling": 66,
+        "defending": 54,
+        "physicality": 54,
+        "stamina": 53,
+        "awareness": 52,
+        "composure": 49
+      }
+    },
+    {
+      "name": "F. Ross",
+      "number": 11,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 69,
+        "shooting": 42,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 54,
+        "physicality": 47,
+        "stamina": 53,
+        "awareness": 57,
+        "composure": 53
+      }
+    }
+  ]
+}

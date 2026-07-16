@@ -1,0 +1,379 @@
+{
+  "name": "Brøndby IF",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Maxsø",
+      "number": 1,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 52,
+        "shooting": 47,
+        "passing": 74,
+        "dribbling": 41,
+        "defending": 74,
+        "physicality": 87,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Uhre",
+      "number": 2,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 91,
+        "shooting": 73,
+        "passing": 56,
+        "dribbling": 68,
+        "defending": 32,
+        "physicality": 83,
+        "stamina": 77,
+        "awareness": 67,
+        "composure": 61
+      }
+    },
+    {
+      "name": "M. Frendrup",
+      "number": 3,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 53,
+        "passing": 73,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 81,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Hedlund",
+      "number": 4,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 90,
+        "shooting": 65,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 21,
+        "physicality": 54,
+        "stamina": 85,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "17 T. Kahlenberg",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 54,
+        "shooting": 54,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 48,
+        "physicality": 64,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Greve",
+      "number": 6,
+      "position": "CAM",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 52,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 65,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Radošević",
+      "number": 7,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 61,
+        "shooting": 54,
+        "passing": 61,
+        "dribbling": 53,
+        "defending": 70,
+        "physicality": 76,
+        "stamina": 79,
+        "awareness": 63,
+        "composure": 50
+      }
+    },
+    {
+      "name": "S. Rosted",
+      "number": 8,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 44,
+        "shooting": 50,
+        "passing": 64,
+        "dribbling": 46,
+        "defending": 69,
+        "physicality": 81,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 61
+      }
+    },
+    {
+      "name": "20 K. Fisker",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 61,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 45,
+        "physicality": 65,
+        "stamina": 87,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. Riveros",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 79,
+        "shooting": 25,
+        "passing": 63,
+        "dribbling": 70,
+        "defending": 63,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 60,
+        "composure": 63
+      }
+    },
+    {
+      "name": "R. Corlu",
+      "number": 11,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 58,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 28,
+        "physicality": 57,
+        "stamina": 62,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "K. Tshiembe",
+      "number": 12,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 76,
+        "shooting": 32,
+        "passing": 67,
+        "dribbling": 58,
+        "defending": 62,
+        "physicality": 80,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "K. Mensah",
+      "number": 13,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 81,
+        "shooting": 58,
+        "passing": 59,
+        "dribbling": 66,
+        "defending": 56,
+        "physicality": 70,
+        "stamina": 82,
+        "awareness": 65,
+        "composure": 57
+      }
+    },
+    {
+      "name": "A. Bruus",
+      "number": 14,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 84,
+        "shooting": 50,
+        "passing": 55,
+        "dribbling": 62,
+        "defending": 63,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 55,
+        "composure": 55
+      }
+    },
+    {
+      "name": "A. Slimane",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 56,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 58,
+        "physicality": 77,
+        "stamina": 68,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Hermansen",
+      "number": 16,
+      "position": "GK",
+      "overall": 65,
+      "attributes": {
+        "pace": 67,
+        "defending": 68,
+        "passing": 65,
+        "dribbling": 64,
+        "physicality": 52,
+        "stamina": 25,
+        "awareness": 51,
+        "composure": 29
+      }
+    },
+    {
+      "name": "P. Bjur",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 82,
+        "shooting": 55,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 61,
+        "physicality": 56,
+        "stamina": 56,
+        "awareness": 56,
+        "composure": 46
+      }
+    },
+    {
+      "name": "J. Gammelby",
+      "number": 18,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 76,
+        "shooting": 56,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 56,
+        "physicality": 76,
+        "stamina": 74,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "C. Cappis",
+      "number": 19,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 58,
+        "physicality": 62,
+        "stamina": 71,
+        "awareness": 63,
+        "composure": 58
+      }
+    },
+    {
+      "name": "H. Heggheim",
+      "number": 20,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 71,
+        "shooting": 26,
+        "passing": 57,
+        "dribbling": 47,
+        "defending": 67,
+        "physicality": 71,
+        "stamina": 70,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "19 B. Bellot",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 43,
+        "shooting": 9,
+        "passing": 36,
+        "dribbling": 18,
+        "defending": 16,
+        "physicality": 62,
+        "stamina": 29,
+        "awareness": 66,
+        "composure": 46
+      }
+    },
+    {
+      "name": "T. Børkeeiet",
+      "number": 22,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 53,
+        "shooting": 43,
+        "passing": 62,
+        "dribbling": 57,
+        "defending": 60,
+        "physicality": 73,
+        "stamina": 60,
+        "awareness": 58,
+        "composure": 63
+      }
+    }
+  ]
+}

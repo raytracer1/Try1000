@@ -1,0 +1,397 @@
+{
+  "name": "FC Sion",
+  "type": "club",
+  "players": [
+    {
+      "name": "18 K. Constant",
+      "number": 1,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 78,
+        "shooting": 50,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 79,
+        "awareness": 68,
+        "composure": 72
+      }
+    },
+    {
+      "name": "20 S. Doumbia",
+      "number": 2,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 85,
+        "shooting": 66,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 39,
+        "physicality": 75,
+        "stamina": 44,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Vagner",
+      "number": 3,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 88,
+        "shooting": 76,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 34,
+        "physicality": 54,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 63
+      }
+    },
+    {
+      "name": "K. Bua",
+      "number": 4,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 86,
+        "shooting": 65,
+        "passing": 66,
+        "dribbling": 72,
+        "defending": 28,
+        "physicality": 67,
+        "stamina": 73,
+        "awareness": 62,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. Grgić",
+      "number": 5,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 59,
+        "shooting": 66,
+        "passing": 76,
+        "dribbling": 62,
+        "defending": 64,
+        "physicality": 76,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Zuffi",
+      "number": 6,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 54,
+        "shooting": 66,
+        "passing": 76,
+        "dribbling": 67,
+        "defending": 66,
+        "physicality": 67,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "20 A. Song",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 61,
+        "shooting": 53,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 71,
+        "physicality": 73,
+        "stamina": 51,
+        "awareness": 66,
+        "composure": 70
+      }
+    },
+    {
+      "name": "G. Hoarau",
+      "number": 8,
+      "position": "ST",
+      "overall": 70,
+      "attributes": {
+        "pace": 38,
+        "shooting": 73,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 50,
+        "physicality": 86,
+        "stamina": 40,
+        "awareness": 72,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Marquinhos Cipriano",
+      "number": 9,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 78,
+        "shooting": 58,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 69,
+        "physicality": 58,
+        "stamina": 71,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Serey Dié",
+      "number": 10,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 56,
+        "shooting": 51,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 72,
+        "stamina": 66,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Adryan",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 61,
+        "passing": 67,
+        "dribbling": 76,
+        "defending": 32,
+        "physicality": 60,
+        "stamina": 41,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Tosetti",
+      "number": 12,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 79,
+        "shooting": 57,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 32,
+        "physicality": 52,
+        "stamina": 66,
+        "awareness": 60,
+        "composure": 56
+      }
+    },
+    {
+      "name": "19 R. Acquafresca",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 13,
+        "physicality": 73,
+        "stamina": 51,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "K. Fickentscher",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 54,
+        "shooting": 14,
+        "passing": 29,
+        "dribbling": 15,
+        "defending": 15,
+        "physicality": 35,
+        "stamina": 45,
+        "awareness": 60,
+        "composure": 51
+      }
+    },
+    {
+      "name": "D. Cavaré",
+      "number": 15,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 69,
+        "shooting": 49,
+        "passing": 62,
+        "dribbling": 62,
+        "defending": 61,
+        "physicality": 85,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 L. Clemenza",
+      "number": 16,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 63,
+        "shooting": 55,
+        "passing": 72,
+        "dribbling": 76,
+        "defending": 28,
+        "physicality": 32,
+        "stamina": 65,
+        "awareness": 56,
+        "composure": 62
+      }
+    },
+    {
+      "name": "18 E. Zverotić",
+      "number": 17,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 34,
+        "passing": 57,
+        "dribbling": 61,
+        "defending": 68,
+        "physicality": 71,
+        "stamina": 90,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "B. Ndoye",
+      "number": 18,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 54,
+        "shooting": 62,
+        "passing": 62,
+        "dribbling": 52,
+        "defending": 63,
+        "physicality": 86,
+        "stamina": 77,
+        "awareness": 55,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Araz",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 74,
+        "shooting": 60,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 40,
+        "physicality": 40,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 61
+      }
+    },
+    {
+      "name": "Itaitinga",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 73,
+        "shooting": 69,
+        "passing": 60,
+        "dribbling": 72,
+        "defending": 19,
+        "physicality": 74,
+        "stamina": 49,
+        "awareness": 62,
+        "composure": 47
+      }
+    },
+    {
+      "name": "J. Bamert",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 57,
+        "shooting": 23,
+        "passing": 62,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 64,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "C. Zock",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 52,
+        "shooting": 62,
+        "passing": 67,
+        "dribbling": 57,
+        "defending": 65,
+        "physicality": 82,
+        "stamina": 67,
+        "awareness": 58,
+        "composure": 57
+      }
+    },
+    {
+      "name": "D. Iapichino",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 76,
+        "shooting": 47,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 63,
+        "physicality": 61,
+        "stamina": 60,
+        "awareness": 67,
+        "composure": 47
+      }
+    }
+  ]
+}

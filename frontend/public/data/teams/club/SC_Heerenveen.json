@@ -1,0 +1,396 @@
+{
+  "name": "SC Heerenveen",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Veerman",
+      "number": 1,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 62,
+        "shooting": 63,
+        "passing": 82,
+        "dribbling": 80,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 78,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "H. Veerman",
+      "number": 2,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 18,
+        "physicality": 92,
+        "stamina": 70,
+        "awareness": 72,
+        "composure": 71
+      }
+    },
+    {
+      "name": "T. Halilović",
+      "number": 3,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 69,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. van Beek",
+      "number": 4,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 47,
+        "shooting": 23,
+        "passing": 69,
+        "dribbling": 45,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 66,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. de Jong",
+      "number": 5,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 44,
+        "shooting": 74,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 54,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "R. Kongolo",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 52,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 81,
+        "stamina": 81,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "P. Bochniewicz",
+      "number": 7,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 41,
+        "shooting": 19,
+        "passing": 64,
+        "dribbling": 47,
+        "defending": 72,
+        "physicality": 86,
+        "stamina": 69,
+        "awareness": 63,
+        "composure": 71
+      }
+    },
+    {
+      "name": "E. Mulder",
+      "number": 8,
+      "position": "GK",
+      "overall": 69,
+      "attributes": {
+        "pace": 69,
+        "defending": 71,
+        "passing": 68,
+        "dribbling": 65,
+        "physicality": 69,
+        "stamina": 36,
+        "awareness": 67,
+        "composure": 51
+      }
+    },
+    {
+      "name": "I. Drešević",
+      "number": 9,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 51,
+        "shooting": 32,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 68,
+        "physicality": 81,
+        "stamina": 68,
+        "awareness": 65,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. van Ewijk",
+      "number": 10,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 30,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 73,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "L. Woudenberg",
+      "number": 11,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 63,
+        "shooting": 35,
+        "passing": 62,
+        "dribbling": 58,
+        "defending": 63,
+        "physicality": 66,
+        "stamina": 93,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Musaba",
+      "number": 12,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 89,
+        "shooting": 65,
+        "passing": 59,
+        "dribbling": 71,
+        "defending": 21,
+        "physicality": 71,
+        "stamina": 64,
+        "awareness": 59,
+        "composure": 48
+      }
+    },
+    {
+      "name": "B. Nygren",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 16,
+        "physicality": 66,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "R. Kaib",
+      "number": 14,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 82,
+        "shooting": 41,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 62,
+        "physicality": 56,
+        "stamina": 76,
+        "awareness": 56,
+        "composure": 55
+      }
+    },
+    {
+      "name": "X. Mous",
+      "number": 15,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 39,
+        "shooting": 13,
+        "passing": 28,
+        "dribbling": 18,
+        "defending": 21,
+        "physicality": 56,
+        "stamina": 33,
+        "awareness": 64,
+        "composure": 31
+      }
+    },
+    {
+      "name": "R. Al Hajj",
+      "number": 16,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 50,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 57,
+        "physicality": 67,
+        "stamina": 58,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 U. Llanez Jr.",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 77,
+        "shooting": 55,
+        "passing": 64,
+        "dribbling": 66,
+        "defending": 39,
+        "physicality": 57,
+        "stamina": 64,
+        "awareness": 58,
+        "composure": 65
+      }
+    },
+    {
+      "name": "H. Akujobi",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 54,
+        "shooting": 38,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 56,
+        "composure": 54
+      }
+    },
+    {
+      "name": "F. Stevanović",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 74,
+        "shooting": 61,
+        "passing": 60,
+        "dribbling": 68,
+        "defending": 43,
+        "physicality": 56,
+        "stamina": 52,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. van der Heide",
+      "number": 20,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 77,
+        "shooting": 52,
+        "passing": 59,
+        "dribbling": 73,
+        "defending": 37,
+        "physicality": 49,
+        "stamina": 64,
+        "awareness": 54,
+        "composure": 58
+      }
+    },
+    {
+      "name": "N. Madsen",
+      "number": 21,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 61,
+        "shooting": 48,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 59,
+        "physicality": 66,
+        "stamina": 71,
+        "awareness": 55,
+        "composure": 54
+      }
+    },
+    {
+      "name": "S. Shopov",
+      "number": 22,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 71,
+        "shooting": 44,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 24,
+        "physicality": 44,
+        "stamina": 40,
+        "awareness": 55,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 R. Smit",
+      "number": 23,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 68,
+        "shooting": 61,
+        "passing": 52,
+        "dribbling": 54,
+        "defending": 20,
+        "physicality": 73,
+        "stamina": 44,
+        "awareness": 59,
+        "composure": 55
+      }
+    }
+  ]
+}

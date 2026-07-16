@@ -1,0 +1,397 @@
+{
+  "name": "CA Osasuna",
+  "type": "club",
+  "players": [
+    {
+      "name": "E. Ávila",
+      "number": 1,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 84,
+        "shooting": 82,
+        "passing": 71,
+        "dribbling": 79,
+        "defending": 46,
+        "physicality": 84,
+        "stamina": 78,
+        "awareness": 78,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Rubén García",
+      "number": 2,
+      "position": "LW",
+      "overall": 79,
+      "attributes": {
+        "pace": 74,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 79,
+        "defending": 48,
+        "physicality": 52,
+        "stamina": 68,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Roberto Torres",
+      "number": 3,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 62,
+        "shooting": 78,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 69,
+        "physicality": 69,
+        "stamina": 78,
+        "awareness": 80,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Kike García",
+      "number": 4,
+      "position": "ST",
+      "overall": 78,
+      "attributes": {
+        "pace": 61,
+        "shooting": 83,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 34,
+        "physicality": 79,
+        "stamina": 66,
+        "awareness": 73,
+        "composure": 82
+      }
+    },
+    {
+      "name": "David García",
+      "number": 5,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 53,
+        "shooting": 35,
+        "passing": 78,
+        "dribbling": 60,
+        "defending": 79,
+        "physicality": 76,
+        "stamina": 72,
+        "awareness": 75,
+        "composure": 67
+      }
+    },
+    {
+      "name": "A. Budimir",
+      "number": 6,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 68,
+        "shooting": 84,
+        "passing": 68,
+        "dribbling": 78,
+        "defending": 35,
+        "physicality": 83,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Cote",
+      "number": 7,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 67,
+        "shooting": 46,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 78,
+        "physicality": 67,
+        "stamina": 69,
+        "awareness": 77,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Oier",
+      "number": 8,
+      "position": "CDM",
+      "overall": 77,
+      "attributes": {
+        "pace": 60,
+        "shooting": 62,
+        "passing": 78,
+        "dribbling": 65,
+        "defending": 78,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 61
+      }
+    },
+    {
+      "name": "Aridane",
+      "number": 9,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 60,
+        "shooting": 26,
+        "passing": 67,
+        "dribbling": 40,
+        "defending": 76,
+        "physicality": 89,
+        "stamina": 78,
+        "awareness": 72,
+        "composure": 66
+      }
+    },
+    {
+      "name": "D. Brašanac",
+      "number": 10,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 49,
+        "shooting": 68,
+        "passing": 79,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 77,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 Adrián López",
+      "number": 11,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 77,
+        "passing": 74,
+        "dribbling": 79,
+        "defending": 19,
+        "physicality": 68,
+        "stamina": 54,
+        "awareness": 74,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Moncayola",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 66,
+        "passing": 76,
+        "dribbling": 68,
+        "defending": 76,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "21 J. Calleri",
+      "number": 13,
+      "position": "ST",
+      "overall": 75,
+      "attributes": {
+        "pace": 73,
+        "shooting": 75,
+        "passing": 67,
+        "dribbling": 76,
+        "defending": 39,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 78,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Nacho Vidal",
+      "number": 14,
+      "position": "RB",
+      "overall": 75,
+      "attributes": {
+        "pace": 79,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 76,
+        "physicality": 66,
+        "stamina": 68,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Iñigo Pérez",
+      "number": 15,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 53,
+        "shooting": 61,
+        "passing": 76,
+        "dribbling": 59,
+        "defending": 75,
+        "physicality": 70,
+        "stamina": 78,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 F. Roncaglia",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 68,
+        "shooting": 38,
+        "passing": 65,
+        "dribbling": 59,
+        "defending": 77,
+        "physicality": 73,
+        "stamina": 71,
+        "awareness": 72,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Ontiveros",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 77,
+        "shooting": 70,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 32,
+        "physicality": 51,
+        "stamina": 73,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "Lucas Torró",
+      "number": 18,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 30,
+        "shooting": 59,
+        "passing": 77,
+        "dribbling": 62,
+        "defending": 74,
+        "physicality": 76,
+        "stamina": 79,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 Rubén",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 46,
+        "shooting": 14,
+        "passing": 31,
+        "dribbling": 15,
+        "defending": 13,
+        "physicality": 60,
+        "stamina": 41,
+        "awareness": 67,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Juan Cruz",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 34,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 71,
+        "physicality": 71,
+        "stamina": 79,
+        "awareness": 71,
+        "composure": 54
+      }
+    },
+    {
+      "name": "Kike Barja",
+      "number": 21,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 25,
+        "physicality": 61,
+        "stamina": 69,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Manu Sánchez",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 42,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 75,
+        "physicality": 54,
+        "stamina": 74,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Ramalho",
+      "number": 23,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 73,
+        "shooting": 40,
+        "passing": 69,
+        "dribbling": 52,
+        "defending": 72,
+        "physicality": 76,
+        "stamina": 65,
+        "awareness": 69,
+        "composure": 66
+      }
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "name": "Bristol Rovers",
+  "type": "club",
+  "players": [
+    {
+      "name": "S. Nicholson",
+      "number": 1,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 82,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 53,
+        "physicality": 60,
+        "stamina": 65,
+        "awareness": 59,
+        "composure": 57
+      }
+    },
+    {
+      "name": "L. Thomas",
+      "number": 2,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 83,
+        "shooting": 53,
+        "passing": 58,
+        "dribbling": 67,
+        "defending": 29,
+        "physicality": 34,
+        "stamina": 69,
+        "awareness": 59,
+        "composure": 59
+      }
+    },
+    {
+      "name": "A. Kilgour",
+      "number": 3,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "shooting": 28,
+        "passing": 58,
+        "dribbling": 48,
+        "defending": 64,
+        "physicality": 80,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Jaakkola",
+      "number": 4,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 59,
+        "shooting": 12,
+        "passing": 34,
+        "dribbling": 11,
+        "defending": 14,
+        "physicality": 66,
+        "stamina": 32,
+        "awareness": 62,
+        "composure": 37
+      }
+    },
+    {
+      "name": "H. Anderson",
+      "number": 5,
+      "position": "LB",
+      "overall": 64,
+      "attributes": {
+        "pace": 90,
+        "shooting": 58,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 49,
+        "physicality": 75,
+        "stamina": 87,
+        "awareness": 59,
+        "composure": 52
+      }
+    },
+    {
+      "name": "T. Clarke",
+      "number": 6,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 82,
+        "shooting": 49,
+        "passing": 61,
+        "dribbling": 66,
+        "defending": 62,
+        "physicality": 63,
+        "stamina": 66,
+        "awareness": 51,
+        "composure": 58
+      }
+    },
+    {
+      "name": "P. Coutts",
+      "number": 7,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 51,
+        "shooting": 52,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 62,
+        "physicality": 71,
+        "stamina": 66,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Collins",
+      "number": 8,
+      "position": "ST",
+      "overall": 64,
+      "attributes": {
+        "pace": 82,
+        "shooting": 62,
+        "passing": 59,
+        "dribbling": 63,
+        "defending": 32,
+        "physicality": 73,
+        "stamina": 84,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "G. Whelan",
+      "number": 9,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 34,
+        "shooting": 55,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 66,
+        "physicality": 67,
+        "stamina": 34,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "B. Pitman",
+      "number": 10,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 47,
+        "shooting": 68,
+        "passing": 56,
+        "dribbling": 60,
+        "defending": 20,
+        "physicality": 73,
+        "stamina": 51,
+        "awareness": 60,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Hughes",
+      "number": 11,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 32,
+        "shooting": 31,
+        "passing": 59,
+        "dribbling": 43,
+        "defending": 64,
+        "physicality": 83,
+        "stamina": 66,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Z. Westbrooke",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 62,
+        "shooting": 60,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 59,
+        "physicality": 56,
+        "stamina": 61,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Rodman",
+      "number": 13,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 68,
+        "shooting": 57,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 58,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Grant",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 71,
+        "shooting": 47,
+        "passing": 62,
+        "dribbling": 60,
+        "defending": 61,
+        "physicality": 76,
+        "stamina": 77,
+        "awareness": 59,
+        "composure": 58
+      }
+    },
+    {
+      "name": "L. Clarke",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 50,
+        "shooting": 65,
+        "passing": 59,
+        "dribbling": 58,
+        "defending": 21,
+        "physicality": 85,
+        "stamina": 33,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 A. Ogogo",
+      "number": 16,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 53,
+        "shooting": 55,
+        "passing": 63,
+        "dribbling": 58,
+        "defending": 63,
+        "physicality": 82,
+        "stamina": 83,
+        "awareness": 61,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Brown",
+      "number": 17,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 68,
+        "shooting": 56,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 60,
+        "physicality": 64,
+        "stamina": 68,
+        "awareness": 57,
+        "composure": 55
+      }
+    },
+    {
+      "name": "N. Anderton",
+      "number": 18,
+      "position": "CB",
+      "overall": 62,
+      "attributes": {
+        "pace": 66,
+        "shooting": 42,
+        "passing": 55,
+        "dribbling": 56,
+        "defending": 60,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 57,
+        "composure": 51
+      }
+    },
+    {
+      "name": "C. Harries",
+      "number": 19,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 59,
+        "shooting": 17,
+        "passing": 58,
+        "dribbling": 53,
+        "defending": 64,
+        "physicality": 70,
+        "stamina": 63,
+        "awareness": 59,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Evans",
+      "number": 20,
+      "position": "RW",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 51,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 41,
+        "physicality": 66,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "21 M. Kelly",
+      "number": 21,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 74,
+        "shooting": 30,
+        "passing": 56,
+        "dribbling": 57,
+        "defending": 58,
+        "physicality": 61,
+        "stamina": 70,
+        "awareness": 54,
+        "composure": 51
+      }
+    },
+    {
+      "name": "J. Barrett",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 71,
+        "shooting": 55,
+        "passing": 56,
+        "dribbling": 61,
+        "defending": 46,
+        "physicality": 61,
+        "stamina": 49,
+        "awareness": 55,
+        "composure": 61
+      }
+    }
+  ]
+}

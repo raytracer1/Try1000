@@ -1,0 +1,397 @@
+{
+  "name": "Club León",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Mena",
+      "number": 1,
+      "position": "RW",
+      "overall": 78,
+      "attributes": {
+        "pace": 81,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 82,
+        "defending": 46,
+        "physicality": 47,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 75
+      }
+    },
+    {
+      "name": "L. Montes",
+      "number": 2,
+      "position": "CAM",
+      "overall": 77,
+      "attributes": {
+        "pace": 63,
+        "shooting": 65,
+        "passing": 81,
+        "dribbling": 77,
+        "defending": 60,
+        "physicality": 63,
+        "stamina": 81,
+        "awareness": 80,
+        "composure": 81
+      }
+    },
+    {
+      "name": "J. Meneses",
+      "number": 3,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 87,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 30,
+        "physicality": 56,
+        "stamina": 91,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "R. Cota",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 56,
+        "shooting": 12,
+        "passing": 26,
+        "dribbling": 15,
+        "defending": 13,
+        "physicality": 80,
+        "stamina": 36,
+        "awareness": 73,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Navarro",
+      "number": 5,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 86,
+        "shooting": 65,
+        "passing": 77,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 62,
+        "stamina": 83,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "O. Fernández",
+      "number": 6,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 81,
+        "shooting": 70,
+        "passing": 69,
+        "dribbling": 83,
+        "defending": 37,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 68
+      }
+    },
+    {
+      "name": "W. Tesillo",
+      "number": 7,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 30,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 80,
+        "physicality": 76,
+        "stamina": 73,
+        "awareness": 74,
+        "composure": 67
+      }
+    },
+    {
+      "name": "E. Hernández",
+      "number": 8,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 77,
+        "defending": 45,
+        "physicality": 60,
+        "stamina": 69,
+        "awareness": 73,
+        "composure": 80
+      }
+    },
+    {
+      "name": "E. Gigliotti",
+      "number": 9,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 46,
+        "shooting": 77,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 35,
+        "physicality": 87,
+        "stamina": 74,
+        "awareness": 79,
+        "composure": 70
+      }
+    },
+    {
+      "name": "18 L. Donovan",
+      "number": 10,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 64,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 43,
+        "physicality": 57,
+        "stamina": 46,
+        "awareness": 68,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Rodríguez",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 33,
+        "passing": 77,
+        "dribbling": 59,
+        "defending": 75,
+        "physicality": 42,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. Mosquera",
+      "number": 12,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "shooting": 36,
+        "passing": 66,
+        "dribbling": 44,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Barreiro",
+      "number": 13,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 30,
+        "passing": 52,
+        "dribbling": 50,
+        "defending": 79,
+        "physicality": 80,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 64
+      }
+    },
+    {
+      "name": "D. Ramírez",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 63,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 69,
+        "physicality": 64,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 51
+      }
+    },
+    {
+      "name": "V. Dávila",
+      "number": 15,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 31,
+        "physicality": 65,
+        "stamina": 67,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Colombatto",
+      "number": 16,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 60,
+        "shooting": 57,
+        "passing": 72,
+        "dribbling": 65,
+        "defending": 61,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 66,
+        "composure": 67
+      }
+    },
+    {
+      "name": "O. Rodríguez",
+      "number": 17,
+      "position": "LB",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 68,
+        "physicality": 57,
+        "stamina": 72,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Blanco",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 54,
+        "shooting": 10,
+        "passing": 17,
+        "dribbling": 10,
+        "defending": 14,
+        "physicality": 74,
+        "stamina": 38,
+        "awareness": 64,
+        "composure": 50
+      }
+    },
+    {
+      "name": "S. Ormeño",
+      "number": 19,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 54,
+        "shooting": 75,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 29,
+        "physicality": 82,
+        "stamina": 61,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "R. González",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 32,
+        "shooting": 34,
+        "passing": 61,
+        "dribbling": 42,
+        "defending": 71,
+        "physicality": 83,
+        "stamina": 69,
+        "awareness": 59,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 I. González",
+      "number": 21,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 34,
+        "shooting": 34,
+        "passing": 58,
+        "dribbling": 48,
+        "defending": 70,
+        "physicality": 81,
+        "stamina": 42,
+        "awareness": 57,
+        "composure": 54
+      }
+    },
+    {
+      "name": "G. Burón",
+      "number": 22,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 62,
+        "shooting": 32,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 62,
+        "physicality": 39,
+        "stamina": 71,
+        "awareness": 57,
+        "composure": 51
+      }
+    },
+    {
+      "name": "F. Ambríz",
+      "number": 23,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 53,
+        "shooting": 44,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 62,
+        "physicality": 43,
+        "stamina": 70,
+        "awareness": 59,
+        "composure": 43
+      }
+    }
+  ]
+}

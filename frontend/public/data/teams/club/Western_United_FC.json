@@ -1,0 +1,261 @@
+{
+  "name": "Western United FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Diamanti",
+      "number": 1,
+      "position": "CAM",
+      "overall": 76,
+      "attributes": {
+        "pace": 55,
+        "shooting": 64,
+        "passing": 80,
+        "dribbling": 81,
+        "defending": 32,
+        "physicality": 66,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Victor Sánchez",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 52,
+        "shooting": 59,
+        "passing": 79,
+        "dribbling": 67,
+        "defending": 75,
+        "physicality": 64,
+        "stamina": 62,
+        "awareness": 78,
+        "composure": 78
+      }
+    },
+    {
+      "name": "J. Risdon",
+      "number": 3,
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 48,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 71,
+        "physicality": 81,
+        "stamina": 86,
+        "awareness": 57,
+        "composure": 60
+      }
+    },
+    {
+      "name": "20 P. Kone",
+      "number": 4,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 67,
+        "shooting": 67,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 47,
+        "physicality": 67,
+        "stamina": 54,
+        "awareness": 59,
+        "composure": 73
+      }
+    },
+    {
+      "name": "R. Krhin",
+      "number": 5,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 33,
+        "shooting": 44,
+        "passing": 70,
+        "dribbling": 55,
+        "defending": 71,
+        "physicality": 78,
+        "stamina": 62,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "N. Kilkenny",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 48,
+        "shooting": 41,
+        "passing": 73,
+        "dribbling": 66,
+        "defending": 69,
+        "physicality": 77,
+        "stamina": 81,
+        "awareness": 66,
+        "composure": 73
+      }
+    },
+    {
+      "name": "L. Lacroix",
+      "number": 7,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 31,
+        "shooting": 35,
+        "passing": 66,
+        "dribbling": 52,
+        "defending": 68,
+        "physicality": 89,
+        "stamina": 63,
+        "awareness": 62,
+        "composure": 67
+      }
+    },
+    {
+      "name": "B. Garuccio",
+      "number": 8,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 75,
+        "shooting": 46,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 Guarrotxena",
+      "number": 9,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 73,
+        "shooting": 63,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 57,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 60,
+        "composure": 60
+      }
+    },
+    {
+      "name": "D. Wenzel-Halls",
+      "number": 10,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 80,
+        "shooting": 70,
+        "passing": 59,
+        "dribbling": 66,
+        "defending": 15,
+        "physicality": 60,
+        "stamina": 84,
+        "awareness": 49,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 A. Durante",
+      "number": 11,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 31,
+        "shooting": 34,
+        "passing": 58,
+        "dribbling": 49,
+        "defending": 65,
+        "physicality": 84,
+        "stamina": 72,
+        "awareness": 58,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Pain",
+      "number": 12,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 87,
+        "shooting": 62,
+        "passing": 56,
+        "dribbling": 64,
+        "defending": 57,
+        "physicality": 63,
+        "stamina": 85,
+        "awareness": 54,
+        "composure": 53
+      }
+    },
+    {
+      "name": "L. Wales",
+      "number": 13,
+      "position": "RW",
+      "overall": 63,
+      "attributes": {
+        "pace": 89,
+        "shooting": 59,
+        "passing": 59,
+        "dribbling": 60,
+        "defending": 20,
+        "physicality": 66,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "I. Vujica",
+      "number": 14,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 66,
+        "shooting": 32,
+        "passing": 55,
+        "dribbling": 63,
+        "defending": 62,
+        "physicality": 74,
+        "stamina": 58,
+        "awareness": 53,
+        "composure": 54
+      }
+    },
+    {
+      "name": "D. Pierias",
+      "number": 15,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 83,
+        "shooting": 58,
+        "passing": 57,
+        "dribbling": 66,
+        "defending": 55,
+        "physicality": 59,
+        "stamina": 64,
+        "awareness": 51,
+        "composure": 50
+      }
+    }
+  ]
+}

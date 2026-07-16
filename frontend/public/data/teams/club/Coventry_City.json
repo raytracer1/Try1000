@@ -1,0 +1,396 @@
+{
+  "name": "Coventry City",
+  "type": "club",
+  "players": [
+    {
+      "name": "G. Hamer",
+      "number": 1,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 67,
+        "physicality": 64,
+        "stamina": 82,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "C. O'Hare",
+      "number": 2,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 79,
+        "shooting": 61,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 69,
+        "physicality": 47,
+        "stamina": 89,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "F. Dabo",
+      "number": 3,
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 44,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 68,
+        "physicality": 74,
+        "stamina": 78,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "B. Sheaf",
+      "number": 4,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 51,
+        "shooting": 30,
+        "passing": 75,
+        "dribbling": 61,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "V. Gyökeres",
+      "number": 5,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 77,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 17,
+        "physicality": 77,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "K. McFadzean",
+      "number": 6,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 34,
+        "shooting": 35,
+        "passing": 64,
+        "dribbling": 47,
+        "defending": 70,
+        "physicality": 83,
+        "stamina": 67,
+        "awareness": 62,
+        "composure": 56
+      }
+    },
+    {
+      "name": "M. Waghorn",
+      "number": 7,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 66,
+        "shooting": 68,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 36,
+        "physicality": 81,
+        "stamina": 72,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "T. Kane",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 73,
+        "shooting": 44,
+        "passing": 63,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 60,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Godden",
+      "number": 9,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 62,
+        "shooting": 72,
+        "passing": 59,
+        "dribbling": 63,
+        "defending": 26,
+        "physicality": 67,
+        "stamina": 66,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "D. Hyam",
+      "number": 10,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 51,
+        "shooting": 23,
+        "passing": 64,
+        "dribbling": 52,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Clarke-Salter",
+      "number": 11,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 32,
+        "passing": 67,
+        "dribbling": 39,
+        "defending": 72,
+        "physicality": 77,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Allen",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 66,
+        "physicality": 61,
+        "stamina": 82,
+        "awareness": 69,
+        "composure": 64
+      }
+    },
+    {
+      "name": "L. Kelly",
+      "number": 13,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 48,
+        "shooting": 44,
+        "passing": 66,
+        "dribbling": 59,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 74,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "T. Walker",
+      "number": 14,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 81,
+        "shooting": 72,
+        "passing": 58,
+        "dribbling": 65,
+        "defending": 34,
+        "physicality": 68,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Rose",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 61,
+        "shooting": 33,
+        "passing": 66,
+        "dribbling": 58,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 67,
+        "awareness": 63,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Moore",
+      "number": 16,
+      "position": "GK",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "defending": 68,
+        "passing": 69,
+        "dribbling": 65,
+        "physicality": 60,
+        "stamina": 36,
+        "awareness": 64,
+        "composure": 44
+      }
+    },
+    {
+      "name": "19 D. Meyler",
+      "number": 17,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 50,
+        "shooting": 64,
+        "passing": 65,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 77,
+        "stamina": 62,
+        "awareness": 67,
+        "composure": 73
+      }
+    },
+    {
+      "name": "I. Maatsen",
+      "number": 18,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 81,
+        "shooting": 31,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 49,
+        "stamina": 66,
+        "awareness": 55,
+        "composure": 49
+      }
+    },
+    {
+      "name": "B. Enobakhare",
+      "number": 19,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 82,
+        "shooting": 58,
+        "passing": 62,
+        "dribbling": 77,
+        "defending": 31,
+        "physicality": 73,
+        "stamina": 64,
+        "awareness": 56,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Dacosta",
+      "number": 20,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 78,
+        "shooting": 31,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 68,
+        "awareness": 56,
+        "composure": 54
+      }
+    },
+    {
+      "name": "21 M. Biamou",
+      "number": 21,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 72,
+        "shooting": 63,
+        "passing": 58,
+        "dribbling": 59,
+        "defending": 25,
+        "physicality": 78,
+        "stamina": 63,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "17 V. Gadzhev",
+      "number": 22,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 66,
+        "shooting": 53,
+        "passing": 69,
+        "dribbling": 66,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 66,
+        "awareness": 48,
+        "composure": 62
+      }
+    },
+    {
+      "name": "J. Shipley",
+      "number": 23,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 60,
+        "shooting": 62,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 60,
+        "physicality": 65,
+        "stamina": 61,
+        "awareness": 62,
+        "composure": 65
+      }
+    }
+  ]
+}

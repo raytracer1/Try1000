@@ -1,0 +1,396 @@
+{
+  "name": "Crewe Alexandra",
+  "type": "club",
+  "players": [
+    {
+      "name": "T. Lowery",
+      "number": 1,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 69,
+        "shooting": 55,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 61,
+        "physicality": 51,
+        "stamina": 80,
+        "awareness": 61,
+        "composure": 63
+      }
+    },
+    {
+      "name": "M. Mandron",
+      "number": 2,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 41,
+        "physicality": 82,
+        "stamina": 81,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "S. Kashket",
+      "number": 3,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 84,
+        "shooting": 68,
+        "passing": 57,
+        "dribbling": 66,
+        "defending": 24,
+        "physicality": 54,
+        "stamina": 68,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "20 P. Green",
+      "number": 4,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 54,
+        "shooting": 52,
+        "passing": 64,
+        "dribbling": 57,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 79,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Ainley",
+      "number": 5,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 76,
+        "shooting": 58,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 59,
+        "physicality": 53,
+        "stamina": 74,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. McFadzean",
+      "number": 6,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 57,
+        "physicality": 59,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 53
+      }
+    },
+    {
+      "name": "T. Thomas",
+      "number": 7,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 60,
+        "shooting": 34,
+        "passing": 62,
+        "dribbling": 56,
+        "defending": 64,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 59,
+        "composure": 57
+      }
+    },
+    {
+      "name": "L. Offord",
+      "number": 8,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 64,
+        "shooting": 24,
+        "passing": 60,
+        "dribbling": 52,
+        "defending": 64,
+        "physicality": 73,
+        "stamina": 64,
+        "awareness": 61,
+        "composure": 55
+      }
+    },
+    {
+      "name": "L. Murphy",
+      "number": 9,
+      "position": "CDM",
+      "overall": 63,
+      "attributes": {
+        "pace": 49,
+        "shooting": 57,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "Madger Gomes",
+      "number": 10,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 58,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 60,
+        "physicality": 59,
+        "stamina": 69,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "O. Finney",
+      "number": 11,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 71,
+        "shooting": 61,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 55,
+        "physicality": 45,
+        "stamina": 71,
+        "awareness": 59,
+        "composure": 61
+      }
+    },
+    {
+      "name": "S. MacDonald",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 49,
+        "shooting": 55,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 64,
+        "physicality": 66,
+        "stamina": 37,
+        "awareness": 64,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 D. Powell",
+      "number": 13,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 83,
+        "shooting": 61,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 34,
+        "physicality": 71,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 59
+      }
+    },
+    {
+      "name": "C. Long",
+      "number": 14,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 64,
+        "passing": 55,
+        "dribbling": 62,
+        "defending": 22,
+        "physicality": 61,
+        "stamina": 68,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "D. Daniels",
+      "number": 15,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 72,
+        "shooting": 22,
+        "passing": 51,
+        "dribbling": 52,
+        "defending": 63,
+        "physicality": 83,
+        "stamina": 56,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "W. Jääskeläinen",
+      "number": 16,
+      "position": "GK",
+      "overall": 63,
+      "attributes": {
+        "pace": 64,
+        "defending": 64,
+        "passing": 62,
+        "dribbling": 62,
+        "physicality": 55,
+        "stamina": 29,
+        "awareness": 57,
+        "composure": 41
+      }
+    },
+    {
+      "name": "S. Robertson",
+      "number": 17,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 72,
+        "shooting": 47,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 62,
+        "physicality": 50,
+        "stamina": 66,
+        "awareness": 54,
+        "composure": 60
+      }
+    },
+    {
+      "name": "C. Porter",
+      "number": 18,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 48,
+        "shooting": 66,
+        "passing": 58,
+        "dribbling": 54,
+        "defending": 31,
+        "physicality": 83,
+        "stamina": 50,
+        "awareness": 64,
+        "composure": 61
+      }
+    },
+    {
+      "name": "K. Ramsay",
+      "number": 19,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 74,
+        "shooting": 29,
+        "passing": 47,
+        "dribbling": 62,
+        "defending": 66,
+        "physicality": 66,
+        "stamina": 61,
+        "awareness": 59,
+        "composure": 44
+      }
+    },
+    {
+      "name": "J. Bennett",
+      "number": 20,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 77,
+        "shooting": 60,
+        "passing": 59,
+        "dribbling": 65,
+        "defending": 28,
+        "physicality": 43,
+        "stamina": 48,
+        "awareness": 58,
+        "composure": 50
+      }
+    },
+    {
+      "name": "R. Adebisi",
+      "number": 21,
+      "position": "LB",
+      "overall": 61,
+      "attributes": {
+        "pace": 73,
+        "shooting": 31,
+        "passing": 56,
+        "dribbling": 57,
+        "defending": 58,
+        "physicality": 57,
+        "stamina": 68,
+        "awareness": 54,
+        "composure": 53
+      }
+    },
+    {
+      "name": "D. Richards",
+      "number": 22,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 34,
+        "shooting": 14,
+        "passing": 25,
+        "dribbling": 14,
+        "defending": 18,
+        "physicality": 60,
+        "stamina": 26,
+        "awareness": 55,
+        "composure": 42
+      }
+    },
+    {
+      "name": "B. Knight",
+      "number": 23,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 66,
+        "shooting": 62,
+        "passing": 53,
+        "dribbling": 71,
+        "defending": 29,
+        "physicality": 46,
+        "stamina": 41,
+        "awareness": 43,
+        "composure": 52
+      }
+    }
+  ]
+}

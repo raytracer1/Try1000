@@ -1,0 +1,345 @@
+{
+  "name": "Fleetwood Town",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Pilkington",
+      "number": 1,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 61,
+        "shooting": 68,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 22,
+        "physicality": 71,
+        "stamina": 59,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "19 R. Taylor",
+      "number": 2,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 43,
+        "shooting": 49,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 70,
+        "physicality": 62,
+        "stamina": 55,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "C. Camps",
+      "number": 3,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 63,
+        "physicality": 70,
+        "stamina": 83,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Clark",
+      "number": 4,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 54,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 66,
+        "physicality": 68,
+        "stamina": 66,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "J. Garner",
+      "number": 5,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 63,
+        "shooting": 67,
+        "passing": 58,
+        "dribbling": 62,
+        "defending": 49,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "D. Batty",
+      "number": 6,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 64,
+        "stamina": 74,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Andrew",
+      "number": 7,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 69,
+        "shooting": 30,
+        "passing": 62,
+        "dribbling": 62,
+        "defending": 62,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "C. Johnson",
+      "number": 8,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 38,
+        "passing": 62,
+        "dribbling": 61,
+        "defending": 61,
+        "physicality": 71,
+        "stamina": 81,
+        "awareness": 63,
+        "composure": 62
+      }
+    },
+    {
+      "name": "T. Clarke",
+      "number": 9,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 55,
+        "shooting": 37,
+        "passing": 59,
+        "dribbling": 54,
+        "defending": 65,
+        "physicality": 78,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 56
+      }
+    },
+    {
+      "name": "J. Rossiter",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 54,
+        "shooting": 44,
+        "passing": 65,
+        "dribbling": 57,
+        "defending": 66,
+        "physicality": 69,
+        "stamina": 76,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "B. Halliday",
+      "number": 11,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 33,
+        "passing": 59,
+        "dribbling": 62,
+        "defending": 62,
+        "physicality": 64,
+        "stamina": 85,
+        "awareness": 57,
+        "composure": 53
+      }
+    },
+    {
+      "name": "20 C. Morgan",
+      "number": 12,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 32,
+        "shooting": 24,
+        "passing": 58,
+        "dribbling": 21,
+        "defending": 65,
+        "physicality": 76,
+        "stamina": 52,
+        "awareness": 57,
+        "composure": 64
+      }
+    },
+    {
+      "name": "20 D. Marney",
+      "number": 13,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 47,
+        "shooting": 56,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 63,
+        "physicality": 70,
+        "stamina": 48,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Cairns",
+      "number": 14,
+      "position": "GK",
+      "overall": 64,
+      "attributes": {
+        "pace": 64,
+        "defending": 65,
+        "passing": 61,
+        "dribbling": 66,
+        "physicality": 39,
+        "stamina": 21,
+        "awareness": 62,
+        "composure": 45
+      }
+    },
+    {
+      "name": "C. Morton",
+      "number": 15,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 71,
+        "shooting": 64,
+        "passing": 54,
+        "dribbling": 61,
+        "defending": 32,
+        "physicality": 67,
+        "stamina": 73,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "D. Johnson",
+      "number": 16,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 29,
+        "passing": 58,
+        "dribbling": 58,
+        "defending": 64,
+        "physicality": 74,
+        "stamina": 61,
+        "awareness": 53,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Hill",
+      "number": 17,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 68,
+        "shooting": 22,
+        "passing": 55,
+        "dribbling": 43,
+        "defending": 64,
+        "physicality": 73,
+        "stamina": 61,
+        "awareness": 59,
+        "composure": 53
+      }
+    },
+    {
+      "name": "J. Matete",
+      "number": 18,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 71,
+        "shooting": 49,
+        "passing": 63,
+        "dribbling": 63,
+        "defending": 60,
+        "physicality": 42,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "G. Garner",
+      "number": 19,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 69,
+        "shooting": 61,
+        "passing": 55,
+        "dribbling": 59,
+        "defending": 20,
+        "physicality": 67,
+        "stamina": 54,
+        "awareness": 58,
+        "composure": 48
+      }
+    },
+    {
+      "name": "H. Holgate",
+      "number": 20,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 65,
+        "shooting": 17,
+        "passing": 51,
+        "dribbling": 43,
+        "defending": 61,
+        "physicality": 73,
+        "stamina": 64,
+        "awareness": 56,
+        "composure": 42
+      }
+    }
+  ]
+}

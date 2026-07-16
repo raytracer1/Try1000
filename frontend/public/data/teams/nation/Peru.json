@@ -1,0 +1,395 @@
+{
+  "name": "Peru",
+  "type": "nation",
+  "players": [
+    {
+      "name": "R. Tapia",
+      "number": 1,
+      "position": "CDM",
+      "overall": 79,
+      "attributes": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 77,
+        "dribbling": 74,
+        "defending": 87,
+        "physicality": 82,
+        "stamina": 84,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Carrillo",
+      "number": 2,
+      "position": "RW",
+      "overall": 79,
+      "attributes": {
+        "pace": 88,
+        "shooting": 74,
+        "passing": 74,
+        "dribbling": 85,
+        "defending": 36,
+        "physicality": 75,
+        "stamina": 73,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "R. Ruidíaz",
+      "number": 3,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 87,
+        "shooting": 83,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 22,
+        "physicality": 63,
+        "stamina": 76,
+        "awareness": 82,
+        "composure": 79
+      }
+    },
+    {
+      "name": "17 J. Vargas",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 79,
+        "physicality": 75,
+        "stamina": 63,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 J. Farfán",
+      "number": 5,
+      "position": "CAM",
+      "overall": 76,
+      "attributes": {
+        "pace": 81,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 43,
+        "physicality": 78,
+        "stamina": 67,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "P. Aquino",
+      "number": 6,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 74,
+        "dribbling": 60,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 86,
+        "awareness": 73,
+        "composure": 65
+      }
+    },
+    {
+      "name": "L. Advíncula",
+      "number": 7,
+      "position": "RB",
+      "overall": 75,
+      "attributes": {
+        "pace": 93,
+        "shooting": 58,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 70,
+        "physicality": 82,
+        "stamina": 90,
+        "awareness": 70,
+        "composure": 60
+      }
+    },
+    {
+      "name": "L. Abram",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 67,
+        "shooting": 39,
+        "passing": 76,
+        "dribbling": 54,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 79,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "M. Trauco",
+      "number": 9,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 37,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 71,
+        "composure": 74
+      }
+    },
+    {
+      "name": "20 C. Pizarro",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 34,
+        "shooting": 77,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 33,
+        "physicality": 77,
+        "stamina": 34,
+        "awareness": 78,
+        "composure": 87
+      }
+    },
+    {
+      "name": "C. Zambrano",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 58,
+        "shooting": 41,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 75,
+        "physicality": 76,
+        "stamina": 66,
+        "awareness": 65,
+        "composure": 72
+      }
+    },
+    {
+      "name": "P. Gallese",
+      "number": 12,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "defending": 75,
+        "passing": 71,
+        "dribbling": 72,
+        "physicality": 49,
+        "stamina": 30,
+        "awareness": 76,
+        "composure": 53
+      }
+    },
+    {
+      "name": "C. Cueva",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 32,
+        "physicality": 48,
+        "stamina": 54,
+        "awareness": 72,
+        "composure": 60
+      }
+    },
+    {
+      "name": "G. Lapadula",
+      "number": 14,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 74,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 15,
+        "physicality": 61,
+        "stamina": 63,
+        "awareness": 74,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Y. Yotún",
+      "number": 15,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 63,
+        "physicality": 70,
+        "stamina": 83,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Peña",
+      "number": 16,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 49,
+        "physicality": 68,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "C. Cáceda",
+      "number": 17,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "defending": 73,
+        "passing": 69,
+        "dribbling": 71,
+        "physicality": 56,
+        "stamina": 32,
+        "awareness": 71,
+        "composure": 59
+      }
+    },
+    {
+      "name": "C. Gonzáles",
+      "number": 18,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 71,
+        "shooting": 62,
+        "passing": 74,
+        "dribbling": 80,
+        "defending": 53,
+        "physicality": 58,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. Callens",
+      "number": 19,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 34,
+        "shooting": 18,
+        "passing": 69,
+        "dribbling": 42,
+        "defending": 71,
+        "physicality": 80,
+        "stamina": 76,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "E. Flores",
+      "number": 20,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 76,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 71,
+        "defending": 42,
+        "physicality": 61,
+        "stamina": 73,
+        "awareness": 60,
+        "composure": 66
+      }
+    },
+    {
+      "name": "M. Távara",
+      "number": 21,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 60,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 67,
+        "defending": 70,
+        "physicality": 52,
+        "stamina": 78,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 C. Benavente",
+      "number": 22,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 33,
+        "physicality": 58,
+        "stamina": 52,
+        "awareness": 66,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Santamaría",
+      "number": 23,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 55,
+        "passing": 69,
+        "dribbling": 64,
+        "defending": 72,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 58,
+        "composure": 66
+      }
+    }
+  ]
+}

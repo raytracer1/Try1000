@@ -1,0 +1,396 @@
+{
+  "name": "CD Tondela",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Murillo",
+      "number": 1,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 92,
+        "shooting": 67,
+        "passing": 65,
+        "dribbling": 74,
+        "defending": 22,
+        "physicality": 37,
+        "stamina": 73,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Bebeto",
+      "number": 2,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 72,
+        "shooting": 41,
+        "passing": 68,
+        "dribbling": 69,
+        "defending": 70,
+        "physicality": 57,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 66
+      }
+    },
+    {
+      "name": "M. Sagnan",
+      "number": 3,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 28,
+        "passing": 71,
+        "dribbling": 48,
+        "defending": 76,
+        "physicality": 76,
+        "stamina": 53,
+        "awareness": 66,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Salvador Agra",
+      "number": 4,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 88,
+        "shooting": 64,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 35,
+        "physicality": 64,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 62
+      }
+    },
+    {
+      "name": "19 Tomané",
+      "number": 5,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 67,
+        "shooting": 69,
+        "passing": 64,
+        "dribbling": 60,
+        "defending": 18,
+        "physicality": 87,
+        "stamina": 81,
+        "awareness": 71,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Eduardo Quaresma",
+      "number": 6,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 28,
+        "passing": 66,
+        "dribbling": 51,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 38,
+        "awareness": 71,
+        "composure": 76
+      }
+    },
+    {
+      "name": "João Pedro",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 69,
+        "physicality": 62,
+        "stamina": 75,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Rafael Barbosa",
+      "number": 8,
+      "position": "CAM",
+      "overall": 69,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 31,
+        "physicality": 38,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Daniel dos Anjos",
+      "number": 9,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 74,
+        "passing": 58,
+        "dribbling": 68,
+        "defending": 15,
+        "physicality": 63,
+        "stamina": 64,
+        "awareness": 72,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Pedro Augusto",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 65,
+        "shooting": 35,
+        "passing": 69,
+        "dribbling": 61,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 74,
+        "awareness": 61,
+        "composure": 61
+      }
+    },
+    {
+      "name": "Ricardo Alves",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 36,
+        "passing": 64,
+        "dribbling": 47,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 62,
+        "awareness": 64,
+        "composure": 53
+      }
+    },
+    {
+      "name": "Undabarrena",
+      "number": 12,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 53,
+        "shooting": 48,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "Neto Borges",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 48,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 63,
+        "physicality": 85,
+        "stamina": 76,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "N. Khacef",
+      "number": 14,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 34,
+        "passing": 58,
+        "dribbling": 70,
+        "defending": 67,
+        "physicality": 63,
+        "stamina": 73,
+        "awareness": 71,
+        "composure": 61
+      }
+    },
+    {
+      "name": "Tiago Dantas",
+      "number": 15,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 67,
+        "shooting": 54,
+        "passing": 72,
+        "dribbling": 71,
+        "defending": 40,
+        "physicality": 31,
+        "stamina": 63,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Boselli",
+      "number": 16,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 73,
+        "shooting": 67,
+        "passing": 58,
+        "dribbling": 71,
+        "defending": 21,
+        "physicality": 60,
+        "stamina": 63,
+        "awareness": 64,
+        "composure": 66
+      }
+    },
+    {
+      "name": "B. Niasse",
+      "number": 17,
+      "position": "GK",
+      "overall": 66,
+      "attributes": {
+        "pace": 74,
+        "defending": 69,
+        "passing": 65,
+        "dribbling": 56,
+        "physicality": 38,
+        "stamina": 27,
+        "awareness": 58,
+        "composure": 31
+      }
+    },
+    {
+      "name": "Manu Hernando",
+      "number": 18,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 34,
+        "passing": 57,
+        "dribbling": 56,
+        "defending": 64,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 53
+      }
+    },
+    {
+      "name": "Tiago Almeida",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 78,
+        "shooting": 29,
+        "passing": 53,
+        "dribbling": 70,
+        "defending": 67,
+        "physicality": 56,
+        "stamina": 67,
+        "awareness": 56,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Muratore",
+      "number": 20,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 61,
+        "shooting": 51,
+        "passing": 73,
+        "dribbling": 57,
+        "defending": 67,
+        "physicality": 56,
+        "stamina": 53,
+        "awareness": 65,
+        "composure": 45
+      }
+    },
+    {
+      "name": "21 João Mendes",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 54,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 57,
+        "physicality": 70,
+        "stamina": 53,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Rúben Fonseca",
+      "number": 22,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 54,
+        "shooting": 61,
+        "passing": 56,
+        "dribbling": 55,
+        "defending": 26,
+        "physicality": 68,
+        "stamina": 68,
+        "awareness": 56,
+        "composure": 58
+      }
+    },
+    {
+      "name": "R. Dadashov",
+      "number": 23,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 66,
+        "shooting": 62,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 23,
+        "physicality": 70,
+        "stamina": 54,
+        "awareness": 61,
+        "composure": 56
+      }
+    }
+  ]
+}

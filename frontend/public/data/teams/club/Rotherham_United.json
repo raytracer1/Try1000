@@ -1,0 +1,396 @@
+{
+  "name": "Rotherham United",
+  "type": "club",
+  "players": [
+    {
+      "name": "D. Barlaser",
+      "number": 1,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 51,
+        "shooting": 56,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "17 P. Odemwingie",
+      "number": 2,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 69,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 31,
+        "physicality": 69,
+        "stamina": 52,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Ihiekwe",
+      "number": 3,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 35,
+        "passing": 53,
+        "dribbling": 51,
+        "defending": 67,
+        "physicality": 83,
+        "stamina": 79,
+        "awareness": 68,
+        "composure": 62
+      }
+    },
+    {
+      "name": "W. Harding",
+      "number": 4,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 33,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 83,
+        "awareness": 65,
+        "composure": 55
+      }
+    },
+    {
+      "name": "J. Lindsay",
+      "number": 5,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 59,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 67,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Mattock",
+      "number": 6,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 35,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "F. Ladapo",
+      "number": 7,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 82,
+        "shooting": 68,
+        "passing": 55,
+        "dribbling": 66,
+        "defending": 21,
+        "physicality": 79,
+        "stamina": 71,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Smith",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 54,
+        "shooting": 68,
+        "passing": 61,
+        "dribbling": 59,
+        "defending": 23,
+        "physicality": 85,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 58
+      }
+    },
+    {
+      "name": "A. MacDonald",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 57,
+        "shooting": 22,
+        "passing": 56,
+        "dribbling": 39,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 60,
+        "awareness": 67,
+        "composure": 48
+      }
+    },
+    {
+      "name": "B. Wiles",
+      "number": 10,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 71,
+        "shooting": 53,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 86,
+        "awareness": 65,
+        "composure": 62
+      }
+    },
+    {
+      "name": "S. Ferguson",
+      "number": 11,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 75,
+        "shooting": 57,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 63,
+        "physicality": 64,
+        "stamina": 68,
+        "awareness": 62,
+        "composure": 52
+      }
+    },
+    {
+      "name": "O. Rathbone",
+      "number": 12,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 77,
+        "shooting": 56,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 61,
+        "physicality": 60,
+        "stamina": 84,
+        "awareness": 62,
+        "composure": 63
+      }
+    },
+    {
+      "name": "K. Sadlier",
+      "number": 13,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 75,
+        "shooting": 63,
+        "passing": 61,
+        "dribbling": 68,
+        "defending": 36,
+        "physicality": 65,
+        "stamina": 72,
+        "awareness": 57,
+        "composure": 62
+      }
+    },
+    {
+      "name": "C. Ogbene",
+      "number": 14,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 90,
+        "shooting": 59,
+        "passing": 55,
+        "dribbling": 68,
+        "defending": 52,
+        "physicality": 72,
+        "stamina": 68,
+        "awareness": 53,
+        "composure": 60
+      }
+    },
+    {
+      "name": "21 B. Jones",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 51,
+        "shooting": 52,
+        "passing": 62,
+        "dribbling": 61,
+        "defending": 68,
+        "physicality": 65,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 61
+      }
+    },
+    {
+      "name": "H. Odoffin",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 43,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 64,
+        "physicality": 76,
+        "stamina": 73,
+        "awareness": 61,
+        "composure": 60
+      }
+    },
+    {
+      "name": "R. Wood",
+      "number": 17,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 31,
+        "shooting": 35,
+        "passing": 53,
+        "dribbling": 37,
+        "defending": 65,
+        "physicality": 85,
+        "stamina": 64,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "V. Johansson",
+      "number": 18,
+      "position": "GK",
+      "overall": 65,
+      "attributes": {
+        "pace": 67,
+        "defending": 67,
+        "passing": 64,
+        "dribbling": 66,
+        "physicality": 37,
+        "stamina": 23,
+        "awareness": 51,
+        "composure": 32
+      }
+    },
+    {
+      "name": "W. Grigg",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 64,
+        "passing": 59,
+        "dribbling": 62,
+        "defending": 37,
+        "physicality": 68,
+        "stamina": 68,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "R. Edmonds-Green",
+      "number": 20,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 68,
+        "shooting": 25,
+        "passing": 58,
+        "dribbling": 48,
+        "defending": 64,
+        "physicality": 68,
+        "stamina": 58,
+        "awareness": 63,
+        "composure": 51
+      }
+    },
+    {
+      "name": "J. Vickers",
+      "number": 21,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 45,
+        "shooting": 18,
+        "passing": 36,
+        "dribbling": 13,
+        "defending": 20,
+        "physicality": 52,
+        "stamina": 32,
+        "awareness": 60,
+        "composure": 39
+      }
+    },
+    {
+      "name": "M. Miller",
+      "number": 22,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 73,
+        "shooting": 63,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 43,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 45
+      }
+    },
+    {
+      "name": "J. Kayode",
+      "number": 23,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 77,
+        "shooting": 62,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 18,
+        "physicality": 79,
+        "stamina": 73,
+        "awareness": 61,
+        "composure": 59
+      }
+    }
+  ]
+}

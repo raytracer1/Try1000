@@ -1,0 +1,396 @@
+{
+  "name": "Godoy Cruz",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Ojeda",
+      "number": 1,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 80,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 27,
+        "physicality": 58,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "N. Acevedo",
+      "number": 2,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 60,
+        "shooting": 47,
+        "passing": 78,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 82,
+        "stamina": 81,
+        "awareness": 71,
+        "composure": 81
+      }
+    },
+    {
+      "name": "G. Ortíz",
+      "number": 3,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "shooting": 34,
+        "passing": 64,
+        "dribbling": 40,
+        "defending": 69,
+        "physicality": 74,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "E. Bullaude",
+      "number": 4,
+      "position": "CAM",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 33,
+        "physicality": 70,
+        "stamina": 71,
+        "awareness": 65,
+        "composure": 57
+      }
+    },
+    {
+      "name": "J. Espínola",
+      "number": 5,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 71,
+        "defending": 72,
+        "passing": 66,
+        "dribbling": 73,
+        "physicality": 68,
+        "stamina": 33,
+        "awareness": 60,
+        "composure": 40
+      }
+    },
+    {
+      "name": "N. Breitenbruch",
+      "number": 6,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 76,
+        "shooting": 35,
+        "passing": 66,
+        "dribbling": 62,
+        "defending": 71,
+        "physicality": 76,
+        "stamina": 81,
+        "awareness": 66,
+        "composure": 59
+      }
+    },
+    {
+      "name": "C. Colmán",
+      "number": 7,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 78,
+        "shooting": 66,
+        "passing": 57,
+        "dribbling": 68,
+        "defending": 23,
+        "physicality": 78,
+        "stamina": 68,
+        "awareness": 65,
+        "composure": 60
+      }
+    },
+    {
+      "name": "T. Badaloni",
+      "number": 8,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 62,
+        "shooting": 68,
+        "passing": 58,
+        "dribbling": 60,
+        "defending": 15,
+        "physicality": 80,
+        "stamina": 62,
+        "awareness": 68,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 W. Cartagena",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "shooting": 49,
+        "passing": 65,
+        "dribbling": 62,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 82,
+        "awareness": 56,
+        "composure": 54
+      }
+    },
+    {
+      "name": "G. Abrego",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 47,
+        "passing": 73,
+        "dribbling": 67,
+        "defending": 58,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 57
+      }
+    },
+    {
+      "name": "M. Ramírez",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 63,
+        "passing": 58,
+        "dribbling": 82,
+        "defending": 22,
+        "physicality": 60,
+        "stamina": 55,
+        "awareness": 57,
+        "composure": 77
+      }
+    },
+    {
+      "name": "E. López",
+      "number": 12,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 83,
+        "shooting": 41,
+        "passing": 62,
+        "dribbling": 72,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 78,
+        "awareness": 58,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Lomónaco",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 78,
+        "shooting": 69,
+        "passing": 62,
+        "dribbling": 73,
+        "defending": 22,
+        "physicality": 58,
+        "stamina": 62,
+        "awareness": 60,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 M. Dos Santos",
+      "number": 14,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 59,
+        "shooting": 36,
+        "passing": 67,
+        "dribbling": 44,
+        "defending": 67,
+        "physicality": 78,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 D. Ortiz",
+      "number": 15,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 52,
+        "shooting": 27,
+        "passing": 40,
+        "dribbling": 29,
+        "defending": 73,
+        "physicality": 80,
+        "stamina": 67,
+        "awareness": 68,
+        "composure": 58
+      }
+    },
+    {
+      "name": "E. Cirigliano",
+      "number": 16,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 68,
+        "shooting": 47,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 58,
+        "stamina": 75,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "V. Burgoa",
+      "number": 17,
+      "position": "LW",
+      "overall": 66,
+      "attributes": {
+        "pace": 76,
+        "shooting": 48,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 57,
+        "physicality": 57,
+        "stamina": 63,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "G. Ferrari",
+      "number": 18,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 69,
+        "shooting": 35,
+        "passing": 66,
+        "dribbling": 55,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 62,
+        "composure": 56
+      }
+    },
+    {
+      "name": "I. Escobar",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 83,
+        "shooting": 29,
+        "passing": 58,
+        "dribbling": 62,
+        "defending": 67,
+        "physicality": 57,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 47
+      }
+    },
+    {
+      "name": "R. Ramírez",
+      "number": 20,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 47,
+        "shooting": 16,
+        "passing": 30,
+        "dribbling": 15,
+        "defending": 15,
+        "physicality": 56,
+        "stamina": 30,
+        "awareness": 58,
+        "composure": 35
+      }
+    },
+    {
+      "name": "A. Aguirre",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 54,
+        "shooting": 28,
+        "passing": 48,
+        "dribbling": 42,
+        "defending": 68,
+        "physicality": 73,
+        "stamina": 64,
+        "awareness": 57,
+        "composure": 44
+      }
+    },
+    {
+      "name": "N. Ibáñez",
+      "number": 22,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 32,
+        "shooting": 12,
+        "passing": 32,
+        "dribbling": 20,
+        "defending": 16,
+        "physicality": 63,
+        "stamina": 30,
+        "awareness": 58,
+        "composure": 42
+      }
+    },
+    {
+      "name": "A. Álvarez",
+      "number": 23,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 72,
+        "shooting": 37,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 60,
+        "physicality": 47,
+        "stamina": 68,
+        "awareness": 56,
+        "composure": 49
+      }
+    }
+  ]
+}

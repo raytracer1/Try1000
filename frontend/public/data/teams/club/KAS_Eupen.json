@@ -1,0 +1,396 @@
+{
+  "name": "KAS Eupen",
+  "type": "club",
+  "players": [
+    {
+      "name": "21 Adriano",
+      "number": 1,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 68,
+        "shooting": 49,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 74,
+        "physicality": 67,
+        "stamina": 62,
+        "awareness": 67,
+        "composure": 82
+      }
+    },
+    {
+      "name": "S. Prevljak",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 73,
+        "shooting": 82,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 16,
+        "physicality": 76,
+        "stamina": 76,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "S. Peeters",
+      "number": 3,
+      "position": "CAM",
+      "overall": 73,
+      "attributes": {
+        "pace": 53,
+        "shooting": 58,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 61,
+        "physicality": 69,
+        "stamina": 73,
+        "awareness": 68,
+        "composure": 74
+      }
+    },
+    {
+      "name": "Jordi Amat",
+      "number": 4,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 34,
+        "passing": 66,
+        "dribbling": 50,
+        "defending": 70,
+        "physicality": 77,
+        "stamina": 68,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "E. Kayembe",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 52,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 A. Baby",
+      "number": 6,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 65,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 82,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 N. Schouterden",
+      "number": 7,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 62,
+        "physicality": 48,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "K. N'Dri",
+      "number": 8,
+      "position": "LW",
+      "overall": 68,
+      "attributes": {
+        "pace": 87,
+        "shooting": 53,
+        "passing": 64,
+        "dribbling": 74,
+        "defending": 53,
+        "physicality": 61,
+        "stamina": 74,
+        "awareness": 56,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Beck",
+      "number": 9,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 63,
+        "shooting": 29,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 66,
+        "physicality": 68,
+        "stamina": 72,
+        "awareness": 61,
+        "composure": 73
+      }
+    },
+    {
+      "name": "J. Ngoy",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 85,
+        "shooting": 66,
+        "passing": 63,
+        "dribbling": 72,
+        "defending": 18,
+        "physicality": 81,
+        "stamina": 77,
+        "awareness": 66,
+        "composure": 59
+      }
+    },
+    {
+      "name": "E. Agbadou",
+      "number": 11,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 21,
+        "passing": 61,
+        "dribbling": 58,
+        "defending": 67,
+        "physicality": 86,
+        "stamina": 68,
+        "awareness": 59,
+        "composure": 67
+      }
+    },
+    {
+      "name": "B. Poulain",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 33,
+        "shooting": 23,
+        "passing": 64,
+        "dribbling": 38,
+        "defending": 70,
+        "physicality": 79,
+        "stamina": 62,
+        "awareness": 64,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Carlos Embaló",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 88,
+        "shooting": 60,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 18,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "R. Himmelmann",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 34,
+        "shooting": 9,
+        "passing": 32,
+        "dribbling": 18,
+        "defending": 17,
+        "physicality": 61,
+        "stamina": 29,
+        "awareness": 68,
+        "composure": 48
+      }
+    },
+    {
+      "name": "Leonardo Rocha",
+      "number": 15,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 64,
+        "shooting": 70,
+        "passing": 56,
+        "dribbling": 65,
+        "defending": 11,
+        "physicality": 87,
+        "stamina": 53,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Koné",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 69,
+        "defending": 30,
+        "physicality": 64,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "19 D. Diagné",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 35,
+        "passing": 65,
+        "dribbling": 57,
+        "defending": 65,
+        "physicality": 58,
+        "stamina": 55,
+        "awareness": 60,
+        "composure": 71
+      }
+    },
+    {
+      "name": "S. Gnaka",
+      "number": 18,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 80,
+        "shooting": 12,
+        "passing": 59,
+        "dribbling": 63,
+        "defending": 63,
+        "physicality": 49,
+        "stamina": 67,
+        "awareness": 59,
+        "composure": 64
+      }
+    },
+    {
+      "name": "I. Nuhu",
+      "number": 19,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 73,
+        "shooting": 53,
+        "passing": 59,
+        "dribbling": 73,
+        "defending": 28,
+        "physicality": 29,
+        "stamina": 34,
+        "awareness": 68,
+        "composure": 54
+      }
+    },
+    {
+      "name": "E. Sowah",
+      "number": 20,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 83,
+        "shooting": 24,
+        "passing": 58,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 66,
+        "stamina": 50,
+        "awareness": 51,
+        "composure": 53
+      }
+    },
+    {
+      "name": "S. Keita",
+      "number": 21,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 58,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 30,
+        "physicality": 59,
+        "stamina": 37,
+        "awareness": 47,
+        "composure": 59
+      }
+    },
+    {
+      "name": "A. Nurudeen",
+      "number": 22,
+      "position": "GK",
+      "overall": 63,
+      "attributes": {
+        "pace": 72,
+        "defending": 70,
+        "passing": 57,
+        "dribbling": 60,
+        "physicality": 38,
+        "stamina": 20,
+        "awareness": 46,
+        "composure": 23
+      }
+    },
+    {
+      "name": "19 M. Diallo",
+      "number": 23,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 67,
+        "shooting": 64,
+        "passing": 48,
+        "dribbling": 51,
+        "defending": 16,
+        "physicality": 61,
+        "stamina": 51,
+        "awareness": 53,
+        "composure": 55
+      }
+    }
+  ]
+}

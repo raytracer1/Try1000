@@ -1,0 +1,210 @@
+{
+  "name": "Harrogate Town",
+  "type": "club",
+  "players": [
+    {
+      "name": "G. Thomson",
+      "number": 1,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 55,
+        "passing": 60,
+        "dribbling": 62,
+        "defending": 58,
+        "physicality": 51,
+        "stamina": 90,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Muldoon",
+      "number": 2,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 77,
+        "shooting": 65,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 22,
+        "physicality": 62,
+        "stamina": 85,
+        "awareness": 63,
+        "composure": 58
+      }
+    },
+    {
+      "name": "L. Page",
+      "number": 3,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 75,
+        "shooting": 38,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 62,
+        "physicality": 52,
+        "stamina": 54,
+        "awareness": 56,
+        "composure": 53
+      }
+    },
+    {
+      "name": "L. Armstrong",
+      "number": 4,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 63,
+        "passing": 56,
+        "dribbling": 59,
+        "defending": 23,
+        "physicality": 78,
+        "stamina": 67,
+        "awareness": 60,
+        "composure": 55
+      }
+    },
+    {
+      "name": "C. Hall",
+      "number": 5,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 52,
+        "shooting": 24,
+        "passing": 52,
+        "dribbling": 39,
+        "defending": 63,
+        "physicality": 81,
+        "stamina": 79,
+        "awareness": 58,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Pattison",
+      "number": 6,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 69,
+        "shooting": 51,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 61,
+        "physicality": 58,
+        "stamina": 71,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "W. Smith",
+      "number": 7,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 66,
+        "shooting": 22,
+        "passing": 49,
+        "dribbling": 40,
+        "defending": 63,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 59,
+        "composure": 51
+      }
+    },
+    {
+      "name": "R. McArdle",
+      "number": 8,
+      "position": "CB",
+      "overall": 62,
+      "attributes": {
+        "pace": 34,
+        "shooting": 22,
+        "passing": 52,
+        "dribbling": 27,
+        "defending": 62,
+        "physicality": 76,
+        "stamina": 66,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Diamond",
+      "number": 9,
+      "position": "LW",
+      "overall": 61,
+      "attributes": {
+        "pace": 80,
+        "shooting": 56,
+        "passing": 55,
+        "dribbling": 62,
+        "defending": 30,
+        "physicality": 53,
+        "stamina": 64,
+        "awareness": 55,
+        "composure": 55
+      }
+    },
+    {
+      "name": "D. Orsi",
+      "number": 10,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 74,
+        "shooting": 61,
+        "passing": 51,
+        "dribbling": 59,
+        "defending": 23,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 57,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 C. Kirby",
+      "number": 11,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 69,
+        "shooting": 44,
+        "passing": 64,
+        "dribbling": 58,
+        "defending": 58,
+        "physicality": 63,
+        "stamina": 75,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "S. Power",
+      "number": 12,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 90,
+        "shooting": 48,
+        "passing": 53,
+        "dribbling": 61,
+        "defending": 29,
+        "physicality": 44,
+        "stamina": 53,
+        "awareness": 50,
+        "composure": 42
+      }
+    }
+  ]
+}

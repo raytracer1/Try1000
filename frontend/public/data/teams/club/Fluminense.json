@@ -1,0 +1,192 @@
+{
+  "name": "Fluminense",
+  "type": "club",
+  "players": [
+    {
+      "name": "Laure Santeiro",
+      "number": 1,
+      "position": "LW",
+      "overall": 80,
+      "attributes": {
+        "pace": 75,
+        "shooting": 72,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 13,
+        "physicality": 35,
+        "stamina": 67,
+        "awareness": 80,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Everton Andrão",
+      "number": 2,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 66,
+        "shooting": 58,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 81,
+        "physicality": 68,
+        "stamina": 89,
+        "awareness": 78,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Andeson Trigo",
+      "number": 3,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 52,
+        "stamina": 84,
+        "awareness": 82,
+        "composure": 80
+      }
+    },
+    {
+      "name": "Kaíquão Castro",
+      "number": 4,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "defending": 73,
+        "passing": 76,
+        "dribbling": 72,
+        "physicality": 81,
+        "stamina": 41,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Kaimo Lima",
+      "number": 5,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 50,
+        "passing": 74,
+        "dribbling": 68,
+        "defending": 76,
+        "physicality": 74,
+        "stamina": 61,
+        "awareness": 71,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Hugo Rubiães",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 62,
+        "shooting": 55,
+        "passing": 71,
+        "dribbling": 67,
+        "defending": 74,
+        "physicality": 66,
+        "stamina": 67,
+        "awareness": 72,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Fábio Melitinho",
+      "number": 7,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 51,
+        "shooting": 72,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 33,
+        "physicality": 50,
+        "stamina": 69,
+        "awareness": 76,
+        "composure": 83
+      }
+    },
+    {
+      "name": "Fabiano Sonta",
+      "number": 8,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 48,
+        "shooting": 33,
+        "passing": 69,
+        "dribbling": 46,
+        "defending": 73,
+        "physicality": 78,
+        "stamina": 51,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "Wagner Orsinho",
+      "number": 9,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 76,
+        "shooting": 52,
+        "passing": 73,
+        "dribbling": 61,
+        "defending": 72,
+        "physicality": 54,
+        "stamina": 67,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Carleto Costinha",
+      "number": 10,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 79,
+        "shooting": 68,
+        "passing": 75,
+        "dribbling": 71,
+        "defending": 52,
+        "physicality": 53,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 73
+      }
+    },
+    {
+      "name": "Kauã Zanson",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 40,
+        "passing": 43,
+        "dribbling": 64,
+        "defending": 70,
+        "physicality": 63,
+        "stamina": 38,
+        "awareness": 71,
+        "composure": 72
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "name": "SV Meppen",
+  "type": "club",
+  "players": [
+    {
+      "name": "D. Blacha",
+      "number": 1,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 55,
+        "shooting": 57,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 59,
+        "physicality": 59,
+        "stamina": 81,
+        "awareness": 68,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 H. Amin",
+      "number": 2,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 49,
+        "passing": 62,
+        "dribbling": 63,
+        "defending": 61,
+        "physicality": 46,
+        "stamina": 81,
+        "awareness": 61,
+        "composure": 57
+      }
+    },
+    {
+      "name": "S. Puttkammer",
+      "number": 3,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 32,
+        "shooting": 24,
+        "passing": 61,
+        "dribbling": 32,
+        "defending": 66,
+        "physicality": 80,
+        "stamina": 65,
+        "awareness": 58,
+        "composure": 68
+      }
+    },
+    {
+      "name": "E. Domaschke",
+      "number": 4,
+      "position": "GK",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "defending": 66,
+        "passing": 64,
+        "dribbling": 63,
+        "physicality": 69,
+        "stamina": 24,
+        "awareness": 63,
+        "composure": 38
+      }
+    },
+    {
+      "name": "21 M. Bähre",
+      "number": 5,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 56,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 41,
+        "physicality": 60,
+        "stamina": 72,
+        "awareness": 60,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Ballmert",
+      "number": 6,
+      "position": "RB",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 40,
+        "passing": 59,
+        "dribbling": 54,
+        "defending": 61,
+        "physicality": 59,
+        "stamina": 89,
+        "awareness": 63,
+        "composure": 55
+      }
+    },
+    {
+      "name": "L. Bünning",
+      "number": 7,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 71,
+        "shooting": 39,
+        "passing": 58,
+        "dribbling": 48,
+        "defending": 66,
+        "physicality": 74,
+        "stamina": 63,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "O. Käuper",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 54,
+        "shooting": 58,
+        "passing": 69,
+        "dribbling": 62,
+        "defending": 59,
+        "physicality": 66,
+        "stamina": 64,
+        "awareness": 61,
+        "composure": 54
+      }
+    },
+    {
+      "name": "T. Dombrowa",
+      "number": 9,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 72,
+        "shooting": 62,
+        "passing": 63,
+        "dribbling": 66,
+        "defending": 23,
+        "physicality": 46,
+        "stamina": 41,
+        "awareness": 42,
+        "composure": 45
+      }
+    },
+    {
+      "name": "20 D. Vržogić",
+      "number": 10,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 66,
+        "shooting": 39,
+        "passing": 60,
+        "dribbling": 59,
+        "defending": 61,
+        "physicality": 57,
+        "stamina": 62,
+        "awareness": 60,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Faßbender",
+      "number": 11,
+      "position": "RW",
+      "overall": 61,
+      "attributes": {
+        "pace": 85,
+        "shooting": 55,
+        "passing": 59,
+        "dribbling": 60,
+        "defending": 26,
+        "physicality": 63,
+        "stamina": 73,
+        "awareness": 50,
+        "composure": 43
+      }
+    },
+    {
+      "name": "L. Krüger",
+      "number": 12,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 77,
+        "shooting": 59,
+        "passing": 53,
+        "dribbling": 57,
+        "defending": 22,
+        "physicality": 65,
+        "stamina": 59,
+        "awareness": 54,
+        "composure": 48
+      }
+    },
+    {
+      "name": "M. Harsman",
+      "number": 13,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 34,
+        "shooting": 6,
+        "passing": 23,
+        "dribbling": 7,
+        "defending": 9,
+        "physicality": 65,
+        "stamina": 37,
+        "awareness": 41,
+        "composure": 35
+      }
+    }
+  ]
+}

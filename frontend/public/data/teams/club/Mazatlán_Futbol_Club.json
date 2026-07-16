@@ -1,0 +1,310 @@
+{
+  "name": "Mazatlán Futbol Club",
+  "type": "club",
+  "players": [
+    {
+      "name": "N. Vikonis",
+      "number": 1,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "defending": 77,
+        "passing": 72,
+        "dribbling": 74,
+        "physicality": 60,
+        "stamina": 34,
+        "awareness": 75,
+        "composure": 60
+      }
+    },
+    {
+      "name": "L. Reyes",
+      "number": 2,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 58,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 76,
+        "physicality": 72,
+        "stamina": 91,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "Camilo Sanvezzo",
+      "number": 3,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 38,
+        "physicality": 69,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 72
+      }
+    },
+    {
+      "name": "M. Rangel",
+      "number": 4,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 79,
+        "passing": 60,
+        "dribbling": 66,
+        "defending": 25,
+        "physicality": 80,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Ygor Nogueira",
+      "number": 5,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 54,
+        "shooting": 22,
+        "passing": 60,
+        "dribbling": 38,
+        "defending": 72,
+        "physicality": 81,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 M. Fraga",
+      "number": 6,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 70,
+        "defending": 69,
+        "passing": 70,
+        "dribbling": 69,
+        "physicality": 78,
+        "stamina": 35,
+        "awareness": 62,
+        "composure": 51
+      }
+    },
+    {
+      "name": "G. Sandoval",
+      "number": 7,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 53,
+        "physicality": 51,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "G. Freitas",
+      "number": 8,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 55,
+        "shooting": 46,
+        "passing": 64,
+        "dribbling": 59,
+        "defending": 70,
+        "physicality": 85,
+        "stamina": 78,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 J. Ortíz",
+      "number": 9,
+      "position": "LB",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 21,
+        "passing": 59,
+        "dribbling": 44,
+        "defending": 68,
+        "physicality": 79,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 59
+      }
+    },
+    {
+      "name": "U. Cardona",
+      "number": 10,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 63,
+        "passing": 66,
+        "dribbling": 70,
+        "defending": 57,
+        "physicality": 48,
+        "stamina": 72,
+        "awareness": 58,
+        "composure": 52
+      }
+    },
+    {
+      "name": "R. Rios",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 32,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 70,
+        "physicality": 68,
+        "stamina": 64,
+        "awareness": 53,
+        "composure": 73
+      }
+    },
+    {
+      "name": "B. Rubio",
+      "number": 12,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 69,
+        "shooting": 65,
+        "passing": 59,
+        "dribbling": 66,
+        "defending": 21,
+        "physicality": 80,
+        "stamina": 65,
+        "awareness": 60,
+        "composure": 59
+      }
+    },
+    {
+      "name": "N. Díaz",
+      "number": 13,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 63,
+        "shooting": 16,
+        "passing": 67,
+        "dribbling": 59,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 80,
+        "awareness": 58,
+        "composure": 52
+      }
+    },
+    {
+      "name": "C. Vargas",
+      "number": 14,
+      "position": "LB",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 39,
+        "passing": 57,
+        "dribbling": 51,
+        "defending": 64,
+        "physicality": 63,
+        "stamina": 63,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "D. Amador",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 38,
+        "physicality": 48,
+        "stamina": 56,
+        "awareness": 60,
+        "composure": 47
+      }
+    },
+    {
+      "name": "B. Colula",
+      "number": 16,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 68,
+        "shooting": 28,
+        "passing": 52,
+        "dribbling": 58,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 56,
+        "awareness": 59,
+        "composure": 54
+      }
+    },
+    {
+      "name": "I. Moreno",
+      "number": 17,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 69,
+        "shooting": 46,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 45,
+        "physicality": 63,
+        "stamina": 33,
+        "awareness": 55,
+        "composure": 66
+      }
+    },
+    {
+      "name": "E. Sánchez",
+      "number": 18,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 48,
+        "shooting": 52,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 48,
+        "physicality": 64,
+        "stamina": 60,
+        "awareness": 53,
+        "composure": 47
+      }
+    }
+  ]
+}

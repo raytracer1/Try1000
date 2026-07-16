@@ -1,0 +1,261 @@
+{
+  "name": "Sarpsborg 08 FF",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Salétros",
+      "number": 1,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 68,
+        "shooting": 53,
+        "passing": 67,
+        "dribbling": 61,
+        "defending": 63,
+        "physicality": 67,
+        "stamina": 82,
+        "awareness": 66,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Thomassen",
+      "number": 2,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 64,
+        "dribbling": 57,
+        "defending": 62,
+        "physicality": 75,
+        "stamina": 79,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "B. Utvik",
+      "number": 3,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 44,
+        "shooting": 33,
+        "passing": 58,
+        "dribbling": 44,
+        "defending": 67,
+        "physicality": 70,
+        "stamina": 74,
+        "awareness": 63,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Ødegaard",
+      "number": 4,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 53,
+        "shooting": 21,
+        "passing": 56,
+        "dribbling": 49,
+        "defending": 66,
+        "physicality": 78,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Horn",
+      "number": 5,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 60,
+        "shooting": 17,
+        "passing": 60,
+        "dribbling": 22,
+        "defending": 62,
+        "physicality": 79,
+        "stamina": 58,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "O. Halvorsen",
+      "number": 6,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 56,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 57,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Dyrestam",
+      "number": 7,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 33,
+        "passing": 62,
+        "dribbling": 59,
+        "defending": 64,
+        "physicality": 80,
+        "stamina": 65,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Abdellaoue",
+      "number": 8,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 60,
+        "shooting": 66,
+        "passing": 56,
+        "dribbling": 64,
+        "defending": 21,
+        "physicality": 62,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Lindseth",
+      "number": 9,
+      "position": "LW",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 56,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 61,
+        "physicality": 62,
+        "stamina": 80,
+        "awareness": 60,
+        "composure": 59
+      }
+    },
+    {
+      "name": "19 A. Østli",
+      "number": 10,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 41,
+        "shooting": 42,
+        "passing": 56,
+        "dribbling": 52,
+        "defending": 62,
+        "physicality": 81,
+        "stamina": 34,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "18 O. Hansen",
+      "number": 11,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 42,
+        "shooting": 32,
+        "passing": 51,
+        "dribbling": 24,
+        "defending": 61,
+        "physicality": 81,
+        "stamina": 51,
+        "awareness": 60,
+        "composure": 66
+      }
+    },
+    {
+      "name": "B. Karamoko",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 36,
+        "shooting": 22,
+        "passing": 49,
+        "dribbling": 35,
+        "defending": 66,
+        "physicality": 85,
+        "stamina": 54,
+        "awareness": 53,
+        "composure": 53
+      }
+    },
+    {
+      "name": "R. Muhammed",
+      "number": 13,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 91,
+        "shooting": 58,
+        "passing": 53,
+        "dribbling": 65,
+        "defending": 30,
+        "physicality": 75,
+        "stamina": 73,
+        "awareness": 54,
+        "composure": 45
+      }
+    },
+    {
+      "name": "I. Koné",
+      "number": 14,
+      "position": "ST",
+      "overall": 62,
+      "attributes": {
+        "pace": 71,
+        "shooting": 63,
+        "passing": 54,
+        "dribbling": 57,
+        "defending": 26,
+        "physicality": 74,
+        "stamina": 66,
+        "awareness": 56,
+        "composure": 54
+      }
+    },
+    {
+      "name": "J. Soltvedt",
+      "number": 15,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 69,
+        "shooting": 53,
+        "passing": 58,
+        "dribbling": 58,
+        "defending": 49,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 54,
+        "composure": 49
+      }
+    }
+  ]
+}

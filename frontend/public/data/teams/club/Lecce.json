@@ -1,0 +1,396 @@
+{
+  "name": "Lecce",
+  "type": "club",
+  "players": [
+    {
+      "name": "Gabriel",
+      "number": 1,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "defending": 77,
+        "passing": 73,
+        "dribbling": 75,
+        "physicality": 60,
+        "stamina": 34,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 C. Maggio",
+      "number": 2,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 67,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 73,
+        "physicality": 77,
+        "stamina": 79,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Blin",
+      "number": 3,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 36,
+        "shooting": 52,
+        "passing": 70,
+        "dribbling": 62,
+        "defending": 71,
+        "physicality": 73,
+        "stamina": 86,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Coda",
+      "number": 4,
+      "position": "ST",
+      "overall": 72,
+      "attributes": {
+        "pace": 59,
+        "shooting": 76,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 17,
+        "physicality": 72,
+        "stamina": 55,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Barreca",
+      "number": 5,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 21,
+        "passing": 65,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 65,
+        "stamina": 63,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 M. Calderoni",
+      "number": 6,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 82,
+        "shooting": 41,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 65,
+        "physicality": 74,
+        "stamina": 85,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "21 M. Stępiński",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 67,
+        "shooting": 69,
+        "passing": 68,
+        "dribbling": 72,
+        "defending": 18,
+        "physicality": 80,
+        "stamina": 62,
+        "awareness": 69,
+        "composure": 60
+      }
+    },
+    {
+      "name": "F. Pisacane",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 58,
+        "shooting": 20,
+        "passing": 63,
+        "dribbling": 61,
+        "defending": 76,
+        "physicality": 66,
+        "stamina": 59,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. Calabresi",
+      "number": 9,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 64,
+        "shooting": 22,
+        "passing": 64,
+        "dribbling": 64,
+        "defending": 72,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "K. Dermaku",
+      "number": 10,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 50,
+        "shooting": 32,
+        "passing": 56,
+        "dribbling": 35,
+        "defending": 70,
+        "physicality": 74,
+        "stamina": 56,
+        "awareness": 64,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. Meccariello",
+      "number": 11,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 64,
+        "shooting": 22,
+        "passing": 50,
+        "dribbling": 36,
+        "defending": 70,
+        "physicality": 81,
+        "stamina": 59,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Vigorito",
+      "number": 12,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 45,
+        "shooting": 18,
+        "passing": 34,
+        "dribbling": 13,
+        "defending": 13,
+        "physicality": 55,
+        "stamina": 32,
+        "awareness": 65,
+        "composure": 51
+      }
+    },
+    {
+      "name": "R. Benzar",
+      "number": 13,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 51,
+        "passing": 62,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 67,
+        "stamina": 64,
+        "awareness": 64,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Hjulmand",
+      "number": 14,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 49,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 60,
+        "physicality": 74,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 52
+      }
+    },
+    {
+      "name": "Strefezza",
+      "number": 15,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 79,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 72,
+        "defending": 20,
+        "physicality": 34,
+        "stamina": 57,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "21 S. Pettinari",
+      "number": 16,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 76,
+        "shooting": 69,
+        "passing": 61,
+        "dribbling": 66,
+        "defending": 38,
+        "physicality": 71,
+        "stamina": 76,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "F. Di Mariano",
+      "number": 17,
+      "position": "LW",
+      "overall": 66,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 64,
+        "dribbling": 72,
+        "defending": 27,
+        "physicality": 53,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Listkowski",
+      "number": 18,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 76,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 52,
+        "physicality": 55,
+        "stamina": 76,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "J. Björkengren",
+      "number": 19,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 64,
+        "shooting": 52,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 74,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 S. Lo Faso",
+      "number": 20,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 79,
+        "shooting": 61,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 22,
+        "physicality": 57,
+        "stamina": 42,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Gallo",
+      "number": 21,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 79,
+        "shooting": 47,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 60,
+        "physicality": 55,
+        "stamina": 54,
+        "awareness": 65,
+        "composure": 57
+      }
+    },
+    {
+      "name": "Pablo Rodríguez",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 72,
+        "shooting": 67,
+        "passing": 57,
+        "dribbling": 64,
+        "defending": 12,
+        "physicality": 52,
+        "stamina": 58,
+        "awareness": 58,
+        "composure": 59
+      }
+    },
+    {
+      "name": "M. Bleve",
+      "number": 23,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 15,
+        "shooting": 8,
+        "passing": 19,
+        "dribbling": 11,
+        "defending": 10,
+        "physicality": 53,
+        "stamina": 28,
+        "awareness": 41,
+        "composure": 55
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Peterborough United",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Clarke-Harris",
+      "number": 1,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 61,
+        "dribbling": 64,
+        "defending": 17,
+        "physicality": 85,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 66
+      }
+    },
+    {
+      "name": "S. Dembélé",
+      "number": 2,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 83,
+        "shooting": 68,
+        "passing": 61,
+        "dribbling": 73,
+        "defending": 38,
+        "physicality": 58,
+        "stamina": 73,
+        "awareness": 67,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Grant",
+      "number": 3,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 61,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Szmodics",
+      "number": 4,
+      "position": "CAM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 52,
+        "physicality": 59,
+        "stamina": 86,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "J. Taylor",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 59,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 83,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Ward",
+      "number": 6,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 86,
+        "shooting": 54,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 59,
+        "physicality": 51,
+        "stamina": 82,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Knight",
+      "number": 7,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 58,
+        "shooting": 52,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 77,
+        "awareness": 69,
+        "composure": 54
+      }
+    },
+    {
+      "name": "N. Thompson",
+      "number": 8,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 36,
+        "passing": 59,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 81,
+        "stamina": 74,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Marriott",
+      "number": 9,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 72,
+        "passing": 61,
+        "dribbling": 62,
+        "defending": 25,
+        "physicality": 66,
+        "stamina": 70,
+        "awareness": 66,
+        "composure": 78
+      }
+    },
+    {
+      "name": "F. Kent",
+      "number": 10,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 32,
+        "passing": 64,
+        "dribbling": 52,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 81,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "M. Beevers",
+      "number": 11,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 50,
+        "shooting": 43,
+        "passing": 58,
+        "dribbling": 33,
+        "defending": 67,
+        "physicality": 85,
+        "stamina": 74,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "D. Butler",
+      "number": 12,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 73,
+        "shooting": 42,
+        "passing": 59,
+        "dribbling": 59,
+        "defending": 62,
+        "physicality": 67,
+        "stamina": 85,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "C. Pym",
+      "number": 13,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 48,
+        "shooting": 13,
+        "passing": 32,
+        "dribbling": 19,
+        "defending": 18,
+        "physicality": 44,
+        "stamina": 28,
+        "awareness": 56,
+        "composure": 48
+      }
+    },
+    {
+      "name": "O. Norburn",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 66,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 75,
+        "stamina": 82,
+        "awareness": 61,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 N. Mason",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 63,
+        "shooting": 36,
+        "passing": 62,
+        "dribbling": 62,
+        "defending": 63,
+        "physicality": 63,
+        "stamina": 69,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "J. Randall",
+      "number": 16,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 76,
+        "shooting": 61,
+        "passing": 59,
+        "dribbling": 62,
+        "defending": 30,
+        "physicality": 44,
+        "stamina": 85,
+        "awareness": 55,
+        "composure": 56
+      }
+    },
+    {
+      "name": "D. Cornell",
+      "number": 17,
+      "position": "GK",
+      "overall": 62,
+      "attributes": {
+        "pace": 63,
+        "defending": 63,
+        "passing": 62,
+        "dribbling": 61,
+        "physicality": 64,
+        "stamina": 18,
+        "awareness": 51,
+        "composure": 49
+      }
+    },
+    {
+      "name": "I. Kanu",
+      "number": 18,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 80,
+        "shooting": 62,
+        "passing": 57,
+        "dribbling": 64,
+        "defending": 55,
+        "physicality": 65,
+        "stamina": 71,
+        "awareness": 58,
+        "composure": 65
+      }
+    },
+    {
+      "name": "H. Burrows",
+      "number": 19,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 73,
+        "shooting": 45,
+        "passing": 57,
+        "dribbling": 60,
+        "defending": 57,
+        "physicality": 34,
+        "stamina": 62,
+        "awareness": 53,
+        "composure": 53
+      }
+    },
+    {
+      "name": "K. Poku",
+      "number": 20,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 81,
+        "shooting": 54,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 41,
+        "physicality": 46,
+        "stamina": 69,
+        "awareness": 55,
+        "composure": 58
+      }
+    },
+    {
+      "name": "D. Gyollai",
+      "number": 21,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 45,
+        "shooting": 19,
+        "passing": 30,
+        "dribbling": 16,
+        "defending": 19,
+        "physicality": 60,
+        "stamina": 29,
+        "awareness": 57,
+        "composure": 36
+      }
+    },
+    {
+      "name": "C. Coventry",
+      "number": 22,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 55,
+        "shooting": 44,
+        "passing": 66,
+        "dribbling": 59,
+        "defending": 57,
+        "physicality": 50,
+        "stamina": 75,
+        "awareness": 53,
+        "composure": 67
+      }
+    },
+    {
+      "name": "R. Jones",
+      "number": 23,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 92,
+        "shooting": 60,
+        "passing": 55,
+        "dribbling": 58,
+        "defending": 25,
+        "physicality": 57,
+        "stamina": 57,
+        "awareness": 55,
+        "composure": 56
+      }
+    }
+  ]
+}

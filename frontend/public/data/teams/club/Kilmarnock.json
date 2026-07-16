@@ -1,0 +1,243 @@
+{
+  "name": "Kilmarnock",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 K. Boyd",
+      "number": 1,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 44,
+        "shooting": 72,
+        "passing": 64,
+        "dribbling": 55,
+        "defending": 19,
+        "physicality": 86,
+        "stamina": 46,
+        "awareness": 70,
+        "composure": 76
+      }
+    },
+    {
+      "name": "21 C. Burke",
+      "number": 2,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 73,
+        "shooting": 68,
+        "passing": 61,
+        "dribbling": 71,
+        "defending": 33,
+        "physicality": 66,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 G. Dicker",
+      "number": 3,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 38,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 51,
+        "defending": 65,
+        "physicality": 72,
+        "stamina": 71,
+        "awareness": 62,
+        "composure": 65
+      }
+    },
+    {
+      "name": "20 A. Bruce",
+      "number": 4,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 51,
+        "shooting": 22,
+        "passing": 54,
+        "dribbling": 43,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 34,
+        "awareness": 54,
+        "composure": 58
+      }
+    },
+    {
+      "name": "20 J. MacDonald",
+      "number": 5,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 22,
+        "shooting": 18,
+        "passing": 32,
+        "dribbling": 17,
+        "defending": 15,
+        "physicality": 59,
+        "stamina": 44,
+        "awareness": 59,
+        "composure": 49
+      }
+    },
+    {
+      "name": "21 A. Tshibola",
+      "number": 6,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 68,
+        "shooting": 52,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 64,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 57,
+        "composure": 67
+      }
+    },
+    {
+      "name": "18 G. Greer",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 27,
+        "shooting": 26,
+        "passing": 63,
+        "dribbling": 42,
+        "defending": 67,
+        "physicality": 74,
+        "stamina": 36,
+        "awareness": 52,
+        "composure": 57
+      }
+    },
+    {
+      "name": "21 R. McKenzie",
+      "number": 8,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 81,
+        "shooting": 56,
+        "passing": 59,
+        "dribbling": 64,
+        "defending": 49,
+        "physicality": 67,
+        "stamina": 80,
+        "awareness": 57,
+        "composure": 56
+      }
+    },
+    {
+      "name": "21 Y. Mulumbu",
+      "number": 9,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 52,
+        "shooting": 58,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 55,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 K. Broadfoot",
+      "number": 10,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 32,
+        "shooting": 17,
+        "passing": 51,
+        "dribbling": 53,
+        "defending": 65,
+        "physicality": 80,
+        "stamina": 53,
+        "awareness": 59,
+        "composure": 53
+      }
+    },
+    {
+      "name": "21 C. Dikamona",
+      "number": 11,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 63,
+        "shooting": 15,
+        "passing": 55,
+        "dribbling": 52,
+        "defending": 60,
+        "physicality": 86,
+        "stamina": 53,
+        "awareness": 55,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 C. Waters",
+      "number": 12,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 74,
+        "shooting": 26,
+        "passing": 56,
+        "dribbling": 60,
+        "defending": 59,
+        "physicality": 59,
+        "stamina": 75,
+        "awareness": 58,
+        "composure": 44
+      }
+    },
+    {
+      "name": "21 C. Doyle",
+      "number": 13,
+      "position": "GK",
+      "overall": 62,
+      "attributes": {
+        "pace": 61,
+        "defending": 61,
+        "passing": 62,
+        "dribbling": 61,
+        "physicality": 59,
+        "stamina": 27,
+        "awareness": 60,
+        "composure": 40
+      }
+    },
+    {
+      "name": "20 A. Frizzell",
+      "number": 14,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 79,
+        "shooting": 51,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 42,
+        "physicality": 45,
+        "stamina": 66,
+        "awareness": 60,
+        "composure": 58
+      }
+    }
+  ]
+}

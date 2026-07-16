@@ -1,0 +1,362 @@
+{
+  "name": "FC Nordsjælland",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Andersen",
+      "number": 1,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 71,
+        "defending": 66,
+        "physicality": 69,
+        "stamina": 91,
+        "awareness": 70,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Thychosen",
+      "number": 2,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 79,
+        "shooting": 50,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 74,
+        "stamina": 82,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "18 P. Mtiliga",
+      "number": 3,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 72,
+        "shooting": 51,
+        "passing": 71,
+        "dribbling": 58,
+        "defending": 68,
+        "physicality": 65,
+        "stamina": 46,
+        "awareness": 55,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 J. Djourou",
+      "number": 4,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 50,
+        "shooting": 37,
+        "passing": 65,
+        "dribbling": 39,
+        "defending": 70,
+        "physicality": 84,
+        "stamina": 47,
+        "awareness": 69,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Christensen",
+      "number": 5,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 72,
+        "shooting": 52,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 78,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "K. Hansen",
+      "number": 6,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 66,
+        "shooting": 42,
+        "passing": 68,
+        "dribbling": 50,
+        "defending": 67,
+        "physicality": 75,
+        "stamina": 64,
+        "awareness": 67,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Schjelderup",
+      "number": 7,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 71,
+        "shooting": 60,
+        "passing": 64,
+        "dribbling": 65,
+        "defending": 35,
+        "physicality": 40,
+        "stamina": 59,
+        "awareness": 63,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Diomande",
+      "number": 8,
+      "position": "CAM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 53,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 60,
+        "physicality": 70,
+        "stamina": 73,
+        "awareness": 55,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Francis",
+      "number": 9,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 58,
+        "passing": 65,
+        "dribbling": 67,
+        "defending": 45,
+        "physicality": 67,
+        "stamina": 66,
+        "awareness": 57,
+        "composure": 64
+      }
+    },
+    {
+      "name": "I. Sadiq",
+      "number": 10,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 89,
+        "shooting": 59,
+        "passing": 55,
+        "dribbling": 64,
+        "defending": 28,
+        "physicality": 55,
+        "stamina": 60,
+        "awareness": 57,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Amon",
+      "number": 11,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 88,
+        "shooting": 59,
+        "passing": 56,
+        "dribbling": 66,
+        "defending": 25,
+        "physicality": 57,
+        "stamina": 54,
+        "awareness": 55,
+        "composure": 53
+      }
+    },
+    {
+      "name": "O. Villadsen",
+      "number": 12,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 84,
+        "shooting": 39,
+        "passing": 57,
+        "dribbling": 64,
+        "defending": 56,
+        "physicality": 55,
+        "stamina": 69,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "M. Frese",
+      "number": 13,
+      "position": "LB",
+      "overall": 62,
+      "attributes": {
+        "pace": 74,
+        "shooting": 55,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 55,
+        "physicality": 64,
+        "stamina": 64,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "C. Antwi",
+      "number": 14,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 84,
+        "shooting": 38,
+        "passing": 58,
+        "dribbling": 57,
+        "defending": 54,
+        "physicality": 58,
+        "stamina": 64,
+        "awareness": 55,
+        "composure": 49
+      }
+    },
+    {
+      "name": "M. Woledzi",
+      "number": 15,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 72,
+        "shooting": 28,
+        "passing": 58,
+        "dribbling": 47,
+        "defending": 59,
+        "physicality": 73,
+        "stamina": 58,
+        "awareness": 54,
+        "composure": 53
+      }
+    },
+    {
+      "name": "E. Dos Santos Haesler",
+      "number": 16,
+      "position": "GK",
+      "overall": 62,
+      "attributes": {
+        "pace": 60,
+        "defending": 62,
+        "passing": 63,
+        "dribbling": 59,
+        "physicality": 73,
+        "stamina": 16,
+        "awareness": 57,
+        "composure": 33
+      }
+    },
+    {
+      "name": "T. Chukwuani",
+      "number": 17,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 56,
+        "passing": 67,
+        "dribbling": 63,
+        "defending": 58,
+        "physicality": 61,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 63
+      }
+    },
+    {
+      "name": "O. Antman",
+      "number": 18,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 63,
+        "shooting": 57,
+        "passing": 64,
+        "dribbling": 61,
+        "defending": 35,
+        "physicality": 41,
+        "stamina": 56,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "L. Coulibaly",
+      "number": 19,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 87,
+        "shooting": 55,
+        "passing": 60,
+        "dribbling": 63,
+        "defending": 36,
+        "physicality": 52,
+        "stamina": 45,
+        "awareness": 56,
+        "composure": 59
+      }
+    },
+    {
+      "name": "A. Nagalo",
+      "number": 20,
+      "position": "CB",
+      "overall": 60,
+      "attributes": {
+        "pace": 65,
+        "shooting": 25,
+        "passing": 55,
+        "dribbling": 38,
+        "defending": 61,
+        "physicality": 69,
+        "stamina": 54,
+        "awareness": 58,
+        "composure": 49
+      }
+    },
+    {
+      "name": "21 M. Vantruba",
+      "number": 21,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 28,
+        "shooting": 10,
+        "passing": 32,
+        "dribbling": 16,
+        "defending": 14,
+        "physicality": 72,
+        "stamina": 28,
+        "awareness": 49,
+        "composure": 30
+      }
+    }
+  ]
+}

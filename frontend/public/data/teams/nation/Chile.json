@@ -1,0 +1,396 @@
+{
+  "name": "Chile",
+  "type": "nation",
+  "players": [
+    {
+      "name": "A. Vidal",
+      "number": 1,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 65,
+        "shooting": 75,
+        "passing": 81,
+        "dribbling": 76,
+        "defending": 84,
+        "physicality": 80,
+        "stamina": 78,
+        "awareness": 81,
+        "composure": 80
+      }
+    },
+    {
+      "name": "C. Aránguiz",
+      "number": 2,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 63,
+        "shooting": 66,
+        "passing": 81,
+        "dribbling": 74,
+        "defending": 74,
+        "physicality": 64,
+        "stamina": 80,
+        "awareness": 81,
+        "composure": 73
+      }
+    },
+    {
+      "name": "A. Sánchez",
+      "number": 3,
+      "position": "CM",
+      "overall": 80,
+      "attributes": {
+        "pace": 76,
+        "shooting": 74,
+        "passing": 79,
+        "dribbling": 84,
+        "defending": 44,
+        "physicality": 68,
+        "stamina": 68,
+        "awareness": 79,
+        "composure": 75
+      }
+    },
+    {
+      "name": "G. Arias",
+      "number": 4,
+      "position": "GK",
+      "overall": 79,
+      "attributes": {
+        "pace": 79,
+        "defending": 83,
+        "passing": 73,
+        "dribbling": 80,
+        "physicality": 62,
+        "stamina": 32,
+        "awareness": 71,
+        "composure": 45
+      }
+    },
+    {
+      "name": "C. Bravo",
+      "number": 5,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 54,
+        "shooting": 13,
+        "passing": 56,
+        "dribbling": 22,
+        "defending": 18,
+        "physicality": 69,
+        "stamina": 39,
+        "awareness": 72,
+        "composure": 64
+      }
+    },
+    {
+      "name": "F. Orellana",
+      "number": 6,
+      "position": "RW",
+      "overall": 77,
+      "attributes": {
+        "pace": 71,
+        "shooting": 75,
+        "passing": 78,
+        "dribbling": 82,
+        "defending": 37,
+        "physicality": 32,
+        "stamina": 55,
+        "awareness": 79,
+        "composure": 69
+      }
+    },
+    {
+      "name": "G. Maripán",
+      "number": 7,
+      "position": "CB",
+      "overall": 77,
+      "attributes": {
+        "pace": 34,
+        "shooting": 39,
+        "passing": 68,
+        "dribbling": 45,
+        "defending": 79,
+        "physicality": 91,
+        "stamina": 59,
+        "awareness": 75,
+        "composure": 71
+      }
+    },
+    {
+      "name": "M. Díaz",
+      "number": 8,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 53,
+        "shooting": 55,
+        "passing": 82,
+        "dribbling": 70,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 77,
+        "awareness": 77,
+        "composure": 81
+      }
+    },
+    {
+      "name": "21 M. Isla",
+      "number": 9,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 75,
+        "shooting": 41,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 75,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 76
+      }
+    },
+    {
+      "name": "E. Mena",
+      "number": 10,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 83,
+        "shooting": 44,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 68,
+        "physicality": 74,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Meneses",
+      "number": 11,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 87,
+        "shooting": 75,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 30,
+        "physicality": 56,
+        "stamina": 91,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "E. Pulgar",
+      "number": 12,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 63,
+        "shooting": 50,
+        "passing": 78,
+        "dribbling": 72,
+        "defending": 74,
+        "physicality": 70,
+        "stamina": 79,
+        "awareness": 72,
+        "composure": 76
+      }
+    },
+    {
+      "name": "J. Fuenzalida",
+      "number": 13,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 86,
+        "shooting": 59,
+        "passing": 72,
+        "dribbling": 79,
+        "defending": 66,
+        "physicality": 62,
+        "stamina": 82,
+        "awareness": 76,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Jiménez",
+      "number": 14,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 69,
+        "shooting": 70,
+        "passing": 80,
+        "dribbling": 74,
+        "defending": 35,
+        "physicality": 68,
+        "stamina": 52,
+        "awareness": 69,
+        "composure": 80
+      }
+    },
+    {
+      "name": "S. Vegas",
+      "number": 15,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 48,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 75,
+        "physicality": 81,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 70
+      }
+    },
+    {
+      "name": "E. Puch",
+      "number": 16,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 82,
+        "shooting": 71,
+        "passing": 68,
+        "dribbling": 77,
+        "defending": 44,
+        "physicality": 64,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 E. Vargas",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 45,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 72
+      }
+    },
+    {
+      "name": "D. Valdés",
+      "number": 18,
+      "position": "CAM",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 67,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 52,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 80
+      }
+    },
+    {
+      "name": "P. Díaz",
+      "number": 19,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 45,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 71,
+        "physicality": 76,
+        "stamina": 82,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "L. Reyes",
+      "number": 20,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 58,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 76,
+        "physicality": 72,
+        "stamina": 91,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "G. Medel",
+      "number": 21,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 62,
+        "shooting": 31,
+        "passing": 73,
+        "dribbling": 63,
+        "defending": 76,
+        "physicality": 79,
+        "stamina": 70,
+        "awareness": 78,
+        "composure": 78
+      }
+    },
+    {
+      "name": "C. Villanueva",
+      "number": 22,
+      "position": "CAM",
+      "overall": 74,
+      "attributes": {
+        "pace": 57,
+        "shooting": 64,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 44,
+        "physicality": 46,
+        "stamina": 62,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 P. Hernández",
+      "number": 23,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 65,
+        "shooting": 61,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 67,
+        "awareness": 69,
+        "composure": 81
+      }
+    }
+  ]
+}

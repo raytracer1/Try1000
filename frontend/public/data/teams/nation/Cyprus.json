@@ -1,0 +1,261 @@
+{
+  "name": "Cyprus",
+  "type": "nation",
+  "players": [
+    {
+      "name": "K. Laifis",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 68,
+        "shooting": 46,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 75,
+        "physicality": 74,
+        "stamina": 79,
+        "awareness": 75,
+        "composure": 75
+      }
+    },
+    {
+      "name": "G. Efrem",
+      "number": 2,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 74,
+        "shooting": 59,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 17,
+        "physicality": 50,
+        "stamina": 56,
+        "awareness": 75,
+        "composure": 61
+      }
+    },
+    {
+      "name": "A. Gogić",
+      "number": 3,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 42,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 52,
+        "defending": 66,
+        "physicality": 86,
+        "stamina": 78,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "G. Kastanos",
+      "number": 4,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 68,
+        "shooting": 54,
+        "passing": 61,
+        "dribbling": 73,
+        "defending": 27,
+        "physicality": 68,
+        "stamina": 54,
+        "awareness": 58,
+        "composure": 61
+      }
+    },
+    {
+      "name": "S. Andreou",
+      "number": 5,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 77,
+        "shooting": 23,
+        "passing": 57,
+        "dribbling": 52,
+        "defending": 67,
+        "physicality": 73,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "D. Theodorou",
+      "number": 6,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 62,
+        "passing": 68,
+        "dribbling": 64,
+        "defending": 20,
+        "physicality": 51,
+        "stamina": 53,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "C. Wheeler",
+      "number": 7,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 25,
+        "passing": 58,
+        "dribbling": 49,
+        "defending": 59,
+        "physicality": 42,
+        "stamina": 64,
+        "awareness": 70,
+        "composure": 60
+      }
+    },
+    {
+      "name": "20 A. Georgiou",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 69,
+        "shooting": 46,
+        "passing": 60,
+        "dribbling": 69,
+        "defending": 65,
+        "physicality": 52,
+        "stamina": 66,
+        "awareness": 60,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Katsantonis",
+      "number": 9,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 60,
+        "shooting": 58,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 14,
+        "physicality": 68,
+        "stamina": 58,
+        "awareness": 70,
+        "composure": 48
+      }
+    },
+    {
+      "name": "21 J. Demetriou",
+      "number": 10,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 65,
+        "shooting": 53,
+        "passing": 61,
+        "dribbling": 58,
+        "defending": 60,
+        "physicality": 65,
+        "stamina": 71,
+        "awareness": 60,
+        "composure": 59
+      }
+    },
+    {
+      "name": "21 J. Roles",
+      "number": 11,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 67,
+        "shooting": 59,
+        "passing": 65,
+        "dribbling": 64,
+        "defending": 49,
+        "physicality": 47,
+        "stamina": 69,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "S. Gavriel",
+      "number": 12,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 62,
+        "shooting": 63,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 27,
+        "physicality": 48,
+        "stamina": 43,
+        "awareness": 54,
+        "composure": 54
+      }
+    },
+    {
+      "name": "N. Tsaroulla",
+      "number": 13,
+      "position": "LB",
+      "overall": 60,
+      "attributes": {
+        "pace": 73,
+        "shooting": 39,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 56,
+        "physicality": 47,
+        "stamina": 64,
+        "awareness": 51,
+        "composure": 48
+      }
+    },
+    {
+      "name": "H. Kyprianou",
+      "number": 14,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 66,
+        "shooting": 44,
+        "passing": 59,
+        "dribbling": 53,
+        "defending": 58,
+        "physicality": 73,
+        "stamina": 66,
+        "awareness": 56,
+        "composure": 53
+      }
+    },
+    {
+      "name": "R. Sotiriou",
+      "number": 15,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 81,
+        "shooting": 57,
+        "passing": 55,
+        "dribbling": 61,
+        "defending": 19,
+        "physicality": 59,
+        "stamina": 66,
+        "awareness": 53,
+        "composure": 50
+      }
+    }
+  ]
+}

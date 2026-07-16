@@ -1,0 +1,396 @@
+{
+  "name": "Jamaica",
+  "type": "nation",
+  "players": [
+    {
+      "name": "L. Bailey",
+      "number": 1,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 93,
+        "shooting": 79,
+        "passing": 73,
+        "dribbling": 86,
+        "defending": 25,
+        "physicality": 61,
+        "stamina": 75,
+        "awareness": 80,
+        "composure": 75
+      }
+    },
+    {
+      "name": "M. Antonio",
+      "number": 2,
+      "position": "ST",
+      "overall": 79,
+      "attributes": {
+        "pace": 87,
+        "shooting": 79,
+        "passing": 75,
+        "dribbling": 79,
+        "defending": 56,
+        "physicality": 86,
+        "stamina": 76,
+        "awareness": 80,
+        "composure": 73
+      }
+    },
+    {
+      "name": "A. Blake",
+      "number": 3,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "defending": 80,
+        "passing": 68,
+        "dribbling": 78,
+        "physicality": 68,
+        "stamina": 41,
+        "awareness": 71,
+        "composure": 55
+      }
+    },
+    {
+      "name": "B. Decordova-Reid",
+      "number": 4,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 73,
+        "passing": 72,
+        "dribbling": 75,
+        "defending": 56,
+        "physicality": 60,
+        "stamina": 79,
+        "awareness": 75,
+        "composure": 70
+      }
+    },
+    {
+      "name": "K. Roofe",
+      "number": 5,
+      "position": "RW",
+      "overall": 74,
+      "attributes": {
+        "pace": 80,
+        "shooting": 76,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 49,
+        "physicality": 60,
+        "stamina": 68,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "E. Pinnock",
+      "number": 6,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 33,
+        "passing": 68,
+        "dribbling": 56,
+        "defending": 74,
+        "physicality": 83,
+        "stamina": 74,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Gray",
+      "number": 7,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 74,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 23,
+        "physicality": 73,
+        "stamina": 71,
+        "awareness": 73,
+        "composure": 72
+      }
+    },
+    {
+      "name": "D. Johnson",
+      "number": 8,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 59,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 80
+      }
+    },
+    {
+      "name": "K. Lawrence",
+      "number": 9,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 84,
+        "shooting": 36,
+        "passing": 68,
+        "dribbling": 63,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "R. Morrison",
+      "number": 10,
+      "position": "CAM",
+      "overall": 71,
+      "attributes": {
+        "pace": 72,
+        "shooting": 63,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 50,
+        "physicality": 50,
+        "stamina": 54,
+        "awareness": 57,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Nicholson",
+      "number": 11,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 25,
+        "physicality": 83,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Hector",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 67,
+        "shooting": 40,
+        "passing": 62,
+        "dribbling": 60,
+        "defending": 73,
+        "physicality": 81,
+        "stamina": 67,
+        "awareness": 63,
+        "composure": 62
+      }
+    },
+    {
+      "name": "21 A. Mariappa",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 52,
+        "shooting": 27,
+        "passing": 63,
+        "dribbling": 58,
+        "defending": 71,
+        "physicality": 71,
+        "stamina": 55,
+        "awareness": 70,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 W. Morgan",
+      "number": 14,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 32,
+        "shooting": 27,
+        "passing": 55,
+        "dribbling": 51,
+        "defending": 73,
+        "physicality": 90,
+        "stamina": 31,
+        "awareness": 66,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Lowe",
+      "number": 15,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 90,
+        "shooting": 71,
+        "passing": 61,
+        "dribbling": 72,
+        "defending": 33,
+        "physicality": 64,
+        "stamina": 76,
+        "awareness": 66,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Moore",
+      "number": 16,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 73,
+        "shooting": 24,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 78,
+        "stamina": 68,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "K. Palmer",
+      "number": 17,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 71,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 74,
+        "defending": 48,
+        "physicality": 65,
+        "stamina": 61,
+        "awareness": 65,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Bell",
+      "number": 18,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 47,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 64,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 55
+      }
+    },
+    {
+      "name": "20 D. Mattocks",
+      "number": 19,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 90,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 25,
+        "physicality": 65,
+        "stamina": 72,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "20 R. Austin",
+      "number": 20,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 49,
+        "shooting": 44,
+        "passing": 64,
+        "dribbling": 53,
+        "defending": 64,
+        "physicality": 90,
+        "stamina": 60,
+        "awareness": 55,
+        "composure": 68
+      }
+    },
+    {
+      "name": "W. Harding",
+      "number": 21,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 33,
+        "passing": 63,
+        "dribbling": 59,
+        "defending": 67,
+        "physicality": 79,
+        "stamina": 83,
+        "awareness": 65,
+        "composure": 55
+      }
+    },
+    {
+      "name": "C. Burke",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 73,
+        "shooting": 71,
+        "passing": 55,
+        "dribbling": 64,
+        "defending": 20,
+        "physicality": 82,
+        "stamina": 56,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "G. McCleary",
+      "number": 23,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 76,
+        "shooting": 64,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 51,
+        "physicality": 77,
+        "stamina": 51,
+        "awareness": 65,
+        "composure": 59
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "Aston Villa",
+  "type": "club",
+  "players": [
+    {
+      "name": "E. Martínez",
+      "number": 1,
+      "position": "GK",
+      "overall": 84,
+      "attributes": {
+        "pace": 85,
+        "defending": 85,
+        "passing": 83,
+        "dribbling": 83,
+        "physicality": 70,
+        "stamina": 40,
+        "awareness": 80,
+        "composure": 60
+      }
+    },
+    {
+      "name": "L. Bailey",
+      "number": 2,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 93,
+        "shooting": 79,
+        "passing": 73,
+        "dribbling": 86,
+        "defending": 25,
+        "physicality": 61,
+        "stamina": 75,
+        "awareness": 80,
+        "composure": 75
+      }
+    },
+    {
+      "name": "D. Ings",
+      "number": 3,
+      "position": "CM",
+      "overall": 81,
+      "attributes": {
+        "pace": 76,
+        "shooting": 86,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 45,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 86,
+        "composure": 85
+      }
+    },
+    {
+      "name": "E. Buendía",
+      "number": 4,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 72,
+        "shooting": 73,
+        "passing": 82,
+        "dribbling": 81,
+        "defending": 68,
+        "physicality": 63,
+        "stamina": 68,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "J. McGinn",
+      "number": 5,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 67,
+        "shooting": 71,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 90,
+        "awareness": 76,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Young",
+      "number": 6,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 77,
+        "dribbling": 78,
+        "defending": 73,
+        "physicality": 62,
+        "stamina": 68,
+        "awareness": 78,
+        "composure": 79
+      }
+    },
+    {
+      "name": "M. Cash",
+      "number": 7,
+      "position": "RB",
+      "overall": 78,
+      "attributes": {
+        "pace": 83,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 75,
+        "physicality": 56,
+        "stamina": 87,
+        "awareness": 76,
+        "composure": 72
+      }
+    },
+    {
+      "name": "O. Watkins",
+      "number": 8,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 89,
+        "shooting": 80,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 46,
+        "physicality": 76,
+        "stamina": 88,
+        "awareness": 77,
+        "composure": 66
+      }
+    },
+    {
+      "name": "T. Mings",
+      "number": 9,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 81,
+        "shooting": 37,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 78,
+        "physicality": 84,
+        "stamina": 72,
+        "awareness": 79,
+        "composure": 71
+      }
+    },
+    {
+      "name": "E. Konsa",
+      "number": 10,
+      "position": "CB",
+      "overall": 78,
+      "attributes": {
+        "pace": 81,
+        "shooting": 34,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 77,
+        "physicality": 77,
+        "stamina": 71,
+        "awareness": 80,
+        "composure": 77
+      }
+    },
+    {
+      "name": "Douglas Luiz",
+      "number": 11,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 65,
+        "shooting": 64,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 75,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 80,
+        "composure": 77
+      }
+    },
+    {
+      "name": "B. Traoré",
+      "number": 12,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 74,
+        "dribbling": 82,
+        "defending": 40,
+        "physicality": 65,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Targett",
+      "number": 13,
+      "position": "LB",
+      "overall": 77,
+      "attributes": {
+        "pace": 74,
+        "shooting": 40,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 75,
+        "physicality": 66,
+        "stamina": 78,
+        "awareness": 74,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Sanson",
+      "number": 14,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 69,
+        "shooting": 71,
+        "passing": 77,
+        "dribbling": 76,
+        "defending": 74,
+        "physicality": 76,
+        "stamina": 81,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "A. El Ghazi",
+      "number": 15,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 28,
+        "physicality": 75,
+        "stamina": 73,
+        "awareness": 79,
+        "composure": 72
+      }
+    },
+    {
+      "name": "18 J. Terry",
+      "number": 16,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 34,
+        "shooting": 46,
+        "passing": 67,
+        "dribbling": 45,
+        "defending": 73,
+        "physicality": 83,
+        "stamina": 50,
+        "awareness": 73,
+        "composure": 82
+      }
+    },
+    {
+      "name": "M. Nakamba",
+      "number": 17,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 36,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 78,
+        "physicality": 74,
+        "stamina": 82,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Trezeguet",
+      "number": 18,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 77,
+        "shooting": 72,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 43,
+        "physicality": 67,
+        "stamina": 81,
+        "awareness": 66,
+        "composure": 74
+      }
+    },
+    {
+      "name": "K. Hause",
+      "number": 19,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 35,
+        "passing": 69,
+        "dribbling": 54,
+        "defending": 74,
+        "physicality": 88,
+        "stamina": 61,
+        "awareness": 69,
+        "composure": 60
+      }
+    },
+    {
+      "name": "A. Tuanzebe",
+      "number": 20,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 87,
+        "shooting": 26,
+        "passing": 75,
+        "dribbling": 66,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 77
+      }
+    },
+    {
+      "name": "J. Steer",
+      "number": 21,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 47,
+        "shooting": 11,
+        "passing": 40,
+        "dribbling": 11,
+        "defending": 12,
+        "physicality": 61,
+        "stamina": 39,
+        "awareness": 67,
+        "composure": 30
+      }
+    },
+    {
+      "name": "19 M. Jedinák",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 47,
+        "shooting": 59,
+        "passing": 66,
+        "dribbling": 55,
+        "defending": 73,
+        "physicality": 81,
+        "stamina": 57,
+        "awareness": 70,
+        "composure": 73
+      }
+    },
+    {
+      "name": "21 A. Elmohamady",
+      "number": 23,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 56,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 67,
+        "physicality": 72,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 68
+      }
+    }
+  ]
+}

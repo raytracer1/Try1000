@@ -1,0 +1,210 @@
+{
+  "name": "Colo-Colo",
+  "type": "club",
+  "players": [
+    {
+      "name": "21 E. Paredes",
+      "number": 1,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 55,
+        "shooting": 79,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 22,
+        "physicality": 78,
+        "stamina": 55,
+        "awareness": 71,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 O. Opazo",
+      "number": 2,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 83,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 71,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 83,
+        "awareness": 67,
+        "composure": 71
+      }
+    },
+    {
+      "name": "21 P. Mouche",
+      "number": 3,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 68,
+        "passing": 71,
+        "dribbling": 73,
+        "defending": 12,
+        "physicality": 73,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 M. Fernández",
+      "number": 4,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 64,
+        "shooting": 59,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 58,
+        "physicality": 63,
+        "stamina": 63,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 M. Bolados",
+      "number": 5,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 79,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 72,
+        "defending": 61,
+        "physicality": 63,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 J. Barroso",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 60,
+        "shooting": 36,
+        "passing": 65,
+        "dribbling": 43,
+        "defending": 73,
+        "physicality": 78,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 M. Zaldivia",
+      "number": 7,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 47,
+        "shooting": 32,
+        "passing": 65,
+        "dribbling": 59,
+        "defending": 72,
+        "physicality": 79,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 72
+      }
+    },
+    {
+      "name": "21 M. Pinto",
+      "number": 8,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 54,
+        "shooting": 20,
+        "passing": 38,
+        "dribbling": 21,
+        "defending": 19,
+        "physicality": 68,
+        "stamina": 36,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "19 A. Orión",
+      "number": 9,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 44,
+        "shooting": 13,
+        "passing": 20,
+        "dribbling": 13,
+        "defending": 14,
+        "physicality": 73,
+        "stamina": 37,
+        "awareness": 66,
+        "composure": 50
+      }
+    },
+    {
+      "name": "21 I. Morales",
+      "number": 10,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 72,
+        "shooting": 65,
+        "passing": 61,
+        "dribbling": 67,
+        "defending": 11,
+        "physicality": 71,
+        "stamina": 71,
+        "awareness": 53,
+        "composure": 56
+      }
+    },
+    {
+      "name": "21 D. Melo",
+      "number": 11,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 48,
+        "shooting": 12,
+        "passing": 50,
+        "dribbling": 20,
+        "defending": 24,
+        "physicality": 49,
+        "stamina": 27,
+        "awareness": 61,
+        "composure": 58
+      }
+    },
+    {
+      "name": "21 C. Villanueva",
+      "number": 12,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 67,
+        "shooting": 55,
+        "passing": 64,
+        "dribbling": 63,
+        "defending": 48,
+        "physicality": 60,
+        "stamina": 66,
+        "awareness": 52,
+        "composure": 58
+      }
+    }
+  ]
+}

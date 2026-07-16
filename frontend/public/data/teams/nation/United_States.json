@@ -1,0 +1,395 @@
+{
+  "name": "United States",
+  "type": "nation",
+  "players": [
+    {
+      "name": "C. Pulisic",
+      "number": 1,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 87,
+        "shooting": 73,
+        "passing": 77,
+        "dribbling": 88,
+        "defending": 32,
+        "physicality": 54,
+        "stamina": 76,
+        "awareness": 78,
+        "composure": 80
+      }
+    },
+    {
+      "name": "J. Brooks",
+      "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 64,
+        "shooting": 39,
+        "passing": 74,
+        "dribbling": 64,
+        "defending": 83,
+        "physicality": 84,
+        "stamina": 61,
+        "awareness": 75,
+        "composure": 81
+      }
+    },
+    {
+      "name": "W. McKennie",
+      "number": 3,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 81,
+        "shooting": 69,
+        "passing": 79,
+        "dribbling": 77,
+        "defending": 77,
+        "physicality": 81,
+        "stamina": 85,
+        "awareness": 76,
+        "composure": 76
+      }
+    },
+    {
+      "name": "T. Adams",
+      "number": 4,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 83,
+        "shooting": 48,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 77,
+        "physicality": 68,
+        "stamina": 86,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "G. Reyna",
+      "number": 5,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 76,
+        "shooting": 68,
+        "passing": 79,
+        "dribbling": 85,
+        "defending": 35,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Z. Steffen",
+      "number": 6,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 52,
+        "shooting": 9,
+        "passing": 52,
+        "dribbling": 15,
+        "defending": 12,
+        "physicality": 69,
+        "stamina": 39,
+        "awareness": 72,
+        "composure": 56
+      }
+    },
+    {
+      "name": "S. Dest",
+      "number": 7,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 86,
+        "shooting": 58,
+        "passing": 77,
+        "dribbling": 83,
+        "defending": 70,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 73
+      }
+    },
+    {
+      "name": "19 C. Dempsey",
+      "number": 8,
+      "position": "CAM",
+      "overall": 76,
+      "attributes": {
+        "pace": 62,
+        "shooting": 75,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 40,
+        "physicality": 73,
+        "stamina": 62,
+        "awareness": 77,
+        "composure": 77
+      }
+    },
+    {
+      "name": "C. Roldan",
+      "number": 9,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 72,
+        "shooting": 67,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 73,
+        "physicality": 72,
+        "stamina": 92,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "20 F. Johnson",
+      "number": 10,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 69,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 75,
+        "physicality": 60,
+        "stamina": 67,
+        "awareness": 76,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Long",
+      "number": 11,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 39,
+        "passing": 67,
+        "dribbling": 60,
+        "defending": 75,
+        "physicality": 85,
+        "stamina": 84,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "B. Hamid",
+      "number": 12,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "defending": 75,
+        "passing": 71,
+        "dribbling": 77,
+        "physicality": 75,
+        "stamina": 23,
+        "awareness": 68,
+        "composure": 32
+      }
+    },
+    {
+      "name": "M. Turner",
+      "number": 13,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "defending": 76,
+        "passing": 71,
+        "dribbling": 79,
+        "physicality": 64,
+        "stamina": 35,
+        "awareness": 69,
+        "composure": 49
+      }
+    },
+    {
+      "name": "D. Nagbe",
+      "number": 14,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 78,
+        "shooting": 61,
+        "passing": 83,
+        "dribbling": 80,
+        "defending": 68,
+        "physicality": 73,
+        "stamina": 82,
+        "awareness": 79,
+        "composure": 83
+      }
+    },
+    {
+      "name": "J. Morris",
+      "number": 15,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 91,
+        "shooting": 69,
+        "passing": 76,
+        "dribbling": 73,
+        "defending": 30,
+        "physicality": 85,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "T. Weah",
+      "number": 16,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 88,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 44,
+        "physicality": 65,
+        "stamina": 60,
+        "awareness": 74,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 I. Opara",
+      "number": 17,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 81,
+        "shooting": 30,
+        "passing": 70,
+        "dribbling": 52,
+        "defending": 75,
+        "physicality": 85,
+        "stamina": 61,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "W. Zimmerman",
+      "number": 18,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 58,
+        "shooting": 52,
+        "passing": 69,
+        "dribbling": 48,
+        "defending": 72,
+        "physicality": 87,
+        "stamina": 78,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Frei",
+      "number": 19,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 45,
+        "shooting": 17,
+        "passing": 32,
+        "dribbling": 18,
+        "defending": 20,
+        "physicality": 65,
+        "stamina": 25,
+        "awareness": 70,
+        "composure": 51
+      }
+    },
+    {
+      "name": "18 J. Jones",
+      "number": 20,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 62,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 70,
+        "physicality": 83,
+        "stamina": 81,
+        "awareness": 69,
+        "composure": 69
+      }
+    },
+    {
+      "name": "T. Chandler",
+      "number": 21,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 64,
+        "shooting": 70,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 74,
+        "physicality": 82,
+        "stamina": 66,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Bedoya",
+      "number": 22,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 64,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 61,
+        "physicality": 66,
+        "stamina": 85,
+        "awareness": 78,
+        "composure": 76
+      }
+    },
+    {
+      "name": "P. Arriola",
+      "number": 23,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 81,
+        "shooting": 67,
+        "passing": 68,
+        "dribbling": 74,
+        "defending": 62,
+        "physicality": 67,
+        "stamina": 89,
+        "awareness": 68,
+        "composure": 67
+      }
+    }
+  ]
+}

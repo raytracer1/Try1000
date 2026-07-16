@@ -1,0 +1,396 @@
+{
+  "name": "Racing Club",
+  "type": "club",
+  "players": [
+    {
+      "name": "G. Arias",
+      "number": 1,
+      "position": "GK",
+      "overall": 79,
+      "attributes": {
+        "pace": 79,
+        "defending": 83,
+        "passing": 73,
+        "dribbling": 80,
+        "physicality": 62,
+        "stamina": 32,
+        "awareness": 71,
+        "composure": 45
+      }
+    },
+    {
+      "name": "L. Miranda",
+      "number": 2,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 75,
+        "shooting": 63,
+        "passing": 81,
+        "dribbling": 75,
+        "defending": 68,
+        "physicality": 59,
+        "stamina": 92,
+        "awareness": 69,
+        "composure": 75
+      }
+    },
+    {
+      "name": "21 M. Zaracho",
+      "number": 3,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 87,
+        "shooting": 70,
+        "passing": 81,
+        "dribbling": 81,
+        "defending": 70,
+        "physicality": 56,
+        "stamina": 79,
+        "awareness": 72,
+        "composure": 80
+      }
+    },
+    {
+      "name": "E. Mena",
+      "number": 4,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 83,
+        "shooting": 44,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 68,
+        "physicality": 74,
+        "stamina": 84,
+        "awareness": 75,
+        "composure": 59
+      }
+    },
+    {
+      "name": "L. López",
+      "number": 5,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 63,
+        "shooting": 77,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 57,
+        "physicality": 72,
+        "stamina": 54,
+        "awareness": 74,
+        "composure": 85
+      }
+    },
+    {
+      "name": "T. Chancalay",
+      "number": 6,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 81,
+        "shooting": 72,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 42,
+        "physicality": 56,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 73
+      }
+    },
+    {
+      "name": "I. Piatti",
+      "number": 7,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 62,
+        "shooting": 73,
+        "passing": 76,
+        "dribbling": 80,
+        "defending": 56,
+        "physicality": 65,
+        "stamina": 57,
+        "awareness": 72,
+        "composure": 73
+      }
+    },
+    {
+      "name": "L. Sigali",
+      "number": 8,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 57,
+        "defending": 76,
+        "physicality": 79,
+        "stamina": 55,
+        "awareness": 73,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Rojas",
+      "number": 9,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 80,
+        "shooting": 68,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 57,
+        "physicality": 58,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "21 L. Melgarejo",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 86,
+        "shooting": 69,
+        "passing": 65,
+        "dribbling": 78,
+        "defending": 59,
+        "physicality": 59,
+        "stamina": 82,
+        "awareness": 67,
+        "composure": 75
+      }
+    },
+    {
+      "name": "N. Domínguez",
+      "number": 11,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 58,
+        "shooting": 58,
+        "passing": 76,
+        "dribbling": 66,
+        "defending": 75,
+        "physicality": 80,
+        "stamina": 68,
+        "awareness": 69,
+        "composure": 80
+      }
+    },
+    {
+      "name": "E. Copetti",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 82,
+        "shooting": 74,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 48,
+        "physicality": 88,
+        "stamina": 84,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Correa",
+      "number": 13,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 77,
+        "passing": 63,
+        "dribbling": 70,
+        "defending": 22,
+        "physicality": 84,
+        "stamina": 72,
+        "awareness": 64,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Martínez",
+      "number": 14,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 39,
+        "passing": 72,
+        "dribbling": 65,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 58
+      }
+    },
+    {
+      "name": "D. Cvitanich",
+      "number": 15,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 55,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 67,
+        "defending": 35,
+        "physicality": 74,
+        "stamina": 54,
+        "awareness": 81,
+        "composure": 83
+      }
+    },
+    {
+      "name": "M. Lovera",
+      "number": 16,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 84,
+        "shooting": 63,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 29,
+        "physicality": 58,
+        "stamina": 71,
+        "awareness": 64,
+        "composure": 56
+      }
+    },
+    {
+      "name": "L. Orbán",
+      "number": 17,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 47,
+        "passing": 63,
+        "dribbling": 57,
+        "defending": 70,
+        "physicality": 75,
+        "stamina": 74,
+        "awareness": 68,
+        "composure": 73
+      }
+    },
+    {
+      "name": "A. Moreno",
+      "number": 18,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 68,
+        "shooting": 57,
+        "passing": 80,
+        "dribbling": 73,
+        "defending": 57,
+        "physicality": 57,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Novillo",
+      "number": 19,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 27,
+        "passing": 58,
+        "dribbling": 46,
+        "defending": 72,
+        "physicality": 86,
+        "stamina": 68,
+        "awareness": 69,
+        "composure": 59
+      }
+    },
+    {
+      "name": "I. Pillud",
+      "number": 20,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 64,
+        "shooting": 35,
+        "passing": 67,
+        "dribbling": 62,
+        "defending": 70,
+        "physicality": 81,
+        "stamina": 72,
+        "awareness": 75,
+        "composure": 52
+      }
+    },
+    {
+      "name": "E. Schelotto",
+      "number": 21,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 52,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 69,
+        "physicality": 68,
+        "stamina": 70,
+        "awareness": 74,
+        "composure": 58
+      }
+    },
+    {
+      "name": "J. Cáceres",
+      "number": 22,
+      "position": "RB",
+      "overall": 70,
+      "attributes": {
+        "pace": 84,
+        "shooting": 38,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 67,
+        "physicality": 63,
+        "stamina": 82,
+        "awareness": 63,
+        "composure": 50
+      }
+    },
+    {
+      "name": "M. Meli",
+      "number": 23,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 58,
+        "passing": 72,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 68,
+        "stamina": 88,
+        "awareness": 72,
+        "composure": 65
+      }
+    }
+  ]
+}

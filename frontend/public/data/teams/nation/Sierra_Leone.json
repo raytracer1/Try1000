@@ -1,0 +1,210 @@
+{
+  "name": "Sierra Leone",
+  "type": "nation",
+  "players": [
+    {
+      "name": "21 K. Kamara",
+      "number": 1,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 73,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 13,
+        "physicality": 79,
+        "stamina": 76,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "M. Turay",
+      "number": 2,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 91,
+        "shooting": 70,
+        "passing": 56,
+        "dribbling": 72,
+        "defending": 17,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 68,
+        "composure": 58
+      }
+    },
+    {
+      "name": "M. Bundu",
+      "number": 3,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 86,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 41,
+        "physicality": 71,
+        "stamina": 63,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "A. Kamara",
+      "number": 4,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 75,
+        "shooting": 68,
+        "passing": 58,
+        "dribbling": 65,
+        "defending": 25,
+        "physicality": 85,
+        "stamina": 66,
+        "awareness": 66,
+        "composure": 62
+      }
+    },
+    {
+      "name": "19 A. Kamara",
+      "number": 5,
+      "position": "ST",
+      "overall": 68,
+      "attributes": {
+        "pace": 81,
+        "shooting": 70,
+        "passing": 53,
+        "dribbling": 60,
+        "defending": 19,
+        "physicality": 79,
+        "stamina": 52,
+        "awareness": 59,
+        "composure": 67
+      }
+    },
+    {
+      "name": "S. Kaikai",
+      "number": 6,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 80,
+        "shooting": 61,
+        "passing": 62,
+        "dribbling": 71,
+        "defending": 49,
+        "physicality": 53,
+        "stamina": 56,
+        "awareness": 56,
+        "composure": 59
+      }
+    },
+    {
+      "name": "O. Kakay",
+      "number": 7,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 72,
+        "shooting": 24,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 68,
+        "physicality": 58,
+        "stamina": 64,
+        "awareness": 66,
+        "composure": 47
+      }
+    },
+    {
+      "name": "Y. Kallon",
+      "number": 8,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "shooting": 66,
+        "passing": 60,
+        "dribbling": 76,
+        "defending": 20,
+        "physicality": 60,
+        "stamina": 67,
+        "awareness": 57,
+        "composure": 63
+      }
+    },
+    {
+      "name": "A. Kargbo",
+      "number": 9,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 82,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 64,
+        "defending": 16,
+        "physicality": 50,
+        "stamina": 57,
+        "awareness": 63,
+        "composure": 46
+      }
+    },
+    {
+      "name": "A. Bakayoko",
+      "number": 10,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 80,
+        "shooting": 64,
+        "passing": 57,
+        "dribbling": 62,
+        "defending": 44,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 56,
+        "composure": 51
+      }
+    },
+    {
+      "name": "K. Wright",
+      "number": 11,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 78,
+        "shooting": 32,
+        "passing": 54,
+        "dribbling": 65,
+        "defending": 59,
+        "physicality": 60,
+        "stamina": 81,
+        "awareness": 58,
+        "composure": 60
+      }
+    },
+    {
+      "name": "I. Kanu",
+      "number": 12,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 80,
+        "shooting": 62,
+        "passing": 57,
+        "dribbling": 64,
+        "defending": 55,
+        "physicality": 65,
+        "stamina": 71,
+        "awareness": 58,
+        "composure": 65
+      }
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "name": "Junior FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "20 V. Cantillo",
+      "number": 1,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 68,
+        "shooting": 34,
+        "passing": 82,
+        "dribbling": 75,
+        "defending": 68,
+        "physicality": 76,
+        "stamina": 83,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "S. Viera",
+      "number": 2,
+      "position": "GK",
+      "overall": 74,
+      "attributes": {
+        "pace": 71,
+        "defending": 76,
+        "passing": 73,
+        "dribbling": 75,
+        "physicality": 60,
+        "stamina": 28,
+        "awareness": 64,
+        "composure": 61
+      }
+    },
+    {
+      "name": "21 T. Gutiérrez",
+      "number": 3,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 52,
+        "shooting": 73,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 26,
+        "physicality": 77,
+        "stamina": 49,
+        "awareness": 74,
+        "composure": 80
+      }
+    },
+    {
+      "name": "F. Hinestroza",
+      "number": 4,
+      "position": "RW",
+      "overall": 72,
+      "attributes": {
+        "pace": 94,
+        "shooting": 54,
+        "passing": 69,
+        "dribbling": 77,
+        "defending": 29,
+        "physicality": 67,
+        "stamina": 68,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "F. Sambueza",
+      "number": 5,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 34,
+        "physicality": 40,
+        "stamina": 61,
+        "awareness": 65,
+        "composure": 70
+      }
+    },
+    {
+      "name": "F. Viáfara",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 93,
+        "shooting": 47,
+        "passing": 58,
+        "dribbling": 64,
+        "defending": 67,
+        "physicality": 32,
+        "stamina": 89,
+        "awareness": 61,
+        "composure": 59
+      }
+    },
+    {
+      "name": "G. Fuentes",
+      "number": 7,
+      "position": "LB",
+      "overall": 71,
+      "attributes": {
+        "pace": 84,
+        "shooting": 39,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 68,
+        "physicality": 69,
+        "stamina": 80,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "L. Vásquez",
+      "number": 8,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 28,
+        "shooting": 52,
+        "passing": 71,
+        "dribbling": 59,
+        "defending": 68,
+        "physicality": 79,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 58
+      }
+    },
+    {
+      "name": "G. Mera",
+      "number": 9,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 49,
+        "shooting": 23,
+        "passing": 47,
+        "dribbling": 33,
+        "defending": 70,
+        "physicality": 91,
+        "stamina": 67,
+        "awareness": 60,
+        "composure": 61
+      }
+    },
+    {
+      "name": "W. Pacheco",
+      "number": 10,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 87,
+        "shooting": 47,
+        "passing": 66,
+        "dribbling": 66,
+        "defending": 65,
+        "physicality": 47,
+        "stamina": 85,
+        "awareness": 58,
+        "composure": 53
+      }
+    },
+    {
+      "name": "E. Velasco",
+      "number": 11,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 78,
+        "shooting": 29,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 80,
+        "stamina": 90,
+        "awareness": 60,
+        "composure": 55
+      }
+    },
+    {
+      "name": "E. Cetré",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 84,
+        "shooting": 72,
+        "passing": 64,
+        "dribbling": 73,
+        "defending": 29,
+        "physicality": 52,
+        "stamina": 80,
+        "awareness": 50,
+        "composure": 64
+      }
+    },
+    {
+      "name": "D. Moreno",
+      "number": 13,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 30,
+        "passing": 64,
+        "dribbling": 57,
+        "defending": 62,
+        "physicality": 79,
+        "stamina": 94,
+        "awareness": 69,
+        "composure": 64
+      }
+    },
+    {
+      "name": "D. Rosero",
+      "number": 14,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 71,
+        "shooting": 33,
+        "passing": 60,
+        "dribbling": 50,
+        "defending": 70,
+        "physicality": 82,
+        "stamina": 87,
+        "awareness": 63,
+        "composure": 55
+      }
+    },
+    {
+      "name": "21 J. Sánchez",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 68,
+        "shooting": 57,
+        "passing": 68,
+        "dribbling": 66,
+        "defending": 67,
+        "physicality": 76,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "R. Manjarrés",
+      "number": 16,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 67,
+        "shooting": 51,
+        "passing": 76,
+        "dribbling": 56,
+        "defending": 51,
+        "physicality": 65,
+        "stamina": 71,
+        "awareness": 60,
+        "composure": 55
+      }
+    },
+    {
+      "name": "J. Gómez",
+      "number": 17,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 50,
+        "shooting": 18,
+        "passing": 57,
+        "dribbling": 56,
+        "defending": 67,
+        "physicality": 81,
+        "stamina": 63,
+        "awareness": 59,
+        "composure": 65
+      }
+    },
+    {
+      "name": "H. Martínez",
+      "number": 18,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 67,
+        "shooting": 29,
+        "passing": 63,
+        "dribbling": 40,
+        "defending": 61,
+        "physicality": 64,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 54
+      }
+    },
+    {
+      "name": "F. Ángel",
+      "number": 19,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 65,
+        "shooting": 61,
+        "passing": 61,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 45,
+        "stamina": 60,
+        "awareness": 60,
+        "composure": 48
+      }
+    }
+  ]
+}

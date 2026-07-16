@@ -1,0 +1,396 @@
+{
+  "name": "Cruz Azul",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Rodríguez",
+      "number": 1,
+      "position": "ST",
+      "overall": 80,
+      "attributes": {
+        "pace": 87,
+        "shooting": 84,
+        "passing": 67,
+        "dribbling": 81,
+        "defending": 40,
+        "physicality": 76,
+        "stamina": 84,
+        "awareness": 80,
+        "composure": 72
+      }
+    },
+    {
+      "name": "O. Pineda",
+      "number": 2,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 87,
+        "shooting": 75,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 65,
+        "physicality": 57,
+        "stamina": 85,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "L. Romo",
+      "number": 3,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 69,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 64,
+        "defending": 77,
+        "physicality": 90,
+        "stamina": 80,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "R. Alvarado",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 72,
+        "shooting": 68,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 49,
+        "physicality": 71,
+        "stamina": 84,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Otero",
+      "number": 5,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 81,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 78,
+        "defending": 44,
+        "physicality": 45,
+        "stamina": 64,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Corona",
+      "number": 6,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 72,
+        "defending": 73,
+        "passing": 77,
+        "dribbling": 78,
+        "physicality": 52,
+        "stamina": 25,
+        "awareness": 70,
+        "composure": 63
+      }
+    },
+    {
+      "name": "G. Fernández",
+      "number": 7,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 67,
+        "shooting": 65,
+        "passing": 76,
+        "dribbling": 78,
+        "defending": 73,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 69
+      }
+    },
+    {
+      "name": "R. Baca",
+      "number": 8,
+      "position": "CDM",
+      "overall": 74,
+      "attributes": {
+        "pace": 76,
+        "shooting": 57,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 92,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "J. Escobar",
+      "number": 9,
+      "position": "RB",
+      "overall": 74,
+      "attributes": {
+        "pace": 74,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 64,
+        "defending": 75,
+        "physicality": 82,
+        "stamina": 77,
+        "awareness": 66,
+        "composure": 62
+      }
+    },
+    {
+      "name": "P. Aguilar",
+      "number": 10,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 52,
+        "shooting": 50,
+        "passing": 60,
+        "dribbling": 50,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 62,
+        "awareness": 67,
+        "composure": 78
+      }
+    },
+    {
+      "name": "A. Aldrete",
+      "number": 11,
+      "position": "LB",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "shooting": 41,
+        "passing": 70,
+        "dribbling": 68,
+        "defending": 72,
+        "physicality": 64,
+        "stamina": 81,
+        "awareness": 71,
+        "composure": 66
+      }
+    },
+    {
+      "name": "I. Rivero",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 67,
+        "shooting": 50,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 67,
+        "physicality": 68,
+        "stamina": 79,
+        "awareness": 75,
+        "composure": 65
+      }
+    },
+    {
+      "name": "W. Montoya",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 78,
+        "shooting": 54,
+        "passing": 71,
+        "dribbling": 78,
+        "defending": 55,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 66
+      }
+    },
+    {
+      "name": "J. Domínguez",
+      "number": 14,
+      "position": "RB",
+      "overall": 73,
+      "attributes": {
+        "pace": 66,
+        "shooting": 29,
+        "passing": 66,
+        "dribbling": 57,
+        "defending": 75,
+        "physicality": 74,
+        "stamina": 74,
+        "awareness": 70,
+        "composure": 58
+      }
+    },
+    {
+      "name": "Y. Yotún",
+      "number": 15,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 62,
+        "shooting": 65,
+        "passing": 75,
+        "dribbling": 72,
+        "defending": 63,
+        "physicality": 70,
+        "stamina": 83,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Martínez",
+      "number": 16,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 80,
+        "shooting": 50,
+        "passing": 72,
+        "dribbling": 73,
+        "defending": 68,
+        "physicality": 62,
+        "stamina": 84,
+        "awareness": 60,
+        "composure": 68
+      }
+    },
+    {
+      "name": "S. Giménez",
+      "number": 17,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 77,
+        "shooting": 72,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 45,
+        "physicality": 83,
+        "stamina": 62,
+        "awareness": 62,
+        "composure": 57
+      }
+    },
+    {
+      "name": "L. Mendoza",
+      "number": 18,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 59,
+        "passing": 64,
+        "dribbling": 71,
+        "defending": 40,
+        "physicality": 70,
+        "stamina": 71,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "B. Angulo",
+      "number": 19,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 79,
+        "shooting": 75,
+        "passing": 56,
+        "dribbling": 72,
+        "defending": 18,
+        "physicality": 71,
+        "stamina": 77,
+        "awareness": 70,
+        "composure": 57
+      }
+    },
+    {
+      "name": "S. Jurado",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 48,
+        "shooting": 7,
+        "passing": 38,
+        "dribbling": 14,
+        "defending": 10,
+        "physicality": 48,
+        "stamina": 35,
+        "awareness": 55,
+        "composure": 36
+      }
+    },
+    {
+      "name": "L. Passerini",
+      "number": 21,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 34,
+        "shooting": 69,
+        "passing": 54,
+        "dribbling": 59,
+        "defending": 27,
+        "physicality": 90,
+        "stamina": 61,
+        "awareness": 65,
+        "composure": 55
+      }
+    },
+    {
+      "name": "A. Gutiérrez",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 63,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 68,
+        "awareness": 58,
+        "composure": 44
+      }
+    },
+    {
+      "name": "A. Gudiño",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 46,
+        "shooting": 9,
+        "passing": 27,
+        "dribbling": 9,
+        "defending": 10,
+        "physicality": 61,
+        "stamina": 18,
+        "awareness": 58,
+        "composure": 36
+      }
+    }
+  ]
+}

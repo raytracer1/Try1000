@@ -1,0 +1,396 @@
+{
+  "name": "RC Strasbourg Alsace",
+  "type": "club",
+  "players": [
+    {
+      "name": "L. Ajorque",
+      "number": 1,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 61,
+        "shooting": 81,
+        "passing": 69,
+        "dribbling": 72,
+        "defending": 19,
+        "physicality": 89,
+        "stamina": 76,
+        "awareness": 79,
+        "composure": 75
+      }
+    },
+    {
+      "name": "K. Gameiro",
+      "number": 2,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 84,
+        "shooting": 76,
+        "passing": 79,
+        "dribbling": 73,
+        "defending": 33,
+        "physicality": 64,
+        "stamina": 69,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "M. Sels",
+      "number": 3,
+      "position": "GK",
+      "overall": 77,
+      "attributes": {
+        "pace": 76,
+        "defending": 76,
+        "passing": 75,
+        "dribbling": 76,
+        "physicality": 67,
+        "stamina": 26,
+        "awareness": 74,
+        "composure": 62
+      }
+    },
+    {
+      "name": "A. Thomasson",
+      "number": 4,
+      "position": "CAM",
+      "overall": 76,
+      "attributes": {
+        "pace": 68,
+        "shooting": 67,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 68,
+        "physicality": 65,
+        "stamina": 78,
+        "awareness": 76,
+        "composure": 77
+      }
+    },
+    {
+      "name": "F. Guilbert",
+      "number": 5,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 74,
+        "shooting": 40,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 77,
+        "physicality": 77,
+        "stamina": 78,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Djiku",
+      "number": 6,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 80,
+        "shooting": 34,
+        "passing": 74,
+        "dribbling": 67,
+        "defending": 76,
+        "physicality": 82,
+        "stamina": 81,
+        "awareness": 72,
+        "composure": 74
+      }
+    },
+    {
+      "name": "J. Aholou",
+      "number": 7,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 65,
+        "shooting": 60,
+        "passing": 76,
+        "dribbling": 69,
+        "defending": 76,
+        "physicality": 82,
+        "stamina": 72,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "H. Diallo",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 73,
+        "shooting": 78,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 17,
+        "physicality": 79,
+        "stamina": 70,
+        "awareness": 75,
+        "composure": 66
+      }
+    },
+    {
+      "name": "D. Liénard",
+      "number": 9,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 55,
+        "shooting": 63,
+        "passing": 80,
+        "dribbling": 73,
+        "defending": 61,
+        "physicality": 70,
+        "stamina": 72,
+        "awareness": 72,
+        "composure": 75
+      }
+    },
+    {
+      "name": "A. Caci",
+      "number": 10,
+      "position": "LB",
+      "overall": 74,
+      "attributes": {
+        "pace": 72,
+        "shooting": 53,
+        "passing": 71,
+        "dribbling": 66,
+        "defending": 72,
+        "physicality": 74,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "J. Bellegarde",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 79,
+        "shooting": 58,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 71,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 L. Koné",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 53,
+        "shooting": 31,
+        "passing": 63,
+        "dribbling": 50,
+        "defending": 74,
+        "physicality": 87,
+        "stamina": 69,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "E. Kawashima",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 42,
+        "shooting": 14,
+        "passing": 33,
+        "dribbling": 12,
+        "defending": 13,
+        "physicality": 60,
+        "stamina": 30,
+        "awareness": 70,
+        "composure": 44
+      }
+    },
+    {
+      "name": "I. Sissoko",
+      "number": 14,
+      "position": "CDM",
+      "overall": 72,
+      "attributes": {
+        "pace": 52,
+        "shooting": 45,
+        "passing": 76,
+        "dribbling": 68,
+        "defending": 73,
+        "physicality": 89,
+        "stamina": 83,
+        "awareness": 73,
+        "composure": 68
+      }
+    },
+    {
+      "name": "M. Le Marchand",
+      "number": 15,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 35,
+        "passing": 72,
+        "dribbling": 62,
+        "defending": 72,
+        "physicality": 74,
+        "stamina": 63,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Waris",
+      "number": 16,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 87,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 30,
+        "physicality": 62,
+        "stamina": 64,
+        "awareness": 69,
+        "composure": 73
+      }
+    },
+    {
+      "name": "L. Mothiba",
+      "number": 17,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 66,
+        "dribbling": 71,
+        "defending": 15,
+        "physicality": 74,
+        "stamina": 69,
+        "awareness": 69,
+        "composure": 75
+      }
+    },
+    {
+      "name": "B. Kamara",
+      "number": 18,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 41,
+        "shooting": 12,
+        "passing": 15,
+        "dribbling": 19,
+        "defending": 15,
+        "physicality": 77,
+        "stamina": 32,
+        "awareness": 65,
+        "composure": 58
+      }
+    },
+    {
+      "name": "G. Nyamsi",
+      "number": 19,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 52,
+        "shooting": 24,
+        "passing": 65,
+        "dribbling": 43,
+        "defending": 67,
+        "physicality": 91,
+        "stamina": 54,
+        "awareness": 62,
+        "composure": 58
+      }
+    },
+    {
+      "name": "S. Prcić",
+      "number": 20,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 54,
+        "shooting": 54,
+        "passing": 74,
+        "dribbling": 66,
+        "defending": 70,
+        "physicality": 66,
+        "stamina": 73,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "20 B. Corgnet",
+      "number": 21,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 50,
+        "shooting": 60,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 54,
+        "physicality": 62,
+        "stamina": 50,
+        "awareness": 66,
+        "composure": 63
+      }
+    },
+    {
+      "name": "20 J. Grimm",
+      "number": 22,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 52,
+        "shooting": 48,
+        "passing": 68,
+        "dribbling": 55,
+        "defending": 71,
+        "physicality": 65,
+        "stamina": 67,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "L. Perrin",
+      "number": 23,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 48,
+        "shooting": 28,
+        "passing": 67,
+        "dribbling": 49,
+        "defending": 72,
+        "physicality": 73,
+        "stamina": 67,
+        "awareness": 65,
+        "composure": 61
+      }
+    }
+  ]
+}

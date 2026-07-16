@@ -1,0 +1,396 @@
+{
+  "name": "SD Huesca",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Buffarini",
+      "number": 1,
+      "position": "RB",
+      "overall": 76,
+      "attributes": {
+        "pace": 87,
+        "shooting": 50,
+        "passing": 69,
+        "dribbling": 76,
+        "defending": 72,
+        "physicality": 76,
+        "stamina": 91,
+        "awareness": 74,
+        "composure": 66
+      }
+    },
+    {
+      "name": "D. Siovas",
+      "number": 2,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 29,
+        "shooting": 38,
+        "passing": 72,
+        "dribbling": 62,
+        "defending": 77,
+        "physicality": 90,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Andrés Fernández",
+      "number": 3,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 78,
+        "defending": 76,
+        "passing": 74,
+        "dribbling": 75,
+        "physicality": 74,
+        "stamina": 39,
+        "awareness": 71,
+        "composure": 56
+      }
+    },
+    {
+      "name": "Pulido",
+      "number": 4,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 41,
+        "shooting": 37,
+        "passing": 70,
+        "dribbling": 39,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 77,
+        "awareness": 71,
+        "composure": 59
+      }
+    },
+    {
+      "name": "Mosquera",
+      "number": 5,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 31,
+        "shooting": 58,
+        "passing": 74,
+        "dribbling": 65,
+        "defending": 72,
+        "physicality": 68,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "Mikel Rico",
+      "number": 6,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 32,
+        "shooting": 73,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 77,
+        "physicality": 77,
+        "stamina": 78,
+        "awareness": 77,
+        "composure": 76
+      }
+    },
+    {
+      "name": "Jaime Seoane",
+      "number": 7,
+      "position": "CDM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 70,
+        "physicality": 67,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "21 Pedro López",
+      "number": 8,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 66,
+        "shooting": 53,
+        "passing": 73,
+        "dribbling": 68,
+        "defending": 75,
+        "physicality": 64,
+        "stamina": 60,
+        "awareness": 69,
+        "composure": 67
+      }
+    },
+    {
+      "name": "21 Luisinho",
+      "number": 9,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 49,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 74,
+        "physicality": 59,
+        "stamina": 52,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Juan Carlos",
+      "number": 10,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 58,
+        "shooting": 67,
+        "passing": 76,
+        "dribbling": 74,
+        "defending": 59,
+        "physicality": 58,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 76
+      }
+    },
+    {
+      "name": "David Ferreiro",
+      "number": 11,
+      "position": "LW",
+      "overall": 72,
+      "attributes": {
+        "pace": 84,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 23,
+        "physicality": 34,
+        "stamina": 36,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "F. Miguel",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 72,
+        "stamina": 71,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "Insua",
+      "number": 13,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 51,
+        "shooting": 36,
+        "passing": 71,
+        "dribbling": 44,
+        "defending": 74,
+        "physicality": 72,
+        "stamina": 40,
+        "awareness": 65,
+        "composure": 55
+      }
+    },
+    {
+      "name": "Ignasi Miquel",
+      "number": 14,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 60,
+        "shooting": 18,
+        "passing": 70,
+        "dribbling": 55,
+        "defending": 71,
+        "physicality": 77,
+        "stamina": 61,
+        "awareness": 69,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Marc Mateu",
+      "number": 15,
+      "position": "LB",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 70,
+        "defending": 63,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Gaich",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 69,
+        "shooting": 75,
+        "passing": 64,
+        "dribbling": 67,
+        "defending": 26,
+        "physicality": 79,
+        "stamina": 68,
+        "awareness": 64,
+        "composure": 73
+      }
+    },
+    {
+      "name": "19 Javi Varas",
+      "number": 17,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 15,
+        "passing": 32,
+        "dribbling": 14,
+        "defending": 11,
+        "physicality": 63,
+        "stamina": 43,
+        "awareness": 68,
+        "composure": 53
+      }
+    },
+    {
+      "name": "E. Lombardo",
+      "number": 18,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 81,
+        "shooting": 59,
+        "passing": 61,
+        "dribbling": 76,
+        "defending": 36,
+        "physicality": 35,
+        "stamina": 70,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "Joaquín",
+      "number": 19,
+      "position": "RW",
+      "overall": 68,
+      "attributes": {
+        "pace": 81,
+        "shooting": 64,
+        "passing": 60,
+        "dribbling": 73,
+        "defending": 21,
+        "physicality": 56,
+        "stamina": 62,
+        "awareness": 62,
+        "composure": 66
+      }
+    },
+    {
+      "name": "I. Pitta",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 73,
+        "passing": 55,
+        "dribbling": 63,
+        "defending": 20,
+        "physicality": 83,
+        "stamina": 51,
+        "awareness": 60,
+        "composure": 51
+      }
+    },
+    {
+      "name": "K. Nwakali",
+      "number": 21,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 69,
+        "shooting": 64,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 64,
+        "composure": 52
+      }
+    },
+    {
+      "name": "17 David López",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 47,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 66,
+        "defending": 51,
+        "physicality": 66,
+        "stamina": 32,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "San Román",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 26,
+        "shooting": 8,
+        "passing": 16,
+        "dribbling": 6,
+        "defending": 12,
+        "physicality": 55,
+        "stamina": 31,
+        "awareness": 61,
+        "composure": 40
+      }
+    }
+  ]
+}

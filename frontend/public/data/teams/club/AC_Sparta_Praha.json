@@ -1,0 +1,396 @@
+{
+  "name": "AC Sparta Praha",
+  "type": "club",
+  "players": [
+    {
+      "name": "18 T. Rosický",
+      "number": 1,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 71,
+        "shooting": 65,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 45,
+        "physicality": 56,
+        "stamina": 68,
+        "awareness": 77,
+        "composure": 84
+      }
+    },
+    {
+      "name": "20 G. Kanga",
+      "number": 2,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 71,
+        "shooting": 68,
+        "passing": 79,
+        "dribbling": 78,
+        "defending": 59,
+        "physicality": 61,
+        "stamina": 83,
+        "awareness": 78,
+        "composure": 82
+      }
+    },
+    {
+      "name": "A. Hložek",
+      "number": 3,
+      "position": "ST",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "shooting": 75,
+        "passing": 72,
+        "dribbling": 77,
+        "defending": 32,
+        "physicality": 82,
+        "stamina": 76,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. Moberg Karlsson",
+      "number": 4,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 90,
+        "shooting": 71,
+        "passing": 69,
+        "dribbling": 79,
+        "defending": 24,
+        "physicality": 59,
+        "stamina": 72,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "F. Niță",
+      "number": 5,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 76,
+        "defending": 77,
+        "passing": 75,
+        "dribbling": 77,
+        "physicality": 79,
+        "stamina": 36,
+        "awareness": 64,
+        "composure": 62
+      }
+    },
+    {
+      "name": "D. Hancko",
+      "number": 6,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 43,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 75,
+        "physicality": 79,
+        "stamina": 79,
+        "awareness": 74,
+        "composure": 73
+      }
+    },
+    {
+      "name": "B. Dočkal",
+      "number": 7,
+      "position": "CAM",
+      "overall": 75,
+      "attributes": {
+        "pace": 61,
+        "shooting": 69,
+        "passing": 79,
+        "dribbling": 76,
+        "defending": 46,
+        "physicality": 58,
+        "stamina": 60,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "O. Čelůstka",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 62,
+        "shooting": 48,
+        "passing": 70,
+        "dribbling": 63,
+        "defending": 75,
+        "physicality": 84,
+        "stamina": 70,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "D. Pavelka",
+      "number": 9,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 68,
+        "shooting": 52,
+        "passing": 75,
+        "dribbling": 73,
+        "defending": 72,
+        "physicality": 73,
+        "stamina": 78,
+        "awareness": 75,
+        "composure": 74
+      }
+    },
+    {
+      "name": "M. Sáček",
+      "number": 10,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 73,
+        "shooting": 59,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 69,
+        "physicality": 65,
+        "stamina": 82,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "L. Krejčí",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 62,
+        "passing": 73,
+        "dribbling": 74,
+        "defending": 68,
+        "physicality": 44,
+        "stamina": 68,
+        "awareness": 73,
+        "composure": 76
+      }
+    },
+    {
+      "name": "19 R. Mavuba",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 54,
+        "shooting": 42,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 74,
+        "physicality": 73,
+        "stamina": 67,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Juliš",
+      "number": 13,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 83,
+        "shooting": 77,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 29,
+        "physicality": 68,
+        "stamina": 69,
+        "awareness": 70,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Pešek",
+      "number": 14,
+      "position": "LW",
+      "overall": 73,
+      "attributes": {
+        "pace": 90,
+        "shooting": 65,
+        "passing": 67,
+        "dribbling": 73,
+        "defending": 23,
+        "physicality": 38,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Heča",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 41,
+        "shooting": 12,
+        "passing": 21,
+        "dribbling": 16,
+        "defending": 14,
+        "physicality": 66,
+        "stamina": 42,
+        "awareness": 68,
+        "composure": 56
+      }
+    },
+    {
+      "name": "C. Højer",
+      "number": 16,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 77,
+        "shooting": 64,
+        "passing": 71,
+        "dribbling": 68,
+        "defending": 66,
+        "physicality": 73,
+        "stamina": 86,
+        "awareness": 69,
+        "composure": 70
+      }
+    },
+    {
+      "name": "T. Wiesner",
+      "number": 17,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 64,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 69,
+        "physicality": 48,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Štetina",
+      "number": 18,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 67,
+        "shooting": 21,
+        "passing": 68,
+        "dribbling": 59,
+        "defending": 73,
+        "physicality": 88,
+        "stamina": 60,
+        "awareness": 64,
+        "composure": 68
+      }
+    },
+    {
+      "name": "F. Souček",
+      "number": 19,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 63,
+        "passing": 73,
+        "dribbling": 71,
+        "defending": 68,
+        "physicality": 74,
+        "stamina": 79,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "A. Vindheim",
+      "number": 20,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 86,
+        "shooting": 51,
+        "passing": 61,
+        "dribbling": 67,
+        "defending": 64,
+        "physicality": 64,
+        "stamina": 84,
+        "awareness": 68,
+        "composure": 66
+      }
+    },
+    {
+      "name": "A. Karabec",
+      "number": 21,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 73,
+        "shooting": 64,
+        "passing": 73,
+        "dribbling": 75,
+        "defending": 35,
+        "physicality": 47,
+        "stamina": 69,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "21 D. Lischka",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 66,
+        "shooting": 37,
+        "passing": 68,
+        "dribbling": 62,
+        "defending": 70,
+        "physicality": 80,
+        "stamina": 58,
+        "awareness": 63,
+        "composure": 66
+      }
+    },
+    {
+      "name": "21 L. Kozák",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 51,
+        "shooting": 74,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 21,
+        "physicality": 84,
+        "stamina": 60,
+        "awareness": 68,
+        "composure": 74
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "name": "VfB Stuttgart",
+  "type": "club",
+  "players": [
+    {
+      "name": "W. Endo",
+      "number": 1,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 60,
+        "shooting": 57,
+        "passing": 79,
+        "dribbling": 72,
+        "defending": 78,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 80
+      }
+    },
+    {
+      "name": "B. Sosa",
+      "number": 2,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 36,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 72,
+        "physicality": 67,
+        "stamina": 78,
+        "awareness": 74,
+        "composure": 69
+      }
+    },
+    {
+      "name": "S. Kalajdžić",
+      "number": 3,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 58,
+        "shooting": 82,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 46,
+        "physicality": 82,
+        "stamina": 67,
+        "awareness": 78,
+        "composure": 72
+      }
+    },
+    {
+      "name": "F. Müller",
+      "number": 4,
+      "position": "GK",
+      "overall": 77,
+      "attributes": {
+        "pace": 76,
+        "defending": 81,
+        "passing": 74,
+        "dribbling": 73,
+        "physicality": 67,
+        "stamina": 34,
+        "awareness": 75,
+        "composure": 38
+      }
+    },
+    {
+      "name": "O. Mangala",
+      "number": 5,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 65,
+        "shooting": 43,
+        "passing": 78,
+        "dribbling": 84,
+        "defending": 72,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 80,
+        "composure": 80
+      }
+    },
+    {
+      "name": "M. Kempf",
+      "number": 6,
+      "position": "CB",
+      "overall": 76,
+      "attributes": {
+        "pace": 84,
+        "shooting": 31,
+        "passing": 64,
+        "dribbling": 59,
+        "defending": 77,
+        "physicality": 80,
+        "stamina": 66,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 G. Castro",
+      "number": 7,
+      "position": "LW",
+      "overall": 75,
+      "attributes": {
+        "pace": 60,
+        "shooting": 65,
+        "passing": 78,
+        "dribbling": 75,
+        "defending": 68,
+        "physicality": 59,
+        "stamina": 67,
+        "awareness": 74,
+        "composure": 78
+      }
+    },
+    {
+      "name": "Silas",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 89,
+        "shooting": 80,
+        "passing": 70,
+        "dribbling": 84,
+        "defending": 50,
+        "physicality": 72,
+        "stamina": 70,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "W. Anton",
+      "number": 9,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 42,
+        "passing": 70,
+        "dribbling": 63,
+        "defending": 78,
+        "physicality": 82,
+        "stamina": 76,
+        "awareness": 67,
+        "composure": 69
+      }
+    },
+    {
+      "name": "20 M. Gómez",
+      "number": 10,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 56,
+        "shooting": 74,
+        "passing": 67,
+        "dribbling": 67,
+        "defending": 31,
+        "physicality": 86,
+        "stamina": 51,
+        "awareness": 75,
+        "composure": 76
+      }
+    },
+    {
+      "name": "D. Didavi",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 53,
+        "shooting": 71,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 59,
+        "physicality": 74,
+        "stamina": 59,
+        "awareness": 69,
+        "composure": 74
+      }
+    },
+    {
+      "name": "C. Führich",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 79,
+        "shooting": 67,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 59,
+        "physicality": 49,
+        "stamina": 79,
+        "awareness": 72,
+        "composure": 62
+      }
+    },
+    {
+      "name": "K. Mavropanos",
+      "number": 13,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 83,
+        "shooting": 30,
+        "passing": 60,
+        "dribbling": 43,
+        "defending": 76,
+        "physicality": 86,
+        "stamina": 63,
+        "awareness": 68,
+        "composure": 55
+      }
+    },
+    {
+      "name": "P. Förster",
+      "number": 14,
+      "position": "RW",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 64,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 60,
+        "physicality": 76,
+        "stamina": 89,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "E. Thommy",
+      "number": 15,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 37,
+        "physicality": 51,
+        "stamina": 60,
+        "awareness": 66,
+        "composure": 62
+      }
+    },
+    {
+      "name": "P. Klement",
+      "number": 16,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 51,
+        "shooting": 62,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 30,
+        "physicality": 45,
+        "stamina": 66,
+        "awareness": 67,
+        "composure": 65
+      }
+    },
+    {
+      "name": "P. Stenzel",
+      "number": 17,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 64,
+        "defending": 75,
+        "physicality": 62,
+        "stamina": 76,
+        "awareness": 70,
+        "composure": 67
+      }
+    },
+    {
+      "name": "O. Marmoush",
+      "number": 18,
+      "position": "ST",
+      "overall": 70,
+      "attributes": {
+        "pace": 89,
+        "shooting": 71,
+        "passing": 70,
+        "dribbling": 77,
+        "defending": 22,
+        "physicality": 53,
+        "stamina": 68,
+        "awareness": 71,
+        "composure": 65
+      }
+    },
+    {
+      "name": "T. Coulibaly",
+      "number": 19,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 77,
+        "shooting": 63,
+        "passing": 67,
+        "dribbling": 80,
+        "defending": 42,
+        "physicality": 60,
+        "stamina": 63,
+        "awareness": 54,
+        "composure": 56
+      }
+    },
+    {
+      "name": "A. Karazor",
+      "number": 20,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 55,
+        "shooting": 35,
+        "passing": 69,
+        "dribbling": 56,
+        "defending": 72,
+        "physicality": 69,
+        "stamina": 74,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Klimowicz",
+      "number": 21,
+      "position": "LW",
+      "overall": 69,
+      "attributes": {
+        "pace": 74,
+        "shooting": 60,
+        "passing": 69,
+        "dribbling": 78,
+        "defending": 29,
+        "physicality": 34,
+        "stamina": 60,
+        "awareness": 68,
+        "composure": 63
+      }
+    },
+    {
+      "name": "H. Al Ghaddioui",
+      "number": 22,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 53,
+        "shooting": 75,
+        "passing": 65,
+        "dribbling": 58,
+        "defending": 22,
+        "physicality": 87,
+        "stamina": 66,
+        "awareness": 64,
+        "composure": 56
+      }
+    },
+    {
+      "name": "F. Bredlow",
+      "number": 23,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 36,
+        "shooting": 5,
+        "passing": 17,
+        "dribbling": 14,
+        "defending": 12,
+        "physicality": 62,
+        "stamina": 20,
+        "awareness": 68,
+        "composure": 41
+      }
+    }
+  ]
+}

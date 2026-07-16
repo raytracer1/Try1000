@@ -1,0 +1,396 @@
+{
+  "name": "Preston North End",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Browne",
+      "number": 1,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 76,
+        "shooting": 70,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 70,
+        "physicality": 75,
+        "stamina": 92,
+        "awareness": 74,
+        "composure": 71
+      }
+    },
+    {
+      "name": "D. Johnson",
+      "number": 2,
+      "position": "CAM",
+      "overall": 72,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 72,
+        "dribbling": 70,
+        "defending": 59,
+        "physicality": 66,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 80
+      }
+    },
+    {
+      "name": "R. Ledson",
+      "number": 3,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 74,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 65,
+        "stamina": 83,
+        "awareness": 67,
+        "composure": 70
+      }
+    },
+    {
+      "name": "S. Sinclair",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 78,
+        "shooting": 74,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 33,
+        "physicality": 67,
+        "stamina": 73,
+        "awareness": 72,
+        "composure": 77
+      }
+    },
+    {
+      "name": "P. Bauer",
+      "number": 5,
+      "position": "CB",
+      "overall": 72,
+      "attributes": {
+        "pace": 31,
+        "shooting": 36,
+        "passing": 64,
+        "dribbling": 38,
+        "defending": 73,
+        "physicality": 92,
+        "stamina": 47,
+        "awareness": 71,
+        "composure": 63
+      }
+    },
+    {
+      "name": "T. Barkhuizen",
+      "number": 6,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 94,
+        "shooting": 67,
+        "passing": 63,
+        "dribbling": 69,
+        "defending": 26,
+        "physicality": 64,
+        "stamina": 81,
+        "awareness": 67,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. Whiteman",
+      "number": 7,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 58,
+        "passing": 73,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 71,
+        "stamina": 78,
+        "awareness": 68,
+        "composure": 74
+      }
+    },
+    {
+      "name": "I. Brown",
+      "number": 8,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 72,
+        "shooting": 65,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 45,
+        "physicality": 65,
+        "stamina": 59,
+        "awareness": 60,
+        "composure": 71
+      }
+    },
+    {
+      "name": "D. Iversen",
+      "number": 9,
+      "position": "GK",
+      "overall": 70,
+      "attributes": {
+        "pace": 72,
+        "defending": 72,
+        "passing": 69,
+        "dribbling": 70,
+        "physicality": 67,
+        "stamina": 44,
+        "awareness": 58,
+        "composure": 47
+      }
+    },
+    {
+      "name": "G. Cunningham",
+      "number": 10,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 68,
+        "physicality": 72,
+        "stamina": 69,
+        "awareness": 66,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Hughes",
+      "number": 11,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 68,
+        "shooting": 35,
+        "passing": 63,
+        "dribbling": 55,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 76,
+        "awareness": 68,
+        "composure": 59
+      }
+    },
+    {
+      "name": "J. Murphy",
+      "number": 12,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 86,
+        "shooting": 64,
+        "passing": 63,
+        "dribbling": 73,
+        "defending": 30,
+        "physicality": 50,
+        "stamina": 60,
+        "awareness": 64,
+        "composure": 59
+      }
+    },
+    {
+      "name": "B. Potts",
+      "number": 13,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 76,
+        "shooting": 65,
+        "passing": 69,
+        "dribbling": 67,
+        "defending": 56,
+        "physicality": 77,
+        "stamina": 87,
+        "awareness": 66,
+        "composure": 64
+      }
+    },
+    {
+      "name": "21 P. Gallagher",
+      "number": 14,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 52,
+        "shooting": 62,
+        "passing": 70,
+        "dribbling": 63,
+        "defending": 65,
+        "physicality": 64,
+        "stamina": 57,
+        "awareness": 64,
+        "composure": 74
+      }
+    },
+    {
+      "name": "S. Maguire",
+      "number": 15,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 82,
+        "shooting": 68,
+        "passing": 62,
+        "dribbling": 70,
+        "defending": 28,
+        "physicality": 63,
+        "stamina": 79,
+        "awareness": 65,
+        "composure": 67
+      }
+    },
+    {
+      "name": "E. Riis",
+      "number": 16,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 82,
+        "shooting": 69,
+        "passing": 57,
+        "dribbling": 68,
+        "defending": 25,
+        "physicality": 78,
+        "stamina": 67,
+        "awareness": 66,
+        "composure": 57
+      }
+    },
+    {
+      "name": "S. van den Berg",
+      "number": 17,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "shooting": 24,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. Storey",
+      "number": 18,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 78,
+        "shooting": 22,
+        "passing": 59,
+        "dribbling": 41,
+        "defending": 70,
+        "physicality": 73,
+        "stamina": 67,
+        "awareness": 65,
+        "composure": 54
+      }
+    },
+    {
+      "name": "D. Rudd",
+      "number": 19,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 46,
+        "shooting": 12,
+        "passing": 36,
+        "dribbling": 20,
+        "defending": 13,
+        "physicality": 64,
+        "stamina": 31,
+        "awareness": 69,
+        "composure": 39
+      }
+    },
+    {
+      "name": "A. McCann",
+      "number": 20,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 58,
+        "passing": 68,
+        "dribbling": 67,
+        "defending": 68,
+        "physicality": 61,
+        "stamina": 86,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "J. Earl",
+      "number": 21,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 78,
+        "shooting": 39,
+        "passing": 56,
+        "dribbling": 65,
+        "defending": 66,
+        "physicality": 76,
+        "stamina": 77,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "C. Wickham",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 36,
+        "shooting": 70,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 28,
+        "physicality": 82,
+        "stamina": 38,
+        "awareness": 69,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Olosunde",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 42,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 66,
+        "awareness": 64,
+        "composure": 52
+      }
+    }
+  ]
+}

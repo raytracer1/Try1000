@@ -1,0 +1,396 @@
+{
+  "name": "BSC Young Boys",
+  "type": "club",
+  "players": [
+    {
+      "name": "J. Nsame",
+      "number": 1,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 79,
+        "shooting": 80,
+        "passing": 68,
+        "dribbling": 73,
+        "defending": 19,
+        "physicality": 87,
+        "stamina": 77,
+        "awareness": 76,
+        "composure": 74
+      }
+    },
+    {
+      "name": "D. von Ballmoos",
+      "number": 2,
+      "position": "GK",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "defending": 77,
+        "passing": 75,
+        "dribbling": 75,
+        "physicality": 74,
+        "stamina": 37,
+        "awareness": 66,
+        "composure": 61
+      }
+    },
+    {
+      "name": "M. Aebischer",
+      "number": 3,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 80,
+        "dribbling": 75,
+        "defending": 64,
+        "physicality": 72,
+        "stamina": 89,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "C. Fassnacht",
+      "number": 4,
+      "position": "RW",
+      "overall": 75,
+      "attributes": {
+        "pace": 84,
+        "shooting": 73,
+        "passing": 71,
+        "dribbling": 74,
+        "defending": 32,
+        "physicality": 78,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "F. Lustenberger",
+      "number": 5,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 44,
+        "shooting": 32,
+        "passing": 70,
+        "dribbling": 61,
+        "defending": 77,
+        "physicality": 71,
+        "stamina": 73,
+        "awareness": 77,
+        "composure": 72
+      }
+    },
+    {
+      "name": "S. Hefti",
+      "number": 6,
+      "position": "RB",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 38,
+        "passing": 68,
+        "dribbling": 61,
+        "defending": 73,
+        "physicality": 77,
+        "stamina": 90,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "N. Moumi Ngamaleu",
+      "number": 7,
+      "position": "LW",
+      "overall": 74,
+      "attributes": {
+        "pace": 92,
+        "shooting": 73,
+        "passing": 69,
+        "dribbling": 75,
+        "defending": 27,
+        "physicality": 75,
+        "stamina": 79,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Sulejmani",
+      "number": 8,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 75,
+        "shooting": 69,
+        "passing": 74,
+        "dribbling": 72,
+        "defending": 36,
+        "physicality": 56,
+        "stamina": 47,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Elia",
+      "number": 9,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 90,
+        "shooting": 73,
+        "passing": 68,
+        "dribbling": 75,
+        "defending": 26,
+        "physicality": 69,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 71
+      }
+    },
+    {
+      "name": "J. Siebatcheu",
+      "number": 10,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 76,
+        "passing": 69,
+        "dribbling": 71,
+        "defending": 18,
+        "physicality": 84,
+        "stamina": 72,
+        "awareness": 70,
+        "composure": 69
+      }
+    },
+    {
+      "name": "J. Lefort",
+      "number": 11,
+      "position": "LB",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 22,
+        "passing": 69,
+        "dribbling": 61,
+        "defending": 73,
+        "physicality": 73,
+        "stamina": 81,
+        "awareness": 70,
+        "composure": 65
+      }
+    },
+    {
+      "name": "U. Garcia",
+      "number": 12,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 78,
+        "shooting": 40,
+        "passing": 69,
+        "dribbling": 68,
+        "defending": 69,
+        "physicality": 74,
+        "stamina": 83,
+        "awareness": 65,
+        "composure": 52
+      }
+    },
+    {
+      "name": "M. Camara",
+      "number": 13,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 38,
+        "passing": 66,
+        "dribbling": 42,
+        "defending": 73,
+        "physicality": 85,
+        "stamina": 68,
+        "awareness": 55,
+        "composure": 55
+      }
+    },
+    {
+      "name": "S. Lauper",
+      "number": 14,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 73,
+        "shooting": 64,
+        "passing": 75,
+        "dribbling": 68,
+        "defending": 72,
+        "physicality": 76,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 67
+      }
+    },
+    {
+      "name": "C. Zesiger",
+      "number": 15,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 68,
+        "shooting": 33,
+        "passing": 60,
+        "dribbling": 43,
+        "defending": 71,
+        "physicality": 84,
+        "stamina": 74,
+        "awareness": 61,
+        "composure": 56
+      }
+    },
+    {
+      "name": "M. Spielmann",
+      "number": 16,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 86,
+        "shooting": 66,
+        "passing": 67,
+        "dribbling": 68,
+        "defending": 34,
+        "physicality": 62,
+        "stamina": 67,
+        "awareness": 58,
+        "composure": 64
+      }
+    },
+    {
+      "name": "V. Sierro",
+      "number": 17,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 64,
+        "shooting": 53,
+        "passing": 74,
+        "dribbling": 64,
+        "defending": 65,
+        "physicality": 73,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "Q. Maceiras",
+      "number": 18,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 82,
+        "shooting": 57,
+        "passing": 62,
+        "dribbling": 67,
+        "defending": 61,
+        "physicality": 68,
+        "stamina": 79,
+        "awareness": 59,
+        "composure": 60
+      }
+    },
+    {
+      "name": "W. Kanga",
+      "number": 19,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 72,
+        "shooting": 66,
+        "passing": 61,
+        "dribbling": 69,
+        "defending": 15,
+        "physicality": 80,
+        "stamina": 33,
+        "awareness": 57,
+        "composure": 59
+      }
+    },
+    {
+      "name": "20 M. Wölfli",
+      "number": 20,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 42,
+        "shooting": 13,
+        "passing": 13,
+        "dribbling": 15,
+        "defending": 11,
+        "physicality": 60,
+        "stamina": 24,
+        "awareness": 69,
+        "composure": 64
+      }
+    },
+    {
+      "name": "F. Mambimbi",
+      "number": 21,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 88,
+        "shooting": 69,
+        "passing": 56,
+        "dribbling": 72,
+        "defending": 20,
+        "physicality": 52,
+        "stamina": 65,
+        "awareness": 57,
+        "composure": 54
+      }
+    },
+    {
+      "name": "F. Rieder",
+      "number": 22,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 52,
+        "passing": 69,
+        "dribbling": 70,
+        "defending": 53,
+        "physicality": 62,
+        "stamina": 65,
+        "awareness": 52,
+        "composure": 59
+      }
+    },
+    {
+      "name": "G. Faivre",
+      "number": 23,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 40,
+        "shooting": 13,
+        "passing": 34,
+        "dribbling": 10,
+        "defending": 15,
+        "physicality": 52,
+        "stamina": 30,
+        "awareness": 50,
+        "composure": 46
+      }
+    }
+  ]
+}

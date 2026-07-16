@@ -1,0 +1,226 @@
+{
+  "name": "Patronato",
+  "type": "club",
+  "players": [
+    {
+      "name": "19 M. Sperduti",
+      "number": 1,
+      "position": "RW",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 66,
+        "passing": 68,
+        "dribbling": 74,
+        "defending": 22,
+        "physicality": 73,
+        "stamina": 72,
+        "awareness": 73,
+        "composure": 69
+      }
+    },
+    {
+      "name": "M. Ibáñez",
+      "number": 2,
+      "position": "GK",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "defending": 70,
+        "passing": 72,
+        "dribbling": 73,
+        "physicality": 74,
+        "stamina": 33,
+        "awareness": 69,
+        "composure": 43
+      }
+    },
+    {
+      "name": "21 C. Chimino",
+      "number": 3,
+      "position": "RB",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 35,
+        "passing": 57,
+        "dribbling": 63,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 71,
+        "composure": 69
+      }
+    },
+    {
+      "name": "G. Gudiño",
+      "number": 4,
+      "position": "RW",
+      "overall": 69,
+      "attributes": {
+        "pace": 79,
+        "shooting": 69,
+        "passing": 64,
+        "dribbling": 70,
+        "defending": 59,
+        "physicality": 49,
+        "stamina": 80,
+        "awareness": 64,
+        "composure": 60
+      }
+    },
+    {
+      "name": "J. Arias",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 61,
+        "shooting": 70,
+        "passing": 66,
+        "dribbling": 63,
+        "defending": 17,
+        "physicality": 70,
+        "stamina": 72,
+        "awareness": 68,
+        "composure": 68
+      }
+    },
+    {
+      "name": "L. Comas",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 84,
+        "shooting": 59,
+        "passing": 63,
+        "dribbling": 71,
+        "defending": 26,
+        "physicality": 34,
+        "stamina": 74,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "R. García Guerreño",
+      "number": 7,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 50,
+        "shooting": 41,
+        "passing": 57,
+        "dribbling": 43,
+        "defending": 68,
+        "physicality": 81,
+        "stamina": 66,
+        "awareness": 63,
+        "composure": 56
+      }
+    },
+    {
+      "name": "L. Marín",
+      "number": 8,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 69,
+        "shooting": 47,
+        "passing": 65,
+        "dribbling": 66,
+        "defending": 66,
+        "physicality": 72,
+        "stamina": 72,
+        "awareness": 58,
+        "composure": 67
+      }
+    },
+    {
+      "name": "F. Cobos",
+      "number": 9,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 60,
+        "shooting": 32,
+        "passing": 62,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 75,
+        "stamina": 69,
+        "awareness": 61,
+        "composure": 62
+      }
+    },
+    {
+      "name": "N. Delgadillo",
+      "number": 10,
+      "position": "LW",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 58,
+        "passing": 68,
+        "dribbling": 70,
+        "defending": 29,
+        "physicality": 66,
+        "stamina": 70,
+        "awareness": 52,
+        "composure": 54
+      }
+    },
+    {
+      "name": "T. Banega",
+      "number": 11,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 69,
+        "shooting": 57,
+        "passing": 73,
+        "dribbling": 67,
+        "defending": 51,
+        "physicality": 60,
+        "stamina": 67,
+        "awareness": 57,
+        "composure": 61
+      }
+    },
+    {
+      "name": "L. Kruspzky",
+      "number": 12,
+      "position": "LB",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 28,
+        "passing": 52,
+        "dribbling": 52,
+        "defending": 65,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 58,
+        "composure": 58
+      }
+    },
+    {
+      "name": "21 F. Costa",
+      "number": 13,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 32,
+        "shooting": 9,
+        "passing": 24,
+        "dribbling": 10,
+        "defending": 9,
+        "physicality": 55,
+        "stamina": 22,
+        "awareness": 59,
+        "composure": 42
+      }
+    }
+  ]
+}

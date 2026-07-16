@@ -1,0 +1,328 @@
+{
+  "name": "New England Revolution",
+  "type": "club",
+  "players": [
+    {
+      "name": "Carles Gil",
+      "number": 1,
+      "position": "CAM",
+      "overall": 78,
+      "attributes": {
+        "pace": 63,
+        "shooting": 72,
+        "passing": 82,
+        "dribbling": 79,
+        "defending": 43,
+        "physicality": 62,
+        "stamina": 85,
+        "awareness": 78,
+        "composure": 77
+      }
+    },
+    {
+      "name": "G. Bou",
+      "number": 2,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 77,
+        "shooting": 77,
+        "passing": 70,
+        "dribbling": 76,
+        "defending": 22,
+        "physicality": 78,
+        "stamina": 74,
+        "awareness": 72,
+        "composure": 76
+      }
+    },
+    {
+      "name": "M. Turner",
+      "number": 3,
+      "position": "GK",
+      "overall": 75,
+      "attributes": {
+        "pace": 76,
+        "defending": 76,
+        "passing": 71,
+        "dribbling": 79,
+        "physicality": 64,
+        "stamina": 35,
+        "awareness": 69,
+        "composure": 49
+      }
+    },
+    {
+      "name": "A. Buksa",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 64,
+        "dribbling": 68,
+        "defending": 23,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Traustason",
+      "number": 5,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 83,
+        "shooting": 65,
+        "passing": 66,
+        "dribbling": 67,
+        "defending": 55,
+        "physicality": 67,
+        "stamina": 90,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "A. Farrell",
+      "number": 6,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 75,
+        "shooting": 41,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 84,
+        "stamina": 83,
+        "awareness": 68,
+        "composure": 64
+      }
+    },
+    {
+      "name": "B. Bye",
+      "number": 7,
+      "position": "RB",
+      "overall": 69,
+      "attributes": {
+        "pace": 79,
+        "shooting": 55,
+        "passing": 62,
+        "dribbling": 64,
+        "defending": 69,
+        "physicality": 73,
+        "stamina": 81,
+        "awareness": 63,
+        "composure": 63
+      }
+    },
+    {
+      "name": "T. Buchanan",
+      "number": 8,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 89,
+        "shooting": 66,
+        "passing": 64,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 62,
+        "stamina": 69,
+        "awareness": 62,
+        "composure": 62
+      }
+    },
+    {
+      "name": "M. Polster",
+      "number": 9,
+      "position": "CDM",
+      "overall": 69,
+      "attributes": {
+        "pace": 59,
+        "shooting": 48,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 65,
+        "physicality": 78,
+        "stamina": 87,
+        "awareness": 64,
+        "composure": 65
+      }
+    },
+    {
+      "name": "D. Jones",
+      "number": 10,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 86,
+        "shooting": 56,
+        "passing": 65,
+        "dribbling": 68,
+        "defending": 65,
+        "physicality": 74,
+        "stamina": 74,
+        "awareness": 58,
+        "composure": 56
+      }
+    },
+    {
+      "name": "L. Caicedo",
+      "number": 11,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 63,
+        "shooting": 46,
+        "passing": 66,
+        "dribbling": 68,
+        "defending": 62,
+        "physicality": 73,
+        "stamina": 82,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "H. Kessler",
+      "number": 12,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 50,
+        "shooting": 23,
+        "passing": 69,
+        "dribbling": 52,
+        "defending": 68,
+        "physicality": 84,
+        "stamina": 73,
+        "awareness": 65,
+        "composure": 63
+      }
+    },
+    {
+      "name": "W. Kaptoum",
+      "number": 13,
+      "position": "CM",
+      "overall": 66,
+      "attributes": {
+        "pace": 56,
+        "shooting": 55,
+        "passing": 73,
+        "dribbling": 69,
+        "defending": 61,
+        "physicality": 66,
+        "stamina": 59,
+        "awareness": 65,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. DeLaGarza",
+      "number": 14,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 62,
+        "shooting": 49,
+        "passing": 66,
+        "dribbling": 57,
+        "defending": 62,
+        "physicality": 69,
+        "stamina": 64,
+        "awareness": 62,
+        "composure": 64
+      }
+    },
+    {
+      "name": "T. McNamara",
+      "number": 15,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 48,
+        "shooting": 63,
+        "passing": 72,
+        "dribbling": 67,
+        "defending": 56,
+        "physicality": 70,
+        "stamina": 52,
+        "awareness": 65,
+        "composure": 65
+      }
+    },
+    {
+      "name": "E. Boateng",
+      "number": 16,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 90,
+        "shooting": 60,
+        "passing": 63,
+        "dribbling": 65,
+        "defending": 49,
+        "physicality": 71,
+        "stamina": 55,
+        "awareness": 57,
+        "composure": 55
+      }
+    },
+    {
+      "name": "Maciel",
+      "number": 17,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 57,
+        "shooting": 26,
+        "passing": 70,
+        "dribbling": 54,
+        "defending": 62,
+        "physicality": 54,
+        "stamina": 68,
+        "awareness": 60,
+        "composure": 58
+      }
+    },
+    {
+      "name": "D. Rivera",
+      "number": 18,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 72,
+        "shooting": 62,
+        "passing": 57,
+        "dribbling": 70,
+        "defending": 24,
+        "physicality": 56,
+        "stamina": 34,
+        "awareness": 42,
+        "composure": 58
+      }
+    },
+    {
+      "name": "E. Edwards Jr.",
+      "number": 19,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 44,
+        "shooting": 15,
+        "passing": 30,
+        "dribbling": 16,
+        "defending": 12,
+        "physicality": 85,
+        "stamina": 45,
+        "awareness": 51,
+        "composure": 30
+      }
+    }
+  ]
+}

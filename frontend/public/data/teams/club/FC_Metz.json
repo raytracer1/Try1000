@@ -1,0 +1,396 @@
+{
+  "name": "FC Metz",
+  "type": "club",
+  "players": [
+    {
+      "name": "A. Oukidja",
+      "number": 1,
+      "position": "GK",
+      "overall": 78,
+      "attributes": {
+        "pace": 79,
+        "defending": 83,
+        "passing": 73,
+        "dribbling": 78,
+        "physicality": 73,
+        "stamina": 35,
+        "awareness": 68,
+        "composure": 57
+      }
+    },
+    {
+      "name": "F. Centonze",
+      "number": 2,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 82,
+        "shooting": 42,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 75,
+        "stamina": 93,
+        "awareness": 71,
+        "composure": 71
+      }
+    },
+    {
+      "name": "T. Delaine",
+      "number": 3,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 86,
+        "shooting": 45,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 68,
+        "physicality": 71,
+        "stamina": 84,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "F. Boulaya",
+      "number": 4,
+      "position": "CM",
+      "overall": 76,
+      "attributes": {
+        "pace": 72,
+        "shooting": 69,
+        "passing": 75,
+        "dribbling": 83,
+        "defending": 22,
+        "physicality": 50,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 77
+      }
+    },
+    {
+      "name": "D. Bronn",
+      "number": 5,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 66,
+        "shooting": 56,
+        "passing": 70,
+        "dribbling": 63,
+        "defending": 76,
+        "physicality": 78,
+        "stamina": 73,
+        "awareness": 73,
+        "composure": 71
+      }
+    },
+    {
+      "name": "H. Maïga",
+      "number": 6,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 55,
+        "shooting": 45,
+        "passing": 72,
+        "dribbling": 69,
+        "defending": 73,
+        "physicality": 87,
+        "stamina": 90,
+        "awareness": 73,
+        "composure": 63
+      }
+    },
+    {
+      "name": "O. Nguette",
+      "number": 7,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 82,
+        "shooting": 66,
+        "passing": 70,
+        "dribbling": 77,
+        "defending": 40,
+        "physicality": 68,
+        "stamina": 62,
+        "awareness": 72,
+        "composure": 72
+      }
+    },
+    {
+      "name": "20 R. Cohade",
+      "number": 8,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 48,
+        "shooting": 52,
+        "passing": 77,
+        "dribbling": 71,
+        "defending": 66,
+        "physicality": 67,
+        "stamina": 62,
+        "awareness": 70,
+        "composure": 74
+      }
+    },
+    {
+      "name": "N. De Préville",
+      "number": 9,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 72,
+        "passing": 73,
+        "dribbling": 73,
+        "defending": 25,
+        "physicality": 64,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 73
+      }
+    },
+    {
+      "name": "S. Alakouch",
+      "number": 10,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 72,
+        "shooting": 40,
+        "passing": 71,
+        "dribbling": 71,
+        "defending": 71,
+        "physicality": 61,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 69
+      }
+    },
+    {
+      "name": "I. Niane",
+      "number": 11,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 58,
+        "dribbling": 74,
+        "defending": 14,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "B. Kouyaté",
+      "number": 12,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 56,
+        "shooting": 23,
+        "passing": 63,
+        "dribbling": 56,
+        "defending": 75,
+        "physicality": 82,
+        "stamina": 71,
+        "awareness": 63,
+        "composure": 59
+      }
+    },
+    {
+      "name": "18 M. Biševac",
+      "number": 13,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 60,
+        "shooting": 37,
+        "passing": 68,
+        "dribbling": 48,
+        "defending": 72,
+        "physicality": 75,
+        "stamina": 56,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "A. Bassi",
+      "number": 14,
+      "position": "CAM",
+      "overall": 71,
+      "attributes": {
+        "pace": 67,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 73,
+        "defending": 53,
+        "physicality": 56,
+        "stamina": 72,
+        "awareness": 66,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 V. Angban",
+      "number": 15,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 62,
+        "shooting": 52,
+        "passing": 74,
+        "dribbling": 74,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 79,
+        "awareness": 67,
+        "composure": 72
+      }
+    },
+    {
+      "name": "K. N'Doram",
+      "number": 16,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 60,
+        "shooting": 42,
+        "passing": 70,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 79,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 65
+      }
+    },
+    {
+      "name": "V. Pajot",
+      "number": 17,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 45,
+        "shooting": 52,
+        "passing": 75,
+        "dribbling": 69,
+        "defending": 71,
+        "physicality": 65,
+        "stamina": 67,
+        "awareness": 71,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Udol",
+      "number": 18,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 69,
+        "shooting": 42,
+        "passing": 68,
+        "dribbling": 68,
+        "defending": 71,
+        "physicality": 68,
+        "stamina": 65,
+        "awareness": 66,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Caillard",
+      "number": 19,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 39,
+        "shooting": 9,
+        "passing": 32,
+        "dribbling": 11,
+        "defending": 15,
+        "physicality": 80,
+        "stamina": 33,
+        "awareness": 62,
+        "composure": 53
+      }
+    },
+    {
+      "name": "L. Gueye",
+      "number": 20,
+      "position": "CM",
+      "overall": 68,
+      "attributes": {
+        "pace": 77,
+        "shooting": 72,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 23,
+        "physicality": 56,
+        "stamina": 67,
+        "awareness": 57,
+        "composure": 65
+      }
+    },
+    {
+      "name": "W. Tchimbembé",
+      "number": 21,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 86,
+        "shooting": 64,
+        "passing": 72,
+        "dribbling": 68,
+        "defending": 67,
+        "physicality": 60,
+        "stamina": 68,
+        "awareness": 62,
+        "composure": 60
+      }
+    },
+    {
+      "name": "P. Yade",
+      "number": 22,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 77,
+        "shooting": 66,
+        "passing": 59,
+        "dribbling": 71,
+        "defending": 24,
+        "physicality": 74,
+        "stamina": 55,
+        "awareness": 52,
+        "composure": 61
+      }
+    },
+    {
+      "name": "C. Sabaly",
+      "number": 23,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 82,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 71,
+        "defending": 11,
+        "physicality": 31,
+        "stamina": 64,
+        "awareness": 56,
+        "composure": 55
+      }
+    }
+  ]
+}

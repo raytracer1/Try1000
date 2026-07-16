@@ -1,0 +1,394 @@
+{
+  "name": "Germany",
+  "type": "nation",
+  "players": [
+    {
+      "name": "M. Neuer",
+      "number": 1,
+      "position": "GK",
+      "overall": 90,
+      "attributes": {
+        "pace": 88,
+        "defending": 88,
+        "passing": 88,
+        "dribbling": 89,
+        "physicality": 80,
+        "stamina": 43,
+        "awareness": 87,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. ter Stegen",
+      "number": 2,
+      "position": "GK",
+      "overall": 90,
+      "attributes": {
+        "pace": 88,
+        "defending": 90,
+        "passing": 85,
+        "dribbling": 88,
+        "physicality": 78,
+        "stamina": 35,
+        "awareness": 86,
+        "composure": 70
+      }
+    },
+    {
+      "name": "J. Kimmich",
+      "number": 3,
+      "position": "CM",
+      "overall": 89,
+      "attributes": {
+        "pace": 65,
+        "shooting": 68,
+        "passing": 87,
+        "dribbling": 83,
+        "defending": 85,
+        "physicality": 68,
+        "stamina": 94,
+        "awareness": 88,
+        "composure": 85
+      }
+    },
+    {
+      "name": "T. Kroos",
+      "number": 4,
+      "position": "CM",
+      "overall": 88,
+      "attributes": {
+        "pace": 52,
+        "shooting": 77,
+        "passing": 93,
+        "dribbling": 80,
+        "defending": 73,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 90,
+        "composure": 88
+      }
+    },
+    {
+      "name": "17 P. Lahm",
+      "number": 5,
+      "position": "RB",
+      "overall": 88,
+      "attributes": {
+        "pace": 67,
+        "shooting": 47,
+        "passing": 86,
+        "dribbling": 82,
+        "defending": 87,
+        "physicality": 59,
+        "stamina": 79,
+        "awareness": 91,
+        "composure": 94
+      }
+    },
+    {
+      "name": "L. Goretzka",
+      "number": 6,
+      "position": "CM",
+      "overall": 87,
+      "attributes": {
+        "pace": 83,
+        "shooting": 82,
+        "passing": 86,
+        "dribbling": 84,
+        "defending": 85,
+        "physicality": 88,
+        "stamina": 88,
+        "awareness": 88,
+        "composure": 82
+      }
+    },
+    {
+      "name": "T. Müller",
+      "number": 7,
+      "position": "CAM",
+      "overall": 87,
+      "attributes": {
+        "pace": 67,
+        "shooting": 88,
+        "passing": 85,
+        "dribbling": 77,
+        "defending": 57,
+        "physicality": 66,
+        "stamina": 86,
+        "awareness": 94,
+        "composure": 84
+      }
+    },
+    {
+      "name": "M. Hummels",
+      "number": 8,
+      "position": "CB",
+      "overall": 86,
+      "attributes": {
+        "pace": 64,
+        "shooting": 57,
+        "passing": 82,
+        "dribbling": 69,
+        "defending": 90,
+        "physicality": 86,
+        "stamina": 66,
+        "awareness": 88,
+        "composure": 89
+      }
+    },
+    {
+      "name": "I. Gündoğan",
+      "number": 9,
+      "position": "CM",
+      "overall": 85,
+      "attributes": {
+        "pace": 65,
+        "shooting": 80,
+        "passing": 88,
+        "dribbling": 86,
+        "defending": 75,
+        "physicality": 73,
+        "stamina": 74,
+        "awareness": 86,
+        "composure": 87
+      }
+    },
+    {
+      "name": "M. Reus",
+      "number": 10,
+      "position": "CAM",
+      "overall": 85,
+      "attributes": {
+        "pace": 71,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 85,
+        "defending": 38,
+        "physicality": 66,
+        "stamina": 67,
+        "awareness": 86,
+        "composure": 85
+      }
+    },
+    {
+      "name": "S. Gnabry",
+      "number": 11,
+      "position": "RW",
+      "overall": 85,
+      "attributes": {
+        "pace": 77,
+        "shooting": 86,
+        "passing": 82,
+        "dribbling": 88,
+        "defending": 44,
+        "physicality": 68,
+        "stamina": 78,
+        "awareness": 86,
+        "composure": 80
+      }
+    },
+    {
+      "name": "L. Sané",
+      "number": 12,
+      "position": "LW",
+      "overall": 84,
+      "attributes": {
+        "pace": 89,
+        "shooting": 81,
+        "passing": 81,
+        "dribbling": 87,
+        "defending": 32,
+        "physicality": 70,
+        "stamina": 68,
+        "awareness": 79,
+        "composure": 80
+      }
+    },
+    {
+      "name": "K. Havertz",
+      "number": 13,
+      "position": "LW",
+      "overall": 84,
+      "attributes": {
+        "pace": 86,
+        "shooting": 81,
+        "passing": 84,
+        "dribbling": 86,
+        "defending": 46,
+        "physicality": 69,
+        "stamina": 77,
+        "awareness": 83,
+        "composure": 84
+      }
+    },
+    {
+      "name": "T. Werner",
+      "number": 14,
+      "position": "CM",
+      "overall": 84,
+      "attributes": {
+        "pace": 89,
+        "shooting": 81,
+        "passing": 79,
+        "dribbling": 82,
+        "defending": 20,
+        "physicality": 65,
+        "stamina": 83,
+        "awareness": 87,
+        "composure": 79
+      }
+    },
+    {
+      "name": "M. Ginter",
+      "number": 15,
+      "position": "CB",
+      "overall": 84,
+      "attributes": {
+        "pace": 69,
+        "shooting": 55,
+        "passing": 79,
+        "dribbling": 61,
+        "defending": 89,
+        "physicality": 84,
+        "stamina": 75,
+        "awareness": 86,
+        "composure": 71
+      }
+    },
+    {
+      "name": "R. Gosens",
+      "number": 16,
+      "position": "LW",
+      "overall": 83,
+      "attributes": {
+        "pace": 84,
+        "shooting": 79,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 78,
+        "physicality": 76,
+        "stamina": 89,
+        "awareness": 86,
+        "composure": 77
+      }
+    },
+    {
+      "name": "K. Volland",
+      "number": 17,
+      "position": "RW",
+      "overall": 83,
+      "attributes": {
+        "pace": 70,
+        "shooting": 86,
+        "passing": 81,
+        "dribbling": 80,
+        "defending": 50,
+        "physicality": 87,
+        "stamina": 90,
+        "awareness": 85,
+        "composure": 86
+      }
+    },
+    {
+      "name": "J. Boateng",
+      "number": 18,
+      "position": "CM",
+      "overall": 83,
+      "attributes": {
+        "pace": 80,
+        "shooting": 34,
+        "passing": 77,
+        "dribbling": 64,
+        "defending": 84,
+        "physicality": 87,
+        "stamina": 60,
+        "awareness": 85,
+        "composure": 84
+      }
+    },
+    {
+      "name": "A. Rüdiger",
+      "number": 19,
+      "position": "CB",
+      "overall": 83,
+      "attributes": {
+        "pace": 84,
+        "shooting": 32,
+        "passing": 76,
+        "dribbling": 60,
+        "defending": 86,
+        "physicality": 88,
+        "stamina": 69,
+        "awareness": 82,
+        "composure": 72
+      }
+    },
+    {
+      "name": "B. Leno",
+      "number": 20,
+      "position": "GK",
+      "overall": 83,
+      "attributes": {
+        "pace": 85,
+        "defending": 85,
+        "passing": 80,
+        "dribbling": 83,
+        "physicality": 70,
+        "stamina": 43,
+        "awareness": 78,
+        "composure": 62
+      }
+    },
+    {
+      "name": "E. Can",
+      "number": 21,
+      "position": "CM",
+      "overall": 82,
+      "attributes": {
+        "pace": 87,
+        "shooting": 76,
+        "passing": 83,
+        "dribbling": 82,
+        "defending": 87,
+        "physicality": 86,
+        "stamina": 88,
+        "awareness": 81,
+        "composure": 79
+      }
+    },
+    {
+      "name": "L. Stindl",
+      "number": 22,
+      "position": "CAM",
+      "overall": 82,
+      "attributes": {
+        "pace": 59,
+        "shooting": 84,
+        "passing": 85,
+        "dribbling": 82,
+        "defending": 62,
+        "physicality": 72,
+        "stamina": 75,
+        "awareness": 84,
+        "composure": 83
+      }
+    },
+    {
+      "name": "M. Götze",
+      "number": 23,
+      "position": "CAM",
+      "overall": 82,
+      "attributes": {
+        "pace": 67,
+        "shooting": 75,
+        "passing": 85,
+        "dribbling": 84,
+        "defending": 42,
+        "physicality": 71,
+        "stamina": 75,
+        "awareness": 82,
+        "composure": 87
+      }
+    }
+  ]
+}

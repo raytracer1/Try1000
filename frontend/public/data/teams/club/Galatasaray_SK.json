@@ -1,0 +1,396 @@
+{
+  "name": "Galatasaray SK",
+  "type": "club",
+  "players": [
+    {
+      "name": "F. Muslera",
+      "number": 1,
+      "position": "GK",
+      "overall": 80,
+      "attributes": {
+        "pace": 78,
+        "defending": 79,
+        "passing": 80,
+        "dribbling": 82,
+        "physicality": 68,
+        "stamina": 40,
+        "awareness": 78,
+        "composure": 60
+      }
+    },
+    {
+      "name": "18 C. Carrasso",
+      "number": 2,
+      "position": "CM",
+      "overall": 79,
+      "attributes": {
+        "pace": 42,
+        "shooting": 13,
+        "passing": 24,
+        "dribbling": 14,
+        "defending": 13,
+        "physicality": 71,
+        "stamina": 31,
+        "awareness": 71,
+        "composure": 60
+      }
+    },
+    {
+      "name": "20 Mariano",
+      "number": 3,
+      "position": "RB",
+      "overall": 77,
+      "attributes": {
+        "pace": 79,
+        "shooting": 54,
+        "passing": 76,
+        "dribbling": 75,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 88,
+        "awareness": 74,
+        "composure": 70
+      }
+    },
+    {
+      "name": "Marcão",
+      "number": 4,
+      "position": "CM",
+      "overall": 77,
+      "attributes": {
+        "pace": 64,
+        "shooting": 23,
+        "passing": 75,
+        "dribbling": 61,
+        "defending": 77,
+        "physicality": 81,
+        "stamina": 92,
+        "awareness": 78,
+        "composure": 70
+      }
+    },
+    {
+      "name": "P. van Aanholt",
+      "number": 5,
+      "position": "LB",
+      "overall": 76,
+      "attributes": {
+        "pace": 86,
+        "shooting": 65,
+        "passing": 74,
+        "dribbling": 76,
+        "defending": 76,
+        "physicality": 61,
+        "stamina": 74,
+        "awareness": 73,
+        "composure": 67
+      }
+    },
+    {
+      "name": "O. Elabdellaoui",
+      "number": 6,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 81,
+        "shooting": 42,
+        "passing": 71,
+        "dribbling": 72,
+        "defending": 72,
+        "physicality": 69,
+        "stamina": 87,
+        "awareness": 74,
+        "composure": 68
+      }
+    },
+    {
+      "name": "R. Babel",
+      "number": 7,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 78,
+        "shooting": 77,
+        "passing": 73,
+        "dribbling": 80,
+        "defending": 38,
+        "physicality": 86,
+        "stamina": 68,
+        "awareness": 69,
+        "composure": 71
+      }
+    },
+    {
+      "name": "S. Feghouli",
+      "number": 8,
+      "position": "CM",
+      "overall": 75,
+      "attributes": {
+        "pace": 71,
+        "shooting": 66,
+        "passing": 75,
+        "dribbling": 78,
+        "defending": 32,
+        "physicality": 62,
+        "stamina": 63,
+        "awareness": 73,
+        "composure": 70
+      }
+    },
+    {
+      "name": "C. Luyindama",
+      "number": 9,
+      "position": "CB",
+      "overall": 75,
+      "attributes": {
+        "pace": 80,
+        "shooting": 19,
+        "passing": 62,
+        "dribbling": 48,
+        "defending": 80,
+        "physicality": 93,
+        "stamina": 73,
+        "awareness": 63,
+        "composure": 70
+      }
+    },
+    {
+      "name": "M. Mohamed",
+      "number": 10,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 72,
+        "shooting": 76,
+        "passing": 64,
+        "dribbling": 69,
+        "defending": 31,
+        "physicality": 86,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 64
+      }
+    },
+    {
+      "name": "M. Diagne",
+      "number": 11,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 64,
+        "shooting": 78,
+        "passing": 61,
+        "dribbling": 61,
+        "defending": 25,
+        "physicality": 88,
+        "stamina": 59,
+        "awareness": 73,
+        "composure": 74
+      }
+    },
+    {
+      "name": "A. Cicâldău",
+      "number": 12,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 68,
+        "shooting": 66,
+        "passing": 74,
+        "dribbling": 70,
+        "defending": 67,
+        "physicality": 62,
+        "stamina": 90,
+        "awareness": 70,
+        "composure": 71
+      }
+    },
+    {
+      "name": "T. Antalyalı",
+      "number": 13,
+      "position": "CDM",
+      "overall": 73,
+      "attributes": {
+        "pace": 66,
+        "shooting": 60,
+        "passing": 77,
+        "dribbling": 69,
+        "defending": 70,
+        "physicality": 71,
+        "stamina": 87,
+        "awareness": 72,
+        "composure": 69
+      }
+    },
+    {
+      "name": "Gustavo Assunção",
+      "number": 14,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 65,
+        "shooting": 54,
+        "passing": 72,
+        "dribbling": 72,
+        "defending": 71,
+        "physicality": 64,
+        "stamina": 87,
+        "awareness": 76,
+        "composure": 78
+      }
+    },
+    {
+      "name": "E. Kılınç",
+      "number": 15,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 74,
+        "shooting": 68,
+        "passing": 72,
+        "dribbling": 74,
+        "defending": 50,
+        "physicality": 51,
+        "stamina": 83,
+        "awareness": 72,
+        "composure": 65
+      }
+    },
+    {
+      "name": "V. Nelsson",
+      "number": 16,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 69,
+        "shooting": 36,
+        "passing": 71,
+        "dribbling": 60,
+        "defending": 73,
+        "physicality": 85,
+        "stamina": 83,
+        "awareness": 67,
+        "composure": 67
+      }
+    },
+    {
+      "name": "20 S. İnan",
+      "number": 17,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 45,
+        "shooting": 65,
+        "passing": 76,
+        "dribbling": 70,
+        "defending": 60,
+        "physicality": 62,
+        "stamina": 55,
+        "awareness": 65,
+        "composure": 75
+      }
+    },
+    {
+      "name": "D. Yedlin",
+      "number": 18,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 92,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 67,
+        "stamina": 73,
+        "awareness": 69,
+        "composure": 68
+      }
+    },
+    {
+      "name": "A. Turan",
+      "number": 19,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 41,
+        "shooting": 68,
+        "passing": 78,
+        "dribbling": 77,
+        "defending": 63,
+        "physicality": 61,
+        "stamina": 48,
+        "awareness": 68,
+        "composure": 79
+      }
+    },
+    {
+      "name": "O. Moruțan",
+      "number": 20,
+      "position": "RW",
+      "overall": 71,
+      "attributes": {
+        "pace": 75,
+        "shooting": 67,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 42,
+        "physicality": 55,
+        "stamina": 74,
+        "awareness": 62,
+        "composure": 72
+      }
+    },
+    {
+      "name": "A. Öztürk",
+      "number": 21,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 54,
+        "shooting": 50,
+        "passing": 68,
+        "dribbling": 65,
+        "defending": 73,
+        "physicality": 85,
+        "stamina": 79,
+        "awareness": 63,
+        "composure": 60
+      }
+    },
+    {
+      "name": "O. Çağlayan",
+      "number": 22,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 83,
+        "shooting": 68,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 24,
+        "physicality": 72,
+        "stamina": 65,
+        "awareness": 65,
+        "composure": 59
+      }
+    },
+    {
+      "name": "S. Boey",
+      "number": 23,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 86,
+        "shooting": 36,
+        "passing": 67,
+        "dribbling": 66,
+        "defending": 70,
+        "physicality": 62,
+        "stamina": 83,
+        "awareness": 64,
+        "composure": 57
+      }
+    }
+  ]
+}

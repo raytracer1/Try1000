@@ -1,0 +1,227 @@
+{
+  "name": "Sydney FC",
+  "type": "club",
+  "players": [
+    {
+      "name": "M. Ninković",
+      "number": 1,
+      "position": "CM",
+      "overall": 74,
+      "attributes": {
+        "pace": 69,
+        "shooting": 68,
+        "passing": 76,
+        "dribbling": 76,
+        "defending": 54,
+        "physicality": 72,
+        "stamina": 71,
+        "awareness": 68,
+        "composure": 71
+      }
+    },
+    {
+      "name": "R. Grant",
+      "number": 2,
+      "position": "RB",
+      "overall": 72,
+      "attributes": {
+        "pace": 71,
+        "shooting": 60,
+        "passing": 73,
+        "dribbling": 67,
+        "defending": 66,
+        "physicality": 77,
+        "stamina": 95,
+        "awareness": 65,
+        "composure": 70
+      }
+    },
+    {
+      "name": "A. Wilkinson",
+      "number": 3,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 32,
+        "shooting": 36,
+        "passing": 68,
+        "dribbling": 42,
+        "defending": 74,
+        "physicality": 86,
+        "stamina": 79,
+        "awareness": 62,
+        "composure": 61
+      }
+    },
+    {
+      "name": "A. Le Fondre",
+      "number": 4,
+      "position": "CM",
+      "overall": 70,
+      "attributes": {
+        "pace": 62,
+        "shooting": 76,
+        "passing": 63,
+        "dribbling": 67,
+        "defending": 25,
+        "physicality": 68,
+        "stamina": 82,
+        "awareness": 73,
+        "composure": 75
+      }
+    },
+    {
+      "name": "L. Brattan",
+      "number": 5,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 61,
+        "shooting": 52,
+        "passing": 70,
+        "dribbling": 66,
+        "defending": 64,
+        "physicality": 76,
+        "stamina": 76,
+        "awareness": 64,
+        "composure": 69
+      }
+    },
+    {
+      "name": "K. Barbarouses",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 85,
+        "shooting": 71,
+        "passing": 67,
+        "dribbling": 71,
+        "defending": 29,
+        "physicality": 67,
+        "stamina": 92,
+        "awareness": 70,
+        "composure": 68
+      }
+    },
+    {
+      "name": "21 A. Baumjohann",
+      "number": 7,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 67,
+        "shooting": 63,
+        "passing": 69,
+        "dribbling": 73,
+        "defending": 22,
+        "physicality": 61,
+        "stamina": 47,
+        "awareness": 63,
+        "composure": 65
+      }
+    },
+    {
+      "name": "M. Zullo",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 53,
+        "passing": 67,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 67,
+        "stamina": 79,
+        "awareness": 65,
+        "composure": 66
+      }
+    },
+    {
+      "name": "P. Retre",
+      "number": 9,
+      "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 54,
+        "shooting": 52,
+        "passing": 64,
+        "dribbling": 66,
+        "defending": 62,
+        "physicality": 69,
+        "stamina": 83,
+        "awareness": 61,
+        "composure": 64
+      }
+    },
+    {
+      "name": "J. King",
+      "number": 10,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 71,
+        "shooting": 27,
+        "passing": 65,
+        "dribbling": 61,
+        "defending": 64,
+        "physicality": 73,
+        "stamina": 80,
+        "awareness": 59,
+        "composure": 54
+      }
+    },
+    {
+      "name": "A. Caceres",
+      "number": 11,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 67,
+        "shooting": 56,
+        "passing": 69,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 65,
+        "stamina": 74,
+        "awareness": 59,
+        "composure": 56
+      }
+    },
+    {
+      "name": "T. Buhagiar",
+      "number": 12,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 93,
+        "shooting": 60,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 18,
+        "physicality": 69,
+        "stamina": 81,
+        "awareness": 48,
+        "composure": 55
+      }
+    },
+    {
+      "name": "B. Warland",
+      "number": 13,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 53,
+        "shooting": 22,
+        "passing": 45,
+        "dribbling": 38,
+        "defending": 61,
+        "physicality": 81,
+        "stamina": 69,
+        "awareness": 54,
+        "composure": 56
+      }
+    }
+  ]
+}
