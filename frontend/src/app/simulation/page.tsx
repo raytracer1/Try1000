@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { useSimulationStore } from "../../stores/simulationStore";
 import { api } from "../../lib/api";
+import { Pitch } from "../../components/pitch/Pitch";
 
 export default function SimulationPage() {
   const { activeJob, isRunning, results, startSimulation, cancelPolling } = useSimulationStore();
@@ -137,6 +138,16 @@ export default function SimulationPage() {
           <PlayerList data={away} />
         </div>
       </div>
+
+      {home && away && (
+        <div className="mb-6">
+          <div className="flex justify-between text-sm font-semibold text-stone-600 mb-2">
+            <span>{home.name} ({home.players?.length}p)</span>
+            <span>{away.name} ({away.players?.length}p)</span>
+          </div>
+          <Pitch homePlayers={home.players || []} awayPlayers={away.players || []} />
+        </div>
+      )}
 
       <div className="flex gap-3 items-center mb-6">
         {[1, 10, 100, 1000].map((n) => (
