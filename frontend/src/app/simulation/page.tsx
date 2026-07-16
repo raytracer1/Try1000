@@ -12,9 +12,6 @@ export default function SimulationPage() {
   const [searchA, setSearchA] = useState("");
   const [home, setHome] = useState<any>(null);
   const [away, setAway] = useState<any>(null);
-  const [homeTacticId, setHomeTacticId] = useState("");
-  const [awayTacticId, setAwayTacticId] = useState("");
-  const [tactics, setTactics] = useState<any[]>([]);
   const [matchCount, setMatchCount] = useState(10);
   const [filterH, setFilterH] = useState<"club" | "nation">("club");
   const [filterA, setFilterA] = useState<"club" | "nation">("club");
@@ -24,7 +21,6 @@ export default function SimulationPage() {
   useEffect(() => {
     fetch("/data/teams/clubs.json").then(r => r.json()).then(d => setClubs(d.teams || [])).catch(() => {});
     fetch("/data/teams/nations.json").then(r => r.json()).then(d => setNations(d.teams || [])).catch(() => {});
-    api.getTactics().then(setTactics).catch(() => []);
   }, []);
 
   const loadTeam = async (t: any, side: "home" | "away") => {
@@ -48,8 +44,8 @@ export default function SimulationPage() {
   };
 
   const handleRun = async () => {
-    if (!home || !away || !homeTacticId || !awayTacticId) {
-      setError("Select both teams and tactics."); return;
+    if (!home || !away) {
+      setError("Select both teams."); return;
     }
     setImporting(true);
     setError("");
@@ -59,7 +55,6 @@ export default function SimulationPage() {
       const finalAwayId = await importTeam(away);
       await startSimulation({
         home_team_id: finalHomeId, away_team_id: finalAwayId,
-        home_tactic_id: Number(homeTacticId), away_tactic_id: Number(awayTacticId),
         match_count: matchCount,
       });
     } catch (e: any) { setError(e.message); }
@@ -129,11 +124,6 @@ export default function SimulationPage() {
             ))}
           </div>
           <PlayerList data={home} />
-          <label className="text-sm text-stone-600 block mt-3 mb-1">Tactic</label>
-          <select className="w-full bg-stone-50 border border-stone-200 rounded px-3 py-2 text-sm" value={homeTacticId} onChange={(e) => setHomeTacticId(e.target.value)}>
-            <option value="">Select...</option>
-            {tactics.map((t: any) => <option key={t.id} value={t.id}>{t.name} ({t.formation})</option>)}
-          </select>
         </div>
 
         {/* Away Team */}
@@ -153,11 +143,6 @@ export default function SimulationPage() {
             ))}
           </div>
           <PlayerList data={away} />
-          <label className="text-sm text-stone-600 block mt-3 mb-1">Tactic</label>
-          <select className="w-full bg-stone-50 border border-stone-200 rounded px-3 py-2 text-sm" value={awayTacticId} onChange={(e) => setAwayTacticId(e.target.value)}>
-            <option value="">Select...</option>
-            {tactics.map((t: any) => <option key={t.id} value={t.id}>{t.name} ({t.formation})</option>)}
-          </select>
         </div>
       </div>
 
