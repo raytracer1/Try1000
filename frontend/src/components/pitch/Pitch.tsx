@@ -31,16 +31,58 @@ const FORMATIONS: Record<string, { x: number; y: number }[]> = {
 
 const FORMATION_NAMES = ["4-3-3", "4-4-2", "3-5-2", "4-2-3-1", "3-4-3"];
 
-const ROLES = ["GK", "CB", "CB", "LB", "RB", "CDM", "CM", "CM", "LW", "RW", "ST"];
+const ROLES = ["GK", "CB", "CB", "LB", "RB", "CDM", "CM", "CM", "CAM", "LM", "RM", "LW", "RW", "CF", "ST", "LF", "RF", "LWB", "RWB"];
+
+// Expected roles for each formation slot (index 0 = GK, then field players)
+const SLOT_ROLES: Record<string, string[]> = {
+  "4-3-3": ["GK", "CB", "CB", "LB", "RB", "CDM", "CM", "CM", "LW", "RW", "ST"],
+  "4-4-2": ["GK", "CB", "CB", "LB", "RB", "RM", "CM", "CM", "LM", "ST", "ST"],
+  "3-5-2": ["GK", "CB", "CB", "CB", "CM", "CM", "CM", "RM", "LM", "ST", "ST"],
+  "4-2-3-1":["GK", "CB", "CB", "LB", "RB", "CDM","CDM","LW","CAM","RW","ST"],
+  "3-4-3": ["GK", "CB", "CB", "CB", "CM","CM","LM","RM","LW","ST","RW"],
+};
+
+function matchRole(playerRole: string, slotRole: string): number {
+  // Score how well a player fits a slot (lower = better)
+  if (playerRole === slotRole) return 0;
+  // Position groups
+  const groups: Record<string, string[]> = {
+    CB: ["CB","LCB","RCB"], LB: ["LB","LWB","RB","RWB"], RB: ["RB","RWB","LB","LWB"],
+    CDM: ["CDM","CM"], CM: ["CM","CDM","CAM"], CAM: ["CAM","CM","CF"],
+    LW: ["LW","LM","RW","RM"], RW: ["RW","RM","LW","LM"],
+    LM: ["LM","LW","CM"], RM: ["RM","RW","CM"],
+    ST: ["ST","CF","LW","RW"], CF: ["CF","ST"],
+  };
+  if (groups[slotRole]?.includes(playerRole)) return 1;
+  return 2;
+}
 
 function assignPositions(players: any[], formation: string, flip: boolean) {
   const positions = FORMATIONS[formation] || FORMATIONS["4-3-3"];
-  const sorted = [...players].sort((a, b) => {
-    const ai = ROLES.indexOf(a.position);
-    const bi = ROLES.indexOf(b.position);
-    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
-  });
-  return sorted.slice(0, 11).map((p, i) => {
+  const slotRoles = SLOT_ROLES[formation] || SLOT_ROLES["4-3-3"];
+
+  // Find GK
+  const gk = players.find((p) => p.position === "GK");
+  let remaining = players.filter((p) => p.position !== "GK");
+
+  // Assign each slot (except GK)
+  const assigned: any[] = new Array(11).fill(null);
+  assigned[0] = gk;
+
+  for (let slot = 1; slot < 11; slot++) {
+    if (remaining.length === 0) break;
+    // Find the best matching player for this slot
+    let bestIdx = 0;
+    let bestScore = Infinity;
+    for (let j = 0; j < remaining.length; j++) {
+      const score = matchRole(remaining[j].position, slotRoles[slot]);
+      if (score < bestScore) { bestScore = score; bestIdx = j; }
+    }
+    assigned[slot] = remaining[bestIdx];
+    remaining.splice(bestIdx, 1);
+  }
+
+  return assigned.filter(Boolean).map((p, i) => {
     let pos = positions[i] || { x: 50, y: 50 };
     if (flip) pos = { x: 100 - pos.x, y: 100 - pos.y };
     return { ...p, px: pos.x, py: pos.y };
