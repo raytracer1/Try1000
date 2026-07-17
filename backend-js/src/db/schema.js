@@ -59,6 +59,8 @@ const simulationJobs = pgTable("simulation_jobs", {
   progress: integer("progress").default(0),
   seedBase: integer("seed_base").default(42),
   engineVersion: varchar("engine_version", { length: 20 }).default("rule-based-v1"),
+  homeTacticalDocument: varchar("home_tactical_document", { length: 5000 }).default(""),
+  awayTacticalDocument: varchar("away_tactical_document", { length: 5000 }).default(""),
   createdAt: timestamp("created_at").defaultNow(),
   completedAt: timestamp("completed_at"),
 });

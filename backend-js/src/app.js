@@ -197,7 +197,7 @@ const handlers = {
     const uid = auth(ctx); if (!uid) return;
     const b = ctx.parseBody();
     if (![1, 10, 100, 1000].includes(b.match_count)) return ctx.respond(400, { detail: "match_count must be 1,10,100,1000" });
-    const [job] = await ctx.db.insert(schema.simulationJobs).values({ userId: uid, homeTeamId: b.home_team_id, awayTeamId: b.away_team_id, homeTacticId: b.home_tactic_id || 1, awayTacticId: b.away_tactic_id || 1, matchCount: b.match_count, status: "pending" }).returning();
+    const [job] = await ctx.db.insert(schema.simulationJobs).values({ userId: uid, homeTeamId: b.home_team_id, awayTeamId: b.away_team_id, homeTacticId: b.home_tactic_id || 1, awayTacticId: b.away_tactic_id || 1, matchCount: b.match_count, status: "pending", homeTacticalDocument: b.home_tactical_document || "", awayTacticalDocument: b.away_tactical_document || "" }).returning();
     ctx.respond(200, { job_id: job.id });
   },
   async simList(ctx) {

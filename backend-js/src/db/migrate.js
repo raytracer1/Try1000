@@ -61,6 +61,8 @@ async function createTables() {
         progress INTEGER DEFAULT 0,
         seed_base INTEGER DEFAULT 42,
         engine_version VARCHAR(20) DEFAULT 'rule-based-v1',
+        home_tactical_document TEXT DEFAULT '',
+        away_tactical_document TEXT DEFAULT '',
         created_at TIMESTAMP DEFAULT NOW(),
         completed_at TIMESTAMP
       );
@@ -88,6 +90,13 @@ async function createTables() {
         created_at TIMESTAMP DEFAULT NOW()
       );
     `);
+    // Migration: add tactical document columns if they don't exist
+    try {
+      await client.query(`ALTER TABLE simulation_jobs ADD COLUMN IF NOT EXISTS home_tactical_document TEXT DEFAULT ''`);
+    } catch (e) { /* Column might already exist */ }
+    try {
+      await client.query(`ALTER TABLE simulation_jobs ADD COLUMN IF NOT EXISTS away_tactical_document TEXT DEFAULT ''`);
+    } catch (e) { /* Column might already exist */ }
     console.log("Tables created");
   } finally {
     client.release();

@@ -18,6 +18,43 @@ export default function SimulationPage() {
   const [filterA, setFilterA] = useState<"club" | "nation">("club");
   const [importing, setImporting] = useState(false);
   const [error, setError] = useState("");
+  const [homeTacticalDoc, setHomeTacticalDoc] = useState("");
+  const [awayTacticalDoc, setAwayTacticalDoc] = useState("");
+
+  const TACTIC_PRESETS: { label: string; desc: string }[] = [
+    {
+      label: "⚡ Gegenpress",
+      desc: "High-intensity counter-pressing after losing possession.\nDefensive line: High\nPressing: All-out, hunt the ball immediately\nTransition: Instantly swarm the ball carrier\nAttacking: Fast vertical passes, exploit chaos",
+    },
+    {
+      label: "🔄 Tiki-Taka",
+      desc: "Possession-based short passing through triangles.\nDefensive line: High\nPressing: Coordinated 6-second rule\nBuild-up: Patient circulation from the back\nAttacking: Create overloads, wait for the killer pass",
+    },
+    {
+      label: "🅿️ Park the Bus",
+      desc: "Ultra-defensive low block with minimal attacking intent.\nDefensive line: Deep, 10 men behind the ball\nPressing: None — hold shape\nShape: Two banks of four, extremely narrow\nAttacking: Hope for a set-piece or lucky break",
+    },
+    {
+      label: "🏃 Counter-Attack",
+      desc: "Deep defensive block with rapid transitions.\nDefensive line: Medium-low\nPressing: Only in own half\nTransition: Release 2-3 runners on every turnover\nAttacking: Direct balls into space behind the defence",
+    },
+    {
+      label: "🪽 Wing Play",
+      desc: "Stretch the pitch and deliver crosses.\nDefensive line: Medium\nWidth: Maximum — wingers hug the touchline\nFullbacks: Overlap and deliver early crosses\nAttacking: Target striker in the box, near/far-post runs",
+    },
+    {
+      label: "🎯 Long Ball",
+      desc: "Direct play bypassing the midfield.\nDefensive line: Medium-deep\nBuild-up: Skip midfield — go route one\nTarget: Strong hold-up striker for knock-downs\nSecond balls: Press aggressively to collect",
+    },
+    {
+      label: "🔒 Catenaccio",
+      desc: "Italian defensive system with a libero.\nDefensive line: Deep with a sweeper\nMarking: Tight man-marking across the pitch\nPressing: Only engage in own third\nAttacking: One creative playmaker unlocks the game",
+    },
+    {
+      label: "🌪️ Total Football",
+      desc: "Fluid positional interchange across all lines.\nDefensive line: High\nRotation: Any outfield player fills any role\nPressing: Full-pitch coordinated press\nBuild-up: Centre-backs carry into midfield",
+    },
+  ];
 
   useEffect(() => {
     fetch("/data/teams/clubs.json").then(r => r.json()).then(d => setClubs(d.teams || [])).catch(() => {});
@@ -56,6 +93,8 @@ export default function SimulationPage() {
       await startSimulation({
         home_team_id: finalHomeId, away_team_id: finalAwayId,
         match_count: matchCount,
+        home_tactical_document: homeTacticalDoc,
+        away_tactical_document: awayTacticalDoc,
       });
     } catch (e: any) { setError(e.message); }
     setImporting(false);
@@ -146,6 +185,60 @@ export default function SimulationPage() {
             <span>{away.name} ({away.players?.length}p)</span>
           </div>
           <Pitch homePlayers={home.players || []} awayPlayers={away.players || []} />
+        </div>
+      )}
+
+      {home && away && (
+        <div className="mb-6 grid grid-cols-2 gap-4">
+          {/* Home Tactical Document */}
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
+            <label className="text-base font-semibold text-stone-700 block mb-2">
+              📋 {home.name} — Tactical Document
+            </label>
+            <div className="flex flex-wrap gap-1.5 mb-3">
+              {TACTIC_PRESETS.map((p) => (
+                <button
+                  key={p.label}
+                  onClick={() => setHomeTacticalDoc(p.desc)}
+                  className="px-2.5 py-1 text-xs font-medium rounded-full border border-blue-200 bg-blue-50 text-blue-700 hover:bg-blue-100 hover:border-blue-300 transition-colors"
+                >
+                  {p.label}
+                </button>
+              ))}
+            </div>
+            <textarea
+              value={homeTacticalDoc}
+              onChange={(e) => setHomeTacticalDoc(e.target.value)}
+              placeholder="Choose a preset above or write your own tactical instructions..."
+              rows={8}
+              className="w-full bg-stone-50 border border-stone-200 rounded px-4 py-3 text-sm text-stone-700 placeholder-stone-300 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 resize-y"
+            />
+          </div>
+
+          {/* Away Tactical Document */}
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
+            <label className="text-base font-semibold text-stone-700 block mb-2">
+              📋 {away.name} — Tactical Document
+            </label>
+            <div className="flex flex-wrap gap-1.5 mb-3">
+              {TACTIC_PRESETS.map((p) => (
+                <button
+                  key={p.label}
+                  onClick={() => setAwayTacticalDoc(p.desc)}
+                  className="px-2.5 py-1 text-xs font-medium rounded-full border border-red-200 bg-red-50 text-red-700 hover:bg-red-100 hover:border-red-300 transition-colors"
+                >
+                  {p.label}
+                </button>
+              ))}
+            </div>
+            <textarea
+              value={awayTacticalDoc}
+              onChange={(e) => setAwayTacticalDoc(e.target.value)}
+              placeholder="Choose a preset above or write your own tactical instructions..."
+              rows={8}
+              className="w-full bg-stone-50 border border-stone-200 rounded px-4 py-3 text-sm text-stone-700 placeholder-stone-300 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 resize-y"
+            />
+          </div>
         </div>
       )}
 
