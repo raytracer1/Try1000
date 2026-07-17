@@ -54,6 +54,8 @@ PRESSURE_RADIUS = 5.0         # meters — "under pressure" threshold
 # ─── Match ───
 MAX_EVENTS_PER_TICK = 50      # safety cap
 REPLAY_SAMPLE_RATE = 1        # record every tick (1 = all, 2 = every other)
+GOAL_RESET_TICKS = 10         # pause ticks after a goal
+HALF_TIME_PAUSE_TICKS = 5     # pause ticks at half-time
 
 # ─── Normalized Coordinates ───
 # Internal representation uses meters (0,0 at center circle)

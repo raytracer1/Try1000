@@ -123,6 +123,33 @@ class GeneratedPolicy(Policy):
 
     # ─── Policy interface ───
 
+    def decide_with_context(
+        self,
+        player: Any,
+        teammates: list,
+        opponents: list,
+        ball: Any,
+        home_score: int, away_score: int,
+        tick: int, max_ticks: int,
+        half: int, phase_id: int,
+        history_actions: list[dict] | None = None,
+    ) -> tuple[ActionOutput, dict]:
+        """Full-context decision — preferred by MatchEngine over generic decide()."""
+        gs = self._build_gamestate_full(
+            player, teammates, opponents, ball,
+            home_score, away_score, tick, half,
+        )
+        ps = self._build_playerstate_full(player)
+        hist = self._build_history_full(history_actions)
+
+        try:
+            result = self._decide_fn(gs, ps, hist)
+            if not isinstance(result, dict):
+                return ActionOutput.hold(), {}
+            return _normalize_action(result), {}
+        except Exception:
+            return ActionOutput.hold(), {}
+
     def decide(self, obs: Observation) -> ActionOutput:
         """Execute the generated code on this observation.
 
@@ -174,7 +201,69 @@ class GeneratedPolicy(Policy):
 
         return decide_fn
 
-    # ─── Observation → dict conversion (for the generated function) ───
+    # ─── Full-context builders (matches LLM system prompt format) ───
+
+    def _build_gamestate_full(self, player, teammates, opponents, ball,
+                              home_score, away_score, tick, half):
+        my_team = player.team
+        opp_goal_x = 1.0 if my_team == "home" else 0.0
+        my_goal_x = 0.0 if my_team == "home" else 1.0
+
+        def to_norm(x, y):
+            from try1000_engine.config import meters_to_normalized
+            nx, ny = meters_to_normalized(x, y)
+            return [nx, ny]
+
+        def player_info(p):
+            return {
+                "id": str(p.player_id),
+                "role": p.role,
+                "position": to_norm(p.x, p.y),
+                "has_ball": bool(p.has_ball),
+            }
+
+        return {
+            "tick": tick,
+            "match_time_seconds": tick,
+            "half": half,
+            "score": {"home": home_score, "away": away_score},
+            "ball": {
+                "position": to_norm(ball.x, ball.y),
+                "possession_team": ball.last_touch_team or (player.team if ball.carrier_id else None),
+                "carrier_id": str(ball.carrier_id) if ball.carrier_id else None,
+            },
+            "my_team": my_team,
+            "my_player_id": str(player.player_id),
+            "teammates": [player_info(p) for p in teammates],
+            "opponents": [player_info(p) for p in opponents],
+            "field": {
+                "width": 68.0, "height": 105.0,
+                "my_goal_x": my_goal_x, "opponent_goal_x": opp_goal_x,
+                "goal_top": 0.44, "goal_bottom": 0.56,
+            },
+        }
+
+    def _build_playerstate_full(self, player):
+        return {
+            "role": player.role,
+            "position": [0.5, 0.5],  # will be overridden by game_state
+            "pace": int(player.pace or 70), "shooting": int(player.shooting or 70),
+            "passing": int(player.passing or 70), "dribbling": int(player.dribbling or 70),
+            "defending": int(player.defending or 70), "physicality": int(player.physicality or 70),
+            "stamina": int(player.stamina or 100), "awareness": int(player.awareness or 70),
+            "composure": int(player.composure or 70),
+            "has_ball": bool(player.has_ball),
+            "health": 1.0,
+            "on_cooldown": bool(player.is_on_cooldown),
+        }
+
+    def _build_history_full(self, history_actions):
+        if not history_actions:
+            return []
+        return [{"tick": -i, "action": h.get("action", "Hold"), "success": h.get("success", False)}
+                for i, h in enumerate(history_actions[:20])]
+
+    # ─── Observation → dict conversion (for legacy generic Policy interface) ───
 
     def _obs_to_gamestate(self, obs: Observation) -> dict:
         """Convert Observation to the game_state dict the generated code expects."""

@@ -80,6 +80,7 @@ class Player:
         self.health = 1.0
         self.has_ball = False
         self.cooldown_remaining = 0
+        self.sent_off = False  # red card → excluded from play
 
         # Movement state
         self._target_x: float | None = None

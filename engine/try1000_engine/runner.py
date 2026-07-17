@@ -145,6 +145,55 @@ class EngineRunner:
 
         self._executor.submit(self._handle, job_id, job)
 
+    def _build_policies(self, tactic: dict, team_name: str) -> dict[str, object]:
+        """Build per-role policies. Tries LLM-generated code first, falls back to RuleBased."""
+        from try1000_engine.ai.policy_factory import PolicyFactory
+        from try1000_engine.ai.llm_generator import AnthropicClient, OpenAICompatibleClient, CodeGenerator
+        from try1000_engine.ai.generated_policy import GeneratedPolicy
+
+        tactical_doc = tactic.get("tactical_document", "") if tactic else ""
+        has_llm = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("OPENAI_API_KEY"))
+
+        if tactical_doc.strip() and has_llm:
+            try:
+                api_key = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("OPENAI_API_KEY")
+                model = os.environ.get("LLM_MODEL", "claude-sonnet-5")
+                provider = "anthropic" if os.environ.get("ANTHROPIC_API_KEY") else "openai"
+                if provider == "anthropic":
+                    client = AnthropicClient(api_key=api_key, model=model)
+                else:
+                    client = OpenAICompatibleClient(api_key=api_key, model=model)
+
+                gen = CodeGenerator(client)
+                # Build tactic dict for the LLM prompt
+                llm_tactic = {
+                    "formation": tactic.get("formation", "4-3-3"),
+                    "tactical_document": tactical_doc,
+                }
+                codes = gen.generate_team(llm_tactic, team_name)
+                policies = {}
+                unique_to_all = {
+                    "GK": ["GK"], "CB": ["CB", "LCB", "RCB"],
+                    "LB": ["LB", "LWB", "RB", "RWB"],
+                    "CDM": ["CDM"], "CM": ["CM", "CAM"],
+                    "LW": ["LW", "LM", "RW", "RM"],
+                    "ST": ["ST", "CF"],
+                }
+                for unique_role, roles in unique_to_all.items():
+                    code = codes.get(unique_role)
+                    if code:
+                        for r in roles:
+                            policies[r] = GeneratedPolicy(code=code, role=r, tactic=llm_tactic)
+                logger.info(f"LLM generated {len(policies)} role policies for {team_name}")
+                if policies:
+                    return policies
+            except Exception as e:
+                logger.warning(f"LLM generation failed for {team_name}: {e} — falling back to rule-based")
+
+        # Fallback: rule-based policies
+        factory = PolicyFactory()
+        return factory.create_team(tactic or {}, team_name)
+
     def _handle(self, job_id: int, job: dict):
         """Run a job and clean up when done."""
         try:
@@ -170,21 +219,9 @@ class EngineRunner:
             home_tactic = job.get("home_tactic", {})
             away_tactic = job.get("away_tactic", {})
 
-            # Policy: Level 2 if user has LLM key, else Level 1
-            llm_provider = job.get("llm_provider")
-            llm_api_key = job.get("llm_api_key")
-            llm_model = job.get("llm_model", "claude-sonnet-5")
-            if llm_provider and llm_api_key:
-                if llm_provider == "anthropic":
-                    from try1000_engine.ai.llm_generator import AnthropicClient
-                    factory = PolicyFactory(llm_client=AnthropicClient(api_key=llm_api_key, model=llm_model))
-                else:
-                    from try1000_engine.ai.llm_generator import OpenAICompatibleClient
-                    factory = PolicyFactory(llm_client=OpenAICompatibleClient(api_key=llm_api_key, model=llm_model))
-            else:
-                factory = PolicyFactory()
-            home_policies = factory.create_team(home_tactic or {}, "Home")
-            away_policies = factory.create_team(away_tactic or {}, "Away")
+            # Policy: try LLM-generated strategies if tactical docs present
+            home_policies = self._build_policies(home_tactic, "Home")
+            away_policies = self._build_policies(away_tactic, "Away")
 
             engine_token = self.ably_key or ""
 
@@ -196,6 +233,7 @@ class EngineRunner:
                     fast_mode=(match_count > 10),
                     replay_sample_rate=1 if match_count <= 100 else 5,
                 )
+                engine._formation = home_tactic.get("formation", "4-3-3")
                 result = engine.run(
                     [self._copy_player(p) for p in home],
                     [self._copy_player(p) for p in away],
