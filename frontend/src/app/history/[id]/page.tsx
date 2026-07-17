@@ -156,8 +156,12 @@ export default function HistoryDetailPage() {
                               const api = (await import("../../../lib/api")).api;
                               try {
                                 const data = await api.getReplay(+id, i);
-                                alert(`Replay path: ${data.replay_path || data.signed_url}`);
-                              } catch { alert("Failed to load replay"); }
+                                if (data.signed_url) {
+                                  window.open(data.signed_url, "_blank");
+                                } else {
+                                  alert("Replay download not available");
+                                }
+                              } catch { alert("Replay download not available"); }
                             }}
                             className="text-xs text-green-700 font-medium hover:underline"
                           >
