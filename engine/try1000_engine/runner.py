@@ -237,11 +237,43 @@ class EngineRunner:
         return result
 
     def _save_replay(self, job_id: int, match_index: int, ticks: list[dict]) -> str:
-        import gzip
+        import gzip, io
+        supabase_url = os.environ.get("SUPABASE_URL", "")
+        supabase_key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+
+        # Compress replay data in memory
+        buf = io.BytesIO()
+        with gzip.GzipFile(fileobj=buf, mode="wb") as f:
+            f.write("\n".join(json.dumps(t) for t in ticks).encode("utf-8"))
+        compressed = buf.getvalue()
+
+        # Upload to Supabase Storage if configured
+        if supabase_url and supabase_key:
+            try:
+                from supabase import create_client, Client
+                supabase: Client = create_client(supabase_url, supabase_key)
+                # Ensure the bucket exists
+                try:
+                    buckets = supabase.storage.list_buckets()
+                    if not any(b.name == "replays" for b in buckets):
+                        supabase.storage.create_bucket("replays", options={"public": False})
+                except Exception:
+                    pass  # bucket may already exist
+                storage_path = f"{job_id}/{match_index:04d}.jsonl.gz"
+                supabase.storage.from_("replays").upload(
+                    path=storage_path,
+                    file=compressed,
+                    file_options={"content-type": "application/gzip", "upsert": "true"},
+                )
+                return f"supabase://replays/{storage_path}"
+            except Exception as e:
+                logger.warning(f"Supabase upload failed, falling back to local: {e}")
+
+        # Fallback: save to local disk
         path = f"./replays/{job_id}/{match_index:04d}.jsonl.gz"
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        with gzip.open(path, "wt", encoding="utf-8") as f:
-            f.write("\n".join(json.dumps(t) for t in ticks))
+        with open(path, "wb") as f:
+            f.write(compressed)
         return path
 
     def _submit_result(self, job_id: int, result: dict, token: str):

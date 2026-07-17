@@ -121,8 +121,43 @@ const handlers = {
     });
   },
   async simReplay(ctx) {
-    const [r] = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, +ctx.params.id));
-    r ? ctx.respond(200, { match_index: +ctx.params.idx, replay_path: r.replayPath }) : ctx.respond(404, {});
+    const uid = auth(ctx); if (!uid) return;
+    const results = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, +ctx.params.id));
+    const r = results.find((r) => r.matchIndex === +ctx.params.idx);
+    if (!r || !r.replayPath) return ctx.respond(404, { detail: "Replay not found" });
+
+    const storagePath = r.replayPath.replace("supabase://replays/", "");
+    const supabaseUrl = config.supabaseUrl;
+    const supabaseKey = config.supabaseServiceKey;
+
+    if (!supabaseUrl || !supabaseKey || !r.replayPath.startsWith("supabase://")) {
+      return ctx.respond(404, { detail: "Replay storage not configured" });
+    }
+
+    // Generate a signed URL valid for 1 hour
+    try {
+      const https = require("https");
+      const body = JSON.stringify({ expiresIn: 3600 });
+      const result = await new Promise((resolve, reject) => {
+        const req = https.request(`${supabaseUrl}/storage/v1/object/sign/replays/${storagePath}`, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${supabaseKey}`,
+            "Content-Type": "application/json",
+            "Content-Length": Buffer.byteLength(body),
+          },
+        }, (res) => {
+          let d = ""; res.on("data", (c) => d += c); res.on("end", () => { try { resolve(JSON.parse(d)); } catch { reject(new Error(d)); } });
+          res.on("error", reject);
+        });
+        req.on("error", reject);
+        req.write(body);
+        req.end();
+      });
+      ctx.respond(200, { match_index: +ctx.params.idx, signed_url: result.signedURL || result.signed_url });
+    } catch {
+      ctx.respond(500, { detail: "Failed to generate signed URL" });
+    }
   },
 
   // Analytics
@@ -228,11 +263,12 @@ async function handleRequest(req, res) {
     getCookie(n) { const raw = req.headers?.cookie || req.headers?.Cookie || ""; const m = raw.match(new RegExp(`${n}=([^;]+)`)); return m ? m[1] : null; },
     setCookie(n, v, o = {}) { _cookies.push([`${n}=${v}`, "HttpOnly", "Secure", "SameSite=Lax", "Path=/", `Max-Age=${o.maxAge || 86400}`].join("; ")); },
     clearCookie(n) { _cookies.push(`${n}=; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0`); },
-    respond(status, data) {
-      const h = { "Content-Type": "application/json; charset=utf-8" };
+    respond(status, data, contentType) {
+      const h = { "Content-Type": contentType || "application/json; charset=utf-8" };
       if (_cookies.length) h["Set-Cookie"] = _cookies;
       res.writeHead(status, h);
-      res.send(typeof data === "string" ? data : JSON.stringify(data));
+      if (Buffer.isBuffer(data)) { res.send(data); }
+      else { res.send(typeof data === "string" ? data : JSON.stringify(data)); }
     },
   };
 
