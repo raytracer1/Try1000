@@ -152,7 +152,10 @@ const handlers = {
       const https = require("https");
       const body = JSON.stringify({ expiresIn: 3600 });
       const result = await new Promise((resolve, reject) => {
-        const req = https.request(`${supabaseUrl}/storage/v1/object/sign/replays/${storagePath}`, {
+        const url = new URL(`${supabaseUrl}/storage/v1/object/sign/replays/${storagePath}`);
+        const req = https.request({
+          hostname: url.hostname,
+          path: url.pathname,
           method: "POST",
           headers: {
             "Authorization": `Bearer ${supabaseKey}`,
@@ -160,15 +163,32 @@ const handlers = {
             "Content-Length": Buffer.byteLength(body),
           },
         }, (res) => {
-          let d = ""; res.on("data", (c) => d += c); res.on("end", () => { try { resolve(JSON.parse(d)); } catch { reject(new Error(d)); } });
+          let d = ""; res.on("data", (c) => d += c); res.on("end", () => {
+            if (res.statusCode !== 200) {
+              console.error(`Supabase sign failed: ${res.statusCode} — ${d}`);
+              reject(new Error(`HTTP ${res.statusCode}`));
+              return;
+            }
+            try { resolve(JSON.parse(d)); } catch { reject(new Error(d)); }
+          });
           res.on("error", reject);
         });
         req.on("error", reject);
-        req.write(body);
-        req.end();
+        req.write(body); req.end();
       });
-      ctx.respond(200, { match_index: +ctx.params.idx, signed_url: result.signedURL || result.signed_url });
-    } catch {
+      let signedUrl = result.signedURL || result.signedUrl || result.signed_url;
+      if (!signedUrl) {
+        console.error("Supabase sign response missing URL:", JSON.stringify(result));
+        return ctx.respond(500, { detail: "Failed to generate signed URL" });
+      }
+      // Supabase returns a relative path — prepend the full base URL
+      if (signedUrl.startsWith("/")) {
+        const prefix = signedUrl.startsWith("/storage/v1") ? "" : "/storage/v1";
+        signedUrl = `${supabaseUrl}${prefix}${signedUrl}`;
+      }
+      ctx.respond(200, { match_index: +ctx.params.idx, signed_url: signedUrl });
+    } catch (e) {
+      console.error("Replay sign error:", e.message);
       ctx.respond(500, { detail: "Failed to generate signed URL" });
     }
   },

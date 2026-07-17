@@ -20,7 +20,7 @@ const config = {
   googleClientId: process.env.TRY1000_GOOGLE_CLIENT_ID || "",
   googleClientSecret: process.env.TRY1000_GOOGLE_CLIENT_SECRET || "",
   supabaseUrl: process.env.SUPABASE_URL || "",
-  supabaseServiceKey: process.env.SUPABASE_SERVICE_KEY || "",
+  supabaseServiceKey: process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_KEY || "",
   ablyApiKey: process.env.TRY1000_ABLY_API_KEY || "",
 };
 
