@@ -45,6 +45,31 @@ class AnthropicClient:
         return response.content[0].text
 
 
+class DashScopeClient:
+    """LLM client for Alibaba Cloud DashScope (Qwen models)."""
+
+    def __init__(self, api_key: str | None = None, model: str = "qwen3.7-plus"):
+        self.api_key = api_key or os.environ.get("DASHSCOPE_API_KEY", "")
+        self.model = model
+
+    def generate(self, system_prompt: str, user_message: str) -> str:
+        import dashscope
+        dashscope.base_http_api_url = "https://dashscope-intl.aliyuncs.com/api/v1"
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": user_message})
+        response = dashscope.Generation.call(
+            api_key=self.api_key,
+            model=self.model,
+            messages=messages,
+            result_format="message",
+        )
+        if response.status_code != 200:
+            raise RuntimeError(f"DashScope error {response.status_code}: {response.message}")
+        return response.output.choices[0].message.content
+
+
 class OpenAICompatibleClient:
     """LLM client for OpenAI-compatible APIs (GPT, DeepSeek, local models)."""
 

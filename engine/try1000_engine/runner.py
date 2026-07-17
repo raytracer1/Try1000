@@ -148,20 +148,31 @@ class EngineRunner:
     def _build_policies(self, tactic: dict, team_name: str) -> dict[str, object]:
         """Build per-role policies. Tries LLM-generated code first, falls back to RuleBased."""
         from try1000_engine.ai.policy_factory import PolicyFactory
-        from try1000_engine.ai.llm_generator import AnthropicClient, OpenAICompatibleClient, CodeGenerator
+        from try1000_engine.ai.llm_generator import (
+            AnthropicClient, OpenAICompatibleClient, DashScopeClient, CodeGenerator,
+        )
         from try1000_engine.ai.generated_policy import GeneratedPolicy
 
         tactical_doc = tactic.get("tactical_document", "") if tactic else ""
-        has_llm = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("OPENAI_API_KEY"))
+        has_llm = bool(
+            os.environ.get("ANTHROPIC_API_KEY")
+            or os.environ.get("OPENAI_API_KEY")
+            or os.environ.get("DASHSCOPE_API_KEY")
+        )
 
         if tactical_doc.strip() and has_llm:
             try:
-                api_key = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("OPENAI_API_KEY")
-                model = os.environ.get("LLM_MODEL", "claude-sonnet-5")
-                provider = "anthropic" if os.environ.get("ANTHROPIC_API_KEY") else "openai"
-                if provider == "anthropic":
+                if os.environ.get("DASHSCOPE_API_KEY"):
+                    api_key = os.environ["DASHSCOPE_API_KEY"]
+                    model = os.environ.get("LLM_MODEL", "qwen3.7-plus")
+                    client = DashScopeClient(api_key=api_key, model=model)
+                elif os.environ.get("ANTHROPIC_API_KEY"):
+                    api_key = os.environ["ANTHROPIC_API_KEY"]
+                    model = os.environ.get("LLM_MODEL", "claude-sonnet-5")
                     client = AnthropicClient(api_key=api_key, model=model)
                 else:
+                    api_key = os.environ["OPENAI_API_KEY"]
+                    model = os.environ.get("LLM_MODEL", "gpt-4o")
                     client = OpenAICompatibleClient(api_key=api_key, model=model)
 
                 gen = CodeGenerator(client)
