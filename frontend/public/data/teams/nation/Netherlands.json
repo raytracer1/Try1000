@@ -4,417 +4,202 @@
   "logo": "https://cdn.sofifa.net/meta/team/18694/30.png",
   "players": [
     {
-      "name": "Virgil van Dijk -",
-      "number": 4,
+      "name": "Bart Verbruggen",
+      "number": 1,
+      "position": "GK",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 20,
+        "passing": 80,
+        "dribbling": 35,
+        "defending": 85,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 80,
+        "composure": 80
+      },
+      "image": "https://cdn.sofifa.net/players/258/498/25_120.png"
+    },
+    {
+      "name": "Micky van de Ven",
+      "number": 15,
       "position": "CB",
-      "overall": 90,
+      "overall": 73,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
+        "pace": 95,
+        "shooting": 35,
         "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/203/376/25_120.png"
-    },
-    {
-      "name": "Frenkie de Jong -",
-      "number": 21,
-      "position": "CM",
-      "overall": 86,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/228/702/25_120.png"
-    },
-    {
-      "name": "Jeremie Agyekum Frimpong -",
-      "number": 12,
-      "position": "RW",
-      "overall": 84,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/253/149/25_120.png"
-    },
-    {
-      "name": "Ryan Jiro Gravenberch -",
-      "number": 16,
-      "position": "CDM",
-      "overall": 84,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/246/104/25_120.png"
-    },
-    {
-      "name": "Xavier Quentin Shay Simons -",
-      "number": 7,
-      "position": "CAM",
-      "overall": 84,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/245/367/25_120.png"
-    },
-    {
-      "name": "Cody Mathès Gakpo -",
-      "number": 11,
-      "position": "LW",
-      "overall": 84,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/242/516/25_120.png"
-    },
-    {
-      "name": "Tijjani Martinus Jan Reijnders Lekatompessy -",
-      "number": 14,
-      "position": "CM",
-      "overall": 84,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/240/638/25_120.png"
-    },
-    {
-      "name": "Micky van de Ven -",
-      "number": 24,
-      "position": "CB",
-      "overall": 83,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "dribbling": 65,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 85,
+        "awareness": 73,
+        "composure": 75
       },
       "image": "https://cdn.sofifa.net/players/264/453/25_120.png"
     },
     {
-      "name": "Matthijs de Ligt -",
-      "number": 15,
-      "position": "CB",
-      "overall": 83,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/235/243/25_120.png"
-    },
-    {
-      "name": "Denzel Justus Morris Dumfries -",
-      "number": 22,
-      "position": "RB",
-      "overall": 83,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/233/096/25_120.png"
-    },
-    {
-      "name": "Nathan Benjamin Aké -",
-      "number": 5,
-      "position": "CB",
-      "overall": 83,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/208/920/25_120.png"
-    },
-    {
-      "name": "Stefan de Vrij -",
-      "number": 25,
-      "position": "CB",
-      "overall": 83,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/198/176/25_120.png"
-    },
-    {
-      "name": "Jurriën David Norman Timber -",
-      "number": 3,
-      "position": "RB",
-      "overall": 82,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/251/805/25_120.png"
-    },
-    {
-      "name": "Teun Koopmeiners -",
-      "number": 8,
-      "position": "CM",
-      "overall": 82,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/240/679/25_120.png"
-    },
-    {
-      "name": "Jerdy Hendrikus Gerardus Bernardus Schouten -",
-      "number": 27,
-      "position": "CDM",
-      "overall": 80,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/235/149/25_120.png"
-    },
-    {
-      "name": "Donyell Malen -",
-      "number": 18,
-      "position": "RW",
-      "overall": 80,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/231/447/25_120.png"
-    },
-    {
-      "name": "Lutsharel Geertruida -",
-      "number": 2,
+      "name": "Virgil van Dijk",
+      "number": 4,
       "position": "CB",
       "overall": 79,
       "attributes": {
         "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "shooting": 50,
+        "passing": 85,
+        "dribbling": 60,
+        "defending": 95,
+        "physicality": 95,
+        "stamina": 80,
+        "awareness": 89,
+        "composure": 85
       },
-      "image": "https://cdn.sofifa.net/players/241/187/25_120.png"
+      "image": "https://cdn.sofifa.net/players/203/376/25_120.png"
     },
     {
-      "name": "Noa Noëll Lang -",
-      "number": 17,
-      "position": "LW",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/239/380/25_120.png"
-    },
-    {
-      "name": "Justin Dean Kluivert -",
-      "number": 19,
-      "position": "CAM",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/236/920/25_120.png"
-    },
-    {
-      "name": "Jan Paul van Hecke -",
+      "name": "Jan Paul van Hecke",
       "number": 6,
-      "position": "CB",
-      "overall": 78,
+      "position": "LB",
+      "overall": 67,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
+        "pace": 65,
+        "shooting": 35,
+        "passing": 75,
+        "dribbling": 55,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 72,
         "composure": 70
       },
       "image": "https://cdn.sofifa.net/players/258/908/25_120.png"
     },
     {
-      "name": "Bart Verbruggen -",
-      "number": 1,
-      "position": "GK",
-      "overall": 78,
+      "name": "Denzel Dumfries",
+      "number": 22,
+      "position": "RB",
+      "overall": 73,
       "attributes": {
-        "pace": 70,
-        "defending": 70,
+        "pace": 85,
+        "shooting": 55,
         "passing": 70,
-        "dribbling": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
+        "dribbling": 65,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 90,
+        "awareness": 68,
         "composure": 70
       },
-      "image": "https://cdn.sofifa.net/players/258/498/25_120.png"
+      "image": "https://cdn.sofifa.net/players/233/096/25_120.png"
     },
     {
-      "name": "Kenneth Ina Dorothea Taylor -",
-      "number": 26,
+      "name": "Frenkie de Jong",
+      "number": 21,
       "position": "CM",
-      "overall": 78,
+      "overall": 80,
       "attributes": {
         "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
+        "shooting": 65,
+        "passing": 90,
+        "dribbling": 90,
+        "defending": 74,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 85,
+        "awareness": 86,
+        "composure": 90
       },
-      "image": "https://cdn.sofifa.net/players/255/009/25_120.png"
+      "image": "https://cdn.sofifa.net/players/228/702/25_120.png"
     },
     {
-      "name": "Brian Ebenezer Adjei Brobbey -",
-      "number": 9,
-      "position": "ST",
-      "overall": 78,
+      "name": "Tijjani Reijnders",
+      "number": 14,
+      "position": "CM",
+      "overall": 79,
       "attributes": {
-        "pace": 70,
+        "pace": 75,
         "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
+        "passing": 85,
+        "dribbling": 80,
+        "defending": 72,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 90,
+        "awareness": 81,
+        "composure": 85
+      },
+      "image": "https://cdn.sofifa.net/players/240/638/25_120.png"
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "number": 8,
+      "position": "LM",
+      "overall": 80,
+      "attributes": {
+        "pace": 80,
+        "shooting": 65,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 90,
+        "awareness": 81,
+        "composure": 85
+      },
+      "image": "https://cdn.sofifa.net/players/246/104/25_120.png"
+    },
+    {
+      "name": "Cody Gakpo",
+      "number": 11,
+      "position": "ST",
+      "overall": 80,
+      "attributes": {
+        "pace": 80,
+        "shooting": 85,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 80,
+        "awareness": 81,
+        "composure": 85
+      },
+      "image": "https://cdn.sofifa.net/players/242/516/25_120.png"
+    },
+    {
+      "name": "Brian Brobbey",
+      "number": 9,
+      "position": "LW",
+      "overall": 76,
+      "attributes": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 79,
+        "physicality": 85,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 75
       },
       "image": "https://cdn.sofifa.net/players/251/810/25_120.png"
+    },
+    {
+      "name": "Donyell Malen",
+      "number": 18,
+      "position": "RW",
+      "overall": 76,
+      "attributes": {
+        "pace": 90,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 85,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 80
+      },
+      "image": "https://cdn.sofifa.net/players/231/447/25_120.png"
     }
   ]
 }

@@ -1,0 +1,205 @@
+{
+  "name": "South Korea",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "Kim Seung-gyu",
+      "number": 1,
+      "position": "GK",
+      "overall": 57,
+      "attributes": {
+        "pace": 60,
+        "shooting": 20,
+        "passing": 65,
+        "dribbling": 25,
+        "defending": 75,
+        "physicality": 70,
+        "stamina": 60,
+        "awareness": 71,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Lee Ki-hyuk",
+      "number": 3,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Kim Min-jae",
+      "number": 4,
+      "position": "CB",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 75,
+        "dribbling": 60,
+        "defending": 88,
+        "physicality": 90,
+        "stamina": 80,
+        "awareness": 82,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Lee Han-beom",
+      "number": 2,
+      "position": "LB",
+      "overall": 65,
+      "attributes": {
+        "pace": 75,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Seol Young-woo",
+      "number": 22,
+      "position": "RB",
+      "overall": 68,
+      "attributes": {
+        "pace": 80,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Kim Moon-hwan",
+      "number": 15,
+      "position": "CB",
+      "overall": 67,
+      "attributes": {
+        "pace": 80,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Paik Seung-ho",
+      "number": 8,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 75,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Hwang In-beom",
+      "number": 6,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 70,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 75,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Lee Jae-sung",
+      "number": 10,
+      "position": "LM",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 69,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 75,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Lee Kang-in",
+      "number": 19,
+      "position": "RM",
+      "overall": 74,
+      "attributes": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 85
+      },
+      "image": ""
+    },
+    {
+      "name": "Son Heung-min",
+      "number": 7,
+      "position": "ST",
+      "overall": 82,
+      "attributes": {
+        "pace": 90,
+        "shooting": 90,
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 74,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 83,
+        "composure": 85
+      },
+      "image": ""
+    }
+  ]
+}

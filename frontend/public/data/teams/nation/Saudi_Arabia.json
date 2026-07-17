@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/sa.png",
   "players": [
     {
-      "name": "S. Al Dawsari",
-      "number": 29,
-      "position": "LW",
-      "overall": 76,
+      "name": "Mohammed Al-Owais",
+      "number": 21,
+      "position": "GK",
+      "overall": 55,
       "attributes": {
-        "pace": 83,
-        "shooting": 68,
-        "passing": 70,
-        "dribbling": 82,
-        "defending": 39,
-        "physicality": 76,
-        "stamina": 85,
-        "awareness": 72,
-        "composure": 76
-      }
-    },
-    {
-      "name": "Y. Al Shahrani",
-      "number": 12,
-      "position": "LB",
-      "overall": 75,
-      "attributes": {
-        "pace": 88,
-        "shooting": 42,
-        "passing": 71,
-        "dribbling": 72,
+        "pace": 55,
+        "shooting": 20,
+        "passing": 60,
+        "dribbling": 25,
         "defending": 70,
-        "physicality": 56,
-        "stamina": 88,
-        "awareness": 69,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 65,
         "composure": 65
-      }
+      },
+      "image": ""
     },
     {
-      "name": "S. Al Faraj",
-      "number": 7,
+      "name": "Nawaf Boushal",
+      "number": 13,
+      "position": "CB",
+      "overall": 60,
+      "attributes": {
+        "pace": 65,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Abdulelah Al-Amri",
+      "number": 4,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Hassan Al-Tambakti",
+      "number": 5,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "number": 12,
+      "position": "RB",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Mohamed Kanno",
+      "number": 23,
+      "position": "CDM",
+      "overall": 68,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Abdullah Al-Khaibari",
+      "number": 15,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Salem Al-Dawsari",
+      "number": 10,
       "position": "CM",
       "overall": 73,
       "attributes": {
-        "pace": 64,
-        "shooting": 63,
-        "passing": 78,
-        "dribbling": 68,
-        "defending": 73,
-        "physicality": 66,
-        "stamina": 60,
-        "awareness": 67,
-        "composure": 81
-      }
-    },
-    {
-      "name": "M. Al Buraik",
-      "number": 2,
-      "position": "RB",
-      "overall": 72,
-      "attributes": {
-        "pace": 82,
-        "shooting": 55,
-        "passing": 68,
-        "dribbling": 68,
-        "defending": 65,
-        "physicality": 60,
-        "stamina": 83,
-        "awareness": 64,
-        "composure": 65
-      }
-    },
-    {
-      "name": "S. Al Ghannam",
-      "number": 2,
-      "position": "RB",
-      "overall": 72,
-      "attributes": {
-        "pace": 81,
-        "shooting": 58,
-        "passing": 70,
-        "dribbling": 72,
-        "defending": 68,
-        "physicality": 62,
-        "stamina": 81,
-        "awareness": 64,
-        "composure": 63
-      }
-    },
-    {
-      "name": "M. Al Kuwaykibi",
-      "number": 7,
-      "position": "RW",
-      "overall": 71,
-      "attributes": {
-        "pace": 82,
-        "shooting": 65,
-        "passing": 63,
-        "dribbling": 75,
-        "defending": 22,
-        "physicality": 50,
-        "stamina": 72,
-        "awareness": 58,
-        "composure": 57
-      }
-    },
-    {
-      "name": "A. Al Amri",
-      "number": 5,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 76,
-        "shooting": 20,
-        "passing": 57,
-        "dribbling": 37,
-        "defending": 69,
-        "physicality": 80,
-        "stamina": 78,
-        "awareness": 67,
-        "composure": 52
-      }
-    },
-    {
-      "name": "M. Kanno",
-      "number": 28,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 74,
-        "shooting": 66,
-        "passing": 72,
-        "dribbling": 70,
-        "defending": 69,
-        "physicality": 76,
-        "stamina": 79,
-        "awareness": 66,
-        "composure": 67
-      }
-    },
-    {
-      "name": "A. Ateef",
-      "number": 8,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 34,
-        "shooting": 41,
-        "passing": 75,
-        "dribbling": 61,
-        "defending": 69,
-        "physicality": 60,
-        "stamina": 52,
-        "awareness": 67,
-        "composure": 80
-      }
-    },
-    {
-      "name": "M. Al Owais",
-      "number": 33,
-      "position": "GK",
-      "overall": 70,
-      "attributes": {
-        "pace": 49,
-        "shooting": 20,
-        "passing": 27,
-        "dribbling": 14,
-        "defending": 20,
-        "physicality": 62,
-        "stamina": 35,
-        "awareness": 67,
-        "composure": 57
-      }
-    },
-    {
-      "name": "A. Al Sulayhim",
-      "number": 8,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 68,
-        "shooting": 61,
-        "passing": 72,
-        "dribbling": 74,
-        "defending": 60,
-        "physicality": 58,
-        "stamina": 75,
-        "awareness": 68,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Al Malki",
-      "number": 88,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
         "pace": 75,
-        "shooting": 59,
-        "passing": 71,
-        "dribbling": 68,
-        "defending": 74,
-        "physicality": 74,
-        "stamina": 84,
-        "awareness": 68,
-        "composure": 56
-      }
-    },
-    {
-      "name": "S. Abdulhamid",
-      "number": 66,
-      "position": "RB",
-      "overall": 69,
-      "attributes": {
-        "pace": 85,
-        "shooting": 41,
-        "passing": 64,
-        "dribbling": 67,
-        "defending": 64,
-        "physicality": 59,
-        "stamina": 85,
-        "awareness": 62,
-        "composure": 49
-      }
-    },
-    {
-      "name": "S. Al Shehri",
-      "number": 11,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 65,
-        "shooting": 73,
-        "passing": 60,
-        "dribbling": 61,
-        "defending": 19,
-        "physicality": 83,
-        "stamina": 64,
-        "awareness": 73,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Sharahili",
-      "number": 20,
-      "position": "CM",
-      "overall": 68,
-      "attributes": {
-        "pace": 75,
-        "shooting": 31,
-        "passing": 62,
-        "dribbling": 53,
-        "defending": 66,
-        "physicality": 78,
-        "stamina": 84,
-        "awareness": 62,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Al Mayoof",
-      "number": 1,
-      "position": "GK",
-      "overall": 68,
-      "attributes": {
-        "pace": 33,
-        "shooting": 16,
-        "passing": 32,
-        "dribbling": 19,
-        "defending": 18,
-        "physicality": 73,
-        "stamina": 35,
-        "awareness": 64,
-        "composure": 56
-      }
-    },
-    {
-      "name": "F. Al Muwallad",
-      "number": 8,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 90,
-        "shooting": 55,
-        "passing": 62,
-        "dribbling": 68,
-        "defending": 30,
-        "physicality": 62,
-        "stamina": 63,
-        "awareness": 62,
-        "composure": 56
-      }
-    },
-    {
-      "name": "S. Al Najai",
-      "number": 14,
-      "position": "RW",
-      "overall": 67,
-      "attributes": {
-        "pace": 73,
-        "shooting": 70,
+        "shooting": 80,
         "passing": 70,
-        "dribbling": 68,
+        "dribbling": 80,
         "defending": 62,
-        "physicality": 64,
+        "physicality": 60,
         "stamina": 75,
-        "awareness": 65,
-        "composure": 71
-      }
+        "awareness": 74,
+        "composure": 80
+      },
+      "image": ""
     },
     {
-      "name": "N. Al Abed",
-      "number": 14,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 53,
-        "shooting": 68,
-        "passing": 71,
-        "dribbling": 71,
-        "defending": 39,
-        "physicality": 54,
-        "stamina": 36,
-        "awareness": 63,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Al Hassan",
-      "number": 19,
-      "position": "CM",
-      "overall": 67,
+      "name": "Musab Al-Juwayr",
+      "number": 7,
+      "position": "LM",
+      "overall": 70,
       "attributes": {
         "pace": 70,
-        "shooting": 53,
-        "passing": 72,
-        "dribbling": 63,
-        "defending": 61,
-        "physicality": 66,
+        "shooting": 65,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Nasser Al-Dawsari",
+      "number": 6,
+      "position": "RM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 62,
+        "physicality": 60,
         "stamina": 75,
-        "awareness": 63,
-        "composure": 60
-      }
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "Z. Al Sahafi",
-      "number": 4,
-      "position": "CM",
-      "overall": 67,
+      "name": "Firas Al-Buraikan",
+      "number": 9,
+      "position": "ST",
+      "overall": 69,
       "attributes": {
-        "pace": 48,
-        "shooting": 50,
-        "passing": 62,
-        "dribbling": 52,
-        "defending": 67,
-        "physicality": 84,
-        "stamina": 73,
-        "awareness": 65,
-        "composure": 47
-      }
-    },
-    {
-      "name": "M. Hawsawi",
-      "number": 25,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 59,
-        "shooting": 43,
-        "passing": 54,
-        "dribbling": 46,
+        "pace": 70,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 65,
         "defending": 68,
-        "physicality": 71,
-        "stamina": 60,
-        "awareness": 63,
-        "composure": 59
-      }
-    },
-    {
-      "name": "A. Al Bulayhi",
-      "number": 5,
-      "position": "CM",
-      "overall": 67,
-      "attributes": {
-        "pace": 63,
-        "shooting": 40,
-        "passing": 55,
-        "dribbling": 34,
-        "defending": 67,
-        "physicality": 80,
-        "stamina": 70,
-        "awareness": 61,
-        "composure": 52
-      }
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
     }
   ]
 }

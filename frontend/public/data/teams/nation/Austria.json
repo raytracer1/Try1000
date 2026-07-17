@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/at.png",
   "players": [
     {
-      "name": "D. Alaba",
-      "number": 4,
-      "position": "LB",
-      "overall": 84,
+      "name": "Alexander Schlager",
+      "number": 1,
+      "position": "GK",
+      "overall": 57,
       "attributes": {
-        "pace": 77,
+        "pace": 60,
+        "shooting": 20,
+        "passing": 65,
+        "dribbling": 25,
+        "defending": 80,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Phillipp Mwene",
+      "number": 16,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "David Alaba",
+      "number": 8,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 65,
         "shooting": 60,
-        "passing": 85,
-        "dribbling": 77,
-        "defending": 83,
-        "physicality": 76,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 70,
         "stamina": 75,
-        "awareness": 88,
+        "awareness": 81,
         "composure": 85
-      }
+      },
+      "image": ""
     },
     {
-      "name": "M. Sabitzer",
+      "name": "Philipp Lienhart",
+      "number": 15,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 70,
+        "dribbling": 55,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Stefan Posch",
+      "number": 5,
+      "position": "RB",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Romano Schmid",
       "number": 18,
-      "position": "CM",
-      "overall": 84,
+      "position": "CDM",
+      "overall": 70,
       "attributes": {
-        "pace": 81,
-        "shooting": 81,
-        "passing": 84,
-        "dribbling": 79,
-        "defending": 70,
-        "physicality": 76,
+        "pace": 70,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 64,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Nicolas Seiwald",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 69,
+        "physicality": 65,
         "stamina": 85,
-        "awareness": 86,
-        "composure": 80
-      }
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "K. Laimer",
-      "number": 27,
+      "name": "Xaver Schlager",
+      "number": 4,
       "position": "CM",
-      "overall": 81,
+      "overall": 71,
       "attributes": {
-        "pace": 81,
-        "shooting": 69,
-        "passing": 82,
-        "dribbling": 78,
-        "defending": 79,
-        "physicality": 69,
-        "stamina": 88,
-        "awareness": 79,
-        "composure": 79
-      }
+        "pace": 70,
+        "shooting": 55,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
     },
     {
-      "name": "M. Arnautović",
+      "name": "Marcel Sabitzer",
       "number": 9,
-      "position": "ST",
-      "overall": 81,
+      "position": "LM",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 70,
+        "passing": 80,
+        "dribbling": 75,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Konrad Laimer",
+      "number": 20,
+      "position": "RM",
+      "overall": 71,
       "attributes": {
         "pace": 80,
-        "shooting": 80,
-        "passing": 81,
-        "dribbling": 77,
-        "defending": 42,
-        "physicality": 87,
-        "stamina": 77,
-        "awareness": 78,
-        "composure": 79
-      }
-    },
-    {
-      "name": "X. Schlager",
-      "number": 24,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 64,
-        "shooting": 66,
-        "passing": 79,
-        "dribbling": 76,
-        "defending": 74,
-        "physicality": 80,
-        "stamina": 85,
-        "awareness": 81,
-        "composure": 74
-      }
-    },
-    {
-      "name": "M. Hinteregger",
-      "number": 13,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 74,
-        "shooting": 65,
-        "passing": 72,
-        "dribbling": 54,
-        "defending": 85,
-        "physicality": 83,
-        "stamina": 76,
-        "awareness": 76,
-        "composure": 78
-      }
-    },
-    {
-      "name": "S. Lainer",
-      "number": 18,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 78,
-        "shooting": 59,
-        "passing": 76,
-        "dribbling": 76,
-        "defending": 77,
-        "physicality": 72,
-        "stamina": 92,
-        "awareness": 77,
-        "composure": 75
-      }
-    },
-    {
-      "name": "16 M. Stranzl",
-      "number": 39,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 51,
-        "shooting": 32,
-        "passing": 65,
-        "dribbling": 43,
-        "defending": 87,
-        "physicality": 85,
-        "stamina": 61,
-        "awareness": 81,
-        "composure": 70
-      }
-    },
-    {
-      "name": "F. Grillitsch",
-      "number": 11,
-      "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 75,
-        "shooting": 58,
-        "passing": 84,
-        "dribbling": 78,
-        "defending": 72,
-        "physicality": 72,
-        "stamina": 70,
-        "awareness": 81,
-        "composure": 81
-      }
-    },
-    {
-      "name": "C. Baumgartner",
-      "number": 14,
-      "position": "RW",
-      "overall": 78,
-      "attributes": {
-        "pace": 78,
-        "shooting": 75,
-        "passing": 79,
-        "dribbling": 82,
-        "defending": 54,
-        "physicality": 49,
-        "stamina": 67,
-        "awareness": 77,
-        "composure": 75
-      }
-    },
-    {
-      "name": "J. Baumgartlinger",
-      "number": 15,
-      "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 55,
-        "shooting": 39,
-        "passing": 81,
+        "shooting": 55,
+        "passing": 70,
         "dribbling": 65,
-        "defending": 80,
-        "physicality": 77,
-        "stamina": 81,
-        "awareness": 74,
-        "composure": 77
-      }
-    },
-    {
-      "name": "V. Lazaro",
-      "number": 22,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 74,
-        "shooting": 68,
-        "passing": 76,
-        "dribbling": 80,
-        "defending": 70,
-        "physicality": 66,
-        "stamina": 68,
-        "awareness": 75,
-        "composure": 76
-      }
-    },
-    {
-      "name": "C. Trimmel",
-      "number": 28,
-      "position": "RB",
-      "overall": 77,
-      "attributes": {
-        "pace": 79,
-        "shooting": 61,
-        "passing": 70,
-        "dribbling": 69,
-        "defending": 75,
-        "physicality": 81,
-        "stamina": 82,
-        "awareness": 73,
-        "composure": 70
-      }
-    },
-    {
-      "name": "S. Kalajdžić",
-      "number": 9,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 58,
-        "shooting": 82,
-        "passing": 74,
-        "dribbling": 74,
-        "defending": 46,
-        "physicality": 82,
-        "stamina": 67,
-        "awareness": 78,
-        "composure": 72
-      }
-    },
-    {
-      "name": "Z. Junuzović",
-      "number": 16,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 66,
-        "shooting": 68,
-        "passing": 78,
-        "dribbling": 79,
-        "defending": 66,
-        "physicality": 62,
-        "stamina": 81,
-        "awareness": 71,
-        "composure": 79
-      }
-    },
-    {
-      "name": "G. Trauner",
-      "number": 18,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 66,
-        "shooting": 51,
-        "passing": 68,
-        "dribbling": 58,
-        "defending": 76,
-        "physicality": 86,
-        "stamina": 90,
-        "awareness": 71,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Dragović",
-      "number": 3,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 47,
-        "shooting": 41,
-        "passing": 67,
-        "dribbling": 62,
-        "defending": 78,
-        "physicality": 80,
-        "stamina": 66,
-        "awareness": 72,
-        "composure": 73
-      }
-    },
-    {
-      "name": "P. Lienhart",
-      "number": 3,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 68,
-        "shooting": 24,
-        "passing": 69,
-        "dribbling": 59,
-        "defending": 81,
-        "physicality": 76,
-        "stamina": 67,
-        "awareness": 75,
-        "composure": 69
-      }
-    },
-    {
-      "name": "S. Schwab",
-      "number": 22,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 64,
-        "shooting": 73,
-        "passing": 76,
-        "dribbling": 72,
         "defending": 69,
-        "physicality": 76,
-        "stamina": 88,
-        "awareness": 73,
-        "composure": 75
-      }
+        "physicality": 65,
+        "stamina": 90,
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "F. Kainz",
-      "number": 11,
-      "position": "LW",
-      "overall": 75,
+      "name": "Marko Arnautović",
+      "number": 7,
+      "position": "ST",
+      "overall": 70,
       "attributes": {
-        "pace": 66,
+        "pace": 60,
         "shooting": 75,
-        "passing": 72,
-        "dribbling": 77,
-        "defending": 35,
-        "physicality": 55,
-        "stamina": 75,
-        "awareness": 70,
-        "composure": 69
-      }
-    },
-    {
-      "name": "S. Posch",
-      "number": 38,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 71,
-        "shooting": 23,
-        "passing": 69,
-        "dribbling": 34,
-        "defending": 81,
-        "physicality": 76,
-        "stamina": 63,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 65,
         "awareness": 69,
-        "composure": 68
-      }
-    },
-    {
-      "name": "21 C. Fuchs",
-      "number": 28,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 52,
-        "shooting": 57,
-        "passing": 77,
-        "dribbling": 66,
-        "defending": 76,
-        "physicality": 71,
-        "stamina": 54,
-        "awareness": 75,
-        "composure": 73
-      }
-    },
-    {
-      "name": "A. Ulmer",
-      "number": 2,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 69,
-        "shooting": 53,
-        "passing": 70,
-        "dribbling": 71,
-        "defending": 73,
-        "physicality": 64,
-        "stamina": 86,
-        "awareness": 70,
         "composure": 75
-      }
+      },
+      "image": ""
     }
   ]
 }

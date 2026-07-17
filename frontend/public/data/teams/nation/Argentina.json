@@ -4,415 +4,202 @@
   "logo": "https://cdn.sofifa.net/meta/team/18644/30.png",
   "players": [
     {
-      "name": "Lautaro Javier Martínez -",
-      "number": 22,
-      "position": "ST",
-      "overall": 88,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/231/478/25_120.png"
-    },
-    {
-      "name": "Lionel Andrés Messi Cuccitini -",
-      "number": 10,
-      "position": "RW",
-      "overall": 87,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/158/023/25_120.png"
-    },
-    {
-      "name": "Julián Álvarez -",
-      "number": 9,
-      "position": "ST",
-      "overall": 86,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/246/191/25_120.png"
-    },
-    {
-      "name": "Alexis Mac Allister -",
-      "number": 20,
-      "position": "CM",
-      "overall": 86,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/239/837/25_120.png"
-    },
-    {
-      "name": "Paulo Bruno Exequiel Dybala -",
-      "number": 21,
-      "position": "CAM",
-      "overall": 86,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/211/110/25_120.png"
-    },
-    {
-      "name": "Damián Emiliano Martínez Romero -",
+      "name": "Emiliano Martínez",
       "number": 23,
       "position": "GK",
-      "overall": 86,
+      "overall": 64,
       "attributes": {
-        "pace": 70,
-        "defending": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "physicality": 70,
+        "pace": 60,
+        "shooting": 20,
+        "passing": 65,
+        "dribbling": 25,
+        "defending": 95,
+        "physicality": 80,
         "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "awareness": 78,
+        "composure": 80
       },
       "image": "https://cdn.sofifa.net/players/202/811/25_120.png"
     },
     {
-      "name": "Exequiel Alejandro Palacios -",
-      "number": 14,
-      "position": "CM",
-      "overall": 84,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/231/521/25_120.png"
-    },
-    {
-      "name": "Rodrigo Javier de Paul -",
-      "number": 7,
-      "position": "CM",
-      "overall": 84,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/212/616/25_120.png"
-    },
-    {
-      "name": "Enzo Jeremías Fernández -",
-      "number": 24,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/247/090/25_120.png"
-    },
-    {
-      "name": "Lisandro Martínez -",
-      "number": 2,
+      "name": "Nicolás Tagliafico",
+      "number": 3,
       "position": "CB",
-      "overall": 83,
+      "overall": 68,
       "attributes": {
         "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
+        "shooting": 35,
+        "passing": 75,
+        "dribbling": 60,
+        "defending": 74,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 80,
+        "awareness": 77,
+        "composure": 75
+      },
+      "image": "https://cdn.sofifa.net/players/211/256/25_120.png"
+    },
+    {
+      "name": "Lisandro Martínez",
+      "number": 6,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 75,
+        "dribbling": 55,
+        "defending": 77,
+        "physicality": 85,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 80
       },
       "image": "https://cdn.sofifa.net/players/239/301/25_120.png"
     },
     {
-      "name": "Cristian Gabriel Romero -",
+      "name": "Cristian Romero",
       "number": 13,
-      "position": "CB",
-      "overall": 83,
+      "position": "LB",
+      "overall": 71,
       "attributes": {
         "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "shooting": 40,
+        "passing": 75,
+        "dribbling": 50,
+        "defending": 80,
+        "physicality": 90,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 80
       },
       "image": "https://cdn.sofifa.net/players/232/488/25_120.png"
     },
     {
-      "name": "Nahuel Molina Lucero -",
-      "number": 16,
+      "name": "Nahuel Molina",
+      "number": 26,
       "position": "RB",
-      "overall": 81,
+      "overall": 67,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
+        "pace": 80,
+        "shooting": 40,
         "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
         "awareness": 70,
         "composure": 70
       },
       "image": "https://cdn.sofifa.net/players/233/084/25_120.png"
     },
     {
-      "name": "Giovani Lo Celso -",
-      "number": 11,
-      "position": "CAM",
-      "overall": 81,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/226/226/25_120.png"
-    },
-    {
-      "name": "Gerónimo Rulli -",
-      "number": 12,
-      "position": "GK",
-      "overall": 81,
-      "attributes": {
-        "pace": 70,
-        "defending": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/215/316/25_120.png"
-    },
-    {
-      "name": "Nicolás Hernán Gonzalo Otamendi -",
-      "number": 19,
-      "position": "CB",
-      "overall": 81,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/192/366/25_120.png"
-    },
-    {
-      "name": "Nicolás Iván González -",
-      "number": 15,
-      "position": "RW",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/240/690/25_120.png"
-    },
-    {
-      "name": "Gonzalo Ariel Montiel -",
-      "number": 4,
-      "position": "RB",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/231/340/25_120.png"
-    },
-    {
-      "name": "Marcos Javier Acuña -",
-      "number": 8,
-      "position": "LB",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/224/334/25_120.png"
-    },
-    {
-      "name": "Walter Daniel Benítez -",
-      "number": 1,
-      "position": "GK",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "defending": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/215/223/25_120.png"
-    },
-    {
-      "name": "Guido Rodríguez -",
-      "number": 18,
-      "position": "CDM",
-      "overall": 78,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/225/659/25_120.png"
-    },
-    {
-      "name": "Nicolás Alejandro Tagliafico -",
-      "number": 3,
-      "position": "LB",
-      "overall": 78,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/211/256/25_120.png"
-    },
-    {
-      "name": "Leandro Daniel Paredes -",
-      "number": 5,
+      "name": "Alexis Mac Allister",
+      "number": 20,
       "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/207/439/25_120.png"
-    },
-    {
-      "name": "Alejandro Garnacho -",
-      "number": 17,
-      "position": "CAM",
       "overall": 77,
       "attributes": {
         "pace": 70,
         "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
+        "passing": 85,
+        "dribbling": 75,
+        "defending": 74,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 85,
+        "awareness": 83,
+        "composure": 85
       },
-      "image": "https://cdn.sofifa.net/players/268/438/25_120.png"
+      "image": "https://cdn.sofifa.net/players/239/837/25_120.png"
+    },
+    {
+      "name": "Enzo Fernández",
+      "number": 24,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 90,
+        "dribbling": 75,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 81,
+        "composure": 85
+      },
+      "image": "https://cdn.sofifa.net/players/247/090/25_120.png"
+    },
+    {
+      "name": "Leandro Paredes",
+      "number": 5,
+      "position": "LM",
+      "overall": 72,
+      "attributes": {
+        "pace": 60,
+        "shooting": 70,
+        "passing": 90,
+        "dribbling": 65,
+        "defending": 66,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 72,
+        "composure": 80
+      },
+      "image": "https://cdn.sofifa.net/players/207/439/25_120.png"
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "number": 7,
+      "position": "RM",
+      "overall": 77,
+      "attributes": {
+        "pace": 75,
+        "shooting": 65,
+        "passing": 85,
+        "dribbling": 75,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 90,
+        "awareness": 77,
+        "composure": 85
+      },
+      "image": "https://cdn.sofifa.net/players/212/616/25_120.png"
+    },
+    {
+      "name": "Julián Álvarez",
+      "number": 9,
+      "position": "ST",
+      "overall": 80,
+      "attributes": {
+        "pace": 85,
+        "shooting": 85,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 74,
+        "physicality": 70,
+        "stamina": 90,
+        "awareness": 83,
+        "composure": 85
+      },
+      "image": "https://cdn.sofifa.net/players/246/191/25_120.png"
+    },
+    {
+      "name": "Lionel Messi",
+      "number": 10,
+      "position": "CF",
+      "overall": 84,
+      "attributes": {
+        "pace": 75,
+        "shooting": 95,
+        "passing": 95,
+        "dribbling": 95,
+        "defending": 71,
+        "physicality": 65,
+        "stamina": 65,
+        "awareness": 92,
+        "composure": 100
+      },
+      "image": "https://cdn.sofifa.net/players/158/023/25_120.png"
     }
   ]
 }

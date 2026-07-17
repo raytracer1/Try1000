@@ -4,225 +4,202 @@
   "logo": "https://flagcdn.com/w80/pa.png",
   "players": [
     {
-      "name": "M. Murillo",
-      "number": 62,
-      "position": "RB",
-      "overall": 75,
-      "attributes": {
-        "pace": 84,
-        "shooting": 56,
-        "passing": 71,
-        "dribbling": 70,
-        "defending": 72,
-        "physicality": 74,
-        "stamina": 75,
-        "awareness": 73,
-        "composure": 71
-      }
-    },
-    {
-      "name": "L. Mejía",
-      "number": 12,
+      "name": "Orlando Mosquera",
+      "number": 22,
       "position": "GK",
-      "overall": 75,
+      "overall": 52,
       "attributes": {
-        "pace": 52,
-        "shooting": 14,
-        "passing": 24,
-        "dribbling": 13,
-        "defending": 13,
-        "physicality": 82,
-        "stamina": 40,
-        "awareness": 75,
-        "composure": 31
-      }
-    },
-    {
-      "name": "A. Quintero",
-      "number": 19,
-      "position": "RW",
-      "overall": 72,
-      "attributes": {
-        "pace": 80,
-        "shooting": 68,
-        "passing": 71,
-        "dribbling": 75,
-        "defending": 14,
-        "physicality": 55,
-        "stamina": 70,
+        "pace": 50,
+        "shooting": 15,
+        "passing": 55,
+        "dribbling": 25,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 60,
         "awareness": 64,
-        "composure": 69
-      }
-    },
-    {
-      "name": "Y. Bárcenas",
-      "number": 23,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 77,
-        "shooting": 70,
-        "passing": 64,
-        "dribbling": 72,
-        "defending": 36,
-        "physicality": 62,
-        "stamina": 79,
-        "awareness": 65,
         "composure": 60
-      }
+      },
+      "image": ""
     },
     {
-      "name": "G. Torres",
-      "number": 30,
-      "position": "CM",
-      "overall": 70,
+      "name": "Jiovany Ramos",
+      "number": 5,
+      "position": "CB",
+      "overall": 58,
       "attributes": {
-        "pace": 82,
-        "shooting": 69,
-        "passing": 63,
-        "dribbling": 69,
-        "defending": 25,
-        "physicality": 76,
-        "stamina": 76,
-        "awareness": 70,
-        "composure": 58
-      }
-    },
-    {
-      "name": "17 F. Baloy",
-      "number": 23,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 33,
+        "pace": 60,
         "shooting": 30,
         "passing": 60,
-        "dribbling": 48,
-        "defending": 69,
-        "physicality": 93,
-        "stamina": 32,
-        "awareness": 56,
-        "composure": 62
-      }
-    },
-    {
-      "name": "A. Carrasquilla",
-      "number": 20,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 72,
-        "shooting": 61,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 63,
-        "physicality": 61,
-        "stamina": 77,
-        "awareness": 71,
-        "composure": 68
-      }
-    },
-    {
-      "name": "A. Andrade",
-      "number": 30,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 75,
-        "shooting": 48,
-        "passing": 63,
-        "dribbling": 64,
-        "defending": 67,
-        "physicality": 76,
-        "stamina": 80,
-        "awareness": 71,
-        "composure": 67
-      }
-    },
-    {
-      "name": "21 R. Torres",
-      "number": 2,
-      "position": "CM",
-      "overall": 68,
-      "attributes": {
-        "pace": 45,
-        "shooting": 45,
-        "passing": 55,
-        "dribbling": 34,
-        "defending": 67,
-        "physicality": 93,
-        "stamina": 46,
-        "awareness": 61,
-        "composure": 58
-      }
-    },
-    {
-      "name": "F. Escobar",
-      "number": 4,
-      "position": "CM",
-      "overall": 66,
-      "attributes": {
-        "pace": 79,
-        "shooting": 25,
-        "passing": 47,
-        "dribbling": 41,
-        "defending": 63,
-        "physicality": 79,
-        "stamina": 83,
-        "awareness": 63,
-        "composure": 61
-      }
-    },
-    {
-      "name": "J. Rodríguez",
-      "number": 18,
-      "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 79,
-        "shooting": 69,
-        "passing": 56,
-        "dribbling": 74,
-        "defending": 36,
-        "physicality": 71,
-        "stamina": 59,
-        "awareness": 54,
-        "composure": 54
-      }
-    },
-    {
-      "name": "F. Góndola",
-      "number": 11,
-      "position": "CM",
-      "overall": 65,
-      "attributes": {
-        "pace": 83,
-        "shooting": 65,
-        "passing": 62,
-        "dribbling": 63,
-        "defending": 54,
+        "dribbling": 45,
+        "defending": 68,
         "physicality": 70,
         "stamina": 70,
-        "awareness": 51,
-        "composure": 55
-      }
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
     },
     {
-      "name": "C. Yanis",
-      "number": 19,
+      "name": "José Córdoba",
+      "number": 3,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 50,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Andrés Andrade",
+      "number": 16,
+      "position": "CB",
+      "overall": 61,
+      "attributes": {
+        "pace": 60,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 50,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "César Blackman",
+      "number": 13,
       "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 60,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Carlos Harvey",
+      "number": 14,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 64,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 61,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Yoel Bárcenas",
+      "number": 17,
+      "position": "LM",
       "overall": 65,
       "attributes": {
-        "pace": 77,
-        "shooting": 59,
+        "pace": 65,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Michael Amir Murillo",
+      "number": 23,
+      "position": "RM",
+      "overall": 66,
+      "attributes": {
+        "pace": 75,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Cristian Martínez",
+      "number": 6,
+      "position": "ST",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "José Fajardo",
+      "number": 9,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 60,
+        "shooting": 70,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 66,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "José Luis Rodríguez",
+      "number": 7,
+      "position": "RW",
+      "overall": 65,
+      "attributes": {
+        "pace": 75,
+        "shooting": 60,
         "passing": 60,
-        "dribbling": 71,
-        "defending": 22,
-        "physicality": 42,
-        "stamina": 60,
-        "awareness": 57,
-        "composure": 49
-      }
+        "dribbling": 70,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
     }
   ]
 }

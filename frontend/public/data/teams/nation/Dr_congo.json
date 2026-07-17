@@ -1,0 +1,205 @@
+{
+  "name": "DR Congo",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "Lionel Mpasi",
+      "number": 1,
+      "position": "GK",
+      "overall": 54,
+      "attributes": {
+        "pace": 50,
+        "shooting": 15,
+        "passing": 60,
+        "dribbling": 20,
+        "defending": 80,
+        "physicality": 70,
+        "stamina": 60,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Arthur Masuaku",
+      "number": 26,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 58,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 61,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Axel Tuanzebe",
+      "number": 4,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Chancel Mbemba",
+      "number": 22,
+      "position": "LB",
+      "overall": 67,
+      "attributes": {
+        "pace": 60,
+        "shooting": 40,
+        "passing": 70,
+        "dribbling": 55,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 70,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Steve Kapuadi",
+      "number": 5,
+      "position": "RB",
+      "overall": 61,
+      "attributes": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 60,
+        "dribbling": 45,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Aaron Wan-Bissaka",
+      "number": 2,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 85,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Edo Kayembe",
+      "number": 25,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Noah Sadiki",
+      "number": 6,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 85,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Samuel Moutoussamy",
+      "number": 8,
+      "position": "LM",
+      "overall": 64,
+      "attributes": {
+        "pace": 60,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Cédric Bakambu",
+      "number": 17,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 60,
+        "shooting": 75,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 65,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Yoane Wissa",
+      "number": 20,
+      "position": "CF",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 75
+      },
+      "image": ""
+    }
+  ]
+}

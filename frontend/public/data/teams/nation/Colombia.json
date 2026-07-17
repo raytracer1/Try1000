@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/co.png",
   "players": [
     {
-      "name": "J. Cuadrado",
-      "number": 11,
-      "position": "RW",
-      "overall": 83,
+      "name": "Camilo Vargas",
+      "number": 12,
+      "position": "GK",
+      "overall": 59,
       "attributes": {
-        "pace": 89,
-        "shooting": 70,
-        "passing": 81,
-        "dribbling": 90,
-        "defending": 80,
-        "physicality": 66,
-        "stamina": 78,
-        "awareness": 82,
-        "composure": 74
-      }
+        "pace": 55,
+        "shooting": 20,
+        "passing": 60,
+        "dribbling": 25,
+        "defending": 85,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "D. Zapata",
-      "number": 91,
-      "position": "ST",
-      "overall": 83,
-      "attributes": {
-        "pace": 81,
-        "shooting": 88,
-        "passing": 74,
-        "dribbling": 79,
-        "defending": 24,
-        "physicality": 93,
-        "stamina": 75,
-        "awareness": 82,
-        "composure": 82
-      }
-    },
-    {
-      "name": "L. Muriel",
-      "number": 9,
-      "position": "CM",
-      "overall": 82,
-      "attributes": {
-        "pace": 90,
-        "shooting": 84,
-        "passing": 80,
-        "dribbling": 88,
-        "defending": 24,
-        "physicality": 72,
-        "stamina": 73,
-        "awareness": 84,
-        "composure": 82
-      }
-    },
-    {
-      "name": "J. Rodríguez",
-      "number": 19,
-      "position": "CM",
-      "overall": 81,
-      "attributes": {
-        "pace": 51,
-        "shooting": 84,
-        "passing": 84,
-        "dribbling": 86,
-        "defending": 41,
-        "physicality": 64,
-        "stamina": 55,
-        "awareness": 83,
-        "composure": 87
-      }
-    },
-    {
-      "name": "L. Díaz",
-      "number": 7,
-      "position": "LW",
-      "overall": 80,
-      "attributes": {
-        "pace": 92,
-        "shooting": 76,
-        "passing": 71,
-        "dribbling": 85,
-        "defending": 36,
-        "physicality": 66,
-        "stamina": 83,
-        "awareness": 79,
-        "composure": 81
-      }
-    },
-    {
-      "name": "M. Uribe",
-      "number": 8,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 75,
-        "shooting": 77,
-        "passing": 80,
-        "dribbling": 76,
-        "defending": 76,
-        "physicality": 77,
-        "stamina": 93,
-        "awareness": 83,
-        "composure": 76
-      }
-    },
-    {
-      "name": "S. Arias",
-      "number": 2,
-      "position": "RB",
-      "overall": 79,
-      "attributes": {
-        "pace": 78,
-        "shooting": 51,
-        "passing": 75,
-        "dribbling": 74,
-        "defending": 78,
-        "physicality": 67,
-        "stamina": 80,
-        "awareness": 80,
-        "composure": 76
-      }
-    },
-    {
-      "name": "J. Quintero",
-      "number": 10,
-      "position": "RW",
-      "overall": 79,
-      "attributes": {
-        "pace": 71,
-        "shooting": 71,
-        "passing": 81,
-        "dribbling": 83,
-        "defending": 30,
-        "physicality": 47,
-        "stamina": 53,
-        "awareness": 69,
-        "composure": 83
-      }
-    },
-    {
-      "name": "21 W. Barrios",
-      "number": 5,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 71,
-        "shooting": 30,
-        "passing": 80,
-        "dribbling": 64,
-        "defending": 80,
-        "physicality": 80,
-        "stamina": 92,
-        "awareness": 77,
-        "composure": 77
-      }
-    },
-    {
-      "name": "D. Sánchez",
-      "number": 6,
-      "position": "CM",
-      "overall": 79,
+      "name": "Johan Mojica",
+      "number": 17,
+      "position": "CB",
+      "overall": 67,
       "attributes": {
         "pace": 80,
         "shooting": 40,
-        "passing": 73,
-        "dribbling": 62,
-        "defending": 80,
-        "physicality": 83,
-        "stamina": 70,
-        "awareness": 77,
-        "composure": 75
-      }
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "Y. Mina",
-      "number": 13,
-      "position": "CM",
-      "overall": 79,
+      "name": "Davinson Sánchez",
+      "number": 23,
+      "position": "CB",
+      "overall": 66,
       "attributes": {
-        "pace": 54,
-        "shooting": 51,
-        "passing": 76,
-        "dribbling": 62,
-        "defending": 81,
-        "physicality": 89,
-        "stamina": 66,
-        "awareness": 74,
-        "composure": 75
-      }
+        "pace": 70,
+        "shooting": 35,
+        "passing": 65,
+        "dribbling": 45,
+        "defending": 77,
+        "physicality": 85,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "D. Ospina",
-      "number": 25,
-      "position": "GK",
-      "overall": 79,
-      "attributes": {
-        "pace": 34,
-        "shooting": 10,
-        "passing": 36,
-        "dribbling": 12,
-        "defending": 13,
-        "physicality": 38,
-        "stamina": 29,
-        "awareness": 73,
-        "composure": 57
-      }
-    },
-    {
-      "name": "R. Borré",
-      "number": 19,
-      "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 79,
-        "shooting": 80,
-        "passing": 73,
-        "dribbling": 77,
-        "defending": 41,
-        "physicality": 67,
-        "stamina": 85,
-        "awareness": 79,
-        "composure": 81
-      }
-    },
-    {
-      "name": "F. Fabra",
-      "number": 18,
+      "name": "Jhon Lucumí",
+      "number": 3,
       "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 35,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Daniel Muñoz",
+      "number": 2,
+      "position": "RB",
+      "overall": 67,
+      "attributes": {
+        "pace": 75,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Gustavo Puerta",
+      "number": 14,
+      "position": "CDM",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 85,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Jefferson Lerma",
+      "number": 16,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Luis Díaz",
+      "number": 7,
+      "position": "CM",
       "overall": 78,
       "attributes": {
-        "pace": 89,
-        "shooting": 62,
+        "pace": 85,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 90,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 79,
+        "composure": 85
+      },
+      "image": ""
+    },
+    {
+      "name": "James Rodríguez",
+      "number": 10,
+      "position": "LM",
+      "overall": 75,
+      "attributes": {
+        "pace": 60,
+        "shooting": 80,
+        "passing": 90,
+        "dribbling": 80,
+        "defending": 64,
+        "physicality": 60,
+        "stamina": 65,
+        "awareness": 82,
+        "composure": 90
+      },
+      "image": ""
+    },
+    {
+      "name": "Jhon Arias",
+      "number": 11,
+      "position": "RM",
+      "overall": 74,
+      "attributes": {
+        "pace": 75,
+        "shooting": 70,
         "passing": 75,
         "dribbling": 80,
-        "defending": 73,
-        "physicality": 74,
-        "stamina": 87,
-        "awareness": 71,
-        "composure": 79
-      }
-    },
-    {
-      "name": "Falcao",
-      "number": 3,
-      "position": "ST",
-      "overall": 78,
-      "attributes": {
-        "pace": 54,
-        "shooting": 80,
-        "passing": 76,
-        "dribbling": 73,
-        "defending": 42,
-        "physicality": 70,
-        "stamina": 60,
-        "awareness": 79,
-        "composure": 80
-      }
-    },
-    {
-      "name": "12 I. Córdoba",
-      "number": 2,
-      "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 83,
-        "shooting": 35,
-        "passing": 62,
-        "dribbling": 31,
-        "defending": 82,
-        "physicality": 67,
-        "stamina": 34,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
         "awareness": 76,
-        "composure": 70
-      }
+        "composure": 80
+      },
+      "image": ""
     },
     {
-      "name": "G. Moreno",
-      "number": 10,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 69,
-        "shooting": 77,
-        "passing": 77,
-        "dribbling": 78,
-        "defending": 57,
-        "physicality": 80,
-        "stamina": 82,
-        "awareness": 72,
-        "composure": 73
-      }
-    },
-    {
-      "name": "L. Sinisterra",
-      "number": 7,
-      "position": "LW",
-      "overall": 77,
-      "attributes": {
-        "pace": 87,
-        "shooting": 70,
-        "passing": 77,
-        "dribbling": 85,
-        "defending": 48,
-        "physicality": 58,
-        "stamina": 77,
-        "awareness": 71,
-        "composure": 71
-      }
-    },
-    {
-      "name": "21 J. Córdoba",
-      "number": 15,
+      "name": "Luis Suárez",
+      "number": 25,
       "position": "ST",
-      "overall": 77,
+      "overall": 73,
       "attributes": {
-        "pace": 78,
-        "shooting": 78,
-        "passing": 67,
-        "dribbling": 75,
-        "defending": 39,
-        "physicality": 90,
-        "stamina": 74,
-        "awareness": 79,
-        "composure": 76
-      }
-    },
-    {
-      "name": "L. Suárez",
-      "number": 9,
-      "position": "LW",
-      "overall": 77,
-      "attributes": {
-        "pace": 86,
-        "shooting": 83,
-        "passing": 66,
-        "dribbling": 74,
-        "defending": 48,
-        "physicality": 81,
-        "stamina": 79,
-        "awareness": 75,
-        "composure": 63
-      }
-    },
-    {
-      "name": "G. Cuéllar",
-      "number": 6,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 71,
-        "shooting": 36,
-        "passing": 77,
-        "dribbling": 66,
-        "defending": 76,
-        "physicality": 78,
-        "stamina": 92,
-        "awareness": 73,
-        "composure": 64
-      }
-    },
-    {
-      "name": "E. Cardona",
-      "number": 8,
-      "position": "CAM",
-      "overall": 77,
-      "attributes": {
-        "pace": 54,
-        "shooting": 74,
-        "passing": 82,
-        "dribbling": 77,
-        "defending": 35,
-        "physicality": 87,
-        "stamina": 61,
-        "awareness": 73,
-        "composure": 73
-      }
-    },
-    {
-      "name": "J. Murillo",
-      "number": 24,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 74,
-        "shooting": 37,
-        "passing": 67,
-        "dribbling": 58,
-        "defending": 80,
-        "physicality": 78,
-        "stamina": 69,
+        "pace": 75,
+        "shooting": 85,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 75,
         "awareness": 73,
         "composure": 75
-      }
+      },
+      "image": ""
     }
   ]
 }

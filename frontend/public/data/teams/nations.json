@@ -11,7 +11,7 @@
       "name": "Algeria",
       "type": "nation",
       "file": "nation/Algeria.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/dz.png"
     },
     {
@@ -25,28 +25,28 @@
       "name": "Argentina",
       "type": "nation",
       "file": "nation/Argentina.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/ar.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18644/30.png"
     },
     {
       "name": "Australia",
       "type": "nation",
       "file": "nation/Australia.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/au.png"
     },
     {
       "name": "Austria",
       "type": "nation",
       "file": "nation/Austria.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/at.png"
     },
     {
       "name": "Belgium",
       "type": "nation",
       "file": "nation/Belgium.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/be.png"
     },
     {
@@ -71,10 +71,17 @@
       "logo": "https://flagcdn.com/w80/ba.png"
     },
     {
+      "name": "Bosnia-Herzegovina",
+      "type": "nation",
+      "file": "nation/Bosnia_and_Herzegovina.json",
+      "players": 11,
+      "logo": ""
+    },
+    {
       "name": "Brazil",
       "type": "nation",
       "file": "nation/Brazil.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/br.png"
     },
     {
@@ -102,15 +109,15 @@
       "name": "Canada",
       "type": "nation",
       "file": "nation/Canada.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/ca.png"
     },
     {
-      "name": "Cape Verde Islands",
+      "name": "Cape Verde",
       "type": "nation",
-      "file": "nation/Cape_Verde_Islands.json",
-      "players": 21,
-      "logo": "https://flagcdn.com/w80/cv.png"
+      "file": "nation/Cape_verde.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Chile",
@@ -130,7 +137,7 @@
       "name": "Colombia",
       "type": "nation",
       "file": "nation/Colombia.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/co.png"
     },
     {
@@ -165,8 +172,8 @@
       "name": "Croatia",
       "type": "nation",
       "file": "nation/Croatia.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/hr.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18588/30.png"
     },
     {
       "name": "Curacao",
@@ -174,6 +181,13 @@
       "file": "nation/Curacao.json",
       "players": 11,
       "logo": "https://flagcdn.com/w80/cw.png"
+    },
+    {
+      "name": "Curaçao",
+      "type": "nation",
+      "file": "nation/Curacao.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Cyprus",
@@ -190,11 +204,25 @@
       "logo": "https://flagcdn.com/w80/cz.png"
     },
     {
+      "name": "Czechia",
+      "type": "nation",
+      "file": "nation/Czechia.json",
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18718/30.png"
+    },
+    {
       "name": "Côte d'Ivoire",
       "type": "nation",
       "file": "nation/Côte_d'Ivoire.json",
       "players": 23,
       "logo": "https://flagcdn.com/w80/ci.png"
+    },
+    {
+      "name": "DR Congo",
+      "type": "nation",
+      "file": "nation/Dr_congo.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Denmark",
@@ -207,22 +235,22 @@
       "name": "Ecuador",
       "type": "nation",
       "file": "nation/Ecuador.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/ec.png"
     },
     {
       "name": "Egypt",
       "type": "nation",
       "file": "nation/Egypt.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/eg.png"
     },
     {
       "name": "England",
       "type": "nation",
       "file": "nation/England.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/gb-eng.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18645/30.png"
     },
     {
       "name": "Finland",
@@ -235,8 +263,8 @@
       "name": "France",
       "type": "nation",
       "file": "nation/France.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/fr.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18647/30.png"
     },
     {
       "name": "Gabon",
@@ -263,15 +291,15 @@
       "name": "Germany",
       "type": "nation",
       "file": "nation/Germany.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/de.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18660/30.png"
     },
     {
       "name": "Ghana",
       "type": "nation",
       "file": "nation/Ghana.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/gh.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18553/30.png"
     },
     {
       "name": "Greece",
@@ -293,6 +321,13 @@
       "file": "nation/Guinea_Bissau.json",
       "players": 13,
       "logo": "https://flagcdn.com/w80/gw.png"
+    },
+    {
+      "name": "Haiti",
+      "type": "nation",
+      "file": "nation/Haiti.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Honduras",
@@ -326,8 +361,15 @@
       "name": "Iran",
       "type": "nation",
       "file": "nation/Iran.json",
-      "players": 21,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/ir.png"
+    },
+    {
+      "name": "Iraq",
+      "type": "nation",
+      "file": "nation/Iraq.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Israel",
@@ -344,6 +386,13 @@
       "logo": "https://flagcdn.com/w80/it.png"
     },
     {
+      "name": "Ivory Coast",
+      "type": "nation",
+      "file": "nation/Ivory_coast.json",
+      "players": 11,
+      "logo": ""
+    },
+    {
       "name": "Jamaica",
       "type": "nation",
       "file": "nation/Jamaica.json",
@@ -354,8 +403,15 @@
       "name": "Japan",
       "type": "nation",
       "file": "nation/Japan.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/jp.png"
+    },
+    {
+      "name": "Jordan",
+      "type": "nation",
+      "file": "nation/Jordan.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Korea Republic",
@@ -382,8 +438,8 @@
       "name": "Mexico",
       "type": "nation",
       "file": "nation/Mexico.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/mx.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18576/30.png"
     },
     {
       "name": "Montenegro",
@@ -396,22 +452,22 @@
       "name": "Morocco",
       "type": "nation",
       "file": "nation/Morocco.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/ma.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18551/30.png"
     },
     {
       "name": "Netherlands",
       "type": "nation",
       "file": "nation/Netherlands.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/nl.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18694/30.png"
     },
     {
       "name": "New Zealand",
       "type": "nation",
       "file": "nation/New_Zealand.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/nz.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18613/30.png"
     },
     {
       "name": "Nigeria",
@@ -438,21 +494,21 @@
       "name": "Norway",
       "type": "nation",
       "file": "nation/Norway.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/no.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18578/30.png"
     },
     {
       "name": "Panama",
       "type": "nation",
       "file": "nation/Panama.json",
-      "players": 13,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/pa.png"
     },
     {
       "name": "Paraguay",
       "type": "nation",
       "file": "nation/Paraguay.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/py.png"
     },
     {
@@ -473,8 +529,15 @@
       "name": "Portugal",
       "type": "nation",
       "file": "nation/Portugal.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/pt.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18701/30.png"
+    },
+    {
+      "name": "Qatar",
+      "type": "nation",
+      "file": "nation/Qatar.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Republic of Ireland",
@@ -501,21 +564,21 @@
       "name": "Saudi Arabia",
       "type": "nation",
       "file": "nation/Saudi_Arabia.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/sa.png"
     },
     {
       "name": "Scotland",
       "type": "nation",
       "file": "nation/Scotland.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/gb-sct.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18706/30.png"
     },
     {
       "name": "Senegal",
       "type": "nation",
       "file": "nation/Senegal.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/sn.png"
     },
     {
@@ -550,15 +613,22 @@
       "name": "South Africa",
       "type": "nation",
       "file": "nation/South_Africa.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/za.png"
+    },
+    {
+      "name": "South Korea",
+      "type": "nation",
+      "file": "nation/South_korea.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Spain",
       "type": "nation",
       "file": "nation/Spain.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/es.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18710/30.png"
     },
     {
       "name": "Suriname",
@@ -571,14 +641,14 @@
       "name": "Sweden",
       "type": "nation",
       "file": "nation/Sweden.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/se.png"
+      "players": 11,
+      "logo": "https://cdn.sofifa.net/meta/team/18564/30.png"
     },
     {
       "name": "Switzerland",
       "type": "nation",
       "file": "nation/Switzerland.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/ch.png"
     },
     {
@@ -592,15 +662,22 @@
       "name": "Tunisia",
       "type": "nation",
       "file": "nation/Tunisia.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/tn.png"
     },
     {
-      "name": "Turkey",
+      "name": "Türkiye",
       "type": "nation",
-      "file": "nation/Turkey.json",
-      "players": 23,
-      "logo": "https://flagcdn.com/w80/tr.png"
+      "file": "nation/Turkiye.json",
+      "players": 11,
+      "logo": ""
+    },
+    {
+      "name": "USA",
+      "type": "nation",
+      "file": "nation/Usa.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Ukraine",
@@ -620,8 +697,15 @@
       "name": "Uruguay",
       "type": "nation",
       "file": "nation/Uruguay.json",
-      "players": 23,
+      "players": 11,
       "logo": "https://flagcdn.com/w80/uy.png"
+    },
+    {
+      "name": "Uzbekistan",
+      "type": "nation",
+      "file": "nation/Uzbekistan.json",
+      "players": 11,
+      "logo": ""
     },
     {
       "name": "Venezuela",

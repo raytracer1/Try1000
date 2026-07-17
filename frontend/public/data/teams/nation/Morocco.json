@@ -4,345 +4,202 @@
   "logo": "https://cdn.sofifa.net/meta/team/18551/30.png",
   "players": [
     {
-      "name": "Achraf Hakimi Mouh -",
-      "number": 2,
-      "position": "RB",
-      "overall": 86,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/235/212/25_120.png"
-    },
-    {
-      "name": "Youssef En-Nesyri -",
-      "number": 19,
-      "position": "ST",
-      "overall": 83,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/235/410/25_120.png"
-    },
-    {
-      "name": "Yassine Bounou -",
+      "name": "Yassine Bounou",
       "number": 1,
       "position": "GK",
-      "overall": 83,
+      "overall": 63,
       "attributes": {
-        "pace": 70,
-        "defending": 70,
+        "pace": 55,
+        "shooting": 20,
         "passing": 70,
-        "dribbling": 70,
-        "physicality": 70,
+        "dribbling": 25,
+        "defending": 90,
+        "physicality": 80,
         "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "awareness": 80,
+        "composure": 80
       },
       "image": "https://cdn.sofifa.net/players/209/981/25_120.png"
     },
     {
-      "name": "Brahim -",
-      "number": 10,
-      "position": "CAM",
-      "overall": 82,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/231/410/25_120.png"
-    },
-    {
-      "name": "Nayef Aguerd -",
-      "number": 5,
-      "position": "CB",
-      "overall": 81,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/244/749/25_120.png"
-    },
-    {
-      "name": "Noussair Mazraoui -",
+      "name": "Noussair Mazraoui",
       "number": 3,
-      "position": "RB",
-      "overall": 81,
+      "position": "CB",
+      "overall": 71,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
+        "pace": 75,
+        "shooting": 50,
+        "passing": 75,
         "dribbling": 70,
         "defending": 70,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 75
       },
       "image": "https://cdn.sofifa.net/players/236/401/25_120.png"
     },
     {
-      "name": "Ayoub El Kaabi -",
-      "number": 20,
-      "position": "ST",
+      "name": "Redouane Halhal",
+      "number": 26,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 70,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Issa Diop",
+      "number": 14,
+      "position": "LB",
+      "overall": 66,
+      "attributes": {
+        "pace": 70,
+        "shooting": 35,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 79,
+        "physicality": 85,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Achraf Hakimi",
+      "number": 2,
+      "position": "RB",
       "overall": 79,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
+        "pace": 90,
+        "shooting": 65,
+        "passing": 80,
+        "dribbling": 85,
         "defending": 70,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 90,
+        "awareness": 79,
+        "composure": 85
       },
-      "image": "https://cdn.sofifa.net/players/243/586/25_120.png"
+      "image": "https://cdn.sofifa.net/players/235/212/25_120.png"
     },
     {
-      "name": "Sofyan Amrabat -",
-      "number": 4,
-      "position": "CDM",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/224/158/25_120.png"
-    },
-    {
-      "name": "Ismael Saibari Ben El Basra -",
-      "number": 11,
-      "position": "CAM",
-      "overall": 78,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/259/480/25_120.png"
-    },
-    {
-      "name": "Amine Adli -",
-      "number": 21,
-      "position": "ST",
-      "overall": 78,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/255/223/25_120.png"
-    },
-    {
-      "name": "Abderrazak Hamdallah -",
-      "number": 36,
-      "position": "ST",
-      "overall": 78,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/213/761/25_120.png"
-    },
-    {
-      "name": "Abdessamad Ezzalzouli -",
-      "number": 16,
-      "position": "LW",
-      "overall": 77,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/264/432/25_120.png"
-    },
-    {
-      "name": "Bilal El Khannouss -",
+      "name": "Bilal El Khannouss",
       "number": 23,
-      "position": "CAM",
-      "overall": 76,
+      "position": "CDM",
+      "overall": 74,
       "attributes": {
-        "pace": 70,
+        "pace": 75,
         "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "passing": 80,
+        "dribbling": 85,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 85
       },
       "image": "https://cdn.sofifa.net/players/257/504/25_120.png"
     },
     {
-      "name": "Azzedine Ounahi -",
-      "number": 8,
+      "name": "Ayyoub Bouaddi",
+      "number": 6,
       "position": "CM",
-      "overall": 75,
+      "overall": 71,
       "attributes": {
         "pace": 70,
-        "shooting": 70,
-        "passing": 70,
+        "shooting": 50,
+        "passing": 80,
         "dribbling": 70,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Neil El Aynaoui",
+      "number": 24,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 80,
+        "dribbling": 65,
         "defending": 70,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 85,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Azzedine Ounahi",
+      "number": 8,
+      "position": "LM",
+      "overall": 75,
+      "attributes": {
+        "pace": 75,
+        "shooting": 70,
+        "passing": 80,
+        "dribbling": 80,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 76,
+        "composure": 80
       },
       "image": "https://cdn.sofifa.net/players/255/125/25_120.png"
     },
     {
-      "name": "Jawad El Yamiq -",
-      "number": 18,
-      "position": "CB",
-      "overall": 74,
+      "name": "Brahim Díaz",
+      "number": 10,
+      "position": "RM",
+      "overall": 78,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "pace": 80,
+        "shooting": 80,
+        "passing": 80,
+        "dribbling": 90,
+        "defending": 64,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 79,
+        "composure": 85
       },
-      "image": "https://cdn.sofifa.net/players/241/775/25_120.png"
+      "image": "https://cdn.sofifa.net/players/231/410/25_120.png"
     },
     {
-      "name": "Michael Amir Junior Richardson -",
-      "number": 17,
-      "position": "CM",
-      "overall": 73,
+      "name": "Ismael Saibari",
+      "number": 11,
+      "position": "ST",
+      "overall": 76,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
+        "pace": 75,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 68,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 80
       },
-      "image": "https://cdn.sofifa.net/players/262/236/25_120.png"
-    },
-    {
-      "name": "Abdelkabir Abqar -",
-      "number": 14,
-      "position": "CB",
-      "overall": 73,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/245/628/25_120.png"
-    },
-    {
-      "name": "Selim Amallah -",
-      "number": 15,
-      "position": "CAM",
-      "overall": 72,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/229/010/25_120.png"
-    },
-    {
-      "name": "Ibrahim Salah -",
-      "number": 13,
-      "position": "LW",
-      "overall": 70,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/270/828/25_120.png"
+      "image": "https://cdn.sofifa.net/players/259/480/25_120.png"
     }
   ]
 }

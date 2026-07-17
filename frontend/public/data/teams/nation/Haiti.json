@@ -4,140 +4,202 @@
   "logo": "",
   "players": [
     {
-      "name": "C. Arcus",
-      "number": 2,
-      "position": "CM",
-      "overall": 70,
+      "name": "Johny Placide",
+      "number": 1,
+      "position": "GK",
+      "overall": 51,
       "attributes": {
-        "pace": 74,
-        "shooting": 38,
-        "passing": 67,
-        "dribbling": 58,
-        "defending": 71,
-        "physicality": 74,
-        "stamina": 77,
+        "pace": 50,
+        "shooting": 15,
+        "passing": 55,
+        "dribbling": 25,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 60,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Duke Lacroix",
+      "number": 13,
+      "position": "CB",
+      "overall": 56,
+      "attributes": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 55,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 55
+      },
+      "image": ""
+    },
+    {
+      "name": "Hannes Delcroix",
+      "number": 5,
+      "position": "CB",
+      "overall": 59,
+      "attributes": {
+        "pace": 60,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 65,
         "awareness": 65,
         "composure": 65
-      }
+      },
+      "image": ""
     },
     {
-      "name": "21 H. Bazile",
-      "number": 29,
-      "position": "CM",
-      "overall": 67,
+      "name": "Ricardo Adé",
+      "number": 4,
+      "position": "LB",
+      "overall": 59,
       "attributes": {
-        "pace": 84,
-        "shooting": 63,
-        "passing": 65,
-        "dribbling": 65,
-        "defending": 28,
-        "physicality": 60,
-        "stamina": 64,
-        "awareness": 60,
-        "composure": 64
-      }
-    },
-    {
-      "name": "D. Etienne Jr.",
-      "number": 22,
-      "position": "RW",
-      "overall": 66,
-      "attributes": {
-        "pace": 77,
-        "shooting": 59,
-        "passing": 61,
-        "dribbling": 69,
-        "defending": 29,
-        "physicality": 61,
-        "stamina": 67,
-        "awareness": 60,
-        "composure": 65
-      }
-    },
-    {
-      "name": "D. Nazon",
-      "number": 9,
-      "position": "ST",
-      "overall": 66,
-      "attributes": {
-        "pace": 77,
-        "shooting": 66,
-        "passing": 60,
-        "dribbling": 67,
-        "defending": 20,
-        "physicality": 78,
-        "stamina": 50,
-        "awareness": 63,
-        "composure": 56
-      }
-    },
-    {
-      "name": "F. Pierrot",
-      "number": 9,
-      "position": "CM",
-      "overall": 66,
-      "attributes": {
-        "pace": 68,
-        "shooting": 68,
-        "passing": 58,
-        "dribbling": 59,
-        "defending": 24,
-        "physicality": 92,
-        "stamina": 65,
-        "awareness": 57,
-        "composure": 65
-      }
-    },
-    {
-      "name": "J. Placide",
-      "number": 30,
-      "position": "CM",
-      "overall": 66,
-      "attributes": {
-        "pace": 56,
-        "shooting": 12,
-        "passing": 34,
-        "dribbling": 10,
-        "defending": 13,
+        "pace": 65,
+        "shooting": 35,
+        "passing": 55,
+        "dribbling": 50,
+        "defending": 68,
         "physicality": 70,
-        "stamina": 27,
-        "awareness": 68,
-        "composure": 57
-      }
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
     },
     {
-      "name": "L. Pierre",
-      "number": 19,
-      "position": "CM",
-      "overall": 64,
+      "name": "Carlens Arcus",
+      "number": 2,
+      "position": "RB",
+      "overall": 58,
       "attributes": {
-        "pace": 70,
-        "shooting": 54,
-        "passing": 67,
-        "dribbling": 64,
-        "defending": 66,
-        "physicality": 75,
-        "stamina": 69,
-        "awareness": 55,
-        "composure": 65
-      }
+        "pace": 60,
+        "shooting": 35,
+        "passing": 55,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
     },
     {
-      "name": "B. Alceus",
-      "number": 92,
+      "name": "Louicius Deedson",
+      "number": 11,
       "position": "CM",
-      "overall": 63,
+      "overall": 65,
       "attributes": {
         "pace": 70,
-        "shooting": 39,
-        "passing": 64,
-        "dribbling": 58,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 70,
         "defending": 60,
-        "physicality": 67,
-        "stamina": 71,
-        "awareness": 60,
-        "composure": 59
-      }
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Jean-Ricner Bellegarde",
+      "number": 10,
+      "position": "CM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 60,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 71,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Danley Jean Jacques",
+      "number": 17,
+      "position": "LM",
+      "overall": 62,
+      "attributes": {
+        "pace": 60,
+        "shooting": 50,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Ruben Providence",
+      "number": 15,
+      "position": "RM",
+      "overall": 65,
+      "attributes": {
+        "pace": 75,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Frantzdy Pierrot",
+      "number": 20,
+      "position": "ST",
+      "overall": 65,
+      "attributes": {
+        "pace": 60,
+        "shooting": 70,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Wilson Isidor",
+      "number": 18,
+      "position": "CF",
+      "overall": 69,
+      "attributes": {
+        "pace": 75,
+        "shooting": 75,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
     }
   ]
 }

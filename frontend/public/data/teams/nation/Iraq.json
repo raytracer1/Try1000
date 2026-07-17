@@ -4,106 +4,202 @@
   "logo": "",
   "players": [
     {
-      "name": "21 A. Adnan",
-      "number": 1,
-      "position": "CM",
-      "overall": 75,
+      "name": "Jalal Hassan",
+      "number": 12,
+      "position": "GK",
+      "overall": 54,
       "attributes": {
-        "pace": 74,
-        "shooting": 59,
-        "passing": 68,
-        "dribbling": 77,
-        "defending": 75,
-        "physicality": 84,
-        "stamina": 86,
-        "awareness": 74,
-        "composure": 75
-      }
+        "pace": 55,
+        "shooting": 20,
+        "passing": 55,
+        "dribbling": 25,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
     },
     {
-      "name": "J. Meram",
-      "number": 9,
-      "position": "LW",
-      "overall": 68,
+      "name": "Merchas Doski",
+      "number": 23,
+      "position": "CB",
+      "overall": 62,
       "attributes": {
-        "pace": 66,
-        "shooting": 66,
-        "passing": 68,
-        "dribbling": 72,
-        "defending": 57,
-        "physicality": 68,
-        "stamina": 68,
-        "awareness": 69,
-        "composure": 68
-      }
+        "pace": 70,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
     },
     {
-      "name": "A. Yasin",
-      "number": 19,
-      "position": "CM",
-      "overall": 68,
+      "name": "Akam Hashim",
+      "number": 5,
+      "position": "CB",
+      "overall": 59,
       "attributes": {
-        "pace": 80,
-        "shooting": 62,
-        "passing": 64,
-        "dribbling": 71,
-        "defending": 30,
-        "physicality": 71,
-        "stamina": 71,
-        "awareness": 66,
+        "pace": 60,
+        "shooting": 35,
+        "passing": 55,
+        "dribbling": 45,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Zaid Tahseen",
+      "number": 4,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 60,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Hussein Ali",
+      "number": 3,
+      "position": "RB",
+      "overall": 60,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Ibrahim Bayesh",
+      "number": 8,
+      "position": "CM",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 68,
         "composure": 70
-      }
+      },
+      "image": ""
     },
     {
-      "name": "20 Y. Kasim",
+      "name": "Amir Al-Ammari",
       "number": 16,
       "position": "CM",
+      "overall": 65,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Zaid Ismael",
+      "number": 6,
+      "position": "LM",
       "overall": 64,
       "attributes": {
-        "pace": 59,
-        "shooting": 48,
-        "passing": 68,
-        "dribbling": 61,
-        "defending": 58,
-        "physicality": 70,
-        "stamina": 66,
-        "awareness": 58,
-        "composure": 77
-      }
+        "pace": 65,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
     },
     {
-      "name": "F. Putros",
-      "number": 5,
-      "position": "CM",
-      "overall": 63,
+      "name": "Ahmed Qasem",
+      "number": 11,
+      "position": "RM",
+      "overall": 66,
       "attributes": {
-        "pace": 67,
-        "shooting": 54,
-        "passing": 59,
-        "dribbling": 54,
-        "defending": 60,
-        "physicality": 68,
-        "stamina": 74,
-        "awareness": 58,
-        "composure": 60
-      }
-    },
-    {
-      "name": "20 M. Ali",
-      "number": 13,
-      "position": "CM",
-      "overall": 63,
-      "attributes": {
-        "pace": 72,
-        "shooting": 59,
-        "passing": 56,
-        "dribbling": 66,
-        "defending": 10,
-        "physicality": 70,
-        "stamina": 60,
-        "awareness": 63,
+        "pace": 75,
+        "shooting": 60,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 59,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 68,
         "composure": 70
-      }
+      },
+      "image": ""
+    },
+    {
+      "name": "Aymen Hussein",
+      "number": 18,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 75,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Ali Al-Hamadi",
+      "number": 9,
+      "position": "CF",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
     }
   ]
 }

@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/br.png",
   "players": [
     {
-      "name": "Neymar Jr",
-      "number": 10,
-      "position": "LW",
-      "overall": 91,
-      "attributes": {
-        "pace": 89,
-        "shooting": 83,
-        "passing": 86,
-        "dribbling": 95,
-        "defending": 32,
-        "physicality": 53,
-        "stamina": 81,
-        "awareness": 89,
-        "composure": 93
-      }
-    },
-    {
-      "name": "Casemiro",
-      "number": 14,
-      "position": "CDM",
-      "overall": 89,
-      "attributes": {
-        "pace": 69,
-        "shooting": 64,
-        "passing": 84,
-        "dribbling": 69,
-        "defending": 88,
-        "physicality": 90,
-        "stamina": 89,
-        "awareness": 87,
-        "composure": 84
-      }
-    },
-    {
-      "name": "Ederson",
-      "number": 31,
-      "position": "GK",
-      "overall": 89,
-      "attributes": {
-        "pace": 63,
-        "shooting": 14,
-        "passing": 61,
-        "dribbling": 23,
-        "defending": 15,
-        "physicality": 78,
-        "stamina": 41,
-        "awareness": 88,
-        "composure": 70
-      }
-    },
-    {
-      "name": "Alisson",
+      "name": "Alisson Becker",
       "number": 1,
       "position": "GK",
-      "overall": 89,
+      "overall": 66,
       "attributes": {
-        "pace": 47,
-        "shooting": 13,
-        "passing": 45,
-        "dribbling": 27,
-        "defending": 19,
-        "physicality": 78,
-        "stamina": 32,
-        "awareness": 87,
-        "composure": 65
-      }
+        "pace": 60,
+        "shooting": 20,
+        "passing": 75,
+        "dribbling": 30,
+        "defending": 95,
+        "physicality": 80,
+        "stamina": 70,
+        "awareness": 83,
+        "composure": 85
+      },
+      "image": ""
+    },
+    {
+      "name": "Douglas Santos",
+      "number": 6,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 75,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Gabriel Magalhães",
+      "number": 3,
+      "position": "CB",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 75,
+        "dribbling": 50,
+        "defending": 82,
+        "physicality": 90,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 80
+      },
+      "image": ""
     },
     {
       "name": "Marquinhos",
-      "number": 5,
-      "position": "CM",
-      "overall": 87,
-      "attributes": {
-        "pace": 81,
-        "shooting": 51,
-        "passing": 84,
-        "dribbling": 69,
-        "defending": 89,
-        "physicality": 78,
-        "stamina": 83,
-        "awareness": 87,
-        "composure": 86
-      }
-    },
-    {
-      "name": "Fabinho",
-      "number": 3,
-      "position": "CDM",
-      "overall": 86,
-      "attributes": {
-        "pace": 68,
-        "shooting": 63,
-        "passing": 84,
-        "dribbling": 78,
-        "defending": 87,
-        "physicality": 81,
-        "stamina": 88,
-        "awareness": 86,
-        "composure": 84
-      }
-    },
-    {
-      "name": "Roberto Firmino",
-      "number": 9,
-      "position": "ST",
-      "overall": 85,
-      "attributes": {
-        "pace": 77,
-        "shooting": 78,
-        "passing": 84,
-        "dribbling": 89,
-        "defending": 64,
-        "physicality": 74,
-        "stamina": 87,
-        "awareness": 86,
-        "composure": 88
-      }
-    },
-    {
-      "name": "19 Filipe Luís",
-      "number": 3,
+      "number": 4,
       "position": "LB",
-      "overall": 85,
-      "attributes": {
-        "pace": 75,
-        "shooting": 59,
-        "passing": 80,
-        "dribbling": 77,
-        "defending": 84,
-        "physicality": 73,
-        "stamina": 89,
-        "awareness": 85,
-        "composure": 88
-      }
-    },
-    {
-      "name": "Thiago Silva",
-      "number": 6,
-      "position": "CB",
-      "overall": 85,
-      "attributes": {
-        "pace": 54,
-        "shooting": 40,
-        "passing": 80,
-        "dribbling": 67,
-        "defending": 86,
-        "physicality": 82,
-        "stamina": 68,
-        "awareness": 82,
-        "composure": 86
-      }
-    },
-    {
-      "name": "Fernando",
-      "number": 25,
-      "position": "CDM",
-      "overall": 84,
-      "attributes": {
-        "pace": 67,
-        "shooting": 54,
-        "passing": 84,
-        "dribbling": 71,
-        "defending": 85,
-        "physicality": 81,
-        "stamina": 82,
-        "awareness": 83,
-        "composure": 78
-      }
-    },
-    {
-      "name": "Paulinho",
-      "number": 15,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 71,
-        "shooting": 83,
-        "passing": 82,
-        "dribbling": 82,
-        "defending": 79,
-        "physicality": 82,
-        "stamina": 91,
-        "awareness": 82,
-        "composure": 81
-      }
-    },
-    {
-      "name": "21 Renato Augusto",
-      "number": 5,
-      "position": "CM",
-      "overall": 83,
+      "overall": 73,
       "attributes": {
         "pace": 70,
-        "shooting": 78,
-        "passing": 85,
-        "dribbling": 82,
-        "defending": 73,
-        "physicality": 80,
-        "stamina": 85,
-        "awareness": 86,
-        "composure": 82
-      }
-    },
-    {
-      "name": "Arthur",
-      "number": 5,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 67,
-        "shooting": 59,
-        "passing": 88,
-        "dribbling": 87,
-        "defending": 73,
-        "physicality": 66,
-        "stamina": 79,
-        "awareness": 84,
-        "composure": 88
-      }
-    },
-    {
-      "name": "Alex Sandro",
-      "number": 12,
-      "position": "LB",
-      "overall": 83,
-      "attributes": {
-        "pace": 83,
-        "shooting": 55,
-        "passing": 81,
-        "dribbling": 79,
-        "defending": 80,
-        "physicality": 77,
-        "stamina": 83,
-        "awareness": 80,
-        "composure": 80
-      }
-    },
-    {
-      "name": "Fernandinho",
-      "number": 25,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 52,
-        "shooting": 66,
-        "passing": 83,
-        "dribbling": 76,
-        "defending": 85,
-        "physicality": 75,
-        "stamina": 66,
-        "awareness": 86,
-        "composure": 81
-      }
-    },
-    {
-      "name": "Allan",
-      "number": 6,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 68,
-        "shooting": 73,
-        "passing": 83,
-        "dribbling": 81,
-        "defending": 87,
-        "physicality": 70,
-        "stamina": 92,
-        "awareness": 84,
-        "composure": 85
-      }
-    },
-    {
-      "name": "Ronaldo Cabrais",
-      "number": 7,
-      "position": "CAM",
-      "overall": 83,
-      "attributes": {
-        "pace": 87,
-        "shooting": 74,
-        "passing": 83,
-        "dribbling": 85,
-        "defending": 35,
-        "physicality": 68,
-        "stamina": 88,
-        "awareness": 84,
-        "composure": 81
-      }
-    },
-    {
-      "name": "Gabriel Jesus",
-      "number": 9,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 82,
-        "shooting": 84,
-        "passing": 77,
-        "dribbling": 86,
-        "defending": 30,
-        "physicality": 69,
-        "stamina": 79,
-        "awareness": 86,
-        "composure": 79
-      }
-    },
-    {
-      "name": "12 Nilmar",
-      "number": 7,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 93,
-        "shooting": 85,
-        "passing": 76,
-        "dribbling": 87,
-        "defending": 18,
-        "physicality": 59,
-        "stamina": 68,
-        "awareness": 82,
-        "composure": 70
-      }
-    },
-    {
-      "name": "08 Cafu",
-      "number": 2,
-      "position": "CM",
-      "overall": 83,
-      "attributes": {
-        "pace": 79,
-        "shooting": 22,
-        "passing": 82,
-        "dribbling": 82,
-        "defending": 85,
-        "physicality": 55,
-        "stamina": 91,
-        "awareness": 69,
-        "composure": 70
-      }
-    },
-    {
-      "name": "Alex Telles",
-      "number": 27,
-      "position": "CM",
-      "overall": 82,
-      "attributes": {
-        "pace": 84,
-        "shooting": 63,
-        "passing": 82,
-        "dribbling": 77,
-        "defending": 78,
-        "physicality": 65,
-        "stamina": 85,
+        "shooting": 40,
+        "passing": 80,
+        "dribbling": 55,
+        "defending": 81,
+        "physicality": 85,
+        "stamina": 80,
         "awareness": 81,
-        "composure": 77
-      }
+        "composure": 85
+      },
+      "image": ""
     },
     {
-      "name": "19 Dani Alves",
+      "name": "Danilo",
       "number": 13,
       "position": "RB",
-      "overall": 82,
+      "overall": 68,
       "attributes": {
-        "pace": 77,
-        "shooting": 61,
-        "passing": 83,
-        "dribbling": 84,
-        "defending": 78,
-        "physicality": 55,
-        "stamina": 74,
-        "awareness": 80,
-        "composure": 83
-      }
+        "pace": 65,
+        "shooting": 40,
+        "passing": 75,
+        "dribbling": 60,
+        "defending": 77,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 77,
+        "composure": 75
+      },
+      "image": ""
     },
     {
-      "name": "Anderson Talisca",
-      "number": 94,
-      "position": "CAM",
-      "overall": 82,
+      "name": "Casemiro",
+      "number": 5,
+      "position": "CM",
+      "overall": 73,
       "attributes": {
-        "pace": 76,
-        "shooting": 81,
-        "passing": 84,
-        "dribbling": 83,
-        "defending": 55,
+        "pace": 60,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 60,
+        "defending": 77,
+        "physicality": 85,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Bruno Guimarães",
+      "number": 8,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 90,
+        "dribbling": 75,
+        "defending": 73,
         "physicality": 75,
-        "stamina": 82,
-        "awareness": 78,
-        "composure": 77
-      }
+        "stamina": 90,
+        "awareness": 79,
+        "composure": 85
+      },
+      "image": ""
+    },
+    {
+      "name": "Endrick",
+      "number": 16,
+      "position": "LM",
+      "overall": 75,
+      "attributes": {
+        "pace": 85,
+        "shooting": 80,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Vinícius Júnior",
+      "number": 7,
+      "position": "ST",
+      "overall": 81,
+      "attributes": {
+        "pace": 95,
+        "shooting": 85,
+        "passing": 80,
+        "dribbling": 95,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 80,
+        "composure": 90
+      },
+      "image": ""
+    },
+    {
+      "name": "Matheus Cunha",
+      "number": 9,
+      "position": "LW",
+      "overall": 77,
+      "attributes": {
+        "pace": 80,
+        "shooting": 80,
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 80,
+        "awareness": 74,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Rayan",
+      "number": 24,
+      "position": "RW",
+      "overall": 72,
+      "attributes": {
+        "pace": 90,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 85,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 75
+      },
+      "image": ""
     }
   ]
 }

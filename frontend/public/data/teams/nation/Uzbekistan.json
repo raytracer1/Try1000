@@ -1,0 +1,205 @@
+{
+  "name": "Uzbekistan",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "Utkir Yusupov",
+      "number": 1,
+      "position": "GK",
+      "overall": 52,
+      "attributes": {
+        "pace": 55,
+        "shooting": 20,
+        "passing": 55,
+        "dribbling": 25,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 60,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Abdulla Abdullaev",
+      "number": 18,
+      "position": "CB",
+      "overall": 59,
+      "attributes": {
+        "pace": 65,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 50,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Rustam Ashurmatov",
+      "number": 5,
+      "position": "CB",
+      "overall": 58,
+      "attributes": {
+        "pace": 55,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 45,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Abdukodir Khusanov",
+      "number": 2,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 40,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 75,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Sherzod Nasrullaev",
+      "number": 13,
+      "position": "CM",
+      "overall": 59,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 55,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 60,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Otabek Shukurov",
+      "number": 7,
+      "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 60,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Akmal Mozgovoy",
+      "number": 70,
+      "position": "LM",
+      "overall": 62,
+      "attributes": {
+        "pace": 60,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Behruz Karimov",
+      "number": 8,
+      "position": "RM",
+      "overall": 59,
+      "attributes": {
+        "pace": 65,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 55,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Abbosbek Fayzullaev",
+      "number": 22,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 75,
+        "defending": 57,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 69,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Oston Urunov",
+      "number": 11,
+      "position": "LW",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 60,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Eldor Shomurodov",
+      "number": 14,
+      "position": "RW",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 70,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    }
+  ]
+}

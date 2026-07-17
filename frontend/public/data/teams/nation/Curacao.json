@@ -1,194 +1,205 @@
 {
-  "name": "Curacao",
+  "name": "Curaçao",
   "type": "nation",
-  "logo": "https://flagcdn.com/w80/cw.png",
+  "logo": "",
   "players": [
     {
-      "name": "E. Room",
+      "name": "Eloy Room",
       "number": 1,
       "position": "GK",
-      "overall": 74,
+      "overall": 50,
       "attributes": {
-        "pace": 44,
-        "shooting": 16,
-        "passing": 44,
-        "dribbling": 12,
-        "defending": 17,
+        "pace": 45,
+        "shooting": 15,
+        "passing": 55,
+        "dribbling": 25,
+        "defending": 65,
         "physicality": 65,
-        "stamina": 34,
-        "awareness": 74,
+        "stamina": 60,
+        "awareness": 62,
         "composure": 60
-      }
+      },
+      "image": ""
     },
     {
-      "name": "J. Bacuna",
-      "number": 22,
-      "position": "CM",
-      "overall": 70,
+      "name": "Sherel Floranus",
+      "number": 5,
+      "position": "CB",
+      "overall": 57,
       "attributes": {
-        "pace": 69,
-        "shooting": 65,
-        "passing": 70,
-        "dribbling": 74,
-        "defending": 66,
-        "physicality": 74,
-        "stamina": 73,
-        "awareness": 67,
-        "composure": 65
-      }
-    },
-    {
-      "name": "21 Q. Martinus",
-      "number": 20,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 89,
-        "shooting": 67,
-        "passing": 60,
-        "dribbling": 71,
-        "defending": 38,
-        "physicality": 69,
-        "stamina": 68,
-        "awareness": 55,
-        "composure": 66
-      }
-    },
-    {
-      "name": "K. Gorré",
-      "number": 7,
-      "position": "LW",
-      "overall": 69,
-      "attributes": {
-        "pace": 83,
-        "shooting": 66,
-        "passing": 63,
-        "dribbling": 71,
-        "defending": 36,
-        "physicality": 67,
-        "stamina": 66,
-        "awareness": 68,
-        "composure": 54
-      }
-    },
-    {
-      "name": "L. Bacuna",
-      "number": 7,
-      "position": "RW",
-      "overall": 68,
-      "attributes": {
-        "pace": 79,
-        "shooting": 59,
-        "passing": 68,
-        "dribbling": 70,
-        "defending": 68,
-        "physicality": 81,
-        "stamina": 81,
-        "awareness": 63,
-        "composure": 64
-      }
-    },
-    {
-      "name": "20 C. Martina",
-      "number": 30,
-      "position": "CM",
-      "overall": 68,
-      "attributes": {
-        "pace": 64,
-        "shooting": 45,
-        "passing": 68,
-        "dribbling": 62,
-        "defending": 68,
-        "physicality": 71,
-        "stamina": 67,
-        "awareness": 67,
-        "composure": 65
-      }
-    },
-    {
-      "name": "V. Anita",
-      "number": 6,
-      "position": "CM",
-      "overall": 68,
-      "attributes": {
-        "pace": 59,
-        "shooting": 48,
-        "passing": 71,
-        "dribbling": 67,
-        "defending": 64,
+        "pace": 65,
+        "shooting": 35,
+        "passing": 55,
+        "dribbling": 55,
+        "defending": 60,
         "physicality": 60,
-        "stamina": 66,
-        "awareness": 68,
-        "composure": 75
-      }
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 55
+      },
+      "image": ""
     },
     {
-      "name": "N. Robertha",
-      "number": 19,
-      "position": "CM",
-      "overall": 67,
+      "name": "Armando Obispo",
+      "number": 18,
+      "position": "CB",
+      "overall": 58,
       "attributes": {
-        "pace": 82,
-        "shooting": 70,
-        "passing": 56,
-        "dribbling": 67,
-        "defending": 17,
-        "physicality": 68,
-        "stamina": 68,
-        "awareness": 66,
-        "composure": 59
-      }
+        "pace": 60,
+        "shooting": 35,
+        "passing": 55,
+        "dribbling": 50,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
     },
     {
-      "name": "20 E. Hooi",
-      "number": 77,
+      "name": "Riechedly Bazoer",
+      "number": 6,
+      "position": "LB",
+      "overall": 60,
+      "attributes": {
+        "pace": 55,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 62,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 59,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Deveron Fonville",
+      "number": 2,
+      "position": "RB",
+      "overall": 55,
+      "attributes": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 55,
+        "defending": 57,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 57,
+        "composure": 55
+      },
+      "image": ""
+    },
+    {
+      "name": "Leandro Bacuna",
+      "number": 10,
       "position": "CM",
+      "overall": 62,
+      "attributes": {
+        "pace": 55,
+        "shooting": 55,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Juninho Bacuna",
+      "number": 7,
+      "position": "CM",
+      "overall": 60,
+      "attributes": {
+        "pace": 55,
+        "shooting": 45,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 61,
+        "physicality": 65,
+        "stamina": 65,
+        "awareness": 61,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Livano Comenencia",
+      "number": 8,
+      "position": "LM",
+      "overall": 62,
+      "attributes": {
+        "pace": 65,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 57,
+        "physicality": 55,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Tahith Chong",
+      "number": 21,
+      "position": "ST",
       "overall": 64,
       "attributes": {
-        "pace": 90,
-        "shooting": 50,
-        "passing": 62,
-        "dribbling": 67,
-        "defending": 19,
-        "physicality": 32,
-        "stamina": 55,
-        "awareness": 60,
-        "composure": 58
-      }
+        "pace": 65,
+        "shooting": 60,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 57,
+        "physicality": 55,
+        "stamina": 65,
+        "awareness": 66,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "G. Kastaneer",
-      "number": 7,
+      "name": "Jürgen Locadia",
+      "number": 9,
       "position": "LW",
-      "overall": 63,
-      "attributes": {
-        "pace": 72,
-        "shooting": 63,
-        "passing": 55,
-        "dribbling": 67,
-        "defending": 30,
-        "physicality": 80,
-        "stamina": 36,
-        "awareness": 53,
-        "composure": 58
-      }
-    },
-    {
-      "name": "21 Z. de la Paz",
-      "number": 20,
-      "position": "CM",
       "overall": 61,
       "attributes": {
-        "pace": 44,
-        "shooting": 11,
-        "passing": 22,
-        "dribbling": 18,
-        "defending": 11,
-        "physicality": 63,
-        "stamina": 43,
-        "awareness": 51,
-        "composure": 39
-      }
+        "pace": 60,
+        "shooting": 65,
+        "passing": 55,
+        "dribbling": 60,
+        "defending": 64,
+        "physicality": 70,
+        "stamina": 60,
+        "awareness": 58,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Sontje Hansen",
+      "number": 12,
+      "position": "RW",
+      "overall": 64,
+      "attributes": {
+        "pace": 75,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 57,
+        "physicality": 55,
+        "stamina": 65,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
     }
   ]
 }

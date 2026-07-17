@@ -1,0 +1,205 @@
+{
+  "name": "Jordan",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "Yazeed Abulaila",
+      "number": 1,
+      "position": "GK",
+      "overall": 54,
+      "attributes": {
+        "pace": 55,
+        "shooting": 20,
+        "passing": 60,
+        "dribbling": 25,
+        "defending": 65,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Yazan Al-Arab",
+      "number": 5,
+      "position": "CB",
+      "overall": 63,
+      "attributes": {
+        "pace": 60,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Abdallah Nasib",
+      "number": 3,
+      "position": "CB",
+      "overall": 61,
+      "attributes": {
+        "pace": 60,
+        "shooting": 35,
+        "passing": 60,
+        "dribbling": 50,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Mo Abualnadi",
+      "number": 16,
+      "position": "LB",
+      "overall": 58,
+      "attributes": {
+        "pace": 60,
+        "shooting": 30,
+        "passing": 55,
+        "dribbling": 45,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Ehsan Haddad",
+      "number": 23,
+      "position": "RB",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Noor Al-Rawabdeh",
+      "number": 8,
+      "position": "CM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Rajaei Ayed",
+      "number": 6,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 55,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Ibrahim Sa'deh",
+      "number": 15,
+      "position": "LM",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 50,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Musa Al-Tamari",
+      "number": 10,
+      "position": "RM",
+      "overall": 73,
+      "attributes": {
+        "pace": 85,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Nizar Al-Rashdan",
+      "number": 21,
+      "position": "ST",
+      "overall": 67,
+      "attributes": {
+        "pace": 65,
+        "shooting": 55,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Ali Olwan",
+      "number": 9,
+      "position": "CF",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    }
+  ]
+}

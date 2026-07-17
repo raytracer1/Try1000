@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/ch.png",
   "players": [
     {
-      "name": "Y. Sommer",
+      "name": "Gregor Kobel",
       "number": 1,
       "position": "GK",
-      "overall": 85,
+      "overall": 65,
       "attributes": {
-        "pace": 54,
-        "shooting": 13,
-        "passing": 40,
-        "dribbling": 15,
-        "defending": 19,
-        "physicality": 68,
-        "stamina": 45,
-        "awareness": 82,
-        "composure": 57
-      }
-    },
-    {
-      "name": "R. Freuler",
-      "number": 11,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 69,
-        "shooting": 68,
-        "passing": 81,
-        "dribbling": 78,
-        "defending": 79,
-        "physicality": 69,
-        "stamina": 87,
-        "awareness": 83,
-        "composure": 83
-      }
-    },
-    {
-      "name": "D. Zakaria",
-      "number": 8,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 86,
-        "shooting": 66,
-        "passing": 79,
-        "dribbling": 76,
-        "defending": 82,
-        "physicality": 87,
-        "stamina": 81,
-        "awareness": 82,
-        "composure": 83
-      }
-    },
-    {
-      "name": "M. Akanji",
-      "number": 16,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 84,
-        "shooting": 38,
-        "passing": 79,
-        "dribbling": 74,
-        "defending": 82,
+        "pace": 65,
+        "shooting": 20,
+        "passing": 70,
+        "dribbling": 35,
+        "defending": 90,
         "physicality": 80,
-        "stamina": 72,
-        "awareness": 81,
-        "composure": 76
-      }
-    },
-    {
-      "name": "R. Bürki",
-      "number": 38,
-      "position": "CM",
-      "overall": 80,
-      "attributes": {
-        "pace": 50,
-        "shooting": 8,
-        "passing": 37,
-        "dribbling": 12,
-        "defending": 13,
-        "physicality": 76,
-        "stamina": 36,
+        "stamina": 70,
         "awareness": 78,
-        "composure": 58
-      }
+        "composure": 80
+      },
+      "image": ""
     },
     {
-      "name": "X. Shaqiri",
-      "number": 29,
-      "position": "RW",
-      "overall": 79,
+      "name": "Ricardo Rodríguez",
+      "number": 13,
+      "position": "CB",
+      "overall": 68,
       "attributes": {
-        "pace": 73,
-        "shooting": 70,
-        "passing": 80,
-        "dribbling": 80,
-        "defending": 49,
-        "physicality": 71,
-        "stamina": 65,
-        "awareness": 77,
-        "composure": 79
-      }
-    },
-    {
-      "name": "K. Mbabu",
-      "number": 19,
-      "position": "RB",
-      "overall": 79,
-      "attributes": {
-        "pace": 88,
-        "shooting": 49,
-        "passing": 69,
-        "dribbling": 72,
-        "defending": 76,
-        "physicality": 78,
-        "stamina": 91,
-        "awareness": 73,
-        "composure": 71
-      }
-    },
-    {
-      "name": "G. Xhaka",
-      "number": 34,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 52,
-        "shooting": 50,
-        "passing": 84,
-        "dribbling": 66,
-        "defending": 68,
-        "physicality": 79,
-        "stamina": 84,
-        "awareness": 73,
-        "composure": 67
-      }
-    },
-    {
-      "name": "N. Elvedi",
-      "number": 30,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 81,
-        "shooting": 30,
-        "passing": 74,
-        "dribbling": 67,
-        "defending": 84,
-        "physicality": 80,
+        "pace": 65,
+        "shooting": 55,
+        "passing": 75,
+        "dribbling": 60,
+        "defending": 72,
+        "physicality": 70,
         "stamina": 75,
-        "awareness": 77,
-        "composure": 65
-      }
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "G. Kobel",
-      "number": 1,
-      "position": "GK",
-      "overall": 79,
+      "name": "Nico Elvedi",
+      "number": 4,
+      "position": "CB",
+      "overall": 68,
       "attributes": {
-        "pace": 26,
-        "shooting": 10,
-        "passing": 39,
-        "dribbling": 24,
-        "defending": 15,
-        "physicality": 81,
-        "stamina": 21,
-        "awareness": 77,
-        "composure": 66
-      }
+        "pace": 70,
+        "shooting": 35,
+        "passing": 70,
+        "dribbling": 55,
+        "defending": 78,
+        "physicality": 80,
+        "stamina": 80,
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "R. Steffen",
-      "number": 11,
-      "position": "LW",
-      "overall": 78,
-      "attributes": {
-        "pace": 74,
-        "shooting": 75,
-        "passing": 77,
-        "dribbling": 79,
-        "defending": 39,
-        "physicality": 57,
-        "stamina": 76,
-        "awareness": 78,
-        "composure": 75
-      }
-    },
-    {
-      "name": "H. Seferović",
-      "number": 14,
-      "position": "CM",
-      "overall": 78,
+      "name": "Manuel Akanji",
+      "number": 5,
+      "position": "LB",
+      "overall": 72,
       "attributes": {
         "pace": 75,
-        "shooting": 79,
-        "passing": 69,
-        "dribbling": 72,
-        "defending": 46,
-        "physicality": 87,
-        "stamina": 83,
-        "awareness": 75,
-        "composure": 77
-      }
+        "shooting": 40,
+        "passing": 80,
+        "dribbling": 65,
+        "defending": 80,
+        "physicality": 80,
+        "stamina": 80,
+        "awareness": 77,
+        "composure": 75
+      },
+      "image": ""
     },
     {
-      "name": "M. Hitz",
-      "number": 35,
-      "position": "CM",
-      "overall": 78,
+      "name": "Denis Zakaria",
+      "number": 6,
+      "position": "RB",
+      "overall": 72,
       "attributes": {
-        "pace": 46,
-        "shooting": 27,
-        "passing": 29,
-        "dribbling": 13,
-        "defending": 15,
-        "physicality": 78,
-        "stamina": 38,
-        "awareness": 73,
-        "composure": 44
-      }
+        "pace": 70,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 80,
+        "awareness": 69,
+        "composure": 75
+      },
+      "image": ""
     },
     {
-      "name": "D. Sow",
+      "name": "Remo Freuler",
       "number": 8,
       "position": "CM",
-      "overall": 77,
+      "overall": 72,
       "attributes": {
-        "pace": 81,
-        "shooting": 61,
-        "passing": 85,
-        "dribbling": 75,
-        "defending": 77,
-        "physicality": 76,
+        "pace": 65,
+        "shooting": 65,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 74,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 77,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Granit Xhaka",
+      "number": 10,
+      "position": "CM",
+      "overall": 73,
+      "attributes": {
+        "pace": 60,
+        "shooting": 65,
+        "passing": 80,
+        "dribbling": 65,
+        "defending": 73,
+        "physicality": 75,
         "stamina": 85,
         "awareness": 76,
-        "composure": 77
-      }
+        "composure": 80
+      },
+      "image": ""
     },
     {
-      "name": "B. Embolo",
-      "number": 36,
-      "position": "CM",
-      "overall": 77,
+      "name": "Ardon Jashari",
+      "number": 16,
+      "position": "LM",
+      "overall": 71,
       "attributes": {
-        "pace": 86,
-        "shooting": 69,
-        "passing": 76,
-        "dribbling": 77,
-        "defending": 63,
-        "physicality": 85,
-        "stamina": 79,
-        "awareness": 76,
-        "composure": 74
-      }
-    },
-    {
-      "name": "J. Omlin",
-      "number": 1,
-      "position": "GK",
-      "overall": 77,
-      "attributes": {
-        "pace": 51,
-        "shooting": 17,
-        "passing": 45,
-        "dribbling": 27,
-        "defending": 21,
-        "physicality": 72,
-        "stamina": 35,
-        "awareness": 74,
-        "composure": 55
-      }
-    },
-    {
-      "name": "R. Rodríguez",
-      "number": 13,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 72,
-        "shooting": 58,
-        "passing": 75,
-        "dribbling": 74,
-        "defending": 77,
-        "physicality": 74,
-        "stamina": 74,
-        "awareness": 72,
-        "composure": 77
-      }
-    },
-    {
-      "name": "F. Schär",
-      "number": 5,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 59,
+        "pace": 65,
         "shooting": 60,
-        "passing": 72,
-        "dribbling": 66,
-        "defending": 78,
-        "physicality": 78,
-        "stamina": 71,
-        "awareness": 74,
-        "composure": 74
-      }
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
     },
     {
-      "name": "20 Gelson Fernandes",
-      "number": 5,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 58,
-        "shooting": 51,
-        "passing": 72,
-        "dribbling": 63,
-        "defending": 76,
-        "physicality": 73,
-        "stamina": 90,
-        "awareness": 74,
-        "composure": 71
-      }
-    },
-    {
-      "name": "D. von Ballmoos",
-      "number": 26,
-      "position": "GK",
-      "overall": 76,
-      "attributes": {
-        "pace": 49,
-        "shooting": 16,
-        "passing": 35,
-        "dribbling": 22,
-        "defending": 20,
-        "physicality": 74,
-        "stamina": 37,
-        "awareness": 66,
-        "composure": 61
-      }
-    },
-    {
-      "name": "Y. Mvogo",
-      "number": 38,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 41,
-        "shooting": 10,
-        "passing": 24,
-        "dribbling": 18,
-        "defending": 18,
-        "physicality": 74,
-        "stamina": 28,
-        "awareness": 71,
-        "composure": 30
-      }
-    },
-    {
-      "name": "S. Zuber",
+      "name": "Ruben Vargas",
       "number": 17,
+      "position": "ST",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 65,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Breel Embolo",
+      "number": 7,
       "position": "LW",
-      "overall": 75,
+      "overall": 72,
       "attributes": {
         "pace": 75,
-        "shooting": 72,
-        "passing": 71,
-        "dribbling": 73,
-        "defending": 72,
-        "physicality": 76,
-        "stamina": 77,
-        "awareness": 74,
-        "composure": 72
-      }
+        "shooting": 75,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "M. Aebischer",
-      "number": 20,
-      "position": "CM",
-      "overall": 75,
+      "name": "Dan Ndoye",
+      "number": 11,
+      "position": "RW",
+      "overall": 71,
       "attributes": {
-        "pace": 71,
-        "shooting": 66,
-        "passing": 80,
+        "pace": 85,
+        "shooting": 65,
+        "passing": 65,
         "dribbling": 75,
-        "defending": 64,
-        "physicality": 72,
-        "stamina": 89,
-        "awareness": 71,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 70,
         "composure": 70
-      }
+      },
+      "image": ""
     }
   ]
 }

@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/tn.png",
   "players": [
     {
-      "name": "E. Skhiri",
-      "number": 28,
-      "position": "CDM",
-      "overall": 77,
-      "attributes": {
-        "pace": 55,
-        "shooting": 69,
-        "passing": 74,
-        "dribbling": 73,
-        "defending": 75,
-        "physicality": 65,
-        "stamina": 91,
-        "awareness": 73,
-        "composure": 69
-      }
-    },
-    {
-      "name": "W. Khazri",
-      "number": 10,
-      "position": "LW",
-      "overall": 76,
-      "attributes": {
-        "pace": 72,
-        "shooting": 78,
-        "passing": 76,
-        "dribbling": 77,
-        "defending": 46,
-        "physicality": 69,
-        "stamina": 68,
-        "awareness": 77,
-        "composure": 80
-      }
-    },
-    {
-      "name": "D. Bronn",
-      "number": 2,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 66,
-        "shooting": 56,
-        "passing": 70,
-        "dribbling": 63,
-        "defending": 76,
-        "physicality": 78,
-        "stamina": 73,
-        "awareness": 73,
-        "composure": 71
-      }
-    },
-    {
-      "name": "N. Sliti",
-      "number": 10,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 72,
-        "shooting": 71,
-        "passing": 75,
-        "dribbling": 79,
-        "defending": 35,
-        "physicality": 67,
-        "stamina": 76,
-        "awareness": 71,
-        "composure": 74
-      }
-    },
-    {
-      "name": "J. Dudziak",
-      "number": 28,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 70,
-        "shooting": 61,
-        "passing": 73,
-        "dribbling": 75,
-        "defending": 68,
-        "physicality": 58,
-        "stamina": 77,
-        "awareness": 66,
-        "composure": 71
-      }
-    },
-    {
-      "name": "S. Bguir",
-      "number": 10,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 69,
-        "shooting": 69,
-        "passing": 71,
-        "dribbling": 76,
-        "defending": 34,
-        "physicality": 61,
-        "stamina": 71,
-        "awareness": 70,
-        "composure": 65
-      }
-    },
-    {
-      "name": "Y. Touzghar",
-      "number": 7,
-      "position": "ST",
-      "overall": 72,
-      "attributes": {
-        "pace": 73,
-        "shooting": 76,
-        "passing": 67,
-        "dribbling": 70,
-        "defending": 20,
-        "physicality": 75,
-        "stamina": 67,
-        "awareness": 64,
-        "composure": 72
-      }
-    },
-    {
-      "name": "S. Khaoui",
-      "number": 6,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 63,
-        "shooting": 68,
-        "passing": 71,
-        "dribbling": 75,
-        "defending": 50,
-        "physicality": 61,
-        "stamina": 70,
-        "awareness": 66,
-        "composure": 66
-      }
-    },
-    {
-      "name": "A. Abdi",
-      "number": 25,
-      "position": "RB",
-      "overall": 70,
-      "attributes": {
-        "pace": 85,
-        "shooting": 58,
-        "passing": 70,
-        "dribbling": 66,
-        "defending": 61,
-        "physicality": 68,
-        "stamina": 83,
-        "awareness": 72,
-        "composure": 68
-      }
-    },
-    {
-      "name": "20 A. Abdennour",
-      "number": 5,
-      "position": "CM",
-      "overall": 70,
+      "name": "Aymen Dahmen",
+      "number": 16,
+      "position": "GK",
+      "overall": 54,
       "attributes": {
         "pace": 50,
-        "shooting": 48,
-        "passing": 58,
-        "dribbling": 48,
-        "defending": 69,
-        "physicality": 83,
-        "stamina": 61,
-        "awareness": 63,
-        "composure": 65
-      }
-    },
-    {
-      "name": "21 H. Harbaoui",
-      "number": 9,
-      "position": "ST",
-      "overall": 70,
-      "attributes": {
-        "pace": 50,
-        "shooting": 75,
-        "passing": 64,
-        "dribbling": 64,
-        "defending": 24,
-        "physicality": 78,
-        "stamina": 60,
-        "awareness": 63,
-        "composure": 73
-      }
-    },
-    {
-      "name": "21 K. Laribi",
-      "number": 44,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 80,
-        "shooting": 68,
-        "passing": 74,
-        "dribbling": 73,
-        "defending": 52,
-        "physicality": 56,
-        "stamina": 67,
-        "awareness": 72,
-        "composure": 72
-      }
-    },
-    {
-      "name": "M. Dräger",
-      "number": 25,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 77,
-        "shooting": 57,
-        "passing": 64,
-        "dribbling": 66,
-        "defending": 65,
-        "physicality": 56,
-        "stamina": 69,
-        "awareness": 67,
-        "composure": 56
-      }
-    },
-    {
-      "name": "Y. Meriah",
-      "number": 20,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 70,
-        "shooting": 34,
-        "passing": 63,
-        "dribbling": 57,
-        "defending": 72,
-        "physicality": 74,
-        "stamina": 65,
-        "awareness": 60,
-        "composure": 54
-      }
-    },
-    {
-      "name": "A. Layouni",
-      "number": 11,
-      "position": "LW",
-      "overall": 69,
-      "attributes": {
-        "pace": 82,
-        "shooting": 63,
-        "passing": 63,
-        "dribbling": 71,
-        "defending": 31,
-        "physicality": 72,
-        "stamina": 79,
-        "awareness": 66,
-        "composure": 57
-      }
-    },
-    {
-      "name": "21 Y. Benalouane",
-      "number": 29,
-      "position": "CM",
-      "overall": 69,
-      "attributes": {
-        "pace": 46,
-        "shooting": 24,
-        "passing": 61,
-        "dribbling": 47,
-        "defending": 67,
-        "physicality": 78,
-        "stamina": 37,
-        "awareness": 65,
-        "composure": 63
-      }
-    },
-    {
-      "name": "21 L. Azouni",
-      "number": 5,
-      "position": "CM",
-      "overall": 68,
-      "attributes": {
-        "pace": 69,
-        "shooting": 45,
-        "passing": 69,
-        "dribbling": 71,
+        "shooting": 20,
+        "passing": 60,
+        "dribbling": 25,
         "defending": 70,
-        "physicality": 68,
-        "stamina": 76,
-        "awareness": 63,
-        "composure": 67
-      }
-    },
-    {
-      "name": "O. Haddadi",
-      "number": 5,
-      "position": "LB",
-      "overall": 68,
-      "attributes": {
-        "pace": 76,
-        "shooting": 34,
-        "passing": 67,
-        "dribbling": 64,
-        "defending": 71,
-        "physicality": 76,
-        "stamina": 73,
+        "physicality": 70,
+        "stamina": 60,
         "awareness": 67,
-        "composure": 68
-      }
+        "composure": 65
+      },
+      "image": ""
     },
     {
-      "name": "B. Srarfi",
-      "number": 11,
-      "position": "LW",
+      "name": "Yan Valery",
+      "number": 20,
+      "position": "CB",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Omar Rekik",
+      "number": 4,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 69,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Montassar Talbi",
+      "number": 3,
+      "position": "LB",
+      "overall": 63,
+      "attributes": {
+        "pace": 65,
+        "shooting": 35,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 73,
+        "physicality": 75,
+        "stamina": 70,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Ali Abdi",
+      "number": 2,
+      "position": "RB",
       "overall": 67,
       "attributes": {
         "pace": 70,
-        "shooting": 58,
-        "passing": 66,
-        "dribbling": 72,
-        "defending": 58,
-        "physicality": 62,
-        "stamina": 55,
-        "awareness": 61,
-        "composure": 67
-      }
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "A. Ben Mohamed",
-      "number": 12,
+      "name": "Ellyes Skhiri",
+      "number": 17,
       "position": "CM",
-      "overall": 66,
+      "overall": 72,
       "attributes": {
-        "pace": 87,
-        "shooting": 58,
-        "passing": 61,
-        "dribbling": 63,
-        "defending": 66,
-        "physicality": 69,
-        "stamina": 66,
-        "awareness": 53,
-        "composure": 60
-      }
+        "pace": 65,
+        "shooting": 60,
+        "passing": 80,
+        "dribbling": 65,
+        "defending": 70,
+        "physicality": 70,
+        "stamina": 85,
+        "awareness": 76,
+        "composure": 80
+      },
+      "image": ""
     },
     {
-      "name": "I. Jebali",
-      "number": 7,
-      "position": "CAM",
-      "overall": 66,
+      "name": "Hannibal Mejbri",
+      "number": 10,
+      "position": "CM",
+      "overall": 71,
       "attributes": {
-        "pace": 73,
+        "pace": 70,
         "shooting": 65,
-        "passing": 67,
-        "dribbling": 73,
-        "defending": 35,
-        "physicality": 74,
-        "stamina": 72,
-        "awareness": 62,
-        "composure": 69
-      }
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 61,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 75
+      },
+      "image": ""
     },
     {
-      "name": "21 S. Ben Youssef",
-      "number": 15,
-      "position": "CM",
+      "name": "Anis Ben Slimane",
+      "number": 25,
+      "position": "LM",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 60,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Firas Chaouat",
+      "number": 9,
+      "position": "ST",
       "overall": 66,
       "attributes": {
-        "pace": 53,
-        "shooting": 38,
-        "passing": 58,
-        "dribbling": 50,
-        "defending": 65,
-        "physicality": 77,
-        "stamina": 53,
-        "awareness": 55,
-        "composure": 64
-      }
+        "pace": 65,
+        "shooting": 70,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 70,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
     },
     {
-      "name": "A. Slimane",
-      "number": 25,
-      "position": "CM",
-      "overall": 65,
+      "name": "Elias Saad",
+      "number": 8,
+      "position": "LW",
+      "overall": 70,
       "attributes": {
-        "pace": 63,
-        "shooting": 56,
-        "passing": 68,
-        "dribbling": 68,
-        "defending": 58,
-        "physicality": 77,
-        "stamina": 68,
-        "awareness": 61,
-        "composure": 63
-      }
+        "pace": 75,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Hazem Mastouri",
+      "number": 21,
+      "position": "RW",
+      "overall": 66,
+      "attributes": {
+        "pace": 75,
+        "shooting": 65,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
     }
   ]
 }

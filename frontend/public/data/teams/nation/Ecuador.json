@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/ec.png",
   "players": [
     {
-      "name": "21 S. Mandíquez",
-      "number": 9,
-      "position": "ST",
-      "overall": 80,
+      "name": "Hernán Galíndez",
+      "number": 1,
+      "position": "GK",
+      "overall": 53,
       "attributes": {
-        "pace": 81,
-        "shooting": 83,
-        "passing": 69,
-        "dribbling": 75,
-        "defending": 23,
-        "physicality": 91,
-        "stamina": 68,
-        "awareness": 73,
-        "composure": 75
-      }
-    },
-    {
-      "name": "19 C. Noboa",
-      "number": 6,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 73,
-        "shooting": 65,
-        "passing": 78,
-        "dribbling": 77,
-        "defending": 75,
-        "physicality": 71,
-        "stamina": 90,
-        "awareness": 75,
-        "composure": 72
-      }
-    },
-    {
-      "name": "P. Estupiñán",
-      "number": 12,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 83,
-        "shooting": 20,
-        "passing": 78,
-        "dribbling": 73,
+        "pace": 50,
+        "shooting": 15,
+        "passing": 55,
+        "dribbling": 20,
         "defending": 80,
-        "physicality": 74,
-        "stamina": 79,
-        "awareness": 71,
-        "composure": 62
-      }
+        "physicality": 70,
+        "stamina": 60,
+        "awareness": 64,
+        "composure": 60
+      },
+      "image": ""
     },
     {
-      "name": "21 A. Valencia",
-      "number": 14,
-      "position": "RB",
-      "overall": 78,
+      "name": "Piero Hincapié",
+      "number": 3,
+      "position": "CB",
+      "overall": 68,
       "attributes": {
-        "pace": 75,
-        "shooting": 59,
-        "passing": 75,
-        "dribbling": 77,
-        "defending": 77,
-        "physicality": 83,
-        "stamina": 73,
-        "awareness": 80,
-        "composure": 82
-      }
-    },
-    {
-      "name": "F. Caicedo",
-      "number": 9,
-      "position": "CM",
-      "overall": 78,
-      "attributes": {
-        "pace": 74,
-        "shooting": 79,
-        "passing": 79,
-        "dribbling": 77,
-        "defending": 44,
-        "physicality": 91,
-        "stamina": 59,
-        "awareness": 79,
-        "composure": 77
-      }
-    },
-    {
-      "name": "A. Mena",
-      "number": 13,
-      "position": "RW",
-      "overall": 78,
-      "attributes": {
-        "pace": 81,
-        "shooting": 77,
-        "passing": 75,
-        "dribbling": 82,
-        "defending": 46,
-        "physicality": 47,
-        "stamina": 75,
-        "awareness": 77,
-        "composure": 75
-      }
-    },
-    {
-      "name": "D. Díaz",
-      "number": 10,
-      "position": "CAM",
-      "overall": 76,
-      "attributes": {
-        "pace": 75,
-        "shooting": 73,
-        "passing": 78,
-        "dribbling": 80,
-        "defending": 34,
-        "physicality": 69,
-        "stamina": 78,
-        "awareness": 70,
-        "composure": 75
-      }
-    },
-    {
-      "name": "21 A. Zamorado",
-      "number": 10,
-      "position": "LW",
-      "overall": 76,
-      "attributes": {
-        "pace": 55,
-        "shooting": 68,
-        "passing": 80,
-        "dribbling": 74,
-        "defending": 26,
-        "physicality": 58,
-        "stamina": 74,
-        "awareness": 76,
-        "composure": 70
-      }
-    },
-    {
-      "name": "E. Valencia",
-      "number": 13,
-      "position": "ST",
-      "overall": 75,
-      "attributes": {
-        "pace": 88,
-        "shooting": 75,
-        "passing": 68,
-        "dribbling": 72,
-        "defending": 40,
-        "physicality": 76,
-        "stamina": 81,
-        "awareness": 73,
-        "composure": 63
-      }
-    },
-    {
-      "name": "F. Martínez",
-      "number": 10,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 92,
-        "shooting": 76,
+        "pace": 80,
+        "shooting": 35,
         "passing": 70,
-        "dribbling": 75,
-        "defending": 25,
-        "physicality": 70,
-        "stamina": 75,
-        "awareness": 69,
-        "composure": 66
-      }
-    },
-    {
-      "name": "G. Plata",
-      "number": 12,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 85,
-        "shooting": 65,
-        "passing": 68,
-        "dribbling": 79,
-        "defending": 46,
-        "physicality": 63,
-        "stamina": 69,
-        "awareness": 73,
-        "composure": 78
-      }
-    },
-    {
-      "name": "R. Ibarra",
-      "number": 30,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 88,
-        "shooting": 60,
-        "passing": 72,
-        "dribbling": 74,
-        "defending": 52,
-        "physicality": 70,
-        "stamina": 75,
-        "awareness": 65,
-        "composure": 63
-      }
-    },
-    {
-      "name": "B. Castillo",
-      "number": 26,
-      "position": "RB",
-      "overall": 73,
-      "attributes": {
-        "pace": 83,
-        "shooting": 50,
-        "passing": 67,
-        "dribbling": 53,
-        "defending": 70,
-        "physicality": 59,
-        "stamina": 90,
-        "awareness": 65,
-        "composure": 55
-      }
-    },
-    {
-      "name": "J. Intriago",
-      "number": 35,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 72,
-        "shooting": 30,
-        "passing": 73,
-        "dribbling": 73,
-        "defending": 68,
-        "physicality": 73,
-        "stamina": 89,
-        "awareness": 70,
-        "composure": 69
-      }
-    },
-    {
-      "name": "21 J. Paredes",
-      "number": 4,
-      "position": "RB",
-      "overall": 72,
-      "attributes": {
-        "pace": 87,
-        "shooting": 33,
-        "passing": 65,
-        "dribbling": 69,
-        "defending": 69,
-        "physicality": 62,
-        "stamina": 81,
-        "awareness": 74,
-        "composure": 72
-      }
-    },
-    {
-      "name": "J. Sornoza",
-      "number": 11,
-      "position": "LW",
-      "overall": 72,
-      "attributes": {
-        "pace": 71,
-        "shooting": 68,
-        "passing": 73,
-        "dribbling": 71,
-        "defending": 29,
-        "physicality": 37,
-        "stamina": 70,
-        "awareness": 66,
-        "composure": 61
-      }
-    },
-    {
-      "name": "C. Gruezo",
-      "number": 8,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 55,
-        "shooting": 41,
-        "passing": 72,
         "dribbling": 60,
         "defending": 71,
-        "physicality": 69,
-        "stamina": 73,
-        "awareness": 69,
-        "composure": 65
-      }
-    },
-    {
-      "name": "21 A. Domínguez",
-      "number": 22,
-      "position": "CM",
-      "overall": 72,
-      "attributes": {
-        "pace": 35,
-        "shooting": 11,
-        "passing": 37,
-        "dribbling": 20,
-        "defending": 21,
-        "physicality": 73,
-        "stamina": 25,
-        "awareness": 69,
-        "composure": 67
-      }
-    },
-    {
-      "name": "J. Sierra",
-      "number": 35,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 75,
-        "shooting": 60,
-        "passing": 74,
-        "dribbling": 69,
-        "defending": 69,
-        "physicality": 62,
-        "stamina": 83,
-        "awareness": 73,
+        "physicality": 75,
+        "stamina": 85,
+        "awareness": 68,
         "composure": 70
-      }
+      },
+      "image": ""
     },
     {
-      "name": "21 J. Plata",
-      "number": 10,
+      "name": "Willian Pacho",
+      "number": 6,
+      "position": "CB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 30,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Joel Ordóñez",
+      "number": 4,
+      "position": "LB",
+      "overall": 61,
+      "attributes": {
+        "pace": 70,
+        "shooting": 25,
+        "passing": 60,
+        "dribbling": 45,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Alan Franco",
+      "number": 5,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 70,
+        "dribbling": 55,
+        "defending": 66,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Nilson Angulo",
+      "number": 16,
       "position": "CM",
-      "overall": 71,
+      "overall": 67,
       "attributes": {
         "pace": 85,
-        "shooting": 62,
-        "passing": 69,
-        "dribbling": 68,
-        "defending": 29,
-        "physicality": 58,
-        "stamina": 70,
-        "awareness": 74,
+        "shooting": 55,
+        "passing": 60,
+        "dribbling": 75,
+        "defending": 57,
+        "physicality": 55,
+        "stamina": 80,
+        "awareness": 66,
         "composure": 70
-      }
+      },
+      "image": ""
     },
     {
-      "name": "J. Cifuentes",
-      "number": 11,
-      "position": "CM",
-      "overall": 71,
-      "attributes": {
-        "pace": 68,
-        "shooting": 51,
-        "passing": 74,
-        "dribbling": 73,
-        "defending": 72,
-        "physicality": 75,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 68
-      }
-    },
-    {
-      "name": "M. Bolaños",
+      "name": "Moisés Caicedo",
       "number": 23,
       "position": "CM",
-      "overall": 71,
+      "overall": 75,
       "attributes": {
-        "pace": 76,
-        "shooting": 75,
-        "passing": 67,
-        "dribbling": 76,
-        "defending": 25,
-        "physicality": 64,
-        "stamina": 74,
+        "pace": 70,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 70,
+        "defending": 74,
+        "physicality": 80,
+        "stamina": 90,
         "awareness": 74,
-        "composure": 59
-      }
+        "composure": 80
+      },
+      "image": ""
     },
     {
-      "name": "M. Pineida",
-      "number": 2,
-      "position": "LB",
-      "overall": 71,
+      "name": "Pedro Vite",
+      "number": 8,
+      "position": "LM",
+      "overall": 67,
       "attributes": {
-        "pace": 74,
-        "shooting": 41,
+        "pace": 65,
+        "shooting": 55,
         "passing": 70,
-        "dribbling": 54,
-        "defending": 69,
-        "physicality": 76,
-        "stamina": 79,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 66,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "John Yeboah",
+      "number": 11,
+      "position": "RM",
+      "overall": 66,
+      "attributes": {
+        "pace": 80,
+        "shooting": 60,
+        "passing": 60,
+        "dribbling": 70,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Gonzalo Plata",
+      "number": 19,
+      "position": "ST",
+      "overall": 70,
+      "attributes": {
+        "pace": 80,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 60,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 69,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Enner Valencia",
+      "number": 13,
+      "position": "CF",
+      "overall": 68,
+      "attributes": {
+        "pace": 65,
+        "shooting": 75,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 70,
         "awareness": 68,
-        "composure": 71
-      }
+        "composure": 70
+      },
+      "image": ""
     }
   ]
 }

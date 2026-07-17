@@ -1,0 +1,205 @@
+{
+  "name": "Türkiye",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "Uğurcan Çakır",
+      "number": 23,
+      "position": "GK",
+      "overall": 59,
+      "attributes": {
+        "pace": 60,
+        "shooting": 20,
+        "passing": 60,
+        "dribbling": 30,
+        "defending": 85,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Ferdi Kadıoğlu",
+      "number": 20,
+      "position": "CB",
+      "overall": 69,
+      "attributes": {
+        "pace": 75,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Abdülkerim Bardakcı",
+      "number": 14,
+      "position": "CB",
+      "overall": 66,
+      "attributes": {
+        "pace": 65,
+        "shooting": 40,
+        "passing": 70,
+        "dribbling": 50,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Merih Demiral",
+      "number": 3,
+      "position": "LB",
+      "overall": 64,
+      "attributes": {
+        "pace": 65,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 50,
+        "defending": 72,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Zeki Çelik",
+      "number": 2,
+      "position": "RB",
+      "overall": 65,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Hakan Çalhanoğlu",
+      "number": 10,
+      "position": "CM",
+      "overall": 78,
+      "attributes": {
+        "pace": 65,
+        "shooting": 80,
+        "passing": 90,
+        "dribbling": 75,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 81,
+        "composure": 85
+      },
+      "image": ""
+    },
+    {
+      "name": "Orkun Kökçü",
+      "number": 18,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 70,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Barış Alper Yılmaz",
+      "number": 21,
+      "position": "LM",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 70,
+        "passing": 65,
+        "dribbling": 75,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Arda Güler",
+      "number": 8,
+      "position": "RM",
+      "overall": 75,
+      "attributes": {
+        "pace": 70,
+        "shooting": 75,
+        "passing": 85,
+        "dribbling": 80,
+        "defending": 64,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 79,
+        "composure": 85
+      },
+      "image": ""
+    },
+    {
+      "name": "Kenan Yıldız",
+      "number": 9,
+      "position": "ST",
+      "overall": 74,
+      "attributes": {
+        "pace": 80,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 65,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 74,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Kerem Aktürkoğlu",
+      "number": 7,
+      "position": "CF",
+      "overall": 72,
+      "attributes": {
+        "pace": 80,
+        "shooting": 70,
+        "passing": 70,
+        "dribbling": 80,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 75
+      },
+      "image": ""
+    }
+  ]
+}

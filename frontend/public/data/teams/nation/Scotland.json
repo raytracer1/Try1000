@@ -4,417 +4,202 @@
   "logo": "https://cdn.sofifa.net/meta/team/18706/30.png",
   "players": [
     {
-      "name": "Andrew Henry Robertson -",
-      "number": 3,
-      "position": "LB",
-      "overall": 82,
+      "name": "Angus Gunn",
+      "number": 1,
+      "position": "GK",
+      "overall": 55,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
+        "pace": 55,
+        "shooting": 15,
+        "passing": 65,
+        "dribbling": 20,
+        "defending": 75,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 60,
+        "awareness": 67,
+        "composure": 65
       },
-      "image": "https://cdn.sofifa.net/players/216/267/25_120.png"
+      "image": ""
     },
     {
-      "name": "Scott Francis McTominay -",
-      "number": 4,
-      "position": "CM",
-      "overall": 81,
+      "name": "Jack Hendry",
+      "number": 16,
+      "position": "CB",
+      "overall": 61,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
+        "pace": 60,
+        "shooting": 40,
         "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
+        "dribbling": 45,
+        "defending": 71,
+        "physicality": 75,
         "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "awareness": 62,
+        "composure": 60
       },
-      "image": "https://cdn.sofifa.net/players/237/238/25_120.png"
+      "image": "https://cdn.sofifa.net/players/225/316/25_120.png"
     },
     {
-      "name": "John McGinn -",
-      "number": 7,
-      "position": "LW",
-      "overall": 81,
+      "name": "Grant Hanley",
+      "number": 5,
+      "position": "CB",
+      "overall": 58,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "pace": 55,
+        "shooting": 30,
+        "passing": 60,
+        "dribbling": 40,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 65,
+        "awareness": 61,
+        "composure": 55
       },
-      "image": "https://cdn.sofifa.net/players/210/881/25_120.png"
+      "image": "https://cdn.sofifa.net/players/198/904/25_120.png"
     },
     {
-      "name": "Lewis Ferguson -",
-      "number": 19,
-      "position": "CM",
-      "overall": 79,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/242/280/25_120.png"
-    },
-    {
-      "name": "Kieran Tierney -",
+      "name": "Kieran Tierney",
       "number": 6,
       "position": "LB",
-      "overall": 78,
+      "overall": 68,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
+        "pace": 75,
+        "shooting": 45,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
         "awareness": 70,
         "composure": 70
       },
       "image": "https://cdn.sofifa.net/players/226/491/25_120.png"
     },
     {
-      "name": "Ryan Christie -",
-      "number": 11,
-      "position": "CDM",
-      "overall": 78,
+      "name": "Nathan Patterson",
+      "number": 2,
+      "position": "RB",
+      "overall": 64,
       "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
+        "pace": 80,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 60,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 60,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Andrew Robertson",
+      "number": 3,
+      "position": "CB",
+      "overall": 73,
+      "attributes": {
+        "pace": 80,
+        "shooting": 55,
+        "passing": 80,
         "dribbling": 70,
+        "defending": 69,
+        "physicality": 65,
+        "stamina": 90,
+        "awareness": 75,
+        "composure": 75
+      },
+      "image": "https://cdn.sofifa.net/players/216/267/25_120.png"
+    },
+    {
+      "name": "Lewis Ferguson",
+      "number": 19,
+      "position": "CM",
+      "overall": 71,
+      "attributes": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 75,
+        "dribbling": 65,
         "defending": 70,
         "physicality": 70,
-        "stamina": 70,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": "https://cdn.sofifa.net/players/242/280/25_120.png"
+    },
+    {
+      "name": "Scott McTominay",
+      "number": 4,
+      "position": "CM",
+      "overall": 72,
+      "attributes": {
+        "pace": 65,
+        "shooting": 75,
+        "passing": 70,
+        "dribbling": 60,
+        "defending": 76,
+        "physicality": 80,
+        "stamina": 80,
         "awareness": 70,
+        "composure": 70
+      },
+      "image": "https://cdn.sofifa.net/players/237/238/25_120.png"
+    },
+    {
+      "name": "Ryan Christie",
+      "number": 11,
+      "position": "LM",
+      "overall": 69,
+      "attributes": {
+        "pace": 70,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 85,
+        "awareness": 68,
         "composure": 70
       },
       "image": "https://cdn.sofifa.net/players/213/884/25_120.png"
     },
     {
-      "name": "Ryan Gauld -",
-      "number": 20,
-      "position": "LW",
-      "overall": 78,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/208/919/25_120.png"
-    },
-    {
-      "name": "Ché Zach Everton Fred Adams -",
-      "number": 10,
-      "position": "ST",
-      "overall": 76,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/226/093/25_120.png"
-    },
-    {
-      "name": "Scott Fraser McKenna -",
-      "number": 16,
-      "position": "CB",
-      "overall": 76,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/225/974/25_120.png"
-    },
-    {
-      "name": "Billy Clifford Gilmour -",
-      "number": 8,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/245/992/25_120.png"
-    },
-    {
-      "name": "John Souttar -",
-      "number": 15,
-      "position": "CB",
-      "overall": 74,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/212/516/25_120.png"
-    },
-    {
-      "name": "Jack William Hendry -",
-      "number": 13,
-      "position": "CB",
-      "overall": 74,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/225/316/25_120.png"
-    },
-    {
-      "name": "Stuart Armstrong -",
-      "number": 17,
-      "position": "CM",
+      "name": "John McGinn",
+      "number": 7,
+      "position": "RM",
       "overall": 73,
       "attributes": {
         "pace": 70,
         "shooting": 70,
-        "passing": 70,
+        "passing": 75,
         "dribbling": 70,
         "defending": 70,
         "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
+        "stamina": 85,
+        "awareness": 73,
+        "composure": 75
       },
-      "image": "https://cdn.sofifa.net/players/202/282/25_120.png"
+      "image": "https://cdn.sofifa.net/players/210/881/25_120.png"
     },
     {
-      "name": "George David Eric Hirst -",
-      "number": 26,
+      "name": "Ché Adams",
+      "number": 10,
       "position": "ST",
-      "overall": 72,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/233/602/25_120.png"
-    },
-    {
-      "name": "Kenneth McLean -",
-      "number": 23,
-      "position": "CDM",
-      "overall": 72,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/201/368/25_120.png"
-    },
-    {
-      "name": "Kevin Nisbet -",
-      "number": 27,
-      "position": "ST",
-      "overall": 71,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/225/317/25_120.png"
-    },
-    {
-      "name": "Ryan Porteous -",
-      "number": 14,
-      "position": "CB",
-      "overall": 71,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/240/439/25_120.png"
-    },
-    {
-      "name": "Anthony Ralston -",
-      "number": 2,
-      "position": "RB",
-      "overall": 71,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/234/072/25_120.png"
-    },
-    {
-      "name": "Grant Campbell Hanley -",
-      "number": 5,
-      "position": "CB",
-      "overall": 71,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/198/904/25_120.png"
-    },
-    {
-      "name": "Ben Gannon Doak -",
-      "number": 18,
-      "position": "RW",
       "overall": 70,
       "attributes": {
         "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
+        "shooting": 75,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 71,
+        "physicality": 75,
+        "stamina": 75,
+        "awareness": 68,
         "composure": 70
       },
-      "image": "https://cdn.sofifa.net/players/266/815/25_120.png"
-    },
-    {
-      "name": "Lennon Lee Miller -",
-      "number": 24,
-      "position": "CM",
-      "overall": 70,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/275/522/25_120.png"
-    },
-    {
-      "name": "Craig Sinclair Gordon -",
-      "number": 1,
-      "position": "GK",
-      "overall": 69,
-      "attributes": {
-        "pace": 70,
-        "defending": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/053/110/25_120.png"
-    },
-    {
-      "name": "Tommy Daniel John Conway -",
-      "number": 9,
-      "position": "ST",
-      "overall": 69,
-      "attributes": {
-        "pace": 70,
-        "shooting": 70,
-        "passing": 70,
-        "dribbling": 70,
-        "defending": 70,
-        "physicality": 70,
-        "stamina": 70,
-        "awareness": 70,
-        "composure": 70
-      },
-      "image": "https://cdn.sofifa.net/players/261/283/25_120.png"
+      "image": "https://cdn.sofifa.net/players/226/093/25_120.png"
     }
   ]
 }

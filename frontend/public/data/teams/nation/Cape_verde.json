@@ -1,0 +1,205 @@
+{
+  "name": "Cape Verde",
+  "type": "nation",
+  "logo": "",
+  "players": [
+    {
+      "name": "Vozinha",
+      "number": 1,
+      "position": "GK",
+      "overall": 52,
+      "attributes": {
+        "pace": 50,
+        "shooting": 15,
+        "passing": 55,
+        "dribbling": 20,
+        "defending": 75,
+        "physicality": 65,
+        "stamina": 60,
+        "awareness": 64,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "João Paulo",
+      "number": 14,
+      "position": "CB",
+      "overall": 59,
+      "attributes": {
+        "pace": 65,
+        "shooting": 30,
+        "passing": 60,
+        "dribbling": 55,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Diney",
+      "number": 3,
+      "position": "CB",
+      "overall": 57,
+      "attributes": {
+        "pace": 60,
+        "shooting": 25,
+        "passing": 55,
+        "dribbling": 45,
+        "defending": 68,
+        "physicality": 70,
+        "stamina": 65,
+        "awareness": 62,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Roberto Lopes",
+      "number": 4,
+      "position": "LB",
+      "overall": 60,
+      "attributes": {
+        "pace": 55,
+        "shooting": 30,
+        "passing": 60,
+        "dribbling": 45,
+        "defending": 75,
+        "physicality": 75,
+        "stamina": 65,
+        "awareness": 69,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Steven Moreira",
+      "number": 2,
+      "position": "RB",
+      "overall": 62,
+      "attributes": {
+        "pace": 70,
+        "shooting": 40,
+        "passing": 65,
+        "dribbling": 60,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 75,
+        "awareness": 65,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Kevin Pina",
+      "number": 6,
+      "position": "CDM",
+      "overall": 63,
+      "attributes": {
+        "pace": 60,
+        "shooting": 45,
+        "passing": 65,
+        "dribbling": 55,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 67,
+        "composure": 65
+      },
+      "image": ""
+    },
+    {
+      "name": "Marco Duarte",
+      "number": 8,
+      "position": "CM",
+      "overall": 61,
+      "attributes": {
+        "pace": 60,
+        "shooting": 40,
+        "passing": 60,
+        "dribbling": 55,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 75,
+        "awareness": 64,
+        "composure": 60
+      },
+      "image": ""
+    },
+    {
+      "name": "Garry Rodrigues",
+      "number": 7,
+      "position": "CM",
+      "overall": 64,
+      "attributes": {
+        "pace": 70,
+        "shooting": 60,
+        "passing": 65,
+        "dribbling": 70,
+        "defending": 57,
+        "physicality": 55,
+        "stamina": 65,
+        "awareness": 66,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Jamiro Monteiro",
+      "number": 10,
+      "position": "LM",
+      "overall": 69,
+      "attributes": {
+        "pace": 65,
+        "shooting": 60,
+        "passing": 75,
+        "dribbling": 75,
+        "defending": 62,
+        "physicality": 60,
+        "stamina": 80,
+        "awareness": 71,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Ryan Mendes",
+      "number": 20,
+      "position": "RM",
+      "overall": 64,
+      "attributes": {
+        "pace": 60,
+        "shooting": 65,
+        "passing": 70,
+        "dribbling": 70,
+        "defending": 59,
+        "physicality": 55,
+        "stamina": 60,
+        "awareness": 68,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Gilson Benchimol",
+      "number": 19,
+      "position": "ST",
+      "overall": 66,
+      "attributes": {
+        "pace": 75,
+        "shooting": 70,
+        "passing": 60,
+        "dribbling": 65,
+        "defending": 63,
+        "physicality": 65,
+        "stamina": 70,
+        "awareness": 63,
+        "composure": 65
+      },
+      "image": ""
+    }
+  ]
+}

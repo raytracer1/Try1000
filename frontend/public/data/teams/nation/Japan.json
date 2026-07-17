@@ -4,395 +4,202 @@
   "logo": "https://flagcdn.com/w80/jp.png",
   "players": [
     {
-      "name": "D. Kamada",
-      "number": 15,
-      "position": "CAM",
-      "overall": 79,
-      "attributes": {
-        "pace": 69,
-        "shooting": 69,
-        "passing": 80,
-        "dribbling": 85,
-        "defending": 46,
-        "physicality": 57,
-        "stamina": 73,
-        "awareness": 72,
-        "composure": 80
-      }
-    },
-    {
-      "name": "W. Endo",
-      "number": 3,
-      "position": "CM",
-      "overall": 78,
+      "name": "Zion Suzuki",
+      "number": 1,
+      "position": "GK",
+      "overall": 60,
       "attributes": {
         "pace": 60,
-        "shooting": 57,
-        "passing": 79,
-        "dribbling": 72,
-        "defending": 78,
-        "physicality": 65,
-        "stamina": 80,
-        "awareness": 73,
-        "composure": 80
-      }
-    },
-    {
-      "name": "J. Ito",
-      "number": 7,
-      "position": "RW",
-      "overall": 77,
-      "attributes": {
-        "pace": 88,
-        "shooting": 73,
-        "passing": 73,
-        "dribbling": 77,
-        "defending": 61,
-        "physicality": 61,
-        "stamina": 89,
-        "awareness": 73,
-        "composure": 77
-      }
-    },
-    {
-      "name": "S. Nakajima",
-      "number": 10,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 82,
-        "shooting": 68,
-        "passing": 73,
-        "dribbling": 83,
-        "defending": 41,
-        "physicality": 33,
-        "stamina": 61,
-        "awareness": 78,
-        "composure": 81
-      }
-    },
-    {
-      "name": "M. Hasebe",
-      "number": 20,
-      "position": "CM",
-      "overall": 77,
-      "attributes": {
-        "pace": 51,
-        "shooting": 45,
-        "passing": 78,
-        "dribbling": 66,
-        "defending": 74,
-        "physicality": 62,
-        "stamina": 60,
-        "awareness": 74,
-        "composure": 85
-      }
-    },
-    {
-      "name": "R. Doan",
-      "number": 25,
-      "position": "CM",
-      "overall": 76,
-      "attributes": {
-        "pace": 79,
-        "shooting": 68,
-        "passing": 75,
-        "dribbling": 80,
-        "defending": 36,
-        "physicality": 55,
-        "stamina": 77,
-        "awareness": 74,
-        "composure": 73
-      }
-    },
-    {
-      "name": "20 K. Honda",
-      "number": 33,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 71,
-        "shooting": 65,
-        "passing": 75,
-        "dribbling": 75,
-        "defending": 45,
-        "physicality": 66,
-        "stamina": 62,
-        "awareness": 69,
-        "composure": 79
-      }
-    },
-    {
-      "name": "T. Minamino",
-      "number": 18,
-      "position": "CM",
-      "overall": 75,
-      "attributes": {
-        "pace": 75,
-        "shooting": 75,
-        "passing": 71,
-        "dribbling": 81,
-        "defending": 30,
-        "physicality": 55,
-        "stamina": 76,
-        "awareness": 71,
-        "composure": 79
-      }
-    },
-    {
-      "name": "T. Inui",
-      "number": 23,
-      "position": "LW",
-      "overall": 75,
-      "attributes": {
-        "pace": 73,
-        "shooting": 65,
-        "passing": 72,
-        "dribbling": 81,
-        "defending": 39,
-        "physicality": 45,
-        "stamina": 73,
-        "awareness": 74,
-        "composure": 75
-      }
-    },
-    {
-      "name": "H. Sakai",
-      "number": 2,
-      "position": "RB",
-      "overall": 75,
-      "attributes": {
-        "pace": 76,
-        "shooting": 46,
-        "passing": 68,
-        "dribbling": 58,
-        "defending": 73,
-        "physicality": 73,
-        "stamina": 82,
-        "awareness": 73,
-        "composure": 71
-      }
-    },
-    {
-      "name": "T. Kubo",
-      "number": 17,
-      "position": "CAM",
-      "overall": 75,
-      "attributes": {
-        "pace": 74,
-        "shooting": 70,
-        "passing": 73,
-        "dribbling": 85,
-        "defending": 43,
-        "physicality": 52,
-        "stamina": 76,
-        "awareness": 65,
-        "composure": 70
-      }
-    },
-    {
-      "name": "T. Tomiyasu",
-      "number": 18,
-      "position": "RB",
-      "overall": 75,
-      "attributes": {
-        "pace": 68,
-        "shooting": 29,
-        "passing": 71,
-        "dribbling": 68,
-        "defending": 77,
-        "physicality": 77,
-        "stamina": 80,
-        "awareness": 71,
-        "composure": 60
-      }
-    },
-    {
-      "name": "R. Morioka",
-      "number": 44,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 53,
-        "shooting": 66,
-        "passing": 76,
-        "dribbling": 70,
-        "defending": 72,
-        "physicality": 74,
-        "stamina": 75,
-        "awareness": 71,
-        "composure": 77
-      }
-    },
-    {
-      "name": "G. Haraguchi",
-      "number": 24,
-      "position": "CM",
-      "overall": 74,
-      "attributes": {
-        "pace": 83,
-        "shooting": 70,
-        "passing": 75,
-        "dribbling": 77,
-        "defending": 46,
-        "physicality": 41,
-        "stamina": 87,
+        "shooting": 20,
+        "passing": 65,
+        "dribbling": 30,
+        "defending": 80,
+        "physicality": 80,
+        "stamina": 65,
         "awareness": 72,
         "composure": 70
-      }
+      },
+      "image": ""
     },
     {
-      "name": "K. Itakura",
-      "number": 3,
+      "name": "Hiroki Itō",
+      "number": 21,
+      "position": "CB",
+      "overall": 68,
+      "attributes": {
+        "pace": 70,
+        "shooting": 45,
+        "passing": 75,
+        "dribbling": 55,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Ko Itakura",
+      "number": 4,
+      "position": "CB",
+      "overall": 70,
+      "attributes": {
+        "pace": 65,
+        "shooting": 45,
+        "passing": 75,
+        "dribbling": 55,
+        "defending": 80,
+        "physicality": 80,
+        "stamina": 75,
+        "awareness": 77,
+        "composure": 75
+      },
+      "image": ""
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "number": 22,
       "position": "CB",
       "overall": 74,
       "attributes": {
-        "pace": 79,
-        "shooting": 20,
-        "passing": 68,
-        "dribbling": 63,
-        "defending": 79,
-        "physicality": 75,
-        "stamina": 85,
-        "awareness": 67,
-        "composure": 64
-      }
+        "pace": 75,
+        "shooting": 45,
+        "passing": 75,
+        "dribbling": 65,
+        "defending": 82,
+        "physicality": 80,
+        "stamina": 80,
+        "awareness": 82,
+        "composure": 80
+      },
+      "image": ""
     },
     {
-      "name": "A. Fukumori",
-      "number": 5,
+      "name": "Keito Nakamura",
+      "number": 13,
       "position": "CM",
       "overall": 73,
       "attributes": {
-        "pace": 66,
-        "shooting": 63,
-        "passing": 73,
-        "dribbling": 64,
-        "defending": 74,
-        "physicality": 76,
-        "stamina": 83,
-        "awareness": 71,
-        "composure": 72
-      }
-    },
-    {
-      "name": "K. Furuhashi",
-      "number": 8,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 84,
-        "shooting": 75,
-        "passing": 69,
+        "pace": 80,
+        "shooting": 70,
+        "passing": 70,
         "dribbling": 75,
-        "defending": 47,
-        "physicality": 49,
-        "stamina": 86,
-        "awareness": 74,
-        "composure": 69
-      }
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 73,
+        "composure": 75
+      },
+      "image": ""
     },
     {
-      "name": "A. Ienaga",
-      "number": 41,
-      "position": "RW",
-      "overall": 73,
-      "attributes": {
-        "pace": 74,
-        "shooting": 71,
-        "passing": 76,
-        "dribbling": 71,
-        "defending": 36,
-        "physicality": 66,
-        "stamina": 70,
-        "awareness": 67,
-        "composure": 66
-      }
-    },
-    {
-      "name": "Y. Nagatomo",
-      "number": 50,
-      "position": "LB",
-      "overall": 73,
+      "name": "Kaishu Sano",
+      "number": 6,
+      "position": "CM",
+      "overall": 70,
       "attributes": {
         "pace": 70,
-        "shooting": 46,
-        "passing": 72,
-        "dribbling": 65,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 60,
         "defending": 75,
-        "physicality": 58,
+        "physicality": 75,
+        "stamina": 85,
+        "awareness": 72,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Daichi Kamada",
+      "number": 15,
+      "position": "LM",
+      "overall": 74,
+      "attributes": {
+        "pace": 65,
+        "shooting": 70,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 78,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Yukinari Sugawara",
+      "number": 19,
+      "position": "RM",
+      "overall": 69,
+      "attributes": {
+        "pace": 80,
+        "shooting": 50,
+        "passing": 70,
+        "dribbling": 65,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 85,
+        "awareness": 70,
+        "composure": 70
+      },
+      "image": ""
+    },
+    {
+      "name": "Ao Tanaka",
+      "number": 17,
+      "position": "ST",
+      "overall": 73,
+      "attributes": {
+        "pace": 65,
+        "shooting": 65,
+        "passing": 80,
+        "dribbling": 70,
+        "defending": 72,
+        "physicality": 70,
+        "stamina": 80,
+        "awareness": 78,
+        "composure": 80
+      },
+      "image": ""
+    },
+    {
+      "name": "Ayase Ueda",
+      "number": 18,
+      "position": "LW",
+      "overall": 71,
+      "attributes": {
+        "pace": 70,
+        "shooting": 80,
+        "passing": 65,
+        "dribbling": 65,
+        "defending": 73,
+        "physicality": 75,
         "stamina": 75,
         "awareness": 70,
-        "composure": 66
-      }
+        "composure": 70
+      },
+      "image": ""
     },
     {
-      "name": "K. Mitoma",
-      "number": 7,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 76,
-        "shooting": 73,
-        "passing": 76,
-        "dribbling": 78,
-        "defending": 46,
-        "physicality": 60,
-        "stamina": 68,
-        "awareness": 74,
-        "composure": 73
-      }
-    },
-    {
-      "name": "H. Morita",
-      "number": 25,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 66,
-        "shooting": 60,
-        "passing": 76,
-        "dribbling": 76,
-        "defending": 76,
-        "physicality": 71,
-        "stamina": 69,
-        "awareness": 68,
-        "composure": 67
-      }
-    },
-    {
-      "name": "Y. Kobayashi",
-      "number": 11,
-      "position": "CM",
-      "overall": 73,
+      "name": "Ritsu Doan",
+      "number": 10,
+      "position": "RW",
+      "overall": 75,
       "attributes": {
         "pace": 75,
         "shooting": 75,
-        "passing": 69,
-        "dribbling": 72,
-        "defending": 24,
-        "physicality": 69,
-        "stamina": 67,
-        "awareness": 69,
-        "composure": 71
-      }
-    },
-    {
-      "name": "S. Kagawa",
-      "number": 23,
-      "position": "CM",
-      "overall": 73,
-      "attributes": {
-        "pace": 56,
-        "shooting": 68,
-        "passing": 78,
-        "dribbling": 73,
-        "defending": 53,
-        "physicality": 35,
-        "stamina": 56,
-        "awareness": 72,
-        "composure": 79
-      }
+        "passing": 75,
+        "dribbling": 80,
+        "defending": 67,
+        "physicality": 65,
+        "stamina": 80,
+        "awareness": 76,
+        "composure": 80
+      },
+      "image": ""
     }
   ]
 }
