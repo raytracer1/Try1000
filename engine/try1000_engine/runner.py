@@ -107,25 +107,33 @@ class EngineRunner:
 
     def _fetch_and_dispatch(self):
         """Fetch all pending jobs from backend and dispatch each to a worker.
-        Returns the number of jobs found."""
+        Returns the number of jobs found. Retries up to 3 times on failure."""
         import httpx
         engine_token = self.ably_key or ""
         headers = {"x-engine-token": engine_token} if engine_token else {}
-        try:
-            resp = httpx.get(
-                f"{self.backend_url}/api/v1/engine/jobs/pending",
-                headers=headers, timeout=10,
-            )
-            if resp.status_code != 200:
-                return 0
-            data = resp.json()
-            jobs = data.get("jobs", [])
-            for job in jobs:
-                self._dispatch_job(job)
-            return len(jobs)
-        except Exception as e:
-            logger.warning(f"Failed to fetch pending jobs: {e}")
-            return 0
+
+        for attempt in range(3):
+            try:
+                resp = httpx.get(
+                    f"{self.backend_url}/api/v1/engine/jobs/pending",
+                    headers=headers, timeout=30,
+                )
+                if resp.status_code == 200:
+                    data = resp.json()
+                    jobs = data.get("jobs", [])
+                    for job in jobs:
+                        self._dispatch_job(job)
+                    return len(jobs)
+                if attempt < 2:
+                    delay = (attempt + 1) * 2
+                    logger.warning(f"Pending jobs returned {resp.status_code}, retry {attempt+1}/3 in {delay}s")
+                    time.sleep(delay)
+            except Exception as e:
+                if attempt < 2:
+                    delay = (attempt + 1) * 2
+                    logger.warning(f"Failed to fetch pending jobs: {e}, retry {attempt+1}/3 in {delay}s")
+                    time.sleep(delay)
+        return 0
 
     def _dispatch_job(self, job: dict):
         """Submit job to thread pool if not already running."""
