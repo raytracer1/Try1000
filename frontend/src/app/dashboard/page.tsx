@@ -15,6 +15,7 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 gap-4 mb-8">
         {[
           { href: "/simulation", label: "Run Simulation", desc: "Test tactics across 1 to 1,000 matches" },
+          { href: "/history", label: "History", desc: "Browse past simulation results and replays" },
         ].map((c) => (
           <Link key={c.href} href={c.href}
             className="bg-white border border-stone-200 rounded-lg p-5 hover:border-green-700 transition-colors">
@@ -44,7 +45,7 @@ export default function Dashboard() {
               {(Array.isArray(jobs) ? jobs : []).map((job: any) => (
                 <tr key={job.id} className="border-b border-stone-50">
                   <td className="py-2 text-stone-500 font-mono text-xs">{String(job.id).slice(0, 8)}</td>
-                  <td className="py-2 text-stone-700">{job.matchCount}</td>
+                  <td className="py-2 text-stone-700">{job.match_count}</td>
                   <td className="py-2">
                     <span className={`text-xs font-medium ${
                       job.status === "completed" ? "text-green-700" :

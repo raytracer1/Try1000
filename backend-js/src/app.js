@@ -108,7 +108,19 @@ const handlers = {
   async simList(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const jobs = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.userId, uid)).orderBy(desc(schema.simulationJobs.id)).limit(20);
-    ctx.respond(200, jobs.map((j) => ({ id: j.id, match_count: j.matchCount, status: j.status, progress: j.progress, created_at: j.createdAt })));
+    // Attach result summaries for completed jobs
+    const enriched = [];
+    for (const j of jobs) {
+      const entry = { id: j.id, match_count: j.matchCount, status: j.status, progress: j.progress, created_at: j.createdAt };
+      if (j.status === "completed") {
+        const results = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, j.id));
+        entry.home_wins = results.filter((r) => r.homeScore > r.awayScore).length;
+        entry.draws = results.filter((r) => r.homeScore === r.awayScore).length;
+        entry.away_wins = results.filter((r) => r.awayScore > r.homeScore).length;
+      }
+      enriched.push(entry);
+    }
+    ctx.respond(200, enriched);
   },
   async simGet(ctx) {
     const uid = auth(ctx); if (!uid) return;

@@ -7,6 +7,7 @@ import { useAuthStore } from "../../stores/authStore";
 const NAV = [
   { href: "/dashboard", label: "Dashboard" },
   { href: "/simulation", label: "Simulation" },
+  { href: "/history", label: "History" },
 ];
 
 export function Sidebar() {
