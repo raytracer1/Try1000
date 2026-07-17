@@ -66,8 +66,13 @@ export default function SimulationPage() {
     const resp = await fetch(`/data/teams/${t.file}`);
     const data = await resp.json();
     data.logo = data.logo || "";
-    if (side === "home") { setHome(data); setSearchH(t.name); }
-    else { setAway(data); setSearchA(t.name); }
+    if (side === "home") {
+      setHome(data); setSearchH(t.name);
+      if (data.tactical_document) setHomeTacticalDoc(data.tactical_document);
+    } else {
+      setAway(data); setSearchA(t.name);
+      if (data.tactical_document) setAwayTacticalDoc(data.tactical_document);
+    }
   };
 
   const TeamOption = ({ t, side, logoUrl }: { t: any; side: "home" | "away"; logoUrl?: string }) => {

@@ -157,6 +157,12 @@ def convert_team(yaml_path: Path, existing: dict) -> dict | None:
     name = data.get("name", "")
     logo = ""
     existing_players = []
+    tactical_document = ""
+
+    # Load tactical document from tactices/ directory
+    tactic_path = ROOT / "AgentPitch" / "fifa2026" / "tactices" / f"{yaml_path.stem}.md"
+    if tactic_path.exists():
+        tactical_document = tactic_path.read_text(encoding="utf-8").strip()
 
     if name.lower() in existing:
         logo = existing[name.lower()].get("logo", "")
@@ -184,6 +190,7 @@ def convert_team(yaml_path: Path, existing: dict) -> dict | None:
         "type": "nation",
         "logo": logo,
         "players": players,
+        "tactical_document": tactical_document,
     }
 
 
