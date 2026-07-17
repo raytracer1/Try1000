@@ -141,38 +141,68 @@ export default function SimulationPage() {
         {/* Home Team */}
         <div className="bg-white border border-stone-200 rounded-lg p-4">
           <label className="text-base font-semibold text-stone-700 block mb-2">Home Team</label>
-          <div className="flex gap-2 mb-2">
-            <select className="text-sm bg-stone-50 border rounded px-2 py-1" value={filterH} onChange={(e) => { setFilterH(e.target.value as any); setHome(null); setSearchH(""); }}>
-              <option value="club">Clubs</option>
-              <option value="nation">Nations</option>
-            </select>
-            <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-3 py-1.5 text-sm" placeholder="Search..."
-              value={searchH} onChange={(e) => { setSearchH(e.target.value); setHome(null); }} />
-          </div>
-          <div className="max-h-96 overflow-y-auto mb-2 border rounded">
-            {(filterH === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchH.toLowerCase())).map((t: any) => (
-              <TeamOption key={t.file} t={t} side="home" logoUrl={t.logo} />
-            ))}
-          </div>
+          {home ? (
+            <div className="flex items-center gap-3 mb-2">
+              {home.logo ? (
+                home.logo.startsWith("http") ? <img src={home.logo} alt="" referrerPolicy="no-referrer" className="w-12 h-12 object-contain" /> : <span className="text-2xl">{home.logo}</span>
+              ) : <div className="w-12 h-12 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-lg">{home.name.charAt(0)}</div>}
+              <div>
+                <span className="font-semibold text-stone-800 text-base">{home.name}</span>
+                <div className="text-xs text-stone-400">{home.players?.length || 0} players</div>
+              </div>
+              <button onClick={() => { setHome(null); setSearchH(""); }} className="text-xs text-stone-400 hover:text-red-500 ml-auto">Change</button>
+            </div>
+          ) : (
+            <>
+              <div className="flex gap-2 mb-2">
+                <select className="text-sm bg-stone-50 border rounded px-2 py-1" value={filterH} onChange={(e) => { setFilterH(e.target.value as any); setHome(null); setSearchH(""); }}>
+                  <option value="club">Clubs</option>
+                  <option value="nation">Nations</option>
+                </select>
+                <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-3 py-1.5 text-sm" placeholder="Search..."
+                  value={searchH} onChange={(e) => { setSearchH(e.target.value); setHome(null); }} />
+              </div>
+              <div className="max-h-96 overflow-y-auto mb-2 border rounded">
+                {(filterH === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchH.toLowerCase())).map((t: any) => (
+                  <TeamOption key={t.file} t={t} side="home" logoUrl={t.logo} />
+                ))}
+              </div>
+            </>
+          )}
           <PlayerList data={home} />
         </div>
 
         {/* Away Team */}
         <div className="bg-white border border-stone-200 rounded-lg p-4">
           <label className="text-base font-semibold text-stone-700 block mb-2">Away Team</label>
-          <div className="flex gap-2 mb-2">
-            <select className="text-sm bg-stone-50 border rounded px-2 py-1" value={filterA} onChange={(e) => { setFilterA(e.target.value as any); setAway(null); setSearchA(""); }}>
-              <option value="club">Clubs</option>
-              <option value="nation">Nations</option>
-            </select>
-            <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-3 py-1.5 text-sm" placeholder="Search..."
-              value={searchA} onChange={(e) => { setSearchA(e.target.value); setAway(null); }} />
-          </div>
-          <div className="max-h-96 overflow-y-auto mb-2 border rounded">
-            {(filterA === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchA.toLowerCase())).map((t: any) => (
-              <TeamOption key={t.file} t={t} side="away" logoUrl={t.logo} />
-            ))}
-          </div>
+          {away ? (
+            <div className="flex items-center gap-3 mb-2">
+              {away.logo ? (
+                away.logo.startsWith("http") ? <img src={away.logo} alt="" referrerPolicy="no-referrer" className="w-12 h-12 object-contain" /> : <span className="text-2xl">{away.logo}</span>
+              ) : <div className="w-12 h-12 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-lg">{away.name.charAt(0)}</div>}
+              <div>
+                <span className="font-semibold text-stone-800 text-base">{away.name}</span>
+                <div className="text-xs text-stone-400">{away.players?.length || 0} players</div>
+              </div>
+              <button onClick={() => { setAway(null); setSearchA(""); }} className="text-xs text-stone-400 hover:text-red-500 ml-auto">Change</button>
+            </div>
+          ) : (
+            <>
+              <div className="flex gap-2 mb-2">
+                <select className="text-sm bg-stone-50 border rounded px-2 py-1" value={filterA} onChange={(e) => { setFilterA(e.target.value as any); setAway(null); setSearchA(""); }}>
+                  <option value="club">Clubs</option>
+                  <option value="nation">Nations</option>
+                </select>
+                <input className="flex-1 bg-stone-50 border border-stone-200 rounded px-3 py-1.5 text-sm" placeholder="Search..."
+                  value={searchA} onChange={(e) => { setSearchA(e.target.value); setAway(null); }} />
+              </div>
+              <div className="max-h-96 overflow-y-auto mb-2 border rounded">
+                {(filterA === "club" ? clubs : nations).filter(t => t.name.toLowerCase().includes(searchA.toLowerCase())).map((t: any) => (
+                  <TeamOption key={t.file} t={t} side="away" logoUrl={t.logo} />
+                ))}
+              </div>
+            </>
+          )}
           <PlayerList data={away} />
         </div>
       </div>
