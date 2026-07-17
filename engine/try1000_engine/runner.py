@@ -161,10 +161,12 @@ class EngineRunner:
         )
 
         if tactical_doc.strip() and has_llm:
+            logger.info(f"Using LLM to generate strategies for {team_name} ({len(tactical_doc)} chars tactical doc)")
             try:
                 if os.environ.get("DASHSCOPE_API_KEY"):
                     api_key = os.environ["DASHSCOPE_API_KEY"]
-                    model = os.environ.get("LLM_MODEL", "qwen3.7-plus")
+                    model = os.environ.get("LLM_MODEL", "qwen-plus")
+                    from try1000_engine.ai.llm_generator import DashScopeClient
                     client = DashScopeClient(api_key=api_key, model=model)
                 elif os.environ.get("ANTHROPIC_API_KEY"):
                     api_key = os.environ["ANTHROPIC_API_KEY"]
@@ -176,28 +178,19 @@ class EngineRunner:
                     client = OpenAICompatibleClient(api_key=api_key, model=model)
 
                 gen = CodeGenerator(client)
-                # Build tactic dict for the LLM prompt
                 llm_tactic = {
                     "formation": tactic.get("formation", "4-3-3"),
                     "tactical_document": tactical_doc,
                 }
-                codes = gen.generate_team(llm_tactic, team_name)
+                code = gen.generate_team(llm_tactic, team_name)
+                # Single code covers all roles — AgentPitch-style
                 policies = {}
-                unique_to_all = {
-                    "GK": ["GK"], "CB": ["CB", "LCB", "RCB"],
-                    "LB": ["LB", "LWB", "RB", "RWB"],
-                    "CDM": ["CDM"], "CM": ["CM", "CAM"],
-                    "LW": ["LW", "LM", "RW", "RM"],
-                    "ST": ["ST", "CF"],
-                }
-                for unique_role, roles in unique_to_all.items():
-                    code = codes.get(unique_role)
-                    if code:
-                        for r in roles:
-                            policies[r] = GeneratedPolicy(code=code, role=r, tactic=llm_tactic)
-                logger.info(f"LLM generated {len(policies)} role policies for {team_name}")
-                if policies:
-                    return policies
+                all_roles = ["GK", "CB", "LCB", "RCB", "LB", "LWB", "RB", "RWB",
+                             "CDM", "CM", "CAM", "LM", "RM", "LW", "RW", "ST", "CF"]
+                for role in all_roles:
+                    policies[role] = GeneratedPolicy(code=code, role=role, tactic=llm_tactic)
+                logger.info(f"LLM generated team strategy for {team_name} ({len(code)} chars)")
+                return policies
             except Exception as e:
                 logger.warning(f"LLM generation failed for {team_name}: {e} — falling back to rule-based")
 

@@ -159,10 +159,21 @@ def convert_team(yaml_path: Path, existing: dict) -> dict | None:
     existing_players = []
     tactical_document = ""
 
-    # Load tactical document from tactices/ directory
+    # Load tactical document from tactices/ directory — extract only decide() priorities
     tactic_path = ROOT / "AgentPitch" / "fifa2026" / "tactices" / f"{yaml_path.stem}.md"
     if tactic_path.exists():
-        tactical_document = tactic_path.read_text(encoding="utf-8").strip()
+        full = tactic_path.read_text(encoding="utf-8").strip()
+        # Extract only the "decide() Decision Priorities" section
+        marker = "## decide() Decision Priorities"
+        if marker in full:
+            section = full.split(marker, 1)[1]
+            # Stop at the next ## heading
+            next_heading = section.find("\n## ")
+            if next_heading > 0:
+                section = section[:next_heading]
+            tactical_document = section.strip()
+        else:
+            tactical_document = full[:3000]  # fallback: first 3000 chars
 
     if name.lower() in existing:
         logo = existing[name.lower()].get("logo", "")
