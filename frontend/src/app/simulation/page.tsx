@@ -5,7 +5,7 @@ import { useSimulationStore } from "../../stores/simulationStore";
 import { Pitch } from "../../components/pitch/Pitch";
 
 export default function SimulationPage() {
-  const { activeJob, isRunning, results, startSimulation, cancelPolling } = useSimulationStore();
+  const { activeJob, isRunning, startSimulation, cancelPolling } = useSimulationStore();
   const [clubs, setClubs] = useState<any[]>([]);
   const [nations, setNations] = useState<any[]>([]);
   const [searchH, setSearchH] = useState("");
@@ -262,24 +262,6 @@ export default function SimulationPage() {
         </div>
       )}
 
-      {results.length > 0 && (
-        <div className="bg-white border border-stone-200 rounded-lg p-4">
-          <h2 className="text-lg font-bold mb-3 text-stone-800">Results</h2>
-          <div className="grid grid-cols-4 gap-3 mb-4">
-            {[
-              { label: "Home Wins", value: results.filter((r: any) => r.homeScore > r.awayScore).length },
-              { label: "Draws", value: results.filter((r: any) => r.homeScore === r.awayScore).length },
-              { label: "Away Wins", value: results.filter((r: any) => r.awayScore > r.homeScore).length },
-              { label: "Total", value: results.length },
-            ].map((s) => (
-              <div key={s.label} className="bg-stone-50 rounded p-3 text-center">
-                <div className="text-xs text-stone-400">{s.label}</div>
-                <div className="text-xl font-bold text-stone-800">{s.value}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 }
