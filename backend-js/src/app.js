@@ -107,7 +107,7 @@ const handlers = {
   },
   async simList(ctx) {
     const uid = auth(ctx); if (!uid) return;
-    const jobs = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.userId, uid)).orderBy(desc(schema.simulationJobs.id)).limit(20);
+    const jobs = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.userId, uid)).orderBy(desc(schema.simulationJobs.createdAt)).limit(20);
     // Attach result summaries for completed jobs
     const enriched = [];
     for (const j of jobs) {
@@ -211,7 +211,7 @@ const handlers = {
 
   // Engine endpoints — called by engine runner
   async engineJobsPending(ctx) {
-    const jobs = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.status, "pending")).orderBy(schema.simulationJobs.id).limit(5);
+    const jobs = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.status, "pending")).orderBy(schema.simulationJobs.createdAt).limit(5);
     // Update status so another runner doesn't pick them up
     for (const j of jobs) {
       await ctx.db.update(schema.simulationJobs).set({ status: "running" }).where(eq(schema.simulationJobs.id, j.id));
