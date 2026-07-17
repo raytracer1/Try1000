@@ -155,6 +155,10 @@ export default function ReplayPage() {
       {/* Pitch */}
       <div className="relative w-full bg-stone-100 rounded-lg overflow-hidden mb-4" style={{ paddingBottom: "62%" }}>
         <svg viewBox="0 0 100 65" className="absolute inset-0 w-full h-full" style={{ background: "#2d8a3e" }}>
+          {/* Pitch stripes — 16 equal alternating light/dark columns */}
+          {Array.from({ length: 10 }, (_, i) => (
+            <rect key={i} x={i * 10} y={0} width={10} height={65} fill={i % 2 === 0 ? "#2e9641" : "#2a8639"} opacity="0.6" />
+          ))}
           {/* Field markings */}
           <rect x="1" y="1" width="98" height="63" fill="none" stroke="white" strokeWidth="0.25" opacity="0.7" />
           <line x1="50" y1="1" x2="50" y2="64" stroke="white" strokeWidth="0.25" opacity="0.4" />

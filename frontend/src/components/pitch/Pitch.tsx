@@ -170,6 +170,10 @@ export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, 
       <div ref={pitchRef} className="relative w-full bg-stone-100 rounded-lg overflow-hidden" style={{ paddingBottom: "62%" }}>
         <svg ref={svgRef} viewBox="0 0 100 65" className="absolute inset-0 w-full h-full" style={{ background: "#2d8a3e" }}
           onMouseMove={onMove} onMouseUp={onUp} onMouseLeave={onUp}>
+          {/* Pitch stripes — 16 equal alternating light/dark columns */}
+          {Array.from({ length: 10 }, (_, i) => (
+            <rect key={i} x={i * 10} y={0} width={10} height={65} fill={i % 2 === 0 ? "#2e9641" : "#2a8639"} opacity="0.6" />
+          ))}
           <rect x="1" y="1" width="98" height="63" fill="none" stroke="white" strokeWidth="0.25" opacity="0.7" />
           <line x1="50" y1="1" x2="50" y2="64" stroke="white" strokeWidth="0.25" opacity="0.4" />
           <circle cx="50" cy="32" r="6" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
