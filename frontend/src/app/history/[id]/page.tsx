@@ -13,14 +13,19 @@ export default function HistoryDetailPage() {
 
   useEffect(() => {
     if (id) {
-      loadJob(+id).finally(() => setLoading(false));
+      setLoading(true);
+      const minWait = new Promise((r) => setTimeout(r, 400));
+      Promise.all([loadJob(+id), minWait]).finally(() => setLoading(false));
     }
   }, [id]);
 
   if (loading) {
     return (
       <div className="max-w-5xl mx-auto">
-        <div className="text-sm text-stone-400 py-20 text-center">Loading...</div>
+        <div className="flex flex-col items-center justify-center py-20 gap-4">
+          <div className="w-8 h-8 border-2 border-stone-200 border-t-green-700 rounded-full animate-spin" />
+          <div className="text-sm text-stone-400">Loading simulation...</div>
+        </div>
       </div>
     );
   }

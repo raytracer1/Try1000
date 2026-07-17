@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useSimulationStore } from "../../stores/simulationStore";
 
@@ -11,10 +11,20 @@ function formatDate(ts: string) {
     + " " + d.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" });
 }
 
+function Spinner() {
+  return (
+    <div className="flex flex-col items-center justify-center py-20 gap-4">
+      <div className="w-8 h-8 border-2 border-stone-200 border-t-green-700 rounded-full animate-spin" />
+      <div className="text-sm text-stone-400">Loading history...</div>
+    </div>
+  );
+}
+
 export default function HistoryPage() {
   const { jobs, loadJobs } = useSimulationStore();
+  const [loading, setLoading] = useState(true);
 
-  useEffect(() => { loadJobs(); }, []);
+  useEffect(() => { loadJobs().finally(() => setLoading(false)); }, []);
 
   return (
     <div className="max-w-5xl mx-auto">
@@ -46,7 +56,9 @@ export default function HistoryPage() {
       {/* History table */}
       <div className="bg-white border border-stone-200 rounded-lg">
         <h2 className="text-lg font-bold p-5 pb-3 text-stone-800">Simulation History</h2>
-        {!jobs || jobs.length === 0 ? (
+        {loading ? (
+          <Spinner />
+        ) : !jobs || jobs.length === 0 ? (
           <p className="text-sm text-stone-400 py-10 text-center">
             No simulations yet.{" "}
             <Link href="/simulation" className="text-green-700 font-medium hover:underline">Run your first →</Link>
