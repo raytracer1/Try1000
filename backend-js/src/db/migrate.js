@@ -18,7 +18,7 @@ async function createTables() {
         created_at TIMESTAMP DEFAULT NOW()
       );
       CREATE TABLE IF NOT EXISTS simulation_jobs (
-        id SERIAL PRIMARY KEY,
+        id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
         user_id INTEGER NOT NULL REFERENCES users(id),
         home_players JSONB NOT NULL DEFAULT '[]',
         away_players JSONB NOT NULL DEFAULT '[]',
@@ -34,7 +34,7 @@ async function createTables() {
       );
       CREATE TABLE IF NOT EXISTS simulation_results (
         id SERIAL PRIMARY KEY,
-        job_id INTEGER NOT NULL REFERENCES simulation_jobs(id),
+        job_id UUID NOT NULL REFERENCES simulation_jobs(id),
         match_index INTEGER NOT NULL,
         home_score INTEGER DEFAULT 0,
         away_score INTEGER DEFAULT 0,
@@ -51,7 +51,7 @@ async function createTables() {
         user_id INTEGER NOT NULL REFERENCES users(id),
         task_type VARCHAR(30) NOT NULL,
         tactic_id INTEGER,
-        job_id INTEGER,
+        job_id UUID,
         result JSONB NOT NULL,
         created_at TIMESTAMP DEFAULT NOW()
       );

@@ -1,4 +1,4 @@
-const { pgTable, serial, varchar, integer, doublePrecision, timestamp, json } = require("drizzle-orm/pg-core");
+const { pgTable, serial, uuid, varchar, integer, doublePrecision, timestamp, json } = require("drizzle-orm/pg-core");
 
 const users = pgTable("users", {
   id: serial("id").primaryKey(),
@@ -13,7 +13,7 @@ const users = pgTable("users", {
 });
 
 const simulationJobs = pgTable("simulation_jobs", {
-  id: serial("id").primaryKey(),
+  id: uuid("id").defaultRandom().primaryKey(),
   userId: integer("user_id").notNull().references(() => users.id),
   homePlayers: json("home_players").notNull().default([]),
   awayPlayers: json("away_players").notNull().default([]),
@@ -30,7 +30,7 @@ const simulationJobs = pgTable("simulation_jobs", {
 
 const simulationResults = pgTable("simulation_results", {
   id: serial("id").primaryKey(),
-  jobId: integer("job_id").notNull().references(() => simulationJobs.id),
+  jobId: uuid("job_id").notNull().references(() => simulationJobs.id),
   matchIndex: integer("match_index").notNull(),
   homeScore: integer("home_score").default(0),
   awayScore: integer("away_score").default(0),
@@ -48,7 +48,7 @@ const agentResults = pgTable("agent_results", {
   userId: integer("user_id").notNull().references(() => users.id),
   taskType: varchar("task_type", { length: 30 }).notNull(),
   tacticId: integer("tactic_id"),
-  jobId: integer("job_id"),
+  jobId: uuid("job_id"),
   result: json("result").notNull(),
   createdAt: timestamp("created_at").defaultNow(),
 });

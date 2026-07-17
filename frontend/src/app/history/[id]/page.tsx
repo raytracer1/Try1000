@@ -7,7 +7,7 @@ import { useSimulationStore } from "../../../stores/simulationStore";
 
 async function loadReplayTicks(id: string, matchIndex: number): Promise<any[]> {
   const { api } = await import("../../../lib/api");
-  const data = await api.getReplay(+id, matchIndex);
+  const data = await api.getReplay(id, matchIndex);
   if (!data.signed_url) throw new Error("No signed URL");
   const res = await fetch(data.signed_url);
   const blob = await res.blob();
@@ -27,7 +27,7 @@ export default function HistoryDetailPage() {
     if (id) {
       setLoading(true);
       const minWait = new Promise((r) => setTimeout(r, 400));
-      Promise.all([loadJob(+id), minWait]).finally(() => setLoading(false));
+      Promise.all([loadJob(id), minWait]).finally(() => setLoading(false));
     }
   }, [id]);
 

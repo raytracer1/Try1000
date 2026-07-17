@@ -32,7 +32,7 @@ class EngineRunner:
         self.ably_key = ably_key
         self._running = False
         self._executor = ThreadPoolExecutor(max_workers=max_workers)
-        self._active_jobs: set[int] = set()
+        self._active_jobs: set[str] = set()
         self._lock = threading.Lock()
 
     def run(self, poll_interval: int = 5):

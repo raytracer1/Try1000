@@ -124,7 +124,7 @@ const handlers = {
   },
   async simGet(ctx) {
     const uid = auth(ctx); if (!uid) return;
-    const [job] = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.id, +ctx.params.id));
+    const [job] = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.id, ctx.params.id));
     if (!job) return ctx.respond(404, {});
     ctx.respond(200, {
       id: job.id, match_count: job.matchCount, status: job.status, progress: job.progress,
@@ -135,7 +135,7 @@ const handlers = {
   },
   async simReplay(ctx) {
     const uid = auth(ctx); if (!uid) return;
-    const results = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, +ctx.params.id));
+    const results = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, ctx.params.id));
     const r = results.find((r) => r.matchIndex === +ctx.params.idx);
     if (!r || !r.replayPath) return ctx.respond(404, { detail: "Replay not found" });
 
@@ -196,10 +196,10 @@ const handlers = {
   // Analytics
   async analytics(ctx) {
     const uid = auth(ctx); if (!uid) return;
-    const results = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, +ctx.params.jobId));
+    const results = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, ctx.params.jobId));
     if (!results.length) return ctx.respond(200, { match_count: 0 });
     const n = results.length, s = (fn) => results.reduce((a, r) => a + fn(r), 0);
-    ctx.respond(200, { job_id: +ctx.params.jobId, match_count: n, home_win_rate: Math.round(s(r => r.homeScore > r.awayScore ? 1 : 0) / n * 1000) / 1000, avg_home_goals: Math.round(s(r => r.homeScore) / n * 100) / 100, avg_home_xg: Math.round(s(r => r.homeXg) / n * 10000) / 10000, avg_home_possession: Math.round(s(r => r.homePossession) / n * 10) / 10 });
+    ctx.respond(200, { job_id: ctx.params.jobId, match_count: n, home_win_rate: Math.round(s(r => r.homeScore > r.awayScore ? 1 : 0) / n * 1000) / 1000, avg_home_goals: Math.round(s(r => r.homeScore) / n * 100) / 100, avg_home_xg: Math.round(s(r => r.homeXg) / n * 10000) / 10000, avg_home_possession: Math.round(s(r => r.homePossession) / n * 10) / 10 });
   },
 
   // Agent (stubs)
@@ -230,7 +230,7 @@ const handlers = {
   async engineJobResult(ctx) {
     const b = ctx.parseBody();
     await ctx.db.insert(schema.simulationResults).values({
-      jobId: +ctx.params.id,
+      jobId: ctx.params.id,
       matchIndex: b.match_index,
       homeScore: b.home_score, awayScore: b.away_score,
       homeXg: b.home_xg, awayXg: b.away_xg,
@@ -238,7 +238,7 @@ const handlers = {
       stats: b.stats || {}, replayPath: b.replay_path || null,
     });
     // Update progress
-    const [job] = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.id, +ctx.params.id));
+    const [job] = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.id, ctx.params.id));
     if (job) {
       const done = (await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, job.id))).length;
       await ctx.db.update(schema.simulationJobs).set({ progress: Math.round((done / job.matchCount) * 100) }).where(eq(schema.simulationJobs.id, job.id));
@@ -246,7 +246,7 @@ const handlers = {
     ctx.respond(200, { ok: true });
   },
   async engineJobComplete(ctx) {
-    await ctx.db.update(schema.simulationJobs).set({ status: "completed", progress: 100, completedAt: new Date() }).where(eq(schema.simulationJobs.id, +ctx.params.id));
+    await ctx.db.update(schema.simulationJobs).set({ status: "completed", progress: 100, completedAt: new Date() }).where(eq(schema.simulationJobs.id, ctx.params.id));
     ctx.respond(200, { ok: true });
   },
 

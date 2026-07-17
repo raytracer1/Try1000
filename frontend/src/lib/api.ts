@@ -29,10 +29,10 @@ export const api = {
 
   // Simulation
   simulate: (data: any) =>
-    request<{ job_id: number }>("/simulate", { method: "POST", body: JSON.stringify(data) }),
+    request<{ job_id: string }>("/simulate", { method: "POST", body: JSON.stringify(data) }),
   getJobs: () => request<any[]>("/simulation/jobs"),
-  getJob: (id: number) => request<any>(`/simulation/jobs/${id}`),
-  getReplay: (jobId: number, matchIndex: number) =>
+  getJob: (id: string) => request<any>(`/simulation/jobs/${id}`),
+  getReplay: (jobId: string, matchIndex: number) =>
     request<any>(`/simulation/jobs/${jobId}/replay/${matchIndex}`),
 
   // Analytics
