@@ -111,7 +111,7 @@ const handlers = {
     // Attach result summaries for completed jobs
     const enriched = [];
     for (const j of jobs) {
-      const entry = { id: j.id, match_count: j.matchCount, status: j.status, progress: j.progress, created_at: j.createdAt };
+      const entry = { id: j.id, match_count: j.matchCount, status: j.status, progress: j.progress, created_at: j.createdAt, home_team_name: j.homeTactic?.team_name || "", away_team_name: j.awayTactic?.team_name || "" };
       if (j.status === "completed") {
         const results = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, j.id));
         entry.home_wins = results.filter((r) => r.homeScore > r.awayScore).length;
@@ -129,6 +129,7 @@ const handlers = {
     ctx.respond(200, {
       id: job.id, match_count: job.matchCount, status: job.status, progress: job.progress,
       created_at: job.createdAt, completed_at: job.completedAt,
+      home_tactic: job.homeTactic, away_tactic: job.awayTactic,
       results: await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, job.id)),
     });
   },

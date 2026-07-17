@@ -56,6 +56,7 @@ export default function HistoryPage() {
             <thead>
               <tr className="text-stone-400 border-b border-stone-100">
                 <th className="text-left py-2 px-5 font-medium">Date</th>
+                <th className="text-left py-2 font-medium">Teams</th>
                 <th className="text-left py-2 font-medium">Matches</th>
                 <th className="text-left py-2 font-medium">Status</th>
                 <th className="text-left py-2 font-medium">Result</th>
@@ -66,6 +67,9 @@ export default function HistoryPage() {
               {(Array.isArray(jobs) ? jobs : []).map((job: any) => (
                 <tr key={job.id} className="border-b border-stone-50 hover:bg-stone-50">
                   <td className="py-2.5 px-5 text-stone-500 text-xs whitespace-nowrap">{formatDate(job.created_at)}</td>
+                  <td className="py-2.5 text-stone-700 text-xs whitespace-nowrap">
+                    {job.home_team_name || "Home"} <span className="text-stone-300">vs</span> {job.away_team_name || "Away"}
+                  </td>
                   <td className="py-2.5 text-stone-700 font-medium">{job.match_count}</td>
                   <td className="py-2.5">
                     <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${

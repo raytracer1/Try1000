@@ -37,6 +37,8 @@ export default function HistoryDetailPage() {
   }
 
   const matchResults = Array.isArray(results) ? results : [];
+  const homeName = activeJob.home_tactic?.team_name || "Home";
+  const awayName = activeJob.away_tactic?.team_name || "Away";
 
   return (
     <div className="max-w-5xl mx-auto">
@@ -45,7 +47,7 @@ export default function HistoryDetailPage() {
         <div>
           <button onClick={() => router.back()}
             className="text-sm text-stone-400 hover:text-stone-700 mb-1">← Back</button>
-          <h1 className="text-2xl font-bold text-stone-800">Simulation #{id}</h1>
+          <h1 className="text-2xl font-bold text-stone-800">{homeName} vs {awayName}</h1>
         </div>
         <span className={`text-xs font-medium px-3 py-1 rounded-full ${
           activeJob.status === "completed" ? "bg-green-100 text-green-700" :
@@ -63,7 +65,7 @@ export default function HistoryDetailPage() {
           <div className="text-2xl font-bold text-stone-800">{activeJob.match_count}</div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-xs text-stone-400 mb-1">Home Wins</div>
+          <div className="text-xs text-stone-400 mb-1 truncate">{homeName}</div>
           <div className="text-2xl font-bold text-green-700">
             {matchResults.filter((r: any) => r.homeScore > r.awayScore).length}
           </div>
@@ -75,7 +77,7 @@ export default function HistoryDetailPage() {
           </div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-xs text-stone-400 mb-1">Away Wins</div>
+          <div className="text-xs text-stone-400 mb-1 truncate">{awayName}</div>
           <div className="text-2xl font-bold text-red-600">
             {matchResults.filter((r: any) => r.awayScore > r.homeScore).length}
           </div>
@@ -86,9 +88,9 @@ export default function HistoryDetailPage() {
       {matchResults.length > 0 && (
         <div className="grid grid-cols-3 gap-3 mb-6">
           {[
-            { label: "Avg Home Goals", value: (matchResults.reduce((a: number, r: any) => a + r.homeScore, 0) / matchResults.length).toFixed(1) },
-            { label: "Avg Away Goals", value: (matchResults.reduce((a: number, r: any) => a + r.awayScore, 0) / matchResults.length).toFixed(1) },
-            { label: "Avg Home Possession", value: (matchResults.reduce((a: number, r: any) => a + (r.homePossession || 50), 0) / matchResults.length).toFixed(0) + "%" },
+            { label: `Avg ${homeName} Goals`, value: (matchResults.reduce((a: number, r: any) => a + r.homeScore, 0) / matchResults.length).toFixed(1) },
+            { label: `Avg ${awayName} Goals`, value: (matchResults.reduce((a: number, r: any) => a + r.awayScore, 0) / matchResults.length).toFixed(1) },
+            { label: `Avg ${homeName} Possession`, value: (matchResults.reduce((a: number, r: any) => a + (r.homePossession || 50), 0) / matchResults.length).toFixed(0) + "%" },
           ].map((s) => (
             <div key={s.label} className="bg-white border border-stone-200 rounded-lg p-3 text-center">
               <div className="text-xs text-stone-400">{s.label}</div>
@@ -116,9 +118,8 @@ export default function HistoryDetailPage() {
               <thead>
                 <tr className="text-stone-400 border-b border-stone-100">
                   <th className="text-left py-2 px-5 font-medium w-10">#</th>
-                  <th className="text-center py-2 font-medium">Home</th>
-                  <th className="text-center py-2 font-medium w-16">Score</th>
-                  <th className="text-center py-2 font-medium">Away</th>
+                  <th className="text-center py-2 font-medium">{homeName}</th>
+                  <th className="text-center py-2 font-medium">{awayName}</th>
                   <th className="text-center py-2 font-medium">xG</th>
                   <th className="text-center py-2 font-medium">Possession</th>
                   <th className="text-right py-2 px-5 font-medium"></th>
@@ -134,7 +135,6 @@ export default function HistoryDetailPage() {
                       <td className={`py-2 text-center font-semibold ${isHomeWin ? "text-green-700" : "text-stone-700"}`}>
                         {r.homeScore}
                       </td>
-                      <td className="py-2 text-center text-stone-300">—</td>
                       <td className={`py-2 text-center font-semibold ${isAwayWin ? "text-red-600" : "text-stone-700"}`}>
                         {r.awayScore}
                       </td>

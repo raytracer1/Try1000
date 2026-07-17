@@ -98,10 +98,12 @@ export default function SimulationPage() {
           name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes,
         })),
         home_tactic: {
+          team_name: home.name,
           formation: homeFormation,
           tactical_document: homeTacticalDoc,
         },
         away_tactic: {
+          team_name: away.name,
           formation: awayFormation,
           tactical_document: awayTacticalDoc,
         },
