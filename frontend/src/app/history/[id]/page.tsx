@@ -5,18 +5,6 @@ import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { useSimulationStore } from "../../../stores/simulationStore";
 
-async function loadReplayTicks(id: string, matchIndex: number): Promise<any[]> {
-  const { api } = await import("../../../lib/api");
-  const data = await api.getReplay(id, matchIndex);
-  if (!data.signed_url) throw new Error("No signed URL");
-  const res = await fetch(data.signed_url);
-  const blob = await res.blob();
-  // Decompress gzip and parse JSONL
-  const ds = new DecompressionStream("gzip");
-  const decompressed = await new Response(blob.stream().pipeThrough(ds)).text();
-  return decompressed.trim().split("\n").filter(Boolean).map((line) => JSON.parse(line));
-}
-
 export default function HistoryDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
@@ -163,19 +151,10 @@ export default function HistoryDetailPage() {
                       </td>
                       <td className="py-2 px-5 text-right">
                         {r.replayPath && (
-                          <button
-                            onClick={async () => {
-                              try {
-                                const ticks = await loadReplayTicks(id, i);
-                                alert(`Loaded ${ticks.length} ticks — replay viewer coming soon`);
-                              } catch {
-                                alert("Failed to load replay");
-                              }
-                            }}
-                            className="text-xs text-green-700 font-medium hover:underline"
-                          >
+                          <Link href={`/history/${id}/replay/${i}`}
+                            className="text-xs text-green-700 font-medium hover:underline">
                             Replay
-                          </button>
+                          </Link>
                         )}
                       </td>
                     </tr>
