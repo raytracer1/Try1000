@@ -18,6 +18,9 @@ import argparse
 import threading
 from concurrent.futures import ThreadPoolExecutor
 
+from dotenv import load_dotenv
+load_dotenv()
+
 logger = logging.getLogger(__name__)
 
 
@@ -53,36 +56,58 @@ class EngineRunner:
 
     def _subscribe_ably(self):
         """Subscribe to Ably for real-time task notifications."""
+        import asyncio
+
+        async def listen(runner):
+            try:
+                from ably import AblyRealtime
+                ably = AblyRealtime(runner.ably_key)
+                channel = ably.channels.get("try1000:tasks")
+
+                async def on_message(msg):
+                    logger.info("Ably wakeup received")
+                    runner._fetch_and_dispatch()
+
+                await channel.subscribe(on_message)
+                logger.info("Subscribed to Ably — waiting for tasks...")
+                while runner._running:
+                    await asyncio.sleep(1)
+            except ImportError:
+                logger.error("ably-python not installed. Install with: pip install ably-python")
+            except Exception as e:
+                logger.error(f"Ably error: {e} — falling back to polling")
+
         try:
-            from ably import AblyRest
-            ably = AblyRest(self.ably_key)
-            channel = ably.channels.get("try1000:tasks")
-
-            def on_message(msg):
-                logger.info("Ably wakeup received")
-                self._fetch_and_dispatch()
-
-            channel.subscribe(on_message)
-            logger.info("Subscribed to Ably — waiting for tasks...")
-            while self._running:
-                time.sleep(1)
-        except ImportError:
-            logger.error("ably-python not installed. Install with: pip install ably-python")
-        except Exception as e:
-            logger.error(f"Ably error: {e} — falling back to polling")
+            asyncio.run(listen(self))
+        except RuntimeError:
+            # Already-running event loop — run in a dedicated thread
+            t = threading.Thread(target=lambda: asyncio.run(listen(self)), daemon=True)
+            t.start()
             self._poll_loop()
 
-    def _poll_loop(self, interval: int = 5):
-        """Poll the backend for pending jobs as safety net."""
+    def _poll_loop(self, initial_interval: int = 5, max_interval: int = 1800):
+        """Poll the backend for pending jobs with exponential backoff as safety net.
+        Interval doubles each poll up to max_interval. Resets to initial_interval
+        when a job is found (indicating Ably may have missed something)."""
+        interval = initial_interval
         while self._running:
             try:
-                self._fetch_and_dispatch()
+                found = self._fetch_and_dispatch()
+                if found:
+                    logger.info(f"Poll found {found} job(s) — resetting interval to {initial_interval}s")
+                    interval = initial_interval
+                else:
+                    old = interval
+                    interval = min(interval * 2, max_interval)
+                    if old != interval:
+                        logger.info(f"Poll backoff: {old}s → {interval}s")
             except Exception as e:
                 logger.warning(f"Poll error: {e}")
             time.sleep(interval)
 
     def _fetch_and_dispatch(self):
-        """Fetch all pending jobs from backend and dispatch each to a worker."""
+        """Fetch all pending jobs from backend and dispatch each to a worker.
+        Returns the number of jobs found."""
         import httpx
         engine_token = self.ably_key or ""
         headers = {"x-engine-token": engine_token} if engine_token else {}
@@ -92,12 +117,15 @@ class EngineRunner:
                 headers=headers, timeout=10,
             )
             if resp.status_code != 200:
-                return
+                return 0
             data = resp.json()
-            for job in data.get("jobs", []):
+            jobs = data.get("jobs", [])
+            for job in jobs:
                 self._dispatch_job(job)
+            return len(jobs)
         except Exception as e:
             logger.warning(f"Failed to fetch pending jobs: {e}")
+            return 0
 
     def _dispatch_job(self, job: dict):
         """Submit job to thread pool if not already running."""

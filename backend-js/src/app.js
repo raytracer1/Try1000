@@ -92,6 +92,17 @@ const handlers = {
       matchCount: b.match_count,
       status: "pending",
     }).returning();
+    // Notify engine via Ably (non-blocking, best-effort)
+    const ablyKey = config.ablyApiKey;
+    if (ablyKey) {
+      try {
+        const Ably = require("ably");
+        const ably = new Ably.Rest(ablyKey);
+        const channel = ably.channels.get("try1000:tasks");
+        channel.publish("new_job", { job_id: job.id });
+        setTimeout(() => ably.close(), 2000);
+      } catch {}
+    }
     ctx.respond(200, { job_id: job.id });
   },
   async simList(ctx) {
