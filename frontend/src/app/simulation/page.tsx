@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { useSimulationStore } from "../../stores/simulationStore";
-import { api } from "../../lib/api";
 import { Pitch } from "../../components/pitch/Pitch";
 
 export default function SimulationPage() {
@@ -18,6 +17,8 @@ export default function SimulationPage() {
   const [filterA, setFilterA] = useState<"club" | "nation">("club");
   const [importing, setImporting] = useState(false);
   const [error, setError] = useState("");
+  const [homeFormation, setHomeFormation] = useState("4-3-3");
+  const [awayFormation, setAwayFormation] = useState("4-3-3");
   const [homeTacticalDoc, setHomeTacticalDoc] = useState("");
   const [awayTacticalDoc, setAwayTacticalDoc] = useState("");
 
@@ -87,35 +88,26 @@ export default function SimulationPage() {
     setImporting(true);
     setError("");
     try {
-      // Create teams and import players
-      const finalHomeId = await importTeam(home);
-      const finalAwayId = await importTeam(away);
+      // Bundle players, formation, and tactical docs directly into the job
       await startSimulation({
-        home_team_id: finalHomeId, away_team_id: finalAwayId,
         match_count: matchCount,
-        home_tactical_document: homeTacticalDoc,
-        away_tactical_document: awayTacticalDoc,
+        home_players: (home.players || []).map((p: any) => ({
+          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes,
+        })),
+        away_players: (away.players || []).map((p: any) => ({
+          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes,
+        })),
+        home_tactic: {
+          formation: homeFormation,
+          tactical_document: homeTacticalDoc,
+        },
+        away_tactic: {
+          formation: awayFormation,
+          tactical_document: awayTacticalDoc,
+        },
       });
     } catch (e: any) { setError(e.message); }
     setImporting(false);
-  };
-
-  const importTeam = async (data: any): Promise<number> => {
-    // Check if team exists
-    const existingTeams = await api.getTeams();
-    const existing = existingTeams.find((t: any) => t.name === data.name);
-    let teamId = existing?.id;
-    if (!teamId) {
-      const created = await api.createTeam({ name: data.name });
-      teamId = created.id;
-      // Import players
-      for (const p of data.players) {
-        try {
-          await api.addPlayer({ team_id: teamId, name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes });
-        } catch {}
-      }
-    }
-    return teamId;
   };
 
   const PlayerList = ({ data }: { data: any }) => (
@@ -184,7 +176,11 @@ export default function SimulationPage() {
             <span>{home.name} ({home.players?.length}p)</span>
             <span>{away.name} ({away.players?.length}p)</span>
           </div>
-          <Pitch homePlayers={home.players || []} awayPlayers={away.players || []} />
+          <Pitch
+            homePlayers={home.players || []} awayPlayers={away.players || []}
+            homeFormation={homeFormation} awayFormation={awayFormation}
+            onHomeFormationChange={setHomeFormation} onAwayFormationChange={setAwayFormation}
+          />
         </div>
       )}
 
@@ -251,7 +247,7 @@ export default function SimulationPage() {
         ))}
         <button onClick={handleRun} disabled={isRunning || importing}
           className="px-6 py-2 bg-green-700 text-white text-base font-semibold hover:bg-green-800 disabled:opacity-50 ml-auto">
-          {importing ? "Importing..." : isRunning ? "Running..." : "Run"}
+          {importing ? "Starting..." : isRunning ? "Running..." : "Run"}
         </button>
         {isRunning && <button onClick={cancelPolling} className="px-4 py-2 border border-red-300 text-red-600 text-base font-medium hover:bg-red-50">Cancel</button>}
       </div>

@@ -43,7 +43,7 @@ export const useSimulationStore = create<SimState>((set, get) => ({
         set({ isRunning: false });
         return;
       }
-      _pollTimer = setTimeout(() => get().pollJob(jobId), 1500);
+      _pollTimer = setTimeout(() => get().pollJob(jobId), 10000);
     } catch { set({ isRunning: false }); }
   },
 

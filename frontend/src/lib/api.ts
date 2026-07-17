@@ -27,28 +27,6 @@ export const api = {
   saveLLMSettings: (data: { llm_provider: string; llm_api_key: string; llm_model: string }) =>
     request<{ ok: boolean }>("/auth/settings", { method: "PUT", body: JSON.stringify(data) }),
 
-  // Teams
-  getTeams: () => request<any[]>("/teams"),
-  createTeam: (data: { name: string }) =>
-    request<any>("/teams", { method: "POST", body: JSON.stringify(data) }),
-  getTeam: (id: number) => request<any>(`/teams/${id}`),
-  deleteTeam: (id: number) => request<any>(`/teams/${id}`, { method: "DELETE" }),
-  addPlayer: (data: any) =>
-    request<any>("/players", { method: "POST", body: JSON.stringify(data) }),
-  updatePlayer: (id: number, data: any) =>
-    request<any>(`/players/${id}`, { method: "PUT", body: JSON.stringify(data) }),
-  getPlayers: () => request<any[]>("/players"),
-  deletePlayer: (id: number) => request<any>(`/players/${id}`, { method: "DELETE" }),
-
-  // Tactics
-  getTactics: () => request<any[]>("/tactics"),
-  createTactic: (data: any) =>
-    request<any>("/tactics", { method: "POST", body: JSON.stringify(data) }),
-  getTactic: (id: number) => request<any>(`/tactics/${id}`),
-  updateTactic: (id: number, data: any) =>
-    request<any>(`/tactics/${id}`, { method: "PUT", body: JSON.stringify(data) }),
-  deleteTactic: (id: number) => request<any>(`/tactics/${id}`, { method: "DELETE" }),
-
   // Simulation
   simulate: (data: any) =>
     request<{ job_id: number }>("/simulate", { method: "POST", body: JSON.stringify(data) }),

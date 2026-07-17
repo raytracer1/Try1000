@@ -17,52 +17,18 @@ async function createTables() {
         llm_model VARCHAR(100),
         created_at TIMESTAMP DEFAULT NOW()
       );
-      CREATE TABLE IF NOT EXISTS teams (
-        id SERIAL PRIMARY KEY,
-        user_id INTEGER NOT NULL REFERENCES users(id),
-        name VARCHAR(200) NOT NULL,
-        player_ids JSONB NOT NULL DEFAULT '[]',
-        created_at TIMESTAMP DEFAULT NOW()
-      );
-      CREATE TABLE IF NOT EXISTS players (
-        id SERIAL PRIMARY KEY,
-        user_id INTEGER NOT NULL REFERENCES users(id),
-        name VARCHAR(200) NOT NULL,
-        number INTEGER NOT NULL,
-        position VARCHAR(10) NOT NULL,
-        attributes JSONB NOT NULL DEFAULT '{}',
-        created_at TIMESTAMP DEFAULT NOW()
-      );
-      CREATE TABLE IF NOT EXISTS tactics (
-        id SERIAL PRIMARY KEY,
-        user_id INTEGER NOT NULL REFERENCES users(id),
-        team_id INTEGER NOT NULL REFERENCES teams(id),
-        name VARCHAR(200) NOT NULL,
-        formation VARCHAR(10) NOT NULL DEFAULT '4-3-3',
-        player_positions JSONB NOT NULL DEFAULT '{}',
-        pressing_level INTEGER DEFAULT 5,
-        defensive_line INTEGER DEFAULT 5,
-        attacking_width INTEGER DEFAULT 5,
-        tempo INTEGER DEFAULT 5,
-        passing_style VARCHAR(20) DEFAULT 'mixed',
-        build_up_style VARCHAR(20) DEFAULT 'balanced',
-        created_at TIMESTAMP DEFAULT NOW(),
-        updated_at TIMESTAMP DEFAULT NOW()
-      );
       CREATE TABLE IF NOT EXISTS simulation_jobs (
         id SERIAL PRIMARY KEY,
         user_id INTEGER NOT NULL REFERENCES users(id),
-        home_team_id INTEGER NOT NULL REFERENCES teams(id),
-        away_team_id INTEGER NOT NULL REFERENCES teams(id),
-        home_tactic_id INTEGER NOT NULL REFERENCES tactics(id),
-        away_tactic_id INTEGER NOT NULL REFERENCES tactics(id),
+        home_players JSONB NOT NULL DEFAULT '[]',
+        away_players JSONB NOT NULL DEFAULT '[]',
+        home_tactic JSONB NOT NULL DEFAULT '{}',
+        away_tactic JSONB NOT NULL DEFAULT '{}',
         match_count INTEGER NOT NULL DEFAULT 10,
         status VARCHAR(20) DEFAULT 'pending',
         progress INTEGER DEFAULT 0,
         seed_base INTEGER DEFAULT 42,
         engine_version VARCHAR(20) DEFAULT 'rule-based-v1',
-        home_tactical_document TEXT DEFAULT '',
-        away_tactical_document TEXT DEFAULT '',
         created_at TIMESTAMP DEFAULT NOW(),
         completed_at TIMESTAMP
       );
@@ -90,13 +56,6 @@ async function createTables() {
         created_at TIMESTAMP DEFAULT NOW()
       );
     `);
-    // Migration: add tactical document columns if they don't exist
-    try {
-      await client.query(`ALTER TABLE simulation_jobs ADD COLUMN IF NOT EXISTS home_tactical_document TEXT DEFAULT ''`);
-    } catch (e) { /* Column might already exist */ }
-    try {
-      await client.query(`ALTER TABLE simulation_jobs ADD COLUMN IF NOT EXISTS away_tactical_document TEXT DEFAULT ''`);
-    } catch (e) { /* Column might already exist */ }
     console.log("Tables created");
   } finally {
     client.release();

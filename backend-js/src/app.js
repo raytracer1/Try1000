@@ -78,137 +78,36 @@ const handlers = {
     ctx.respond(200, { ok: true });
   },
 
-  // Teams
-  async teamList(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const teams = await ctx.db.select().from(schema.teams).where(eq(schema.teams.userId, uid));
-    for (const t of teams) {
-      const ids = t.playerIds || [];
-      t.players = ids.length ? await ctx.db.select().from(schema.players).where(/* IN */ (() => {
-        const all = ctx.db.select().from(schema.players);
-        return all; // HACK: load all and filter below
-      })()) : [];
-      // Actually load players by IDs properly
-      if (ids.length) {
-        t.players = [];
-        const all = await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid));
-        t.players = all.filter((p) => ids.includes(p.id));
-      } else {
-        t.players = [];
-      }
-    }
-    ctx.respond(200, teams);
-  },
-  async teamCreate(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const [t] = await ctx.db.insert(schema.teams).values({ userId: uid, name: ctx.parseBody().name, playerIds: [] }).returning();
-    ctx.respond(200, { ...t, players: [] });
-  },
-  async teamGet(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const [t] = await ctx.db.select().from(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
-    if (!t) return ctx.respond(404, {});
-    const ids = t.playerIds || [];
-    if (ids.length) {
-      const all = await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid));
-      t.players = all.filter((p) => ids.includes(p.id));
-    } else { t.players = []; }
-    ctx.respond(200, t);
-  },
-  async teamDel(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    await ctx.db.delete(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
-    ctx.respond(200, { ok: true });
-  },
-  // Add/remove player from team
-  async teamAddPlayer(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const [t] = await ctx.db.select().from(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
-    if (!t) return ctx.respond(404, {});
-    const ids = [...(t.playerIds || [])];
-    if (!ids.includes(+ctx.parseBody().player_id)) ids.push(+ctx.parseBody().player_id);
-    await ctx.db.update(schema.teams).set({ playerIds: ids }).where(eq(schema.teams.id, t.id));
-    ctx.respond(200, { ok: true });
-  },
-  async teamRemovePlayer(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const [t] = await ctx.db.select().from(schema.teams).where(and(eq(schema.teams.id, +ctx.params.id), eq(schema.teams.userId, uid)));
-    if (!t) return ctx.respond(404, {});
-    const ids = (t.playerIds || []).filter((id) => id !== +ctx.parseBody().player_id);
-    await ctx.db.update(schema.teams).set({ playerIds: ids }).where(eq(schema.teams.id, t.id));
-    ctx.respond(200, { ok: true });
-  },
-  async playerList(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    ctx.respond(200, await ctx.db.select().from(schema.players).where(eq(schema.players.userId, uid)));
-  },
-  async addPlayer(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const b = ctx.parseBody();
-    const [p] = await ctx.db.insert(schema.players).values({ userId: uid, name: b.name, number: b.number, position: b.position, attributes: b.attributes || {} }).returning();
-    ctx.respond(200, p);
-  },
-  async updatePlayer(ctx) {
-    const b = ctx.parseBody();
-    const set = {};
-    if (b.name) set[schema.players.name] = b.name;
-    if (b.number) set[schema.players.number] = b.number;
-    if (b.position) set[schema.players.position] = b.position;
-    if (b.attributes) set[schema.players.attributes] = b.attributes;
-    const [p] = await ctx.db.update(schema.players).set(set).where(eq(schema.players.id, +ctx.params.id)).returning();
-    ctx.respond(200, p);
-  },
-
-  async delPlayer(ctx) {
-    await ctx.db.delete(schema.players).where(eq(schema.players.id, +ctx.params.id));
-    ctx.respond(200, { ok: true });
-  },
-
-  // Tactics
-  async tacticList(ctx) { const uid = auth(ctx); if (!uid) return; ctx.respond(200, await ctx.db.select().from(schema.tactics).where(eq(schema.tactics.userId, uid))); },
-  async tacticCreate(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const b = ctx.parseBody();
-    const [t] = await ctx.db.insert(schema.tactics).values({ userId: uid, teamId: b.team_id, name: b.name, formation: b.formation || "4-3-3", playerPositions: b.player_positions || {}, pressingLevel: b.pressing_level ?? 5, defensiveLine: b.defensive_line ?? 5, attackingWidth: b.attacking_width ?? 5, tempo: b.tempo ?? 5, passingStyle: b.passing_style || "mixed", buildUpStyle: b.build_up_style || "balanced" }).returning();
-    ctx.respond(200, t);
-  },
-  async tacticGet(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const [t] = await ctx.db.select().from(schema.tactics).where(and(eq(schema.tactics.id, +ctx.params.id), eq(schema.tactics.userId, uid)));
-    t ? ctx.respond(200, t) : ctx.respond(404, {});
-  },
-  async tacticUpdate(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    const b = ctx.parseBody();
-    const set = {};
-    const map = { playerPositions: "player_positions", pressingLevel: "pressing_level", defensiveLine: "defensive_line", attackingWidth: "attacking_width", tempo: "tempo", passingStyle: "passing_style", buildUpStyle: "build_up_style" };
-    for (const [k, v] of Object.entries(b)) { if (map[k]) set[map[k]] = v; }
-    const [t] = await ctx.db.update(schema.tactics).set(set).where(and(eq(schema.tactics.id, +ctx.params.id), eq(schema.tactics.userId, uid))).returning();
-    ctx.respond(200, t);
-  },
-  async tacticDel(ctx) {
-    const uid = auth(ctx); if (!uid) return;
-    await ctx.db.delete(schema.tactics).where(and(eq(schema.tactics.id, +ctx.params.id), eq(schema.tactics.userId, uid)));
-    ctx.respond(200, { ok: true });
-  },
-
   // Simulation
   async simCreate(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const b = ctx.parseBody();
     if (![1, 10, 100, 1000].includes(b.match_count)) return ctx.respond(400, { detail: "match_count must be 1,10,100,1000" });
-    const [job] = await ctx.db.insert(schema.simulationJobs).values({ userId: uid, homeTeamId: b.home_team_id, awayTeamId: b.away_team_id, homeTacticId: b.home_tactic_id || 1, awayTacticId: b.away_tactic_id || 1, matchCount: b.match_count, status: "pending", homeTacticalDocument: b.home_tactical_document || "", awayTacticalDocument: b.away_tactical_document || "" }).returning();
+    const [job] = await ctx.db.insert(schema.simulationJobs).values({
+      userId: uid,
+      homePlayers: b.home_players || [],
+      awayPlayers: b.away_players || [],
+      homeTactic: b.home_tactic || {},
+      awayTactic: b.away_tactic || {},
+      matchCount: b.match_count,
+      status: "pending",
+    }).returning();
     ctx.respond(200, { job_id: job.id });
   },
   async simList(ctx) {
     const uid = auth(ctx); if (!uid) return;
-    ctx.respond(200, await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.userId, uid)).orderBy(desc(schema.simulationJobs.id)).limit(20));
+    const jobs = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.userId, uid)).orderBy(desc(schema.simulationJobs.id)).limit(20);
+    ctx.respond(200, jobs.map((j) => ({ id: j.id, match_count: j.matchCount, status: j.status, progress: j.progress, created_at: j.createdAt })));
   },
   async simGet(ctx) {
     const uid = auth(ctx); if (!uid) return;
     const [job] = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.id, +ctx.params.id));
     if (!job) return ctx.respond(404, {});
-    ctx.respond(200, { ...job, results: await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, job.id)) });
+    ctx.respond(200, {
+      id: job.id, match_count: job.matchCount, status: job.status, progress: job.progress,
+      created_at: job.createdAt, completed_at: job.completedAt,
+      results: await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, job.id)),
+    });
   },
   async simReplay(ctx) {
     const [r] = await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, +ctx.params.id));
@@ -231,6 +130,47 @@ const handlers = {
     ctx.respond(200, await ctx.db.select().from(schema.agentResults).where(eq(schema.agentResults.userId, uid)).orderBy(schema.agentResults.id.desc()).limit(20));
   },
 
+  // Engine endpoints — called by engine runner
+  async engineJobsPending(ctx) {
+    const jobs = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.status, "pending")).orderBy(schema.simulationJobs.id).limit(5);
+    // Update status so another runner doesn't pick them up
+    for (const j of jobs) {
+      await ctx.db.update(schema.simulationJobs).set({ status: "running" }).where(eq(schema.simulationJobs.id, j.id));
+    }
+    ctx.respond(200, { jobs: jobs.map((j) => ({
+      id: j.id,
+      home_players: j.homePlayers,
+      away_players: j.awayPlayers,
+      home_tactic: j.homeTactic,
+      away_tactic: j.awayTactic,
+      match_count: j.matchCount,
+      seed_base: j.seedBase,
+      status: "running",
+    })) });
+  },
+  async engineJobResult(ctx) {
+    const b = ctx.parseBody();
+    await ctx.db.insert(schema.simulationResults).values({
+      jobId: +ctx.params.id,
+      matchIndex: b.match_index,
+      homeScore: b.home_score, awayScore: b.away_score,
+      homeXg: b.home_xg, awayXg: b.away_xg,
+      homePossession: b.home_possession, awayPossession: b.away_possession,
+      stats: b.stats || {}, replayPath: b.replay_path || null,
+    });
+    // Update progress
+    const [job] = await ctx.db.select().from(schema.simulationJobs).where(eq(schema.simulationJobs.id, +ctx.params.id));
+    if (job) {
+      const done = (await ctx.db.select().from(schema.simulationResults).where(eq(schema.simulationResults.jobId, job.id))).length;
+      await ctx.db.update(schema.simulationJobs).set({ progress: Math.round((done / job.matchCount) * 100) }).where(eq(schema.simulationJobs.id, job.id));
+    }
+    ctx.respond(200, { ok: true });
+  },
+  async engineJobComplete(ctx) {
+    await ctx.db.update(schema.simulationJobs).set({ status: "completed", progress: 100, completedAt: new Date() }).where(eq(schema.simulationJobs.id, +ctx.params.id));
+    ctx.respond(200, { ok: true });
+  },
+
   health: (ctx) => ctx.respond(200, { status: "ok" }),
 };
 
@@ -242,17 +182,12 @@ const routes = [
   ["POST","/api/v1/auth/google",handlers.authGoogle],["GET","/api/v1/auth/google/callback",handlers.health],
   ["POST","/api/v1/auth/logout",handlers.logout],
   ["GET","/api/v1/auth/me",handlers.me],["PUT","/api/v1/auth/settings",handlers.settings],
-  ["GET","/api/v1/teams",handlers.teamList],["POST","/api/v1/teams",handlers.teamCreate],
-  ["GET","/api/v1/teams/:id",handlers.teamGet],["DELETE","/api/v1/teams/:id",handlers.teamDel],
-  ["POST","/api/v1/teams/:id/players",handlers.teamAddPlayer],["DELETE","/api/v1/teams/:id/players",handlers.teamRemovePlayer],
-  ["GET","/api/v1/players",handlers.playerList],["POST","/api/v1/players",handlers.addPlayer],
-  ["PUT","/api/v1/players/:id",handlers.updatePlayer],["DELETE","/api/v1/players/:id",handlers.delPlayer],
-  ["GET","/api/v1/tactics",handlers.tacticList],["POST","/api/v1/tactics",handlers.tacticCreate],
-  ["GET","/api/v1/tactics/:id",handlers.tacticGet],["PUT","/api/v1/tactics/:id",handlers.tacticUpdate],
-  ["DELETE","/api/v1/tactics/:id",handlers.tacticDel],
   ["POST","/api/v1/simulate",handlers.simCreate],["GET","/api/v1/simulation/jobs",handlers.simList],
   ["GET","/api/v1/simulation/jobs/:id",handlers.simGet],["GET","/api/v1/simulation/jobs/:id/replay/:idx",handlers.simReplay],
   ["GET","/api/v1/analytics/job/:jobId",handlers.analytics],
+  ["GET","/api/v1/engine/jobs/pending",handlers.engineJobsPending],
+  ["POST","/api/v1/engine/jobs/:id/result",handlers.engineJobResult],
+  ["PUT","/api/v1/engine/jobs/:id/complete",handlers.engineJobComplete],
   ["POST","/api/v1/agent/tactics/analyze",handlers.agent],["POST","/api/v1/agent/match/report",handlers.agent],
   ["POST","/api/v1/agent/tactics/optimize",handlers.agent],["GET","/api/v1/agent/results",handlers.agentResults],
   ["GET","/api/v1/health",handlers.health],

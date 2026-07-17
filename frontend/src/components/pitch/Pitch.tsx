@@ -49,9 +49,13 @@ function assign(players: any[], form: string, flip: boolean) {
 }
 
 /* ── Component ── */
-export function Pitch({ homePlayers, awayPlayers }: { homePlayers: any[]; awayPlayers: any[] }) {
-  const [homeForm, setHomeForm] = useState("4-3-3");
-  const [awayForm, setAwayForm] = useState("4-3-3");
+export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, onHomeFormationChange, onAwayFormationChange }: {
+  homePlayers: any[]; awayPlayers: any[];
+  homeFormation?: string; awayFormation?: string;
+  onHomeFormationChange?: (f: string) => void; onAwayFormationChange?: (f: string) => void;
+}) {
+  const [homeForm, setHomeForm] = useState(homeFormation || "4-3-3");
+  const [awayForm, setAwayForm] = useState(awayFormation || "4-3-3");
 
   const hi = assign(homePlayers, homeForm, false);
   const ai = assign(awayPlayers, awayForm, true);
@@ -148,14 +152,14 @@ export function Pitch({ homePlayers, awayPlayers }: { homePlayers: any[]; awayPl
       <div className="flex items-center justify-between mb-2 gap-4">
         <div className="flex items-center gap-2">
           <span className="text-sm text-stone-500">Home:</span>
-          <select value={homeForm} onChange={(e) => { const f = e.target.value; setHomeForm(f); setTimeout(() => setHomeL(prev => reapplyFormation(prev, f, false)), 0); }}
+          <select value={homeForm} onChange={(e) => { const f = e.target.value; setHomeForm(f); onHomeFormationChange?.(f); setTimeout(() => setHomeL(prev => reapplyFormation(prev, f, false)), 0); }}
             className="text-sm bg-white border border-stone-300 rounded px-2 py-1.5">
             {FORMATION_NAMES.map((f) => <option key={f} value={f}>{f}</option>)}
           </select>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-sm text-stone-500">Away:</span>
-          <select value={awayForm} onChange={(e) => { const f = e.target.value; setAwayForm(f); setTimeout(() => setAwayL(prev => reapplyFormation(prev, f, true)), 0); }}
+          <select value={awayForm} onChange={(e) => { const f = e.target.value; setAwayForm(f); onAwayFormationChange?.(f); setTimeout(() => setAwayL(prev => reapplyFormation(prev, f, true)), 0); }}
             className="text-sm bg-white border border-stone-300 rounded px-2 py-1.5">
             {FORMATION_NAMES.map((f) => <option key={f} value={f}>{f}</option>)}
           </select>
