@@ -216,6 +216,9 @@ def _resolve_ball_physics(engine, rng, events):
     carrier_id = ball.carrier_id
 
     if carrier_id is None:
+        # Save velocity before BPS clamping (for goal detection)
+        engine._ball_vx_before_bps = ball.vx
+        engine._ball_vy_before_bps = ball.vy
         # Loose ball: compute physics
         landing = getattr(engine, '_pass_landing_zone', None)
         new_pos, new_vel, oob = advance_ball(
@@ -294,36 +297,34 @@ def _ball_control_contest(engine, ball_pos, ball_vel, rng):
 # ═══════════════════════════════════════════════
 
 def _detect_goal(engine, events, rng):
-    """Check if the ball has crossed the goal line between the posts."""
+    """Check if the ball crossed the goal line between the posts this tick.
+    Uses pre-BPS velocity to detect genuine shots (not OOB clamping)."""
     ball = engine.ball
     half_l = PITCH_LENGTH / 2
     half_goal = GOAL_WIDTH / 2
+    vx = getattr(engine, '_ball_vx_before_bps', 0.0)
 
-    # Ball must be at or beyond the goal line
-    if abs(ball.x) < half_l:
+    # Need actual movement toward goal line
+    if abs(vx) < 2.0:  # min 2 m/s for a real shot
         return
 
-    # Ball must be between the goal posts
-    if abs(ball.y) > half_goal:
-        return
-
-    # Goal scored
-    if ball.x >= half_l:
-        scorer = "home"
-        engine.away_score += 1
-        engine._conceding_team = "away"
-    else:
-        scorer = "away"
-        engine.home_score += 1
-        engine._conceding_team = "home"
-
-    events["_goal"] = {
-        "type": "goal",
-        "success": True,
-        "data": {"scorer": scorer, "xg": 0.5},
-    }
-    engine.phase = type(engine.phase).GOAL_SCORED
-    engine._goal_pause_remaining = GOAL_RESET_TICKS
+    # Ball must be at or past the goal line
+    if ball.x >= half_l and vx > 0:
+        if abs(ball.y) <= half_goal:
+            engine.home_score += 1
+            engine._conceding_team = "away"
+            events["_goal"] = {"type": "goal", "success": True, "data": {"scorer": "home"}}
+            from try1000_engine.match.match_engine import MatchPhase
+            engine.phase = MatchPhase.GOAL_SCORED
+            engine._goal_pause_remaining = GOAL_RESET_TICKS
+    elif ball.x <= -half_l and vx < 0:
+        if abs(ball.y) <= half_goal:
+            engine.away_score += 1
+            engine._conceding_team = "home"
+            events["_goal"] = {"type": "goal", "success": True, "data": {"scorer": "away"}}
+            from try1000_engine.match.match_engine import MatchPhase
+            engine.phase = MatchPhase.GOAL_SCORED
+            engine._goal_pause_remaining = GOAL_RESET_TICKS
 
 
 # ═══════════════════════════════════════════════

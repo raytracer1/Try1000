@@ -154,30 +154,49 @@ def convert_team(yaml_path: Path, existing: dict) -> dict | None:
     with open(yaml_path) as f:
         data = yaml.safe_load(f)
 
-    name = data.get("name", "")
+    team_name = data.get("name", "")
     logo = ""
     existing_players = []
     tactical_document = ""
 
-    # Load tactical document from tactices/ directory — extract only decide() priorities
+    # Load tactical document from tactices/ directory — extract roster + priorities
     tactic_path = ROOT / "AgentPitch" / "fifa2026" / "tactices" / f"{yaml_path.stem}.md"
     if tactic_path.exists():
         full = tactic_path.read_text(encoding="utf-8").strip()
-        # Extract only the "decide() Decision Priorities" section
-        marker = "## decide() Decision Priorities"
-        if marker in full:
-            section = full.split(marker, 1)[1]
-            # Stop at the next ## heading
-            next_heading = section.find("\n## ")
-            if next_heading > 0:
-                section = section[:next_heading]
-            tactical_document = section.strip()
-        else:
-            tactical_document = full[:3000]  # fallback: first 3000 chars
+        parts = []
+        # Compact roster from Formation section
+        fm = "## Formation"
+        if fm in full:
+            fsec = full.split(fm, 1)[1]
+            nh = fsec.find("\n## ")
+            if nh > 0:
+                fsec = fsec[:nh]
+            import re as _re
+            roster = []
+            for m in _re.finditer(
+                r'index \d+:\s*([\w/ ]+?)\s*[—–-]\s*\*{0,2}(.+?)\*{0,2}\s*\(#(\d+)\)', fsec
+            ):
+                try:
+                    role, pname, number = m.groups()
+                except (ValueError, IndexError):
+                    continue
+                roster.append(f"  #{number} {pname.strip().rstrip(',').strip('*')} ({role.strip().strip('*')})")
+            if roster:
+                parts.append("## Roster\n" + "\n".join(roster))
+        # Decide priorities
+        dm = "## decide() Decision Priorities"
+        if dm in full:
+            dsec = full.split(dm, 1)[1]
+            nh = dsec.find("\n## ")
+            if nh > 0:
+                dsec = dsec[:nh]
+            parts.append(dm + dsec.strip())
+        if parts:
+            tactical_document = "\n\n".join(parts)
 
-    if name.lower() in existing:
-        logo = existing[name.lower()].get("logo", "")
-        existing_players = existing[name.lower()].get("players", [])
+    if team_name.lower() in existing:
+        logo = existing[team_name.lower()].get("logo", "")
+        existing_players = existing[team_name.lower()].get("players", [])
 
     players = []
     raw_players = data.get("players", [])
@@ -197,7 +216,7 @@ def convert_team(yaml_path: Path, existing: dict) -> dict | None:
         })
 
     return {
-        "name": name,
+        "name": team_name,
         "type": "nation",
         "logo": logo,
         "players": players,

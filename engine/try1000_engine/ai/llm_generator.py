@@ -139,63 +139,173 @@ Return ONE dict per call:
   {"action":"Tackle","target_player_id":str}
 Validation: non-carrier Pass/Shoot → Hold(); out-of-range Tackle → Hold(); speed clamped to [0,1].
 
+=== FEW-SHOT SKELETON ===
+# Example structure — adapt for your team's style:
+def decide(game_state, player_state, history):
+    role = player_state["role"]
+    if player_state["has_ball"]:
+        # CARRIER: shoot if close, pass if teammate open, else dribble forward
+        if role == "FWD" or role == "ST":
+            return Shoot(angle=0.0, power=15)
+        if role == "MID":
+            open_teammate = find_open_forward_teammate(game_state)
+            if open_teammate:
+                return Pass(target_x=open_teammate["position"][0], target_y=open_teammate["position"][1], power=12)
+            return Dribble(dx=0.5 if attacking_right else -0.5, dy=0.0, speed=0.7)
+        if role == "DEF":
+            return Pass(target_x=0.6, target_y=0.5, power=15)  # clear forward
+        if role == "GK":
+            return Pass(target_x=0.3, target_y=0.5, power=10)  # distribute short
+        return Hold()
+    else:
+        # OFF-BALL: move toward ball when attacking, track back when defending
+        if game_state["team_phase"] == "attacking":
+            return Move(dx=ball_x - my_x, dy=ball_y - my_y, speed=0.6)
+        else:
+            return Move(dx=my_goal_x - my_x, dy=0.0, speed=0.5)
+
 === GAME STATE (dict) ===
 game_state = {
-    "tick": int, "half": int,  # 1 or 2
+    "tick": int,              # current tick (0-5400)
+    "match_phase": str,       # "kick_off" | "in_play" | "goal_scored" | "half_time" | "full_time"
+    "half": int,               # 1 or 2
     "score": {"home": int, "away": int},
     "ball": {
-        "position": [float, float],     # normalized 0-1 (0,0=top-left, 1,1=bottom-right)
-        "possession_team": str | None,  # "home", "away", or None
-        "carrier_id": str | None,
+        "position": [float, float],     # normalized 0-1 (0,0=defending-left, 1,1=attacking-right for home)
+        "velocity": [float, float],     # normalized units/tick — ball motion this tick, useful for predicting next position
+        "possession": str | None,      # "home" | "away" | None (loose ball)
+        "carrier_id": str | None,      # player_id of the ball carrier, or None
     },
-    "my_team": str, "my_player_id": str,
-    "teammates": [{"id":str,"role":str,"position":[float,float],"has_ball":bool}, ...],
-    "opponents": [{"id":str,"role":str,"position":[float,float],"has_ball":bool}, ...],
+    "team_phase": str,         # "attacking" | "defending" | "transitioning" — which phase YOUR team is in
+    "my_team": str,            # "home" | "away"
+    "my_player_id": str,       # YOUR player_id this call, e.g. "home_3"
+    "teammates": [             # ALL teammates EXCEPT yourself (10 players in 11v11)
+        {"id": str, "role": str, "position": [float, float], "has_ball": bool},
+        ...
+    ],
+    "opponents": [             # ALL opponents (11 players in 11v11)
+        {"id": str, "role": str, "position": [float, float], "has_ball": bool},
+        ...
+    ],
     "field": {
         "width": 68.0, "height": 105.0,
-        "my_goal_x": float, "opponent_goal_x": float,  # x-coord of each goal line (0 or 1)
-        "goal_top": 0.44, "goal_bottom": 0.56,           # y-edges of goal mouth
+        "my_goal_x": float,           # x-coord of YOUR team's defending goal
+        "opponent_goal_x": float,     # x-coord of the goal YOU attack
+        "goal_top": 0.44,             # larger-y edge of the goal mouth (numerically GREATER, e.g. 0.56)
+        "goal_bottom": 0.56,          # smaller-y edge of the goal mouth (numerically LESS, e.g. 0.44)
     },
 }
-Convention: for "home" team, my_goal_x=0.0, opponent_goal_x=1.0. For "away", reversed.
-Goal mouth spans y ∈ [goal_top, goal_bottom]. my_goal_x is your team's defending goal.
+Convention: goal_top > goal_bottom. Goal-mouth height = goal_top - goal_bottom (POSITIVE).
+Goal centre y = (goal_top + goal_bottom) / 2.
+For "home" team: my_goal_x=0.0, opponent_goal_x=1.0. For "away", reversed.
+These x-values SWAP at half-time — read them every tick. Never assume a fixed direction.
+Iterate teammates and opponents to find specific players by role or position.
+Never assume roster size — 5v5 has 5 per team, 11v11 has 11.
 
 === PLAYER STATE (dict) ===
 player_state = {
-    "role": str,  # GK, CB, LB, RB, CDM, CM, CAM, LM, RM, LW, RW, ST, CF
-    "position": [float, float],  # normalized 0-1
-    "pace": int, "shooting": int, "passing": int, "dribbling": int,
-    "defending": int, "physicality": int, "stamina": int,
-    "awareness": int, "composure": int,  # all 0-100
-    "has_ball": bool, "health": float,  # 0.0-1.0
-    "on_cooldown": bool,  # True → Pass/Shoot/Tackle blocked, only Move/Hold allowed
+    "name": str,               # actual player name, e.g. "Lionel Messi"
+    "number": int,             # jersey number, e.g. 10 — use for player-specific logic
+    "role": str,               # GK | CB | LB | RB | CDM | CM | CAM | LM | RM | LW | RW | ST | CF
+    "position": [float, float],  # YOUR current position, normalized 0-1
+    # ATTRIBUTES (0-100 range):
+    "pace": int,               # maximum movement per tick
+    "shooting": int,           # shot accuracy
+    "passing": int,            # pass landing accuracy
+    "dribbling": int,          # success rate when carrying past a defender
+    "defending": int,          # tackle success rate
+    "physicality": int,        # strength — affects tackle outcome and foul probability
+    "stamina": int,            # endurance. Each non-Hold action drains health; Hold recovers.
+    "awareness": int,          # reaction speed and positioning intelligence
+    "composure": int,          # decision-making under pressure
+    # STATUS:
+    "has_ball": bool,          # True if YOU currently possess the ball
+    "health": float,           # 0.0-1.0. Below 0.5, effectiveness drops. Hold recovers it.
+    "on_cooldown": bool,       # True → Pass/Shoot/Tackle BLOCKED; only Move/Hold allowed
 }
 
 === HISTORY (list) ===
-history = [{"tick":int,"action":str,"success":bool}, ...]  # last 20 actions, oldest first
+history = [
+    {"tick": int, "action": str, "success": bool},
+    ...  # last 20 actions, oldest first. Empty at match start.
+]
+
+=== ATTRIBUTE REFERENCE ===
+9 attributes, 0-100:
+  pace:       max movement per tick. High pace = fast player.
+  shooting:   shot accuracy. Blend with awareness for effective shot skill.
+  passing:    pass landing accuracy. Blend with awareness.
+  dribbling:  ball control + carry success. Blend with pace for effective dribble.
+  defending:  tackle success + interception. Blend with physicality for effective tackle.
+  physicality: strength — affects tackle outcome AND foul probability. High = stronger but more fouls.
+  stamina:    endurance. Each action drains health by base_cost × (1 - stamina/100).
+              stamina=100 burns no health. All success formulas multiply by health_factor.
+  awareness:  reaction speed. Blended into shooting, passing, and dribbling effectiveness.
+  composure:  decision quality under pressure. High = fewer panic passes.
+Hold and low-speed Move recover health; half-time restores fully.
 
 === SHOOTING DISCIPLINE ===
-Prevent the "dead zone": when you are the ball carrier in the attacking third and have a sight of goal, SHOOT instead of always passing. Make the shoot gate OVERLAP the pass-first range — do not let the shoot condition sit strictly closer to goal than where you start passing. Central carriers near the penalty area edge should shoot.
+Prevent the "dead zone" where a team logs ZERO shots: this happens when the pass-first
+rule releases the ball as soon as the carrier reaches the final third, while the shoot
+rule only fires from very close range. Make your shoot condition OVERLAP the pass-first
+range — do not let the shoot gate sit strictly closer to goal than where you start passing.
+Central carriers near the penalty area edge (x ≈ 0.8 for home, 0.2 for away) with
+a sight of goal and no defender RIGHT on them should SHOOT, not recycle.
 
-=== OFFSIDE (Law 11) ===
-A teammate in the opponents' half AND nearer the opponent's goal line than both the ball and the second-last opponent is OFFSIDE. Pass to an offside player → play stopped, free kick to opponents. No offside from goal kicks or throw-ins. Attackers: time runs to stay level. Passers: check receiver BEFORE passing forward.
+=== OFFSIDE (IFAB Law 11) ===
+A teammate in the OPPONENTS' half AND nearer the opponent's goal line than BOTH the
+ball and the second-last opponent (any role — usually GK + last defender) is OFFSIDE.
+Level with the second-last opponent = onside. If a player flagged offside is the FIRST
+to control the pass → play stopped, free kick to opponents. No offside from goal kicks
+or throw-ins. Tactics: attackers time runs to stay level until the pass is struck, then
+sprint. Passers check receiver BEFORE passing forward. Defenders hold a high line to trap.
 
-=== FOULS AND CARDS (Law 12) ===
-Every Tackle risks a foul — chance scales with physicality. Foul in own penalty area → PENALTY KICK. A red card (or two yellows) → player sent off for rest of match. Never tackle inside your own penalty area unless preventing a certain goal.
+=== FOULS AND CARDS (IFAB Law 12) ===
+Every Tackle risks a foul — chance scales with your physicality rating (doubles near 100,
+vanishes near 0). Foul stops play: direct free kick to fouled team. Foul inside YOUR
+penalty area (within ~16.5 units of your goal line in meters, ~0.15 in normalized x)
+→ PENALTY KICK. Accumulated fouls may bring a yellow card (warning) or red card
+(sent off for rest of match with no replacement). NEVER tackle inside your own penalty
+area unless preventing a certain goal.
 
 === SNAP MECHANICS ===
-When idle (Hold, or Move at speed<0.5), a soft formation pull drifts the player toward their anchor position. Active intent (Move at speed>=0.5, or any carrier action) bypasses this. The discipline is at most 20% of motion.
+The engine automatically pulls players toward their formation position when idle.
+You do NOT need to hardcode positional anchors like (0.25, 0.5).
+Focus on WHAT the player should DO (pass/shoot/tackle/direction), not WHERE their
+formation spot is. The engine handles positioning automatically.
+Active intent (Move at speed>=0.5, or any carrier action) bypasses the pull entirely —
+the player goes exactly where you tell them.
+
+=== ROLE TACTICAL GUIDANCE ===
+GK:  stays in penalty area; saves shots; distributes short to CBs. Sweep only for
+     certain through-balls. Distribute long if pressed.
+DEF (CB,LB,RB): holds shape when defending; PUSHES UP to midfield when team_phase
+     is "attacking". Overlapping runs encouraged when team has sustained possession
+     in opponent's half.
+MID (CDM,CM,CAM,LM,RM): shuttles between thirds based on team_phase. Supports both
+     attack and defense. The most position-flexible role. CDM sits deeper, CAM pushes
+     higher, CM balances.
+FWD (ST,CF,LW,RW): presses high when attacking; drops back to support press when
+     defending. Looks for through-balls behind the defense. ST stays central,
+     wingers (LW,RW) stay wide.
 
 === RUNTIME IDENTITY ===
-The same decide() runs for every player. Branch on `player_state["role"]` to differentiate. NEVER hardcode specific player_ids — roles vary by config.
+The same decide() runs for every player on every tick. To know which team and
+which player you are this call, read:
+  game_state["my_team"]       # "home" or "away"
+  game_state["my_player_id"]  # your player_id this call, e.g. "home_7"
+  player_state["role"]        # "GK", "DEF", "MID", or "FWD" — branch on this
+NEVER hardcode specific player_ids — they vary by config and roster size.
 
 === SANDBOX CONSTRAINTS ===
-- DO NOT use `import` statements — not even `import math`. The sandbox blocks them.
+- DO NOT use `import` statements — not even `import math`. The sandbox blocks them silently.
+  A strategy with an import will return Hold() on every tick (looks frozen).
 - sqrt(x) → x**0.5; pi → 3.141592653589793
 - Do NOT use print(), open(), exec(), eval(), or any I/O.
-- You MAY define nested functions inside decide().
-- Use module-level variables for cross-tick persistent state if needed.
-- Available builtins: abs, min, max, sum, len, range, sorted, enumerate, isinstance, int, float, str, list, dict, tuple, bool.
+- Do NOT define functions outside decide(). Helpers must be nested inside decide().
+- You MAY define nested functions and use module-level variables for persistent state.
+- Available builtins: abs, min, max, sum, len, range, sorted, enumerate,
+  isinstance, int, float, str, list, dict, tuple, bool, round, zip, set.
 
 === FIELD GEOMETRY ===
 Field and goal geometry vary — ALWAYS read from inputs:
@@ -207,14 +317,15 @@ Field and goal geometry vary — ALWAYS read from inputs:
 Pick your defending goal by team. Attack the OPPOSITE goal. These swap at half-time — read them every tick.
 
 === BALL CARRIER LOGIC ===
-- If has_ball and in attacking third → Shoot or Pass (never hold too long).
-- If has_ball and in own half → Pass forward to an open teammate, or Dribble into space.
-- If has_ball and no good option → Move toward opponent's goal at moderate speed.
+- Attacking third → Shoot if within range and central, else Pass to a forward teammate.
+- Own half → Pass forward to an open teammate, or Dribble into space.
+- No good option → Move TOWARD opponent's goal (general direction, not fixed spot).
+- Never Hold for more than 2-3 ticks — keep the ball moving.
 
 === OFF-BALL LOGIC ===
-- If team has ball (attacking): Move into space, support the carrier, stay between defenders.
-- If opponents have ball (defending): Track back, mark opponents, stay goal-side.
-- GK: Stay in/near penalty area. When ball is in own box, rush to claim.
+- Team attacking: Move TOWARD the ball to support, find gaps between defenders.
+- Team defending: Track back GOAL-SIDE of the ball, mark nearby opponents.
+- GK: Stay near goal. Distribute short to CBs. Rush out only for certain through-balls.
 
 === USER INTENT ===
 The user message below contains the team's tactical document. Bias your strategy TOWARD it while respecting all rules above. The tactical document may contain specific per-role instructions — encode those as if/elif branches.
@@ -268,17 +379,41 @@ class CodeGenerator:
         if not doc:
             doc = "(no specific user intent — apply general best practices for a balanced, competitive strategy)"
 
+        # Build player ID → name mapping from the tactical doc's index references
+        player_map = self._build_player_id_map(doc)
+
         return f"""Team: {team_name}
 Formation: {formation}
 
-=== TACTICAL DOCUMENT (YOUR USER INTENT) ===
+=== PLAYER ID MAP ===
+{player_map}
+
+=== TACTICAL DOCUMENT ===
 {doc}
 
 === TASK ===
 Write the complete decide() function that implements this tactical style.
-Branch on player_state["role"] to give each position (GK, CB, LB, RB, CDM, CM, CAM, LM, RM, LW, RW, ST, CF) appropriate behavior.
-Include ball-carrier logic, off-ball positioning, pressing triggers, and defensive shape.
+Use the PLAYER ID MAP above to reference specific players by their correct IDs.
+For all other logic, branch on player_state["role"].
 Return ONLY the Python code in a fenced block."""
+
+    @staticmethod
+    def _build_player_id_map(doc: str) -> str:
+        """Parse tactical doc for player references with jersey numbers.
+        Format: '- index N: ROLE — **Player Name** (#shirt)'
+        Returns jersey number → name mapping."""
+        import re
+        lines = []
+        for m in re.finditer(
+            r'index \d+:\s*([\w/ ]+?)\s*[—–-]\s*\*{0,2}(.+?)\*{0,2}\s*\(#(\d+)\)', doc
+        ):
+            role, name, number = m.groups()
+            role = role.strip().strip("*")
+            name = name.strip().rstrip(",").strip("*")
+            lines.append(f"  #{number} = {role} — {name}")
+        if lines:
+            return "Jersey numbers (use player_state[\"number\"] to identify):\n" + "\n".join(lines)
+        return "(no jersey number mapping found — use role-based or name-based branching)"
 
     def evolve(self, current_code: str, role: str, tactic: dict,
                match_summary: dict) -> str:

@@ -183,6 +183,10 @@ class EngineRunner:
                     "tactical_document": tactical_doc,
                 }
                 code = gen.generate_team(llm_tactic, team_name)
+                logger.info(f"LLM generated code for {team_name} ({len(code)} chars):\n{code[:2000]}")
+                if len(code) > 2000:
+                    logger.info(f"... ({len(code) - 2000} more chars)")
+                print(f"\n{'='*60}\nLLM CODE ({team_name}, {len(code)} chars):\n{code}\n{'='*60}\n", flush=True)
                 # Single code covers all roles — AgentPitch-style
                 policies = {}
                 all_roles = ["GK", "CB", "LCB", "RCB", "LB", "LWB", "RB", "RWB",
@@ -277,7 +281,8 @@ class EngineRunner:
         for i, p in enumerate(players_json):
             a = p.get("attributes", {})
             result.append(EnginePlayer(
-                player_id=f"{team}_{i+1}", team=team, role=p["position"],
+                player_id=f"{team}_{i}", team=team, role=p["position"],
+                name=p.get("name", ""), number=p.get("number", 0),
                 pace=a.get("pace", 70), shooting=a.get("shooting", 70),
                 passing=a.get("passing", 70), dribbling=a.get("dribbling", 70),
                 defending=a.get("defending", 70), physicality=a.get("physicality", 70),
@@ -338,6 +343,7 @@ class EngineRunner:
         from try1000_engine.physics.player import Player as EnginePlayer
         return EnginePlayer(
             player_id=p.player_id, team=p.team, role=p.role,
+            name=p.name, number=p.number,
             pace=p.pace, shooting=p.shooting, passing=p.passing,
             dribbling=p.dribbling, defending=p.defending,
             physicality=p.physicality, stamina_val=p.stamina,

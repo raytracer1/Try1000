@@ -56,6 +56,7 @@ class Player:
     """Mutable player entity updated during a match."""
 
     def __init__(self, player_id: str, team: str, role: str,
+                 name: str = "", number: int = 0,
                  x: float = 0.0, y: float = 0.0,
                  pace: float = 70.0, shooting: float = 70.0,
                  passing: float = 70.0, dribbling: float = 70.0,
@@ -65,6 +66,8 @@ class Player:
         self.player_id = player_id
         self.team = team
         self.role = role
+        self.name = name
+        self.number = number
         self.x = x
         self.y = y
         self.facing_angle = 0.0 if team == "home" else math.pi

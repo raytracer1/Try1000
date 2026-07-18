@@ -3,16 +3,24 @@
 Compiles Python code from the LLM into an executable function, then calls it
 during Phase 2 of each tick. The code is compiled once, cached, and runs
 at full speed — no LLM calls during simulation.
+
+Sandbox features (AgentPitch-aligned):
+  - Compile validation with structured errors
+  - Per-call timeout (prevents infinite loops)
+  - Execution status tracking (SUCCESS / COMPILE_ERROR / RUNTIME_ERROR)
+  - Fallback to Hold() on any failure
 """
 
 from __future__ import annotations
 
+import enum
 import math
+import threading
+from dataclasses import dataclass, field
 from typing import Any
 
 from try1000_engine.ai.policy import Policy, Observation
 from try1000_engine.actions.base import ActionOutput, ActionType
-from try1000_engine.ai.perception import Perception
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -91,9 +99,39 @@ def _safe_builtins() -> dict:
     }
 
 
+class ExecutionStatus(enum.Enum):
+    """Sandbox execution result — matches AgentPitch's ExecutionStatus."""
+    SUCCESS = "success"
+    COMPILE_ERROR = "compile_error"
+    RUNTIME_ERROR = "runtime_error"
+    TIMEOUT = "timeout"
+    INVALID_RETURN = "invalid_return"
+
+
+@dataclass
+class SandboxResult:
+    """Result of compiling or executing generated code in the sandbox."""
+    status: ExecutionStatus
+    error_type: str | None = None
+    error_message: str | None = None
+    execution_time_ms: float = 0.0
+
+    @property
+    def is_success(self) -> bool:
+        return self.status == ExecutionStatus.SUCCESS
+
+
 class SandboxError(Exception):
     """Raised when generated code fails to compile or execute."""
-    pass
+    def __init__(self, message: str, status: ExecutionStatus = ExecutionStatus.COMPILE_ERROR):
+        super().__init__(message)
+        self.status = status
+
+
+# Default per-call timeout (seconds)
+_SANDBOX_CALL_TIMEOUT = float(
+    __import__("os").environ.get("SANDBOX_TIMEOUT", "0.05")
+)
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -118,8 +156,19 @@ class GeneratedPolicy(Policy):
         self.code = code
         self.role = role
         self.tactic = tactic or {}
-        self._decide_fn = self._compile(code)
+        result = self._compile(code)
+        self._decide_fn = result
+        self._compile_result: SandboxResult = (
+            SandboxResult(status=ExecutionStatus.SUCCESS)
+            if callable(result)
+            else SandboxResult(status=ExecutionStatus.COMPILE_ERROR)
+        )
         self._code_hash = hex(abs(hash(code)) % (10 ** 8))[2:]
+        # Runtime counters
+        self._call_count: int = 0
+        self._error_count: int = 0
+        self._timeout_count: int = 0
+        self._disabled: bool = False  # set True if too many errors
 
     # ─── Policy interface ───
 
@@ -134,7 +183,11 @@ class GeneratedPolicy(Policy):
         half: int, phase_id: int,
         history_actions: list[dict] | None = None,
     ) -> tuple[ActionOutput, dict]:
-        """Full-context decision — preferred by MatchEngine over generic decide()."""
+        """Full-context decision with sandbox timeout protection."""
+        if self._disabled or not callable(self._decide_fn):
+            return ActionOutput.hold(), {}
+
+        self._call_count += 1
         gs = self._build_gamestate_full(
             player, teammates, opponents, ball,
             home_score, away_score, tick, half,
@@ -142,13 +195,37 @@ class GeneratedPolicy(Policy):
         ps = self._build_playerstate_full(player)
         hist = self._build_history_full(history_actions)
 
-        try:
-            result = self._decide_fn(gs, ps, hist)
-            if not isinstance(result, dict):
-                return ActionOutput.hold(), {}
-            return _normalize_action(result), {}
-        except Exception:
+        result = {"action": None, "error": None}
+        done = threading.Event()
+
+        def _run():
+            try:
+                result["action"] = self._decide_fn(gs, ps, hist)
+            except Exception as e:
+                result["error"] = e
+
+        t = threading.Thread(target=_run, daemon=True)
+        t.start()
+        t.join(timeout=_SANDBOX_CALL_TIMEOUT)
+
+        if t.is_alive():
+            # Timeout — code is stuck in an infinite loop
+            self._timeout_count += 1
+            self._error_count += 1
+            if self._timeout_count > 20:
+                self._disabled = True  # disable this policy permanently
             return ActionOutput.hold(), {}
+
+        if result["error"]:
+            self._error_count += 1
+            if self._error_count > 100:
+                self._disabled = True
+            return ActionOutput.hold(), {}
+
+        action = result["action"]
+        if not isinstance(action, dict):
+            return ActionOutput.hold(), {}
+        return _normalize_action(action), {}
 
     def decide(self, obs: Observation) -> ActionOutput:
         """Execute the generated code on this observation.
@@ -177,26 +254,49 @@ class GeneratedPolicy(Policy):
     def _compile(self, code: str):
         """Compile the LLM-generated code into an executable function.
 
-        Uses Python's built-in compile() with a restricted namespace.
-        No RestrictedPython dependency — safe enough for code we trust
-        (LLM-generated but validated).
+        Returns a callable on success, or raises SandboxError with a
+        structured ExecutionStatus on failure. AgentPitch-aligned:
+        - SyntaxError → COMPILE_ERROR
+        - exec() failure → COMPILE_ERROR
+        - Missing decide() → COMPILE_ERROR
         """
+        # Check for known sandbox violations before compilation
+        violations = []
+        if "import " in code:
+            violations.append("import statement detected (sandbox blocks imports)")
+        if "print(" in code:
+            violations.append("print() detected (sandbox blocks I/O)")
+        if "open(" in code or "exec(" in code or "eval(" in code:
+            violations.append("blocked builtin (open/exec/eval)")
+        if violations:
+            raise SandboxError(
+                "; ".join(violations),
+                status=ExecutionStatus.COMPILE_ERROR,
+            )
+
         try:
             bytecode = compile(code, "<generated_policy>", "exec")
         except SyntaxError as e:
-            raise SandboxError(f"Generated code has syntax error: {e}") from e
+            raise SandboxError(
+                f"Syntax error at line {e.lineno}: {e.msg}",
+                status=ExecutionStatus.COMPILE_ERROR,
+            ) from e
 
         namespace = _safe_builtins()
         try:
             exec(bytecode, namespace)
         except Exception as e:
-            raise SandboxError(f"Generated code failed to execute: {e}") from e
+            raise SandboxError(
+                f"Execution failed: {type(e).__name__}: {e}",
+                status=ExecutionStatus.COMPILE_ERROR,
+            ) from e
 
         decide_fn = namespace.get("decide")
         if not callable(decide_fn):
             raise SandboxError(
-                "Generated code must define a 'decide' function. "
-                f"Found: {list(namespace.keys())[-10:]}"
+                "No 'decide' function found in generated code. "
+                f"Defined names: {[k for k in namespace if not k.startswith('_')][:10]}",
+                status=ExecutionStatus.COMPILE_ERROR,
             )
 
         return decide_fn
@@ -222,14 +322,37 @@ class GeneratedPolicy(Policy):
                 "has_ball": bool(p.has_ball),
             }
 
+        # Determine team phase: who has the ball?
+        carrier = None
+        for p in teammates + opponents:
+            if p.has_ball:
+                carrier = p
+                break
+        if ball.carrier_id:
+            cid = ball.carrier_id
+            if cid.startswith("home") and my_team == "home":
+                team_phase = "attacking"
+            elif cid.startswith("away") and my_team == "away":
+                team_phase = "attacking"
+            else:
+                team_phase = "defending"
+        else:
+            team_phase = "transitioning"
+
+        # Ball velocity in normalized units/tick
+        nvx = ball.vx / 105.0
+        nvy = ball.vy / 68.0
+
         return {
             "tick": tick,
-            "match_time_seconds": tick,
+            "match_phase": "in_play",
             "half": half,
             "score": {"home": home_score, "away": away_score},
+            "team_phase": team_phase,
             "ball": {
                 "position": to_norm(ball.x, ball.y),
-                "possession_team": ball.last_touch_team or (player.team if ball.carrier_id else None),
+                "velocity": [nvx, nvy],
+                "possession": ball.last_touch_team or None,
                 "carrier_id": str(ball.carrier_id) if ball.carrier_id else None,
             },
             "my_team": my_team,
@@ -244,9 +367,13 @@ class GeneratedPolicy(Policy):
         }
 
     def _build_playerstate_full(self, player):
+        from try1000_engine.config import meters_to_normalized
+        nx, ny = meters_to_normalized(player.x, player.y)
         return {
+            "name": getattr(player, 'name', ''),
+            "number": getattr(player, 'number', 0),
             "role": player.role,
-            "position": [0.5, 0.5],  # will be overridden by game_state
+            "position": [nx, ny],
             "pace": int(player.pace or 70), "shooting": int(player.shooting or 70),
             "passing": int(player.passing or 70), "dribbling": int(player.dribbling or 70),
             "defending": int(player.defending or 70), "physicality": int(player.physicality or 70),
