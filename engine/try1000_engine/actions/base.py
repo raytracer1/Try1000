@@ -96,6 +96,12 @@ class ActionOutput:
         return ActionOutput(action_type=ActionType.TACKLE,
                             target_player_id=target_player_id)
 
+    @staticmethod
+    def tackle_str(target_id: str) -> 'ActionOutput':
+        a = ActionOutput(action_type=ActionType.TACKLE)
+        a._target_str = target_id
+        return a
+
 
 class Action(ABC):
     """Base class for action resolution logic."""
@@ -120,6 +126,6 @@ class Action(ABC):
         return (math.cos(rad), math.sin(rad))
 
     def _normalized_to_meters(self, nx: float, ny: float) -> tuple[float, float]:
-        """Convert 0-1 normalized coordinates to meters on the pitch."""
-        from try1000_engine.config import normalized_to_meters
-        return normalized_to_meters(nx, ny)
+        """Convert AgentPitch field coords (100×60) → engine meters."""
+        from try1000_engine.config import field_to_meters
+        return field_to_meters(nx, ny)

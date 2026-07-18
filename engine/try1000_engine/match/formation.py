@@ -13,64 +13,58 @@ from try1000_engine.config import PITCH_LENGTH, PITCH_WIDTH
 
 # ─── Formation Positions (normalized 0-100 x 0-65, same as Pitch.tsx) ───
 
+# AgentPitch FRS positions (100x60 field, team attacks right)
+# GK near own goal, DEF deep, MID center, FWD advanced
 POSITIONS: dict[str, list[tuple[float, float]]] = {
     "4-3-3": [
-        (5, 32), (18, 20), (18, 44), (22, 6), (22, 58),
-        (32, 32), (40, 18), (40, 46), (46, 8), (46, 56), (50, 32),
+        (8, 30), (25, 12), (25, 24), (25, 36), (25, 48),
+        (50, 20), (50, 30), (50, 40), (70, 15), (75, 30), (70, 45),
     ],
     "4-4-2": [
-        (5, 32), (18, 20), (18, 44), (22, 6), (22, 58),
-        (32, 10), (32, 54), (42, 22), (42, 42), (48, 22), (48, 42),
+        (8, 30), (25, 12), (25, 24), (25, 36), (25, 48),
+        (50, 12), (50, 24), (50, 36), (50, 48), (75, 20), (75, 40),
     ],
     "3-5-2": [
-        (5, 32), (18, 20), (18, 44), (24, 32),
-        (32, 8), (32, 56), (38, 22), (38, 42), (30, 32),
-        (48, 22), (48, 42),
+        (8, 30), (25, 12), (25, 30), (25, 48),
+        (50, 8), (50, 20), (50, 30), (50, 40), (50, 52),
+        (75, 20), (75, 40),
     ],
     "4-2-3-1": [
-        (5, 32), (18, 20), (18, 44), (22, 6), (22, 58),
-        (34, 22), (34, 42), (42, 10), (40, 32), (42, 54), (50, 32),
+        (8, 30), (25, 12), (25, 24), (25, 36), (25, 48),
+        (45, 22), (45, 38), (60, 12), (60, 30), (60, 48), (80, 30),
     ],
     "3-4-3": [
-        (5, 32), (18, 20), (18, 44),
-        (30, 8), (30, 56), (36, 22), (36, 42),
-        (44, 10), (44, 54), (42, 22), (42, 42), (39, 32),
+        (8, 30), (25, 12), (25, 30), (25, 48),
+        (50, 8), (50, 22), (50, 30), (50, 38), (50, 52),
+        (75, 12), (75, 48), (80, 30),
     ],
 }
 
 # ─── Role-to-slot mapping per formation ───
 
+# Slot roles — AgentPitch: GK, DEF, MID, FWD
 SLOT_ROLES: dict[str, list[str]] = {
-    "4-3-3":     ["GK", "CB", "CB", "LB", "RB", "CDM", "CM", "CM", "LW", "RW", "ST"],
-    "4-4-2":     ["GK", "CB", "CB", "LB", "RB", "RM", "CM", "CM", "LM", "ST", "ST"],
-    "3-5-2":     ["GK", "CB", "CB", "CB", "CM", "CM", "CM", "RM", "LM", "ST", "ST"],
-    "4-2-3-1":   ["GK", "CB", "CB", "LB", "RB", "CDM", "CDM", "LW", "CAM", "RW", "ST"],
-    "3-4-3":     ["GK", "CB", "CB", "CB", "CM", "CM", "LM", "RM", "LW", "ST", "RW"],
+    "4-3-3":     ["GK", "DEF", "DEF", "DEF", "DEF", "MID", "MID", "MID", "FWD", "FWD", "FWD"],
+    "4-4-2":     ["GK", "DEF", "DEF", "DEF", "DEF", "MID", "MID", "MID", "MID", "FWD", "FWD"],
+    "3-5-2":     ["GK", "DEF", "DEF", "DEF", "MID", "MID", "MID", "MID", "MID", "FWD", "FWD"],
+    "4-2-3-1":   ["GK", "DEF", "DEF", "DEF", "DEF", "MID", "MID", "MID", "MID", "MID", "FWD"],
+    "3-4-3":     ["GK", "DEF", "DEF", "DEF", "MID", "MID", "MID", "MID", "FWD", "FWD", "FWD", "FWD"],
 }
 
 # ─── Role compatibility groups (for matching player roles to slots) ───
 
 _COMPAT: dict[str, list[str]] = {
     "GK": ["GK"],
-    "CB": ["CB", "LCB", "RCB"],
-    "LB": ["LB", "LWB", "RB", "RWB"],
-    "RB": ["RB", "RWB", "LB", "LWB"],
-    "CDM": ["CDM", "CM"],
-    "CM": ["CM", "CDM", "CAM"],
-    "CAM": ["CAM", "CM", "CF"],
-    "LW": ["LW", "LM", "RW", "RM"],
-    "RW": ["RW", "RM", "LW", "LM"],
-    "LM": ["LM", "LW", "CM"],
-    "RM": ["RM", "RW", "CM"],
-    "ST": ["ST", "CF", "LW", "RW"],
-    "CF": ["CF", "ST"],
+    "CB": ["DEF"], "LB": ["DEF"], "RB": ["DEF"], "LCB": ["DEF"], "RCB": ["DEF"],
+    "CDM": ["MID"], "CM": ["MID"], "CAM": ["MID"], "LM": ["MID"], "RM": ["MID"],
+    "LW": ["FWD"], "RW": ["FWD"], "ST": ["FWD"], "CF": ["FWD"],
 }
 
 
 def normalized_to_engine(nx: float, ny: float) -> tuple[float, float]:
-    """Convert normalized coords (0-100 x 0-65, SVG viewBox) → engine meters (center 0,0)."""
+    """Convert AgentPitch field coords (0-100 x 0-60) → engine meters (center 0,0)."""
     ex = (nx / 100.0) * PITCH_LENGTH - PITCH_LENGTH / 2.0
-    ey = (ny / 65.0) * PITCH_WIDTH - PITCH_WIDTH / 2.0
+    ey = (ny / 60.0) * PITCH_WIDTH - PITCH_WIDTH / 2.0
     return (ex, ey)
 
 

@@ -306,19 +306,19 @@ class GeneratedPolicy(Policy):
     def _build_gamestate_full(self, player, teammates, opponents, ball,
                               home_score, away_score, tick, half):
         my_team = player.team
-        opp_goal_x = 1.0 if my_team == "home" else 0.0
-        my_goal_x = 0.0 if my_team == "home" else 1.0
+        opp_goal_x = 100.0 if my_team == "home" else 0.0
+        my_goal_x = 0.0 if my_team == "home" else 100.0
 
-        def to_norm(x, y):
-            from try1000_engine.config import meters_to_normalized
-            nx, ny = meters_to_normalized(x, y)
-            return [nx, ny]
+        def to_field(x, y):
+            from try1000_engine.config import meters_to_field
+            fx, fy = meters_to_field(x, y)
+            return [fx, fy]
 
         def player_info(p):
             return {
                 "id": str(p.player_id),
                 "role": p.role,
-                "position": to_norm(p.x, p.y),
+                "position": to_field(p.x, p.y),
                 "has_ball": bool(p.has_ball),
             }
 
@@ -340,8 +340,8 @@ class GeneratedPolicy(Policy):
             team_phase = "transitioning"
 
         # Ball velocity in normalized units/tick
-        nvx = ball.vx / 105.0
-        nvy = ball.vy / 68.0
+        nvx = ball.vx / 100.0
+        nvy = ball.vy / 60.0
 
         return {
             "tick": tick,
@@ -350,7 +350,7 @@ class GeneratedPolicy(Policy):
             "score": {"home": home_score, "away": away_score},
             "team_phase": team_phase,
             "ball": {
-                "position": to_norm(ball.x, ball.y),
+                "position": to_field(ball.x, ball.y),
                 "velocity": [nvx, nvy],
                 "possession": ball.last_touch_team or None,
                 "carrier_id": str(ball.carrier_id) if ball.carrier_id else None,
@@ -360,20 +360,20 @@ class GeneratedPolicy(Policy):
             "teammates": [player_info(p) for p in teammates],
             "opponents": [player_info(p) for p in opponents],
             "field": {
-                "width": 68.0, "height": 105.0,
+                "width": 100.0, "height": 60.0,
                 "my_goal_x": my_goal_x, "opponent_goal_x": opp_goal_x,
-                "goal_top": 0.44, "goal_bottom": 0.56,
+                "goal_top": 30.0 + 3.66, "goal_bottom": 30.0 - 3.66,
             },
         }
 
     def _build_playerstate_full(self, player):
-        from try1000_engine.config import meters_to_normalized
-        nx, ny = meters_to_normalized(player.x, player.y)
+        from try1000_engine.config import meters_to_field
+        fx, fy = meters_to_field(player.x, player.y)
         return {
             "name": getattr(player, 'name', ''),
             "number": getattr(player, 'number', 0),
             "role": player.role,
-            "position": [nx, ny],
+            "position": [fx, fy],
             "pace": int(player.pace or 70), "shooting": int(player.shooting or 70),
             "passing": int(player.passing or 70), "dribbling": int(player.dribbling or 70),
             "defending": int(player.defending or 70), "physicality": int(player.physicality or 70),
@@ -421,8 +421,8 @@ class GeneratedPolicy(Policy):
             "teammates": self._build_teammates(obs),
             "opponents": self._build_opponents(obs),
             "field": {
-                "width": 68.0,
-                "height": 105.0,
+                "width": 100.0,
+                "height": 60.0,
                 "my_goal_x": my_goal_x,
                 "opponent_goal_x": opponent_goal_x,
                 "goal_top": 0.44,
@@ -470,8 +470,8 @@ class GeneratedPolicy(Policy):
             return []
         angle = obs.nearest_teammate_angle * math.pi
         dist = obs.nearest_teammate_distance * 80.0
-        tx = obs.ball_x + math.cos(angle) * dist / 105.0
-        ty = obs.ball_y + math.sin(angle) * dist / 68.0
+        tx = obs.ball_x + math.cos(angle) * dist / 100.0
+        ty = obs.ball_y + math.sin(angle) * dist / 60.0
         return [{
             "id": "teammate_0",
             "role": "CM",
@@ -485,8 +485,8 @@ class GeneratedPolicy(Policy):
             return []
         angle = obs.nearest_opponent_angle * math.pi
         dist = obs.nearest_opponent_distance * 80.0
-        ox = obs.ball_x + math.cos(angle) * dist / 105.0
-        oy = obs.ball_y + math.sin(angle) * dist / 68.0
+        ox = obs.ball_x + math.cos(angle) * dist / 100.0
+        oy = obs.ball_y + math.sin(angle) * dist / 60.0
         return [{
             "id": "opponent_0",
             "role": "CB",

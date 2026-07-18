@@ -1,8 +1,8 @@
 """Engine-wide constants and configuration."""
 
 # ─── Pitch Dimensions (meters) ───
-PITCH_LENGTH = 105.0          # touchline to touchline
-PITCH_WIDTH = 68.0            # goal line to goal line
+PITCH_LENGTH = 100.0          # AgentPitch field coords
+PITCH_WIDTH = 60.0            # AgentPitch field coords
 GOAL_WIDTH = 7.32             # 8 yards
 GOAL_DEPTH = 2.44             # 8 feet
 PENALTY_AREA_LENGTH = 16.5    # 18 yards
@@ -13,61 +13,65 @@ CENTER_CIRCLE_RADIUS = 9.15   # 10 yards
 PENALTY_SPOT_DISTANCE = 11.0  # 12 yards
 
 # ─── Time ───
-TICK_DURATION = 1.0           # seconds per tick
-MAX_TICKS = 5400              # 90 minutes * 60 seconds
-HALF_TIME_TICK = 2700         # 45 minutes
-EXTRA_TIME_TICKS_PER_HALF = 300  # 5 minutes max per half
-FAST_MODE_TICK_MULTIPLIER = 5 # fast mode: 5s per tick → 1080 ticks per match
+TICK_DURATION = 0.1           # seconds per tick (AgentPitch tick_rate=10)
+MAX_TICKS = 3000              # 5 minutes * 60 sec * 10 tick/sec
+HALF_TIME_TICK = 1500         # 2.5 minutes
+EXTRA_TIME_TICKS_PER_HALF = 3000  # 5 minutes max per half
+FAST_MODE_TICK_MULTIPLIER = 5 # fast mode: 0.5s per tick → still 10x faster
 
 # ─── Player Physics ───
-MAX_PLAYER_SPEED = 10.0       # m/s (~36 km/h, elite sprint)
-JOG_SPEED = 4.0               # m/s
-WALK_SPEED = 1.5              # m/s
+MAX_PLAYER_SPEED = 3.5        # m/tick (pace=100,speed=1.0 → 1.0*3.5*0.5=1.75m/tick=17.5m/s)
+JOG_SPEED = 1.5               # m/tick
+WALK_SPEED = 0.5              # m/tick
 PLAYER_RADIUS = 0.5           # collision radius (meters)
-BALL_CONTROL_RADIUS = 5.0     # max distance to control ball (generous for tactical sim)
+BALL_CONTROL_RADIUS = 1.5     # AgentPitch: 1.5 field units
 
 # ─── Ball Physics ───
-BALL_MAX_SPEED = 35.0         # m/s (~126 km/h, powerful shot)
-BALL_FRICTION = 0.98          # velocity decay per tick when rolling
-BALL_AIR_FRICTION = 0.995     # velocity decay per tick when in air
+BALL_MAX_SPEED = 3.5          # m/tick (power=20 → 3.5m/tick=35m/s; matches AgentPitch)
+BALL_FRICTION = 0.998         # velocity decay per tick when rolling (0.1s tick)
+BALL_AIR_FRICTION = 0.999     # velocity decay per tick when in air
 BALL_RADIUS = 0.11            # size 5 ball radius in meters
 
 # ─── Stamina ───
 STAMINA_MAX = 100.0
-STAMINA_MIN = 30.0            # can't drop below 30% (walking pace)
-STAMINA_BASE_DECAY = 0.02     # per tick at walking speed
-STAMINA_JOG_DECAY = 0.05      # per tick at jogging speed
-STAMINA_SPRINT_DECAY = 0.12   # per tick at sprint speed
-STAMINA_STAND_RECOVERY = 0.03 # per tick when standing/walking
-STAMINA_JOG_RECOVERY = 0.01   # per tick when jogging
-STAMINA_LOW_THRESHOLD = 50.0  # below this, speed starts dropping
+STAMINA_MIN = 30.0
+STAMINA_BASE_DECAY = 0.002    # per 0.1s tick (was 0.02 at 1s tick)
+STAMINA_JOG_DECAY = 0.005
+STAMINA_SPRINT_DECAY = 0.012
+STAMINA_STAND_RECOVERY = 0.003
+STAMINA_JOG_RECOVERY = 0.001
+STAMINA_LOW_THRESHOLD = 50.0
 STAMINA_CRITICAL_THRESHOLD = 35.0
 
 # ─── AI ───
-DECISION_TIME_BUDGET_MS = 5   # max ms per player per tick
-COOLDOWN_DURATION_TICKS = 3   # ticks before Pass/Shoot/Tackle allowed again
-CIRCUIT_BREAKER_LIMIT = 10    # consecutive failures → Hold for rest of match
-PERCEPTION_TEAMMATE_RADIUS = 30.0   # meters
-PERCEPTION_OPPONENT_RADIUS = 25.0   # meters
-PRESSURE_RADIUS = 5.0         # meters — "under pressure" threshold
+DECISION_TIME_BUDGET_MS = 2   # max ms per player per tick (stricter at 10 tick/s)
+COOLDOWN_DURATION_TICKS = 10  # AgentPitch: action_cooldown_ticks (1s at 10tick/s)
+CIRCUIT_BREAKER_LIMIT = 100   # consecutive failures → Hold
+PERCEPTION_TEAMMATE_RADIUS = 30.0
+PERCEPTION_OPPONENT_RADIUS = 25.0
+PRESSURE_RADIUS = 5.0
 
 # ─── Match ───
-MAX_EVENTS_PER_TICK = 50      # safety cap
-REPLAY_SAMPLE_RATE = 1        # record every tick (1 = all, 2 = every other)
-GOAL_RESET_TICKS = 10         # pause ticks after a goal
-HALF_TIME_PAUSE_TICKS = 5     # pause ticks at half-time
+MAX_EVENTS_PER_TICK = 50
+REPLAY_SAMPLE_RATE = 10       # record every 10th tick (1/s instead of 10/s)
+GOAL_RESET_TICKS = 50         # pause 5s after a goal (50 ticks at 10tick/s)
+HALF_TIME_PAUSE_TICKS = 50    # pause 5s at half-time
 
 # ─── Normalized Coordinates ───
 # Internal representation uses meters (0,0 at center circle)
 # Replay output uses normalized 0-1 (0,0 at top-left)
-def meters_to_normalized(x_m: float, y_m: float) -> tuple[float, float]:
-    """Convert meter coordinates to normalized 0-1 for replay."""
-    nx = (x_m + PITCH_LENGTH / 2) / PITCH_LENGTH
-    ny = (y_m + PITCH_WIDTH / 2) / PITCH_WIDTH
-    return (nx, ny)
+def meters_to_normalized(x: float, y: float) -> tuple[float, float]:
+    """Convert engine coords (center 0,0) → normalized 0-1 for frontend replay."""
+    return ((x + 50.0) / 100.0, (y + 30.0) / 60.0)
 
 def normalized_to_meters(nx: float, ny: float) -> tuple[float, float]:
-    """Convert normalized 0-1 coordinates to meters."""
-    x_m = nx * PITCH_LENGTH - PITCH_LENGTH / 2
-    y_m = ny * PITCH_WIDTH - PITCH_WIDTH / 2
-    return (x_m, y_m)
+    """Convert normalized 0-1 → engine coords (center 0,0)."""
+    return (nx * 100.0 - 50.0, ny * 60.0 - 30.0)
+
+def meters_to_field(x: float, y: float) -> tuple[float, float]:
+    """Convert engine coords (center 0,0) → AgentPitch field coords (origin 0,0)."""
+    return (x + 50.0, y + 30.0)
+
+def field_to_meters(fx: float, fy: float) -> tuple[float, float]:
+    """Convert AgentPitch field coords (origin 0,0) → engine coords (center 0,0)."""
+    return (fx - 50.0, fy - 30.0)

@@ -316,11 +316,16 @@ Field and goal geometry vary — ALWAYS read from inputs:
   goal_center_y = (game_state["field"]["goal_top"] + game_state["field"]["goal_bottom"]) / 2
 Pick your defending goal by team. Attack the OPPOSITE goal. These swap at half-time — read them every tick.
 
-=== BALL CARRIER LOGIC ===
+=== BALL CARRIER LOGIC (CRITICAL) ===
+EVERY player, including special ones (_9, _10, etc.), MUST handle has_ball=True.
+If you get the ball, you MUST do something with it. The worst outcome is Hold() —
+a carrier who Holds freezes the match. No player is exempt from this rule.
 - Attacking third → Shoot if within range and central, else Pass to a forward teammate.
 - Own half → Pass forward to an open teammate, or Dribble into space.
 - No good option → Move TOWARD opponent's goal (general direction, not fixed spot).
 - Never Hold for more than 2-3 ticks — keep the ball moving.
+- AFTER your per-role special logic, ALWAYS have a fallback carrier branch:
+  if has_ball: return Dribble toward opponent's goal or Pass to nearest open teammate.
 
 === OFF-BALL LOGIC ===
 - Team attacking: Move TOWARD the ball to support, find gaps between defenders.

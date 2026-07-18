@@ -2,7 +2,7 @@
 
 import json
 from typing import TextIO
-from try1000_engine.config import meters_to_normalized
+from try1000_engine.config import meters_to_field
 from try1000_engine.physics.player import Player
 from try1000_engine.physics.ball import Ball
 
@@ -44,11 +44,11 @@ class ReplayRecorder:
         """Record one tick of match state."""
         tick_data = {
             "t": tick,
-            "ball": list(meters_to_normalized(ball.x, ball.y)),
+            "ball": list(meters_to_field(ball.x, ball.y)),
             "players": [
                 {
                     "id": p.player_id,
-                    "pos": list(meters_to_normalized(p.x, p.y)),
+                    "pos": list(meters_to_field(p.x, p.y)),
                     "team": p.team,
                     "stamina": round(p.stamina, 1),
                 }

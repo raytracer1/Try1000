@@ -97,10 +97,10 @@ export default function SimulationPage() {
       await startSimulation({
         match_count: matchCount,
         home_players: (home.players || []).map((p: any) => ({
-          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes,
+          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes, ap: p.ap,
         })),
         away_players: (away.players || []).map((p: any) => ({
-          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes,
+          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes, ap: p.ap,
         })),
         home_tactic: {
           team_name: home.name,

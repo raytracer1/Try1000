@@ -212,6 +212,19 @@ def convert_team(yaml_path: Path, existing: dict) -> dict | None:
             "position": pos,
             "overall": overall,
             "attributes": attrs,
+            "ap": {  # Original AgentPitch 1-20 values (lossless)
+                "speed": p.get("speed", 10),
+                "skill": p.get("skill", 10),
+                "strength": p.get("strength", 10),
+                "save": p.get("save", 0),
+                "discipline": p.get("discipline", 10),
+                "dribbling": p.get("dribbling", 10),
+                "passing": p.get("pass", 10),
+                "shooting": p.get("shoot", 10),
+                "stamina": p.get("stamina", 10),
+                "offensive": p.get("offensive", 6),
+                "penalty": p.get("penalty", 10),
+            },
             "image": image,
         })
 

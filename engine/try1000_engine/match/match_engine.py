@@ -30,10 +30,7 @@ from try1000_engine.physics.ball import Ball
 from try1000_engine.physics.player import Player
 from try1000_engine.physics.collision import CollisionSystem
 from try1000_engine.physics.stamina import Stamina
-from try1000_engine.physics.ball_physics_system import advance_ball, resolve_ball_control
-from try1000_engine.physics.player_movement_system import (
-    compute_move_result, apply_snap, detect_dribble_target,
-)
+from try1000_engine.physics.ball_physics_system import advance_ball
 
 from try1000_engine.actions.base import ActionType, ActionOutput
 from try1000_engine.actions.pass_action import PassAction
@@ -278,18 +275,9 @@ class MatchEngine:
         if self.phase == MatchPhase.FULL_TIME:
             return
 
-            # Active tick: KICK_OFF or IN_PLAY — use unified ARE
-        snapshot = self._phase1_snapshot()
-
-        decisions: dict[str, ActionOutput] = {}
-        for player in self.players:
-            decisions[player.player_id] = self._phase2_decide(player, snapshot)
-
-        decisions = self._phase3_validate(decisions, snapshot)
-
-        # ARE: unified action resolution (replaces old phases 4-7)
+            # Active tick: KICK_OFF or IN_PLAY — AgentPitch ARE Phases 2-7
         from try1000_engine.match.action_resolver import resolve_tick
-        tick_events = resolve_tick(self, decisions, self.rng)
+        tick_events = resolve_tick(self, self.rng)
 
         # Stamina update
         for p in self.players:
@@ -301,17 +289,6 @@ class MatchEngine:
         # Clamp players to pitch
         for p in self.players:
             self.collision.clamp_to_pitch(p)
-
-        # Play phase transition
-        if self.phase in (MatchPhase.KICK_OFF, MatchPhase.IN_PLAY):
-            carrier = self._find_ball_carrier()
-            if carrier:
-                if carrier.team == "home":
-                    self.play_phase = PlayPhase.ATTACK if carrier.x > PITCH_LENGTH * 0.2 else PlayPhase.BUILD_UP
-                else:
-                    self.play_phase = PlayPhase.ATTACK if carrier.x < -PITCH_LENGTH * 0.2 else PlayPhase.BUILD_UP
-            else:
-                self.play_phase = PlayPhase.TRANSITION
 
         # Replay recording
         if self.record_replay and self.replay and self.tick % self.replay_sample_rate == 0:
@@ -325,7 +302,7 @@ class MatchEngine:
                 events=[e for e in tick_events.values() if isinstance(e, dict) and e.get("type")],
             )
 
-        # Record events to the event recorder
+        # Record events
         for pid, evt in tick_events.items():
             if pid.startswith("_") or not isinstance(evt, dict):
                 continue
@@ -333,40 +310,16 @@ class MatchEngine:
             success = evt.get("success", False)
             data = evt.get("data", {})
             if atype in ("pass", "shoot", "cross", "tackle", "intercept", "dribble_contest"):
-                etype = {
-                    "pass": EventType.PASS, "shoot": EventType.SHOOT,
-                    "cross": EventType.CROSS, "tackle": EventType.TACKLE,
-                    "intercept": EventType.INTERCEPT,
-                    "dribble_contest": EventType.DRIBBLE,
-                }.get(atype, EventType.PASS)
-                self.recorder.record(self.tick, Event(
-                    tick=self.tick, event_type=etype, actor=pid,
-                    success=success, data=data,
-                ))
+                etype = {"pass": EventType.PASS, "shoot": EventType.SHOOT, "cross": EventType.CROSS,
+                         "tackle": EventType.TACKLE, "intercept": EventType.INTERCEPT,
+                         "dribble_contest": EventType.DRIBBLE}.get(atype, EventType.PASS)
+                self.recorder.record(self.tick, Event(tick=self.tick, event_type=etype, actor=pid, success=success, data=data))
                 self._record_history(pid, data)
             elif atype == "goal":
-                self.recorder.record(self.tick, Event(
-                    tick=self.tick, event_type=EventType.GOAL,
-                    data=data,
-                ))
-
-        # OOB / Offside / Penalty events
+                self.recorder.record(self.tick, Event(tick=self.tick, event_type=EventType.GOAL, data=data))
         if "_oob" in tick_events:
-            oob_type = tick_events["_oob"].get("type", "throw_in")
-            self.recorder.record(self.tick, Event(
-                tick=self.tick,
-                event_type=EventType.THROW_IN if oob_type == "throw_in" else EventType.GOAL_KICK,
-            ))
-        if "_offside" in tick_events:
-            self.recorder.record(self.tick, Event(
-                tick=self.tick, event_type=EventType.GOAL_KICK,
-                data={"offside_player": tick_events["_offside"]["data"].get("player")},
-            ))
-        if "_penalty" in tick_events:
-            self.recorder.record(self.tick, Event(
-                tick=self.tick, event_type=EventType.GOAL,
-                data={"penalty_awarded": tick_events["_penalty"]["team"]},
-            ))
+            self.recorder.record(self.tick, Event(tick=self.tick,
+                event_type=EventType.THROW_IN if tick_events["_oob"].get("type")=="throw_in" else EventType.GOAL_KICK))
 
         # Possession tracking
         carrier = self._find_ball_carrier()
@@ -415,9 +368,15 @@ class MatchEngine:
             policy = self._away_roles.get(player.role, self._away_default)
 
         try:
+            # Compute dynamic formation anchor (FRS + 3-phase shift) for AgentPitch baseline
+            anchor = self._get_anchor(player)
+            player._anchor_x = anchor[0]
+            player._anchor_y = anchor[1]
+
             # Use decide_with_context for policies that support it
             from try1000_engine.ai.generated_policy import GeneratedPolicy
-            if isinstance(policy, (RuleBasedPolicy, GeneratedPolicy)):
+            from try1000_engine.ai.baseline_agentpitch import AgentPitchBaselinePolicy
+            if isinstance(policy, (RuleBasedPolicy, GeneratedPolicy, AgentPitchBaselinePolicy)):
                 teammates = snapshot.home_players if player.team == "home" else snapshot.away_players
                 opponents = snapshot.away_players if player.team == "home" else snapshot.home_players
                 history = self._history.get(player.player_id, [])
@@ -499,13 +458,13 @@ class MatchEngine:
         return validated
 
     def _clamp_action(self, action: ActionOutput) -> ActionOutput:
-        """Ensure action parameters are within valid ranges."""
+        """Ensure action parameters are within valid ranges (AgentPitch field coords)."""
         action.dx = max(-1.0, min(1.0, action.dx))
         action.dy = max(-1.0, min(1.0, action.dy))
         action.speed = max(0.0, min(1.0, action.speed))
         action.power = max(1.0, min(20.0, action.power))
-        action.target_x = max(0.0, min(1.0, action.target_x))
-        action.target_y = max(0.0, min(1.0, action.target_y))
+        action.target_x = max(0.0, min(100.0, action.target_x))
+        action.target_y = max(0.0, min(60.0, action.target_y))
         return action
 
     # ═══════════════════════════════════════════════════════════════
@@ -837,17 +796,20 @@ class MatchEngine:
                 p.x = 0.0
                 p.y = 0.0
                 continue
-            # Determine correct half for this player
-            in_own_half = (p.x <= 0) if p.team == kickoff_team else (p.x >= 0)
+            # Determine correct half for this player (home defends left/neg, away defends right/pos)
+            if p.team == "home":
+                in_own_half = (p.x <= 0)
+                push_sign = -1.0
+            else:
+                in_own_half = (p.x >= 0)
+                push_sign = 1.0
             dist_sq = p.x * p.x + p.y * p.y
             if not in_own_half or dist_sq < circle_r_sq:
-                # Push player to correct half, outside circle
-                sign = -1.0 if p.team == kickoff_team else 1.0
                 push_dist = CENTER_CIRCLE_RADIUS + 2.0
                 if abs(p.y) < 0.1:
-                    p.y = 3.0  # avoid exact center
-                angle = math.atan2(p.y, sign * abs(p.x) if p.x != 0 else 1.0)
-                p.x = sign * push_dist * abs(math.cos(angle)) + (sign * 2.0)
+                    p.y = 3.0
+                angle = math.atan2(p.y, push_sign * abs(p.x) if p.x != 0 else 1.0)
+                p.x = push_sign * push_dist * abs(math.cos(angle)) + (push_sign * 2.0)
                 # Clamp to pitch bounds
                 half_l = PITCH_LENGTH / 2
                 p.x = max(-half_l, min(half_l, p.x))
@@ -885,9 +847,12 @@ class MatchEngine:
         if self.replay:
             self.replay.open()
 
-        # Setup kickoff — home team starts
-        self._kickoff_team = "home"
-        self._second_half_kickoff_team = "away"
+        # Setup kickoff — AgentPitch: hash_01(seed) < 0.5
+        import hashlib
+        h = hashlib.sha256(f"kickoff_{self.rng.randint(0, 2**32)}".encode()).digest()
+        kickoff_home = int.from_bytes(h[:4], 'big') / (2**32) < 0.5
+        self._kickoff_team = "home" if kickoff_home else "away"
+        self._second_half_kickoff_team = "away" if kickoff_home else "home"
         self._setup_kickoff(self._kickoff_team)
 
     def _reset_positions(self):
@@ -904,14 +869,52 @@ class MatchEngine:
                 p.x, p.y = anchor
 
     def _get_anchor(self, player: Player) -> tuple[float, float]:
-        """Return the formation anchor position for a player (FRS)."""
+        """Return the dynamic formation anchor for a player (FRS + phase shift).
+
+        Shifts anchor forward/backward based on team possession phase,
+        like AgentPitch's formation_zone system:
+          - attacking  → push up toward opponent's goal
+          - defending  → compress toward own goal
+          - transition → spread across midfield
+        """
         from try1000_engine.match.formation import compute_anchors, mirror_anchors
         formation = getattr(self, '_formation', "4-3-3")
         team_players = [p for p in self.players if p.team == player.team]
-        anchors = compute_anchors(formation, team_players)
+        static = compute_anchors(formation, team_players)
         if player.team == "away":
-            anchors = mirror_anchors(anchors)
-        return anchors.get(player.player_id, (player.x, player.y))
+            static = mirror_anchors(static)
+        x, y = static.get(player.player_id, (player.x, player.y))
+
+        # Stable phase detection: use last_touch_team (survives ball flight)
+        lt = getattr(self.ball, 'last_touch_team', None)
+        if lt:
+            if lt == player.team:
+                phase = "attacking"
+            else:
+                phase = "defending"
+        else:
+            phase = "transitioning"
+
+        # AgentPitch formation zones per role (field coords):
+        #   defending:   DEF~12, MID~30, FWD~45
+        #   attacking:   DEF~52, MID~68, FWD~84
+        # Role-based shift from static anchors (DEF~18, MID~35, FWD/ST~48-84)
+        if phase == "attacking":
+            if player.role in ("GK",): shift = 0
+            elif player.role in ("CB","LB","RB","LCB","RCB"): shift = 34  # 18→52
+            elif player.role in ("CDM","CM","CAM","LM","RM"): shift = 33 # 35→68
+            else: shift = 34  # ST/CF/LW/RW: anchored at ~50, push to ~84 (AgentPitch FWD attacking zone)
+            shift_x = shift if player.team == "home" else -shift
+        elif phase == "defending":
+            if player.role in ("GK",): shift = 0
+            elif player.role in ("CB","LB","RB","LCB","RCB"): shift = -6 # 18→12
+            elif player.role in ("CDM","CM","CAM","LM","RM"): shift = -5 # 35→30
+            else: shift = -5  # ST: ~50→45
+            shift_x = shift if player.team == "home" else -shift
+        else:
+            shift_x = 0.0
+
+        return (x + shift_x, y)
 
     def _find_player(self, player_id: str) -> Player | None:
         for p in self.players:

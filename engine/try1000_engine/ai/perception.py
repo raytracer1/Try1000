@@ -41,6 +41,9 @@ class Perception:
         nx, ny = meters_to_normalized(ball.x, ball.y)
         obs.ball_x = nx
         obs.ball_y = ny
+        pnx, pny = meters_to_normalized(player.x, player.y)
+        obs.player_x = pnx
+        obs.player_y = pny
         dist_to_ball = player.distance_to(ball.x, ball.y)
         obs.ball_distance = min(1.0, dist_to_ball / 60.0)
 

@@ -57,6 +57,7 @@ class InterceptAction:
         if rng.random() < intercept_chance:
             # Intercepted! Player gains possession
             player.has_ball = True
+            ball.carrier_id = player.player_id
             ball.x = player.x
             ball.y = player.y
             ball.vx = 0

@@ -18,6 +18,10 @@ class Observation:
     Total: 49 dimensions.
     """
 
+    # ─── Player position ───
+    player_x: float = 0.5           # normalized 0-1
+    player_y: float = 0.5
+
     # ─── Ball features (5) ───
     ball_x: float = 0.5            # normalized 0-1
     ball_y: float = 0.5

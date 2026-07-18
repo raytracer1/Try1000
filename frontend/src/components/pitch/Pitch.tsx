@@ -5,11 +5,11 @@ import { useState, useCallback, useRef } from "react";
 /* ── Formations ── */
 // All positions in left half (0-50). flip=true mirrors to right half.
 const POSITIONS: Record<string, { x: number; y: number }[]> = {
-  "4-3-3": [{x:5,y:32},{x:18,y:20},{x:18,y:44},{x:22,y:6},{x:22,y:58},{x:32,y:32},{x:40,y:18},{x:40,y:46},{x:46,y:8},{x:46,y:56},{x:50,y:32}],
-  "4-4-2": [{x:5,y:32},{x:18,y:20},{x:18,y:44},{x:22,y:6},{x:22,y:58},{x:32,y:10},{x:32,y:54},{x:42,y:22},{x:42,y:42},{x:48,y:22},{x:48,y:42}],
-  "3-5-2": [{x:5,y:32},{x:18,y:20},{x:18,y:44},{x:24,y:32},{x:32,y:8},{x:32,y:56},{x:38,y:22},{x:38,y:42},{x:30,y:32},{x:48,y:22},{x:48,y:42}],
-  "4-2-3-1":[{x:5,y:32},{x:18,y:20},{x:18,y:44},{x:22,y:6},{x:22,y:58},{x:34,y:22},{x:34,y:42},{x:42,y:10},{x:40,y:32},{x:42,y:54},{x:50,y:32}],
-  "3-4-3": [{x:5,y:32},{x:18,y:20},{x:18,y:44},{x:30,y:8},{x:30,y:56},{x:36,y:22},{x:36,y:42},{x:44,y:10},{x:44,y:54},{x:42,y:22},{x:42,y:42},{x:39,y:32}],
+  "4-3-3": [{x:8,y:30},{x:25,y:12},{x:25,y:24},{x:25,y:36},{x:25,y:48},{x:50,y:20},{x:50,y:30},{x:50,y:40},{x:70,y:15},{x:75,y:30},{x:70,y:45}],
+  "4-4-2": [{x:8,y:30},{x:25,y:12},{x:25,y:24},{x:25,y:36},{x:25,y:48},{x:50,y:12},{x:50,y:24},{x:50,y:36},{x:50,y:48},{x:75,y:20},{x:75,y:40}],
+  "3-5-2": [{x:8,y:30},{x:25,y:12},{x:25,y:30},{x:25,y:48},{x:50,y:8},{x:50,y:20},{x:50,y:30},{x:50,y:40},{x:50,y:52},{x:75,y:20},{x:75,y:40}],
+  "4-2-3-1":[{x:8,y:30},{x:25,y:12},{x:25,y:24},{x:25,y:36},{x:25,y:48},{x:45,y:22},{x:45,y:38},{x:60,y:12},{x:60,y:30},{x:60,y:48},{x:80,y:30}],
+  "3-4-3": [{x:8,y:30},{x:25,y:12},{x:25,y:30},{x:25,y:48},{x:50,y:8},{x:50,y:22},{x:50,y:30},{x:50,y:38},{x:50,y:52},{x:75,y:12},{x:75,y:48},{x:80,y:30}],
 };
 const SLOT_ROLES: Record<string, string[]> = {
   "4-3-3":["GK","CB","CB","LB","RB","CDM","CM","CM","LW","RW","ST"],
@@ -135,8 +135,8 @@ export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, 
   const players = (L: any[], color: string, t: "h" | "a") =>
     L.map((p: any, i: number) => (
       <g key={i} cursor="pointer" onMouseDown={onDown(t, i)} onDoubleClick={onDblClick(t, i)}>
-        <circle cx={p.px} cy={p.py} r={2.8} fill={color} stroke="white" strokeWidth="0.3" />
-        <text x={p.px} y={p.py + 0.7} textAnchor="middle" fill="white" fontSize="1.8" fontWeight="bold" fontFamily="sans-serif">{p.number || i + 1}</text>
+        <circle cx={p.px} cy={p.py} r={1.8} fill={color} stroke="white" strokeWidth="0.3" />
+        <text x={p.px} y={p.py + 0.7} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">{p.number || i + 1}</text>
         <text x={p.px} y={p.py + 4.5} textAnchor="middle" fill="white" fontSize="1.6" fontFamily="sans-serif">{p.name.length > 11 ? p.name.slice(0, 10) + "." : p.name}</text>
         {sub && sub.t === t && sub.i === i && (
           <circle cx={p.px} cy={p.py} r={3.5} fill="none" stroke="yellow" strokeWidth="0.5" strokeDasharray="2,1" />
@@ -168,25 +168,25 @@ export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, 
 
       {/* Pitch */}
       <div ref={pitchRef} className="relative w-full bg-stone-100 rounded-lg overflow-hidden" style={{ paddingBottom: "62%" }}>
-        <svg ref={svgRef} viewBox="0 0 100 65" className="absolute inset-0 w-full h-full" style={{ background: "#2d8a3e" }}
+        <svg ref={svgRef} viewBox="0 0 100 60" className="absolute inset-0 w-full h-full" style={{ background: "#1f3a2a" }}
           onMouseMove={onMove} onMouseUp={onUp} onMouseLeave={onUp}>
           {/* Pitch stripes — 16 equal alternating light/dark columns */}
           {Array.from({ length: 10 }, (_, i) => (
-            <rect key={i} x={i * 10} y={0} width={10} height={65} fill={i % 2 === 0 ? "#2e9641" : "#2a8639"} opacity="0.6" />
+            <rect key={i} x={i * 10} y={0} width={10} height={60} fill={i % 2 === 0 ? "#23422f" : "#1f3a2a"} opacity="0.5" />
           ))}
-          <rect x="1" y="1" width="98" height="63" fill="none" stroke="white" strokeWidth="0.25" opacity="0.7" />
-          <line x1="50" y1="1" x2="50" y2="64" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <circle cx="50" cy="32" r="6" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <rect x="1" y="17" width="16" height="31" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
-          <rect x="83" y="17" width="16" height="31" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
-          <rect x="1" y="25" width="6" height="15" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <rect x="93" y="25" width="6" height="15" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <rect x="-1" y="28" width="2" height="9" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
-          <rect x="99" y="28" width="2" height="9" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
-          <circle cx="12" cy="32" r="0.3" fill="white" opacity="0.4" />
-          <circle cx="88" cy="32" r="0.3" fill="white" opacity="0.4" />
-          {players(homeL, "#1a73e8", "h")}
-          {players(awayL, "#dc3545", "a")}
+          <rect x="1" y="1" width="98" height="58" fill="none" stroke="white" strokeWidth="0.25" opacity="0.7" />
+          <line x1="50" y1="1" x2="50" y2="59" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <circle cx="50" cy="30" r="6" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <rect x="1" y="16" width="16" height="28" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
+          <rect x="83" y="16" width="16" height="28" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
+          <rect x="1" y="23" width="6" height="14" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <rect x="93" y="23" width="6" height="14" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <rect x="-1" y="26" width="2" height="8" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
+          <rect x="99" y="26" width="2" height="8" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
+          <circle cx="12" cy="30" r="0.3" fill="white" opacity="0.4" />
+          <circle cx="88" cy="30" r="0.3" fill="white" opacity="0.4" />
+          {players(homeL, "#f2a44b", "h")}
+          {players(awayL, "#b08cff", "a")}
         </svg>
 
         {/* Sub picker popup — fixed position to avoid clipping */}
@@ -204,8 +204,8 @@ export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, 
         )}
 
         <div className="absolute bottom-2 left-2 flex gap-3 text-xs text-white bg-black/40 rounded px-3 py-1">
-          <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-[#1a73e8]" /> Home</span>
-          <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-[#dc3545]" /> Away</span>
+          <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-[#f2a44b]" /> Home</span>
+          <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-[#b08cff]" /> Away</span>
         </div>
       </div>
     </div>

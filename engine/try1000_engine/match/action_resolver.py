@@ -1,19 +1,15 @@
-"""Action Resolution Engine — stateless tick orchestrator.
+"""Action Resolution Engine — AgentPitch 7-phase tick orchestrator.
 
-Replaces Phase 4/5/6 of the MatchEngine with a single resolve_tick() call.
-All actions read from one pre-tick snapshot (ADR-0009: compute-all-then-commit).
+Exact match of AgentPitch's ARE phase order:
+  1. Snapshot build (in engine, passed in)
+  2. Action generation (AI decide → ActionOutput)
+  3. Action validation (cooldown, range clamp)
+  4. Player movement (PMS resolve)
+  5. Ball physics (BPS advance + control contest)
+  6. Goal detection
+  7. Phase transitions (play_phase update)
 
-Order per AgentPitch ARE:
-  1. Movement (Move / Dribble) → PMS
-  2. Ball actions (Pass / Shoot / Cross) → BPS + action logic
-  3. Defensive actions (Tackle / Intercept) → contest + fouls
-  4. Ball physics + control contest → BPS + offside enforcement
-  5. Goal detection
-
-IFAB Laws implemented:
-  - Law 11: Offside (flag at pass, enforce at ball receipt)
-  - Law 12: Fouls + yellow/red cards (tackle-based, penalty area → penalty)
-"""
+IFAB Laws: offside (Law 11), fouls + cards (Law 12)."""
 
 from __future__ import annotations
 import math
@@ -46,36 +42,34 @@ def _skill_attr(player: Any, attr: str) -> int:
 
 
 def resolve_tick(
-    engine,  # MatchEngine instance (for state access)
-    decisions: dict[str, ActionOutput],
+    engine,  # MatchEngine instance
     rng: random.Random,
 ) -> dict[str, dict]:
-    """Resolve one tick's worth of actions against the current game state.
+    """AgentPitch ARE Phases 2-7. Engine builds snapshot (Phase 1) externally."""
 
-    Args:
-        engine: MatchEngine (provides self.players, self.ball, etc.)
-        decisions: validated {player_id: ActionOutput} from AI
-        rng: seeded random instance
-
-    Returns:
-        events: dict of {player_id: {"type": ..., "success": bool, "data": {...}}}
-    """
     events: dict[str, dict] = {}
 
-    # ─── Phase 1: Player Movement ───
+    # ─── Phase 2: Action Generation (AgentPitch: sandbox decide()) ───
+    decisions: dict[str, ActionOutput] = {}
+    for player in engine.players:
+        decisions[player.player_id] = engine._phase2_decide(player, engine._phase1_snapshot())
+
+    # ─── Phase 3: Action Validation (cooldown, clamp) ───
+    decisions = engine._phase3_validate(decisions, engine._phase1_snapshot())
+
+    # ─── Phase 4: Player Movement (AgentPitch PMS) ───
     _resolve_movement(engine, decisions, events, rng)
 
-    # ─── Phase 2: Ball Actions (Pass / Shoot / Cross) ───
+    # ─── Phase 5: Ball Physics (AgentPitch BPS) ───
     _resolve_ball_actions(engine, decisions, events, rng)
-
-    # ─── Phase 3: Defensive Actions (Tackle / Intercept) ───
     _resolve_defensive(engine, decisions, events, rng)
-
-    # ─── Phase 4: Ball Physics + Control Contest ───
     _resolve_ball_physics(engine, rng, events)
 
-    # ─── Phase 5: Goal Detection ───
+    # ─── Phase 6: Goal Detection ───
     _detect_goal(engine, events, rng)
+
+    # ─── Phase 7: Phase Transitions ───
+    _phase_transitions(engine, events)
 
     return events
 
@@ -85,50 +79,38 @@ def resolve_tick(
 # ═══════════════════════════════════════════════
 
 def _resolve_movement(engine, decisions, events, rng):
-    """Process Move and Dribble actions. Idle players snap toward formation anchor."""
+    """Process Move and Dribble — AgentPitch PMS. Idle players snap to anchor."""
     for pid, action in decisions.items():
         player = engine._find_player(pid)
         if player is None or getattr(player, 'sent_off', False):
             continue
 
         at = ActionType(action.action_type)
+        is_active = (at in (ActionType.MOVE, ActionType.DRIBBLE) and action.speed >= 0.5)
+
         if at in (ActionType.MOVE, ActionType.DRIBBLE):
-            new_pos = compute_move_result(
-                current_pos=(player.x, player.y),
-                dx=action.dx, dy=action.dy,
-                speed_ratio=action.speed,
-                player_attr=_skill_attr(player, "pace"),
-                role=player.role,
-            )
+            # AgentPitch compute_move_result
+            new_pos = compute_move_result(player, action.dx, action.dy, action.speed)
             player.x, player.y = new_pos
 
-            # Dribble: ball follows carrier closely
-            if at == ActionType.DRIBBLE and player.has_ball:
-                engine.ball.x += (player.x - engine.ball.x) * 0.8
-                engine.ball.y += (player.y - engine.ball.y) * 0.8
-
-            # Dribble contest detection
+            # Ball follows carrier (AgentPitch: BPS syncs carrier position to ball each tick)
             if player.has_ball:
-                target = detect_dribble_target(
-                    player_pos=(player.x, player.y),
-                    player_team=player.team,
-                    all_players=engine.players,
-                    dribble_range=2.5,
-                )
+                engine.ball.x = player.x
+                engine.ball.y = player.y
+
+            # Dribble contest detection (AgentPitch Formula 4)
+            if player.has_ball:
+                target = detect_dribble_target(player, engine.players)
                 if target:
-                    events[pid] = {
-                        "type": "dribble_contest",
-                        "success": False,
-                        "data": {"opponent": target},
-                    }
+                    events[pid] = {"type": "dribble_contest", "success": False, "data": {"opponent": target}}
         else:
-            # Idle: snap toward formation anchor
+            is_active = False
+
+        # AgentPitch snap: only for idle players (Hold, or Move at speed<0.5)
+        if not is_active and not player.has_ball:
             anchor = engine._get_anchor(player)
-            new_pos = apply_snap(
-                current_pos=(player.x, player.y),
-                anchor_pos=anchor,
-                discipline=_skill_attr(player, "awareness") / 100.0,
-            )
+            force = min(getattr(player, 'awareness', 70) / 100.0, 0.20)
+            new_pos = apply_snap(player, anchor[0], anchor[1], force)
             player.x, player.y = new_pos
 
 
@@ -165,11 +147,11 @@ def _resolve_ball_actions(engine, decisions, events, rng):
             if at == ActionType.PASS:
                 engine._offside_flagged = _check_offside(engine, player)
 
-            # Set landing zone for BPS pass tracking
-            if at == ActionType.PASS and "target_x" in event_data:
+            # Set landing zone for BPS pass tracking (meters)
+            if at == ActionType.PASS and "landing_mx" in event_data:
                 engine._pass_landing_zone = (
-                    event_data["target_x"],
-                    event_data["target_y"],
+                    event_data["landing_mx"],
+                    event_data["landing_my"],
                 )
             # Transfer possession away from passer/shooter
             player.has_ball = False
@@ -194,16 +176,21 @@ def _resolve_defensive(engine, decisions, events, rng):
         if at == ActionType.TACKLE:
             _resolve_tackle(engine, player, action, events, rng)
 
-    # Auto-intercepts: any player can intercept a pass moving near them
-    for p in engine.players:
-        if engine.ball.carrier_id is None and engine.ball.last_touch_team and p.team != engine.ball.last_touch_team:
-            event_data = engine.intercept_action.try_intercept(p, engine.ball, engine.players, rng)
-            if event_data:
-                events[p.player_id] = {
-                    "type": "intercept",
-                    "success": True,
-                    "data": event_data,
-                }
+    # Auto-intercepts: only for moving balls, exclude passers + kickoff player
+    ball_speed = math.sqrt(engine.ball.vx**2 + engine.ball.vy**2)
+    if ball_speed > 0.5:
+        for p in engine.players:
+            if (engine.ball.carrier_id is None and engine.ball.last_touch_team
+                    and p.team != engine.ball.last_touch_team
+                    and not p.has_ball
+                    and not getattr(p, 'is_on_cooldown', False)):
+                event_data = engine.intercept_action.try_intercept(p, engine.ball, engine.players, rng)
+                if event_data:
+                    events[p.player_id] = {
+                        "type": "intercept",
+                        "success": True,
+                        "data": event_data,
+                    }
 
 
 # ═══════════════════════════════════════════════
@@ -216,10 +203,10 @@ def _resolve_ball_physics(engine, rng, events):
     carrier_id = ball.carrier_id
 
     if carrier_id is None:
-        # Save velocity before BPS clamping (for goal detection)
+        # AgentPitch: ball with velocity was just passed THIS tick — advance immediately
+        # (matches AgentPitch's Phase 5 BPS which runs in the same tick)
         engine._ball_vx_before_bps = ball.vx
         engine._ball_vy_before_bps = ball.vy
-        # Loose ball: compute physics
         landing = getattr(engine, '_pass_landing_zone', None)
         new_pos, new_vel, oob = advance_ball(
             (ball.x, ball.y), (ball.vx, ball.vy), landing,
@@ -229,7 +216,51 @@ def _resolve_ball_physics(engine, rng, events):
 
         if oob:
             # Determine restart type
-            oob_type = "goal_kick" if abs(ball.x) > PITCH_LENGTH * 0.45 else "throw_in"
+            if abs(ball.x) > PITCH_LENGTH * 0.45:
+                # Past goal line: goal kick or corner
+                defending_team = "away" if ball.x > 0 else "home"
+                attacking_team = "home" if defending_team == "away" else "away"
+                # Corner: defending team touched it last → corner for attackers
+                if ball.last_touch_team == defending_team:
+                    oob_type = "corner"
+                    corner_x = PITCH_LENGTH/2 - 1  # 1m inside corner
+                    ball.x = corner_x if attacking_team == "home" else -corner_x
+                    ball.y = PITCH_WIDTH/2 - 1 if ball.y > 0 else -PITCH_WIDTH/2 + 1
+                    # Give to nearest attacker (non-GK)
+                    candidates = [p for p in engine.players if p.team == attacking_team and p.role != "GK"]
+                    if candidates:
+                        nearest = min(candidates, key=lambda p: (p.x - ball.x)**2 + (p.y - ball.y)**2)
+                        ball.carrier_id = nearest.player_id
+                        nearest.has_ball = True
+                        ball.last_touch_team = attacking_team
+                else:
+                    # Goal kick: give to defending GK
+                    oob_type = "goal_kick"
+                    ball.x = PITCH_LENGTH * 0.45 if defending_team == "home" else -PITCH_LENGTH * 0.45
+                    ball.y = 0.0
+                    for p in engine.players:
+                        if p.team == defending_team and p.role == "GK":
+                            ball.carrier_id = p.player_id
+                            p.has_ball = True
+                            ball.last_touch_team = defending_team
+                            break
+            else:
+                # Throw-in: ball 3m inside from touchline, give to opposing team
+                oob_type = "throw_in"
+                opposing_team = "away" if ball.last_touch_team == "home" else "home"
+                if not opposing_team:
+                    opposing_team = "home"
+                ball.y = max(-PITCH_WIDTH/2 + 3, min(PITCH_WIDTH/2 - 3, ball.y))
+                ball.x = max(-PITCH_LENGTH/2 + 3, min(PITCH_LENGTH/2 - 3, ball.x))
+                candidates = [p for p in engine.players if p.team == opposing_team and p.role != "GK"]
+                if candidates:
+                    nearest = min(candidates, key=lambda p: (p.x - ball.x)**2 + (p.y - ball.y)**2)
+                    ball.carrier_id = nearest.player_id
+                    nearest.has_ball = True
+                    ball.last_touch_team = opposing_team
+            # Reset velocity
+            ball.vx = 0.0
+            ball.vy = 0.0
             events["_oob"] = {"type": oob_type, "success": False, "data": {}}
         else:
             # Ball control contest
@@ -267,11 +298,16 @@ def _resolve_ball_physics(engine, rng, events):
 
 
 def _ball_control_contest(engine, ball_pos, ball_vel, rng):
-    """Find the winner of the ball control contest — nearest player in range."""
+    """Find the winner of the ball control contest — nearest player in range.
+    AgentPitch: cooldown players are excluded (can't win ball back after pass/shoot).
+    Fast shots that are contested but not controlled may be deflected."""
     ball_speed = math.sqrt(ball_vel[0]**2 + ball_vel[1]**2)
     candidates = []
     for p in engine.players:
         if getattr(p, 'sent_off', False):
+            continue
+        # AgentPitch: exclude cooldown players (ADR-0015)
+        if getattr(p, 'is_on_cooldown', False) or getattr(p, 'cooldown_remaining', 0) > 0:
             continue
         dx = p.x - ball_pos[0]
         dy = p.y - ball_pos[1]
@@ -289,6 +325,20 @@ def _ball_control_contest(engine, ball_pos, ball_vel, rng):
     prob = ball_control_prob(skill, dist, ball_speed)
     if rng.random() < prob:
         return player.player_id
+
+    # Fast ball not controlled → may be deflected (AgentPitch-style)
+    if ball_speed >= 2.0:  # min 2 m/s for deflection
+        deflect_prob = (_skill_attr(player, "defending") + _skill_attr(player, "physicality")) / 200.0
+        if rng.random() < deflect_prob:
+            # Deflect: random angle ±60° from incoming direction
+            incoming_angle = math.atan2(ball_vel[1], ball_vel[0])
+            angle_spread = rng.uniform(-math.pi/3, math.pi/3)
+            deflect_angle = incoming_angle + angle_spread
+            new_speed = ball_speed * rng.uniform(0.3, 0.5)
+            engine.ball.vx = math.cos(deflect_angle) * new_speed
+            engine.ball.vy = math.sin(deflect_angle) * new_speed
+            return None
+
     return None
 
 
@@ -451,10 +501,17 @@ def _check_tackle_foul(engine, tackler, target, event_data, events, rng):
 
 
 def _resolve_tackle(engine, tackler, action, events, rng):
-    """Resolve a single tackle action with foul/card checking."""
-    # Find target
-    opponents = [p for p in engine.players if p.team != tackler.team]
-    target = _nearest(tackler, opponents)
+    """Resolve tackle — use action's specific target (AgentPitch), else nearest opponent."""
+    # Check for string target (AgentPitch baseline passes "home_9" etc.)
+    target_str = getattr(action, '_target_str', None)
+    if target_str:
+        target = engine._find_player(target_str)
+    else:
+        target = None
+    # Fallback: nearest opponent
+    if target is None:
+        opponents = [p for p in engine.players if p.team != tackler.team]
+        target = _nearest(tackler, opponents)
     if not target:
         return
     action.target_player_id = target.player_id
@@ -472,3 +529,32 @@ def _resolve_tackle(engine, tackler, action, events, rng):
                 "data": event_data,
             }
         tackler.trigger_cooldown(COOLDOWN_DURATION_TICKS)
+
+
+# ═══════════════════════════════════════════════
+# Phase 7: Phase transitions (AgentPitch)
+# ═══════════════════════════════════════════════
+
+def _phase_transitions(engine, events):
+    """AgentPitch Phase 7: determine play_phase from ball possession context."""
+    from try1000_engine.match.match_engine import MatchPhase, PlayPhase
+
+    # Match phase already handled by engine's _tick()
+    engine_phase = getattr(engine, 'phase', None)
+    if engine_phase is not None and engine_phase not in (MatchPhase.KICK_OFF, MatchPhase.IN_PLAY):
+        return  # pause tick — no phase transition
+
+    carrier = engine._find_ball_carrier()
+    if carrier:
+        if carrier.team == "home":
+            if carrier.x > 21.0:  # ~PITCH_LENGTH * 0.2 in meters → opponent half
+                engine.play_phase = PlayPhase.ATTACK
+            else:
+                engine.play_phase = PlayPhase.BUILD_UP
+        else:
+            if carrier.x < -21.0:
+                engine.play_phase = PlayPhase.ATTACK
+            else:
+                engine.play_phase = PlayPhase.BUILD_UP
+    else:
+        engine.play_phase = PlayPhase.TRANSITION

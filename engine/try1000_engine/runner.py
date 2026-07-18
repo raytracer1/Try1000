@@ -289,6 +289,8 @@ class EngineRunner:
                 stamina_val=a.get("stamina", 100), awareness=a.get("awareness", 70),
                 composure=a.get("composure", 70),
             ))
+            # Store original AgentPitch 1-20 attributes if available
+            result[-1].ap = p.get("ap", {})
         return result
 
     def _save_replay(self, job_id: int, match_index: int, ticks: list[dict]) -> str:
@@ -341,7 +343,7 @@ class EngineRunner:
 
     def _copy_player(self, p):
         from try1000_engine.physics.player import Player as EnginePlayer
-        return EnginePlayer(
+        cp = EnginePlayer(
             player_id=p.player_id, team=p.team, role=p.role,
             name=p.name, number=p.number,
             pace=p.pace, shooting=p.shooting, passing=p.passing,
@@ -349,6 +351,8 @@ class EngineRunner:
             physicality=p.physicality, stamina_val=p.stamina,
             awareness=p.awareness, composure=p.composure,
         )
+        cp.ap = getattr(p, 'ap', {})
+        return cp
 
 
 def main():

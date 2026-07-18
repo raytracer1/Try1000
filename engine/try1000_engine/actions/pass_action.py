@@ -1,100 +1,68 @@
-"""Pass action resolution."""
+"""Pass action resolver — AgentPitch formula.
 
-import math
-import random
+Port of AgentPitch's ARE Phase 5 (lines 991-1064).
+Pass speed: power * 0.175 units/tick, skill-based deviation.
+"""
+
+from __future__ import annotations
+import math, random
 from try1000_engine.actions.base import Action, ActionOutput
-from try1000_engine.physics.ball import Ball
-from try1000_engine.physics.player import Player
+from try1000_engine.config import COOLDOWN_DURATION_TICKS, field_to_meters
 
 
 class PassAction(Action):
-    """Resolves a pass: accuracy model, ball launch, interception chance."""
+    BALL_SPEED_PER_POWER = 0.175  # AgentPitch: power=20 → 3.5 units/tick
+    cooldown_ticks = COOLDOWN_DURATION_TICKS
 
-    def resolve(self, actor: Player, ball: Ball, players: list[Player],
-                rng: random.Random, output: ActionOutput) -> dict:
-        power = self._clamp_power(output.power)
+    def _pass_max_deviation(self) -> float:
+        return 8.0  # AgentPitch: pass_max_deviation
+
+    def resolve(self, player, ball, all_players, rng, output):
+        if not player.has_ball:
+            return {"success": False, "reason": "not_carrier"}
+
+        # Convert target from field coords → meters
         target_mx, target_my = self._normalized_to_meters(output.target_x, output.target_y)
-        speed = self._power_to_speed(power)
+        power = max(1.0, min(20.0, output.power))
 
-        # Distance to target
-        dist = math.sqrt((target_mx - ball.x) ** 2 + (target_my - ball.y) ** 2)
+        # AgentPitch: skill-based deviation
+        passer_skill = (player.passing or 70) / 5.0  # → 1-20 scale
+        pass_eff_skill = (2.0 * passer_skill + (player.composure or 70) / 5.0) / 3.0
+        pass_spread = max(0.0, 1.0 - pass_eff_skill / 20.0) ** 0.7
+        deviation_m = pass_spread * self._pass_max_deviation() * rng.random()
+        dev_angle = rng.uniform(0, 2 * math.pi)
+        landing_mx = target_mx + math.cos(dev_angle) * deviation_m
+        landing_my = target_my + math.sin(dev_angle) * deviation_m
 
-        # Success probability
-        success_prob = self._pass_success(actor, dist)
-        is_success = rng.random() < success_prob
+        # Ball velocity
+        px, py = player.x, player.y
+        dx = landing_mx - px
+        dy = landing_my - py
+        dist = math.sqrt(dx*dx + dy*dy)
+        if dist < 1e-6:
+            dx = 50.0 if player.team == "home" else -50.0
+            dy = 0.0
+            dist = abs(dx)
 
-        if is_success:
-            # Ball flies toward target — speed proportional to distance
-            # Ball should reach target in ~2 seconds (accounting for friction)
-            pass_speed = dist / 1.5  # m/s, arrives in ~1.5s at target distance
-            pass_speed = max(5.0, min(25.0, pass_speed))  # clamp
-            dx = target_mx - ball.x
-            dy = target_my - ball.y
-            if dist > 0.01:
-                ball.apply_kick(
-                    (dx / dist) * pass_speed,
-                    (dy / dist) * pass_speed,
-                    team=actor.team,
-                    player_id=actor.player_id,
-                )
-            else:
-                ball.apply_kick(0.0, 0.0, team=actor.team, player_id=actor.player_id)
+        ball_speed = power * self.BALL_SPEED_PER_POWER  # units/tick
+        unit_x, unit_y = dx/dist, dy/dist
+        ball.vx = unit_x * ball_speed
+        ball.vy = unit_y * ball_speed
 
-            return {
-                "type": "pass",
-                "actor": actor.player_id,
-                "team": actor.team,
-                "target_x": output.target_x,
-                "target_y": output.target_y,
-                "success": True,
-                "power": power,
-                "distance": round(dist, 1),
-            }
-        else:
-            # Failed pass — ball goes somewhat off target (scatter)
-            scatter_angle = rng.uniform(-45, 45)
-            rad = math.atan2(target_my - ball.y, target_mx - ball.x) + math.radians(scatter_angle)
-            reduced_speed = speed * rng.uniform(0.3, 0.7)
-            ball.apply_kick(
-                math.cos(rad) * reduced_speed,
-                math.sin(rad) * reduced_speed,
-                team=actor.team,
-                player_id=actor.player_id,
-            )
+        # Store landing zone for BPS tracking
+        ball._landing_zone = (landing_mx, landing_my)
 
-            return {
-                "type": "pass",
-                "actor": actor.player_id,
-                "team": actor.team,
-                "target_x": output.target_x,
-                "target_y": output.target_y,
-                "success": False,
-                "power": power,
-                "distance": round(dist, 1),
-            }
+        ball.carrier_id = None
+        player.has_ball = False
+        ball.last_touch_team = player.team
+        player.trigger_cooldown(self.cooldown_ticks)
 
-    def _pass_success(self, actor: Player, distance: float) -> float:
-        """Calculate pass success probability.
+        return {
+            "success": True,
+            "target_x": output.target_x, "target_y": output.target_y,
+            "power": power,
+            "landing_mx": landing_mx, "landing_my": landing_my,
+        }
 
-        Factors:
-        - Passer's passing attribute (weight 40%)
-        - Distance (weight 25%, inverted)
-        - Composure under pressure (weight 20%)
-        - Target direction precision (weight 15%)
-        """
-        # Passing skill: 50 → 0.70, 90 → 0.90
-        skill_factor = 0.50 + (actor.passing / 100.0) * 0.50
-
-        # Distance: 5m → 0.95, 30m → 0.65, 50m → 0.40
-        dist_factor = max(0.3, 1.0 - (distance / 60.0))
-
-        # Composure: 50 → 0.70, 90 → 0.95
-        composure_factor = 0.50 + (actor.composure / 100.0) * 0.50
-
-        # Weighted sum
-        prob = (skill_factor * 0.40
-                + dist_factor * 0.25
-                + composure_factor * 0.20
-                + 0.85 * 0.15)  # base precision
-
-        return min(0.98, max(0.10, prob))
+    def _clamp_power(self, power: float) -> float:
+        return max(1.0, min(20.0, power))

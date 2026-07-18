@@ -15,6 +15,7 @@ import logging
 
 from try1000_engine.ai.policy import Policy
 from try1000_engine.ai.rule_based import RuleBasedPolicy
+from try1000_engine.ai.baseline_agentpitch import AgentPitchBaselinePolicy
 from try1000_engine.ai.generated_policy import GeneratedPolicy
 from try1000_engine.ai.llm_generator import CodeGenerator, LLMClient
 
@@ -74,7 +75,7 @@ class PolicyFactory:
         team_name = team_name or "Team"
 
         if self.llm_client is None:
-            logger.info("No LLM client configured — using RuleBasedPolicy (Level 1)")
+            logger.info("No LLM client configured — using AgentPitch baseline")
             return self._rule_based_team(tactic)
 
         try:
@@ -83,7 +84,7 @@ class PolicyFactory:
         except Exception as e:
             logger.warning(
                 f"LLM code generation failed ({e}). "
-                "Falling back to RuleBasedPolicy (Level 1)."
+                "Falling back to AgentPitch baseline."
             )
             return self._rule_based_team(tactic)
 
@@ -141,8 +142,8 @@ class PolicyFactory:
         return policies
 
     def _rule_based_team(self, tactic: dict) -> dict[str, Policy]:
-        """Create RuleBasedPolicy for all 11 positions."""
-        return {role: RuleBasedPolicy(tactic) for role in self.ROLE_MAP}
+        """Create AgentPitchBaselinePolicy for all 11 positions."""
+        return {role: AgentPitchBaselinePolicy(tactic) for role in self.ROLE_MAP}
 
     def _cache_key(self, role: str, tactic: dict) -> str:
         """Stable cache key for a role+tactic combination."""

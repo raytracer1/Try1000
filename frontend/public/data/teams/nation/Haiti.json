@@ -19,6 +19,19 @@
         "awareness": 62,
         "composure": 60
       },
+      "ap": {
+        "speed": 10,
+        "skill": 12,
+        "strength": 13,
+        "save": 13,
+        "discipline": 13,
+        "dribbling": 5,
+        "passing": 11,
+        "shooting": 3,
+        "stamina": 12,
+        "offensive": 5,
+        "penalty": 6
+      },
       "image": ""
     },
     {
@@ -36,6 +49,19 @@
         "stamina": 70,
         "awareness": 57,
         "composure": 55
+      },
+      "ap": {
+        "speed": 13,
+        "skill": 11,
+        "strength": 12,
+        "save": 0,
+        "discipline": 12,
+        "dribbling": 11,
+        "passing": 11,
+        "shooting": 6,
+        "stamina": 14,
+        "offensive": 11,
+        "penalty": 7
       },
       "image": ""
     },
@@ -55,6 +81,19 @@
         "awareness": 65,
         "composure": 65
       },
+      "ap": {
+        "speed": 12,
+        "skill": 13,
+        "strength": 13,
+        "save": 0,
+        "discipline": 13,
+        "dribbling": 11,
+        "passing": 12,
+        "shooting": 7,
+        "stamina": 13,
+        "offensive": 12,
+        "penalty": 9
+      },
       "image": ""
     },
     {
@@ -72,6 +111,19 @@
         "stamina": 70,
         "awareness": 62,
         "composure": 60
+      },
+      "ap": {
+        "speed": 13,
+        "skill": 12,
+        "strength": 14,
+        "save": 0,
+        "discipline": 13,
+        "dribbling": 10,
+        "passing": 11,
+        "shooting": 7,
+        "stamina": 14,
+        "offensive": 13,
+        "penalty": 9
       },
       "image": ""
     },
@@ -91,6 +143,19 @@
         "awareness": 62,
         "composure": 60
       },
+      "ap": {
+        "speed": 12,
+        "skill": 12,
+        "strength": 13,
+        "save": 0,
+        "discipline": 13,
+        "dribbling": 11,
+        "passing": 11,
+        "shooting": 7,
+        "stamina": 13,
+        "offensive": 12,
+        "penalty": 9
+      },
       "image": ""
     },
     {
@@ -108,6 +173,19 @@
         "stamina": 70,
         "awareness": 63,
         "composure": 65
+      },
+      "ap": {
+        "speed": 14,
+        "skill": 13,
+        "strength": 12,
+        "save": 0,
+        "discipline": 12,
+        "dribbling": 14,
+        "passing": 12,
+        "shooting": 13,
+        "stamina": 14,
+        "offensive": 11,
+        "penalty": 13
       },
       "image": ""
     },
@@ -127,6 +205,19 @@
         "awareness": 71,
         "composure": 75
       },
+      "ap": {
+        "speed": 14,
+        "skill": 15,
+        "strength": 13,
+        "save": 0,
+        "discipline": 13,
+        "dribbling": 14,
+        "passing": 14,
+        "shooting": 12,
+        "stamina": 15,
+        "offensive": 11,
+        "penalty": 13
+      },
       "image": ""
     },
     {
@@ -144,6 +235,19 @@
         "stamina": 70,
         "awareness": 65,
         "composure": 65
+      },
+      "ap": {
+        "speed": 12,
+        "skill": 13,
+        "strength": 13,
+        "save": 0,
+        "discipline": 13,
+        "dribbling": 12,
+        "passing": 12,
+        "shooting": 10,
+        "stamina": 14,
+        "offensive": 11,
+        "penalty": 11
       },
       "image": ""
     },
@@ -163,6 +267,19 @@
         "awareness": 63,
         "composure": 65
       },
+      "ap": {
+        "speed": 15,
+        "skill": 13,
+        "strength": 12,
+        "save": 0,
+        "discipline": 12,
+        "dribbling": 14,
+        "passing": 12,
+        "shooting": 12,
+        "stamina": 14,
+        "offensive": 11,
+        "penalty": 12
+      },
       "image": ""
     },
     {
@@ -181,6 +298,19 @@
         "awareness": 63,
         "composure": 65
       },
+      "ap": {
+        "speed": 12,
+        "skill": 13,
+        "strength": 15,
+        "save": 0,
+        "discipline": 12,
+        "dribbling": 12,
+        "passing": 11,
+        "shooting": 14,
+        "stamina": 14,
+        "offensive": 9,
+        "penalty": 13
+      },
       "image": ""
     },
     {
@@ -198,6 +328,19 @@
         "stamina": 70,
         "awareness": 68,
         "composure": 70
+      },
+      "ap": {
+        "speed": 15,
+        "skill": 14,
+        "strength": 14,
+        "save": 0,
+        "discipline": 13,
+        "dribbling": 13,
+        "passing": 12,
+        "shooting": 15,
+        "stamina": 14,
+        "offensive": 9,
+        "penalty": 15
       },
       "image": ""
     }

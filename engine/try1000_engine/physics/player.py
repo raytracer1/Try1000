@@ -84,6 +84,7 @@ class Player:
         self.has_ball = False
         self.cooldown_remaining = 0
         self.sent_off = False  # red card → excluded from play
+        self.ap = {}            # AgentPitch 1-20 attributes (populated from JSON 'ap' field)
 
         # Movement state
         self._target_x: float | None = None

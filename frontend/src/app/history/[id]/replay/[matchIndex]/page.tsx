@@ -154,31 +154,30 @@ export default function ReplayPage() {
 
       {/* Pitch */}
       <div className="relative w-full bg-stone-100 rounded-lg overflow-hidden mb-4" style={{ paddingBottom: "62%" }}>
-        <svg viewBox="0 0 100 65" className="absolute inset-0 w-full h-full" style={{ background: "#2d8a3e" }}>
+        <svg viewBox="0 0 100 60" className="absolute inset-0 w-full h-full" style={{ background: "#1f3a2a" }}>
           {/* Pitch stripes — 16 equal alternating light/dark columns */}
           {Array.from({ length: 10 }, (_, i) => (
-            <rect key={i} x={i * 10} y={0} width={10} height={65} fill={i % 2 === 0 ? "#2e9641" : "#2a8639"} opacity="0.6" />
+            <rect key={i} x={i * 10} y={0} width={10} height={60} fill={i % 2 === 0 ? "#2e9641" : "#2a8639"} opacity="0.6" />
           ))}
           {/* Field markings */}
-          <rect x="1" y="1" width="98" height="63" fill="none" stroke="white" strokeWidth="0.25" opacity="0.7" />
-          <line x1="50" y1="1" x2="50" y2="64" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <circle cx="50" cy="32" r="6" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <rect x="1" y="17" width="16" height="31" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
-          <rect x="83" y="17" width="16" height="31" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
-          <rect x="1" y="25" width="6" height="15" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <rect x="93" y="25" width="6" height="15" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
-          <rect x="-1" y="28" width="2" height="9" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
-          <rect x="99" y="28" width="2" height="9" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
-          <circle cx="12" cy="32" r="0.3" fill="white" opacity="0.4" />
-          <circle cx="88" cy="32" r="0.3" fill="white" opacity="0.4" />
+          <rect x="1" y="1" width="98" height="58" fill="none" stroke="white" strokeWidth="0.25" opacity="0.7" />
+          <line x1="50" y1="1" x2="50" y2="59" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <circle cx="50" cy="30" r="6" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <rect x="1" y="16" width="16" height="28" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
+          <rect x="83" y="16" width="16" height="28" fill="none" stroke="white" strokeWidth="0.25" opacity="0.5" />
+          <rect x="1" y="23" width="6" height="14" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <rect x="93" y="23" width="6" height="14" fill="none" stroke="white" strokeWidth="0.25" opacity="0.4" />
+          <rect x="-1" y="26" width="2" height="8" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
+          <rect x="99" y="26" width="2" height="8" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
+          <circle cx="12" cy="30" r="0.3" fill="white" opacity="0.4" />
+          <circle cx="88" cy="30" r="0.3" fill="white" opacity="0.4" />
 
-          {/* Players and ball — replay uses 0-1 coords, SVG uses 0-100 x 0-65 */}
-          <g transform="matrix(100, 0, 0, 65, 0, 0)">
+          {/* Players and ball — data already in 0-100 x 0-60 field coords */}
             {/* Home players */}
             {homePlayers.map((p) => (
               <g key={p.id}>
-                <circle cx={p.pos[0]} cy={p.pos[1]} r={0.025} fill="#1a73e8" stroke="white" strokeWidth="0.003" />
-                <text x={p.pos[0]} y={p.pos[1] + 0.008} textAnchor="middle" fill="white" fontSize="0.018" fontWeight="bold" fontFamily="sans-serif">
+                <circle cx={p.pos[0]} cy={p.pos[1]} r={1.8} fill="#f2a44b" stroke="white" strokeWidth="0.3" />
+                <text x={p.pos[0]} y={p.pos[1] + 0.8} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">
                   {p.id.replace("home_", "")}
                 </text>
               </g>
@@ -187,16 +186,15 @@ export default function ReplayPage() {
             {/* Away players */}
             {awayPlayers.map((p) => (
               <g key={p.id}>
-                <circle cx={p.pos[0]} cy={p.pos[1]} r={0.025} fill="#dc3545" stroke="white" strokeWidth="0.003" />
-                <text x={p.pos[0]} y={p.pos[1] + 0.008} textAnchor="middle" fill="white" fontSize="0.018" fontWeight="bold" fontFamily="sans-serif">
+                <circle cx={p.pos[0]} cy={p.pos[1]} r={1.8} fill="#b08cff" stroke="white" strokeWidth="0.3" />
+                <text x={p.pos[0]} y={p.pos[1] + 0.8} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">
                   {p.id.replace("away_", "")}
                 </text>
               </g>
             ))}
 
             {/* Ball */}
-            <circle cx={tick.ball[0]} cy={tick.ball[1]} r={0.012} fill="white" stroke="#333" strokeWidth="0.003" />
-          </g>
+            <circle cx={tick.ball[0]} cy={tick.ball[1]} r={0.8} fill="white" stroke="#333" strokeWidth="0.3" />
         </svg>
 
         {/* Pitch legend */}
