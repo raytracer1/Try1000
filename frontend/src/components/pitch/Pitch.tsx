@@ -137,7 +137,7 @@ export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, 
       <g key={i} cursor="pointer" onMouseDown={onDown(t, i)} onDoubleClick={onDblClick(t, i)}>
         <circle cx={p.px} cy={p.py} r={1.8} fill={color} stroke="white" strokeWidth="0.3" />
         <text x={p.px} y={p.py + 0.7} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">{p.number || i + 1}</text>
-        <text x={p.px} y={p.py + 4.5} textAnchor="middle" fill="white" fontSize="1.6" fontFamily="sans-serif">{p.name.length > 11 ? p.name.slice(0, 10) + "." : p.name}</text>
+        <text x={p.px} y={p.py + 4.5} textAnchor="middle" fill="white" fontSize="1.6" fontFamily="sans-serif">{p.name.split(" ")[0]}</text>
         {sub && sub.t === t && sub.i === i && (
           <circle cx={p.px} cy={p.py} r={3.5} fill="none" stroke="yellow" strokeWidth="0.5" strokeDasharray="2,1" />
         )}
