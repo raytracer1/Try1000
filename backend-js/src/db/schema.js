@@ -22,7 +22,6 @@ const simulationJobs = pgTable("simulation_jobs", {
   matchCount: integer("match_count").notNull().default(10),
   status: varchar("status", { length: 20 }).default("pending"),
   progress: integer("progress").default(0),
-  seedBase: integer("seed_base").default(42),
   engineVersion: varchar("engine_version", { length: 20 }).default("rule-based-v1"),
   createdAt: timestamp("created_at").defaultNow(),
   completedAt: timestamp("completed_at"),

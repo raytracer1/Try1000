@@ -236,7 +236,6 @@ class EngineRunner:
             for idx in range(match_count):
                 engine = MatchEngine(
                     home_policies=home_policies, away_policies=away_policies,
-                    seed=job["seed_base"] + idx,
                     record_replay=True,
                     fast_mode=(match_count > 10),
                     replay_sample_rate=1 if match_count <= 100 else 5,
@@ -277,12 +276,22 @@ class EngineRunner:
 
     def _parse_players(self, players_json: list[dict], team: str) -> list:
         from try1000_engine.physics.player import Player as EnginePlayer
+        from try1000_engine.config import field_to_meters
         result = []
         for i, p in enumerate(players_json):
             a = p.get("attributes", {})
+            # Use custom position from Pitch if provided, otherwise default to (0,0)
+            px = p.get("px")
+            py = p.get("py")
+            if px is not None and py is not None:
+                # Convert field coords (0-100, 0-60) to engine meters
+                x, y = field_to_meters(px, py)
+            else:
+                x, y = 0.0, 0.0
             result.append(EnginePlayer(
                 player_id=f"{team}_{i}", team=team, role=p["position"],
                 name=p.get("name", ""), number=p.get("number", 0),
+                x=x, y=y,
                 pace=a.get("pace", 70), shooting=a.get("shooting", 70),
                 passing=a.get("passing", 70), dribbling=a.get("dribbling", 70),
                 defending=a.get("defending", 70), physicality=a.get("physicality", 70),

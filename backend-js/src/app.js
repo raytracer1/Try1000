@@ -223,7 +223,6 @@ const handlers = {
       home_tactic: j.homeTactic,
       away_tactic: j.awayTactic,
       match_count: j.matchCount,
-      seed_base: j.seedBase,
       status: "running",
     })) });
   },

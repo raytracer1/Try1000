@@ -27,7 +27,6 @@ async function createTables() {
         match_count INTEGER NOT NULL DEFAULT 10,
         status VARCHAR(20) DEFAULT 'pending',
         progress INTEGER DEFAULT 0,
-        seed_base INTEGER DEFAULT 42,
         engine_version VARCHAR(20) DEFAULT 'rule-based-v1',
         created_at TIMESTAMP DEFAULT NOW(),
         completed_at TIMESTAMP

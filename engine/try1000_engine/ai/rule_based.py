@@ -28,7 +28,7 @@ def _shoot(angle: float = 0.0, power: float = 15) -> ActionOutput:
     return ActionOutput.shoot(angle, power)
 
 
-def _tackle(target_id: int = 0) -> ActionOutput:
+def _tackle(target_id: str = "") -> ActionOutput:
     return ActionOutput.tackle(target_id)
 
 
@@ -152,7 +152,7 @@ class RuleBasedPolicy(Policy):
                 if p.player_id == carrier_id:
                     op = meters_to_field(p.x, p.y)
                     if _dist(my_pos_n, op) < 1.9:  # AgentPitch TACKLE_RANGE
-                        return _tackle(int(carrier_id.split("_")[-1])), self.tactic
+                        return _tackle(carrier_id), self.tactic
                     break
 
         # ================================================================

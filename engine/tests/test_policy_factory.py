@@ -25,15 +25,16 @@ def make_team(team_name: str) -> list[Player]:
 
 
 def test_level1_fallback():
-    """Without LLM client → uses RuleBasedPolicy (Level 1)."""
+    """Without LLM client → uses AgentPitchBaselinePolicy (Level 1)."""
+    from try1000_engine.ai.baseline_agentpitch import AgentPitchBaselinePolicy
     factory = PolicyFactory()  # No LLM client
     assert not factory.is_level2
 
     policies = factory.create_team(tactic={"pressing_level": 7})
     assert len(policies) >= 11  # All positions
     for role, policy in policies.items():
-        assert isinstance(policy, RuleBasedPolicy), \
-            f"Expected RuleBasedPolicy for {role}, got {type(policy)}"
+        assert isinstance(policy, AgentPitchBaselinePolicy), \
+            f"Expected AgentPitchBaselinePolicy for {role}, got {type(policy)}"
 
     # Run a match with per-role policies
     home = make_team("home")

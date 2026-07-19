@@ -118,3 +118,135 @@ def compute_anchors(formation: str, players: list) -> dict[str, tuple[float, flo
 def mirror_anchors(anchors: dict[str, tuple[float, float]]) -> dict[str, tuple[float, float]]:
     """Mirror anchors across center (for away team playing left-to-right)."""
     return {pid: (-x, y) for pid, (x, y) in anchors.items()}
+
+
+# ─── AgentPitch FRS: Dynamic Phase-Aware Anchors ───
+
+ROLE_TO_GROUP: dict[str, str] = {
+    "GK": "GK",
+    "CB": "DEF", "LCB": "DEF", "RCB": "DEF", "LB": "DEF", "RB": "DEF",
+    "CDM": "MID", "CM": "MID", "CAM": "MID", "LM": "MID", "RM": "MID",
+    "LW": "FWD", "RW": "FWD", "ST": "FWD", "CF": "FWD",
+}
+
+PHASE_ZONES: dict[str, dict[str, tuple[float, float, float]]] = {
+    "defending": {
+        "GK":  (0.03, 0.10, 0.05),
+        "DEF": (0.05, 0.20, 0.15),
+        "MID": (0.20, 0.40, 0.20),
+        "FWD": (0.35, 0.55, 0.25),
+    },
+    "transitioning": {
+        "GK":  (0.06, 0.12, 0.07),
+        "DEF": (0.28, 0.45, 0.18),
+        "MID": (0.45, 0.62, 0.22),
+        "FWD": (0.65, 0.80, 0.25),
+    },
+    "attacking": {
+        "GK":  (0.08, 0.16, 0.10),
+        "DEF": (0.42, 0.62, 0.20),
+        "MID": (0.58, 0.78, 0.22),
+        "FWD": (0.75, 0.93, 0.20),
+    },
+}
+
+Y_COMPACTION: dict[str, float] = {
+    "defending": 0.55,
+    "transitioning": 0.30,
+    "attacking": 0.10,
+}
+
+
+def classify_team_phase(
+    ball_x_fc: float,
+    defending_goal_x: float,
+    have_ball: bool,
+    ball_possession: str | None = None,
+) -> str:
+    """AgentPitch FRS: classify team phase based on ball position and possession.
+
+    Exactly matches AgentPitch's formation_and_role_system.classify_team_phase.
+    A loose ball (ball_possession is None) is treated like "have ball" for the
+    attacking threshold — the team closer to the opponent's goal pushes forward.
+    """
+    dist = abs(ball_x_fc - defending_goal_x) / 100.0
+    loose = ball_possession is None
+    if dist > 0.66:
+        # Ball in opponent's third
+        return "attacking" if (have_ball or loose) else "transitioning"
+    if dist < 0.34:
+        # Ball in own third
+        return "transitioning" if have_ball else "defending"
+    # Ball in middle third
+    return "transitioning"
+
+
+def compute_dynamic_anchor(
+    player,
+    all_players: list,
+    ball_x_fc: float,
+    ball_y_fc: float,
+    own_goal_x_fc: float,
+    have_ball: bool,
+    ball_possession: str | None = None,
+    field_width: float = 100.0,
+    field_height: float = 60.0,
+) -> tuple[float, float]:
+    """AgentPitch FRS: compute per-tick dynamic phase-aware anchor position.
+
+    Uses PHASE_ZONES table from AgentPitch's formation_and_role_system.py,
+    with ball-side y-compaction and per-role-group lateral distribution.
+
+    All coordinates are in AgentPitch field coords [0,100]×[0,60], matching
+    AgentPitch's compute_zone_for / compute_dynamic_anchor exactly.
+
+    Returns (x, y) in field coords.
+    """
+    role_group = ROLE_TO_GROUP.get(player.role, "MID")
+
+    # Phase classification (matches AgentPitch FRS.classify_team_phase).
+    phase = classify_team_phase(
+        ball_x_fc, own_goal_x_fc, have_ball, ball_possession,
+    )
+
+    # Phase zone lookup
+    x_min_pct, x_max_pct, y_spread_pct = PHASE_ZONES[phase][role_group]
+
+    # Orient x based on defending direction (handles halftime swap).
+    if own_goal_x_fc < field_width / 2.0:
+        # Team defends low-x; attacks toward +x
+        x_min = x_min_pct * field_width
+        x_max = x_max_pct * field_width
+    else:
+        # Team defends high-x; attacks toward -x → mirror across midfield
+        x_min = (1.0 - x_max_pct) * field_width
+        x_max = (1.0 - x_min_pct) * field_width
+
+    # Count players in this role group and find index (for y-distribution).
+    group_players = sorted(
+        [p for p in all_players if p.team == player.team
+         and ROLE_TO_GROUP.get(p.role) == role_group],
+        key=lambda p: p.player_id
+    )
+    try:
+        role_idx = next(i for i, p in enumerate(group_players) if p.player_id == player.player_id)
+    except StopIteration:
+        role_idx = 0
+    role_count = len(group_players)
+    if role_count == 0:
+        role_count = 1
+
+    # Y distribution with ball-side compaction.
+    # Matches AgentPitch FRS: y_base = field_height * (role_idx+1) / (role_count+1)
+    y_base = field_height * (role_idx + 1) / (role_count + 1)
+    ball_offset = (ball_y_fc - field_height / 2.0) * Y_COMPACTION[phase]
+    y_center = max(0.0, min(field_height, y_base + ball_offset))
+
+    # GK: anchor at own goal line + 2u (matches AgentPitch FRS).
+    if role_group == "GK":
+        gx = own_goal_x_fc + (2.0 if own_goal_x_fc < field_width / 2.0 else -2.0)
+        return (gx, y_center)
+
+    # Return zone center in field coords.
+    cx = (x_min + x_max) / 2.0
+    return (cx, y_center)

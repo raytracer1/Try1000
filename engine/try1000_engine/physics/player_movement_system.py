@@ -1,95 +1,237 @@
-"""Player Movement System — exact port of AgentPitch's core/player_movement_system.py.
+"""Player Movement System — exact replica of AgentPitch core/player_movement_system.py.
 
-Operates in AgentPitch field coords (100×60). Conversion from meters
-happens in the engine-facing wrapper.
+All positions are in AgentPitch field coords [0,100]×[0,60]. No engine-meter
+conversion happens here — that's the caller's job at the boundary.
 """
 
 from __future__ import annotations
 import math
 
-# AgentPitch constants (field coords)
+# Field constants (defaults; loaded from config in production).
 FIELD_WIDTH = 100.0
 FIELD_HEIGHT = 60.0
+
+# Numerical safety threshold for near-zero direction vectors (EC-PMS-01).
 _DIRECTION_EPSILON = 1e-6
+
+# Per ADR-0013 amendment (2026-04-22): snap is a passive drift force —
+# applies only when the player is "idle". A Move action with speed_ratio
+# at or above this threshold counts as ACTIVE intent and bypasses snap.
+# Carriers (has_ball=True) always bypass snap regardless of speed.
 ACTIVE_SPEED_THRESHOLD = 0.5
-MOVE_UNIT_PER_TICK = 0.05          # AgentPitch: power=20 → 1.0 units/tick
+
+# Real-world speed calibration (per ADR-0014, 2026-04-22).
+# Field is interpreted as 100m wide. At tick_rate=10/s, max player speed
+# (attribute=20) maps to 10 m/s = 1 unit/tick (Olympic-sprinter range).
+# Formula: move_dist_per_tick = speed_ratio × player_speed × MOVE_UNIT_PER_TICK.
+# Assumes tick_rate=10. If ever made variable, this should become tick_rate-aware.
+MOVE_UNIT_PER_TICK = 0.05
+
+# Dribble contest activation radius.
 DRIBBLE_RANGE = 1.5
-SNAP_MAX_FORCE = 0.20              # at most 20% pull
-
-# Conversion: engine coords (center 0,0, range [-50,50]×[-30,30]) ↔ field (origin 0,0)
-def _m_to_fx(x): return x + 50.0
-def _m_to_fy(y): return y + 30.0
-def _f_to_mx(fx): return fx - 50.0
-def _f_to_my(fy): return fy - 30.0
-
-def _discipline_to_force(discipline_0_100: int) -> float:
-    """Convert our 0-100 discipline to AgentPitch snap force (0-0.20)."""
-    return min(discipline_0_100 / 100.0, SNAP_MAX_FORCE)
 
 
 def compute_move_result(
-    player,          # engine Player
-    dx: float, dy: float, speed_ratio: float,
+    current_pos: tuple[float, float],
+    action: dict,
+    player_speed: int,
+    field_width: float = FIELD_WIDTH,
+    field_height: float = FIELD_HEIGHT,
 ) -> tuple[float, float]:
-    """AgentPitch Formula 1 — compute movement distance in field coords,
-    then convert back to engine meters.
+    """Compute the post-movement position before snap.
 
-    AgentPitch: move_dist = clamped_ratio * player_speed * MOVE_UNIT_PER_TICK
-    player_speed is in AgentPitch 1-20 scale (mapped from pace 0-100).
+    Implements GDD Formula 1: move_dist = clamp(speed_ratio, 0, 1) × player.speed,
+    move_result = current_pos + normalize(dx, dy) × move_dist, clamped to field bounds.
+
+    Args:
+        current_pos: player's current (x, y) position in field coords.
+        action: action dict with at least "type" ("move" or "hold"). For "move",
+                also contains "dx", "dy" (direction vector), "speed" (speed ratio 0-1).
+        player_speed: player's speed attribute (1-20).
+        field_width / field_height: pitch dimensions for boundary clamp.
+
+    Returns:
+        move_result tuple (x, y) — within field bounds.
     """
-    clamped_ratio = max(0.0, min(1.0, speed_ratio))
+    # Hold() pass-through (Rule 5).
+    if action.get("type") != "move":
+        return current_pos
 
-    # Convert pace (0-100) to AgentPitch speed (1-20)
-    agentpitch_speed = max(1, int(getattr(player, 'pace', 70) / 5))
+    dx = action.get("dx", 0.0)
+    dy = action.get("dy", 0.0)
+    speed_ratio = action.get("speed", 0.0)
 
-    # AgentPitch Formula 1 in field coords
-    move_dist = clamped_ratio * agentpitch_speed * MOVE_UNIT_PER_TICK  # field units = engine units
-
+    # EC-PMS-01: near-zero direction vector → no movement.
     magnitude = math.sqrt(dx * dx + dy * dy)
     if magnitude < _DIRECTION_EPSILON:
-        return (player.x, player.y)
+        return current_pos
 
+    # AC-PMS-02: clamp speed_ratio to [0, 1] as internal safety net.
+    clamped_ratio = max(0.0, min(1.0, speed_ratio))
+
+    # Formula 1 (per ADR-0014): move_dist = clamp(speed_ratio, 0, 1) × player_speed × MOVE_UNIT_PER_TICK
+    # MOVE_UNIT_PER_TICK = 0.05 calibrates so that at tick_rate=10, max speed=20
+    # → 1 unit/tick → 10 m/s (real Olympic-sprinter top speed).
+    move_dist = clamped_ratio * player_speed * MOVE_UNIT_PER_TICK
+
+    # Normalize direction.
     nx = dx / magnitude
     ny = dy / magnitude
-    new_x = player.x + nx * move_dist
-    new_y = player.y + ny * move_dist
 
-    # Clamp to pitch (field coords, center 0,0)
-    half_l = 50.0; half_w = 30.0
-    new_x = max(-half_l, min(half_l, new_x))
-    new_y = max(-half_w, min(half_w, new_y))
-    return (new_x, new_y)
+    # Apply movement.
+    new_x = current_pos[0] + nx * move_dist
+    new_y = current_pos[1] + ny * move_dist
 
+    # AC-PMS-03: post-movement boundary clamp (functional).
+    clamped_x = max(0.0, min(field_width, new_x))
+    clamped_y = max(0.0, min(field_height, new_y))
 
-def apply_snap(
-    player,            # engine Player
-    anchor_x_m: float, anchor_y_m: float,
-    force: float = 0.10,
-) -> tuple[float, float]:
-    """AgentPitch Formula 3 — drift toward formation anchor when idle."""
-    force = min(force, SNAP_MAX_FORCE)
-    x = (1.0 - force) * player.x + force * anchor_x_m
-    y = (1.0 - force) * player.y + force * anchor_y_m
-    return (x, y)
+    return (clamped_x, clamped_y)
 
 
 def detect_dribble_target(
-    player,            # engine Player
-    all_players: list,
-    dribble_range_m: float = 1.5 * 1.05,  # field units → meters
+    final_pos: tuple[float, float],
+    player_state: dict,
+    action: dict,
+    game_state_snapshot: dict,
+    dribble_range: float = DRIBBLE_RANGE,
 ) -> str | None:
-    """AgentPitch Formula 4 — find nearest opponent for dribble contest."""
-    range_sq = dribble_range_m * dribble_range_m
-    candidates = []
-    for opp in all_players:
-        if opp.team == player.team:
+    """Detect dribble contest eligibility — return target opponent's player_id or None.
+
+    Implements GDD Formula 4: contest fires iff
+    (action.type == "move") AND (player_state["has_ball"]) AND
+    (at least one opponent within DRIBBLE_RANGE of final_pos).
+
+    Tie-break (EC-PMS-08): ascending lexicographic player_id (ADR-0004).
+    Distance comparison: squared Euclidean — no sqrt.
+
+    Args:
+        final_pos: ball carrier's POST-SNAP position.
+        player_state: includes "has_ball" and "team".
+        action: action dict; only "move" actions can trigger contests.
+        game_state_snapshot: includes "players" dict with all 10 player positions/teams.
+        dribble_range: contest radius (default DRIBBLE_RANGE=1.5).
+
+    Returns:
+        Opponent player_id with minimum squared distance, or None if no contest.
+    """
+    # Condition 1: action was Move (not Hold).
+    if action.get("type") != "move":
+        return None
+
+    # Condition 2: player has the ball.
+    if not player_state.get("has_ball"):
+        return None
+
+    # Condition 3: at least one opponent within DRIBBLE_RANGE.
+    own_team = player_state.get("team")
+    range_sq = dribble_range * dribble_range
+
+    candidates: list[tuple[float, str]] = []  # (squared_distance, opponent_player_id)
+    for opp_pid, opp_state in game_state_snapshot.get("players", {}).items():
+        if opp_state.get("team") == own_team:
+            continue  # skip same-team players
+        opp_pos = opp_state.get("position")
+        if opp_pos is None:
             continue
-        dx = opp.x - player.x
-        dy = opp.y - player.y
+        dx = opp_pos[0] - final_pos[0]
+        dy = opp_pos[1] - final_pos[1]
         dist_sq = dx * dx + dy * dy
         if dist_sq < range_sq:
-            candidates.append((dist_sq, opp.player_id))
+            candidates.append((dist_sq, opp_pid))
+
     if not candidates:
         return None
+
+    # Sort by (squared_distance, player_id) — lexicographic player_id tie-break (EC-PMS-08).
     candidates.sort(key=lambda c: (c[0], c[1]))
     return candidates[0][1]
+
+
+def apply_snap(
+    move_result: tuple[float, float],
+    anchor_pos: tuple[float, float],
+    snap_force: float,
+    field_width: float = FIELD_WIDTH,
+    field_height: float = FIELD_HEIGHT,
+) -> tuple[float, float]:
+    """Formula 3: final_pos = (1 - snap_force) × move_result + snap_force × anchor_pos.
+
+    Post-snap boundary clamp is a safety net (snapping toward an interior anchor
+    from a valid move_result cannot normally produce out-of-bounds final_pos).
+    """
+    final_x = (1.0 - snap_force) * move_result[0] + snap_force * anchor_pos[0]
+    final_y = (1.0 - snap_force) * move_result[1] + snap_force * anchor_pos[1]
+
+    # Safety-net clamp (Rule 6).
+    final_x = max(0.0, min(field_width, final_x))
+    final_y = max(0.0, min(field_height, final_y))
+
+    return (final_x, final_y)
+
+
+def resolve_movement(
+    player_id: str,
+    action: dict,
+    player_state: dict,
+    game_state_snapshot: dict,
+    field_width: float = FIELD_WIDTH,
+    field_height: float = FIELD_HEIGHT,
+    dribble_range: float = DRIBBLE_RANGE,
+    snap_enabled: bool = True,
+) -> tuple[tuple[float, float], str | None]:
+    """Public PMS entry point. Composes movement + snap + dribble detection.
+
+    Per ADR-0009 compute-all-then-commit: this function reads from the snapshot
+    and returns positions; ARE commits via gsm.apply_move() after collecting all
+    10 players' results.
+
+    Args:
+        player_id: the acting player's id.
+        action: the validated action dict.
+        player_state: dict with "position", "formation_position", "speed",
+                      "discipline", "has_ball", "team".
+        game_state_snapshot: dict with "players" subdict (all 10 players' positions/teams).
+        field_width / field_height / dribble_range: tuning knobs (defaults from module).
+
+    Returns:
+        (final_pos, dribble_target).
+    """
+    # Step 1: compute movement (Formula 1).
+    current_pos = player_state["position"]
+    player_speed = player_state["speed"]
+    move_result = compute_move_result(
+        current_pos, action, player_speed, field_width, field_height
+    )
+
+    # Step 2: apply snap (Formulas 2 + 3) — but ONLY when the player is "idle".
+    # Per ADR-0013 amendment (2026-04-22): snap is a passive drift force.
+    # Active intent — a Move at speed_ratio >= ACTIVE_SPEED_THRESHOLD or any
+    # carrier action — bypasses snap. This fixes the "stuck-on-equilibrium"
+    # pathology where intent toward a loose ball was cancelled tick-for-tick
+    # by anchor pull on the opposite side.
+    #
+    # ADR-0022 amendment d (2026-04-25): snap_enabled=False short-circuits
+    # this entire step — the strategy fully owns positioning when off.
+    is_carrier = bool(player_state.get("has_ball", False))
+    is_active_move = (
+        action.get("type") == "move"
+        and max(0.0, min(1.0, action.get("speed", 0.0))) >= ACTIVE_SPEED_THRESHOLD
+    )
+    if (not snap_enabled) or is_carrier or is_active_move:
+        # Snap disabled, OR active intent: intent fully honored.
+        final_pos = move_result
+    else:
+        # Idle / passive: drift toward formation anchor per the soft-preference
+        # cap (max 0.20 per ADR-0013).
+        anchor_pos = player_state["formation_position"]
+        discipline = player_state.get("discipline", 10)
+        snap_force = min(discipline / 100.0, 0.20)  # AgentPitch SNAP_MAX_FORCE = 0.20
+        final_pos = apply_snap(move_result, anchor_pos, snap_force, field_width, field_height)
+
+    # Step 3: detect dribble target (Formula 4) — uses POST-SNAP final_pos (EC-PMS-06).
+    dribble_target = detect_dribble_target(
+        final_pos, player_state, action, game_state_snapshot, dribble_range
+    )
+
+    return (final_pos, dribble_target)

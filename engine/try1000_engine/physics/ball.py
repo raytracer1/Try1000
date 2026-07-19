@@ -47,6 +47,9 @@ class Ball:
         self.in_air = False
         self.last_touch_team: str | None = None
         self.last_touch_player: str | None = None
+        # ARE engine attributes (AgentPitch port)
+        self.carrier_id: str | None = None
+        self._landing_zone: tuple[float, float] | None = None
 
     def snapshot(self) -> BallState:
         return BallState(

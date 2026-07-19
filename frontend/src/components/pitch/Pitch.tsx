@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 
 /* ── Formations ── */
 // All positions in left half (0-50). flip=true mirrors to right half.
@@ -49,10 +49,11 @@ function assign(players: any[], form: string, flip: boolean) {
 }
 
 /* ── Component ── */
-export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, onHomeFormationChange, onAwayFormationChange }: {
+export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, onHomeFormationChange, onAwayFormationChange, onPositionChange }: {
   homePlayers: any[]; awayPlayers: any[];
   homeFormation?: string; awayFormation?: string;
   onHomeFormationChange?: (f: string) => void; onAwayFormationChange?: (f: string) => void;
+  onPositionChange?: (home: any[], away: any[]) => void;
 }) {
   const [homeForm, setHomeForm] = useState(homeFormation || "4-3-3");
   const [awayForm, setAwayForm] = useState(awayFormation || "4-3-3");
@@ -63,6 +64,9 @@ export function Pitch({ homePlayers, awayPlayers, homeFormation, awayFormation, 
   const [homeB, setHomeB] = useState(hi.bench);
   const [awayL, setAwayL] = useState(ai.lineup);
   const [awayB, setAwayB] = useState(ai.bench);
+
+  // Notify parent of position changes
+  useEffect(() => { onPositionChange?.(homeL, awayL); }, [homeL, awayL]);
 
   // Drag state
   const [drag, setDrag] = useState<{ t: "h" | "a"; i: number } | null>(null);

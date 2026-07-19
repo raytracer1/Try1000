@@ -1,18 +1,11 @@
-"""AgentPitch baseline strategy — exact copy, adapted for Try1000 engine."""
+"""AgentPitch baseline strategy — exact copy, adapted for Try1000 engine.
 
-# AgentPitch action classes (normally in src/foundation/action.py)
-class Move:
-    def __init__(self, dx, dy, speed=1.0): self.dx=dx; self.dy=dy; self.speed=speed
-class Pass:
-    def __init__(self, target_pos, power=12): self.target_pos=target_pos; self.power=power
-class Shoot:
-    def __init__(self, angle=0.0, power=15): self.angle=angle; self.power=power
-class Tackle:
-    def __init__(self, target_player_id): self.target_player_id=target_player_id
-class Dribble:
-    def __init__(self, dx, dy, speed=0.7): self.dx=dx; self.dy=dy; self.speed=speed
-class Hold:
-    pass
+Uses the same Action classes as the ARE (try1000_engine.match.action),
+matching AgentPitch's structure where strategy code and engine share
+src/foundation/action.py.
+"""
+
+from try1000_engine.match.action import Move, Pass, Shoot, Tackle, Hold
 
 # Baseline test strategy — hand-written, deterministic, used by both teams to
 # validate the simulation framework before bringing LLMs back in.
@@ -500,15 +493,28 @@ class AgentPitchBaselinePolicy(Policy):
             "carrier_id": getattr(ball, 'carrier_id', None),
         }
 
-        # Field
+        # Field — goal positions swap at halftime (AgentPitch GSM swap_attack_direction)
+        a_goal_x = 100.0 if half == 2 else 0.0
+        b_goal_x = 0.0 if half == 2 else 100.0
         field_dict = {
             "width": 100.0,
             "height": 60.0,
-            "team_a_goal_x": 0.0,
-            "team_b_goal_x": 100.0,
+            "team_a_goal_x": a_goal_x,
+            "team_b_goal_x": b_goal_x,
             "goal_top": 33.66,
             "goal_bottom": 26.34,
         }
+
+        # Determine team phases from ball position (AgentPitch classify_team_phase)
+        bx_fc = ball_dict["position"][0]
+        a_dist = bx_fc / 100.0       # team_a's distance from own goal (defends x=0)
+        b_dist = 1.0 - a_dist        # team_b's distance from own goal (defends x=100)
+        def _team_phase(dist, has_ball):
+            if dist > 0.66: return "attacking" if has_ball else "transitioning"
+            if dist < 0.34: return "transitioning" if has_ball else "defending"
+            return "transitioning"
+        a_have = ball_dict.get("possession") == "team_a"
+        b_have = ball_dict.get("possession") == "team_b"
 
         # AgentPitch game_state
         gs = {
@@ -516,7 +522,10 @@ class AgentPitchBaselinePolicy(Policy):
             "match_phase": "in_play",
             "half": half,
             "score": {"team_a": home_score, "team_b": away_score},
-            "team_phase": {"team_a": "attacking", "team_b": "defending"},
+            "team_phase": {
+                "team_a": _team_phase(a_dist, a_have),
+                "team_b": _team_phase(b_dist, b_have),
+            },
             "ball": ball_dict,
             "players": players,
             "field": field_dict,
@@ -537,7 +546,7 @@ class AgentPitchBaselinePolicy(Policy):
             "has_ball": pinfo["has_ball"],
             "formation_position": pinfo["formation_position"],
             "formation_zone": {"x": (0.0, 100.0), "y": (0.0, 60.0)},
-            "formation_zone_phase": "defending" if ball_dict["possession"] is not None and ball_dict["possession"] != my_team else "attacking",
+            "formation_zone_phase": _team_phase(a_dist if my_team == "team_a" else b_dist, ball_dict.get("possession") == my_team),
             "speed": pinfo["speed"],
             "skill": pinfo["skill"],
             "strength": pinfo["strength"],
@@ -557,7 +566,8 @@ class AgentPitchBaselinePolicy(Policy):
         # Call AgentPitch's decide()
         action = decide(gs, ps, history_actions or [])
 
-        # Convert AgentPitch action → ActionOutput
+        # Convert AgentPitch action → ActionOutput.
+        # Uses the same match.action types as the ARE.
         action_name = type(action).__name__
         if action_name == "Hold":
             return ActionOutput.hold(), self.tactic
@@ -569,12 +579,9 @@ class AgentPitchBaselinePolicy(Policy):
         elif action_name == "Shoot":
             return ActionOutput.shoot(action.angle, action.power), self.tactic
         elif action_name == "Tackle":
-            # AgentPitch uses player IDs like "team_a_9" → map to our "home_9" or "away_9"
+            # AgentPitch uses player IDs like "team_a_9" → map to "home_9" or "away_9"
             tid = action.target_player_id
-            # Map team_a → home, team_b → away
             tid = tid.replace("team_a_", "home_").replace("team_b_", "away_")
-            return ActionOutput.tackle_str(tid), self.tactic
-        elif action_name == "Dribble":
-            return ActionOutput.dribble(action.dx, action.dy, action.speed), self.tactic
+            return ActionOutput.tackle(tid), self.tactic
         else:
             return ActionOutput.hold(), self.tactic

@@ -21,6 +21,8 @@ export default function SimulationPage() {
   const [awayFormation, setAwayFormation] = useState("4-3-3");
   const [homeTacticalDoc, setHomeTacticalDoc] = useState("");
   const [awayTacticalDoc, setAwayTacticalDoc] = useState("");
+  const [homePositions, setHomePositions] = useState<any[]>([]);
+  const [awayPositions, setAwayPositions] = useState<any[]>([]);
 
   const TACTIC_PRESETS: { label: string; desc: string }[] = [
     {
@@ -94,14 +96,26 @@ export default function SimulationPage() {
     setError("");
     try {
       // Bundle players, formation, and tactical docs directly into the job
+      // Merge custom positions from Pitch into player data
+      const homePlayers = (home.players || []).map((p: any, i: number) => {
+        const pos = homePositions[i];
+        return {
+          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes, ap: p.ap,
+          px: pos?.px, py: pos?.py,
+        };
+      });
+      const awayPlayers = (away.players || []).map((p: any, i: number) => {
+        const pos = awayPositions[i];
+        return {
+          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes, ap: p.ap,
+          px: pos?.px, py: pos?.py,
+        };
+      });
+
       await startSimulation({
         match_count: matchCount,
-        home_players: (home.players || []).map((p: any) => ({
-          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes, ap: p.ap,
-        })),
-        away_players: (away.players || []).map((p: any) => ({
-          name: p.name, number: p.number || 0, position: p.position, attributes: p.attributes, ap: p.ap,
-        })),
+        home_players: homePlayers,
+        away_players: awayPlayers,
         home_tactic: {
           team_name: home.name,
           formation: homeFormation,
@@ -218,6 +232,7 @@ export default function SimulationPage() {
             homePlayers={home.players || []} awayPlayers={away.players || []}
             homeFormation={homeFormation} awayFormation={awayFormation}
             onHomeFormationChange={setHomeFormation} onAwayFormationChange={setAwayFormation}
+            onPositionChange={(h, a) => { setHomePositions(h); setAwayPositions(a); }}
           />
         </div>
       )}

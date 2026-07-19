@@ -63,7 +63,7 @@ class ActionOutput:
     target_y: float = 0.0    # normalized 0-1, for Pass/Cross
 
     # Tackle
-    target_player_id: int = 0
+    target_player_id: str = ""
 
     @staticmethod
     def hold() -> 'ActionOutput':
@@ -92,15 +92,10 @@ class ActionOutput:
         return ActionOutput(action_type=ActionType.DRIBBLE, dx=dx, dy=dy, speed=speed)
 
     @staticmethod
-    def tackle(target_player_id: int) -> 'ActionOutput':
+    def tackle(target_player_id: str) -> 'ActionOutput':
+        """Create a Tackle action targeting a specific player by string ID."""
         return ActionOutput(action_type=ActionType.TACKLE,
                             target_player_id=target_player_id)
-
-    @staticmethod
-    def tackle_str(target_id: str) -> 'ActionOutput':
-        a = ActionOutput(action_type=ActionType.TACKLE)
-        a._target_str = target_id
-        return a
 
 
 class Action(ABC):
