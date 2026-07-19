@@ -17,7 +17,7 @@ import random
 from typing import Any
 
 from try1000_engine.config import (
-    PITCH_LENGTH, PITCH_WIDTH, GOAL_WIDTH,
+    PITCH_LENGTH, PITCH_WIDTH, GOAL_WIDTH, GOAL_AREA_LENGTH,
     BALL_CONTROL_RADIUS, CENTER_CIRCLE_RADIUS,
     COOLDOWN_DURATION_TICKS, GOAL_RESET_TICKS,
 )
@@ -234,9 +234,10 @@ def _resolve_ball_physics(engine, rng, events):
                         nearest.has_ball = True
                         ball.last_touch_team = attacking_team
                 else:
-                    # Goal kick: give to defending GK
+                    # Goal kick: give to defending GK, place near their own goal area
                     oob_type = "goal_kick"
-                    ball.x = PITCH_LENGTH * 0.45 if defending_team == "home" else -PITCH_LENGTH * 0.45
+                    gk_dist = PITCH_LENGTH / 2 - GOAL_AREA_LENGTH  # edge of 6-yard box
+                    ball.x = -gk_dist if defending_team == "home" else gk_dist
                     ball.y = 0.0
                     for p in engine.players:
                         if p.team == defending_team and p.role == "GK":

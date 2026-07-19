@@ -898,18 +898,20 @@ class MatchEngine:
         # AgentPitch formation zones per role (field coords):
         #   defending:   DEF~12, MID~30, FWD~45
         #   attacking:   DEF~52, MID~68, FWD~84
-        # Role-based shift from static anchors (DEF~18, MID~35, FWD/ST~48-84)
+        # Static positions (FC):    DEF~25, MID~50, FWD~72
+        # Attacking shifts (FC):    DEF +27, MID +18, FWD +12
+        # Defending shifts (FC):   DEF -13, MID -20, FWD -27
         if phase == "attacking":
             if player.role in ("GK",): shift = 0
-            elif player.role in ("CB","LB","RB","LCB","RCB"): shift = 34  # 18→52
-            elif player.role in ("CDM","CM","CAM","LM","RM"): shift = 33 # 35→68
-            else: shift = 34  # ST/CF/LW/RW: anchored at ~50, push to ~84 (AgentPitch FWD attacking zone)
+            elif player.role in ("CB","LB","RB","LCB","RCB"): shift = 27  # 25→52
+            elif player.role in ("CDM","CM","CAM","LM","RM"): shift = 18  # 50→68
+            else: shift = 12  # ST/CF/LW/RW: 72→84
             shift_x = shift if player.team == "home" else -shift
         elif phase == "defending":
             if player.role in ("GK",): shift = 0
-            elif player.role in ("CB","LB","RB","LCB","RCB"): shift = -6 # 18→12
-            elif player.role in ("CDM","CM","CAM","LM","RM"): shift = -5 # 35→30
-            else: shift = -5  # ST: ~50→45
+            elif player.role in ("CB","LB","RB","LCB","RCB"): shift = -13  # 25→12
+            elif player.role in ("CDM","CM","CAM","LM","RM"): shift = -20  # 50→30
+            else: shift = -27  # ST/CF/LW/RW: 72→45
             shift_x = shift if player.team == "home" else -shift
         else:
             shift_x = 0.0

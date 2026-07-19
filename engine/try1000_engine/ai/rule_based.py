@@ -106,6 +106,19 @@ class RuleBasedPolicy(Policy):
             dx, dy = _normalize(tx - my_pos_n[0], ty - my_pos_n[1])
             return _move(dx, dy, speed)
 
+        def offside_line():
+            """Return the x-coordinate (engine meters) of the second-last defender.
+            Forwards must stay behind this line to remain onside."""
+            if len(opponents) < 2:
+                return None
+            if my_team == "home":
+                # Home attacks right (+x): second-last = 2nd smallest x
+                sorted_opp = sorted(opponents, key=lambda p: p.x)
+            else:
+                # Away attacks left (-x): second-last = 2nd largest x (2nd most negative)
+                sorted_opp = sorted(opponents, key=lambda p: -p.x)
+            return sorted_opp[1].x if len(sorted_opp) > 1 else None
+
         # ================================================================
         # GK
         # ================================================================
@@ -297,6 +310,8 @@ class RuleBasedPolicy(Policy):
             return move_toward_normalized(target[0], target[1], 0.9), self.tactic
 
         if role in ("ST", "CF", "LW", "RW"):
+            # Offside line: stay behind second-last defender when pushing forward
+            os_line = offside_line()
             if we_have_ball:
                 best_id, best_d = closest_opponent_to(my_pos_n)
                 if best_id:
@@ -311,6 +326,13 @@ class RuleBasedPolicy(Policy):
                 else:
                     target = (opp_goal_x, goal_y)
                 target = (max(2.0, min(98.0, target[0])), max(2.0, min(58.0, target[1])))
+                # Stay onside: don't push past the second-last defender
+                if os_line is not None:
+                    os_fc = meters_to_field(os_line, 0)[0]
+                    if my_team == "home":
+                        target = (min(target[0], os_fc - 1.0), target[1])
+                    else:
+                        target = (max(target[0], os_fc + 1.0), target[1])
             elif they_have_ball:
                 forward = -1.0 if my_team == "home" else 1.0
                 target = (anchor[0] + 5.0 * forward, anchor[1])
