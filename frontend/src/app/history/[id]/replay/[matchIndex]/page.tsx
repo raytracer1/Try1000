@@ -158,6 +158,29 @@ export default function ReplayPage() {
   const homePlayers = tick.players.filter((p) => p.team === "home");
   const awayPlayers = tick.players.filter((p) => p.team === "away");
 
+  // Find ball carrier (ball within 0.5 field units of a player)
+  let carrier: (typeof tick.players)[0] | null = null;
+  let ballDirX = 0, ballDirY = 0;
+  for (const p of tick.players) {
+    const dx = tick.ball[0] - p.pos[0];
+    const dy = tick.ball[1] - p.pos[1];
+    if (Math.sqrt(dx*dx + dy*dy) < 0.5) { carrier = p; break; }
+  }
+  if (carrier) {
+    const prevTick = tickIndex > 0 ? ticks[tickIndex - 1] : null;
+    if (prevTick) {
+      const prevP = prevTick.players.find((pp) => pp.id === carrier!.id);
+      if (prevP) { ballDirX = carrier.pos[0] - prevP.pos[0]; ballDirY = carrier.pos[1] - prevP.pos[1]; }
+    }
+    const mag = Math.sqrt(ballDirX*ballDirX + ballDirY*ballDirY);
+    if (mag < 0.01) {
+      ballDirX = carrier.team === "home" ? 1 : -1;
+      ballDirY = 0;
+    } else { ballDirX /= mag; ballDirY /= mag; }
+  }
+
+  const CARRIER_RING_R = 1.8; // ring radius (matches AgentPitch: PLAYER_RADIUS + 4)
+
   return (
     <div className="max-w-5xl mx-auto overflow-hidden" style={{ overflowAnchor: "none" }}>
       {/* Header */}
@@ -223,6 +246,9 @@ export default function ReplayPage() {
             {/* Home players */}
             {homePlayers.map((p) => (
               <g key={p.id}>
+                {carrier?.id === p.id && (
+                  <circle cx={p.pos[0]} cy={p.pos[1]} r={CARRIER_RING_R} fill="none" stroke="rgba(255,255,255,0.85)" strokeWidth={0.3} />
+                )}
                 <circle cx={p.pos[0]} cy={p.pos[1]} r={1.2} fill="#f2a44b" stroke="white" strokeWidth="0.2" />
                 <text x={p.pos[0]} y={p.pos[1] + 0.5} textAnchor="middle" fill="white" fontSize="1.1" fontWeight="bold" fontFamily="sans-serif">
                   {p.number || p.id.replace("home_", "")}
@@ -236,6 +262,9 @@ export default function ReplayPage() {
             {/* Away players */}
             {awayPlayers.map((p) => (
               <g key={p.id}>
+                {carrier?.id === p.id && (
+                  <circle cx={p.pos[0]} cy={p.pos[1]} r={CARRIER_RING_R} fill="none" stroke="rgba(255,255,255,0.85)" strokeWidth={0.3} />
+                )}
                 <circle cx={p.pos[0]} cy={p.pos[1]} r={1.2} fill="#b08cff" stroke="white" strokeWidth="0.2" />
                 <text x={p.pos[0]} y={p.pos[1] + 0.5} textAnchor="middle" fill="white" fontSize="1.1" fontWeight="bold" fontFamily="sans-serif">
                   {p.number || p.id.replace("away_", "")}
@@ -246,8 +275,11 @@ export default function ReplayPage() {
               </g>
             ))}
 
-            {/* Ball */}
-            <text x={tick.ball[0]} y={tick.ball[1]} textAnchor="middle" dominantBaseline="central" fontSize="1.1" fontFamily="sans-serif">⚽</text>
+            {/* Ball — offset to carrier ring when carried */}
+            <text
+              x={carrier ? carrier.pos[0] + ballDirX * CARRIER_RING_R : tick.ball[0]}
+              y={carrier ? carrier.pos[1] + ballDirY * CARRIER_RING_R : tick.ball[1]}
+              textAnchor="middle" dominantBaseline="central" fontSize="1.1" fontFamily="sans-serif">⚽</text>
         </svg>
 
         {/* Pitch legend */}
