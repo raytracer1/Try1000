@@ -253,7 +253,7 @@ export default function ReplayPage() {
                 <text x={p.pos[0]} y={p.pos[1] + 0.5} textAnchor="middle" fill="white" fontSize="1.1" fontWeight="bold" fontFamily="sans-serif">
                   {p.number || p.id.replace("home_", "")}
                 </text>
-                <text x={p.pos[0]} y={p.pos[1] + 3.8} textAnchor="middle" fill="white" fontSize="1.3" fontFamily="sans-serif">
+                <text x={p.pos[0]} y={p.pos[1] + 2.8} textAnchor="middle" fill="white" fontSize="1.3" fontFamily="sans-serif">
                   {p.name ? p.name.split(" ")[0] : ""}
                 </text>
               </g>
@@ -269,7 +269,7 @@ export default function ReplayPage() {
                 <text x={p.pos[0]} y={p.pos[1] + 0.5} textAnchor="middle" fill="white" fontSize="1.1" fontWeight="bold" fontFamily="sans-serif">
                   {p.number || p.id.replace("away_", "")}
                 </text>
-                <text x={p.pos[0]} y={p.pos[1] + 3.8} textAnchor="middle" fill="white" fontSize="1.3" fontFamily="sans-serif">
+                <text x={p.pos[0]} y={p.pos[1] + 2.8} textAnchor="middle" fill="white" fontSize="1.3" fontFamily="sans-serif">
                   {p.name ? p.name.split(" ")[0] : ""}
                 </text>
               </g>
