@@ -7,7 +7,7 @@ import { api } from "../../../../../lib/api";
 interface TickData {
   t: number;
   ball: [number, number];
-  players: { id: string; pos: [number, number]; team: string; stamina: number }[];
+  players: { id: string; name: string; number: number; pos: [number, number]; team: string; stamina: number }[];
   events: any[];
   score: [number, number];
   phase: string;
@@ -178,7 +178,10 @@ export default function ReplayPage() {
               <g key={p.id}>
                 <circle cx={p.pos[0]} cy={p.pos[1]} r={1.8} fill="#f2a44b" stroke="white" strokeWidth="0.3" />
                 <text x={p.pos[0]} y={p.pos[1] + 0.8} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">
-                  {p.id.replace("home_", "")}
+                  {p.number || p.id.replace("home_", "")}
+                </text>
+                <text x={p.pos[0]} y={p.pos[1] + 5} textAnchor="middle" fill="white" fontSize="1.6" fontFamily="sans-serif">
+                  {p.name ? (p.name.length > 11 ? p.name.slice(0, 10) + "." : p.name) : ""}
                 </text>
               </g>
             ))}
@@ -188,7 +191,10 @@ export default function ReplayPage() {
               <g key={p.id}>
                 <circle cx={p.pos[0]} cy={p.pos[1]} r={1.8} fill="#b08cff" stroke="white" strokeWidth="0.3" />
                 <text x={p.pos[0]} y={p.pos[1] + 0.8} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">
-                  {p.id.replace("away_", "")}
+                  {p.number || p.id.replace("away_", "")}
+                </text>
+                <text x={p.pos[0]} y={p.pos[1] + 5} textAnchor="middle" fill="white" fontSize="1.6" fontFamily="sans-serif">
+                  {p.name ? (p.name.length > 11 ? p.name.slice(0, 10) + "." : p.name) : ""}
                 </text>
               </g>
             ))}

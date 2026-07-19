@@ -48,6 +48,8 @@ class ReplayRecorder:
             "players": [
                 {
                     "id": p.player_id,
+                    "name": p.name,
+                    "number": p.number,
                     "pos": list(meters_to_field(p.x, p.y)),
                     "team": p.team,
                     "stamina": round(p.stamina, 1),
