@@ -1,3 +1,4 @@
 @import "tailwindcss";
 
 html, body { height: 100%; background: #f5f2ed; }
+html { scrollbar-gutter: stable; }

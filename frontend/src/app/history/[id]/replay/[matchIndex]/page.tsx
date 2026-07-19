@@ -126,7 +126,7 @@ export default function ReplayPage() {
   const awayPlayers = tick.players.filter((p) => p.team === "away");
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto overflow-hidden" style={{ overflowAnchor: "none" }}>
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <div>
@@ -153,7 +153,7 @@ export default function ReplayPage() {
       </div>
 
       {/* Pitch */}
-      <div className="relative w-full bg-stone-100 rounded-lg overflow-hidden mb-4" style={{ paddingBottom: "62%" }}>
+      <div className="relative w-full bg-stone-100 rounded-lg overflow-hidden mb-4" style={{ paddingBottom: "60%" }}>
         <svg viewBox="0 0 100 60" className="absolute inset-0 w-full h-full" style={{ background: "#1f3a2a" }}>
           {/* Pitch stripes — 16 equal alternating light/dark columns */}
           {Array.from({ length: 10 }, (_, i) => (
@@ -176,11 +176,11 @@ export default function ReplayPage() {
             {/* Home players */}
             {homePlayers.map((p) => (
               <g key={p.id}>
-                <circle cx={p.pos[0]} cy={p.pos[1]} r={1.8} fill="#f2a44b" stroke="white" strokeWidth="0.3" />
-                <text x={p.pos[0]} y={p.pos[1] + 0.8} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">
+                <circle cx={p.pos[0]} cy={p.pos[1]} r={1.2} fill="#f2a44b" stroke="white" strokeWidth="0.2" />
+                <text x={p.pos[0]} y={p.pos[1] + 0.5} textAnchor="middle" fill="white" fontSize="1.1" fontWeight="bold" fontFamily="sans-serif">
                   {p.number || p.id.replace("home_", "")}
                 </text>
-                <text x={p.pos[0]} y={p.pos[1] + 5} textAnchor="middle" fill="white" fontSize="1.6" fontFamily="sans-serif">
+                <text x={p.pos[0]} y={p.pos[1] + 3.8} textAnchor="middle" fill="white" fontSize="1.3" fontFamily="sans-serif">
                   {p.name ? p.name.split(" ")[0] : ""}
                 </text>
               </g>
@@ -189,18 +189,18 @@ export default function ReplayPage() {
             {/* Away players */}
             {awayPlayers.map((p) => (
               <g key={p.id}>
-                <circle cx={p.pos[0]} cy={p.pos[1]} r={1.8} fill="#b08cff" stroke="white" strokeWidth="0.3" />
-                <text x={p.pos[0]} y={p.pos[1] + 0.8} textAnchor="middle" fill="white" fontSize="1.4" fontWeight="bold" fontFamily="sans-serif">
+                <circle cx={p.pos[0]} cy={p.pos[1]} r={1.2} fill="#b08cff" stroke="white" strokeWidth="0.2" />
+                <text x={p.pos[0]} y={p.pos[1] + 0.5} textAnchor="middle" fill="white" fontSize="1.1" fontWeight="bold" fontFamily="sans-serif">
                   {p.number || p.id.replace("away_", "")}
                 </text>
-                <text x={p.pos[0]} y={p.pos[1] + 5} textAnchor="middle" fill="white" fontSize="1.6" fontFamily="sans-serif">
+                <text x={p.pos[0]} y={p.pos[1] + 3.8} textAnchor="middle" fill="white" fontSize="1.3" fontFamily="sans-serif">
                   {p.name ? p.name.split(" ")[0] : ""}
                 </text>
               </g>
             ))}
 
             {/* Ball */}
-            <circle cx={tick.ball[0]} cy={tick.ball[1]} r={0.8} fill="white" stroke="#333" strokeWidth="0.3" />
+            <text x={tick.ball[0]} y={tick.ball[1]} textAnchor="middle" dominantBaseline="central" fontSize="1.1" fontFamily="sans-serif">⚽</text>
         </svg>
 
         {/* Pitch legend */}
