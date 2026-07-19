@@ -125,6 +125,7 @@ export default function SimulationPage() {
             <div className="flex items-center gap-2">
               {p.image ? <img src={p.image} alt="" referrerPolicy="no-referrer" className="w-16 h-16 rounded-full object-cover bg-stone-200" /> : <div className="w-16 h-16 rounded-full bg-stone-200 flex items-center justify-center text-stone-400 font-bold text-base">{p.name.charAt(0)}</div>}
               <span className="text-lg">{p.name}</span>
+              <span className="text-stone-400 text-sm font-mono">#{p.number || "—"}</span>
             </div>
             <span className="text-stone-400 text-base">{p.position} · {p.overall}</span>
           </div>
