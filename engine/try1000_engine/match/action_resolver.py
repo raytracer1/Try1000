@@ -142,6 +142,7 @@ def _resolve_ball_actions(engine, decisions, events, rng):
                 "type": at.name.lower(),
                 "success": event_data.get("success", False),
                 "data": event_data,
+                "player_id": pid,
             }
             # Offside check: flag teammates in offside position at pass moment
             if at == ActionType.PASS:

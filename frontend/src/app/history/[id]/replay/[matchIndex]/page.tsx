@@ -13,6 +13,15 @@ interface TickData {
   phase: string;
 }
 
+interface PassFx {
+  passerX: number; passerY: number;
+  landingX: number; landingY: number;
+  team: string;
+  startTick: number;
+}
+
+const FX_LIFETIME = 10; // ticks
+
 export default function ReplayPage() {
   const { id, matchIndex } = useParams<{ id: string; matchIndex: string }>();
   const router = useRouter();
@@ -24,6 +33,7 @@ export default function ReplayPage() {
   const [tickIndex, setTickIndex] = useState(0);
   const [speed, setSpeed] = useState(1); // 0.5, 1, 2, 4
   const [lastEvents, setLastEvents] = useState<{ tick: number; events: any[] }>({ tick: 0, events: [] });
+  const [passFx, setPassFx] = useState<PassFx[]>([]);
 
   const animRef = useRef<number>(0);
   const lastTimeRef = useRef<number>(0);
@@ -90,12 +100,35 @@ export default function ReplayPage() {
     setTickIndex(v);
   };
 
-  // Remember last non-empty events — must stay before any conditional return
+  // Remember last non-empty events + collect pass Fx — must stay before any conditional return
   useEffect(() => {
     const t = ticks[tickIndex];
-    if (t?.events?.length > 0) {
+    if (!t) return;
+
+    // Events display
+    if (t.events?.length > 0) {
       setLastEvents({ tick: t.t, events: t.events });
     }
+
+    // Scan for pass events — events is an array of {type, success, data, player_id}
+    const eventsArr: any[] = Array.isArray(t.events) ? t.events : Object.values(t.events || {});
+    const newFx: PassFx[] = [];
+    for (const ev of eventsArr) {
+      if (ev?.type === "pass" && ev?.success && ev?.data?.landing_mx != null) {
+        const passer = t.players.find((p) => p.id === ev.player_id);
+        if (passer) {
+          newFx.push({
+            passerX: passer.pos[0],
+            passerY: passer.pos[1],
+            landingX: ev.data.landing_mx + 50,  // engine meters → field coords
+            landingY: ev.data.landing_my + 30,
+            team: passer.team,
+            startTick: t.t,
+          });
+        }
+      }
+    }
+    setPassFx((prev) => [...prev.filter((fx) => t.t - fx.startTick <= FX_LIFETIME), ...newFx]);
   }, [tickIndex, ticks]);
 
   // --- Render ---
@@ -171,6 +204,20 @@ export default function ReplayPage() {
           <rect x="99" y="26" width="2" height="8" fill="none" stroke="white" strokeWidth="0.5" opacity="0.7" />
           <circle cx="12" cy="30" r="0.3" fill="white" opacity="0.4" />
           <circle cx="88" cy="30" r="0.3" fill="white" opacity="0.4" />
+
+          {/* Pass trajectory lines */}
+          {passFx.map((fx, i) => {
+            const age = tick.t - fx.startTick;
+            const alpha = Math.max(0, 1 - age / FX_LIFETIME);
+            const color = fx.team === "home" ? "#f2a44b" : "#b08cff";
+            return (
+              <g key={i} opacity={alpha}>
+                <line x1={fx.passerX} y1={fx.passerY} x2={fx.landingX} y2={fx.landingY}
+                  stroke={color} strokeWidth={0.25} strokeDasharray="0.8 0.8" />
+                <circle cx={fx.landingX} cy={fx.landingY} r={0.4} fill={color} />
+              </g>
+            );
+          })}
 
           {/* Players and ball — data already in 0-100 x 0-60 field coords */}
             {/* Home players */}
