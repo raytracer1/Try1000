@@ -12,6 +12,73 @@ I built Try1000 so this story doesn't keep repeating itself. By simulating footb
 
 The name "Try1000" is both the method and the mission: try 1,000 times in simulation, so you only need to get it right once in real life.
 
+## Architecture
+
+```mermaid
+graph TB
+    subgraph Frontend["🖥️ Frontend (Next.js + React)"]
+        Viewer["Match Viewer<br/>SVG Pitch + Event Stream"]
+        Editor["Strategy Editor<br/>Code + Formation UI"]
+        Dashboard["Match Dashboard<br/>Stats + Replay"]
+    end
+
+    subgraph Backend["⚙️ Backend (Node.js)"]
+        API["REST API"]
+        Queue["Job Queue<br/>PostgreSQL"]
+        Store["Match Storage<br/>events.jsonl + meta.json"]
+    end
+
+    subgraph Engine["🎮 Simulation Engine (Python)"]
+        Runner["Engine Runner<br/>job poll + Ably sub"]
+        MatchEngine["MatchEngine<br/>tick loop + phase transitions"]
+        
+        subgraph ARE["Action Resolution Engine"]
+            P1["Phase 1: Snapshot"]
+            P2["Phase 2: Decide"]
+            P3["Phase 3: Validate"]
+            P4["Phase 4: Move"]
+            P5["Phase 5: Pass / Shoot"]
+            P6["Phase 6: Tackle"]
+            P7["Phase 7: Ball Physics + Goal + OOB"]
+            P1 --> P2 --> P3 --> P4 --> P5 --> P6 --> P7
+        end
+
+        subgraph Physics["Physics Systems"]
+            BPS["Ball Physics<br/>trajectory + control + deflect"]
+            PMS["Player Movement<br/>move + snap + dribble"]
+            FRS["Formation & Role<br/>dynamic anchors"]
+        end
+
+        subgraph AI["AI Strategy Layer"]
+            LLM["LLM Generators<br/>Claude / GPT / Gemini"]
+            Sandbox["Code Sandboxes<br/>Python / JS / WASM"]
+            Evolve["Strategy Evolution<br/>post-match improvement"]
+            Baseline["Baseline Strategy<br/>hand-written deterministic"]
+        end
+
+        MatchEngine --> ARE
+        P7 --> BPS
+        P4 --> PMS
+        P2 --> AI
+        P2 --> MatchEngine
+    end
+
+    Viewer -->|"SSE stream"| API
+    Editor -->|"create / edit"| API
+    Dashboard -->|"results + stats"| API
+    API -->|"poll / assign jobs"| Runner
+    Runner -->|"submit results"| API
+    Queue -->|"job config"| Runner
+    LLM -->|"generate code"| Sandbox
+    Sandbox -->|"decide() callback"| P2
+    Evolve -->|"improved strategy"| Sandbox
+    Baseline -->|"deterministic actions"| P2
+    Physics --> MatchEngine
+    MatchEngine -->|"tick events"| Store
+```
+
+The simulation runs a **7-phase tick loop** at 10 ticks per second. Every tick, each player's strategy generates an action (Move / Pass / Shoot / Tackle / Hold), which flows through validation, physics, and resolution. The engine is fully deterministic — same seed, same result — making it ideal for A/B testing tactics.
+
 ## What it does
 
 Try1000 is a full-stack football simulation platform with three layers:
