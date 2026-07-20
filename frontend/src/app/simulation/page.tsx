@@ -12,7 +12,7 @@ export default function SimulationPage() {
   const [searchA, setSearchA] = useState("");
   const [home, setHome] = useState<any>(null);
   const [away, setAway] = useState<any>(null);
-  const [matchCount, setMatchCount] = useState(10);
+  const [matchCount, setMatchCount] = useState(1);
   const [filterH, setFilterH] = useState<"club" | "nation">("club");
   const [filterA, setFilterA] = useState<"club" | "nation">("club");
   const [importing, setImporting] = useState(false);
